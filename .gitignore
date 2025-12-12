@@ -13,3 +13,9 @@ downloads
 logs
 saves
 servers.dat_old
+kubejs/config
+local
+crash-reports
+.probe
+.vscode
+fc2026.code-workspace
