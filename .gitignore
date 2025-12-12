@@ -1,1 +1,14 @@
 $files/servers
+*.lnk
+command_history.txt
+icon.png
+options.txt
+usercache.json
+usernamecache.json
+config/appleskin-client.toml
+*-client.toml
+config/jade
+config/jei
+downloads
+logs
+saves
