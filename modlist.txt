@@ -14,6 +14,7 @@ cupboard-1.21-2.9.jar
 dynview-1.21-4.0.jar
 embeddium-1.0.15+mc1.21.1.jar
 entityculling-neoforge-1.9.4-mc1.21.1.jar
+fallingtrees-neoforge-mc1.21-0.13.2-SNAPSHOT.jar
 fastasyncworldsave-1.21-2.6.jar
 ferritecore-7.0.2-neoforge.jar
 ftb-library-neoforge-2101.1.29.jar
@@ -31,6 +32,7 @@ limitedchunks-1.21-4.1.jar
 logbegone-neoforge-1.21.1-1.0.3.jar
 modernfix-neoforge-5.25.1+mc1.21.1.jar
 MouseTweaks-neoforge-mc1.21-2.26.1.jar
+pandalib-neoforge-mc1.21-0.5.2-SNAPSHOT.jar
 ProbeJS-7.7.2.jar
 recipeessentials-1.21-4.0.jar
 rhino-2101.2.7-build.81.jar
