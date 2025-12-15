@@ -1,0 +1,23 @@
+[
+  {
+    "mob": ["minecraft:warden"],
+    "result": "allow"
+  }, {
+    "mob": ["minecraft:pillager"],
+    "maxcount": 6,
+    "result": "allow",
+    "random": 0.02
+  }, {
+    "hostile": true,
+    "spawner": false,
+    "difficulty": "easy",
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  }, {
+    "hostile": true,
+    "spawner": false,
+    "difficulty": "normal",
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  }
+]
