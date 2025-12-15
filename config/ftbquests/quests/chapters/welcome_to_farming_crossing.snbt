@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_farming_crossing"
+	group: ""
+	id: "7264A648F9613D3D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "41D355B45109A3E9"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "2133FBF822193AD0"
+			table_id: 8222570253584073542L
+			type: "loot"
+		}]
+		tasks: [
+			{
+				consume_items: true
+				count: 500L
+				id: "5F7551CD64AEA59F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}
+			{
+				consume_items: true
+				count: 500L
+				id: "1A37B1AB15FF2E9E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:stone_crafting_materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}
+			{
+				consume_items: true
+				count: 200L
+				id: "44619806F716D182"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:dirt)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
