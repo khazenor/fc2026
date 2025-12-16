@@ -6,38 +6,68 @@
 	id: "7264A648F9613D3D"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "41D355B45109A3E9"
-		rewards: [{
-			exclude_from_claim_all: true
-			id: "2133FBF822193AD0"
-			table_id: 8222570253584073542L
-			type: "loot"
-		}]
-		tasks: [
-			{
-				consume_items: true
-				count: 500L
-				id: "5F7551CD64AEA59F"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+	quests: [
+		{
+			id: "41D355B45109A3E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2133FBF822193AD0"
+				table_id: 8222570253584073542L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "5F7551CD64AEA59F"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "1A37B1AB15FF2E9E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:stone_crafting_materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 200L
+					id: "44619806F716D182"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:dirt)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5BD4C23644BF2703"
+			rewards: [
+				{
+					id: "6C00A75A45E035D5"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "62FFEE7C5CC942C6"
+					item: {
+						count: 1
+						id: "minecraft:bell"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54954BCFBA4B89EF"
+				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
 				type: "item"
-			}
-			{
-				consume_items: true
-				count: 500L
-				id: "1A37B1AB15FF2E9E"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:stone_crafting_materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}
-			{
-				consume_items: true
-				count: 200L
-				id: "44619806F716D182"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:dirt)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}
-		]
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
 }
