@@ -12,7 +12,6 @@ Clumps-neoforge-1.21.1-19.0.0.1.jar
 collective-1.21.1-8.13.jar
 connectivity-1.21.1-7.2.jar
 Controlling-neoforge-1.21.1-19.0.5.jar
-Corgilib-NeoForge-1.21.1-5.0.0.7.jar
 crafting_on_a_stick-1.21.0.2.jar
 cupboard-1.21-2.9.jar
 curios-neoforge-9.5.1+1.21.1.jar
@@ -27,7 +26,6 @@ ftb-library-neoforge-2101.1.29.jar
 ftb-quests-neoforge-2101.1.20.jar
 ftb-teams-neoforge-2101.1.8.jar
 ftb-xmod-compat-neoforge-21.1.6.jar
-geckolib-neoforge-1.21.1-4.8.2.jar
 getittogetherdrops-neoforge-1.21.5-1.4.jar
 gpumemleakfix-1.21-1.8.jar
 incontrol-1.21-10.2.5.jar
@@ -40,8 +38,6 @@ limitedchunks-1.21-4.1.jar
 logbegone-neoforge-1.21.1-1.0.3.jar
 modernfix-neoforge-5.25.1+mc1.21.1.jar
 MouseTweaks-neoforge-mc1.21-2.26.1.jar
-Oh-The-Biomes-Weve-Gone-NeoForge-2.5.2.jar
-Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar
 pandalib-neoforge-mc1.21-0.5.2-SNAPSHOT.jar
 ProbeJS-7.7.2.jar
 recipeessentials-1.21-4.0.jar
@@ -50,5 +46,5 @@ rhino-2101.2.7-build.81.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
 smoothchunk-1.21-4.1.jar
 structureessentials-1.21.1-4.8.jar
-TerraBlender-neoforge-1.21.1-4.1.0.8.jar
+Terralith_1.21.x_v2.5.8.jar
 tide-neoforge-1.21-1.6.4.jar
