@@ -38,5 +38,4 @@ rhino-2101.2.7-build.81.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
 smoothchunk-1.21-4.1.jar
 structureessentials-1.21.1-4.8.jar
-Terralith_1.21.x_v2.5.8.jar
 tide-neoforge-1.21-1.6.4.jar
