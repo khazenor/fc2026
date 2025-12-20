@@ -6,6 +6,10 @@ ItemEvents.rightClicked(event => {
   global.ItemEventsRightClicked(event)
 })
 
+PlayerEvents.inventoryChanged(event => {
+  global.PlayerEventsInventoryChanged(event)
+})
+
 RecipeViewerEvents.addInformation('item', event => {
   global.RecipeViewerEventsAddInformationItem(event)
 })
@@ -16,6 +20,10 @@ ServerEvents.compostableRecipes(event => {
 
 ServerEvents.generateData('before_mods', (event) => {
   global.compostable.ServerEventsGenerateDataBeforeMods(event)
+})
+
+ServerEvents.loaded(event => {
+  global.ServerEventsLoaded(event)
 })
 
 ServerEvents.tags('item', event => {

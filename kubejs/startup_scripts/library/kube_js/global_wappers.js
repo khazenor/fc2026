@@ -18,6 +18,18 @@ global.ItemEventsRightClicked = (event) => {
   )
 }
 
+global.PlayerEventsInventoryChanged = (event) => {
+  RequestHandler.callbacks.playerEvents.inventoryChangedCache.forEach(
+    eventCallback => { eventCallback(event) }
+  )
+}
+
+global.ServerEventsLoaded = (event) => {
+  RequestHandler.callbacks.serverEvents.loadedCache.forEach(
+    eventCallback => { eventCallback(event) }
+  )
+}
+
 global.ItemEventsModifyTooltips = (event) => {
   RequestHandler.tooltips.addCache.forEach(request => {
     event.add(request[0], request[1])
