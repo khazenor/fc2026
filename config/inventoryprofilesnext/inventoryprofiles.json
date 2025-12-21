@@ -5,7 +5,13 @@
         },
         "first_run": false
     },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false
+    },
     "AutoRefillSettings": {
+        "refill_before_tool_break": {
+            "value": false
+        },
         "auto_refill_enable_indicator_icons": {
             "value": false
         },
