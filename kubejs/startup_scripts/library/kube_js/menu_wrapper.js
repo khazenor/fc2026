@@ -1,3 +1,5 @@
+// Requires:
+// - library/kube_js/default_class
 function MenuWrapper (label, overrideObj) {
   this.menu = new MenuType(label)
   this.colLen = this.override(overrideObj, 'colLen', 9)
