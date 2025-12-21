@@ -2,6 +2,7 @@
 .vscode
 *-client.toml
 *.lnk
+*.pyc
 $files/mod_codebases
 $files/servers
 command_history.txt
