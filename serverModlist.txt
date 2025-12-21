@@ -10,6 +10,7 @@ Clumps-neoforge-1.21.1-19.0.0.1.jar
 collective-1.21.1-8.13.jar
 connectivity-1.21.1-7.2.jar
 Corgilib-NeoForge-1.21.1-5.0.0.7.jar
+cornexpansion-neoforge-1.1.1.jar
 crafting_on_a_stick-1.21.0.2.jar
 cupboard-1.21-2.9.jar
 curios-neoforge-9.5.1+1.21.1.jar
@@ -31,6 +32,15 @@ jei-1.21.1-neoforge-19.25.1.332.jar
 kubejs-neoforge-2101.7.2-build.348.jar
 leaky-1.21-2.1.jar
 letmedespawn-1.21.x-neoforge-1.5.0.jar
+letsdo-bakery-neoforge-2.1.2.jar
+letsdo-beachparty-neoforge-2.1.2.jar
+letsdo-brewery-neoforge-2.1.5.jar
+letsdo-candlelight-neoforge-2.1.5.jar
+letsdo-farm_and_charm-neoforge-1.1.14.jar
+letsdo-furniture-neoforge-1.1.1.jar
+letsdo-herbalbrews-neoforge-1.1.2.jar
+letsdo-meadow-neoforge-1.4.4.jar
+letsdo-vinery-neoforge-1.5.2.jar
 limitedchunks-1.21-4.1.jar
 logbegone-neoforge-1.21.1-1.0.3.jar
 modernfix-neoforge-5.25.1+mc1.21.1.jar
