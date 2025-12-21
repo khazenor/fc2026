@@ -12,6 +12,7 @@ connectivity-1.21.1-7.2.jar
 Corgilib-NeoForge-1.21.1-5.0.0.7.jar
 cornexpansion-neoforge-1.1.1.jar
 crafting_on_a_stick-1.21.0.2.jar
+CraftTweaker-neoforge-1.21.1-21.0.35.jar
 cupboard-1.21-2.9.jar
 curios-neoforge-9.5.1+1.21.1.jar
 dynview-1.21-4.0.jar
