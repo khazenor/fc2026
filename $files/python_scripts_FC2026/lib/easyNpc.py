@@ -8,7 +8,7 @@ playerGiveKey2 = 'playerGiveKey2'
 playerQtyKey2 = 'playerQtyKey2'
 
 def summonNpcCommand(skinUUID, name, offers):
-	with open('input\\villagerTemplate.txt', 'r') as f:
+	with open('generate_npc_commands\\villagerTemplate.txt', 'r') as f:
 		entityData = f.read()
 		entityData = entityData.replace('<<<<customName>>>>', f'"{name}"')
 		entityData = entityData.replace('<<<<offerString>>>>', offerString(offers))
