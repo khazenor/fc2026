@@ -5,8 +5,8 @@
 *.lnk
 *.pyc
 $files/mod_codebases
-$files/servers
 $files/notes
+$files/servers
 command_history.txt
 config/appleskin-client.toml
 config/inventoryprofilesnext/New World/prev-villager-trading-config-v2.json
@@ -15,6 +15,7 @@ config/jade
 config/jei
 crash-reports
 downloads
+easy_npc
 fc2026.code-workspace
 icon.png
 kubejs/config
