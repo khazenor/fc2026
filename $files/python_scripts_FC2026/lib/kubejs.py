@@ -1,5 +1,5 @@
 import os
-from src import const
+import const
 from lib import util
 from lib import fcTrans
 

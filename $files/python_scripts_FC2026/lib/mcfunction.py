@@ -1,6 +1,6 @@
 import os
 import shutil
-from src import const
+import const
 from lib import stringCleaning
 
 def writeFunction(parent, name, content):

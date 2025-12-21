@@ -1,5 +1,5 @@
 from lib import stringCleaning
-from src import const
+import const
 import os
 from lib import util
 

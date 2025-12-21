@@ -1,6 +1,7 @@
 .probe
 .vscode
 *-client.toml
+*.idea*
 *.lnk
 *.pyc
 $files/mod_codebases
