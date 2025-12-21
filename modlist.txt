@@ -18,6 +18,7 @@ crafting_on_a_stick-1.21.0.2.jar
 cupboard-1.21-2.9.jar
 curios-neoforge-9.5.1+1.21.1.jar
 dynview-1.21-4.0.jar
+easy_npc-neoforge-1.21.1-5.9.0.jar
 embeddium-1.0.15+mc1.21.1.jar
 entityculling-neoforge-1.9.4-mc1.21.1.jar
 fallingtrees-neoforge-mc1.21-0.13.2-SNAPSHOT.jar
