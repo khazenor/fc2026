@@ -29,14 +29,24 @@
 			dependencies: ["5BD4C23644BF2703"]
 			hide_until_deps_complete: true
 			id: "1B6B73275C612510"
-			rewards: [{
-				id: "05C725D3C48DBE06"
-				item: {
-					count: 1
-					id: "tide:fishing_journal"
+			rewards: [
+				{
+					id: "05C725D3C48DBE06"
+					item: {
+						count: 1
+						id: "tide:fishing_journal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4DBFD8CD698AF384"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "62C0E8A224275491"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/raw_fishes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
