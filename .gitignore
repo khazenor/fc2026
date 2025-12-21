@@ -6,6 +6,7 @@
 *.pyc
 $files/mod_codebases
 $files/servers
+$files/notes
 command_history.txt
 config/appleskin-client.toml
 config/inventoryprofilesnext/New World/prev-villager-trading-config-v2.json
