@@ -9,14 +9,24 @@
 	quests: [
 		{
 			id: "5BD4C23644BF2703"
-			rewards: [{
-				id: "6C00A75A45E035D5"
-				item: {
-					count: 1
-					id: "minecraft:fishing_rod"
+			rewards: [
+				{
+					id: "6C00A75A45E035D5"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "52036349FBF99E50"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "54954BCFBA4B89EF"
 				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
