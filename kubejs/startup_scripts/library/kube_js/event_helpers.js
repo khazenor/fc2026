@@ -78,7 +78,10 @@ const EventHelpers = {
   add: (event, target, data) => {
     event.add(target, data)
   },
-  targetType: (event) => {
+  targetEntityType: (event) => {
     return StrHelper.cleanStr(event.target.type)
+  },
+  targetEntityName: (event) => {
+    return event.target.name.getString()
   }
 }
