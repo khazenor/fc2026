@@ -1,0 +1,1 @@
+rewardSeedStarter = 'fc2026 dev 1'

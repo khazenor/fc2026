@@ -1,6 +1,6 @@
 import random
 import os
-from src import const
+import const
 from quests import const as qConst
 parentStr = "0123456789ABCDEF"
 stringLength = 15

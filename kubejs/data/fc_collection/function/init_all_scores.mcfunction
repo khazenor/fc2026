@@ -1,0 +1,12 @@
+scoreboard objectives add aquarium dummy {"translate":"questFunctions.aquarium"}
+scoreboard players set @p aquarium 0
+scoreboard objectives add aquarium_vanilla_completion dummy {"translate":"questFunctions.vanillaCompletion0"}
+scoreboard players set @p aquarium_vanilla_completion 0
+scoreboard objectives add aquarium_freshwater_completion dummy {"translate":"questFunctions.freshwaterCompletion0"}
+scoreboard players set @p aquarium_freshwater_completion 0
+scoreboard objectives add aquarium_saltwater_completion dummy {"translate":"questFunctions.saltwaterCompletion0"}
+scoreboard players set @p aquarium_saltwater_completion 0
+scoreboard objectives add aquarium_alternative_locales_completion dummy {"translate":"questFunctions.alternativeLocalesCompletion0"}
+scoreboard players set @p aquarium_alternative_locales_completion 0
+scoreboard objectives add aquarium_special_completion dummy {"translate":"questFunctions.specialCompletion0"}
+scoreboard players set @p aquarium_special_completion 0

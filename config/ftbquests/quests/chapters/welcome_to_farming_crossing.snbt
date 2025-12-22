@@ -26,6 +26,14 @@
 					}
 					type: "item"
 				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:init_all_scores"
+					id: "7322A4C0A56B27B5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "54954BCFBA4B89EF"
@@ -58,8 +66,8 @@
 				}
 			]
 			tasks: [{
-				id: "62C0E8A224275491"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/raw_fishes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "6CF51538BCB2BA35"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:fishes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
