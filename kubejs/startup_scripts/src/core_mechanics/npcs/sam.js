@@ -1,8 +1,14 @@
+const NpcSam = {
+  offerDefs: [
+    {villagerItems: ['minecraft:stick']}
+  ],
+  name: 'Sam'
+}
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   if (
     NpcHelper.isTargetHumanoid(event) &&
-    EventHelpers.targetEntityName(event) === 'Sam'
+    EventHelpers.targetEntityName(event) === NpcSam.name
   ) {
-    EventHelpers.tellPlayer(event, 'Hi I\'m Sam!')
+    NpcHelper.npcTalkToPlayerAndUpdateTrades(event, NpcSam.name, NpcSam.offerDefs)
   }
 }])

@@ -1,5 +1,24 @@
 {
   "ticketBundling.bookletShift": "Sneak-click to unbundle",
   "ticketBundling.bookletWorth": "Each worth 50 Miles Tickets",
-  "ticketBundling.shiftToBundle": "Sneak-click to bundle"
+  "ticketBundling.shiftToBundle": "Sneak-click to bundle",
+  "dialog.bernina1": "<%s> Have you heard of the Elna fashion brand? My sister started that company!",
+  "dialog.bernina2": "<%s> Now you look like a new hat would be just the thing to brighten up your day!",
+  "dialog.bernina3": "<%s> 'Ello there %s",
+  "dialog.bernina4": "<%s> ~~ Lovely hats for sell ~~",
+  "dialog.jessHi1": "<%s> The welcome center is getting more and more cozy everyday!  I love the updates you made to the place!",
+  "dialog.jessHi2Player": "<%s> Hope you are doing well %s",
+  "dialog.jessHi3": "<%s> Isn't the weather amazing today?",
+  "dialog.jessHi4": "<%s> Oh oh! I think I just thought of another angle to advertize the holiday getaway package!",
+  "dialog.pamela1": "<%s> Hello %s have you discovered any interesting dishes recently?",
+  "dialog.pamela2": "<%s> I wonder if my children back home would enjoy pork carrot wontons? Oh hello %s, how have you been?",
+  "dialog.pamela3": "<%s> The place you've build for me is amazing! I love being able to cook while on my holiday!",
+  "dialog.pamela4": "<%s> Do you need any common cooking ingredients?  I have plenty for sale!",
+  "dialog.ren1": "<%s> ... Hello",
+  "dialog.ren2": "<%s> Take good care of your tools",
+  "dialog.ren3": "<%s> ... Hello",
+  "dialog.ren4": "<%s> ... Hello",
+  "dialog.sam1": "<%s> Do you need any fishing equipment?  I've got you covered!",
+  "dialog.sam2": "<%s> I've got to say it's very refreshing to sell sushi in this area",
+  "dialog.sam3": "<%s> Have you caught anything interesting while fishing lately?"
 }

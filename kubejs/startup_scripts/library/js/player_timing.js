@@ -30,7 +30,7 @@ const PlayerTimingJs = {
   },
   _timeSinceLastActivity (playerName, activityId) {
     let curTime = HelperJs.curTimeSecs
-    if (_hasLastActivity(playerName, activityId)) {
+    if (this._hasLastActivity(playerName, activityId)) {
       let lastTime = this._getLastActivityTime(playerName, activityId)
       this._logActivity(playerName, activityId)
       return curTime - lastTime

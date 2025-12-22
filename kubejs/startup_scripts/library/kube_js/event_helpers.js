@@ -33,6 +33,9 @@ const EventHelpers = {
   player: (event) => {
     return event.player
   },
+  playerName: (event) => {
+    return event.player.username
+  },
   isPlayerShifting: (event) => {
     return event.player.shiftKeyDown
   },
