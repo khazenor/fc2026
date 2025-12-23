@@ -93,7 +93,11 @@ const RequestHandler = {
       entityInteracted (callbacks) {
         this.entityInteractedCache = this.entityInteractedCache.concat(callbacks)
       },
-      entityInteractedCache: []
+      entityInteractedCache: [],
+      modifyTooltips (callbacks) {
+        this.modifyTooltipsCache = this.modifyTooltipsCache.concat(callbacks)
+      },
+      modifyTooltipsCache: []
     },
     playerEvents: {
       inventoryChanged (callbacks) {

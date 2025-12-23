@@ -42,5 +42,18 @@ const ArrayJs = {
   },
   getRandomArrayElement (arr) {
     return arr[Math.floor(Math.random()*arr.length)]
+  },
+  reduce(array, base, workingValElementCallback) {
+    let workingVal = base
+    for (let element of array) {
+      workingVal = workingValElementCallback(workingVal, element)
+    }
+    return workingVal
+  },
+  max(array) {
+    return this.reduce(array, array[0], (workingVal, element) => Math.max(workingVal, element))
+  },
+  min(array) {
+    return this.reduce(array, array[0], (workingVal, element) => Math.min(workingVal, element))
   }
 }

@@ -19,5 +19,16 @@ const NpcHelper = {
       }
       event.cancel()
     }
+  },
+  tooltipsForSellingToNpc (npcName, sellDefs) {
+    for (let sellId in sellDefs) {
+      let costId = sellDefs[sellId].id
+      let costCount = sellDefs[sellId].count
+      RequestHandler.tooltips.add([[sellId, Text.translate(
+        "npcs.sellTooltip",
+        npcName,
+        TransHelper.itemNameWithPlural(costId, costCount)
+      )]])
+    }
   }
 }
