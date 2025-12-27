@@ -53,6 +53,6 @@
   "questFunctions.vanillaCompletion": "Vanilla Completion (",
   "questFunctions.vanillaCompletion0": "Vanilla Completion",
   "ticketBundling.bookletShift": "Sneak-click to unbundle",
-  "ticketBundling.bookletWorth": "Each worth 50 Miles Tickets",
+  "ticketBundling.bookletWorth": "Each worth %s Miles Tickets",
   "ticketBundling.shiftToBundle": "Sneak-click to bundle"
 }
