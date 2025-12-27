@@ -15,6 +15,13 @@ const PlayerTimingJs = {
       return false
     }
   },
+  trueIfNotSpam (event) {
+    return this.lastActivityMoreThan(
+      EventHelpers.playerName(event),
+      'anti spam',
+      .1
+    )
+  },
   lastActivityMoreThan (playerName, activityId, time) {
     let timeSince = this._timeSinceLastActivity(playerName, activityId)
     if (timeSince === -1) {

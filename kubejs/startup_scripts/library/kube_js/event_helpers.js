@@ -33,6 +33,9 @@ const EventHelpers = {
   player: (event) => {
     return event.player
   },
+  playerUuid: (event) => {
+    return event.player.uuid.toString()
+  },
   playerName: (event) => {
     return event.player.username
   },
@@ -41,6 +44,18 @@ const EventHelpers = {
   },
   mainHandItem: (event) => {
     return event.player.mainHandItem
+  },
+  mainHandItemId: (event) => {
+    return StrHelper.cleanStr(event.player.mainHandItem.id)
+  },
+  numStacksOfItemInPlayer: (event, itemId) => {
+    let count = 0
+    for (let itemStack of event.player.inventory.allItems) {
+      if (itemStack.id === itemId) {
+        count ++
+      }
+    }
+    return count
   },
   numSlotsLeftOverInPlayer: (event) => {
     let usedSlots = event.player.inventory.allItems.length

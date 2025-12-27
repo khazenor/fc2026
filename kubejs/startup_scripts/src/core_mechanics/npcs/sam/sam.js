@@ -22,17 +22,25 @@ const NpcSam = {
       let sell = Math.floor((weightInverse * ticketOverWeight) + .5) + 1
       fishPrices[fishId] = { id: MilesTickets.ticketId, count: sell }
     }
-    console.log(fishPrices)
     return fishPrices
+  },
+  get sellableFishes () {
+    return Object.keys(this.fishSellDefs)
   }
 }
 
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   if (
     NpcHelper.isTargetHumanoid(event) &&
-    EventHelpers.targetEntityName(event) === NpcSam.name
+    EventHelpers.targetEntityName(event) === NpcSam.name &&
+    PlayerTimingJs.trueIfNotSpam(event)
   ) {
-    NpcHelper.npcTalkToPlayerAndUpdateTrades(event, NpcSam.name, NpcSam.offerDefs)
+    let mainHandItem = EventHelpers.mainHandItem(event).id
+    if (NpcSam.sellableFishes.includes(mainHandItem)) {
+      NpcHelper.handleSellingItemToNpc(event, NpcSam.fishSellDefs[mainHandItem].id, NpcSam.fishSellDefs[mainHandItem].count)
+    } else {
+      NpcHelper.npcTalkToPlayerAndUpdateTrades(event, NpcSam.name, NpcSam.offerDefs)
+    }
   }
 }])
 

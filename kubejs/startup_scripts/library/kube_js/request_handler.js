@@ -101,13 +101,13 @@ const RequestHandler = {
     },
     playerEvents: {
       inventoryChanged (callbacks) {
-        this.inventoryChangedCache.concat(callbacks)
+        this.inventoryChangedCache = this.inventoryChangedCache.concat(callbacks)
       },
       inventoryChangedCache: []
     },
     serverEvents: {
       loaded (callbacks) {
-        this.loadedCache.concat(callbacks)
+        this.loadedCache = this.loadedCache.concat(callbacks)
       },
       loadedCache: []
     }

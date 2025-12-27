@@ -14,7 +14,6 @@ const NpcHelper = {
       player.tell(dialog)
       if (offerDefs) {
         let playerName = EventHelpers.playerName(event)
-        console.log(EasyNpcHelper.updateNpcCommand(playerName, name, offerDefs))
         event.server.runCommandSilent(EasyNpcHelper.updateNpcCommand(playerName, name, offerDefs))
       }
       event.cancel()
@@ -30,5 +29,24 @@ const NpcHelper = {
         TransHelper.itemNameWithPlural(costId, costCount)
       )]])
     }
+  },
+  handleSellingItemToNpc (event, npcGiveId, npcGiveCount) {
+    let player = event.player
+    let target = event.target
+    let handItemId = EventHelpers.mainHandItemId(event)
+    let itemName = TransHelper.itemName(handItemId)
+
+    if (PlayerTimingJs.checkAreYouSureLike(player, 'sellingToNpc', 10)) {
+      player.tell(Text.translatable(
+        'npcs.sellItem.thankYou',
+        target.name.getString(),
+        TransHelper.itemNameWithIsArePlural(npcGiveId, npcGiveCount)
+      ))
+      player.mainHandItem.count --
+      GiveItem.giveItemsSmart(event, npcGiveId, npcGiveCount)
+    } else {
+      player.tell(Text.translatable('npcs.sellItem.areYouSureSell', itemName))
+    }
+    event.cancel()
   }
 }

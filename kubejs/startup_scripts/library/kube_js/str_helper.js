@@ -17,5 +17,10 @@ const StrHelper = {
   },
   cleanStr (str) {
     return this.replaceAll(`${str}`, '"', '')
+  },
+  minecraftObjToNumber (str) {
+    return parseFloat( 
+      this.replaceAll(this.cleanStr(str), 'd', '')
+    )
   }
 }

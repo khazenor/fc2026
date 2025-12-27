@@ -12,6 +12,14 @@ const TransHelper = {
       : itemName
     return Text.translate('translation.spaceBetween', StrHelper.cleanFloor(count), itemNameWithPlural)
   },
+  itemNameWithIsArePlural (itemId, count) {
+    let itemNameWithPlural = this.itemNameWithPlural(itemId, count)
+    if (count > 1) {
+      return Text.translate('translation.are', itemNameWithPlural)
+    } else {
+      return Text.translate('translation.is', itemNameWithPlural)
+    }
+  },
   entityName (entityId) {
     return Text.translate('entity.' + entityId.replace(':', '.'))
   }
