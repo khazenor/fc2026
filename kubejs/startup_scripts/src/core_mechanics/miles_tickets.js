@@ -2,7 +2,7 @@
 const MilesTickets = {
   ticketId: 'kubejs:miles_ticket',
   bookletId: 'kubejs:miles_booklet',
-  bundleCount: 50,
+  bundleCount: 64,
   numStacksToBundle: 1
 }
 
