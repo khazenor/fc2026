@@ -1,0 +1,24 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "vinery:apple_tree_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "vinery:apple_tree_sapling",
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "input": {
+    "item": "vinery:apple_tree_sapling"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:blocks/vineryapple_tree_sapling"
+    }
+  ]
+}

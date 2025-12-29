@@ -1,0 +1,24 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "herbalbrews:coffee_plant"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "herbalbrews:coffee_plant",
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "input": {
+    "item": "herbalbrews:coffee_beans"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:blocks/herbalbrewscoffee_beans"
+    }
+  ]
+}

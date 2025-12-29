@@ -1,0 +1,24 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "vinery:taiga_grape_bush_white"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "vinery:taiga_grape_bush_white",
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "input": {
+    "item": "vinery:taiga_grape_seeds_white"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:blocks/vinerytaiga_grape_seeds_white"
+    }
+  ]
+}

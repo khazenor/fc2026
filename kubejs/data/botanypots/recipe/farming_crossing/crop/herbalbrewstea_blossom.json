@@ -1,0 +1,24 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "herbalbrews:tea_plant"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "herbalbrews:tea_plant",
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "input": {
+    "item": "herbalbrews:tea_blossom"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:blocks/herbalbrewstea_blossom"
+    }
+  ]
+}

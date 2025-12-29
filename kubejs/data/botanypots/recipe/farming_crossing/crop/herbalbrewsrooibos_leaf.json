@@ -1,0 +1,24 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "herbalbrews:rooibos_plant"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "herbalbrews:rooibos_plant",
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "input": {
+    "item": "herbalbrews:rooibos_leaf"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:blocks/herbalbrewsrooibos_leaf"
+    }
+  ]
+}

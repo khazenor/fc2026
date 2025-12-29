@@ -1,0 +1,24 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "farm_and_charm:strawberry_crop"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "farm_and_charm:strawberry_crop",
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "input": {
+    "item": "farm_and_charm:strawberry_seeds"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:blocks/farm_and_charmstrawberry_seeds"
+    }
+  ]
+}

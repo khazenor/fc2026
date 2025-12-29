@@ -1,0 +1,24 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "brewery:corn_crop"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "brewery:corn_crop",
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "input": {
+    "item": "brewery:corn_seeds"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:blocks/brewerycorn_seeds"
+    }
+  ]
+}
