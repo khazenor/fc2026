@@ -35,5 +35,6 @@ ServerEvents.tags('worldgen/biome', event => {
 })
 
 ServerEvents.recipes(event => {
+  console.log("Ingredient.of('#c:foods').itemIds", Ingredient.of('#c:foods/raw_meat').itemIds)
   global.ServerEventsRecipes(event)
 })

@@ -55,7 +55,15 @@ const RequestHandler = {
       compostableDefault (ids) {
         this.compostable(ids.map(id => [id]))
       },
-      compostableCache: []
+      compostableCache: [],
+      stonecutting (defs) {
+        this.stonecuttingCache = this.stonecuttingCache.concat(defs)
+      },
+      stonecuttingCache: [],
+      stonecuttingWithTags (defs) {
+        this.stonecuttingWithTagsCache = this.stonecuttingWithTagsCache.concat(defs)
+      },
+      stonecuttingWithTagsCache: []
     },
     remove: {
       byRecipeId (ids) {
@@ -109,7 +117,11 @@ const RequestHandler = {
       loaded (callbacks) {
         this.loadedCache = this.loadedCache.concat(callbacks)
       },
-      loadedCache: []
+      loadedCache: [],
+      beforeServerEventsRecipes (callbacks) {
+        this.beforeServerEventsRecipesCache = this.beforeServerEventsRecipesCache.concat(callbacks)
+      },
+      beforeServerEventsRecipesCache: []
     }
   }
 }

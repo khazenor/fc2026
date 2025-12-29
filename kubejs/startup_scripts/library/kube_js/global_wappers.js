@@ -56,6 +56,10 @@ global.ServerEventsTagsWorldgenBiome = (event) => {
 }
 
 global.ServerEventsRecipes = (event) => {
+  RequestHandler.callbacks.serverEvents.beforeServerEventsRecipesCache.forEach(
+    eventCallback => { eventCallback(event) }
+  )
+
   RequestHandler.recipes.add.shapelessCache.forEach(request => {
     let outputId = request[0]
     let ings = request[1]
@@ -79,6 +83,22 @@ global.ServerEventsRecipes = (event) => {
     event.blasting(outputItem, inputItem)
     event.smoking(outputItem, inputItem)
     event.campfireCooking(outputItem, inputItem)
+  })
+
+  RequestHandler.recipes.add.stonecuttingCache.forEach(def => {
+    let outputItem = def[0]
+    let inputItem = def[1]
+    
+    console.log(outputItem, inputItem, '---')
+    event.stonecutting(outputItem, inputItem)
+  })
+
+  RequestHandler.recipes.add.stonecuttingWithTagsCache.forEach(def => {
+    let outputItemTag = def[0]
+    let inputItem = def[1]
+    Ingredient.of(outputItemTag).itemIds.forEach(outputItem => {
+      event.stonecutting(outputItem, inputItem)
+    })
   })
 
   RequestHandler.recipes.remove.byRecipeIdCache.forEach(recipeId => {
