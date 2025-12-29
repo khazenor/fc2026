@@ -73,5 +73,35 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_visible: true
+			id: "4F114B795F9ABFD0"
+			rewards: [
+				{
+					id: "720B0E3411A63654"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "303F537B0ACBEE85"
+					item: {
+						count: 1
+						id: "minecraft:shears"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F0EDDFC7B43BC77"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fc:flora_quest_items)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
 	]
 }
