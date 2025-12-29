@@ -1771,7 +1771,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_foods"
+					command: "/function fc_collection:flora_compendium_modded_foods"
 					exclude_from_claim_all: true
 					id: "0AA0176286D598BC"
 					permission_level: 2
@@ -1804,7 +1804,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_foods"
+					command: "/function fc_collection:flora_compendium_modded_foods"
 					exclude_from_claim_all: true
 					id: "710CDF8506401FBC"
 					permission_level: 2
@@ -1837,7 +1837,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_foods"
+					command: "/function fc_collection:flora_compendium_modded_foods"
 					exclude_from_claim_all: true
 					id: "2C81D573A1D5442F"
 					permission_level: 2
@@ -1870,7 +1870,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_foods"
+					command: "/function fc_collection:flora_compendium_modded_foods"
 					exclude_from_claim_all: true
 					id: "466F4F8040FB59CA"
 					permission_level: 2
@@ -1896,10 +1896,10 @@
 			icon: {
 				id: "biomeswevegone:aloe_vera"
 			}
-			id: "5655FAEE335E8842"
+			id: "19B9404802BDE308"
 			rewards: [{
 				count: 4
-				id: "7946DBF8988F467D"
+				id: "37E2B72638A2158D"
 				item: {
 					count: 1
 					id: "kubejs:miles_ticket"
@@ -1910,7 +1910,7 @@
 				icon: {
 					id: "minecraft:glass"
 				}
-				id: "548E4A340F8622D7"
+				id: "1AB1AB534E78ACAA"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
 				value: 1
@@ -1935,7 +1935,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "5511A652004CD2D9"
 					permission_level: 2
@@ -1968,7 +1968,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "687BCEB878AF79D4"
 					permission_level: 2
@@ -2001,7 +2001,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "68FEE9794319AE7F"
 					permission_level: 2
@@ -2034,7 +2034,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "06FD0159623C467E"
 					permission_level: 2
@@ -2067,7 +2067,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "489D8362FF3A11EC"
 					permission_level: 2
@@ -2100,7 +2100,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "049A75E828D08F56"
 					permission_level: 2
@@ -2133,7 +2133,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "5BEB76CFA781D05F"
 					permission_level: 2
@@ -2166,7 +2166,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "3F2ABDBACF0D7F25"
 					permission_level: 2
@@ -2199,7 +2199,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "4BEB16D6C2DF5637"
 					permission_level: 2
@@ -2232,7 +2232,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "1710D390B5DA9334"
 					permission_level: 2
@@ -2265,7 +2265,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "22978BFFD5C6FE99"
 					permission_level: 2
@@ -2298,7 +2298,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "722D6D0F8E6B5AB7"
 					permission_level: 2
@@ -2331,7 +2331,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "25B9E2332ADE9C3F"
 					permission_level: 2
@@ -2364,7 +2364,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "642B71800B4626E0"
 					permission_level: 2
@@ -2397,7 +2397,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "791B4F26BA261465"
 					permission_level: 2
@@ -2430,7 +2430,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "4DCA1A0A4326CEC3"
 					permission_level: 2
@@ -2463,7 +2463,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "287F1D606CCFDECA"
 					permission_level: 2
@@ -2496,7 +2496,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "44EA29480DE51E1A"
 					permission_level: 2
@@ -2529,7 +2529,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "6B1BF43CECB6CA50"
 					permission_level: 2
@@ -2549,6 +2549,39 @@
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
+			id: "6551AA8053CCC483"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "07D94A76AAE3BA53"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
+					exclude_from_claim_all: true
+					id: "537594E15B470AA4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1FCA4717693C7C75"
+				item: { count: 1, id: "meadow:pine_sapling" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
 			id: "32B330BE70EC4AA6"
 			rewards: [
 				{
@@ -2562,7 +2595,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "2C8387026245A362"
 					permission_level: 2
@@ -2575,7 +2608,7 @@
 				item: { count: 1, id: "biomeswevegone:red_maple_sapling" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 16.5d
 		}
 		{
@@ -2595,7 +2628,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "367C0AEA18A7A168"
 					permission_level: 2
@@ -2608,7 +2641,7 @@
 				item: { count: 1, id: "biomeswevegone:red_oak_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 16.5d
 		}
 		{
@@ -2628,7 +2661,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "62FDB15E4E69AA30"
 					permission_level: 2
@@ -2641,7 +2674,7 @@
 				item: { count: 1, id: "biomeswevegone:red_spruce_sapling" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 16.5d
 		}
 		{
@@ -2661,7 +2694,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "05A301B6B97AB082"
 					permission_level: 2
@@ -2674,7 +2707,7 @@
 				item: { count: 1, id: "biomeswevegone:redwood_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 16.5d
 		}
 		{
@@ -2694,7 +2727,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "0B1D0918638EF3BE"
 					permission_level: 2
@@ -2707,8 +2740,8 @@
 				item: { count: 1, id: "biomeswevegone:silver_maple_sapling" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 16.5d
+			x: 0.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2727,7 +2760,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "65A382E8C955245E"
 					permission_level: 2
@@ -2740,7 +2773,7 @@
 				item: { count: 1, id: "biomeswevegone:skyris_sapling" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 17.5d
 		}
 		{
@@ -2760,7 +2793,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "02858CEBD86F0A21"
 					permission_level: 2
@@ -2773,7 +2806,7 @@
 				item: { count: 1, id: "biomeswevegone:spirit_sapling" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 17.5d
 		}
 		{
@@ -2793,7 +2826,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "5E3EB732F8E614BB"
 					permission_level: 2
@@ -2806,7 +2839,7 @@
 				item: { count: 1, id: "biomeswevegone:white_mangrove_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 17.5d
 		}
 		{
@@ -2826,7 +2859,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "6C2DB019CB27B558"
 					permission_level: 2
@@ -2839,7 +2872,7 @@
 				item: { count: 1, id: "biomeswevegone:white_sakura_sapling" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 17.5d
 		}
 		{
@@ -2859,7 +2892,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "5145850F3C861999"
 					permission_level: 2
@@ -2872,7 +2905,7 @@
 				item: { count: 1, id: "biomeswevegone:witch_hazel_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 17.5d
 		}
 		{
@@ -2892,7 +2925,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "54D75E15A0E2B1A7"
 					permission_level: 2
@@ -2905,8 +2938,8 @@
 				item: { count: 1, id: "biomeswevegone:yellow_birch_sapling" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 17.5d
+			x: 0.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2925,7 +2958,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "26EF1E88E5619586"
 					permission_level: 2
@@ -2938,7 +2971,7 @@
 				item: { count: 1, id: "biomeswevegone:yellow_sakura_sapling" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 18.5d
 		}
 		{
@@ -2958,7 +2991,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "766166AB0D982B53"
 					permission_level: 2
@@ -2971,7 +3004,7 @@
 				item: { count: 1, id: "biomeswevegone:yucca_sapling" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 18.5d
 		}
 		{
@@ -2991,7 +3024,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
 					id: "3DB893C8E27B0C4B"
 					permission_level: 2
@@ -3004,7 +3037,7 @@
 				item: { count: 1, id: "biomeswevegone:zelkova_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 18.5d
 		}
 		{
@@ -3028,6 +3061,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -3046,10 +3080,10 @@
 			icon: {
 				id: "biomeswevegone:araucaria_sapling"
 			}
-			id: "31625B8D809CCCCB"
+			id: "3E5304852BAF4E53"
 			rewards: [{
-				count: 54
-				id: "2DF5758CBB08304C"
+				count: 57
+				id: "734695BE4ABEF25B"
 				item: {
 					count: 1
 					id: "kubejs:miles_ticket"
@@ -3060,7 +3094,7 @@
 				icon: {
 					id: "minecraft:glass"
 				}
-				id: "377B20BA20B76B1C"
+				id: "71D8A1192CEDAB1B"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
 				value: 1

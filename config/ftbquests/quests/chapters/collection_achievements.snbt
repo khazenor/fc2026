@@ -501,6 +501,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -676,6 +677,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -851,6 +853,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -1027,6 +1030,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -1110,7 +1114,7 @@
 			id: "5BB3A4D8C0D8386C"
 			min_required_dependencies: 20
 			rewards: [{
-				count: 7
+				count: 6
 				id: "2FBD802C1E7AFC46"
 				item: {
 					count: 1
@@ -1203,6 +1207,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -1379,6 +1384,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -1555,6 +1561,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -1638,7 +1645,7 @@
 			id: "65BA9D1B2DCE2F7E"
 			min_required_dependencies: 80
 			rewards: [{
-				count: 61
+				count: 60
 				id: "08E512BE8631F5F8"
 				item: {
 					count: 1
@@ -1731,6 +1738,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -1814,7 +1822,7 @@
 			id: "5E30BB54995DB642"
 			min_required_dependencies: 110
 			rewards: [{
-				count: 100
+				count: 99
 				id: "5EFCCE8CA335CCAA"
 				item: {
 					count: 1
@@ -1907,6 +1915,7 @@
 				"265CD4459AED7872"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
+				"6551AA8053CCC483"
 				"32B330BE70EC4AA6"
 				"50C3AD5BAC81847C"
 				"33D36984EF1E2C81"
@@ -1998,7 +2007,7 @@
 					type: "item"
 				}
 				{
-					count: 63
+					count: 68
 					id: "2B860B0A575DAE46"
 					item: {
 						count: 1
@@ -2029,6 +2038,346 @@
 			}]
 			x: 8.0d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7F5B04411729F322"
+				"0EBA9CF83C8448B8"
+				"78C52AFC34AD5947"
+				"7B3564659A52D183"
+				"50F07BACC89756F5"
+				"21C6C0806311DB55"
+				"3AF5C751EDC70C98"
+				"24E4F0E0F124D49F"
+				"1EA4427D74A1FFBE"
+				"2976F537D5B9E826"
+				"4DD2F3F6D1EB74D0"
+				"29D7843DA2177418"
+				"6F85778A6136D470"
+				"100477E90605397B"
+				"39F7697AC60E7D28"
+				"2A16FD0C580F0446"
+				"533A0F9E9BD15E90"
+				"2216F4223F214D66"
+				"17575E867D51C2D6"
+				"1B742F23C164FCAB"
+				"1FA3B8F8A440BE24"
+				"7EE72BA1EB0400E5"
+				"647A02DA6D076AF1"
+				"48C09E362E21742F"
+				"77D167BF3BBE7A06"
+				"5F9E4022304AA0B1"
+				"4EFE1C3E161769FD"
+				"1FC0F63DA3AD7529"
+				"208684F661F6B0F8"
+				"1123325CA2EDCF5E"
+				"484BE605013E2EC8"
+				"19332C90C1DEDAE6"
+				"4C35DEC8184EDDF0"
+				"2F4D82EC4EF24992"
+				"3D345D21320CCDD9"
+				"52E9F39576D10C21"
+				"74D083DFAB240C63"
+			]
+			icon: {
+				id: "minecraft:raw_gold"
+			}
+			id: "4B1F3644119B6957"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "481C82364754420E"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "53705B1FCF677D93"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7F5B04411729F322"
+				"0EBA9CF83C8448B8"
+				"78C52AFC34AD5947"
+				"7B3564659A52D183"
+				"50F07BACC89756F5"
+				"21C6C0806311DB55"
+				"3AF5C751EDC70C98"
+				"24E4F0E0F124D49F"
+				"1EA4427D74A1FFBE"
+				"2976F537D5B9E826"
+				"4DD2F3F6D1EB74D0"
+				"29D7843DA2177418"
+				"6F85778A6136D470"
+				"100477E90605397B"
+				"39F7697AC60E7D28"
+				"2A16FD0C580F0446"
+				"533A0F9E9BD15E90"
+				"2216F4223F214D66"
+				"17575E867D51C2D6"
+				"1B742F23C164FCAB"
+				"1FA3B8F8A440BE24"
+				"7EE72BA1EB0400E5"
+				"647A02DA6D076AF1"
+				"48C09E362E21742F"
+				"77D167BF3BBE7A06"
+				"5F9E4022304AA0B1"
+				"4EFE1C3E161769FD"
+				"1FC0F63DA3AD7529"
+				"208684F661F6B0F8"
+				"1123325CA2EDCF5E"
+				"484BE605013E2EC8"
+				"19332C90C1DEDAE6"
+				"4C35DEC8184EDDF0"
+				"2F4D82EC4EF24992"
+				"3D345D21320CCDD9"
+				"52E9F39576D10C21"
+				"74D083DFAB240C63"
+			]
+			icon: {
+				id: "minecraft:raw_gold"
+			}
+			id: "7EBEA8535B48079B"
+			min_required_dependencies: 5
+			rewards: [{
+				id: "722C0B6922A9900B"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "2F466A6C17DF6ABF"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7F5B04411729F322"
+				"0EBA9CF83C8448B8"
+				"78C52AFC34AD5947"
+				"7B3564659A52D183"
+				"50F07BACC89756F5"
+				"21C6C0806311DB55"
+				"3AF5C751EDC70C98"
+				"24E4F0E0F124D49F"
+				"1EA4427D74A1FFBE"
+				"2976F537D5B9E826"
+				"4DD2F3F6D1EB74D0"
+				"29D7843DA2177418"
+				"6F85778A6136D470"
+				"100477E90605397B"
+				"39F7697AC60E7D28"
+				"2A16FD0C580F0446"
+				"533A0F9E9BD15E90"
+				"2216F4223F214D66"
+				"17575E867D51C2D6"
+				"1B742F23C164FCAB"
+				"1FA3B8F8A440BE24"
+				"7EE72BA1EB0400E5"
+				"647A02DA6D076AF1"
+				"48C09E362E21742F"
+				"77D167BF3BBE7A06"
+				"5F9E4022304AA0B1"
+				"4EFE1C3E161769FD"
+				"1FC0F63DA3AD7529"
+				"208684F661F6B0F8"
+				"1123325CA2EDCF5E"
+				"484BE605013E2EC8"
+				"19332C90C1DEDAE6"
+				"4C35DEC8184EDDF0"
+				"2F4D82EC4EF24992"
+				"3D345D21320CCDD9"
+				"52E9F39576D10C21"
+				"74D083DFAB240C63"
+			]
+			icon: {
+				id: "minecraft:raw_gold"
+			}
+			id: "475B5DD94020E4C0"
+			min_required_dependencies: 10
+			rewards: [{
+				count: 2
+				id: "3A65C1CDB767FCEC"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "0D8A1FAC7F275C37"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7F5B04411729F322"
+				"0EBA9CF83C8448B8"
+				"78C52AFC34AD5947"
+				"7B3564659A52D183"
+				"50F07BACC89756F5"
+				"21C6C0806311DB55"
+				"3AF5C751EDC70C98"
+				"24E4F0E0F124D49F"
+				"1EA4427D74A1FFBE"
+				"2976F537D5B9E826"
+				"4DD2F3F6D1EB74D0"
+				"29D7843DA2177418"
+				"6F85778A6136D470"
+				"100477E90605397B"
+				"39F7697AC60E7D28"
+				"2A16FD0C580F0446"
+				"533A0F9E9BD15E90"
+				"2216F4223F214D66"
+				"17575E867D51C2D6"
+				"1B742F23C164FCAB"
+				"1FA3B8F8A440BE24"
+				"7EE72BA1EB0400E5"
+				"647A02DA6D076AF1"
+				"48C09E362E21742F"
+				"77D167BF3BBE7A06"
+				"5F9E4022304AA0B1"
+				"4EFE1C3E161769FD"
+				"1FC0F63DA3AD7529"
+				"208684F661F6B0F8"
+				"1123325CA2EDCF5E"
+				"484BE605013E2EC8"
+				"19332C90C1DEDAE6"
+				"4C35DEC8184EDDF0"
+				"2F4D82EC4EF24992"
+				"3D345D21320CCDD9"
+				"52E9F39576D10C21"
+				"74D083DFAB240C63"
+			]
+			icon: {
+				id: "minecraft:raw_gold"
+			}
+			id: "2D21AAD58999457C"
+			min_required_dependencies: 20
+			rewards: [{
+				count: 6
+				id: "1FFAC63EBC61B0CC"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "0DAC1ED5FC558F5B"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7F5B04411729F322"
+				"0EBA9CF83C8448B8"
+				"78C52AFC34AD5947"
+				"7B3564659A52D183"
+				"50F07BACC89756F5"
+				"21C6C0806311DB55"
+				"3AF5C751EDC70C98"
+				"24E4F0E0F124D49F"
+				"1EA4427D74A1FFBE"
+				"2976F537D5B9E826"
+				"4DD2F3F6D1EB74D0"
+				"29D7843DA2177418"
+				"6F85778A6136D470"
+				"100477E90605397B"
+				"39F7697AC60E7D28"
+				"2A16FD0C580F0446"
+				"533A0F9E9BD15E90"
+				"2216F4223F214D66"
+				"17575E867D51C2D6"
+				"1B742F23C164FCAB"
+				"1FA3B8F8A440BE24"
+				"7EE72BA1EB0400E5"
+				"647A02DA6D076AF1"
+				"48C09E362E21742F"
+				"77D167BF3BBE7A06"
+				"5F9E4022304AA0B1"
+				"4EFE1C3E161769FD"
+				"1FC0F63DA3AD7529"
+				"208684F661F6B0F8"
+				"1123325CA2EDCF5E"
+				"484BE605013E2EC8"
+				"19332C90C1DEDAE6"
+				"4C35DEC8184EDDF0"
+				"2F4D82EC4EF24992"
+				"3D345D21320CCDD9"
+				"52E9F39576D10C21"
+				"74D083DFAB240C63"
+			]
+			icon: {
+				id: "minecraft:raw_gold"
+			}
+			id: "41CFE541B5041D5F"
+			rewards: [
+				{
+					count: 18
+					id: "0C0622E2709886EA"
+					item: {
+						count: 1
+						id: "kubejs:miles_ticket"
+					}
+					type: "item"
+				}
+				{
+					id: "173130B18E3DE351"
+					item: {
+						components: {
+							"ftbquests:missing_item": "kubejs:cert_mining_diamond"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "170B6E10190C26FF"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 }

@@ -73,6 +73,7 @@ ServerEvents.tags('item', event => {
       'biomeswevegone:orchard_sapling', 
       'biomeswevegone:palo_verde_sapling', 
       'biomeswevegone:pine_sapling', 
+      'meadow:pine_sapling', 
       'biomeswevegone:red_maple_sapling', 
       'biomeswevegone:red_oak_sapling', 
       'biomeswevegone:red_spruce_sapling', 

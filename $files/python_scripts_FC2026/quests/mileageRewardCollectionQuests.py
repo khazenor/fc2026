@@ -46,15 +46,15 @@ collections = [
 		collectionKey: "Flora Compendium",
 		increaseRateKey: 0.03,
 		questFilenameKey: 'flora_compendium'
+	},
+	{
+		nameKey: "Mineral",
+		pluralKey: "s",
+		iconKey: "minecraft:raw_gold",
+		lastQuestItemKey: 'kubejs:cert_mining_diamond',
+		actionKey: "Collected",
+		collectionKey: "Mineral Museum",
+		increaseRateKey: 0.03,
+		questFilenameKey: 'mineral_museum'
 	}
-	# {
-	# 	nameKey: "Mineral",
-	# 	pluralKey: "s",
-	# 	iconKey: "minecraft:raw_gold",
-	# 	lastQuestItemKey: 'kubejs:cert_mining_diamond',
-	# 	actionKey: "Collected",
-	# 	collectionKey: "Mineral Museum",
-	# 	increaseRateKey: 0.03,
-	# 	questFilenameKey: 'mineral_museum'
-	# }
 ]

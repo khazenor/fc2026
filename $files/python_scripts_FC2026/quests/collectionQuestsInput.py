@@ -204,7 +204,7 @@ questlines = [
           "minecraft:lily_pad"
         ]
       }, {
-        nameKey: 'Biome Foods',
+        nameKey: 'Modded Foods',
         iconKey: 'biomeswevegone:aloe_vera',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
         tasksKey: [
@@ -214,7 +214,7 @@ questlines = [
           "biomeswevegone:pale_pumpkin"
         ]
       }, {
-        nameKey: 'Biome Saplings',
+        nameKey: 'Modded Saplings',
         iconKey: 'biomeswevegone:araucaria_sapling',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
         tasksKey: [
@@ -237,6 +237,7 @@ questlines = [
           "biomeswevegone:orchard_sapling",
           "biomeswevegone:palo_verde_sapling",
           "biomeswevegone:pine_sapling",
+          "meadow:pine_sapling",
           "biomeswevegone:red_maple_sapling",
           "biomeswevegone:red_oak_sapling",
           "biomeswevegone:red_spruce_sapling",
@@ -350,4 +351,74 @@ questlines = [
       }
     ]
   },
+  { # Mineral Museum
+    filenameKey: 'mineral_museum',
+    nameKey: 'Mineral Museum',
+    iconKey: 'minecraft:raw_gold',
+    collectionNotificationKey: 'New mineral mined!',
+    increaseRateKey: 0.03,
+    typeKey: itemQuestTypeConst,
+    questGroupsKey: [
+      { # Vanilla Blocks
+        nameKey: 'Vanilla Blocks Completion',
+        iconKey: 'minecraft:andesite',
+        dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
+        increaseRateKey: 0.01,
+        tasksKey: [
+          "minecraft:cobblestone",
+          "minecraft:mossy_cobblestone",
+          "minecraft:cobbled_deepslate",
+          "minecraft:diorite",
+          "minecraft:granite",
+          "minecraft:andesite",
+          "minecraft:sandstone",
+          "minecraft:red_sandstone",
+          "minecraft:calcite",
+          "minecraft:dripstone_block",
+          "minecraft:pointed_dripstone",
+          "minecraft:smooth_basalt",
+          "minecraft:tuff",
+          "minecraft:obsidian"
+        ]
+      },
+      { # Ore
+        nameKey: 'Ore Completion',
+        iconKey: 'minecraft:raw_iron',
+        dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
+        increaseRateKey: 0.03,
+        tasksKey: [
+          "minecraft:coal",
+          "minecraft:raw_copper",
+          "minecraft:raw_iron",
+          "minecraft:amethyst_shard",
+          "minecraft:raw_gold",
+          "minecraft:redstone",
+          "minecraft:lapis_lazuli",
+          "minecraft:diamond"
+        ]
+      }, {
+        nameKey: 'Modded Completion',
+        iconKey: 'biomeswevegone:blue_sandstone',
+        dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
+        increaseRateKey: 0.03,
+        tasksKey: [
+          "biomeswevegone:blue_sandstone",
+          "biomeswevegone:borealis_ice",
+          "biomeswevegone:cracked_red_sand",
+          "biomeswevegone:dacite",
+          "biomeswevegone:florus_stem",
+          "biomeswevegone:lush_grass_block",
+          "biomeswevegone:mossy_stone",
+          "biomeswevegone:overgrown_stone",
+          "biomeswevegone:pale_mud",
+          "biomeswevegone:red_rock",
+          "biomeswevegone:rocky_stone",
+          "biomeswevegone:white_dacite",
+          "biomeswevegone:windswept_sand",
+          "biomeswevegone:windswept_sandstone",
+          'meadow:limestone'
+        ]
+      }
+    ]
+  }
 ]

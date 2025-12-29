@@ -103,5 +103,24 @@
 			x: 1.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			id: "2C1B93F1A534E681"
+			rewards: [{
+				id: "1EB379BB0AC9B085"
+				item: {
+					count: 1
+					id: "minecraft:bundle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F60A140F50B49B9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fc:minerals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
 	]
 }

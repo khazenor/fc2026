@@ -172,7 +172,7 @@ ItemEvents.modifyTooltips(event => {
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
-      Text.translate('collectionTooltips.biomeFoods')
+      Text.translate('collectionTooltips.moddedFoods')
     ])
   event.add(
     [
@@ -195,6 +195,7 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:orchard_sapling', 
       'biomeswevegone:palo_verde_sapling', 
       'biomeswevegone:pine_sapling', 
+      'meadow:pine_sapling', 
       'biomeswevegone:red_maple_sapling', 
       'biomeswevegone:red_oak_sapling', 
       'biomeswevegone:red_spruce_sapling', 
@@ -212,7 +213,7 @@ ItemEvents.modifyTooltips(event => {
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
-      Text.translate('collectionTooltips.biomeSaplings')
+      Text.translate('collectionTooltips.moddedSaplings')
     ])
   event.add(
     [
@@ -310,6 +311,64 @@ ItemEvents.modifyTooltips(event => {
     [
       Text.translate('collectionTooltips.floraCompendium'), 
       Text.translate('collectionTooltips.biomeMisc')
+    ])
+  event.add(
+    [
+      'minecraft:cobblestone', 
+      'minecraft:mossy_cobblestone', 
+      'minecraft:cobbled_deepslate', 
+      'minecraft:diorite', 
+      'minecraft:granite', 
+      'minecraft:andesite', 
+      'minecraft:sandstone', 
+      'minecraft:red_sandstone', 
+      'minecraft:calcite', 
+      'minecraft:dripstone_block', 
+      'minecraft:pointed_dripstone', 
+      'minecraft:smooth_basalt', 
+      'minecraft:tuff', 
+      'minecraft:obsidian'
+    ],
+    [
+      Text.translate('collectionTooltips.mineralMuseum'), 
+      Text.translate('collectionTooltips.vanillaBlocksCompletion')
+    ])
+  event.add(
+    [
+      'minecraft:coal', 
+      'minecraft:raw_copper', 
+      'minecraft:raw_iron', 
+      'minecraft:amethyst_shard', 
+      'minecraft:raw_gold', 
+      'minecraft:redstone', 
+      'minecraft:lapis_lazuli', 
+      'minecraft:diamond'
+    ],
+    [
+      Text.translate('collectionTooltips.mineralMuseum'), 
+      Text.translate('collectionTooltips.oreCompletion')
+    ])
+  event.add(
+    [
+      'biomeswevegone:blue_sandstone', 
+      'biomeswevegone:borealis_ice', 
+      'biomeswevegone:cracked_red_sand', 
+      'biomeswevegone:dacite', 
+      'biomeswevegone:florus_stem', 
+      'biomeswevegone:lush_grass_block', 
+      'biomeswevegone:mossy_stone', 
+      'biomeswevegone:overgrown_stone', 
+      'biomeswevegone:pale_mud', 
+      'biomeswevegone:red_rock', 
+      'biomeswevegone:rocky_stone', 
+      'biomeswevegone:white_dacite', 
+      'biomeswevegone:windswept_sand', 
+      'biomeswevegone:windswept_sandstone', 
+      'meadow:limestone'
+    ],
+    [
+      Text.translate('collectionTooltips.mineralMuseum'), 
+      Text.translate('collectionTooltips.moddedCompletion')
     ])
 
 })

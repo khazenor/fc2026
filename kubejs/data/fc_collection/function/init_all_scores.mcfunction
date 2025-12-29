@@ -20,10 +20,10 @@ scoreboard objectives add flora_compendium_vanilla_sapling_completion dummy {"tr
 scoreboard players set @p flora_compendium_vanilla_sapling_completion 0
 scoreboard objectives add flora_compendium_vanilla_flora_completion dummy {"translate":"questFunctions.vanillaFloraCompletion0"}
 scoreboard players set @p flora_compendium_vanilla_flora_completion 0
-scoreboard objectives add flora_compendium_biome_foods dummy {"translate":"questFunctions.biomeFoods0"}
-scoreboard players set @p flora_compendium_biome_foods 0
-scoreboard objectives add flora_compendium_biome_saplings dummy {"translate":"questFunctions.biomeSaplings0"}
-scoreboard players set @p flora_compendium_biome_saplings 0
+scoreboard objectives add flora_compendium_modded_foods dummy {"translate":"questFunctions.moddedFoods0"}
+scoreboard players set @p flora_compendium_modded_foods 0
+scoreboard objectives add flora_compendium_modded_saplings dummy {"translate":"questFunctions.moddedSaplings0"}
+scoreboard players set @p flora_compendium_modded_saplings 0
 scoreboard objectives add flora_compendium_biome_bushes dummy {"translate":"questFunctions.biomeBushes0"}
 scoreboard players set @p flora_compendium_biome_bushes 0
 scoreboard objectives add flora_compendium_biome_ground_covers dummy {"translate":"questFunctions.biomeGroundCovers0"}
@@ -34,3 +34,11 @@ scoreboard objectives add flora_compendium_biome_allium_and_tulips dummy {"trans
 scoreboard players set @p flora_compendium_biome_allium_and_tulips 0
 scoreboard objectives add flora_compendium_biome_misc dummy {"translate":"questFunctions.biomeMisc0"}
 scoreboard players set @p flora_compendium_biome_misc 0
+scoreboard objectives add mineral_museum dummy {"translate":"questFunctions.mineralMuseum"}
+scoreboard players set @p mineral_museum 0
+scoreboard objectives add mineral_museum_vanilla_blocks_completion dummy {"translate":"questFunctions.vanillaBlocksCompletion0"}
+scoreboard players set @p mineral_museum_vanilla_blocks_completion 0
+scoreboard objectives add mineral_museum_ore_completion dummy {"translate":"questFunctions.oreCompletion0"}
+scoreboard players set @p mineral_museum_ore_completion 0
+scoreboard objectives add mineral_museum_modded_completion dummy {"translate":"questFunctions.moddedCompletion0"}
+scoreboard players set @p mineral_museum_modded_completion 0
