@@ -12,8 +12,35 @@
 	quest.16075BB40754A758.title: "Biome Flowers"
 	quest.1745B27519BD5204.title: "Alternative Locales Completion"
 	quest.19B9404802BDE308.title: "Modded Foods"
+	quest.1A6015D93785C5F8.quest_desc: [
+		"# How to use the farm and charm mincer:"
+		"- place the mincer onto the ground"
+		"- right click the mincer if your input ingredient"
+		"- hold right click on the mincer to process the ingredient to their output"
+	]
 	quest.237FE170DCEF0E64.title: "Collected 10 Unique Flora!"
 	quest.295061854693C97A.title: "Collected 35 Unique Flora!"
+	quest.2C347959EBCF675E.quest_desc: [
+		"# How to use the farm and charm crafting bowl:"
+		"- place the crafting bowl"
+		"- right click the ingredients into the crafting bowl"
+		"- (you can shift right click the bowl to remove ingredients)"
+		"- after placing all ingredients right click the bowl, hold right click the crafting bowl with an empty hand to craft"
+		"- after crafting id done, right click with empty hand again to extract the outputs"
+	]
+	quest.2C42B4AF446B4BD9.quest_desc: [
+		"# How to use farm and charm cooking pot:"
+		"- place campfire"
+		"- right click the campfire to setup the cooking pot"
+		"- right click the cooking pot to access its gui"
+		"- put container for the recipe (e.g. bowl for yeast) into the container slock"
+		"- put in ingredients into the ingredient slots"
+		""
+		"# How to use bakery sink:"
+		"- place sink"
+		"- right click with empty hand to fill sink"
+		"- right click with empty bucket to fill bucket"
+	]
 	quest.2D21AAD58999457C.title: "Collected 20 Unique Minerals!"
 	quest.2D45906B062171D6.title: "Vanilla Completion"
 	quest.2D7FBD31BB35A035.title: "Caught 10 Unique Fishes!"
@@ -31,9 +58,23 @@
 	quest.47254C7C6ACB15E3.title: "Biome Ground Covers"
 	quest.475B5DD94020E4C0.title: "Collected 10 Unique Minerals!"
 	quest.4978B74B1C3BC5A7.title: "Caught 5 Unique Fishes!"
+	quest.49BBEA6293EEAE79.quest_desc: [
+		"# How to use the farm and charm stove:"
+		"- place the stove"
+		"- put in fuel (e.g. coal) into the fuel slot"
+		"- put in ingredients into the ingredient slots"
+	]
 	quest.4B1F3644119B6957.title: "Collected 2 Unique Minerals!"
 	quest.4C25B193AEB81C44.title: "Biome Misc"
 	quest.4EC2DC93EC0BED9F.title: "Saltwater Completion"
+	quest.53A97CAB5255B2F3.quest_desc: [
+		"# How to use the meadow cooking caldron"
+		"- place the frame"
+		"- right click the frame with the caldron in your hand"
+		"- right click the caldron to access its gui"
+		"- put a filled water bucket into the water input slot on the right"
+		"- put the ingredients in the ingredient slots"
+	]
 	quest.5655FAEE335E8842.title: "Biome Foods"
 	quest.57BE1A138D1F6B53.title: "Vanilla Flora Completion"
 	quest.5A4AA7C9BA18CB2C.title: "Caught 5 Unique Fishes!"

@@ -122,5 +122,248 @@
 			x: -1.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			id: "6E3D3BA7844BFBCD"
+			rewards: [
+				{
+					id: "1875884FC87E75AC"
+					item: {
+						count: 1
+						id: "farm_and_charm:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "5018A62737DBCB26"
+					item: {
+						count: 1
+						id: "bakery:kitchen_sink"
+					}
+					type: "item"
+				}
+				{
+					id: "3DDF582EA4D6E442"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "78068DE1E0442F28"
+					item: {
+						count: 1
+						id: "minecraft:sugar_cane"
+					}
+					type: "item"
+				}
+				{
+					id: "1183EEA146EC3328"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A1338EFAE381B0C"
+				item: { count: 1, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3D3BA7844BFBCD"]
+			hide_until_deps_complete: true
+			id: "2C42B4AF446B4BD9"
+			rewards: [{
+				id: "0835D15B612E2CCB"
+				item: {
+					count: 1
+					id: "farm_and_charm:mincer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "745A3EC4E4353D4A"
+				item: { count: 1, id: "farm_and_charm:yeast" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C42B4AF446B4BD9"]
+			hide_until_deps_complete: true
+			id: "1A6015D93785C5F8"
+			tasks: [{
+				id: "2D80D9E64CAAD520"
+				item: { count: 1, id: "farm_and_charm:flour" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A6015D93785C5F8"]
+			hide_until_deps_complete: true
+			id: "2C347959EBCF675E"
+			rewards: [{
+				id: "42DA83C58046FB45"
+				item: {
+					count: 1
+					id: "farm_and_charm:stove"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EF2580A26C727D1"
+				item: { count: 1, id: "farm_and_charm:dough" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C347959EBCF675E"]
+			hide_until_deps_complete: true
+			id: "49BBEA6293EEAE79"
+			tasks: [{
+				id: "30E69AB566455F9D"
+				item: { count: 1, id: "bakery:bread" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49BBEA6293EEAE79"]
+			hide_until_deps_complete: true
+			id: "774137239E569FC8"
+			rewards: [{
+				count: 16
+				id: "3457C25692C22D3B"
+				item: {
+					count: 1
+					id: "minecraft:sweet_berries"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36472D6AAE9515D8"
+				item: { count: 1, id: "bakery:cake_dough" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["774137239E569FC8"]
+			hide_until_deps_complete: true
+			id: "5B2855A053DE0501"
+			rewards: [{
+				id: "451716A670410CCA"
+				item: {
+					count: 1
+					id: "bakery:baker_station"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09CB6D59876227E2"
+				item: { count: 1, id: "bakery:sweetberry_jam" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B2855A053DE0501"]
+			hide_until_deps_complete: true
+			id: "59449FD43D19FE6B"
+			rewards: [
+				{
+					id: "60B8627ED36DC818"
+					item: {
+						count: 1
+						id: "meadow:frame"
+					}
+					type: "item"
+				}
+				{
+					id: "5ACD7AA9F1653FBA"
+					item: {
+						count: 1
+						id: "meadow:cooking_cauldron"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "209E48CB341E34A5"
+					item: {
+						count: 1
+						id: "minecraft:calcite"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "129FCC6DBD6D29A9"
+				item: { count: 1, id: "bakery:sweetberry_cupcake" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59449FD43D19FE6B"]
+			hide_until_deps_complete: true
+			id: "53A97CAB5255B2F3"
+			rewards: [
+				{
+					count: 16
+					id: "72EB11AA8842CE8B"
+					item: {
+						count: 1
+						id: "minecraft:egg"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50766B81ADD27146"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69DD6844E45F897F"
+				item: { count: 1, id: "meadow:alpine_salt" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53A97CAB5255B2F3"]
+			hide_until_deps_complete: true
+			id: "0F53FC1CCEA5E2FA"
+			tasks: [{
+				id: "7B3ADFA9D83A05CE"
+				item: { count: 1, id: "meadow:rennet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
 	]
 }
