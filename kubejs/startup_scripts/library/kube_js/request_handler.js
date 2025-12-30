@@ -74,7 +74,11 @@ const RequestHandler = {
       stonecuttingWithTags (defs) {
         this.stonecuttingWithTagsCache = this.stonecuttingWithTagsCache.concat(defs)
       },
-      stonecuttingWithTagsCache: []
+      stonecuttingWithTagsCache: [],
+      smithing (defs) {
+        this.smithingCache = this.smithingCache.concat(defs)
+      },
+      smithingCache: []
     },
     remove: {
       byRecipeId (ids) {
