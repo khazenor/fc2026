@@ -20,8 +20,10 @@
 		""
 		"- After a while the dried goods will pop out of the sile if the hatch is still open.  Or if you have closed the hatch the good will pop out after you open the hatch again."
 	]
+	quest.0D128DE964133D4A.title: "Silo Drying"
 	quest.128BF811467F9A6F.title: "Caught 10 Unique Fishes!"
 	quest.13E53AD4839DC9A4.title: "Modded Completion"
+	quest.144B3D6C8E09A63D.title: "Beer Brewing"
 	quest.16075BB40754A758.title: "Biome Flowers"
 	quest.1745B27519BD5204.title: "Alternative Locales Completion"
 	quest.19B9404802BDE308.title: "Modded Foods"
@@ -31,6 +33,8 @@
 		"- right click the mincer if your input ingredient"
 		"- hold right click on the mincer to process the ingredient to their output"
 	]
+	quest.1A6015D93785C5F8.title: "Mincing Wheat"
+	quest.1B6B73275C612510.title: "Catching Fishes"
 	quest.21BA88188D23BF4E.quest_desc: [
 		"# How to brew teas from herbal brews:"
 		"- place a stove"
@@ -39,8 +43,10 @@
 		"- add blaze powder into the blaze powder slot until the pot it hot enough to brew the tea."
 		"- (you can grow blaze rods using blaze powder in the botany pot)"
 	]
+	quest.21BA88188D23BF4E.title: "Brewing Tea"
 	quest.237FE170DCEF0E64.title: "Collected 10 Unique Flora!"
 	quest.295061854693C97A.title: "Collected 35 Unique Flora!"
+	quest.2C1B93F1A534E681.title: "Mining Minerals"
 	quest.2C347959EBCF675E.quest_desc: [
 		"# How to use the farm and charm crafting bowl:"
 		"- place the crafting bowl"
@@ -49,6 +55,7 @@
 		"- after placing all ingredients right click the bowl, hold right click the crafting bowl with an empty hand to craft"
 		"- after crafting id done, right click with empty hand again to extract the outputs"
 	]
+	quest.2C347959EBCF675E.title: "Bowl Mixing"
 	quest.2C42B4AF446B4BD9.quest_desc: [
 		"# How to use farm and charm cooking pot:"
 		"- place campfire"
@@ -62,10 +69,12 @@
 		"- right click with empty hand to fill sink"
 		"- right click with empty bucket to fill bucket"
 	]
+	quest.2C42B4AF446B4BD9.title: "Cooking with a Pot"
 	quest.2D21AAD58999457C.title: "Collected 20 Unique Minerals!"
 	quest.2D45906B062171D6.title: "Vanilla Completion"
 	quest.2D7FBD31BB35A035.title: "Caught 10 Unique Fishes!"
 	quest.31625B8D809CCCCB.title: "Biome Saplings"
+	quest.3249330012813FDA.title: "Freezing with a Fridge"
 	quest.3276A212EDB474BA.title: "Aquarium Completion!"
 	quest.363CC5FDB568A27D.title: "Vanilla Sapling Completion"
 	quest.3849B0B4C3D81A24.title: "Vanilla Foods Completion"
@@ -82,6 +91,7 @@
 		"- craft a mix tea leaf block using green and black tea leaves"
 		"- place the block down to dry to a oolong tea leaf block"
 	]
+	quest.385BF7D960C48CEF.title: "Drying Tea"
 	quest.3B3862E9FF250C0C.title: "Caught 2 Unique Fishes!"
 	quest.3D6181906ADC7014.title: "Vanilla Flower Completion"
 	quest.3E5304852BAF4E53.title: "Modded Saplings"
@@ -99,20 +109,25 @@
 		"- jump on top of the pot until the content of the pot is fully liquid"
 		"- right click the pot with empty wine bottle to get the juice"
 	]
+	quest.49A24AD6CB0927FB.title: "Mashing Grape Juice"
 	quest.49BBEA6293EEAE79.quest_desc: [
 		"# How to use the farm and charm stove:"
 		"- place the stove"
 		"- put in fuel (e.g. coal) into the fuel slot"
 		"- put in ingredients into the ingredient slots"
 	]
+	quest.49BBEA6293EEAE79.title: "Stove Baking"
 	quest.4A69082167D41264.quest_desc: [
 		"# How to use the roaster from farm and charm:"
 		"- place the roaster on top of a stove"
 		"- put the ingredients and the container into their respective slots"
 	]
+	quest.4A69082167D41264.title: "Roaster Roasting"
 	quest.4B1F3644119B6957.title: "Collected 2 Unique Minerals!"
 	quest.4C25B193AEB81C44.title: "Biome Misc"
+	quest.4CEB9362A3403CA6.title: "Making Cocktails"
 	quest.4EC2DC93EC0BED9F.title: "Saltwater Completion"
+	quest.4F114B795F9ABFD0.title: "Collecting Flora"
 	quest.53A97CAB5255B2F3.quest_desc: [
 		"# How to use the meadow cooking caldron"
 		"- place the frame"
@@ -121,8 +136,10 @@
 		"- put a filled water bucket into the water input slot on the right"
 		"- put the ingredients in the ingredient slots"
 	]
+	quest.53A97CAB5255B2F3.title: "Using the Cooking Caldron"
 	quest.5655FAEE335E8842.title: "Biome Foods"
 	quest.57BE1A138D1F6B53.title: "Vanilla Flora Completion"
+	quest.59449FD43D19FE6B.title: "Caking Station"
 	quest.5A4AA7C9BA18CB2C.title: "Caught 5 Unique Fishes!"
 	quest.5BB3A4D8C0D8386C.title: "Collected 20 Unique Flora!"
 	quest.5D5B330B0F9BAEE0.title: "Ore Completion"
@@ -142,6 +159,7 @@
 		"- place the correct juice on the top left slot (you can see which juice is needed in jei by hovering slightly right of the coil)"
 		"- place the ingredients in the bottom three slots"
 	]
+	quest.74D876358D8D89DB.title: "Barrel Brewing"
 	quest.7EBEA8535B48079B.title: "Collected 5 Unique Minerals!"
 	quest.7EF0A60D2381B72D.quest_desc: [
 		"# How to craft imitation meats in this modpack"
@@ -149,6 +167,8 @@
 		"- Craft mushroom patty using the crafting table"
 		"- Put the patty in the stonecutter to craft imitation meats"
 	]
+	quest.7EF0A60D2381B72D.title: "Meaty Mushrooms"
+	quest.7F9E567D1A1178E6.title: "Pressing Apple Juice"
 	reward_table.721C7014A1928346.title: "Building Packets"
 	task.00066943835F2155.title: "Free Task"
 	task.012E981C08D50698.title: "Free Task"

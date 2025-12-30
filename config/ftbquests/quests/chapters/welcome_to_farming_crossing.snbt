@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "welcome_to_farming_crossing"
 	group: ""
+	icon: {
+		id: "minecraft:mangrove_propagule"
+	}
 	id: "7264A648F9613D3D"
 	order_index: 0
 	quest_links: [ ]
@@ -46,6 +49,9 @@
 		{
 			dependencies: ["5BD4C23644BF2703"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:cod"
+			}
 			id: "1B6B73275C612510"
 			rewards: [
 				{
@@ -76,6 +82,9 @@
 		{
 			dependencies: ["5BD4C23644BF2703"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:poppy"
+			}
 			id: "4F114B795F9ABFD0"
 			rewards: [
 				{
@@ -106,6 +115,9 @@
 		{
 			dependencies: ["5BD4C23644BF2703"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:calcite"
+			}
 			id: "2C1B93F1A534E681"
 			rewards: [{
 				id: "1EB379BB0AC9B085"
@@ -181,6 +193,9 @@
 		{
 			dependencies: ["6E3D3BA7844BFBCD"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:cooking_pot"
+			}
 			id: "2C42B4AF446B4BD9"
 			rewards: [{
 				id: "0835D15B612E2CCB"
@@ -201,6 +216,9 @@
 		{
 			dependencies: ["2C42B4AF446B4BD9"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:mincer"
+			}
 			id: "1A6015D93785C5F8"
 			rewards: [{
 				id: "4C91067147C529A8"
@@ -221,6 +239,9 @@
 		{
 			dependencies: ["1A6015D93785C5F8"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:crafting_bowl"
+			}
 			id: "2C347959EBCF675E"
 			rewards: [{
 				id: "42DA83C58046FB45"
@@ -241,6 +262,9 @@
 		{
 			dependencies: ["2C347959EBCF675E"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:stove"
+			}
 			id: "49BBEA6293EEAE79"
 			rewards: [{
 				count: 16
@@ -328,6 +352,9 @@
 		{
 			dependencies: ["59449FD43D19FE6B"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "meadow:cooking_cauldron"
+			}
 			id: "53A97CAB5255B2F3"
 			rewards: [
 				{
@@ -408,6 +435,9 @@
 		{
 			dependencies: ["0F53FC1CCEA5E2FA"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:brown_mushroom"
+			}
 			id: "7EF0A60D2381B72D"
 			rewards: [
 				{
@@ -445,6 +475,9 @@
 		{
 			dependencies: ["7EF0A60D2381B72D"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:roaster"
+			}
 			id: "4A69082167D41264"
 			rewards: [{
 				id: "21835F5D09971518"
@@ -465,6 +498,9 @@
 		{
 			dependencies: ["4A69082167D41264"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "beachparty:mini_fridge"
+			}
 			id: "3249330012813FDA"
 			rewards: [
 				{
@@ -505,6 +541,9 @@
 		{
 			dependencies: ["3249330012813FDA"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "beachparty:palm_bar"
+			}
 			id: "4CEB9362A3403CA6"
 			rewards: [{
 				count: 16
@@ -526,6 +565,9 @@
 		{
 			dependencies: ["4CEB9362A3403CA6"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "herbalbrews:dried_green_tea_leaf_block"
+			}
 			id: "385BF7D960C48CEF"
 			rewards: [
 				{
@@ -572,6 +614,9 @@
 		{
 			dependencies: ["385BF7D960C48CEF"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "herbalbrews:tea_kettle"
+			}
 			id: "21BA88188D23BF4E"
 			rewards: [
 				{
@@ -600,6 +645,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 16
+					id: "6002C44BFBD7A09C"
+					item: {
+						count: 1
+						id: "vinery:jungle_lattice"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "2D9CFCD25DE15604"
@@ -612,6 +666,9 @@
 		{
 			dependencies: ["21BA88188D23BF4E"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "vinery:grapevine_pot"
+			}
 			id: "49A24AD6CB0927FB"
 			rewards: [{
 				id: "04E13CC83B36BF4F"
@@ -632,6 +689,9 @@
 		{
 			dependencies: ["49A24AD6CB0927FB"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "vinery:fermentation_barrel"
+			}
 			id: "74D876358D8D89DB"
 			rewards: [{
 				id: "2D6056F36620FB2C"
@@ -652,6 +712,9 @@
 		{
 			dependencies: ["74D876358D8D89DB"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "vinery:apple_press"
+			}
 			id: "7F9E567D1A1178E6"
 			rewards: [{
 				count: 8
@@ -673,6 +736,9 @@
 		{
 			dependencies: ["7F9E567D1A1178E6"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:silo_wood"
+			}
 			id: "0D128DE964133D4A"
 			rewards: [
 				{
@@ -704,7 +770,19 @@
 		{
 			dependencies: ["0D128DE964133D4A"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "brewery:wooden_brewingstation"
+			}
 			id: "144B3D6C8E09A63D"
+			rewards: [{
+				count: 64
+				id: "34FF5BCC689E0877"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A9D140564747443"
 				item: { count: 1, id: "brewery:beer_wheat" }

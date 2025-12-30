@@ -53,6 +53,13 @@ with an empty hand to craft
 
 - put in ingredients into the ingredient slots
 
+# How to use the Caking station:
+- Right click the caking station while holding a cake dough. After that you can do different interactions with the cake dough: 
+
+- Knife -> Cutting -> Use Jam on it -> Make Cupcakes 
+- Knife -> Rolling Pin -> Use Jam on it -> Make Cookies 
+- Using Jam on it -> Make a cake
+
 
 # How to use the meadow cooking caldron
 - place the frame
