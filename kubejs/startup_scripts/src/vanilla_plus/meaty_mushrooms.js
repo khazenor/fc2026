@@ -95,3 +95,8 @@ RequestHandler.recipes.add.stonecuttingWithTags([
   ['#c:foods/raw_meat', MeatyMushrooms.pattyId],
   ['#c:foods/cooked_meat', MeatyMushrooms.cookedPattyId]
 ])
+
+RequestHandler.recipes.add.stonecuttingWithArrayOutput([
+  [['minecraft:cod', 'minecraft:salmon'], MeatyMushrooms.pattyId],
+  [['minecraft:cooked_cod', 'minecraft:cooked_salmon'], MeatyMushrooms.cookedPattyId]
+])

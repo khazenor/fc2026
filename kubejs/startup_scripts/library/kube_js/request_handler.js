@@ -60,6 +60,17 @@ const RequestHandler = {
         this.stonecuttingCache = this.stonecuttingCache.concat(defs)
       },
       stonecuttingCache: [],
+      stonecuttingWithArrayOutput (defs) {
+        let updatedDefs = []
+        for (let def of defs) {
+          let outputIds = def[0]
+          let inputId = def[1]
+          for (let outputId of outputIds) {
+            updatedDefs.push([outputId, inputId])
+          }
+        }
+        this.stonecuttingCache = this.stonecuttingCache.concat(updatedDefs)
+      },
       stonecuttingWithTags (defs) {
         this.stonecuttingWithTagsCache = this.stonecuttingWithTagsCache.concat(defs)
       },

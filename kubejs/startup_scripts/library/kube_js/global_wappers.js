@@ -45,7 +45,9 @@ global.ServerEventsTagsItem = (event) => {
   )
 
   RequestHandler.tags.item.addCache.forEach(request => {
-    event.add(request[0], request[1])
+    let tagName = request[0]
+    let itemIds = request[1]
+    event.add(tagName, itemIds)
   })
 }
 
