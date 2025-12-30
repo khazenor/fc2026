@@ -390,36 +390,18 @@
 			id: "0F53FC1CCEA5E2FA"
 			rewards: [
 				{
-					count: 16
-					id: "702D484633894823"
+					id: "63C85AC5CEAB1C8F"
 					item: {
 						count: 1
-						id: "minecraft:brown_mushroom"
+						id: "meadow:cheese_form"
 					}
 					type: "item"
 				}
 				{
-					id: "6627386FF5A3BE78"
+					id: "68544AA970A92D82"
 					item: {
 						count: 1
-						id: "botanypots:terracotta_hopper_botany_pot"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "3D481FA8B1168370"
-					item: {
-						count: 1
-						id: "minecraft:mycelium"
-					}
-					type: "item"
-				}
-				{
-					id: "4C8446D6AD0CC485"
-					item: {
-						count: 1
-						id: "minecraft:stonecutter"
+						id: "minecraft:cow_spawn_egg"
 					}
 					type: "item"
 				}
@@ -433,30 +415,20 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["0F53FC1CCEA5E2FA"]
+			dependencies: ["0630CE07E50C1851"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:brown_mushroom"
 			}
 			id: "7EF0A60D2381B72D"
-			rewards: [
-				{
-					id: "15EF7B732CA2602A"
-					item: {
-						count: 1
-						id: "farm_and_charm:roaster"
-					}
-					type: "item"
+			rewards: [{
+				id: "15EF7B732CA2602A"
+				item: {
+					count: 1
+					id: "farm_and_charm:roaster"
 				}
-				{
-					id: "129E62CCD0FB8BBB"
-					item: {
-						count: 1
-						id: "minecraft:cow_spawn_egg"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2C41642E8C56AF79"
@@ -469,8 +441,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 1.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7EF0A60D2381B72D"]
@@ -492,7 +464,7 @@
 				item: { count: 1, id: "candlelight:fillet_steak" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -535,7 +507,7 @@
 				item: { count: 1, id: "minecraft:ice" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -559,7 +531,7 @@
 				item: { count: 1, id: "beachparty:cocoa_cocktail" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -608,7 +580,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -660,8 +632,8 @@
 				item: { count: 1, id: "herbalbrews:green_tea" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21BA88188D23BF4E"]
@@ -683,7 +655,7 @@
 				item: { count: 1, id: "vinery:red_grapejuice" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 3.0d
 		}
 		{
@@ -706,7 +678,7 @@
 				item: { count: 1, id: "vinery:noir_wine" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -730,7 +702,7 @@
 				item: { count: 1, id: "vinery:apple_juice" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 3.0d
 		}
 		{
@@ -764,7 +736,7 @@
 				item: { count: 1, id: "brewery:dried_wheat" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -788,8 +760,59 @@
 				item: { count: 1, id: "brewery:beer_wheat" }
 				type: "item"
 			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F53FC1CCEA5E2FA"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "meadow:cheese_form"
+			}
+			id: "0630CE07E50C1851"
+			rewards: [
+				{
+					count: 16
+					id: "366D651A053ED389"
+					item: {
+						count: 1
+						id: "minecraft:brown_mushroom"
+					}
+					type: "item"
+				}
+				{
+					id: "4DEF5FDF297534C6"
+					item: {
+						count: 1
+						id: "botanypots:terracotta_hopper_botany_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "632FD3AF22594DBF"
+					item: {
+						count: 1
+						id: "minecraft:mycelium"
+					}
+					type: "item"
+				}
+				{
+					id: "72CE4ED97CCEC8FD"
+					item: {
+						count: 1
+						id: "minecraft:stonecutter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74F29F19982FAB25"
+				item: { count: 1, id: "meadow:cheese_block" }
+				type: "item"
+			}]
 			x: 2.0d
-			y: 3.0d
+			y: 1.0d
 		}
 	]
 }
