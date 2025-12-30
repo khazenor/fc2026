@@ -420,5 +420,276 @@ questlines = [
         ]
       }
     ]
+  },
+  { # Cooking collection
+    filenameKey: 'cooking_collection',
+    nameKey: 'Cooking Collection',
+    iconKey: 'bakery:strawberry_cupcake',
+    collectionNotificationKey: 'New dish cooked!',
+    increaseRateKey: 0.04,
+    typeKey: itemQuestTypeConst,
+    questStartAtCenterKey: True,
+    questGroupsKey: [
+      ## Lets Do Foods
+      { # Oven
+        nameKey: 'Cooking Pot Completion',
+        iconKey: 'farm_and_charm:cooking_pot',
+        dependencyIdKey: '2C42B4AF446B4BD9', # Cooking with a Pot
+        tasksKey: [
+          "bakery:apple_jam",
+          "bakery:chocolate_jam",
+          "bakery:glowberry_jam",
+          "bakery:strawberry_jam",
+          "bakery:sweetberry_jam",
+          "bakery:chocolate_truffle",
+          "bakery:pudding",
+          "candlelight:chicken_teriyaki",
+          "candlelight:chocolate_mousse",
+          "candlelight:khinkali",
+          "candlelight:mushroom_soup",
+          "candlelight:pasta_with_mozzarella",
+          "candlelight:salmon_on_white_wine",
+          "candlelight:tomato_soup",
+          "farm_and_charm:barley_soup",
+          "farm_and_charm:corn_grits",
+          "farm_and_charm:goulash",
+          "farm_and_charm:nettle_tea",
+          "farm_and_charm:onion_soup",
+          "farm_and_charm:potato_soup",
+          "farm_and_charm:ribwort_tea",
+          "farm_and_charm:simple_tomato_soup",
+          "farm_and_charm:strawberry_tea",
+          "brewery:dumplings",
+          "brewery:sausage"
+        ]
+      }, {
+        nameKey: 'Mincer Completion',
+        iconKey: 'farm_and_charm:mincer',
+        dependencyIdKey: '1A6015D93785C5F8', # Mincing Wheat
+        tasksKey: [
+          "brewery:half_chicken",
+          "brewery:mashed_potatoes",
+          "farm_and_charm:lamb_ham"
+        ]
+      }, {
+        nameKey: 'Crafting Bowl Completion',
+        iconKey: 'farm_and_charm:crafting_bowl',
+        dependencyIdKey: '2C347959EBCF675E', # Bowl Mixing
+        tasksKey: [
+          "brewery:potato_salad",
+          "candlelight:beef_tartare",
+          "candlelight:beetroot_salad",
+          "candlelight:fresh_garden_salad",
+          "candlelight:harvest_plate",
+          "candlelight:mozzarella",
+          "candlelight:salad",
+          "candlelight:tomato_mozzarella_salad",
+          "farm_and_charm:farmer_salad",
+          "farm_and_charm:oatmeal_with_strawberries"
+        ]
+      }, {
+        nameKey: 'Stove Completion',
+        dependencyIdKey: '49BBEA6293EEAE79', # Stove Baking
+        iconKey:'farm_and_charm:stove',
+        tasksKey: [
+          "bakery:apple_pie",
+          "bakery:baguette",
+          "bakery:braided_bread",
+          "bakery:bread",
+          "bakery:bun",
+          "bakery:bundt_cake",
+          "bakery:chocolate_tart",
+          "bakery:cornet",
+          "bakery:croissant",
+          "bakery:crusty_bread",
+          "bakery:glowberry_tart",
+          "bakery:grilled_bacon_sandwich",
+          "bakery:grilled_salmon_sandwich",
+          "bakery:jam_roll",
+          "bakery:linzer_tart",
+          "bakery:misslilitu_biscuit",
+          "bakery:toast",
+          "bakery:waffle",
+          "brewery:gingerbread",
+          "brewery:pork_knuckle",
+          "brewery:pretzel",
+          "candlelight:beef_wellington",
+          "candlelight:chicken_alfredo",
+          "candlelight:chicken_with_vegetables",
+          "candlelight:lasagne",
+          "candlelight:pork_ribs",
+          "candlelight:roastbeef_with_glazed_carrots",
+          "candlelight:tropical_fish_supreme",
+          "farm_and_charm:baked_lamb_ham",
+          "farm_and_charm:farmers_bread",
+          "farm_and_charm:grandmothers_strawberry_cake",
+          "farm_and_charm:pasta_with_onion_sauce",
+          "farm_and_charm:potato_with_roast_meat",
+          "farm_and_charm:roasted_chicken",
+          "farm_and_charm:roasted_corn",
+          "farm_and_charm:stuffed_chicken",
+          "farm_and_charm:stuffed_rabbit"
+        ]
+      }, {
+        nameKey: 'Caking Completion',
+        dependencyIdKey: '5B2855A053DE0501', # Caking Station
+        iconKey:'bakery:baker_station',
+        tasksKey: [
+          "bakery:sweetberry_glazed_cookie",
+          "bakery:strawberry_glazed_cookie",
+          "bakery:chocolate_glazed_cookie",
+
+          "bakery:sweetberry_cupcake",
+          "bakery:strawberry_cupcake",
+          "bakery:apple_cupcake",
+
+          "bakery:sweetberry_cake",
+          "bakery:strawberry_cake",
+          "bakery:chocolate_cake",
+          "bakery:chocolate_gateau"
+        ]
+      }, {
+        nameKey: 'Cheese Form Completion',
+        dependencyIdKey: '0630CE07E50C1851', # Forming Cheese
+        iconKey:'meadow:cheese_form',
+        tasksKey: [
+          "meadow:cheese_block",
+          "meadow:sheep_cheese_block",
+          "meadow:goat_cheese_block",
+          "meadow:buffalo_cheese_block",
+          "meadow:grain_cheese_block",
+          "meadow:amethyst_cheese_block",
+          "meadow:warped_cheese_block"
+        ]
+      }, {
+        nameKey: 'Cooking Caldron Completion',
+        dependencyIdKey: '59449FD43D19FE6B', # Using the Cooking Caldron
+        iconKey: 'meadow:cooking_cauldron',
+        tasksKey:[
+          "meadow:cooked_buffalo_meat",
+          "meadow:sausage_with_cheese",
+          "meadow:roasted_ham"
+        ]
+      }, {
+        nameKey: 'Roaster Completion',
+        dependencyIdKey: '4A69082167D41264', # Roaster Roasting
+        iconKey:'farm_and_charm:roaster',
+        tasksKey: [
+          "brewery:fried_chicken",
+          "candlelight:beef_with_mushroom_in_wine_and_potatoes",
+          "candlelight:bolognese",
+          "candlelight:fillet_steak",
+          "candlelight:omelet",
+          "candlelight:pasta_with_lettuce",
+          "candlelight:pasta_with_bolognese",
+          "candlelight:roasted_lamb_with_lettuce",
+          "farm_and_charm:bacon_with_eggs",
+          "farm_and_charm:barley_patties_with_potatoes",
+          "farm_and_charm:beef_patty_with_vegetables",
+          "farm_and_charm:chicken_wrapped_in_bacon",
+          "farm_and_charm:cooked_cod",
+          "farm_and_charm:cooked_salmon",
+          "farm_and_charm:lamb_with_corn",
+          "farm_and_charm:oat_pancake",
+          "farm_and_charm:sausage_with_oat_patty"
+        ]
+      }, {
+        nameKey: 'Palm Bar Completion',
+        dependencyIdKey: '4CEB9362A3403CA6', # Making Cocktails
+        iconKey:'beachparty:palm_bar',
+        tasksKey: [
+          "beachparty:cocoa_cocktail",
+          "beachparty:coconut_cocktail",
+          "beachparty:honey_cocktail",
+          "beachparty:melon_cocktail",
+          "beachparty:pumpkin_cocktail",
+          "beachparty:sweetberries_cocktail"
+        ]
+      }, {
+        nameKey: 'Tea Brewing Completion',
+        dependencyIdKey: '21BA88188D23BF4E', # Brewing Tea
+        iconKey:'herbalbrews:tea_kettle',
+        tasksKey: [
+          "herbalbrews:green_tea",
+          "herbalbrews:black_tea",
+          "herbalbrews:oolong_tea",
+          "herbalbrews:hibiscus_tea",
+          "herbalbrews:lavender_tea",
+          "herbalbrews:rooibos_tea",
+          "herbalbrews:coffee",
+          "herbalbrews:milk_coffee",
+          "herbalbrews:yerba_mate_tea"
+        ]
+      }, {
+        nameKey: 'Juicing Completion',
+        dependencyIdKey: '49A24AD6CB0927FB', # Mashing Grape Juice
+        iconKey:'vinery:apple_press',
+        tasksKey: [
+          'vinery:red_grapejuice',
+          'vinery:white_grapejuice',
+          'vinery:red_taiga_grapejuice',
+          'vinery:white_taiga_grapejuice',
+          'vinery:red_jungle_grapejuice',
+          'vinery:white_jungle_grapejuice',
+          'vinery:red_savanna_grapejuice',
+          'vinery:white_savanna_grapejuice',
+          'vinery:apple_juice'
+        ]
+      }, {
+        nameKey: 'Barrel Brewing Completion',
+        dependencyIdKey: '74D876358D8D89DB', # Barrel Brewing
+        iconKey:'vinery:fermentation_barrel',
+        tasksKey: [
+          "vinery:aegis_wine",
+          "vinery:apple_cider",
+          "vinery:apple_wine",
+          "vinery:bolvar_wine",
+          "vinery:bottle_mojang_noir",
+          "vinery:chenet_wine",
+          "vinery:cherry_wine",
+          "vinery:chorus_wine",
+          "vinery:clark_wine",
+          "vinery:creepers_crush",
+          "vinery:cristel_wine",
+          "vinery:eiswein",
+          "vinery:glowing_wine",
+          "vinery:jellie_wine",
+          "vinery:jo_special_mixture",
+          "vinery:kelp_cider",
+          "vinery:lilitu_wine",
+          "vinery:magnetic_wine",
+          "vinery:mead",
+          "vinery:mellohi_wine",
+          "vinery:noir_wine",
+          "vinery:red_wine",
+          "vinery:solaris_wine",
+          "vinery:stal_wine",
+          "vinery:strad_wine",
+          "vinery:villagers_fright"
+        ]
+      }, {
+        nameKey: 'Beer Brewing Completion',
+        dependencyIdKey: '144B3D6C8E09A63D', # Beer Brewing
+        iconKey:'brewery:wooden_brewingstation',
+        tasksKey: [
+          "brewery:beer_barley",
+          "brewery:dark_brew",
+          "brewery:beer_haley",
+          "brewery:beer_hops",
+          "brewery:beer_nettle",
+          "brewery:beer_oat",
+          "brewery:beer_wheat",
+          "brewery:whiskey_ak",
+          "brewery:whiskey_cristelwalker",
+          "brewery:whiskey_carrasconlabel",
+          "brewery:whiskey_highland_hearth",
+          "brewery:whiskey_jamesons_malt",
+          "brewery:whiskey_jojannik",
+          "brewery:whiskey_lilitusinglemalt",
+          "brewery:whiskey_maggoallan",
+          "brewery:whiskey_smokey_reverie"
+        ]
+      }
+    ]
   }
 ]

@@ -7,16 +7,16 @@ questFilenameKey = 'questFilename'
 increaseRateKey = 'increaseRate'
 lastQuestItemKey = 'lastQuestItem'
 collections = [
-	# {
-	# 	nameKey: "Dish",
-	# 	pluralKey: "es",
-	# 	iconKey: "farmersdelight:cooking_pot",
-	# 	lastQuestItemKey: 'kubejs:cert_cook_diamond',
-	# 	actionKey: "Cooked",
-	# 	collectionKey: "Cooking Collection",
-	# 	increaseRateKey: 0.08,
-	# 	questFilenameKey: 'cooking_collection'
-	# },
+	{
+		nameKey: "Dish",
+		pluralKey: "es",
+		iconKey: "farm_and_charm:cooking_pot",
+		lastQuestItemKey: 'kubejs:cert_cook_diamond',
+		actionKey: "Cooked",
+		collectionKey: "Cooking Collection",
+		increaseRateKey: 0.08,
+		questFilenameKey: 'cooking_collection'
+	},
 	{
 		nameKey: "Fish",
 		pluralKey: "es",
