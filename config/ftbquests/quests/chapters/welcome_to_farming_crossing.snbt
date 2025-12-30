@@ -75,7 +75,7 @@
 		}
 		{
 			dependencies: ["5BD4C23644BF2703"]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "4F114B795F9ABFD0"
 			rewards: [
 				{
@@ -105,6 +105,7 @@
 		}
 		{
 			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
 			id: "2C1B93F1A534E681"
 			rewards: [{
 				id: "1EB379BB0AC9B085"
@@ -632,12 +633,84 @@
 			dependencies: ["49A24AD6CB0927FB"]
 			hide_until_deps_complete: true
 			id: "74D876358D8D89DB"
+			rewards: [{
+				id: "2D6056F36620FB2C"
+				item: {
+					count: 1
+					id: "vinery:apple_press"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1390B9A0D49B2300"
 				item: { count: 1, id: "vinery:noir_wine" }
 				type: "item"
 			}]
 			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74D876358D8D89DB"]
+			hide_until_deps_complete: true
+			id: "7F9E567D1A1178E6"
+			rewards: [{
+				count: 8
+				id: "21FE2B7C6BC4E3C1"
+				item: {
+					count: 1
+					id: "farm_and_charm:silo_wood"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "602E51A53B3E35A8"
+				item: { count: 1, id: "vinery:apple_juice" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F9E567D1A1178E6"]
+			hide_until_deps_complete: true
+			id: "0D128DE964133D4A"
+			rewards: [
+				{
+					count: 16
+					id: "5A254F27D8343746"
+					item: {
+						count: 1
+						id: "brewery:hops_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "1D06BD934615F381"
+					item: {
+						count: 1
+						id: "brewery:wooden_brewingstation"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AD78226211E1223"
+				item: { count: 1, id: "brewery:dried_wheat" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D128DE964133D4A"]
+			hide_until_deps_complete: true
+			id: "144B3D6C8E09A63D"
+			tasks: [{
+				id: "7A9D140564747443"
+				item: { count: 1, id: "brewery:beer_wheat" }
+				type: "item"
+			}]
+			x: 2.0d
 			y: 3.0d
 		}
 	]
