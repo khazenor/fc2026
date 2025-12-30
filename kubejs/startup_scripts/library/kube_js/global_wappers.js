@@ -103,7 +103,7 @@ global.ServerEventsRecipes = (event) => {
     })
   })
 
-  RequestHandler.recipes.add.smithing.forEach(def => {
+  RequestHandler.recipes.add.smithingCache.forEach(def => {
     let output = def[0]
     let itemToUpgrade = def[1]
     let upgradeMaterial = def[2]
