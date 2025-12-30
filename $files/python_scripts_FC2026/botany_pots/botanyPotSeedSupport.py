@@ -12,5 +12,5 @@ def genBotanySeedSupport():
 		)
 	for simpleItem in simpleSeedDefs.simpleSeedDefs:
 		botanyBots.writeSeedJson(
-			simpleItem, simpleItem, growthTicks=2000
+			simpleItem, simpleItem, simpleItem
     )

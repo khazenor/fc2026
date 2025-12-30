@@ -201,6 +201,14 @@
 			dependencies: ["2C42B4AF446B4BD9"]
 			hide_until_deps_complete: true
 			id: "1A6015D93785C5F8"
+			rewards: [{
+				id: "4C91067147C529A8"
+				item: {
+					count: 1
+					id: "farm_and_charm:crafting_bowl"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D80D9E64CAAD520"
 				item: { count: 1, id: "farm_and_charm:flour" }
@@ -233,37 +241,32 @@
 			dependencies: ["2C347959EBCF675E"]
 			hide_until_deps_complete: true
 			id: "49BBEA6293EEAE79"
-			tasks: [{
-				id: "30E69AB566455F9D"
-				item: { count: 1, id: "bakery:bread" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["49BBEA6293EEAE79"]
-			hide_until_deps_complete: true
-			id: "774137239E569FC8"
 			rewards: [{
 				count: 16
-				id: "3457C25692C22D3B"
+				id: "3EB593B1A0BCD070"
 				item: {
 					count: 1
 					id: "minecraft:sweet_berries"
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "36472D6AAE9515D8"
-				item: { count: 1, id: "bakery:cake_dough" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
+			tasks: [
+				{
+					id: "30E69AB566455F9D"
+					item: { count: 1, id: "bakery:bread" }
+					type: "item"
+				}
+				{
+					id: "2903E91A3356F0A5"
+					item: { count: 1, id: "bakery:cake_dough" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["774137239E569FC8"]
+			dependencies: ["49BBEA6293EEAE79"]
 			hide_until_deps_complete: true
 			id: "5B2855A053DE0501"
 			rewards: [{
@@ -279,7 +282,7 @@
 				item: { count: 1, id: "bakery:sweetberry_jam" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -318,7 +321,7 @@
 				item: { count: 1, id: "bakery:sweetberry_cupcake" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -350,20 +353,292 @@
 				item: { count: 1, id: "meadow:alpine_salt" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["53A97CAB5255B2F3"]
 			hide_until_deps_complete: true
 			id: "0F53FC1CCEA5E2FA"
+			rewards: [
+				{
+					count: 16
+					id: "702D484633894823"
+					item: {
+						count: 1
+						id: "minecraft:brown_mushroom"
+					}
+					type: "item"
+				}
+				{
+					id: "6627386FF5A3BE78"
+					item: {
+						count: 1
+						id: "botanypots:terracotta_hopper_botany_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3D481FA8B1168370"
+					item: {
+						count: 1
+						id: "minecraft:mycelium"
+					}
+					type: "item"
+				}
+				{
+					id: "4C8446D6AD0CC485"
+					item: {
+						count: 1
+						id: "minecraft:stonecutter"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7B3ADFA9D83A05CE"
 				item: { count: 1, id: "meadow:rennet" }
 				type: "item"
 			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F53FC1CCEA5E2FA"]
+			hide_until_deps_complete: true
+			id: "7EF0A60D2381B72D"
+			rewards: [
+				{
+					id: "15EF7B732CA2602A"
+					item: {
+						count: 1
+						id: "farm_and_charm:roaster"
+					}
+					type: "item"
+				}
+				{
+					id: "129E62CCD0FB8BBB"
+					item: {
+						count: 1
+						id: "minecraft:cow_spawn_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C41642E8C56AF79"
+					item: { count: 1, id: "kubejs:mushroom_patty" }
+					type: "item"
+				}
+				{
+					id: "1648713EC1D08354"
+					item: { count: 1, id: "minecraft:beef" }
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["7EF0A60D2381B72D"]
+			hide_until_deps_complete: true
+			id: "4A69082167D41264"
+			rewards: [{
+				id: "21835F5D09971518"
+				item: {
+					count: 1
+					id: "beachparty:mini_fridge"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7187103EA1747A25"
+				item: { count: 1, id: "candlelight:fillet_steak" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A69082167D41264"]
+			hide_until_deps_complete: true
+			id: "3249330012813FDA"
+			rewards: [
+				{
+					id: "01883495A05A05A6"
+					item: {
+						count: 1
+						id: "beachparty:palm_bar"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1875BCEB879812D1"
+					item: {
+						count: 1
+						id: "minecraft:cocoa_beans"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "03A8F72B0BB2412B"
+					item: {
+						count: 1
+						id: "minecraft:jungle_log"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EFAD014D5B05534"
+				item: { count: 1, id: "minecraft:ice" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3249330012813FDA"]
+			hide_until_deps_complete: true
+			id: "4CEB9362A3403CA6"
+			rewards: [{
+				count: 16
+				id: "1DC60DCAE1C2CB90"
+				item: {
+					count: 1
+					id: "herbalbrews:tea_blossom"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2297A7375502BBAF"
+				item: { count: 1, id: "beachparty:cocoa_cocktail" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CEB9362A3403CA6"]
+			hide_until_deps_complete: true
+			id: "385BF7D960C48CEF"
+			rewards: [
+				{
+					id: "4E0194C183FA28C1"
+					item: {
+						count: 1
+						id: "herbalbrews:tea_kettle"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "19754F8086ABEFAC"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "599B09A4E4FCC5CF"
+					item: {
+						count: 1
+						id: "farm_and_charm:stove"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "43791B6903A4534A"
+					item: { count: 1, id: "herbalbrews:green_tea_leaf_block" }
+					type: "item"
+				}
+				{
+					id: "78669B9CCA641361"
+					item: { count: 1, id: "herbalbrews:dried_green_tea" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["385BF7D960C48CEF"]
+			hide_until_deps_complete: true
+			id: "21BA88188D23BF4E"
+			rewards: [
+				{
+					count: 16
+					id: "3056C2AF363AC3E5"
+					item: {
+						count: 1
+						id: "vinery:red_grape_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "7F81166246A2EB21"
+					item: {
+						count: 1
+						id: "vinery:grapevine_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "34CCE2213F0E8970"
+					item: {
+						count: 1
+						id: "vinery:wine_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D9CFCD25DE15604"
+				item: { count: 1, id: "herbalbrews:green_tea" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21BA88188D23BF4E"]
+			hide_until_deps_complete: true
+			id: "49A24AD6CB0927FB"
+			rewards: [{
+				id: "04E13CC83B36BF4F"
+				item: {
+					count: 1
+					id: "vinery:fermentation_barrel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0827A6018C65B03D"
+				item: { count: 1, id: "vinery:red_grapejuice" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49A24AD6CB0927FB"]
+			hide_until_deps_complete: true
+			id: "74D876358D8D89DB"
+			tasks: [{
+				id: "1390B9A0D49B2300"
+				item: { count: 1, id: "vinery:noir_wine" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
 		}
 	]
 }

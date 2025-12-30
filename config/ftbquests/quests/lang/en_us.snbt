@@ -18,6 +18,14 @@
 		"- right click the mincer if your input ingredient"
 		"- hold right click on the mincer to process the ingredient to their output"
 	]
+	quest.21BA88188D23BF4E.quest_desc: [
+		"# How to brew teas from herbal brews:"
+		"- place a stove"
+		"- place the tea kettle on top of the stove"
+		"- place the ingredients and the container in their respective slots"
+		"- add blaze powder into the blaze powder slot until the pot it hot enough to brew the tea."
+		"- (you can grow blaze rods using blaze powder in the botany pot)"
+	]
 	quest.237FE170DCEF0E64.title: "Collected 10 Unique Flora!"
 	quest.295061854693C97A.title: "Collected 35 Unique Flora!"
 	quest.2C347959EBCF675E.quest_desc: [
@@ -48,6 +56,19 @@
 	quest.3276A212EDB474BA.title: "Aquarium Completion!"
 	quest.363CC5FDB568A27D.title: "Vanilla Sapling Completion"
 	quest.3849B0B4C3D81A24.title: "Vanilla Foods Completion"
+	quest.385BF7D960C48CEF.quest_desc: [
+		"# How to get tea leaves from herbal brews:"
+		"- grow green tea leaves by planting tea blossoms on farmlands or in botany pots"
+		"- craft a green tea leaf block in a crafting table"
+		"- place the green tea leaf block on the ground and wait for it to dry"
+		"- break the block to get green tea leaves after green particles no longer emit from the tea block"
+		"## black tea"
+		"- craft dried green tea leaf block from green tea leaves"
+		"- place the block down to dry to a black tea leave block"
+		"## Oolong tea"
+		"- craft a mix tea leaf block using green and black tea leaves"
+		"- place the block down to dry to a oolong tea leaf block"
+	]
 	quest.3B3862E9FF250C0C.title: "Caught 2 Unique Fishes!"
 	quest.3D6181906ADC7014.title: "Vanilla Flower Completion"
 	quest.3E5304852BAF4E53.title: "Modded Saplings"
@@ -58,11 +79,23 @@
 	quest.47254C7C6ACB15E3.title: "Biome Ground Covers"
 	quest.475B5DD94020E4C0.title: "Collected 10 Unique Minerals!"
 	quest.4978B74B1C3BC5A7.title: "Caught 5 Unique Fishes!"
+	quest.49A24AD6CB0927FB.quest_desc: [
+		"# How to make grape juice from vinery:"
+		"- place a grape pot"
+		"- right click the pot with grapes until you can't anymore"
+		"- jump on top of the pot until the content of the pot is fully liquid"
+		"- right click the pot with empty wine bottle to get the juice"
+	]
 	quest.49BBEA6293EEAE79.quest_desc: [
 		"# How to use the farm and charm stove:"
 		"- place the stove"
 		"- put in fuel (e.g. coal) into the fuel slot"
 		"- put in ingredients into the ingredient slots"
+	]
+	quest.4A69082167D41264.quest_desc: [
+		"# How to use the roaster from farm and charm:"
+		"- place the roaster on top of a stove"
+		"- put the ingredients and the container into their respective slots"
 	]
 	quest.4B1F3644119B6957.title: "Collected 2 Unique Minerals!"
 	quest.4C25B193AEB81C44.title: "Biome Misc"
@@ -90,7 +123,19 @@
 	quest.66E0ADE0CB1FB995.title: "Collected 5 Unique Flora!"
 	quest.6BA6B6F18AD21A4E.title: "Aquarium Completion!"
 	quest.745AA53B27CCFED3.title: "Caught 20 Unique Fishes!"
+	quest.74D876358D8D89DB.quest_desc: [
+		"# How to brew wine from vinery:"
+		"- place down a fermentation barrel"
+		"- place the correct juice on the top left slot (you can see which juice is needed in jei by hovering slightly right of the coil)"
+		"- place the ingredients in the bottom three slots"
+	]
 	quest.7EBEA8535B48079B.title: "Collected 5 Unique Minerals!"
+	quest.7EF0A60D2381B72D.quest_desc: [
+		"# How to craft imitation meats in this modpack"
+		"- You can grow more mushrooms using the bottany pots using mycelium and mushrooms"
+		"- Craft mushroom patty using the crafting table"
+		"- Put the patty in the stonecutter to craft imitation meats"
+	]
 	reward_table.721C7014A1928346.title: "Building Packets"
 	task.00066943835F2155.title: "Free Task"
 	task.012E981C08D50698.title: "Free Task"

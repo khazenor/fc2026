@@ -36,5 +36,31 @@
                 "horizontalOffset": 61
             }
         }
+    },
+    "net.satisfy.herbalbrews.client.gui.TeaKettleGui": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -19
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -16
+            },
+            "SORT": {
+                "top": -16
+            },
+            "SORT_COLUMNS": {
+                "top": -16
+            },
+            "SORT_ROWS": {
+                "top": -16
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60,
+                "top": 3
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
     }
 }
