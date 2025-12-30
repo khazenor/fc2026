@@ -119,14 +119,25 @@
 				id: "minecraft:calcite"
 			}
 			id: "2C1B93F1A534E681"
-			rewards: [{
-				id: "1EB379BB0AC9B085"
-				item: {
-					count: 1
-					id: "minecraft:bundle"
+			rewards: [
+				{
+					id: "1EB379BB0AC9B085"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "057651607F938237"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5F60A140F50B49B9"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fc:minerals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -187,7 +198,7 @@
 				item: { count: 1, id: "minecraft:wheat_seeds" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -210,8 +221,8 @@
 				item: { count: 1, id: "farm_and_charm:yeast" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2C42B4AF446B4BD9"]
@@ -233,8 +244,8 @@
 				item: { count: 1, id: "farm_and_charm:flour" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1A6015D93785C5F8"]
@@ -256,8 +267,8 @@
 				item: { count: 1, id: "farm_and_charm:dough" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2C347959EBCF675E"]
@@ -287,8 +298,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 0.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["49BBEA6293EEAE79"]
@@ -307,7 +318,7 @@
 				item: { count: 1, id: "bakery:sweetberry_jam" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -346,8 +357,8 @@
 				item: { count: 1, id: "bakery:sweetberry_cupcake" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["59449FD43D19FE6B"]
@@ -381,8 +392,8 @@
 				item: { count: 1, id: "meadow:alpine_salt" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["53A97CAB5255B2F3"]
@@ -411,8 +422,8 @@
 				item: { count: 1, id: "meadow:rennet" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0630CE07E50C1851"]
@@ -441,7 +452,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -464,8 +475,8 @@
 				item: { count: 1, id: "candlelight:fillet_steak" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4A69082167D41264"]
@@ -507,8 +518,8 @@
 				item: { count: 1, id: "minecraft:ice" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3249330012813FDA"]
@@ -531,8 +542,8 @@
 				item: { count: 1, id: "beachparty:cocoa_cocktail" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CEB9362A3403CA6"]
@@ -580,8 +591,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 2.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["385BF7D960C48CEF"]
@@ -632,7 +643,7 @@
 				item: { count: 1, id: "herbalbrews:green_tea" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.0d
 			y: 3.0d
 		}
 		{
@@ -655,8 +666,8 @@
 				item: { count: 1, id: "vinery:red_grapejuice" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["49A24AD6CB0927FB"]
@@ -678,8 +689,8 @@
 				item: { count: 1, id: "vinery:noir_wine" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["74D876358D8D89DB"]
@@ -702,8 +713,8 @@
 				item: { count: 1, id: "vinery:apple_juice" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7F9E567D1A1178E6"]
@@ -736,8 +747,8 @@
 				item: { count: 1, id: "brewery:dried_wheat" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0D128DE964133D4A"]
@@ -760,7 +771,7 @@
 				item: { count: 1, id: "brewery:beer_wheat" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -811,8 +822,96 @@
 				item: { count: 1, id: "meadow:cheese_block" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			hide_until_deps_complete: true
+			id: "1D9D9EDF46B00402"
+			tasks: [{
+				icon: {
+					id: "tide:surface_loot_crate"
+				}
+				id: "3BCEACC7D9ECE8CB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tide:surface_loot_crate"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			hide_until_deps_complete: true
+			id: "49018D5EAEDCC6D0"
+			tasks: [{
+				id: "138E0131342F82D4"
+				item: { count: 1, id: "tide:iron_fishing_rod" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49018D5EAEDCC6D0"]
+			hide_until_deps_complete: true
+			id: "05928C54205E7A72"
+			tasks: [{
+				id: "142D07128CCD4041"
+				item: { count: 1, id: "tide:golden_fishing_rod" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05928C54205E7A72"]
+			hide_until_deps_complete: true
+			id: "1B0E143A290FFEAD"
+			tasks: [{
+				id: "6BE4F1013490EC35"
+				item: { count: 1, id: "tide:crystal_fishing_rod" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B0E143A290FFEAD"]
+			hide_until_deps_complete: true
+			id: "6A178AEFA75C2738"
+			tasks: [{
+				id: "01C273CDC47C9E98"
+				item: { count: 1, id: "tide:diamond_fishing_rod" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A178AEFA75C2738"]
+			hide_until_deps_complete: true
+			id: "64A71FBF1AFE313B"
+			tasks: [{
+				id: "62BD126C8F8AC3F9"
+				item: { count: 1, id: "tide:netherite_fishing_rod" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			id: "14A9F6B49A423D25"
+			tasks: [{
+				id: "5BC539CDC7DC6FFD"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 }

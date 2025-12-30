@@ -43,6 +43,7 @@
 	]
 	quest.1A6015D93785C5F8.title: "Mincing Wheat"
 	quest.1B6B73275C612510.title: "Catching Fishes"
+	quest.1D9D9EDF46B00402.title: "Fish up a Loot Crate"
 	quest.21AB524A7AF15A61.title: "Cooked 80 Unique Dishes!"
 	quest.21BA88188D23BF4E.quest_desc: [
 		"# How to brew teas from herbal brews:"
@@ -170,6 +171,7 @@
 	quest.694485ACECCFB855.title: "Tea Brewing Completion"
 	quest.6BA6B6F18AD21A4E.title: "Aquarium Completion!"
 	quest.6C5F3C2BE3568F1A.title: "Stove Completion"
+	quest.6E3D3BA7844BFBCD.title: "Cooking Jurney Begins"
 	quest.6F0C1C706C6AF72A.title: "Cooked 2 Unique Dishes!"
 	quest.7210EC2E7E8AC453.title: "Cooking Pot Completion"
 	quest.745AA53B27CCFED3.title: "Caught 20 Unique Fishes!"
@@ -229,6 +231,7 @@
 	task.377B20BA20B76B1C.title: "Free Task"
 	task.38A97816F3D70E39.title: "Free Task"
 	task.3AF408A73CFB4DEF.title: "Free Task"
+	task.3BCEACC7D9ECE8CB.title: "Look at a loot crate"
 	task.3E3B9E6878033CC2.title: "Free Task"
 	task.42D499781F4C79B0.title: "Free Task"
 	task.445F5207B35648AF.title: "Free Task"
