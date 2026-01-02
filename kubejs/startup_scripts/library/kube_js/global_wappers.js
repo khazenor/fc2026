@@ -91,7 +91,6 @@ global.ServerEventsRecipes = (event) => {
     let outputItem = def[0]
     let inputItem = def[1]
     
-    console.log(outputItem, inputItem, '---')
     event.stonecutting(outputItem, inputItem)
   })
 
@@ -151,3 +150,15 @@ global.compostable = {
   }
 }
 
+global.AStagesServerAccess = (AStagesRef) => {
+  // /astages add @p stage_recipe false true
+  // AStages.addRestrictionForRecipe('1b3d8d9g948gh', 'stage_recipe', 'crafting', 'minecraft:crafting_table')
+  RequestHandler.recipes.stage.stageDefs.forEach(stageDef => {
+    let defId = stageDef.defId
+    let stageName = stageDef.stageName
+    let itemId = stageDef.itemId
+    let recipeType = stageDef.recipeType
+    
+    AStagesRef.addRestrictionForRecipe(defId, stageName, recipeType, itemId)
+  })
+}

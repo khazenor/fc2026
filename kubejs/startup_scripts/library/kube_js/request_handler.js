@@ -93,6 +93,37 @@ const RequestHandler = {
         this.byModCache = this.byModCache.concat(mods)
       },
       byModCache: []
+    },
+    stage: {
+      addStageDef (stageName, itemId, recipeType) {
+        this.stageDefs.push({
+          defId: stageName,
+          stageName: stageName,
+          itemId: itemId,
+          recipeType: recipeType
+        })
+      },
+      crafting (stageName, itemId) {
+        this.addStageDef(stageName, itemId, 'crafting')
+      },
+      craftingMultiple (defs) {
+        for (let def of defs) {
+          let stageName = def[0]
+          let itemId = def[1]
+          this.crafting(stageName, itemId)
+        }
+      },
+      smithing (stageName, itemId) {
+        this.addStageDef(stageName, itemId, 'smithing')
+      },
+      smithingMultiple (defs) {
+        for (let def of defs) {
+          let stageName = def[0]
+          let itemId = def[1]
+          this.smithing(stageName, itemId)
+        }
+      },
+      stageDefs: []
     }
   },
   items: {
