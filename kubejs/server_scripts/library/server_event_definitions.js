@@ -35,11 +35,6 @@ ServerEvents.tags('worldgen/biome', event => {
 })
 
 ServerEvents.recipes(event => {
+  console.log("Ingredient.of('#c:foods').itemIds", Ingredient.of('#c:foods/raw_meat').itemIds)
   global.ServerEventsRecipes(event)
 })
-
-global.AStagesServerAccess(AStages)
-
-AStages.addRestrictionForRecipe('stage_recipe', 'stage_recipe', 'smithing', 'minecraft:netherite_chestplate')
-
-RMS.addRecipe('minecraft:smithing_transform', 'tide:iron_rod_smithing', 'asdff')
