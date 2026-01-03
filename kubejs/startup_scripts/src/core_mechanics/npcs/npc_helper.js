@@ -1,3 +1,4 @@
+// priority: 1
 const NpcHelper = {
   isTargetHumanoid (event) {
     return EventHelpers.targetEntityType(event) === 'easy_npc:humanoid'
@@ -48,5 +49,9 @@ const NpcHelper = {
       player.tell(Text.translatable('npcs.sellItem.areYouSureSell', itemName))
     }
     event.cancel()
+  },
+  registerItems (npcName) {
+    let lowerName = npcName.toLowerCase()
+    RequestHandler.items.create.simple([`${lowerName}`])
   }
 }

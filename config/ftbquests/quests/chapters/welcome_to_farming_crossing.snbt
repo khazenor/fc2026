@@ -913,5 +913,25 @@
 			x: 1.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["128BF811467F9A6F"]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:sam"
+			}
+			id: "71DD63453348DBE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15F240187BA04A2E"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39B5D0607784AC8A"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
 	]
 }

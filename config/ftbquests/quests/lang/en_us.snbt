@@ -1,6 +1,7 @@
 {
 	chapter.2687DD6461E11412.title: "Flora Compendium"
 	chapter.54A0FA6688D9C18E.title: "Cooking Collection"
+	chapter.54E0F0AC5FB1DBEC.title: "Villager Move-in"
 	chapter.5BF39E04B86F3E0E.title: "Mineral Museum"
 	chapter.6A0A643006B111D8.title: "Aquarium"
 	chapter.7264A648F9613D3D.title: "Farming Crossing!"
@@ -42,6 +43,7 @@
 		"- hold right click on the mincer to process the ingredient to their output"
 	]
 	quest.1A6015D93785C5F8.title: "Mincing Wheat"
+	quest.1B6B73275C612510.quest_desc: ["Catch 10 unique fishes to invite Sam to your area!"]
 	quest.1B6B73275C612510.title: "Catching Fishes"
 	quest.1D9D9EDF46B00402.title: "Fish up a Loot Crate"
 	quest.21AB524A7AF15A61.title: "Cooked 80 Unique Dishes!"
@@ -162,10 +164,12 @@
 	quest.5E30BB54995DB642.title: "Collected 110 Unique Flora!"
 	quest.609C71580309E47D.title: "Freshwater Completion"
 	quest.617112FB2651A093.title: "Cooking Caldron Completion"
+	quest.62DD1ED32EA1E29B.title: "Locate Sam"
 	quest.63A866594B197D5F.title: "Special Completion"
 	quest.6400ACD187A54476.title: "Caught 2 Unique Fishes!"
 	quest.65BA9D1B2DCE2F7E.title: "Collected 80 Unique Flora!"
 	quest.6606553B4C31D667.title: "Collected 2 Unique Flora!"
+	quest.662508CD3479F7E7.title: "Invite Sam"
 	quest.666D55906F99FC33.title: "Flora Compendium Completion!"
 	quest.66E0ADE0CB1FB995.title: "Collected 5 Unique Flora!"
 	quest.694485ACECCFB855.title: "Tea Brewing Completion"
@@ -173,6 +177,8 @@
 	quest.6C5F3C2BE3568F1A.title: "Stove Completion"
 	quest.6E3D3BA7844BFBCD.title: "Cooking Jurney Begins"
 	quest.6F0C1C706C6AF72A.title: "Cooked 2 Unique Dishes!"
+	quest.71DD63453348DBE8.quest_desc: ["Catch 10 unique fishes to invite Sam to your area!"]
+	quest.71DD63453348DBE8.title: "Move in Sam"
 	quest.7210EC2E7E8AC453.title: "Cooking Pot Completion"
 	quest.745AA53B27CCFED3.title: "Caught 20 Unique Fishes!"
 	quest.74D876358D8D89DB.quest_desc: [
@@ -195,6 +201,7 @@
 	quest.7EF0A60D2381B72D.title: "Meaty Mushrooms"
 	quest.7F9E567D1A1178E6.title: "Pressing Apple Juice"
 	quest.7FC81DCE4ACD2C25.title: "Roaster Completion"
+	reward.3E69470E1EE2C2F5.title: "Invite Sam"
 	reward_table.721C7014A1928346.title: "Building Packets"
 	task.00066943835F2155.title: "Free Task"
 	task.012E981C08D50698.title: "Free Task"

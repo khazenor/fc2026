@@ -1,0 +1,66 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "villager_movein"
+	group: ""
+	icon: {
+		id: "kubejs:jess"
+	}
+	id: "54E0F0AC5FB1DBEC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["71DD63453348DBE8"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:sam"
+			}
+			id: "662508CD3479F7E7"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:sam"
+				icon: {
+					id: "kubejs:sam"
+				}
+				id: "3E69470E1EE2C2F5"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				count: 4L
+				id: "492F448DC2186128"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71DD63453348DBE8"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "62DD1ED32EA1E29B"
+			rewards: [{
+				command: "/function fc_villagers:sam_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "1C6D1A7B94C78054"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "0C1C765B1B9E6986"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+	]
+}
