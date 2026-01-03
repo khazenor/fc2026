@@ -75,7 +75,10 @@ const RequestHandler = {
         this.stonecuttingWithTagsCache = this.stonecuttingWithTagsCache.concat(defs)
       },
       stonecuttingWithTagsCache: [],
-      smithing (defs) {
+      smithing (output, itemToUpgrade, upgradeMaterial1, upgradeMaterial2) {
+        this.smithingCache.push([output, itemToUpgrade, upgradeMaterial1, upgradeMaterial2])
+      },
+      smithingMult (defs) {
         this.smithingCache = this.smithingCache.concat(defs)
       },
       smithingCache: []
