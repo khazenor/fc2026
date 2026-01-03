@@ -91,7 +91,6 @@ global.ServerEventsRecipes = (event) => {
     let outputItem = def[0]
     let inputItem = def[1]
     
-    console.log(outputItem, inputItem, '---')
     event.stonecutting(outputItem, inputItem)
   })
 
