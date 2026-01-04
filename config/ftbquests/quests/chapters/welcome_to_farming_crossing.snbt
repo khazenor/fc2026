@@ -76,7 +76,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:fishes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -829,6 +829,15 @@
 			dependencies: ["1B6B73275C612510"]
 			hide_until_deps_complete: true
 			id: "1D9D9EDF46B00402"
+			rewards: [{
+				count: 8
+				id: "79AFAC6C4EE16152"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "tide:surface_loot_crate"
@@ -839,67 +848,8 @@
 				to_observe: "tide:surface_loot_crate"
 				type: "observation"
 			}]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			hide_until_deps_complete: true
-			id: "49018D5EAEDCC6D0"
-			tasks: [{
-				id: "138E0131342F82D4"
-				item: { count: 1, id: "tide:iron_fishing_rod" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["49018D5EAEDCC6D0"]
-			hide_until_deps_complete: true
-			id: "05928C54205E7A72"
-			tasks: [{
-				id: "142D07128CCD4041"
-				item: { count: 1, id: "tide:golden_fishing_rod" }
-				type: "item"
-			}]
 			x: -1.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["05928C54205E7A72"]
-			hide_until_deps_complete: true
-			id: "1B0E143A290FFEAD"
-			tasks: [{
-				id: "6BE4F1013490EC35"
-				item: { count: 1, id: "tide:crystal_fishing_rod" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1B0E143A290FFEAD"]
-			hide_until_deps_complete: true
-			id: "6A178AEFA75C2738"
-			tasks: [{
-				id: "01C273CDC47C9E98"
-				item: { count: 1, id: "tide:diamond_fishing_rod" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6A178AEFA75C2738"]
-			hide_until_deps_complete: true
-			id: "64A71FBF1AFE313B"
-			tasks: [{
-				id: "62BD126C8F8AC3F9"
-				item: { count: 1, id: "tide:netherite_fishing_rod" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["5BD4C23644BF2703"]
@@ -910,18 +860,20 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["128BF811467F9A6F"]
+			dependencies: [
+				"128BF811467F9A6F"
+				"6A694FC4A6083409"
+			]
 			hide_until_deps_visible: true
 			icon: {
 				id: "kubejs:sam"
 			}
 			id: "71DD63453348DBE8"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "15F240187BA04A2E"
 				table_id: 8222570253584073542L
 				type: "random"
@@ -932,6 +884,200 @@
 			}]
 			x: 1.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["14A9F6B49A423D25"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:jess"
+			}
+			id: "6A694FC4A6083409"
+			rewards: [{
+				id: "6C15349FED759A6F"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47D968778F725753"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"71DD63453348DBE8"
+				"6A694FC4A6083409"
+			]
+			id: "405396378EE4B767"
+			tasks: [{
+				count: 3L
+				id: "16DE253CD1896B19"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:stone_fishing_rod_upgrade_kit"
+			}
+			id: "429B913B2B35BC9E"
+			rewards: [
+				{
+					id: "0D1E9866FEBB551F"
+					item: {
+						count: 1
+						id: "kubejs:stone_fishing_rod_upgrade_kit"
+					}
+					type: "item"
+				}
+				{
+					id: "2FF263BB9E5BD917"
+					item: {
+						count: 1
+						id: "minecraft:smithing_table"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4BBEE79B6AD91AE2"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["429B913B2B35BC9E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:iron_fishing_rod_upgrade_kit"
+			}
+			id: "71C1250C2004016A"
+			rewards: [{
+				id: "55E7F0767A0B8A35"
+				item: {
+					count: 1
+					id: "kubejs:iron_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "48001C451B023551"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71C1250C2004016A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:golden_fishing_rod_upgrade_kit"
+			}
+			id: "0AECF2D9C00588B1"
+			rewards: [{
+				id: "1A1DAEB9C8CA4DE5"
+				item: {
+					count: 1
+					id: "kubejs:golden_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5D3315722A4E3C61"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AECF2D9C00588B1"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:crystal_fishing_rod_upgrade_kit"
+			}
+			id: "38DDF6DE6C1C57DE"
+			rewards: [{
+				id: "66016B9E56943A89"
+				item: {
+					count: 1
+					id: "kubejs:crystal_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "5B912ED2E16EAC03"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38DDF6DE6C1C57DE"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:diamond_fishing_rod_upgrade_kit"
+			}
+			id: "081A08FAF0E2C637"
+			rewards: [{
+				id: "06DDAFB78EBE5252"
+				item: {
+					count: 1
+					id: "kubejs:diamond_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6AADBF0513C8AF88"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["081A08FAF0E2C637"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:netherite_fishing_rod_upgrade_kit"
+			}
+			id: "2AA29F9A4845B0C2"
+			rewards: [{
+				id: "112F49E19D64B46F"
+				item: {
+					count: 1
+					id: "kubejs:netherite_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "285E43BB6A860A52"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
 		}
 	]
 }

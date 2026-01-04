@@ -1,0 +1,165 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unlocked_item_shop"
+	group: ""
+	icon: {
+		id: "kubejs:golden_fishing_rod_upgrade_kit"
+	}
+	id: "3350D732969A634A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["429B913B2B35BC9E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:stone_fishing_rod_upgrade_kit"
+			}
+			id: "415000FB5B40DE01"
+			rewards: [{
+				id: "1161A3934866EA79"
+				item: {
+					count: 1
+					id: "kubejs:stone_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6A4F8EE45A44178D"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["71C1250C2004016A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:iron_fishing_rod_upgrade_kit"
+			}
+			id: "5E40E79D5B5E737F"
+			rewards: [{
+				id: "59EBEE139351A2C1"
+				item: {
+					count: 1
+					id: "kubejs:iron_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7BC77936B0E526B9"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AECF2D9C00588B1"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:golden_fishing_rod_upgrade_kit"
+			}
+			id: "25599488DBA4BBEC"
+			rewards: [{
+				id: "3586E6AC839011ED"
+				item: {
+					count: 1
+					id: "kubejs:golden_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "69320DCB571FB933"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["38DDF6DE6C1C57DE"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:crystal_fishing_rod_upgrade_kit"
+			}
+			id: "5E2326EDD5B662A8"
+			rewards: [{
+				id: "42513B36D305F151"
+				item: {
+					count: 1
+					id: "kubejs:crystal_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7148697C25B7D6B5"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["081A08FAF0E2C637"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:diamond_fishing_rod_upgrade_kit"
+			}
+			id: "6295DDA0FA8EC643"
+			rewards: [{
+				id: "751DB9D58D3FDFCB"
+				item: {
+					count: 1
+					id: "kubejs:diamond_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5B5B6FBDBE66D829"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2AA29F9A4845B0C2"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:netherite_fishing_rod_upgrade_kit"
+			}
+			id: "520285E09CFCACAB"
+			rewards: [{
+				id: "352E49C4E47AEB80"
+				item: {
+					count: 1
+					id: "kubejs:netherite_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4089F82C07DE7D37"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
+}
