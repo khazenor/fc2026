@@ -10,6 +10,9 @@ const RequestHandler = {
     add (tooltips) {
       this.addCache = this.addCache.concat(tooltips)
     },
+    addSingular (itemId, tooltip) {
+      this.addCache.push([itemId, tooltip])
+    },
     addCache: []
   },
   tags: {

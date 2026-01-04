@@ -26,16 +26,26 @@ const NpcSam = {
     return Object.keys(this.fishSellDefs)
   },
   get offerDefs () {
-    return [
-      {
-        villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.colorBobbers, 2),
-        playerQty: 4
-      },
-      {
-        villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.specialBobbers, 1),
-        playerQty: 16
-      }
-    ]
+    return [{
+      villagerItems: this.offer.hooks,
+      playerQty: 8
+    }, {
+      villagerItems: this.offer.lines,
+      playerQty: 8
+    }, {
+      villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.colorBobbers, 2),
+      playerQty: 4
+    }, {
+      villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.specialBobbers, 1),
+      playerQty: 16
+    } ]
+  },
+  get tradeItemIds () {
+    return this.offer.colorBobbers.concat(
+      this.offer.specialBobbers,
+      this.offer.hooks,
+      this.offer.lines
+    )
   },
   offer: {
     colorBobbers: [
@@ -74,6 +84,17 @@ const NpcSam = {
       'tide:pearl_fishing_bobber',
       'tide:heart_fishing_bobber',
       'tide:grassy_fishing_bobber'
+    ],
+    hooks: [
+      'tide:fishing_hook',
+      'tide:iron_fishing_hook',
+      'tide:lavaproof_fishing_hook'
+    ],
+    lines: [
+      'tide:fishing_line',
+      'tide:braided_line',
+      'tide:fortune_line',
+      'tide:reinforced_line',
     ]
   }
 }
@@ -94,3 +115,9 @@ RequestHandler.callbacks.itemEvents.modifyTooltips([(event) => {
 }])
 
 NpcHelper.registerItems(NpcSam.name)
+
+RequestHandler.recipes.remove.byItemId(NpcSam.tradeItemIds)
+
+RequestHandler.tooltips.add(NpcSam.tradeItemIds.map(
+  itemId => [itemId, Text.translate('npcs.tooltip.youCanBuy', NpcSam.name)]
+))

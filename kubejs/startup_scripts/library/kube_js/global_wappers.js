@@ -35,7 +35,9 @@ global.ItemEventsModifyTooltips = (event) => {
     eventCallback => { eventCallback(event) }
   )
   RequestHandler.tooltips.addCache.forEach(request => {
-    event.add(request[0], request[1])
+    let itemId = request[0]
+    let tooltip = request[1]
+    event.add(itemId, tooltip)
   })
 }
 
