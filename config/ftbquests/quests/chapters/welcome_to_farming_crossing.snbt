@@ -861,11 +861,21 @@
 				id: "kubejs:sam"
 			}
 			id: "71DD63453348DBE8"
-			rewards: [{
-				id: "15F240187BA04A2E"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "15F240187BA04A2E"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "491CF6C6EA0492E1"
+					item: {
+						count: 1
+						id: "tide:angler_workshop"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "39B5D0607784AC8A"
 				type: "checkmark"
