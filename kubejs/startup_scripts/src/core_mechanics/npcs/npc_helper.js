@@ -1,7 +1,11 @@
 // priority: 1
 const NpcHelper = {
-  isTargetHumanoid (event) {
-    return EventHelpers.targetEntityType(event) === 'easy_npc:humanoid'
+  isEventInteractingWithNpc(npcName, event) {
+    return (
+      EventHelpers.targetEntityType(event) === 'easy_npc:humanoid' &&
+      EventHelpers.targetEntityName(event) === npcName &&
+      PlayerTimingJs.trueIfNotSpam(event)
+    )
   },
   npcTalkToPlayerAndUpdateTrades (event, name, offerDefs) {
     let player = event.player

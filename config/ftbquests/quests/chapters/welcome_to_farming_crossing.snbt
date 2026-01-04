@@ -76,7 +76,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:fishes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -848,20 +848,8 @@
 				to_observe: "tide:surface_loot_crate"
 				type: "observation"
 			}]
-			x: -1.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5BD4C23644BF2703"]
-			hide_until_deps_complete: true
-			id: "14A9F6B49A423D25"
-			tasks: [{
-				id: "5BC539CDC7DC6FFD"
-				item: { count: 1, id: "kubejs:miles_ticket" }
-				type: "item"
-			}]
 			x: 0.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -886,7 +874,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["14A9F6B49A423D25"]
+			dependencies: ["1B6B73275C612510"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:jess"
@@ -909,6 +897,7 @@
 				"71DD63453348DBE8"
 				"6A694FC4A6083409"
 			]
+			hide_until_deps_complete: true
 			id: "405396378EE4B767"
 			tasks: [{
 				count: 3L
@@ -951,8 +940,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["429B913B2B35BC9E"]
@@ -976,8 +965,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["71C1250C2004016A"]
@@ -1001,8 +990,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0AECF2D9C00588B1"]
@@ -1027,7 +1016,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["38DDF6DE6C1C57DE"]
@@ -1052,7 +1041,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["081A08FAF0E2C637"]
@@ -1077,7 +1066,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.0d
+			y: -4.0d
 		}
 	]
 }

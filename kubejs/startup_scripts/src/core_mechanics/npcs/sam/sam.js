@@ -30,11 +30,7 @@ const NpcSam = {
 }
 
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
-  if (
-    NpcHelper.isTargetHumanoid(event) &&
-    EventHelpers.targetEntityName(event) === NpcSam.name &&
-    PlayerTimingJs.trueIfNotSpam(event)
-  ) {
+  if (NpcHelper.isEventInteractingWithNpc(NpcSam.name, event)) {
     let mainHandItem = EventHelpers.mainHandItem(event).id
     if (NpcSam.sellableFishes.includes(mainHandItem)) {
       NpcHelper.handleSellingItemToNpc(event, NpcSam.fishSellDefs[mainHandItem].id, NpcSam.fishSellDefs[mainHandItem].count)

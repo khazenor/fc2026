@@ -60,6 +60,7 @@
 	]
 	quest.21BA88188D23BF4E.title: "Brewing Tea"
 	quest.225F1F8C7A7D87A0.title: "Cooking Collection Completion!"
+	quest.226281A3E70EC971.title: "Locate Jess"
 	quest.237FE170DCEF0E64.title: "Collected 10 Unique Flora!"
 	quest.25599488DBA4BBEC.title: "Gold Fishing Rod Upgrade Kit"
 	quest.28D5E795C2CE0159.title: "Cooked 10 Unique Dishes!"
@@ -113,6 +114,7 @@
 	]
 	quest.385BF7D960C48CEF.title: "Drying Tea"
 	quest.38DDF6DE6C1C57DE.title: "Crystal Fishing Rod Upgrade"
+	quest.3B2FC193848CADB0.title: "Invite Jess"
 	quest.3B3862E9FF250C0C.title: "Caught 2 Unique Fishes!"
 	quest.3D6181906ADC7014.title: "Vanilla Flower Completion"
 	quest.3E5304852BAF4E53.title: "Modded Saplings"
@@ -247,6 +249,7 @@
 	task.2649B198909C3A11.title: "Free Task"
 	task.2A8FED75396AD1C4.title: "Free Task"
 	task.2A9702B78AB4D2DE.title: "Free Task"
+	task.2DBB42B473B222DA.title: "Any #minecraft:logs"
 	task.2E6479205C062C9A.title: "Free Task"
 	task.2F466A6C17DF6ABF.title: "Free Task"
 	task.2FEF4F51FE55716B.title: "Free Task"
@@ -265,6 +268,7 @@
 	task.4CDC24BDEDBE5440.title: "Free Task"
 	task.4F4B26EBCB0224BF.title: "Free Task"
 	task.4FD73AF7434EE6AE.title: "Free Task"
+	task.5073AE24F4F82772.title: "Any #minecraft:logs"
 	task.5249D39425B988C9.title: "Free Task"
 	task.52EA8F2F6C9EFB7A.title: "Free Task"
 	task.53705B1FCF677D93.title: "Free Task"
