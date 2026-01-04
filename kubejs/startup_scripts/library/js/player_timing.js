@@ -15,6 +15,18 @@ const PlayerTimingJs = {
       return false
     }
   },
+  hasItBeen (playerName, activityId, time) {
+    if (!this._hasLastActivity(playerName, activityId)) {
+      this._logActivity(playerName, activityId)
+      return false
+    }
+    if (this._timeSinceLastActivity(playerName, activityId) > time) {
+      this._clearActivity(playerName, activityId)
+      return true
+    } else {
+      return false
+    }
+  },
   trueIfNotSpam (event) {
     return this.lastActivityMoreThan(
       EventHelpers.playerName(event),

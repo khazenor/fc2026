@@ -6,7 +6,10 @@ const RandHelper = {
   cachedRandNums: [],
   numCacheRandNums: 1000,
   mineDayRandNum (idx) {
-    if (PlayerTimingJs.lastActivityMoreThan('randHelper', 'mineDayRandNum', 1200)) {
+    if (
+      this.cachedRandNums.length === 0 ||
+      PlayerTimingJs.hasItBeen('randHelper', 'mineDayRandNum', 10)
+    ) {
       this.cachedRandNums = []
       for (let i = 0; i < this.numCacheRandNums; i++) {
         this.cachedRandNums.push(Math.random())
@@ -21,13 +24,16 @@ const RandHelper = {
     let values = []
     let pickedNumbers = []
     let idx = 0
-    while (values.length < numToPick) {
+    for (let idx = 0; idx < this.numCacheRandNums; idx++) {
       let pickNumber = this.randMineDayInt(arr.length, idx)
       if (!pickedNumbers.includes(pickNumber)) {
         values.push(arr[pickNumber])
         pickedNumbers.push(pickNumber)
+
+        if (values.length === numToPick) {
+          return values
+        }
       }
-      idx ++
     }
     return values
   }
