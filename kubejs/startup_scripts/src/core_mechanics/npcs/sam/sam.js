@@ -118,6 +118,6 @@ NpcHelper.registerItems(NpcSam.name)
 
 RequestHandler.recipes.remove.byItemId(NpcSam.tradeItemIds)
 
-RequestHandler.tooltips.add(NpcSam.tradeItemIds.map(
-  itemId => [itemId, Text.translate('npcs.tooltip.youCanBuy', NpcSam.name)]
-))
+RequestHandler.tooltips.addSingular(
+  NpcSam.tradeItemIds, Text.translate('npcs.tooltip.youCanBuy', NpcSam.name)
+)

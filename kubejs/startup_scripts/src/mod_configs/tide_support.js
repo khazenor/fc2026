@@ -41,3 +41,7 @@ RequestHandler.recipes.remove.byItemId(TideSupport.fishingRodIds)
 RequestHandler.items.create.simple(TideSupport.rodUpgradeItemNames)
 
 RequestHandler.recipes.add.smithingMult(TideSupport.smithingDefs)
+
+RequestHandler.tooltips.addSingular(
+  TideSupport.rodUpgradeItemIds, Text.translate('tooltip.canGetFromQuests')
+)
