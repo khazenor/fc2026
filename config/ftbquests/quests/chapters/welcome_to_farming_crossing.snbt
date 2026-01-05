@@ -1112,11 +1112,8 @@
 				count: 2
 				id: "79CEA99DB2601F37"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mobcapturingtool:mob_capturing_tool"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "mobcapturingtool:mob_capturing_tool"
 				}
 				type: "item"
 			}]
