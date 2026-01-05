@@ -27,16 +27,16 @@ collections = [
 		increaseRateKey: 0.07,
 		questFilenameKey: 'aquarium'
 	},
-	# {
-	# 	nameKey: "Animal",
-	# 	pluralKey: "s",
-	# 	iconKey: "minecraft:spyglass",
-	# 	lastQuestItemKey: 'kubejs:cert_ani_diamond',
-	# 	actionKey: "Observed",
-	# 	collectionKey: "Animal Observation",
-	# 	increaseRateKey: 0.04,
-	# 	questFilenameKey: 'animal_watching'
-	# },
+	{
+		nameKey: "Animal",
+		pluralKey: "s",
+		iconKey: "minecraft:spyglass",
+		lastQuestItemKey: 'kubejs:cert_ani_diamond',
+		actionKey: "Observed",
+		collectionKey: "Animal Observation",
+		increaseRateKey: 0.04,
+		questFilenameKey: 'animal_watching'
+	},
 	{
 		nameKey: "Flora",
 		pluralKey: "",

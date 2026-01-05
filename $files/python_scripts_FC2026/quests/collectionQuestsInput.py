@@ -120,6 +120,349 @@ questlines = [
       }
     ]
   },
+  { # Animals
+    filenameKey: 'animal_watching',
+    nameKey: 'Animal Watching',
+    iconKey: 'minecraft:spyglass',
+    collectionNotificationKey: 'New animal observed!',
+    increaseRateKey: 0.02,
+    typeKey: observationQuestTypeConst,
+    questGroupsKey: [
+      { # General Water
+        nameKey: 'General Water Completion',
+        iconKey: 'minecraft:water_bucket',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:squid_spawn_egg",
+            nameKey: "Spot a squid",
+            observeKey: "minecraft:squid"
+          },
+          {
+            iconKey: "minecraft:dolphin_spawn_egg",
+            nameKey: "Spot a dolphin",
+            observeKey: "minecraft:dolphin"
+          },
+					{
+						observeKey: 'biomeswevegone:man_o_war',
+						iconKey: 'biomeswevegone:man_o_war_spawn_egg',
+						nameKey: 'Spot a man_o_war'
+					}
+        ]
+      },
+      { # Beaches
+        nameKey: 'Beaches Completion',
+        iconKey: 'beachparty:beach_parasol',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:turtle_spawn_egg",
+            nameKey: "Spot a turtle",
+            observeKey: "minecraft:turtle"
+          },
+					{
+						observeKey: 'wildernature:flamingo',
+						iconKey: 'wildernature:flamingo_spawn_egg',
+						nameKey: 'Spot a flamingo'
+					},
+					{
+						observeKey: 'wildernature:pelican',
+						iconKey: 'wildernature:pelican_spawn_egg',
+						nameKey: 'Spot a pelican'
+					}
+        ]
+      },
+      { # Desert
+        nameKey: 'Desert Completion',
+        iconKey: 'minecraft:dead_bush',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:camel_spawn_egg",
+            nameKey: "Spot a camel",
+            observeKey: "minecraft:camel"
+          },
+          {
+            iconKey: "minecraft:sniffer_spawn_egg",
+            nameKey: "Spot a sniffer",
+            observeKey: "minecraft:sniffer"
+          }
+        ]
+      },
+      { # Forest
+        nameKey: 'Forest Completion',
+        iconKey: 'minecraft:oak_sapling',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:wolf_spawn_egg",
+            nameKey: "Spot a wolf",
+            observeKey: "minecraft:wolf"
+          },
+					{
+						observeKey: 'wildernature:deer',
+						iconKey: 'wildernature:deer_spawn_egg',
+						nameKey: 'Spot a deer'
+					},
+					{
+						observeKey: 'wildernature:hedgehog',
+						iconKey: 'wildernature:hedgehog_spawn_egg',
+						nameKey: 'Spot a hedgehog'
+					},
+					{
+						observeKey: 'wildernature:owl',
+						iconKey: 'wildernature:owl_spawn_egg',
+						nameKey: 'Spot a owl'
+					},
+					{
+						observeKey: 'wildernature:turkey',
+						iconKey: 'wildernature:turkey_spawn_egg',
+						nameKey: 'Spot a turkey'
+					},
+					{
+						observeKey: 'wildernature:red_wolf',
+						iconKey: 'wildernature:red_wolf_spawn_egg',
+						nameKey: 'Spot a red_wolf'
+					}
+        ]
+      },
+      { # Jungle
+        nameKey: 'Jungle Completion',
+        iconKey: 'minecraft:jungle_sapling',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:panda_spawn_egg",
+            nameKey: "Spot a panda",
+            observeKey: "minecraft:panda"
+          },
+          {
+            iconKey: "minecraft:parrot_spawn_egg",
+            nameKey: "Spot a parrot",
+            observeKey: "minecraft:parrot"
+          }
+        ]
+      },
+      { # Mountain
+        nameKey: 'Mountain Completion',
+        iconKey: 'minecraft:goat_horn',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:goat_spawn_egg",
+            nameKey: "Spot a Goat",
+            observeKey: "minecraft:goat"
+          },
+					{
+						observeKey: 'wildernature:minisheep',
+						iconKey: 'wildernature:minisheep_spawn_egg',
+						nameKey: 'Spot a minisheep'
+					}
+        ]
+      },
+      { # Special
+        nameKey: 'Special Completion',
+        iconKey: 'minecraft:nether_star',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:bee_spawn_egg",
+            nameKey: "Spot a bee",
+            observeKey: "minecraft:bee"
+          },
+          {
+            iconKey: "minecraft:allay_spawn_egg",
+            nameKey: "Spot an allay",
+            observeKey: "minecraft:allay"
+          },
+          {
+            iconKey: "minecraft:cat_spawn_egg",
+            nameKey: "Spot a cat",
+            observeKey: "minecraft:cat"
+          },
+					{
+						observeKey: 'wildernature:raccoon',
+						iconKey: 'wildernature:raccoon_spawn_egg',
+						nameKey: 'Spot a raccoon'
+					},
+					{
+						observeKey: 'biomeswevegone:pumpkin_warden',
+						iconKey: 'biomeswevegone:pumpkin_warden_spawn_egg',
+						nameKey: 'Spot a pumpkin warden'
+					}
+        ]
+      },
+      { # Savanna
+        nameKey: 'Savanna Completion',
+        iconKey: 'minecraft:acacia_sapling',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:llama_spawn_egg",
+            nameKey: "Spot a llama",
+            observeKey: "minecraft:llama"
+          },
+          {
+            iconKey: "minecraft:armadillo_spawn_egg",
+            nameKey: "Spot a armadillo",
+            observeKey: "minecraft:armadillo"
+          },
+          {
+						observeKey: 'wildernature:bison',
+						iconKey: 'wildernature:bison_spawn_egg',
+						nameKey: 'Spot a bison'
+					},
+					{
+						observeKey: 'wildernature:boar',
+						iconKey: 'wildernature:boar_spawn_egg',
+						nameKey: 'Spot a boar'
+					}
+        ]
+      },
+      { # Plains
+        nameKey: 'Plains Completion',
+        iconKey: 'minecraft:poppy',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:horse_spawn_egg",
+            nameKey: "Spot a horse",
+            observeKey: "minecraft:horse"
+          },
+          {
+            iconKey: "minecraft:donkey_spawn_egg",
+            nameKey: "Spot a donkey",
+            observeKey: "minecraft:donkey"
+          },
+					{
+						observeKey: 'wildernature:dog',
+						iconKey: 'wildernature:dog_spawn_egg',
+						nameKey: 'Spot a dog'
+					},
+					{
+						observeKey: 'wildernature:squirrel',
+						iconKey: 'wildernature:squirrel_spawn_egg',
+						nameKey: 'Spot a squirrel'
+					},
+          {
+            observeKey: 'meadow:water_buffalo',
+            iconKey: 'meadow:water_buffalo_spawn_egg',
+            nameKey: 'Spot a water buffalo'
+          },
+					{
+						observeKey: 'biomeswevegone:oddion',
+						iconKey: 'biomeswevegone:oddion_spawn_egg',
+						nameKey: 'Spot a oddion'
+					}
+        ]
+      },
+      { # Grass
+        nameKey: 'Grass Completion',
+        iconKey: 'minecraft:grass_block',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:pig_spawn_egg",
+            nameKey: "Spot a pig",
+            observeKey: "minecraft:pig"
+          },
+          {
+            iconKey: "minecraft:chicken_spawn_egg",
+            nameKey: "Spot a chicken",
+            observeKey: "minecraft:chicken"
+          },
+          {
+            iconKey: "minecraft:rabbit_spawn_egg",
+            nameKey: "Spot a rabbit",
+            observeKey: "minecraft:rabbit"
+          },
+          {
+            iconKey: "minecraft:sheep_spawn_egg",
+            nameKey: "Spot a sheep",
+            observeKey: "minecraft:sheep"
+          },
+          {
+            iconKey: "minecraft:cow_spawn_egg",
+            nameKey: "Spot a cow",
+            observeKey: "minecraft:cow"
+          }
+        ]
+      },
+      { # Caves
+        nameKey: 'Caves Completion',
+        iconKey: 'minecraft:stone',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:bat_spawn_egg",
+            nameKey: "Spot a bat",
+            observeKey: "minecraft:bat"
+          },
+          {
+            iconKey: "minecraft:glow_squid_spawn_egg",
+            nameKey: "Spot a glow squid",
+            observeKey: "minecraft:glow_squid"
+          },
+          {
+            iconKey: "minecraft:axolotl_spawn_egg",
+            nameKey: "Spot an axolotl",
+            observeKey: "minecraft:axolotl"
+          }
+        ]
+      },
+      { # Snowy
+        nameKey: 'Snowy Completion',
+        iconKey: 'minecraft:snowball',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:polar_bear_spawn_egg",
+            nameKey: "Spot a polar bear",
+            observeKey: "minecraft:polar_bear"
+          },
+          {
+            iconKey: "minecraft:fox_spawn_egg",
+            nameKey: "Spot a fox",
+            observeKey: "minecraft:fox"
+          },
+					{
+						observeKey: 'wildernature:penguin',
+						iconKey: 'wildernature:penguin_spawn_egg',
+						nameKey: 'Spot a penguin'
+					}
+        ]
+      },
+      { # Swamp
+        nameKey: 'Swamp Completion',
+        iconKey: 'minecraft:mangrove_propagule',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:frog_spawn_egg",
+            nameKey: "Spot a frog",
+            observeKey: "minecraft:frog"
+          },
+          {
+            iconKey: "minecraft:tadpole_spawn_egg",
+            nameKey: "Spot a tadpole",
+            observeKey: "minecraft:tadpole"
+          }
+        ]
+      },
+      { # Mushroom
+        nameKey: 'Mushroom Completion',
+        iconKey: 'minecraft:red_mushroom',
+        dependencyIdKey: '5BB57D9BEC8038FB', # first animal observation
+        tasksKey: [
+          {
+            iconKey: "minecraft:mooshroom_spawn_egg",
+            nameKey: "Spot a mooshroom",
+            observeKey: "minecraft:mooshroom"
+          }
+        ]
+      }
+    ]
+  },
   { # Flora collection
     filenameKey: 'flora_compendium',
     nameKey: 'Flora Compendium',

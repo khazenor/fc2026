@@ -76,8 +76,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:fishes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5BD4C23644BF2703"]
@@ -143,7 +143,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fc:minerals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -849,7 +849,7 @@
 				type: "observation"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1101,8 +1101,37 @@
 				to_observe: "tide:obsidian_loot_crate"
 				type: "observation"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			id: "5BB57D9BEC8038FB"
+			rewards: [{
+				count: 2
+				id: "79CEA99DB2601F37"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mobcapturingtool:mob_capturing_tool"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:armadillo_spawn_egg"
+				}
+				id: "434C0605367C1A6C"
+				observe_type: 6
+				timer: 0L
+				to_observe: "kubejs:all_animals"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 }
