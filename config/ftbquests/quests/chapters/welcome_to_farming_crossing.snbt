@@ -109,8 +109,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fc:flora_quest_items)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5BD4C23644BF2703"]
@@ -881,10 +881,10 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["1B6B73275C612510"]
+			dependencies: ["5BD4C23644BF2703"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:jess"
@@ -900,7 +900,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -916,7 +916,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1101,8 +1101,8 @@
 				to_observe: "tide:obsidian_loot_crate"
 				type: "observation"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 1.0d
+			y: -3.0d
 		}
 	]
 }

@@ -46,7 +46,7 @@
 		"- hold right click on the mincer to process the ingredient to their output"
 	]
 	quest.1A6015D93785C5F8.title: "Mincing Wheat"
-	quest.1B6B73275C612510.quest_desc: ["Catch 10 unique fishes to invite Sam to your area!"]
+	quest.1B6B73275C612510.quest_desc: [""]
 	quest.1B6B73275C612510.title: "Catching Fishes"
 	quest.1D9D9EDF46B00402.title: "Fish up a Loot Crate"
 	quest.21AB524A7AF15A61.title: "Cooked 80 Unique Dishes!"
@@ -93,6 +93,7 @@
 	quest.2D21AAD58999457C.title: "Collected 20 Unique Minerals!"
 	quest.2D45906B062171D6.title: "Vanilla Completion"
 	quest.2D7FBD31BB35A035.title: "Caught 10 Unique Fishes!"
+	quest.2DB621BCC10A0C1C.title: "Modded Foods Completion"
 	quest.31625B8D809CCCCB.title: "Biome Saplings"
 	quest.3249330012813FDA.title: "Freezing with a Fridge"
 	quest.3276A212EDB474BA.title: "Aquarium Completion!"
@@ -279,6 +280,7 @@
 	task.551F406652B0EFC0.title: "Free Task"
 	task.5847BD3D1E748F72.title: "Free Task"
 	task.5B7D9A75215B40CB.title: "Free Task"
+	task.5F5E4E778910BED1.title: "Free Task"
 	task.5F60A140F50B49B9.title: "Any #fc:minerals"
 	task.5F7551CD64AEA59F.title: "Any #minecraft:logs"
 	task.5F8E7F20E48CBEDC.title: "Free Task"

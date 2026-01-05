@@ -145,10 +145,38 @@ questlines = [
           "minecraft:red_mushroom",
           "minecraft:sugar_cane",
           "minecraft:sweet_berries",
-          "minecraft:wheat_seeds"
+          "minecraft:wheat_seeds",
+          "minecraft:melon_slice",
+          "minecraft:pumpkin",
+          "minecraft:apple"
         ]
-      },
-      { # Vanilla Flower
+      }, {
+        nameKey: 'Modded Foods Completion',
+        iconKey: 'farm_and_charm:corn',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          'farm_and_charm:corn',
+          'farm_and_charm:oat',
+          'farm_and_charm:barley',
+          'farm_and_charm:lettuce',
+          'farm_and_charm:onion',
+          'farm_and_charm:tomato',
+          'farm_and_charm:strawberry',
+          'farm_and_charm:wild_nettle',
+          'farm_and_charm:wild_ribwort',
+          'herbalbrews:yerba_mate_leaf',
+          'herbalbrews:rooibos_leaf',
+          'herbalbrews:coffee_beans',
+          'vinery:red_grape',
+          'vinery:white_grape',
+          'vinery:savanna_grapes_red',
+          'vinery:savanna_grapes_white',
+          'vinery:taiga_grapes_red',
+          'vinery:taiga_grapes_white',
+          'vinery:jungle_grapes_red',
+          'vinery:jungle_grapes_white'
+        ]
+      }, { # Vanilla Flower
         nameKey: 'Vanilla Flower Completion',
         iconKey: 'minecraft:red_tulip',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora

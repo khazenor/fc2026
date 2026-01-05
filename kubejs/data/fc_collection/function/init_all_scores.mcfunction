@@ -14,6 +14,8 @@ scoreboard objectives add flora_compendium dummy {"translate":"questFunctions.fl
 scoreboard players set @p flora_compendium 0
 scoreboard objectives add flora_compendium_vanilla_foods_completion dummy {"translate":"questFunctions.vanillaFoodsCompletion0"}
 scoreboard players set @p flora_compendium_vanilla_foods_completion 0
+scoreboard objectives add flora_compendium_modded_foods_completion dummy {"translate":"questFunctions.moddedFoodsCompletion0"}
+scoreboard players set @p flora_compendium_modded_foods_completion 0
 scoreboard objectives add flora_compendium_vanilla_flower_completion dummy {"translate":"questFunctions.vanillaFlowerCompletion0"}
 scoreboard players set @p flora_compendium_vanilla_flower_completion 0
 scoreboard objectives add flora_compendium_vanilla_sapling_completion dummy {"translate":"questFunctions.vanillaSaplingCompletion0"}
