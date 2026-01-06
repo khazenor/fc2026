@@ -76,9 +76,10 @@ def collectionSubQuestContent(questId, dependencies, title, icon, ticketReward, 
 	)
 
 def mileageRewardQuestContent(icon, numTickets, dependents, numRequired=0, title=None, x=0, y=0, lastQuestItem=None):
-	if numTickets > 100:
-		rewardContent = simpleItemContent(itemId=bookletId, count=numTickets / 100)
-		rewardContent += simpleItemContent(itemId=ticketId, count=numTickets % 100)
+	ticketStackSize = 64
+	if numTickets > ticketStackSize:
+		rewardContent = simpleItemContent(itemId=bookletId, count=numTickets / ticketStackSize)
+		rewardContent += simpleItemContent(itemId=ticketId, count=numTickets % ticketStackSize)
 	else:
 		rewardContent = simpleItemContent(itemId=ticketId, count=numTickets)
 

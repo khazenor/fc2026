@@ -1228,22 +1228,32 @@
 			icon: {
 				id: "farm_and_charm:cooking_pot"
 			}
-			id: "75C2CF619214683E"
+			id: "0F30101810996E75"
 			min_required_dependencies: 55
-			rewards: [{
-				count: 88
-				id: "633D89F86069BF15"
-				item: {
-					count: 1
-					id: "kubejs:miles_ticket"
+			rewards: [
+				{
+					id: "633D89F86069BF15"
+					item: {
+						count: 1
+						id: "kubejs:miles_booklet"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 24
+					id: "75C2CF619214683E"
+					item: {
+						count: 1
+						id: "kubejs:miles_ticket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "minecraft:glass"
 				}
-				id: "0F30101810996E75"
+				id: "1AC69575D267FF3C"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
 				value: 1
@@ -1439,6 +1449,7 @@
 			min_required_dependencies: 80
 			rewards: [
 				{
+					count: 2
 					id: "602292C7DB00ADE7"
 					item: {
 						count: 1
@@ -1447,7 +1458,7 @@
 					type: "item"
 				}
 				{
-					count: 60
+					count: 32
 					id: "431CE974D82C06D1"
 					item: {
 						count: 1
@@ -1656,7 +1667,7 @@
 			min_required_dependencies: 110
 			rewards: [
 				{
-					count: 2
+					count: 4
 					id: "6BCA23DE34D7D2E7"
 					item: {
 						count: 1
@@ -1665,7 +1676,7 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 8
 					id: "09ECFF872B28E3B9"
 					item: {
 						count: 1
@@ -1873,7 +1884,7 @@
 			id: "225F1F8C7A7D87A0"
 			rewards: [
 				{
-					count: 9
+					count: 15
 					id: "2A5D3CCAE2952E9C"
 					item: {
 						count: 1
@@ -1882,7 +1893,7 @@
 					type: "item"
 				}
 				{
-					count: 68
+					count: 8
 					id: "563905286FA0BD7D"
 					item: {
 						count: 1
@@ -2698,11 +2709,8 @@
 				{
 					id: "1080EE7FEE724614"
 					item: {
-						components: {
-							"ftbquests:missing_item": "kubejs:cert_ani_diamond"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "kubejs:cert_ani_diamond"
 					}
 					type: "item"
 				}
@@ -4294,22 +4302,32 @@
 			icon: {
 				id: "minecraft:red_tulip"
 			}
-			id: "5E30BB54995DB642"
+			id: "21CCCE0993977F7C"
 			min_required_dependencies: 110
-			rewards: [{
-				count: 99
-				id: "5EFCCE8CA335CCAA"
-				item: {
-					count: 1
-					id: "kubejs:miles_ticket"
+			rewards: [
+				{
+					id: "5EFCCE8CA335CCAA"
+					item: {
+						count: 1
+						id: "kubejs:miles_booklet"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 35
+					id: "5E30BB54995DB642"
+					item: {
+						count: 1
+						id: "kubejs:miles_ticket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "minecraft:glass"
 				}
-				id: "21CCCE0993977F7C"
+				id: "38129B723E19B8F7"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
 				value: 1
@@ -4497,7 +4515,7 @@
 			id: "666D55906F99FC33"
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "706B2FCA48E09207"
 					item: {
 						count: 1
@@ -4506,7 +4524,7 @@
 					type: "item"
 				}
 				{
-					count: 12
+					count: 56
 					id: "2B860B0A575DAE46"
 					item: {
 						count: 1
@@ -4889,11 +4907,8 @@
 				{
 					id: "173130B18E3DE351"
 					item: {
-						components: {
-							"ftbquests:missing_item": "kubejs:cert_mining_diamond"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "kubejs:cert_mining_diamond"
 					}
 					type: "item"
 				}
