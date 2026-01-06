@@ -90,6 +90,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "19E09CBCAA482AE2"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "6CF51538BCB2BA35"
@@ -132,6 +140,14 @@
 					item: {
 						count: 1
 						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "4AD57525D5A315F1"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
 					}
 					type: "item"
 				}
@@ -178,6 +194,14 @@
 					item: {
 						count: 1
 						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "295F954DD403393F"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
 					}
 					type: "item"
 				}
