@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "farmingForBlockheads.market.enchantmentBookStore"
+  },
+  "icon": {
+    "id": "minecraft:enchanted_book"
+  },
+  "sortIndex": 30
+}

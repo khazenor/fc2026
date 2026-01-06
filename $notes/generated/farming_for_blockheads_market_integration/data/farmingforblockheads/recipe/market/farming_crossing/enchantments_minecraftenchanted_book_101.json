@@ -1,0 +1,17 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:enchantments",
+  "preset": "farming_crossing:kubejsmiles_ticket_32",
+  "result": {
+    "count": 1,
+    "item": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:smite": 5
+        }
+      },
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.smite\"}, {\"text\": \" 5\"}]"
+    }
+  }
+}

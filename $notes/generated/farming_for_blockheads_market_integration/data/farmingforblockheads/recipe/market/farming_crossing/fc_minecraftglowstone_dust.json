@@ -1,0 +1,9 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:fc",
+  "preset": "farming_crossing:kubejsmiles_ticket_6",
+  "result": {
+    "count": 1,
+    "item": "minecraft:glowstone_dust"
+  }
+}

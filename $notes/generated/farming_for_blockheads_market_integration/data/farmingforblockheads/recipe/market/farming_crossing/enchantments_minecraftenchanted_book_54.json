@@ -1,0 +1,17 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:enchantments",
+  "preset": "farming_crossing:kubejsmiles_ticket_16",
+  "result": {
+    "count": 1,
+    "item": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:looting": 2
+        }
+      },
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.looting\"}, {\"text\": \" 2\"}]"
+    }
+  }
+}

@@ -1,5 +1,5 @@
-from input import marketShop
-from src import const
+from market_gen import marketShop
+import const
 import os
 import json
 from lib import fcTrans

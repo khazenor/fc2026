@@ -1,0 +1,9 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:blocks",
+  "preset": "farming_crossing:kubejsmiles_ticket_32",
+  "result": {
+    "count": 1,
+    "item": "minecraft:ochre_froglight"
+  }
+}

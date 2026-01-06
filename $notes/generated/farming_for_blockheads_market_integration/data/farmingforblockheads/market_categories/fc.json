@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "farmingForBlockheads.market.farmingCrossingShop"
+  },
+  "icon": {
+    "id": "minecraft:mangrove_propagule"
+  },
+  "sortIndex": 0
+}

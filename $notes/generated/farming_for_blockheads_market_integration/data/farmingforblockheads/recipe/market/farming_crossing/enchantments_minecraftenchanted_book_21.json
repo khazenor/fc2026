@@ -1,0 +1,17 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:enchantments",
+  "preset": "farming_crossing:kubejsmiles_ticket_32",
+  "result": {
+    "count": 1,
+    "item": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:depth_strider": 3
+        }
+      },
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.depth_strider\"}, {\"text\": \" 3\"}]"
+    }
+  }
+}

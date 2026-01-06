@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "farmingForBlockheads.market.animalRange"
+  },
+  "icon": {
+    "id": "minecraft:leather"
+  },
+  "sortIndex": 3
+}

@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "farmingForBlockheads.market.collectionTaskItems"
+  },
+  "icon": {
+    "id": "minecraft:writable_book"
+  },
+  "sortIndex": 5
+}

@@ -1,0 +1,9 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:collectables",
+  "preset": "farming_crossing:kubejsmiles_ticket_64",
+  "result": {
+    "count": 1,
+    "item": "minecraft:mooshroom_spawn_egg"
+  }
+}
