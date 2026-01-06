@@ -18,6 +18,7 @@ ServerEvents.tags('item', event => {
       'minecraft:obsidian', 
       'minecraft:raw_copper', 
       'minecraft:raw_iron', 
+      'create:raw_zinc', 
       'minecraft:raw_gold', 
       'minecraft:coal', 
       'minecraft:redstone', 
@@ -45,7 +46,14 @@ ServerEvents.tags('item', event => {
       'biomeswevegone:white_dacite', 
       'biomeswevegone:windswept_sand', 
       'biomeswevegone:windswept_sandstone', 
-      'meadow:limestone'
+      'meadow:limestone', 
+      'create:crimsite', 
+      'create:asurine', 
+      'create:limestone', 
+      'create:ochrum', 
+      'create:scoria', 
+      'create:scorchia', 
+      'create:veridium'
     ])
 
 })

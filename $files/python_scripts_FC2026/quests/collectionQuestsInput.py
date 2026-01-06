@@ -778,6 +778,7 @@ questlines = [
         tasksKey: [
           "minecraft:raw_copper",
           "minecraft:raw_iron",
+          "create:raw_zinc",
           "minecraft:raw_gold",
           "minecraft:coal",
           "minecraft:redstone"
@@ -820,6 +821,20 @@ questlines = [
           "biomeswevegone:windswept_sand",
           "biomeswevegone:windswept_sandstone",
           'meadow:limestone'
+        ]
+      }, { # create
+        nameKey: 'Create Completion',
+        iconKey: 'create:cogwheel',
+        dependencyIdKey: '44DB551B93AA28F9',
+        increaseRateKey: 0.03,
+        tasksKey: [
+          'create:crimsite',
+          'create:asurine',
+          'create:limestone',
+          'create:ochrum',
+          'create:scoria',
+          'create:scorchia',
+          'create:veridium'
         ]
       }
     ]

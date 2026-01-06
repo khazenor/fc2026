@@ -76,6 +76,8 @@ scoreboard objectives add mineral_museum_gems_completion dummy {"translate":"que
 scoreboard players set @p mineral_museum_gems_completion 0
 scoreboard objectives add mineral_museum_modded_completion dummy {"translate":"questFunctions.moddedCompletion0"}
 scoreboard players set @p mineral_museum_modded_completion 0
+scoreboard objectives add mineral_museum_create_completion dummy {"translate":"questFunctions.createCompletion0"}
+scoreboard players set @p mineral_museum_create_completion 0
 scoreboard objectives add cooking_collection dummy {"translate":"questFunctions.cookingCollection"}
 scoreboard players set @p cooking_collection 0
 scoreboard objectives add cooking_collection_cooking_pot_completion dummy {"translate":"questFunctions.cookingPotCompletion0"}

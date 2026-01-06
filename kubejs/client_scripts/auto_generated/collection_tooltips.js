@@ -380,6 +380,7 @@ ItemEvents.modifyTooltips(event => {
     [
       'minecraft:raw_copper', 
       'minecraft:raw_iron', 
+      'create:raw_zinc', 
       'minecraft:raw_gold', 
       'minecraft:coal', 
       'minecraft:redstone'
@@ -426,6 +427,20 @@ ItemEvents.modifyTooltips(event => {
     [
       Text.translate('collectionTooltips.mineralMuseum'), 
       Text.translate('collectionTooltips.moddedCompletion')
+    ])
+  event.add(
+    [
+      'create:crimsite', 
+      'create:asurine', 
+      'create:limestone', 
+      'create:ochrum', 
+      'create:scoria', 
+      'create:scorchia', 
+      'create:veridium'
+    ],
+    [
+      Text.translate('collectionTooltips.mineralMuseum'), 
+      Text.translate('collectionTooltips.createCompletion')
     ])
   event.add(
     [

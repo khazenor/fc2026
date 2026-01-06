@@ -231,6 +231,7 @@
 		"- place the ingredients in the bottom three slots"
 	]
 	quest.74D876358D8D89DB.title: "Barrel Brewing"
+	quest.75642026514AA423.title: "Create Completion"
 	quest.75C2CF619214683E.title: "Cooked 55 Unique Dishes!"
 	quest.7706D57610B5396D.title: "Beer Brewing Completion"
 	quest.7DBED7DA198DC1F2.title: "Desert Completion"
@@ -393,6 +394,7 @@
 	task.7940D0AF6C830EE7.title: "Free Task"
 	task.7967059ACEAE9F08.title: "Free Task"
 	task.798514E15FEF44B7.title: "Free Task"
+	task.7ABA51029C6AB4B2.title: "Free Task"
 	task.7C3CCF3B0377FDF4.title: "Spot an allay"
 	task.7CBB16C9B2257774.title: "Spot a sniffer"
 	task.7EDA8E89BC8C6677.title: "Spot a turkey"
