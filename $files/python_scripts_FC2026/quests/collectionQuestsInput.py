@@ -518,6 +518,7 @@ questlines = [
           'vinery:taiga_grapes_white',
           'vinery:jungle_grapes_red',
           'vinery:jungle_grapes_white',
+          'vinery:cherry',
           'biomeswevegone:blueberries'
         ]
       }, { # Vanilla Flower
@@ -623,7 +624,8 @@ questlines = [
           "biomeswevegone:yellow_birch_sapling",
           "biomeswevegone:yellow_sakura_sapling",
           "biomeswevegone:yucca_sapling",
-          "biomeswevegone:zelkova_sapling"
+          "biomeswevegone:zelkova_sapling",
+          "vinery:dark_cherry_sapling"
         ]
       }, {
         nameKey: 'Biome Bushes',
@@ -683,7 +685,15 @@ questlines = [
           "biomeswevegone:winter_rose",
           "biomeswevegone:winter_scilla",
           "biomeswevegone:winter_succulent",
-          "biomeswevegone:yellow_daffodil"
+          "biomeswevegone:yellow_daffodil",
+          "meadow:alpine_poppy",
+          "meadow:delphinium",
+          "meadow:saxifrage",
+          "meadow:enzian",
+          "meadow:fire_lily",
+          "meadow:eriophorum",
+          "meadow:eriophorum_tall",
+          "candlelight:rose"
         ]
       }, {
         nameKey: 'Biome Allium and Tulips',
@@ -718,7 +728,8 @@ questlines = [
           "biomeswevegone:green_mushroom",
           "biomeswevegone:prairie_grass",
           "biomeswevegone:shrub",
-          "biomeswevegone:white_puffball_spores"
+          "biomeswevegone:white_puffball_spores",
+          "meadow:small_fir"
         ]
       }
     ]

@@ -132,6 +132,7 @@ ItemEvents.modifyTooltips(event => {
       'vinery:taiga_grapes_white', 
       'vinery:jungle_grapes_red', 
       'vinery:jungle_grapes_white', 
+      'vinery:cherry', 
       'biomeswevegone:blueberries'
     ],
     [
@@ -240,7 +241,8 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:yellow_birch_sapling', 
       'biomeswevegone:yellow_sakura_sapling', 
       'biomeswevegone:yucca_sapling', 
-      'biomeswevegone:zelkova_sapling'
+      'biomeswevegone:zelkova_sapling', 
+      'vinery:dark_cherry_sapling'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
@@ -303,7 +305,15 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:winter_rose', 
       'biomeswevegone:winter_scilla', 
       'biomeswevegone:winter_succulent', 
-      'biomeswevegone:yellow_daffodil'
+      'biomeswevegone:yellow_daffodil', 
+      'meadow:alpine_poppy', 
+      'meadow:delphinium', 
+      'meadow:saxifrage', 
+      'meadow:enzian', 
+      'meadow:fire_lily', 
+      'meadow:eriophorum', 
+      'meadow:eriophorum_tall', 
+      'candlelight:rose'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
@@ -337,7 +347,8 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:green_mushroom', 
       'biomeswevegone:prairie_grass', 
       'biomeswevegone:shrub', 
-      'biomeswevegone:white_puffball_spores'
+      'biomeswevegone:white_puffball_spores', 
+      'meadow:small_fir'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 

@@ -38,6 +38,7 @@ ServerEvents.tags('item', event => {
       'vinery:taiga_grapes_white', 
       'vinery:jungle_grapes_red', 
       'vinery:jungle_grapes_white', 
+      'vinery:cherry', 
       'biomeswevegone:blueberries', 
       'minecraft:allium', 
       'minecraft:azure_bluet', 
@@ -112,6 +113,7 @@ ServerEvents.tags('item', event => {
       'biomeswevegone:yellow_sakura_sapling', 
       'biomeswevegone:yucca_sapling', 
       'biomeswevegone:zelkova_sapling', 
+      'vinery:dark_cherry_sapling', 
       'biomeswevegone:jacaranda_bush', 
       'biomeswevegone:blue_rose_bush', 
       'biomeswevegone:hydrangea_bush', 
@@ -154,6 +156,14 @@ ServerEvents.tags('item', event => {
       'biomeswevegone:winter_scilla', 
       'biomeswevegone:winter_succulent', 
       'biomeswevegone:yellow_daffodil', 
+      'meadow:alpine_poppy', 
+      'meadow:delphinium', 
+      'meadow:saxifrage', 
+      'meadow:enzian', 
+      'meadow:fire_lily', 
+      'meadow:eriophorum', 
+      'meadow:eriophorum_tall', 
+      'candlelight:rose', 
       'biomeswevegone:pink_allium', 
       'biomeswevegone:white_allium', 
       'biomeswevegone:tall_allium', 
@@ -173,7 +183,8 @@ ServerEvents.tags('item', event => {
       'biomeswevegone:green_mushroom', 
       'biomeswevegone:prairie_grass', 
       'biomeswevegone:shrub', 
-      'biomeswevegone:white_puffball_spores'
+      'biomeswevegone:white_puffball_spores', 
+      'meadow:small_fir'
     ])
 
 })
