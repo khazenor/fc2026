@@ -131,7 +131,8 @@ ItemEvents.modifyTooltips(event => {
       'vinery:taiga_grapes_red', 
       'vinery:taiga_grapes_white', 
       'vinery:jungle_grapes_red', 
-      'vinery:jungle_grapes_white'
+      'vinery:jungle_grapes_white', 
+      'biomeswevegone:blueberries'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 

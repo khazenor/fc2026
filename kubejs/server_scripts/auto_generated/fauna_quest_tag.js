@@ -38,6 +38,7 @@ ServerEvents.tags('item', event => {
       'vinery:taiga_grapes_white', 
       'vinery:jungle_grapes_red', 
       'vinery:jungle_grapes_white', 
+      'biomeswevegone:blueberries', 
       'minecraft:allium', 
       'minecraft:azure_bluet', 
       'minecraft:blue_orchid', 
