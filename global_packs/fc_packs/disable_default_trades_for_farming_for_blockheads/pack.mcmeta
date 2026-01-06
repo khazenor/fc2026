@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 50,
+    "supported_formats": [
+      50
+    ],
+    "description": [
+      {
+        "text": "Farming For Blockheads Market Default Removal",
+        "color": "gold"
+      }
+    ]
+  }
+}
