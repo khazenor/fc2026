@@ -758,14 +758,28 @@ questlines = [
         dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
         increaseRateKey: 0.03,
         tasksKey: [
-          "minecraft:coal",
           "minecraft:raw_copper",
           "minecraft:raw_iron",
-          "minecraft:amethyst_shard",
           "minecraft:raw_gold",
-          "minecraft:redstone",
+          "minecraft:coal",
+          "minecraft:redstone"
+        ]
+      }, {
+        nameKey: 'Gems Completion',
+        iconKey: 'minecraft:amethyst_shard',
+        dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
+        increaseRateKey: 0.04,
+        tasksKey: [
           "minecraft:lapis_lazuli",
-          "minecraft:diamond"
+          "minecraft:amethyst_shard",
+          "minecraft:diamond",
+          'irons_jewelry:ruby',
+          'irons_jewelry:sapphire',
+          'irons_jewelry:topaz',
+          'irons_jewelry:moonstone',
+          'irons_jewelry:peridot',
+          'irons_jewelry:onyx',
+          'irons_jewelry:garnet'
         ]
       }, {
         nameKey: 'Modded Completion',

@@ -518,39 +518,6 @@
 			dependencies: ["2C1B93F1A534E681"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "39F7697AC60E7D28"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "48B7AA4784B65C46"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_ore_completion"
-					exclude_from_claim_all: true
-					id: "469A3D8E942160A7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "238E1C62834FD39D"
-				item: { count: 1, id: "minecraft:coal" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
 			id: "2A16FD0C580F0446"
 			rewards: [
 				{
@@ -577,7 +544,7 @@
 				item: { count: 1, id: "minecraft:raw_copper" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 3.5d
 		}
 		{
@@ -610,40 +577,7 @@
 				item: { count: 1, id: "minecraft:raw_iron" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "2216F4223F214D66"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "0B410E3D115DE3B5"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_ore_completion"
-					exclude_from_claim_all: true
-					id: "66532CE54579EB2A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "4C626F6F635E95ED"
-				item: { count: 1, id: "minecraft:amethyst_shard" }
-				type: "item"
-			}]
-			x: 3.0d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -676,7 +610,40 @@
 				item: { count: 1, id: "minecraft:raw_gold" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "39F7697AC60E7D28"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "48B7AA4784B65C46"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_ore_completion"
+					exclude_from_claim_all: true
+					id: "469A3D8E942160A7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "238E1C62834FD39D"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 3.0d
 			y: 3.5d
 		}
 		{
@@ -709,7 +676,40 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2A16FD0C580F0446"
+				"533A0F9E9BD15E90"
+				"17575E867D51C2D6"
+				"39F7697AC60E7D28"
+				"1B742F23C164FCAB"
+			]
+			icon: {
+				id: "minecraft:raw_iron"
+			}
+			id: "5D5B330B0F9BAEE0"
+			rewards: [{
+				count: 5
+				id: "3299C24F119E3387"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "7967059ACEAE9F08"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -729,7 +729,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_ore_completion"
+					command: "/function fc_collection:mineral_museum_gems_completion"
 					exclude_from_claim_all: true
 					id: "2091420070992FE7"
 					permission_level: 2
@@ -743,7 +743,40 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2216F4223F214D66"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "0B410E3D115DE3B5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_gems_completion"
+					exclude_from_claim_all: true
+					id: "66532CE54579EB2A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4C626F6F635E95ED"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -762,7 +795,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_ore_completion"
+					command: "/function fc_collection:mineral_museum_gems_completion"
 					exclude_from_claim_all: true
 					id: "010B9DF073EC06B2"
 					permission_level: 2
@@ -775,27 +808,260 @@
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "263F89C364ED3D8C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "769CA65A90558E3C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_gems_completion"
+					exclude_from_claim_all: true
+					id: "675A39BF795E381E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "297861DC3B0606BF"
+				item: { count: 1, id: "irons_jewelry:ruby" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "39EFE2878DC6D1DC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "251BAD6B5CDD70DF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_gems_completion"
+					exclude_from_claim_all: true
+					id: "6331B00ACD4A03C9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1E145CC807ACC0DE"
+				item: { count: 1, id: "irons_jewelry:sapphire" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "237EE388DA39963D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "20915C7FDEA706B8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_gems_completion"
+					exclude_from_claim_all: true
+					id: "080C157DCCC67508"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "21F8BE3F12458228"
+				item: { count: 1, id: "irons_jewelry:topaz" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "29872D18874776EE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "4E299D136FBF12EF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_gems_completion"
+					exclude_from_claim_all: true
+					id: "2E582C3C06E5D5CC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4BC84FE6357292AD"
+				item: { count: 1, id: "irons_jewelry:moonstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7778B91CAEEEAA25"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "6C1429AB14DB862F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_gems_completion"
+					exclude_from_claim_all: true
+					id: "71E396112408B22B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "78D04C1FD046D068"
+				item: { count: 1, id: "irons_jewelry:peridot" }
+				type: "item"
+			}]
 			x: 1.0d
-			y: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "78CFD8252C3C1544"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "0DB5F71F3FC60628"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_gems_completion"
+					exclude_from_claim_all: true
+					id: "55DE94297C0354B0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5ECBCE8BEDD18EB5"
+				item: { count: 1, id: "irons_jewelry:onyx" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7ABD07D2056F81B1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "4427C2AF11131C6B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_gems_completion"
+					exclude_from_claim_all: true
+					id: "7EBD95F227D1F650"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "72AECEF44B27D89F"
+				item: { count: 1, id: "irons_jewelry:garnet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
-				"39F7697AC60E7D28"
-				"2A16FD0C580F0446"
-				"533A0F9E9BD15E90"
-				"2216F4223F214D66"
-				"17575E867D51C2D6"
-				"1B742F23C164FCAB"
 				"1FA3B8F8A440BE24"
+				"2216F4223F214D66"
 				"7EE72BA1EB0400E5"
+				"263F89C364ED3D8C"
+				"39EFE2878DC6D1DC"
+				"237EE388DA39963D"
+				"29872D18874776EE"
+				"7778B91CAEEEAA25"
+				"78CFD8252C3C1544"
+				"7ABD07D2056F81B1"
 			]
 			icon: {
-				id: "minecraft:raw_iron"
+				id: "minecraft:amethyst_shard"
 			}
-			id: "5D5B330B0F9BAEE0"
+			id: "14152C02E5D1E73E"
 			rewards: [{
-				count: 9
-				id: "3299C24F119E3387"
+				count: 14
+				id: "52C5960462CCABC6"
 				item: {
 					count: 1
 					id: "kubejs:miles_ticket"
@@ -806,13 +1072,13 @@
 				icon: {
 					id: "minecraft:glass"
 				}
-				id: "7967059ACEAE9F08"
+				id: "1C5E0A96485BC706"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
 				value: 1
 			}]
 			x: -1.0d
-			y: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -845,7 +1111,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -878,7 +1144,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -911,7 +1177,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -944,7 +1210,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -977,7 +1243,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1010,7 +1276,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1043,7 +1309,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1076,7 +1342,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1109,7 +1375,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1142,7 +1408,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1175,7 +1441,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1208,7 +1474,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1241,7 +1507,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1274,7 +1540,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1307,7 +1573,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1350,7 +1616,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 7.0d
+			y: 8.5d
 		}
 	]
 }

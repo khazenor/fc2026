@@ -1130,5 +1130,38 @@
 			x: -2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "irons_jewelry:ruby"
+			}
+			id: "56AC6181113D8B4E"
+			rewards: [
+				{
+					id: "0D4AF209F437EEC0"
+					item: {
+						count: 1
+						id: "irons_jewelry:jewelcrafting_guide"
+					}
+					type: "item"
+				}
+				{
+					id: "6B117E8D1ABDFAB7"
+					item: {
+						count: 1
+						id: "irons_jewelry:jewelcrafting_station"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61380A707E1B1CF3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
 	]
 }
