@@ -1,0 +1,36 @@
+{
+	"textureSize": [64, 64],
+	"credit": "Made with Blockbench",
+	"submodels": [
+		{
+			"id": "leg",
+			"rotate": [0, 180, 0],
+			"boxes": [
+				{
+					"coordinates": [-2, 0, -2, 4, 12, 4],
+					"uvNorth": [28, 52, 32, 64],
+					"uvEast": [24, 52, 28, 64],
+					"uvSouth": [20, 52, 24, 64],
+					"uvWest": [16, 52, 20, 64],
+					"uvUp": [20, 48, 24, 52],
+					"uvDown": [24, 52, 28, 48]
+				}
+			]
+		},
+		{
+			"id": "pants",
+			"rotate": [0, 180, 0],
+			"boxes": [
+				{
+					"coordinates": [-2.25, -0.25, -2.25, 4.5, 12.5, 4.5],
+					"uvNorth": [12, 52, 16, 64],
+					"uvEast": [8, 52, 12, 64],
+					"uvSouth": [4, 52, 8, 64],
+					"uvWest": [0, 52, 4, 64],
+					"uvUp": [4, 48, 8, 52],
+					"uvDown": [8, 52, 12, 48]
+				}
+			]
+		}
+	]
+}

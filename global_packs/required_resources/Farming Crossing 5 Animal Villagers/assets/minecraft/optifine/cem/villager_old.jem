@@ -1,0 +1,121 @@
+{
+  "comment": "Model by sixfootblue",
+  "textureSize": [64,64],
+  "models": 
+  [
+    {
+      "model": "./villager/player_head.jpm",
+      "part": "head", 
+      "attach": false,
+      "translate": [0, 0, 0],
+      "rotate": [0, 180, 0]
+    },
+	{
+      "model": "./villager/player_body.jpm",
+      "part": "body", 
+      "attach": false,
+      "translate": [0, 0, 0],
+      "rotate": [0, 180, 0],
+	  "scale": "1.01"
+    },
+	{
+      "model": "./villager/player_arm_right.jpm",
+      "part": "body", 
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+	  "animations":
+      [
+        {
+          "this.rz": "270.235 + (sin(time / 13) / 18)",
+		  "this.rx": "(sin(time / 23) / 18) + 2*left_leg.rx",
+		  "this.tx": "-4",
+		  "this.ty": "2"
+		  
+        }
+      ]
+    },
+	{
+      "model": "./villager/player_arm_left.jpm",
+      "part": "body", 
+      "attach": true,
+      "translate": [0, 0, 0],
+      "rotate": [0, 180, 0],
+	  "animations":
+      [
+        {
+          "this.rz": "270.125 - (sin(time / 13) / 18)",
+		  "this.rx": "(sin(time / 23) / 18) - 2*right_leg.rx",
+		  "this.tx": "4",
+		  "this.ty": "2"
+        }
+      ]
+    },
+	{
+      "model": "./villager/player_leg_right.jpm",
+      "part": "right_leg", 
+      "attach": false,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+	  "animations":
+      [
+        {
+          "this.rx": "1.5*right_leg.rx"
+        }
+      ]
+    },
+	{
+      "model": "./villager/player_leg_left.jpm",
+      "part": "left_leg", 
+      "attach": false,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0],
+	  "animations":
+      [
+        {
+          "this.rx": "1.5*left_leg.rx"
+        }
+      ]
+    },
+	
+	
+	
+	
+	{
+      "model": "empty.jpm",
+      "part": "arms", 
+      "attach": false,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+    },
+	{
+	  "model": "empty.jpm",
+      "part": "nose", 
+      "attach": false,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+	},
+	{
+	  "model": "empty.jpm",
+      "part": "headwear", 
+      "attach": false,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+	},
+	{
+	  "model": "empty.jpm",
+      "part": "headwear2", 
+      "attach": false,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+	},
+	{
+	  "model": "empty.jpm",
+      "part": "bodywear", 
+      "attach": false,
+      "translate": [0, 0, 0],
+      "rotate": [0, 0, 0]
+	}
+	
+  ]
+}
