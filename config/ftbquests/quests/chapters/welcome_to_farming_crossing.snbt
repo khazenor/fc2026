@@ -958,11 +958,21 @@
 				id: "kubejs:jess"
 			}
 			id: "6A694FC4A6083409"
-			rewards: [{
-				id: "6C15349FED759A6F"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6C15349FED759A6F"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "082ECFF5AD1A6866"
+					item: {
+						count: 1
+						id: "domum_ornamentum:architectscutter"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "47D968778F725753"
 				type: "checkmark"
