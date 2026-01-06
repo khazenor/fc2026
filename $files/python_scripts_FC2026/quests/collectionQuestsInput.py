@@ -584,7 +584,8 @@ questlines = [
           "biomeswevegone:aloe_vera",
           "biomeswevegone:horseweed",
           "biomeswevegone:oddion_bulb",
-          "biomeswevegone:pale_pumpkin"
+          "biomeswevegone:pale_pumpkin",
+          'wildernature:hazelnut'
         ]
       }, {
         nameKey: 'Modded Saplings',

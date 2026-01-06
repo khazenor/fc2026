@@ -62,9 +62,9 @@ seedDefs = [
 		keys.crop: 'vinery:white_grape',
 		keys.block: 'vinery:white_grape_bush'
 	}, {
-		keys.seed: "vinery:cherry_sapling",
+		keys.seed: "vinery:dark_cherry_sapling",
 		keys.crop: "vinery:cherry",
-		keys.block: "vinery:cherry_sapling"
+		keys.block: "vinery:dark_cherry_sapling"
   }, {
 		keys.seed: "vinery:apple_tree_sapling",
 		keys.crop: "minecraft:apple",

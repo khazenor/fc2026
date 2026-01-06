@@ -2765,18 +2765,52 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "001686692286A6D3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "3DAC8C384E2315E4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_modded_foods"
+					exclude_from_claim_all: true
+					id: "0167BCBFB99D9A6A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "48C41D7442FA9A23"
+				item: { count: 1, id: "wildernature:hazelnut" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.5d
+		}
+		{
 			dependencies: [
 				"28121FE516374C97"
 				"23197E6356D7B961"
 				"2C0EF1AA38D802B1"
 				"44F6BE2321777CAA"
+				"001686692286A6D3"
 			]
 			icon: {
 				id: "biomeswevegone:aloe_vera"
 			}
 			id: "19B9404802BDE308"
 			rewards: [{
-				count: 4
+				count: 5
 				id: "37E2B72638A2158D"
 				item: {
 					count: 1

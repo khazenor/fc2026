@@ -79,6 +79,7 @@ ServerEvents.tags('item', event => {
       'biomeswevegone:horseweed', 
       'biomeswevegone:oddion_bulb', 
       'biomeswevegone:pale_pumpkin', 
+      'wildernature:hazelnut', 
       'biomeswevegone:araucaria_sapling', 
       'biomeswevegone:aspen_sapling', 
       'biomeswevegone:baobab_sapling', 
