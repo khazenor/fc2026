@@ -351,7 +351,7 @@ questlines = [
           },
           {
             observeKey: 'meadow:wooly_cow',
-            iconKey: 'meadow:wooly_cow_spawn_egg',
+            iconKey: 'meadow:highland_wooly_cow_spawn_egg',
             nameKey: 'Spot a highland cattle'
           },
 					{

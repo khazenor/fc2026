@@ -1504,10 +1504,7 @@
 			]
 			tasks: [{
 				icon: {
-					components: {
-						"ftbquests:missing_item": "meadow:wooly_cow_spawn_egg"
-					}
-					id: "ftbquests:missing_item"
+					id: "meadow:highland_wooly_cow_spawn_egg"
 				}
 				id: "0F63ADCA27600F12"
 				observe_type: 5

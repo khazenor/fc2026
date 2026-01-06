@@ -227,7 +227,7 @@ ItemEvents.modifyTooltips(event => {
       'wildernature:dog_spawn_egg', 
       'wildernature:squirrel_spawn_egg', 
       'meadow:water_buffalo_spawn_egg', 
-      'meadow:wooly_cow_spawn_egg', 
+      'meadow:highland_wooly_cow_spawn_egg', 
       'biomeswevegone:oddion_spawn_egg', 
       'minecraft:pig_spawn_egg', 
       'minecraft:chicken_spawn_egg', 
