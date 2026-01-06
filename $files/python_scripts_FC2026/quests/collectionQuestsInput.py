@@ -349,6 +349,11 @@ questlines = [
             iconKey: 'meadow:water_buffalo_spawn_egg',
             nameKey: 'Spot a water buffalo'
           },
+          {
+            observeKey: 'meadow:wooly_cow',
+            iconKey: 'meadow:wooly_cow_spawn_egg',
+            nameKey: 'Spot a highland cattle'
+          },
 					{
 						observeKey: 'biomeswevegone:oddion',
 						iconKey: 'biomeswevegone:oddion_spawn_egg',

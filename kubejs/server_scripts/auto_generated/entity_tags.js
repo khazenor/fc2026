@@ -6,6 +6,7 @@ ServerEvents.tags('entity_type', event => {
       'biomeswevegone:oddion', 
       'biomeswevegone:pumpkin_warden', 
       'meadow:water_buffalo', 
+      'meadow:wooly_cow', 
       'minecraft:allay', 
       'minecraft:armadillo', 
       'minecraft:axolotl', 
