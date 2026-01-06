@@ -71,10 +71,22 @@
 					type: "item"
 				}
 				{
-					id: "4DBFD8CD698AF384"
+					id: "2069BFA1375E9801"
+					item: {
+						components: {
+							"sophisticatedcore:accent_color": -12930086
+							"sophisticatedcore:main_color": -12930086
+						}
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "0FBC4F3E74239C2D"
 					item: {
 						count: 1
-						id: "minecraft:bundle"
+						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
 					}
 					type: "item"
 				}
@@ -96,18 +108,30 @@
 			id: "4F114B795F9ABFD0"
 			rewards: [
 				{
-					id: "720B0E3411A63654"
-					item: {
-						count: 1
-						id: "minecraft:bundle"
-					}
-					type: "item"
-				}
-				{
 					id: "303F537B0ACBEE85"
 					item: {
 						count: 1
 						id: "minecraft:shears"
+					}
+					type: "item"
+				}
+				{
+					id: "71860FF4E63D8341"
+					item: {
+						components: {
+							"sophisticatedcore:accent_color": -8337633
+							"sophisticatedcore:main_color": -8337633
+						}
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "48C02BDCF68DCBE8"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
 					}
 					type: "item"
 				}
@@ -129,19 +153,31 @@
 			id: "2C1B93F1A534E681"
 			rewards: [
 				{
-					id: "1EB379BB0AC9B085"
-					item: {
-						count: 1
-						id: "minecraft:bundle"
-					}
-					type: "item"
-				}
-				{
 					count: 16
 					id: "057651607F938237"
 					item: {
 						count: 1
 						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "37114AD8B9884EDB"
+					item: {
+						components: {
+							"sophisticatedcore:accent_color": -14869215
+							"sophisticatedcore:main_color": -14869215
+						}
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "2C8EBA8520E077E2"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
 					}
 					type: "item"
 				}
