@@ -3,6 +3,7 @@ Almanac-1.21.1-2-neoforge-1.5.0.jar
 ApothicAttributes-1.21.1-2.9.0.jar
 appleskin-neoforge-mc1.21-3.0.7.jar
 architectury-13.0.8-neoforge.jar
+artifacts-neoforge-13.1.0.jar
 atlas_api-1.21.1-1.2.0.jar
 balm-neoforge-1.21.1-21.0.55.jar
 betterarcheology-neoforge-1.21.1-1.3.4.jar
@@ -59,12 +60,14 @@ limitedchunks-1.21-4.1.jar
 logbegone-neoforge-1.21.1-1.0.3.jar
 MobCapturingTool-neoforge-1.21-4.1.0.jar
 modernfix-neoforge-5.25.1+mc1.21.1.jar
+OctoLib-NEOFORGE-0.6.0.4+1.21.jar
 Oh-The-Biomes-Weve-Gone-NeoForge-2.5.2.jar
 Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar
 pandalib-neoforge-mc1.21-0.5.2-SNAPSHOT.jar
 Placebo-1.21.1-9.9.1.jar
 prickle-neoforge-1.21.1-21.1.11.jar
 recipeessentials-1.21-4.0.jar
+relics-1.21.1-0.10.7.6.jar
 resourcefulconfig-neoforge-1.21-3.0.11.jar
 rhino-2101.2.7-build.81.jar
 Searchables-neoforge-1.21.1-1.0.2.jar

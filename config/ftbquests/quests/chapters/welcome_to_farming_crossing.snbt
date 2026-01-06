@@ -37,6 +37,14 @@
 					silent: true
 					type: "command"
 				}
+				{
+					id: "6097E2B746560561"
+					item: {
+						count: 1
+						id: "artifacts:running_shoes"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "54954BCFBA4B89EF"
