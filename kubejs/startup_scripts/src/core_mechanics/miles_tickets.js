@@ -12,7 +12,7 @@ RequestHandler.items.create.simple([
 ])
 
 RequestHandler.recipes.add.shapeless([
-  [MilesTickets.ticketId, [MilesTickets.bookletId], MilesTickets.bundleCount]
+  [`${MilesTickets.bundleCount}x ${MilesTickets.ticketId}`, [MilesTickets.bookletId]]
 ])
 
 RequestHandler.callbacks.itemEvents.rightClicked([

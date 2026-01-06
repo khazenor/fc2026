@@ -67,8 +67,7 @@ global.ServerEventsRecipes = (event) => {
   RequestHandler.recipes.add.shapelessCache.forEach(request => {
     let outputId = request[0]
     let ings = request[1]
-    let count = ArrayJs.safeAccess(request, 2, 1)
-    event.shapeless(`${count}x ${outputId}`, ings)
+    event.shapeless(outputId, ings)
   })
 
   RequestHandler.recipes.add.shapedCache.forEach(request => {
@@ -76,7 +75,7 @@ global.ServerEventsRecipes = (event) => {
     let ingGrid = request[1]
     let ingHash = request[2]
     let count = ArrayJs.safeAccess(request, 3, 1)
-    event.shaped(`${count}x ${outputId}`, ingGrid, ingHash)
+    event.shaped(outputId, ingGrid, ingHash)
   })
 
   RequestHandler.recipes.add.allFoodCookingCache.forEach(def => {

@@ -60,7 +60,7 @@ const MeatyMushrooms = {
 
     for (let ingType of ingTypes) {
       defs.push(
-        [MeatyMushrooms.pattyId, ArrayJs.repeatArr(ingType, 4)]
+        [MeatyMushrooms.pattyId, `4x ${ingType}`]
       )
     }
     return defs

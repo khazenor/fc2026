@@ -1,5 +1,5 @@
 RequestHandler.recipes.add.shapeless([['vinery:dark_cherry_sapling', [
-  '#minecraft:saplings', 'vinery:cherry', 'vinery:cherry', 'vinery:cherry'
+  '#minecraft:saplings', '3x vinery:cherry'
 ]], ['vinery:apple_tree_sapling', [
-  '#minecraft:saplings', 'minecraft:apple', 'minecraft:apple', 'minecraft:apple'
+  '#minecraft:saplings', '3x minecraft:apple'
 ]]])
