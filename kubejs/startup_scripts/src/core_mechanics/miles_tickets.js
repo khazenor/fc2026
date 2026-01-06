@@ -12,7 +12,7 @@ RequestHandler.items.create.simple([
 ])
 
 RequestHandler.recipes.add.shapeless([
-  [`${MilesTickets.bundleCount}x ${MilesTickets.ticketId}`, [MilesTickets.bookletId]]
+  [StrHelper.itemStackStr(MilesTickets.ticketId, MilesTickets.bundleCount), [MilesTickets.bookletId]]
 ])
 
 RequestHandler.callbacks.itemEvents.rightClicked([

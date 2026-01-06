@@ -23,5 +23,8 @@ const StrHelper = {
     return parseFloat( 
       this.replaceAll(this.cleanStr(str), 'd', '')
     )
+  },
+  itemStackStr(itemId, count) {
+    return `${count}x ${itemId}`
   }
 }

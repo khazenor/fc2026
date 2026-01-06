@@ -63,6 +63,7 @@
   "npcs.sellItem.thankYou": "<%s> Thank you so much! Here %s!",
   "npcs.sellTooltip": "You can sell this to %s for %s",
   "npcs.tooltip.youCanBuy": "Can be bought from %s",
+  "building_material_duplication.tooltip": "You can duplicate this material by crafting it with a Ticket",
   "questFunctions.1": "/1)",
   "questFunctions.10": "/10)",
   "questFunctions.13": "/13)",

@@ -28,7 +28,7 @@ const EventHelpers = {
     }
   },
   giveItems: (event, itemId, count) => {
-    event.player.give(`${count}x ${itemId}`)
+    event.player.give(StrHelper.itemStackStr(itemId, count))
   },
   player: (event) => {
     return event.player
