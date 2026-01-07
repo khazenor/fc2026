@@ -1,5 +1,5 @@
 const SellingFoodList = {
-  foodWithDifferentOutputs = {
+  foodWithDifferentOutputs: {
     'meadow:cheesecake': 'meadow:cheesecake_slice',
     'meadow:cheese_tart': 'meadow:cheese_tart_slice',
     'bakery:strawberry_cake': 'bakery:strawberry_cake_slice',
@@ -20,7 +20,7 @@ const SellingFoodList = {
     'meadow:sheep_cheese_block': 'meadow:piece_of_sheep_cheese',
     'meadow:warped_cheese_block': 'meadow:piece_of_warped_cheese'
   },
-  foods = [
+  foods: [
     "bakery:apple_jam",
     "bakery:chocolate_jam",
     "bakery:glowberry_jam",

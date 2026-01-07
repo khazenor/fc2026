@@ -79,6 +79,7 @@
   "npcs.sellItem.thankYou": "<%s> Thank you so much! Here %s!",
   "npcs.sellTooltip": "You can sell this to %s for %s",
   "npcs.tooltip.youCanBuy": "Can be bought from %s",
+  "sellingFood.foodCollectedClearedMsg": "Food collected cleared from player data",
   "questFunctions.1": "/1)",
   "questFunctions.10": "/10)",
   "questFunctions.13": "/13)",

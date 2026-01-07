@@ -2,7 +2,7 @@ const PlayerDataHelper = {
   addToPlayerList (event, key, val) {
     let playerDataList = EventHelpers.playerData(event)[key]
     if (playerDataList) {
-      let jsList = ArrayHelper.toStrArray(playerDataList)
+      let jsList = ArrayJs.toStrArray(playerDataList)
       jsList.push(val)
       EventHelpers.playerData(event)[key] = jsList
     } else {
@@ -11,7 +11,7 @@ const PlayerDataHelper = {
   },
   getPlayerList (event, key) {
     if (EventHelpers.playerData(event)[key]) {
-      return ArrayHelper.toStrArray(
+      return ArrayJs.toStrArray(
         EventHelpers.playerData(event)[key]
       )
     } else {
