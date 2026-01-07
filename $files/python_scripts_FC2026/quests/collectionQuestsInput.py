@@ -975,9 +975,7 @@ questlines = [
           "meadow:sheep_cheese_block",
           "meadow:goat_cheese_block",
           "meadow:buffalo_cheese_block",
-          "meadow:grain_cheese_block",
-          "meadow:amethyst_cheese_block",
-          "meadow:warped_cheese_block"
+          "meadow:grain_cheese_block"
         ]
       }, {
         nameKey: 'Cooking Caldron Completion',
