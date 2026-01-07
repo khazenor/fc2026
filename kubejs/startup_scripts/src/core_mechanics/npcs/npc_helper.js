@@ -1,8 +1,9 @@
 // priority: 1
 const NpcHelper = {
+  humanoidEntityType: 'easy_npc:humanoid',
   isEventInteractingWithNpc(npcName, event) {
     return (
-      EventHelpers.targetEntityType(event) === 'easy_npc:humanoid' &&
+      EventHelpers.targetEntityType(event) === this.humanoidEntityType &&
       EventHelpers.targetEntityName(event) === npcName &&
       PlayerTimingJs.trueIfNotSpam(event)
     )
@@ -11,7 +12,7 @@ const NpcHelper = {
     let player = event.player
     let target = event.target
     let npcName = target.name.getString()
-    if (target.type === 'easy_npc:humanoid' &&
+    if (target.type === this.humanoidEntityType &&
       PlayerTimingJs.lastActivityMoreThan(player, 'talkToNPC', 5)
     ) {
       let playerName = player.name.getString()

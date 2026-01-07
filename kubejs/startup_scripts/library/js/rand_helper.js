@@ -36,5 +36,8 @@ const RandHelper = {
       }
     }
     return values
+  },
+  randomItemFromArr(arr) {
+    return arr[Math.floor(Math.random() * arr.length)]
   }
 }

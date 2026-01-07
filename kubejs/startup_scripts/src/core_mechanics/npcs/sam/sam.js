@@ -100,14 +100,19 @@ const NpcSam = {
 }
 
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
-  if (NpcHelper.isEventInteractingWithNpc(NpcSam.name, event)) {
+  npcCommonBehavior(event, NpcSam, [() => {
     let mainHandItem = EventHelpers.mainHandItem(event).id
     if (NpcSam.sellableFishes.includes(mainHandItem)) {
-      NpcHelper.handleSellingItemToNpc(event, NpcSam.fishSellDefs[mainHandItem].id, NpcSam.fishSellDefs[mainHandItem].count)
+      NpcHelper.handleSellingItemToNpc(
+        event,
+        NpcSam.fishSellDefs[mainHandItem].id,
+        NpcSam.fishSellDefs[mainHandItem].count
+      )
+      return true
     } else {
-      NpcHelper.npcTalkToPlayerAndUpdateTrades(event, NpcSam.name, NpcSam.offerDefs)
+      return false
     }
-  }
+  }])
 }])
 
 RequestHandler.callbacks.itemEvents.modifyTooltips([(event) => {

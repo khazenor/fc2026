@@ -6,9 +6,7 @@ const NpcAndre = {
 }
 
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
-  if (NpcHelper.isEventInteractingWithNpc(NpcAndre.name, event)) {
-    NpcHelper.npcTalkToPlayerAndUpdateTrades(event, NpcAndre.name, NpcAndre.offerDefs)
-  }
+  npcCommonBehavior(event, NpcAndre, false)
 }])
 
 NpcHelper.registerItems(NpcAndre.name)
