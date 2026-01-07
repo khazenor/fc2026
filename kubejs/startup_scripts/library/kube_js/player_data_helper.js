@@ -43,6 +43,14 @@ const PlayerDataHelper = {
       return {}
     }
   },
+  getPlayerObjWStringKeyVals (event, objKey) {
+    let playerObj = EventHelpers.playerData(event)[objKey]
+    if (playerObj) {
+      return ObjectHelper.strifyKeyVals(playerObj)
+    } else {
+      return {}
+    }
+  },
   setPlayerData (event, key, val) {
     EventHelpers.playerData(event)[key] = val
   },

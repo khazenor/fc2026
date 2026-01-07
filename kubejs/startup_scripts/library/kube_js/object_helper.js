@@ -2,9 +2,20 @@ const ObjectHelper = {
   strifyKeys (obj) {
     let newObj = {}
     for (let key in obj) {
-      newObj[`${key}`] = obj[key]
+      newObj[StrHelper.cleanStr(key)] = obj[key]
     }
     return newObj
+  },
+  strifyValues (obj) {
+    let newObj = {}
+    for (let key in obj) {
+      newObj[key] = StrHelper.cleanStr(obj[key])
+    }
+    return newObj
+  },
+  strifyKeyVals (obj) {
+    let newObj = this.strifyKeys(obj)
+    return this.strifyValues(newObj)
   },
   numberifyValues (obj) {
     let newObj = {}
