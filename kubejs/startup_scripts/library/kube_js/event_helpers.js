@@ -96,10 +96,13 @@ const EventHelpers = {
   add: (event, target, data) => {
     event.add(target, data)
   },
+  hasTargetEntity: (event) => {
+    return !!event.getTarget().entity
+  },
   targetEntityType: (event) => {
-    return StrHelper.cleanStr(event.target.type)
+    return StrHelper.cleanStr(event.getTarget().entity.type)
   },
   targetEntityName: (event) => {
-    return event.target.name.getString()
+    return StrHelper.cleanStr(event.getTarget().entity.name.getString())
   }
 }

@@ -38,14 +38,18 @@ RequestHandler.callbacks.itemEvents.rightClicked([event => {
     EventHelpers.tellPlayer(event, Text.translate('sellingFood.foodCollectedClearedMsg'))
   }
 
-  if (mainHandItemId === SellingFood.menuId && isPlayerShifting) {
-    if (PlayerTimingJs.checkAreYouSureLike(
-      EventHelpers.playerName(event), 'ClearOrderAreYouSure', 5
-    )) {
-      PlayerOrderLogger.clearAllOrders(event)
-      EventHelpers.tellPlayer(event, Text.translatable('sellingFood.clearOrderConfirm'))
-    } else {
-      EventHelpers.tellPlayer(event, Text.translate('sellingFood.clearOrderAreYouSure'))
+  if (mainHandItemId === SellingFood.menuId) {
+    if (isPlayerShifting) {
+      if (PlayerTimingJs.checkAreYouSureLike(
+        EventHelpers.playerName(event), 'ClearOrderAreYouSure', 5
+      )) {
+        PlayerOrderLogger.clearAllOrders(event)
+        EventHelpers.tellPlayer(event, Text.translatable('sellingFood.clearOrderConfirm'))
+      } else {
+        EventHelpers.tellPlayer(event, Text.translate('sellingFood.clearOrderAreYouSure'))
+      }
+    } else if (!EventHelpers.hasTargetEntity(event)) {
+      ChestGuiHelper.simpleGui(event, ChestGuiHelper.blankMatrix(4), 'hello!')
     }
   }
 }])
