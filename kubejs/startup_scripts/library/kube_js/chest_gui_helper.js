@@ -4,6 +4,8 @@ const ChestGuiHelper = {
   // matrix must have 3-6 rows
   simpleGui (event, itemMatrix, title) {
     event.player.openChestGUI(title, itemMatrix.length, gui => {
+      gui.playerSlots = true
+
       for (let rowIdx = 0; rowIdx < itemMatrix.length; rowIdx++) {
         let itemRow = itemMatrix[rowIdx]
         for (let colIdx = 0; colIdx < itemRow.length; colIdx++) {

@@ -1,12 +1,9 @@
-const MenuGui = {
-  openMenuGui (event) {
+const MenuHeaderHelper = {
+  writeHeaderToMatrix(event, matrix) {
     let numFoodCollected = PlayerFoodCollectedLogger.foodCollected(event).length
     let foodCost = FoodTicketCost.foodCost(numFoodCollected)
-    let title = Text.translate('sellingFood.gui.title')
-    let matrix = ChestGuiHelper.blankMatrix(6)
     ChestGuiHelper.writeArrToMatrix(matrix, 0, 0, 0, 1, this.mealCollectedMatrixSlots(numFoodCollected))
     ChestGuiHelper.writeArrToMatrix(matrix, 0, 5, 0, 1, this.mealCostMatrixSlots(foodCost))
-    ChestGuiHelper.simpleGui(event, matrix, title)
   },
   numberId (num) {
     return `kubejs:number${StrHelper.cleanFloor(num)}`
@@ -51,4 +48,4 @@ const MenuGui = {
   }
 }
 
-RequestHandler.items.create.simple(MenuGui.numberIds)
+RequestHandler.items.create.simple(MenuHeaderHelper.numberIds)
