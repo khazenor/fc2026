@@ -8,11 +8,9 @@ const MenuActiveOrdersHelper = {
     ChestGuiHelper.writeArrToMatrix(
       matrix, orderStartRow + 1, 0, 0, 1, this.foodRequestsMatrixSlots(activeOrders)
     )
-    console.log('matrix', matrix)
   },
   customerHeadMatrixSlots (activeOrders) {
     let customerNames = Object.keys(activeOrders)
-    console.log('customerHeadMatrixSlots', customerNames.map(name => this.customerHeadId(name)))
     return customerNames.map(name => this.customerHeadId(name))
   },
   foodRequestsMatrixSlots (activeOrders) {

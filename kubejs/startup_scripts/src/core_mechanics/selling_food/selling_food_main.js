@@ -15,6 +15,31 @@ const SellingFood = {
   isOrderingFood (event) {
     let mainHandItemId = EventHelpers.mainHandItemId(event)
     return mainHandItemId === SellingFood.menuId
+  },
+  isDeliveringFood (event, customerName) {
+    let foodOrdered = PlayerOrderLogger.allOrders(event)[customerName]
+    return foodOrdered && EventHelpers.mainHandItemId(event) === foodOrdered
+  },
+  deliverFood (event, customerName) {
+    let foodOrdered = PlayerOrderLogger.allOrders(event)[customerName]
+
+    if (PlayerTimingJs.checkAreYouSureLike(
+      EventHelpers.playerName(event), 'sellFoodToNpcAreYouSure', 5
+    )) {
+      let numFoodCollected = PlayerFoodCollectedLogger.foodCollected(event).length
+      let foodOrderCost = FoodTicketCost.foodCost(numFoodCollected)
+
+      EventHelpers.tellPlayer(event, Text.translate('sellingFood.sellingFoodThanksMsg',
+        TransHelper.itemName(foodOrdered), StrHelper.cleanFloor(foodOrderCost)
+      ))
+      event.player.mainHandItem.count--
+      PlayerOrderLogger.fillOrder(event, customerName)
+      GiveItem.giveItemsSmart(event, MilesTickets.ticketId, foodOrderCost)
+    } else {
+      EventHelpers.tellPlayer(event, Text.translate('sellingFood.sellingFoodAreYouSure',
+        TransHelper.itemName(foodOrdered), customerName
+      ))
+    }
   }
 }
 

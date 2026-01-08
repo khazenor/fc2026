@@ -3,6 +3,7 @@ const NpcHelper = {
   humanoidEntityType: 'easy_npc:humanoid',
   isEventInteractingWithNpc(npcName, event) {
     return (
+      EventHelpers.hasTargetEntity(event) &&
       EventHelpers.targetEntityType(event) === this.humanoidEntityType &&
       EventHelpers.targetEntityName(event) === npcName &&
       PlayerTimingJs.trueIfNotSpam(event)

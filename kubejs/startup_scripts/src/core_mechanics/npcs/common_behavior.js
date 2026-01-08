@@ -13,8 +13,15 @@ const npcCommonBehavior = (event, npcObj, callbacksWithTruthTermination) => {
     if (SellingFood.isOrderingFood(event)) {
       SellingFood.orderFood(event, npcObj.name)
       event.cancel()
-    } else {
-      NpcHelper.npcTalkToPlayerAndUpdateTrades(event, npcObj.name, NpcSam.offerDefs)
+      return
     }
+
+    if (SellingFood.isDeliveringFood(event, npcObj.name)) {
+      SellingFood.deliverFood(event, npcObj.name)
+      event.cancel()
+      return
+    }
+
+    NpcHelper.npcTalkToPlayerAndUpdateTrades(event, npcObj.name, NpcSam.offerDefs)
   }
 }

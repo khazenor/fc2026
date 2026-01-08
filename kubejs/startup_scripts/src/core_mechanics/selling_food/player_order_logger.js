@@ -22,5 +22,10 @@ const PlayerOrderLogger = {
   },
   clearAllOrders (event) {
     PlayerDataHelper.clearKey(event, this.playerDataKey)
+  },
+  fillOrder (event, customerName) {
+    let playerOrderObj = PlayerDataHelper.getPlayerObjWStringKeyVals(event, this.playerDataKey)
+    delete playerOrderObj[customerName]
+    PlayerDataHelper.setPlayerData(event, this.playerDataKey, playerOrderObj)
   }
 }
