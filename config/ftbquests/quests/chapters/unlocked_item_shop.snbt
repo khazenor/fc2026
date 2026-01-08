@@ -161,5 +161,27 @@
 			x: 3.0d
 			y: -1.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["2DBF1187A9D50614"]
+			icon: {
+				id: "kubejs:menu"
+			}
+			id: "52581AC8E4D24289"
+			rewards: [{
+				id: "571E486BC56FD490"
+				item: {
+					count: 1
+					id: "kubejs:menu"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F353BF1B43C574E"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
 	]
 }

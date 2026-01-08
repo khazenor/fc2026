@@ -1241,5 +1241,30 @@
 			x: -3.0d
 			y: -1.0d
 		}
+		{
+			dependencies: [
+				"2C42B4AF446B4BD9"
+				"09AC0621E9289FEB"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:menu"
+			}
+			id: "2DBF1187A9D50614"
+			rewards: [{
+				id: "15B4B6EDAFFC8646"
+				item: {
+					count: 1
+					id: "kubejs:menu"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "376DFD128BBD5804"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
 	]
 }

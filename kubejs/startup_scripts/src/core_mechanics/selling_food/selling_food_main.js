@@ -30,7 +30,7 @@ const SellingFood = {
       let foodOrderCost = FoodTicketCost.foodCost(numFoodCollected)
 
       EventHelpers.tellPlayer(event, Text.translate('sellingFood.sellingFoodThanksMsg',
-        TransHelper.itemName(foodOrdered), StrHelper.cleanFloor(foodOrderCost)
+        customerName, TransHelper.itemName(foodOrdered), StrHelper.cleanFloor(foodOrderCost)
       ))
       event.player.mainHandItem.count--
       PlayerOrderLogger.fillOrder(event, customerName)
@@ -39,6 +39,7 @@ const SellingFood = {
       EventHelpers.tellPlayer(event, Text.translate('sellingFood.sellingFoodAreYouSure',
         TransHelper.itemName(foodOrdered), customerName
       ))
+      EventHelpers.tellPlayer(event, '')
     }
   }
 }

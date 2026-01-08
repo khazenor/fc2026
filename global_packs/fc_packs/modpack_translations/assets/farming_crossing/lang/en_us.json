@@ -91,7 +91,7 @@
   "sellingFood.gui.mealsCollected": "Meals Collected",
   "sellingFood.gui.mealsCost": "Meals Cost",
   "sellingFood.sellingFoodAreYouSure": "Are you sure you want to sell your %s to %s? (right click again to confirm)",
-  "sellingFood.sellingFoodThanksMsg": "Thank you so much for the %s (Miles Ticket x%s received)",
+  "sellingFood.sellingFoodThanksMsg": "<%s> Thank you so much for the %s! (Miles Ticket x%s received)",
   "questFunctions.1": "/1)",
   "questFunctions.10": "/10)",
   "questFunctions.13": "/13)",
