@@ -7,10 +7,17 @@ const ChestGuiHelper = {
       for (let rowIdx = 0; rowIdx < itemMatrix.length; rowIdx++) {
         let itemRow = itemMatrix[rowIdx]
         for (let colIdx = 0; colIdx < itemRow.length; colIdx++) {
-          let itemId = itemRow[colIdx]
-          if (itemId) {
-            gui.slot(col, row, slot => {
-              slot.item = Item.of(itemId)
+          let item = itemRow[colIdx]
+          let slotItem = null
+          if (item) {
+            if (item.customName) {
+              slotItem = Item.of(item.itemId).withCustomName(item.customName)
+            } else {
+              slotItem = Item.of(item)
+            }
+
+            gui.slot(colIdx, rowIdx, slot => {
+              slot.item = slotItem
             })
           }
         }
@@ -27,5 +34,14 @@ const ChestGuiHelper = {
       matrix.push(row)
     }
     return matrix
+  },
+  writeArrToMatrix (matrix, startRow, startCol, rowIncr, colIncr, arr) {
+    let row = startRow
+    let col = startCol
+    for (let val of arr) {
+      matrix[row][col] = val
+      row += rowIncr
+      col += colIncr
+    }
   }
 }

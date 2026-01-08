@@ -49,7 +49,7 @@ RequestHandler.callbacks.itemEvents.rightClicked([event => {
         EventHelpers.tellPlayer(event, Text.translate('sellingFood.clearOrderAreYouSure'))
       }
     } else if (!EventHelpers.hasTargetEntity(event)) {
-      ChestGuiHelper.simpleGui(event, ChestGuiHelper.blankMatrix(4), 'hello!')
+      MenuGui.openMenuGui(event)
     }
   }
 }])
