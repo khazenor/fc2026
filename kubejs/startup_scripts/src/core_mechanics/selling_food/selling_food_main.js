@@ -56,5 +56,9 @@ RequestHandler.callbacks.itemEvents.rightClicked([event => {
 
 RequestHandler.items.create.simple(SellingFood.itemIds)
 RequestHandler.tooltips.add([
-  [SellingFood.menuId, [Text.translate('sellingFood.tooltip.menu.shiftClickToClear')]]
+  [SellingFood.menuId, [
+    Text.translate('sellingFood.tooltip.menu.rightClickCustomer'),
+    Text.translate('sellingFood.tooltip.menu.rightClick'),
+    Text.translate('sellingFood.tooltip.menu.shiftClickToClear')
+  ]]
 ])
