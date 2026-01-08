@@ -111,6 +111,10 @@ global.ServerEventsRecipes = (event) => {
     event.smithing(output, itemToUpgrade, upgradeMaterial1, upgradeMaterial2)
   })
 
+  RequestHandler.recipes.add.customCache.forEach(def => {
+    event.custom(def)
+  })
+
   RequestHandler.recipes.remove.byRecipeIdCache.forEach(recipeId => {
     event.remove({ id: recipeId })
   })
