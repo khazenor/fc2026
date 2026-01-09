@@ -23,7 +23,26 @@ const EasyNpcHelper = {
   // offer: villagerItems, villagerNum, playerGive, playerNum, playerGive2, playerNum2
   offerString (offerDef) {
   
-    let playerGive = offerDef.playerGive ? offerDef.playerGive : this.defaultPlayerItem
+    let playerGive
+    let playerGive2
+    if (
+      offerDef.playerNum &&
+      offerDef.playerNum2 &&
+      !offerDef.playerGive &&
+      !offerDef.playerGive2
+    ) {
+      playerGive = MilesTickets.bookletId
+      playerGive2 = MilesTickets.ticketId
+    } else if (
+      offerDef.playerNum &&
+      !offerDef.playerGive
+    ) {
+      playerGive = MilesTickets.ticketId
+    } else {
+      playerGive = offerDef.playerGive
+      playerGive2 = offerDef.playerGive2
+    }
+
     let villagerNum = offerDef.villagerNum ? offerDef.villagerNum : this.defaultCount
     let playerNum = offerDef.playerNum ? offerDef.playerNum : this.defaultCount
 
@@ -32,7 +51,7 @@ const EasyNpcHelper = {
       let villagerItem = offerDef.villagerItems[i]
       offerRecipeStringOut += '{'
       offerRecipeStringOut += `buy: {id: "${playerGive}", count: ${playerNum}}`
-      if (offerDef.playerGive2) {
+      if (playerGive2) {
         let playerNum2 = offerDef.playerNum2 ? offerDef.playerNum2 : this.defaultCount
         offerRecipeStringOut += `, buyB: {id: "${offerDef.playerGive2}", count: ${playerNum2}}`
       }
