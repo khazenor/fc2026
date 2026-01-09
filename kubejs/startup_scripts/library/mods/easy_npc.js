@@ -20,23 +20,23 @@ const EasyNpcHelper = {
     }
 	  return `{Recipes: [${offerStrings}]}`
   },
-  // offer: villagerItems, villagerQty, playerGive, playerQty, playerGive2, playerQty2
+  // offer: villagerItems, villagerNum, playerGive, playerNum, playerGive2, playerNum2
   offerString (offerDef) {
   
     let playerGive = offerDef.playerGive ? offerDef.playerGive : this.defaultPlayerItem
-    let villagerQty = offerDef.villagerQty ? offerDef.villagerQty : this.defaultCount
-    let playerQty = offerDef.playerQty ? offerDef.playerQty : this.defaultCount
+    let villagerNum = offerDef.villagerNum ? offerDef.villagerNum : this.defaultCount
+    let playerNum = offerDef.playerNum ? offerDef.playerNum : this.defaultCount
 
     let offerRecipeStringOut = ""
     for (let i = 0; i < offerDef.villagerItems.length; i++) {
       let villagerItem = offerDef.villagerItems[i]
       offerRecipeStringOut += '{'
-      offerRecipeStringOut += `buy: {id: "${playerGive}", count: ${playerQty}}`
+      offerRecipeStringOut += `buy: {id: "${playerGive}", count: ${playerNum}}`
       if (offerDef.playerGive2) {
-        let playerQty2 = offerDef.playerQty2 ? offerDef.playerQty2 : this.defaultCount
-        offerRecipeStringOut += `, buyB: {id: "${offerDef.playerGive2}", count: ${playerQty2}}`
+        let playerNum2 = offerDef.playerNum2 ? offerDef.playerNum2 : this.defaultCount
+        offerRecipeStringOut += `, buyB: {id: "${offerDef.playerGive2}", count: ${playerNum2}}`
       }
-      offerRecipeStringOut += `, sell: {id: "${villagerItem}", count: ${villagerQty}}`
+      offerRecipeStringOut += `, sell: {id: "${villagerItem}", count: ${villagerNum}}`
       offerRecipeStringOut += ', maxUses: 2147483647, xp: 0, uses: 0, priceMultiplier: 0.0'
       offerRecipeStringOut += ', specialPrice: 0, demand: 0, rewardExp: 0'
       offerRecipeStringOut += '}'

@@ -28,16 +28,16 @@ const NpcSam = {
   get offerDefs () {
     return [{
       villagerItems: this.offer.hooks,
-      playerQty: 8
+      playerNum: 8
     }, {
       villagerItems: this.offer.lines,
-      playerQty: 8
+      playerNum: 8
     }, {
       villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.colorBobbers, 2),
-      playerQty: 4
+      playerNum: 4
     }, {
       villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.specialBobbers, 1),
-      playerQty: 16
+      playerNum: 16
     } ]
   },
   get tradeItemIds () {
