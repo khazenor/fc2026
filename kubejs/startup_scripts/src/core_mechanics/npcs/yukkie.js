@@ -9,5 +9,3 @@ const NpcYukkie = {
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   npcCommonBehavior(event, NpcYukkie, false)
 }])
-
-NpcHelper.registerItems(NpcYukkie.name)

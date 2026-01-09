@@ -9,5 +9,3 @@ const NpcAndre = {
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   npcCommonBehavior(event, NpcAndre, false)
 }])
-
-NpcHelper.registerItems(NpcAndre.name)
