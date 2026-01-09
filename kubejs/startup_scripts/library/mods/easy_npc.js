@@ -39,8 +39,8 @@ const EasyNpcHelper = {
     ) {
       playerGive = MilesTickets.ticketId
     } else {
-      playerGive = offerDef.playerGive
-      playerGive2 = offerDef.playerGive2
+      playerGive = offerDef.playerGive ? offerDef.playerGive: MilesTickets.ticketId
+      playerGive2 = offerDef.playerGive2 ? offerDef.playerNum2: null 
     }
 
     let villagerNum = offerDef.villagerNum ? offerDef.villagerNum : this.defaultCount

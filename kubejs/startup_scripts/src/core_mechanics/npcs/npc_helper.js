@@ -14,7 +14,7 @@ const NpcHelper = {
     let target = event.target
     let npcName = target.name.getString()
     if (target.type === this.humanoidEntityType &&
-      PlayerTimingJs.lastActivityMoreThan(player, 'talkToNPC', 5)
+      !PlayerTimingJs.checkAreYouSureLike(player, 'talkToNPC', 5)
     ) {
       let playerName = player.name.getString()
       let dialog = ArrayJs.getRandomArrayElement(npcDialogDefs(npcName, playerName)[npcName].dialogs)
