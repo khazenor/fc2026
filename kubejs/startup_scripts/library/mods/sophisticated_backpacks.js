@@ -1,31 +1,38 @@
 const SophisticatedBackPacks = {
-  // {
-  //   "neoforge:conditions": [
-  //     {
-  //       "type": "sophisticatedcore:item_enabled",
-  //       "itemRegistryName": "sophisticatedbackpacks:diamond_backpack"
-  //     }
-  //   ],
-  //   "type": "sophisticatedbackpacks:backpack_upgrade",
-  //   "category": "misc",
-  //   "key": {
-  //     "B": {
-  //       "item": "sophisticatedbackpacks:gold_backpack"
-  //     },
-  //     "D": {
-  //       "tag": "c:gems/diamond"
-  //     }
-  //   },
-  //   "pattern": [
-  //     "DDD",
-  //     "DBD",
-  //     "DDD"
-  //   ],
-  //   "result": {
-  //     "count": 1,
-  //     "id": "sophisticatedbackpacks:diamond_backpack"
-  //   }
-  // }
+  tiers: {
+    normal: 'normal',
+    copper: 'copper',
+    iron: 'iron',
+    gold: 'gold',
+    diamond: 'diamond',
+    netherite: 'netherite'
+  },
+  get upgradedTiers () {
+    return [
+      this.tiers.copper,
+      this.tiers.iron,
+      this.tiers.gold,
+      this.tiers.diamond,
+      this.tiers.netherite
+    ]
+  },
+  get tierOrder () {
+    return [
+      this.tiers.normal,
+      this.tiers.copper,
+      this.tiers.iron,
+      this.tiers.gold,
+      this.tiers.diamond,
+      this.tiers.netherite
+    ]
+  },
+  backpackId(tier) {
+    if (tier === this.tiers.normal) {
+      return 'sophisticatedbackpacks:backpack'
+    } else {
+      return `sophisticatedbackpacks:${tier}_backpack`
+    }
+  },
   upgradeRecipe (resultId, keysObj, patternMatrix) {
     return {
       "neoforge:conditions": [

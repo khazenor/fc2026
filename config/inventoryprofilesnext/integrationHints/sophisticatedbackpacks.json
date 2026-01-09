@@ -18,8 +18,7 @@
                 "top": -16
             },
             "MOVE_TO_CONTAINER": {
-                "horizontalOffset": -3,
-                "bottom": 84
+                "horizontalOffset": 52
             },
             "SHOW_EDITOR": {
                 "horizontalOffset": 60,

@@ -1,43 +1,19 @@
 const SophisticatedBackPackSupport = {
-  tiers: {
-    copper: 'copper',
-    iron: 'iron',
-    gold: 'gold',
-    diamond: 'diamond',
-    netherite: 'netherite'
-  },
-  get tierOrder () {
-    return [
-      null,
-      this.tiers.copper,
-      this.tiers.iron,
-      this.tiers.gold,
-      this.tiers.diamond,
-      this.tiers.netherite
-    ]
-  } ,
-  backpackId(tier) {
-    if (tier) {
-      return `sophisticatedbackpacks:${tier}_backpack`
-    } else {
-      return 'sophisticatedbackpacks:backpack'
-    }
-  },
   backpackUpgradeId (tier) {
     return `kubejs:backpack_upgrade_${tier}`
   },
   get backpackUpgradeIds () {
-    return Object.values(this.tiers).map(tier => this.backpackUpgradeId(tier))
+    return SophisticatedBackPacks.upgradedTiers.map(tier => this.backpackUpgradeId(tier))
   },
   get upgradeRecipes () {
     let recipeDefs = []
-    for (let i = 1; i < this.tierOrder.length; i++) {
-      let prevTier = this.tierOrder[i-1]
-      let nextTier = this.tierOrder[i]
+    for (let i = 1; i < SophisticatedBackPacks.tierOrder.length; i++) {
+      let prevTier = SophisticatedBackPacks.tierOrder[i-1]
+      let nextTier = SophisticatedBackPacks.tierOrder[i]
       recipeDefs.push(
       this.upgradeRecipeDef(
-        this.backpackId(nextTier),
-        this.backpackId(prevTier),
+        SophisticatedBackPacks.backpackId(nextTier),
+        SophisticatedBackPacks.backpackId(prevTier),
         this.backpackUpgradeId(nextTier)
       ))
     }
