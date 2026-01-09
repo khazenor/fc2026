@@ -1263,6 +1263,29 @@
 				id: "376DFD128BBD5804"
 				type: "checkmark"
 			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"28D5E795C2CE0159"
+				"6A694FC4A6083409"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:pamela"
+			}
+			id: "2C8130F0E14958B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D69B65B665C2534"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64BCE85D79C8E124"
+				type: "checkmark"
+			}]
 			x: 1.0d
 			y: 0.0d
 		}

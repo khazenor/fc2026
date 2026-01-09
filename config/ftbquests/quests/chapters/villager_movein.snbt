@@ -31,15 +31,16 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 8L
-				id: "2DBB42B473B222DA"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				count: 4L
+				id: "19AD8DA1770E7BB7"
+				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: -1.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["71DD63453348DBE8"]
 			hide_until_deps_complete: true
 			icon: {
@@ -84,15 +85,16 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 8L
-				id: "5073AE24F4F82772"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				count: 4L
+				id: "578EE00C8185F3F1"
+				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["6A694FC4A6083409"]
 			hide_until_deps_complete: true
 			icon: {
@@ -115,6 +117,60 @@
 			}]
 			x: 1.0d
 			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2C8130F0E14958B4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:pamela"
+			}
+			id: "3CA5ABA6ED18830D"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:pamela"
+				icon: {
+					id: "kubejs:pamela"
+				}
+				id: "135F0F48F9B380FC"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7E7314B7511294F8"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2C8130F0E14958B4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "433EE8A9CC98B14E"
+			rewards: [{
+				command: "/function fc_villagers:pamela_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "3951420C50FFE20F"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "14EAB549606F44BA"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
 		}
 	]
 }

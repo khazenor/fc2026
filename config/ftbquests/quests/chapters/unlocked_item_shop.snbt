@@ -164,6 +164,7 @@
 		{
 			can_repeat: true
 			dependencies: ["2DBF1187A9D50614"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:menu"
 			}
