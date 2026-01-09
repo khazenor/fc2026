@@ -97,9 +97,5 @@ seedDefs = [
 		keys.seed: "herbalbrews:coffee_beans",
 		keys.crop: "herbalbrews:coffee_beans",
 		keys.block: "herbalbrews:coffee_plant"
-  }, {
-    keys.seed: 'minecraft:blaze_powder',
-    keys.crop: 'minecraft:blaze_rod',
-    keys.block: 'minecraft:lightning_rod'
-	}
+  }
 ]

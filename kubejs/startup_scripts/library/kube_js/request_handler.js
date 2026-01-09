@@ -84,7 +84,16 @@ const RequestHandler = {
       smithingMult (defs) {
         this.smithingCache = this.smithingCache.concat(defs)
       },
-      smithingCache: []
+      smithingCache: [],
+      smeltingSingle (outputId, inputId) {
+        this.smeltingCache.push([outputId, inputId])
+      },
+      smeltingMult (defs) {
+        defs.forEach(def => {
+          this.smeltingSingle(def[0], def[1])
+        })
+      },
+      smeltingCache: []
     },
     remove: {
       byRecipeId (ids) {

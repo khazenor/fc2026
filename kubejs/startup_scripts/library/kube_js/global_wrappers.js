@@ -126,6 +126,10 @@ global.ServerEventsRecipes = (event) => {
   RequestHandler.recipes.remove.byModCache.forEach(modId => {
     event.remove({ mod: modId })
   })
+
+  RequestHandler.recipes.add.smeltingCache.forEach(def => {
+    event.smelting(def[0], def[1])
+  })
 }
 
 
