@@ -24,6 +24,23 @@ const NpcJess = {
       villagerItems: [sophSup.backpackUpgradeId(soph.tiers.netherite)],
       playerGive: MilesTickets.bookletId,
       playerNum: 4
+    }, {
+      villagerItems: ['sophisticatedstorage:basic_to_copper_tier_upgrade'],
+      playerNum: 4,
+    }, {
+      villagerItems: ['sophisticatedstorage:copper_to_iron_tier_upgrade'],
+      playerNum: 16,
+    }, {
+      villagerItems: ['sophisticatedstorage:iron_to_gold_tier_upgrade'],
+      playerNum: 32,
+    }, {
+      villagerItems: ['sophisticatedstorage:gold_to_diamond_tier_upgrade'],
+      playerGive: MilesTickets.bookletId,
+      playerNum: 2,
+    }, {
+      villagerItems: ['sophisticatedstorage:diamond_to_netherite_tier_upgrade'],
+      playerGive: MilesTickets.bookletId,
+      playerNum: 4,
     }]
   }
 }
