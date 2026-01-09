@@ -1,4 +1,4 @@
-// priority: 1
+// priority: 2
 const NpcHelper = {
   humanoidEntityType: 'easy_npc:humanoid',
   isEventInteractingWithNpc(npcName, event) {
@@ -59,5 +59,10 @@ const NpcHelper = {
   registerItems (npcName) {
     let lowerName = npcName.toLowerCase()
     RequestHandler.items.create.simple([`${lowerName}`])
+  },
+  get npcObjs () {
+    return [
+      NpcAndre, NpcJess, NpcPamela, NpcRen, NpcSam, NpcYukkie
+    ]
   }
 }

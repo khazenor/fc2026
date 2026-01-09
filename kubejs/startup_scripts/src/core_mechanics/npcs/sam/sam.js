@@ -1,3 +1,4 @@
+// priority: 1
 // Requires 
 // - core_mechanics\miles_tickets.js
 // - core_mechanics\npcs\npc_helper.js
@@ -122,7 +123,3 @@ RequestHandler.callbacks.itemEvents.modifyTooltips([(event) => {
 NpcHelper.registerItems(NpcSam.name)
 
 RequestHandler.recipes.remove.byItemId(NpcSam.tradeItemIds)
-
-RequestHandler.tooltips.addSingular(
-  NpcSam.tradeItemIds, Text.translate('npcs.tooltip.youCanBuy', NpcSam.name)
-)

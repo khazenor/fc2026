@@ -1,3 +1,4 @@
+// priority: 1
 const NpcJess = {
   name: 'Jess',
   get offerDefs()  {
@@ -30,5 +31,3 @@ const NpcJess = {
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   npcCommonBehavior(event, NpcJess, false)
 }])
-
-NpcHelper.registerItems(NpcJess.name)

@@ -25,3 +25,17 @@ const npcCommonBehavior = (event, npcObj, callbacksWithTruthTermination) => {
     NpcHelper.npcTalkToPlayerAndUpdateTrades(event, npcObj.name, npcObj.offerDefs)
   }
 }
+
+RequestHandler.callbacks.clientLoaded(() => {
+  NpcHelper.npcObjs.forEach(npcObj => {
+    for (let offerDef of npcObj.offerDefs) {
+      RequestHandler.tooltips.add([[
+        offerDef.villagerItems, [Text.translate('npcs.tooltip.youCanBuy', npcObj.name)]
+      ]])
+    }
+  })
+})
+
+NpcHelper.npcObjs.forEach(npcObj => {
+  NpcHelper.registerItems(npcObj.name)
+})

@@ -1,3 +1,4 @@
+// priority: 1
 const NpcYukkie = {
   name: 'Yukkie',
   offerDefs: [
