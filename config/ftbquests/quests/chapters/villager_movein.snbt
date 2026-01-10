@@ -172,5 +172,167 @@
 			x: 1.0d
 			y: 0.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["0837A544E05704BC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:andre"
+			}
+			id: "24A47A72A30E2BF1"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:andre"
+				icon: {
+					id: "kubejs:andre"
+				}
+				id: "5768663A64833555"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "45E330F44EA726F5"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5311686C2B4B0C71"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:laly"
+			}
+			id: "2A1AEF0E0411614B"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:laly"
+				icon: {
+					id: "kubejs:laly"
+				}
+				id: "36B5EBED34BB417B"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "14C0D199BCF9C2DE"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EDF709B0F6F410A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:yukkie"
+			}
+			id: "68B6D4B3A9C0410C"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:yukkie"
+				icon: {
+					id: "kubejs:yukkie"
+				}
+				id: "674547A832E568C9"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "568B8A2DE791816E"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0837A544E05704BC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "0EF4C08295FD0C42"
+			rewards: [{
+				command: "/function fc_villagers:andre_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "36A176CDA5869125"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "3481EC86C1EEB5C2"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5311686C2B4B0C71"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "4DEF63334FEF5391"
+			rewards: [{
+				command: "/function fc_villagers:laly_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "1EE053483AB08EB7"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "03EF8D3C33F64AF5"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EDF709B0F6F410A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "53758DAA16D2F0A1"
+			rewards: [{
+				command: "/function fc_villagers:yukkie_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "66C90450BE81A057"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "68D3A7EEF4996474"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
 	]
 }

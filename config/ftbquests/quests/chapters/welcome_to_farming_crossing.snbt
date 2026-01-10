@@ -984,6 +984,10 @@
 			dependencies: [
 				"71DD63453348DBE8"
 				"6A694FC4A6083409"
+				"2C8130F0E14958B4"
+				"1EDF709B0F6F410A"
+				"5311686C2B4B0C71"
+				"0837A544E05704BC"
 			]
 			hide_until_deps_complete: true
 			id: "405396378EE4B767"
@@ -993,7 +997,7 @@
 				item: { count: 1, id: "kubejs:miles_booklet" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -1309,6 +1313,75 @@
 			}]
 			x: 1.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A694FC4A6083409"
+				"237FE170DCEF0E64"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:yukkie"
+			}
+			id: "1EDF709B0F6F410A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AE56D21A2903EF7"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64083F8BBF9CEA39"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6A694FC4A6083409"
+				"376DCB91210E98FD"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:andre"
+			}
+			id: "0837A544E05704BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40EE2B4CE1167B6E"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79243228092AB346"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6A694FC4A6083409"
+				"475B5DD94020E4C0"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:laly"
+			}
+			id: "5311686C2B4B0C71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57ACECA3E6DE3506"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79FFB63DB33B6DB9"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
 		}
 	]
 }
