@@ -83,6 +83,7 @@ OctoLib-NEOFORGE-0.6.0.4+1.21.jar
 Oh-The-Biomes-Weve-Gone-NeoForge-2.5.2.jar
 Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar
 pandalib-neoforge-mc1.21-0.5.2-SNAPSHOT.jar
+Paraglider-neoforge-21.1.3.jar
 Placebo-1.21.1-9.9.1.jar
 prickle-neoforge-1.21.1-21.1.11.jar
 ProbeJS-7.7.2.jar
