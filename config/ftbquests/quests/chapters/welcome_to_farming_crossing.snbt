@@ -151,6 +151,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5C2110F26F883A9B"
+					item: {
+						count: 1
+						id: "compostbag:compost_bag"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7F0EDDFC7B43BC77"
@@ -1190,15 +1198,25 @@
 			dependencies: ["5BD4C23644BF2703"]
 			hide_until_deps_complete: true
 			id: "5BB57D9BEC8038FB"
-			rewards: [{
-				count: 2
-				id: "79CEA99DB2601F37"
-				item: {
-					count: 1
-					id: "mobcapturingtool:mob_capturing_tool"
+			rewards: [
+				{
+					count: 2
+					id: "79CEA99DB2601F37"
+					item: {
+						count: 1
+						id: "mobcapturingtool:mob_capturing_tool"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "323B3B71FE9A9A22"
+					item: {
+						count: 1
+						id: "paraglider:paraglider"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					id: "minecraft:armadillo_spawn_egg"
