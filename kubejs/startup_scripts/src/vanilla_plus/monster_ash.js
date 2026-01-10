@@ -1,8 +1,6 @@
 const MonsterAsh = {
   ashId: 'kubejs:ash',
-  packedAshId: 'kubejs:packed_ash',
   monsterParts: [
-    "minecraft:string",
     "minecraft:slime_ball",
     "minecraft:rotten_flesh",
     "minecraft:bone",
@@ -19,22 +17,13 @@ const MonsterAsh = {
 }
 
 RequestHandler.items.create.simple([
-  MonsterAsh.ashId, MonsterAsh.packedAshId
+  MonsterAsh.ashId
 ])
 
-RequestHandler.recipes.add.shapeless([
-  [MonsterAsh.packedAshId, [`4x ${MonsterAsh.ashId}`]]
-])
+RequestHandler.recipes.add.shapeless(MonsterAsh.monsterParts.map(monsterPart => 
+  [`2x ${monsterPart}`, [monsterPart, MonsterAsh.ashId]]
+))
 
 RequestHandler.recipes.add.allFoodCooking([
   [MonsterAsh.ashId, '#c:grains']
-])
-
-RequestHandler.recipes.add.stonecuttingWithArrayOutput([
-  [MonsterAsh.monsterParts, MonsterAsh.packedAshId]
-])
-
-RequestHandler.tooltips.add([
-  [MonsterAsh.packedAshId, [Text.translate('tooltip.monsterAsh.packedAsh')]],
-  [MonsterAsh.monsterParts, [Text.translate('tooltip.monsterAsh.monsterParts')]]
 ])

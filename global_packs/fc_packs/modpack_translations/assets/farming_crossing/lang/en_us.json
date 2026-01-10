@@ -241,8 +241,6 @@
   "tooltip.canGetFromQuests": "Can be obtained from quests",
   "tooltip.kubejs.meaty_mushroom1": "Can be used as a meat replacement",
   "tooltip.kubejs.meaty_mushroom2": "Place in stonecutter to craft imitation meats",
-  "tooltip.monsterAsh.packedAsh": "Can be use to make monster parts in the stonecutter",
-  "tooltip.monsterAsh.monsterParts": "Can be stoncutted from packed ash",
   "translation.are": "are %s",
   "translation.is": "is %s",
   "translation.pluralizeNoun": "%ss",
