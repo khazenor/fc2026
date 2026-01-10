@@ -1286,6 +1286,27 @@
 				id: "64BCE85D79C8E124"
 				type: "checkmark"
 			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3D3BA7844BFBCD"]
+			hide_until_deps_complete: true
+			id: "451F16432EFAC417"
+			rewards: [{
+				count: 16
+				id: "6A7F86FAB489C71B"
+				item: {
+					count: 1
+					id: "kubejs:ash"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5849A955474FBBDD"
+				item: { count: 1, id: "kubejs:ash" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 0.0d
 		}

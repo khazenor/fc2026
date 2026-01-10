@@ -170,3 +170,7 @@ you have closed the hatch the good will pop out after you open the hatch again.
 - If the water runs out, you need to add more with a water bucket.
 
 - If the water runs over, you need to remove some water with an empty bucket.
+
+# How to make monster part lasts with ash
+- You can make ash by smelting grains (e.g. wheat)
+- Ash can then be used to duplicate monster parts in the crafting table.

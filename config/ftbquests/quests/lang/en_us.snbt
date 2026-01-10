@@ -67,7 +67,7 @@
 		"- place the tea kettle on top of the stove"
 		"- place the ingredients and the container in their respective slots"
 		"- add blaze powder into the blaze powder slot until the pot it hot enough to brew the tea."
-		"- (you can grow blaze rods using blaze powder in the botany pot)"
+		""
 	]
 	quest.21BA88188D23BF4E.title: "Brewing Tea"
 	quest.21CCCE0993977F7C.title: "Collected 110 Unique Flora!"
@@ -167,6 +167,13 @@
 	quest.429B913B2B35BC9E.title: "Stone Fishing Rod Upgrade"
 	quest.433EE8A9CC98B14E.title: "Locate Pamela"
 	quest.438291A92EF08540.title: "Biome Bushes"
+	quest.451F16432EFAC417.quest_desc: [
+		"- You can make ash by smelting grains (e.g. wheat)"
+		""
+		"- Ash can then be used to duplicate monster parts in the crafting table."
+	]
+	quest.451F16432EFAC417.quest_subtitle: "How to make monster part lasts with ash"
+	quest.451F16432EFAC417.title: "Making Monster Parts Last"
 	quest.46394CBBF5F1EE7C.title: "Vanilla Blocks Completion"
 	quest.47254C7C6ACB15E3.title: "Biome Ground Covers"
 	quest.475A0548B2D4CCF7.title: "Forest Completion"
