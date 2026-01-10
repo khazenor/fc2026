@@ -120,4 +120,4 @@ RequestHandler.callbacks.itemEvents.modifyTooltips([(event) => {
   NpcHelper.tooltipsForSellingToNpc(NpcSam.name, NpcSam.fishSellDefs)
 }])
 
-RequestHandler.recipes.remove.byItemId(NpcSam.tradeItemIds)
+NpcHelper.registerTooltipsFromTradeItemIds(NpcSam)
