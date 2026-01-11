@@ -3,3 +3,12 @@ RequestHandler.recipes.add.shapeless([['vinery:dark_cherry_sapling', [
 ]], ['vinery:apple_tree_sapling', [
   '#minecraft:saplings', '3x minecraft:apple'
 ]]])
+
+RequestHandler.recipes.remove.byItemId([
+  'farm_and_charm:chicken_coop' // disable until it doesn't crash the game
+])
+
+RequestHandler.tooltips.add([
+  ['farm_and_charm:water_sprinkler', [Text.translate('letsDo.tooltip.sprinkler')]],
+  ['farm_and_charm:cattlegrid', [Text.translate('letsDo.tooltip.cattleGrid')]]
+])
