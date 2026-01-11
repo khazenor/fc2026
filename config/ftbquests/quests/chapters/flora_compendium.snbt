@@ -1309,6 +1309,39 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2081B90A9B66A1F9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "4645B8F165A305E7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					exclude_from_claim_all: true
+					id: "24BD6C672AA6EADA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "66AD526CEA11689A"
+				item: { count: 1, id: "biomeswevegone:green_apple" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
 			dependencies: [
 				"26022F9CB6851F34"
 				"084140969B947B0B"
@@ -1332,13 +1365,14 @@
 				"292FC20058D48D7B"
 				"183FE89F5814833B"
 				"71FCBD66F5F12227"
+				"2081B90A9B66A1F9"
 			]
 			icon: {
 				id: "farm_and_charm:corn"
 			}
 			id: "2DB621BCC10A0C1C"
 			rewards: [{
-				count: 31
+				count: 33
 				id: "0E913ECE3206A852"
 				item: {
 					count: 1

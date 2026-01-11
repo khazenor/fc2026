@@ -524,7 +524,8 @@ questlines = [
           'vinery:jungle_grapes_red',
           'vinery:jungle_grapes_white',
           'vinery:cherry',
-          'biomeswevegone:blueberries'
+          'biomeswevegone:blueberries',
+          'biomeswevegone:green_apple'
         ]
       }, { # Vanilla Flower
         nameKey: 'Vanilla Flower Completion',
