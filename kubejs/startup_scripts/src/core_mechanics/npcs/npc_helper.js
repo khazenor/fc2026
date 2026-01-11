@@ -64,19 +64,5 @@ const NpcHelper = {
     return [
       NpcAndre, NpcJess, NpcPamela, NpcRen, NpcSam, NpcYukkie, NpcLaly
     ]
-  },
-  registerTooltipsFromOfferDefs (npcObj) {
-    RequestHandler.callbacks.clientLoaded(() => {
-      for (let offerDef of npcObj.offerDefs) {
-        RequestHandler.tooltips.add([[
-          offerDef.villagerItems, [Text.translate('npcs.tooltip.youCanBuy', npcObj.name)]
-        ]])
-      }
-    })
-  },
-  registerTooltipsFromTradeItemIds (npcObj) {
-    RequestHandler.tooltips.add([
-      [NpcSam.tradeItemIds, [Text.translate('npcs.tooltip.youCanBuy', npcObj.name)]]
-    ])
   }
 }

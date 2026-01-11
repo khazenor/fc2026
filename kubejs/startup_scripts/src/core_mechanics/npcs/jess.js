@@ -48,5 +48,3 @@ const NpcJess = {
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   npcCommonBehavior(event, NpcJess, false)
 }])
-
-NpcHelper.registerTooltipsFromOfferDefs(NpcJess)
