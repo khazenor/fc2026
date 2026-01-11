@@ -1,3 +1,4 @@
+advancednetherite-neoforge-2.3.1-1.21.1.jar
 AI-Improvements-1.21-0.5.3.jar
 Almanac-1.21.1-2-neoforge-1.5.0.jar
 ApothicAttributes-1.21.1-2.9.0.jar
@@ -24,6 +25,8 @@ controllable-neoforge-1.21.1-0.25.3.jar
 Controlling-neoforge-1.21.1-19.0.5.jar
 copycats-3.0.4+mc.1.21.1-neoforge.jar
 Corgilib-NeoForge-1.21.1-5.0.0.7.jar
+cosmeticarmorreworked-1.21.1-v1-neoforge.jar
+CosmeticArmours - 1.5.3.1 - 1.21.1 - NeoForge.jar
 crafting_on_a_stick-1.21.0.2.jar
 CraftTweaker-neoforge-1.21.1-21.0.35.jar
 create-1.21.1-6.0.8.jar
@@ -78,6 +81,14 @@ letsdo-wildernature-neoforge-1.1.3.jar
 libIPN-neoforge-1.21.1-6.6.2.jar
 limitedchunks-1.21-4.1.jar
 logbegone-neoforge-1.21.1-1.0.3.jar
+MOAdecor ART 1.21.1.B.jar
+MOAdecor BATH 1.21.1.C.jar
+MOAdecor COOKERY 1.21.1.B.jar
+MOAdecor ELECTRONICS 1.21.1.A.jar
+MOAdecor HOLIDAYS 1.21.1.A.jar
+MOAdecor LIGHTS 1.21.1.A.jar
+MOAdecor SCIENCE 1.21.1.A.jar
+MOAdecor TOYS 1.21.1.A.jar
 MobCapturingTool-neoforge-1.21-4.1.0.jar
 modernfix-neoforge-5.25.1+mc1.21.1.jar
 MouseTweaks-neoforge-mc1.21-2.26.1.jar
@@ -86,6 +97,7 @@ Oh-The-Biomes-Weve-Gone-NeoForge-2.5.2.jar
 Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar
 pandalib-neoforge-mc1.21-0.5.2-SNAPSHOT.jar
 Paraglider-neoforge-21.1.3.jar
+Patchouli-1.21.1-92-NEOFORGE.jar
 pipeorgans-0.8.2+1.21.1.jar
 Placebo-1.21.1-9.9.1.jar
 prickle-neoforge-1.21.1-21.1.11.jar
@@ -103,4 +115,6 @@ sophisticatedstorage-1.21.1-1.5.17.1398.jar
 structureessentials-1.21.1-4.8.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 tide-neoforge-1.21-1.6.4.jar
+weavers_cosmetics-neo-1.21.1_v1.0.jar
+weavers_cosmetics_cosplay-v1.0.jar
 yukamibackpacktab-1.21.1-1.1.1-neoforge.jar
