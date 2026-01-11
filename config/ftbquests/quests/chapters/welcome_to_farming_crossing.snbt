@@ -1401,5 +1401,25 @@
 			x: 3.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["0D128DE964133D4A"]
+			hide_until_deps_complete: true
+			id: "523D97361A2661A4"
+			rewards: [{
+				id: "19AEF15132169A62"
+				item: {
+					count: 1
+					id: "farm_and_charm:pitchfork"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77D0D6273B1901F2"
+				item: { count: 1, id: "farm_and_charm:fertilized_soil" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
 	]
 }

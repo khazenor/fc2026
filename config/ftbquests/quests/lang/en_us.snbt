@@ -219,6 +219,13 @@
 	quest.4FA08F2A855CB462.title: "Observed 5 Unique Animals!"
 	quest.517973B7A58F929E.title: "Cooked 35 Unique Dishes!"
 	quest.520285E09CFCACAB.title: "Netherite Fishing Rod Upgrade Kit"
+	quest.523D97361A2661A4.quest_desc: [
+		"# Usage"
+		""
+		"With a hoe: Right-click while holding the hoe in your main hand to convert it into fertilized farmland."
+		""
+		"With a pitchfork: Right-click while holding the pitchfork in your main hand to apply the Bone Meal effect to up to 8 crops within a radius of several blocks. Can be used up to 4 times per fertilized soil block."
+	]
 	quest.52581AC8E4D24289.title: "Menu"
 	quest.5311686C2B4B0C71.quest_desc: ["Collect 10 unique minerals to move in Laly"]
 	quest.5311686C2B4B0C71.title: "Move in Laly"
