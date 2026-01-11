@@ -45,6 +45,12 @@ const npcDialogDefs = (npcName, playerName) => {
         Text.translate('npcs.dialog.yukkie2', npcName),
         Text.translate('npcs.dialog.yukkie3', npcName, playerName)
       ]
+    },
+    "Laly": {
+      dialogs: [
+        Text.translate('npcs.dialog.laly1', npcName),
+        Text.translate('npcs.dialog.laly2', npcName, playerName)
+      ]
     }
   }
 }
