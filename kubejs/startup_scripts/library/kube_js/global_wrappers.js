@@ -1,4 +1,10 @@
 // priority: -1000
+global.beforeServerHooksCallback = () => {
+  RequestHandler.callbacks.beforeServerHooksCache.forEach(callback => {
+    callback()
+  })
+}
+
 global.RecipeViewerEventsAddInformationItem = (event) => {
   let requests = RequestHandler.jei.infoForItemCache
   for (let request of requests) {
