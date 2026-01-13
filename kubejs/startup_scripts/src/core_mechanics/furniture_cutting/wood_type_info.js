@@ -1,18 +1,18 @@
 // priority: 1
 const WoodTypeInfo = {
   woodTypeChecklist: [{
-    name: 'dark oak',
+    names: ['dark oak'],
     id: 'minecraft:dark_oak_planks',
     convertableIds: [
       'betterarcheology:rotten_planks',
       'biomeswevegone:ebony_planks'
     ]
   }, {
-    name: 'oak',
+    names: ['oak'],
     id: 'minecraft:oak_planks',
     convertableIds: ['beachparty:palm_planks']
   }, {
-    name: 'spruce',
+    names: ['spruce'],
     id: 'minecraft:spruce_planks',
     convertableIds: [
       'biomeswevegone:baobab_planks',
@@ -20,7 +20,7 @@ const WoodTypeInfo = {
       'biomeswevegone:maple_planks'
     ]
   }, {
-    name: 'birch',
+    names: ['birch'],
     id: 'minecraft:birch_planks',
     convertableIds: [
       'biomeswevegone:pine_planks',
@@ -29,7 +29,7 @@ const WoodTypeInfo = {
       'biomeswevegone:white_mangrove_planks'
     ]
   }, {
-    name: 'jungle',
+    names: ['jungle'],
     id: 'minecraft:jungle_planks',
     convertableIds: [
       'biomeswevegone:jacaranda_planks',
@@ -37,7 +37,7 @@ const WoodTypeInfo = {
       'biomeswevegone:holly_planks',
     ]
   }, {
-    name: 'acacia',
+    names: ['acacia'],
     id: 'minecraft:acacia_planks',
     convertableIds: [
       'biomeswevegone:fir_planks',
@@ -47,19 +47,19 @@ const WoodTypeInfo = {
       'biomeswevegone:zelkova_planks'
     ]
   }, {
-    name: 'mangrove',
+    names: ['mangrove'],
     id: 'minecraft:mangrove_planks',
     convertableIds: ['biomeswevegone:mahogany_planks']
   }, {
-    name: 'cherry',
+    names: ['cherry'],
     id: 'minecraft:cherry_planks',
     convertableIds: []
   }, {
-    name: 'bamboo',
+    names: ['bamboo'],
     id: 'minecraft:bamboo_planks',
     convertableIds: []
   }, {
-    name: 'crimson',
+    names: ['crimson'],
     id: 'minecraft:crimson_planks',
     convertableIds: [
       'biomeswevegone:sakura_planks',
@@ -67,7 +67,7 @@ const WoodTypeInfo = {
       'vinery:dark_cherry_planks'
     ]
   }, {
-    name: 'warped',
+    names: ['warped'],
     id: 'minecraft:warped_planks',
     convertableIds: [
       'biomeswevegone:blue_enchanted_planks',

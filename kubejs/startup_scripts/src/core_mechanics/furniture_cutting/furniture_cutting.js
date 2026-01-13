@@ -5,8 +5,10 @@ const FurnitureCutting = {
       let itemName = StrHelper.cleanStr(TransHelper.itemNameEngStr(itemId)).toLowerCase()
 
       for (let woodDef of WoodTypeInfo.woodTypeChecklist) {
-        if (itemName.includes(woodDef.name) && !woodDef.convertableIds.includes(itemId)) {
-          woodDef.convertableIds.push(itemId)
+        for (let name of woodDef.names) {
+          if (itemName.includes(name) && !woodDef.convertableIds.includes(itemId)) {
+            woodDef.convertableIds.push(itemId)
+          }
         }
       }
     }
