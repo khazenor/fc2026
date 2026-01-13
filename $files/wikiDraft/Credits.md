@@ -1,0 +1,10 @@
+# skins:
+- https://namemc.com/skin/1d1ddffab8ffed25
+- https://namemc.com/skin/279990765d4f5cc9
+- https://namemc.com/skin/ace70ee18790c32b
+- https://namemc.com/skin/28f11b5f9528b76c
+- https://namemc.com/skin/10bce6a412ec9f93
+- https://namemc.com/skin/d1e8380783e80b02
+- https://namemc.com/skin/62f31555f18eba02
+- https://namemc.com/skin/9cc97c4913b0b607
+- https://namemc.com/skin/ad09e3fd9a31d900
