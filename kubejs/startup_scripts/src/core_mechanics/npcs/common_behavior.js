@@ -26,7 +26,7 @@ const npcCommonBehavior = (event, npcObj, callbacksWithTruthTermination) => {
   }
 }
 
-RequestHandler.callbacks.clientLoaded(() => {
+RequestHandler.callbacks.beforeClientLoaded(() => {
   NpcHelper.npcObjs.forEach(npcObj => {
     if (npcObj.tradeItemIds) {
       RequestHandler.tooltips.add([

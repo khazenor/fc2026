@@ -4,7 +4,6 @@ ItemEvents.entityInteracted(event => {
 
 ItemEvents.rightClicked(event => {
   global.ItemEventsRightClicked(event)
-  console.log(Text.translate(Item.of('moa_cookery:ala_abedul').getDescriptionId()).getString().replace('wall', 'hi').toLowercase())
 })
 
 PlayerEvents.inventoryChanged(event => {

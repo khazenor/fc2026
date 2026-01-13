@@ -166,8 +166,8 @@ global.compostable = {
   }
 }
 
-global.clientLoadedCallback = () => {
-  RequestHandler.callbacks.clientLoadedCache.forEach(callback => {
+global.beforeClientLoadedCallback = () => {
+  RequestHandler.callbacks.beforeClientLoadedCache.forEach(callback => {
     callback()
   })
 }

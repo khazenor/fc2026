@@ -162,10 +162,10 @@ const RequestHandler = {
       },
       beforeServerEventsRecipesCache: []
     },
-    clientLoaded (callbacks) {
-      this.clientLoadedCache = this.clientLoadedCache.concat(callbacks)
+    beforeClientLoaded (callbacks) {
+      this.beforeClientLoadedCache = this.beforeClientLoadedCache.concat(callbacks)
     },
-    clientLoadedCache: [],
+    beforeClientLoadedCache: [],
     beforeServerHooks (callbacks) {
       this.beforeServerHooksCache = this.beforeServerHooksCache.concat(callbacks)
     },
