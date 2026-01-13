@@ -98,6 +98,7 @@ sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar
 sophisticatedcore-1.21.1-1.3.95.1311.jar
 sophisticatedstorage-1.21.1-1.5.17.1398.jar
 structureessentials-1.21.1-4.8.jar
+superior-stonecutter-1.2.7.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 tide-neoforge-1.21-1.6.4.jar
 weavers_cosmetics-neo-1.21.1_v1.0.jar
