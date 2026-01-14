@@ -174,3 +174,8 @@ you have closed the hatch the good will pop out after you open the hatch again.
 # How to make monster part lasts with ash
 - You can make ash by smelting grains (e.g. wheat)
 - Ash can then be used to duplicate monster parts in the crafting table.
+
+# How to make furniture using the stonecutter
+- In this modpack you can convert logs into other furniture by putting them in the stonecutter
+
+- After a furniture is cut, it can then be converted again into other furniture, or event back to logs

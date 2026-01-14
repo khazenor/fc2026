@@ -15,19 +15,20 @@ const FurnitureCutting = {
       let woodDef = this.getWoodDefForItemId(itemId)
       if (woodDef) {
         woodDef.convertableIds.push(itemId)
+        this.furnitureCache.push(itemId)
       }
     }
   },
   generateCuttableInfo () {
     this.populateConvertableIds()
-    let allCuttables = []
+    let cuttables = []
     for (let woodDef of WoodTypeInfo.woodTypeChecklist) {
       let stonecuttingDef = woodDef.convertableIds.concat(woodDef.id)
       this.stonecuttingDefsCache.push(stonecuttingDef)
-      allCuttables = allCuttables.concat(stonecuttingDef)
+      cuttables = cuttables.concat(stonecuttingDef)
     }
-    this.allCuttablesCache = allCuttables
-    CacheHelper.cacheObject('all_cuttables', allCuttables)
+    this.cuttablesCache = cuttables
+    CacheHelper.cacheObject('all_cuttables', cuttables)
   },
   stonecuttingDefsCache: [],
   get stonecuttingDefs () {
@@ -36,22 +37,29 @@ const FurnitureCutting = {
     }
     return this.stonecuttingDefsCache
   },
-  allCuttablesCache: [],
-  get allCuttables () {
-    if (this.allCuttablesCache.length > 0) {
-      return this.allCuttablesCache
+  cuttablesCache: [],
+  get cuttables () {
+    if (this.cuttablesCache.length > 0) {
+      return this.cuttablesCache
     } else {
       return CacheHelper.loadCache('all_cuttables')
     }
+  },
+  furnitureCache: [],
+  get furniture () {
+    if (this.furnitureCache.length === 0) {
+      this.generateCuttableInfo()
+    }
+    return this.furnitureCache
   }
 }
 RequestHandler.callbacks.beforeServerHooks([() => {
   RequestHandler.recipes.add.stonecuttingArrInAndOutput(FurnitureCutting.stonecuttingDefs)
-  RequestHandler.tags.item.add(['c:cuttable_furniture', FurnitureCutting.allCuttables])
+  RequestHandler.tags.item.add([['c:cuttable_furniture', FurnitureCutting.furniture]])
 }])
 
 RequestHandler.callbacks.beforeClientLoaded([() => {
   RequestHandler.tooltips.addSingular(
-    FurnitureCutting.allCuttables, [Text.translate('furnitureCutting.youCanCutThis')]
+    FurnitureCutting.cuttables, [Text.translate('furnitureCutting.youCanCutThis')]
   )
 }])

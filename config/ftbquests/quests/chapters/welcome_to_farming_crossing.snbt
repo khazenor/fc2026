@@ -924,7 +924,7 @@
 				to_observe: "tide:surface_loot_crate"
 				type: "observation"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -1040,7 +1040,7 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -1065,7 +1065,7 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -1090,7 +1090,7 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -4.0d
 		}
 		{
@@ -1115,7 +1115,7 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -1140,7 +1140,7 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -1165,7 +1165,7 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -4.0d
 		}
 		{
@@ -1191,7 +1191,7 @@
 				to_observe: "tide:obsidian_loot_crate"
 				type: "observation"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -3.0d
 		}
 		{
@@ -1420,6 +1420,47 @@
 			}]
 			x: 1.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			id: "4C5C72BBA123A633"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CA1BE9980E94817"
+				table_id: 182824633693894406L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "56C5449D42AAC4FB"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C5C72BBA123A633"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "refurbished_furniture:jungle_table"
+			}
+			id: "32A06EEE318AC659"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59BA8945E3007DF0"
+				table_id: 7712232950386025038L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "55F87828A957E5CE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:cuttable_furniture)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
 		}
 	]
 }
