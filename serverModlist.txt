@@ -88,6 +88,7 @@ pipeorgans-0.8.2+1.21.1.jar
 Placebo-1.21.1-9.9.1.jar
 prickle-neoforge-1.21.1-21.1.11.jar
 recipeessentials-1.21-4.0.jar
+refurbished_furniture-neoforge-1.21.1-1.0.20.jar
 relics-1.21.1-0.10.7.6.jar
 resourcefulconfig-neoforge-1.21-3.0.11.jar
 rhino-2101.2.7-build.81.jar
