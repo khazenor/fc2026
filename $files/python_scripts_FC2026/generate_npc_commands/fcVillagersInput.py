@@ -31,6 +31,10 @@ villagers = [
     nameKey: "Bernina",
     textureKey: '[I; -1878865175, -1859568351, -1885409804, -1118268087]',
     entityTypeKey: 'easy_npc:humanoid'
+  }, { # Elna
+    nameKey: "Elna",
+    textureKey: '[I; -635820658, 33961087, -1359226280, -1419910915]',
+    entityTypeKey: 'easy_npc:humanoid'
   }, { # Ren
     nameKey: "Ren",
     textureKey: '[I; -903386511, -1993461572, -1126401121, -494593848]',
