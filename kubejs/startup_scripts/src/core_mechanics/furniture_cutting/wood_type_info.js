@@ -2,81 +2,81 @@
 const WoodTypeInfo = {
   woodTypeChecklist: [{
     names: ['dark oak'],
-    id: 'minecraft:dark_oak_planks',
+    id: 'minecraft:dark_oak_log',
     convertableIds: [
-      'betterarcheology:rotten_planks',
-      'biomeswevegone:ebony_planks'
+      'betterarcheology:rotten_log',
+      'biomeswevegone:ebony_log'
     ]
   }, {
     names: ['oak'],
-    id: 'minecraft:oak_planks',
-    convertableIds: ['beachparty:palm_planks']
+    id: 'minecraft:oak_log',
+    convertableIds: ['beachparty:palm_log']
   }, {
     names: ['spruce'],
-    id: 'minecraft:spruce_planks',
+    id: 'minecraft:spruce_log',
     convertableIds: [
-      'biomeswevegone:baobab_planks',
-      'biomeswevegone:cypress_planks',
-      'biomeswevegone:maple_planks'
+      'biomeswevegone:baobab_log',
+      'biomeswevegone:cypress_log',
+      'biomeswevegone:maple_log'
     ]
   }, {
     names: ['birch'],
-    id: 'minecraft:birch_planks',
+    id: 'minecraft:birch_log',
     convertableIds: [
-      'biomeswevegone:pine_planks',
-      'biomeswevegone:ironwood_planks',
-      'biomeswevegone:palm_planks',
-      'biomeswevegone:white_mangrove_planks'
+      'biomeswevegone:pine_log',
+      'biomeswevegone:ironwood_log',
+      'biomeswevegone:palm_log',
+      'biomeswevegone:white_mangrove_log',
+      'biomeswevegone:aspen_log',
     ]
   }, {
     names: ['jungle'],
-    id: 'minecraft:jungle_planks',
+    id: 'minecraft:jungle_log',
     convertableIds: [
-      'biomeswevegone:jacaranda_planks',
-      'biomeswevegone:aspen_planks',
-      'biomeswevegone:holly_planks',
+      'biomeswevegone:jacaranda_log',
+      'biomeswevegone:holly_log',
     ]
   }, {
     names: ['acacia'],
-    id: 'minecraft:acacia_planks',
+    id: 'minecraft:acacia_log',
     convertableIds: [
-      'biomeswevegone:fir_planks',
-      'biomeswevegone:rainbow_eucalyptus_planks',
-      'meadow:pine_planks',
-      'biomeswevegone:cika_planks',
-      'biomeswevegone:zelkova_planks'
+      'biomeswevegone:fir_log',
+      'biomeswevegone:rainbow_eucalyptus_log',
+      'meadow:pine_log',
+      'biomeswevegone:cika_log',
+      'biomeswevegone:zelkova_log'
     ]
   }, {
     names: ['mangrove'],
-    id: 'minecraft:mangrove_planks',
-    convertableIds: ['biomeswevegone:mahogany_planks']
+    id: 'minecraft:mangrove_log',
+    convertableIds: ['biomeswevegone:mahogany_log']
   }, {
     names: ['cherry'],
-    id: 'minecraft:cherry_planks',
+    id: 'minecraft:cherry_log',
     convertableIds: []
   }, {
     names: ['bamboo'],
-    id: 'minecraft:bamboo_planks',
+    id: 'minecraft:bamboo_block',
     convertableIds: []
   }, {
     names: ['crimson'],
-    id: 'minecraft:crimson_planks',
+    id: 'minecraft:crimson_stem',
     convertableIds: [
-      'biomeswevegone:sakura_planks',
-      'biomeswevegone:redwood_planks',
-      'vinery:dark_cherry_planks'
+      'biomeswevegone:sakura_log',
+      'biomeswevegone:redwood_log',
+      'vinery:dark_cherry_log'
     ]
   }, {
     names: ['warped'],
-    id: 'minecraft:warped_planks',
+    id: 'minecraft:warped_stem',
     convertableIds: [
-      'biomeswevegone:blue_enchanted_planks',
-      'biomeswevegone:green_enchanted_planks',
-      'biomeswevegone:witch_hazel_planks',
-      'biomeswevegone:florus_planks',
-      'biomeswevegone:willow_planks',
-      'biomeswevegone:spirit_planks',
-      'biomeswevegone:skyris_planks'
+      'biomeswevegone:blue_enchanted_log',
+      'biomeswevegone:green_enchanted_log',
+      'biomeswevegone:witch_hazel_log',
+      'biomeswevegone:florus_stem',
+      'biomeswevegone:willow_log',
+      'biomeswevegone:spirit_log',
+      'biomeswevegone:skyris_log'
     ]
   }]
 }
