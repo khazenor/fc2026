@@ -93,7 +93,7 @@
   "npcs.tooltip.youCanBuy": "Can be bought from %s",
   "letsDo.tooltip.sprinkler": "Irrigates all farmland at the same height within a reach of up to 8 blocks",
   "letsDo.tooltip.cattleGrid": "Cows and sheep cannot walk past",
-  "furnitureCutting.youCanCutThis": "Can be cut into other furniture in the stonecutter",
+  "furnitureCutting.youCanCutThis": "Can be stone-cut into other furniture",
   "questFunctions.1": "/1)",
   "questFunctions.10": "/10)",
   "questFunctions.13": "/13)",

@@ -23,13 +23,19 @@ const FurnitureCutting = {
     this.populateConvertableIds()
     let cuttables = []
     for (let woodDef of WoodTypeInfo.woodTypeChecklist) {
-      let stonecuttingDef = woodDef.convertableIds.concat(woodDef.id)
-      this.stonecuttingDefsCache.push(stonecuttingDef)
-      cuttables = cuttables.concat(stonecuttingDef)
+      let tagName = `c:${StrHelper.replaceAll(woodDef.names[0], ' ', '_')}_cutting`
+      let cuttingItems = woodDef.convertableIds.concat(woodDef.id)
+      this.tagsDefs.push([tagName, cuttingItems])
+      let stoneCuttingDefs = cuttingItems.map(cuttingItem => [cuttingItem, `#${tagName}`])
+      this.stonecuttingDefsCache = this.stonecuttingDefsCache.concat(
+        stoneCuttingDefs
+      )
+      cuttables = cuttables.concat(cuttingItems)
     }
     this.cuttablesCache = cuttables
     CacheHelper.cacheObject('all_cuttables', cuttables)
   },
+  tagsDefs: [],
   stonecuttingDefsCache: [],
   get stonecuttingDefs () {
     if (this.stonecuttingDefsCache.length == 0) {
@@ -54,8 +60,10 @@ const FurnitureCutting = {
   }
 }
 RequestHandler.callbacks.beforeServerHooks([() => {
-  RequestHandler.recipes.add.stonecuttingArrInAndOutput(FurnitureCutting.stonecuttingDefs)
+  console.log('FurnitureCutting.stonecuttingDefs', FurnitureCutting.stonecuttingDefs)
+  RequestHandler.recipes.add.stonecutting(FurnitureCutting.stonecuttingDefs)
   RequestHandler.tags.item.add([['c:cuttable_furniture', FurnitureCutting.furniture]])
+  RequestHandler.tags.item.add(FurnitureCutting.tagsDefs)
 }])
 
 RequestHandler.callbacks.beforeClientLoaded([() => {
