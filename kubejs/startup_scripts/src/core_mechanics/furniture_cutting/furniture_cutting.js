@@ -1,15 +1,20 @@
 const FurnitureCutting = {
-  allCuttablesCacheKey: 'all_cuttables',
+  getWoodDefForItemId (itemId) {
+    let itemName = StrHelper.cleanStr(TransHelper.itemNameEngStr(itemId)).toLowerCase()
+    for (let woodDef of WoodTypeInfo.woodTypeChecklist) {
+      for (let name of woodDef.names) {
+        if (itemName.includes(name) && !woodDef.convertableIds.includes(itemId)) {
+          return woodDef
+        }
+      }
+    }
+    return null
+  },
   populateConvertableIds () {
     for (let itemId of FurnitureList) {
-      let itemName = StrHelper.cleanStr(TransHelper.itemNameEngStr(itemId)).toLowerCase()
-
-      for (let woodDef of WoodTypeInfo.woodTypeChecklist) {
-        for (let name of woodDef.names) {
-          if (itemName.includes(name) && !woodDef.convertableIds.includes(itemId)) {
-            woodDef.convertableIds.push(itemId)
-          }
-        }
+      let woodDef = this.getWoodDefForItemId(itemId)
+      if (woodDef) {
+        woodDef.convertableIds.push(itemId)
       }
     }
   },
@@ -21,6 +26,7 @@ const FurnitureCutting = {
       this.stonecuttingDefsCache.push(stonecuttingDef)
       allCuttables = allCuttables.concat(stonecuttingDef)
     }
+    this.allCuttablesCache = allCuttables
     CacheHelper.cacheObject('all_cuttables', allCuttables)
   },
   stonecuttingDefsCache: [],
@@ -30,12 +36,18 @@ const FurnitureCutting = {
     }
     return this.stonecuttingDefsCache
   },
+  allCuttablesCache: [],
   get allCuttables () {
-    return CacheHelper.loadCache(this.allCuttablesCacheKey)
+    if (this.allCuttablesCache.length > 0) {
+      return this.allCuttablesCache
+    } else {
+      return CacheHelper.loadCache('all_cuttables')
+    }
   }
 }
 RequestHandler.callbacks.beforeServerHooks([() => {
   RequestHandler.recipes.add.stonecuttingArrInAndOutput(FurnitureCutting.stonecuttingDefs)
+  RequestHandler.tags.item.add(['c:cuttable_furniture', FurnitureCutting.allCuttables])
 }])
 
 RequestHandler.callbacks.beforeClientLoaded([() => {
