@@ -7,7 +7,7 @@ playerQtyKey = 'playerQtyKey'
 playerGiveKey2 = 'playerGiveKey2'
 playerQtyKey2 = 'playerQtyKey2'
 
-def summonNpcCommand(skinUUID, name, offers):
+def summonNpcCommand(skinUUID, name, offers, entityType='easy_npc:humanoid'):
 	with open('generate_npc_commands\\villagerTemplate.txt', 'r') as f:
 		entityData = f.read()
 		entityData = entityData.replace('<<<<customName>>>>', f'"{name}"')
@@ -16,22 +16,22 @@ def summonNpcCommand(skinUUID, name, offers):
 		entityData = entityData.replace('  ', '')
 		entityData = entityData.replace('\n', '')
 		entityData = entityData.replace(',', ', ')
-	return commands.summonEntity('easy_npc:humanoid', entityData=entityData)
+	return commands.summonEntity(entityType, entityData=entityData)
 
 def updateNpcCommand(name, offers):
 	command = f'data modify entity {nameSelector(name)} Offers set value {offerString(offers)}\n'
 	return command
 
-def highlightNpcCommand(name):
+def highlightNpcCommand(name, entityType='easy_npc:humanoid'):
 	command = 'execute at @p'
-	command += f' if entity {nameSelector(name)}'
+	command += f' if entity {nameSelector(name, entityType)}'
 	command += f' run effect give {nameSelector(name)}'
 	command += ' minecraft:glowing 30 1 true'
 	command += '\n'
 	return command
 
-def nameSelector(name):
-	return f'@e[type=easy_npc:humanoid, name={name}, sort=nearest, limit=1]'
+def nameSelector(name, entityType='easy_npc:humanoid'):
+	return f'@e[type={entityType}, name={name}, sort=nearest, limit=1]'
 
 def offerString(offers):
 	return f"{{Recipes: [{offerRecipeString(offers)}]}}"

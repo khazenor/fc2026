@@ -8,3 +8,4 @@
 - https://namemc.com/skin/62f31555f18eba02
 - https://namemc.com/skin/9cc97c4913b0b607
 - https://namemc.com/skin/ad09e3fd9a31d900
+- https://namemc.com/skin/96aca0ea14d3d616

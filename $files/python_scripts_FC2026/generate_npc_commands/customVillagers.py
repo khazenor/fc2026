@@ -27,7 +27,8 @@ def writeSummonCommand(villager):
 		easyNpc.summonNpcCommand(
 			villager[vil.textureKey],
 			name,
-			getVillagerOffers(villager)
+			getVillagerOffers(villager),
+			villager[vil.entityTypeKey]
 		)
 	)
 
@@ -36,7 +37,7 @@ def writeHighlightCommand(villager):
 	mcfunction.writeFunction(
 		'fc_villagers',
 		f'{name}_highlight',
-		easyNpc.highlightNpcCommand(name)
+		easyNpc.highlightNpcCommand(name, villager[vil.entityTypeKey]),
 	)
 
 def writeUpdateTradeCommand(villager):
