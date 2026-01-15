@@ -97,7 +97,6 @@ global.ServerEventsRecipes = (event) => {
   RequestHandler.recipes.add.stonecuttingCache.forEach(def => {
     let outputItem = def[0]
     let inputItem = def[1]
-    console.log('outputItem, inputItem', outputItem, inputItem)
     event.stonecutting(outputItem, inputItem)
   })
 

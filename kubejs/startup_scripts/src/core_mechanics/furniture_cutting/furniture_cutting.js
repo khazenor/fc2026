@@ -60,7 +60,6 @@ const FurnitureCutting = {
   }
 }
 RequestHandler.callbacks.beforeServerHooks([() => {
-  console.log('FurnitureCutting.stonecuttingDefs', FurnitureCutting.stonecuttingDefs)
   RequestHandler.recipes.add.stonecutting(FurnitureCutting.stonecuttingDefs)
   RequestHandler.tags.item.add([['c:cuttable_furniture', FurnitureCutting.furniture]])
   RequestHandler.tags.item.add(FurnitureCutting.tagsDefs)
