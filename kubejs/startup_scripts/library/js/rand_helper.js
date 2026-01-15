@@ -17,6 +17,9 @@ const RandHelper = {
     }
     return this.cachedRandNums[idx]
   },
+  randMineDayIntFromRange (lowerValue, upperValue, idx) {
+    return this.randMineDayInt(upperValue - lowerValue + 1, idx) + lowerValue
+  },
   randMineDayInt (upperBound, idx) {
     return Math.floor(this.mineDayRandNum(idx) * upperBound)
   },
@@ -39,5 +42,11 @@ const RandHelper = {
   },
   randomItemFromArr(arr) {
     return arr[Math.floor(Math.random() * arr.length)]
+  },
+  randomMineDayKeysFromObj(obj, numToPick) {
+    return this.randomMineDayRandFromArr(Object.keys(obj), numToPick)
+  },
+  randomMineDayValuesFromObj(obj, numToPick) {
+    return this.randomMineDayKeysFromObj(obj, numToPick).map(key => obj[key])
   }
 }

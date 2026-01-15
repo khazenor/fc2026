@@ -1,10 +1,12 @@
 // priority: 2
 const NpcHelper = {
   humanoidEntityType: 'easy_npc:humanoid',
+  humanoidSlimEntityType: 'easy_npc:humanoid_slim',
   isEventInteractingWithNpc(npcName, event) {
     return (
       EventHelpers.hasTargetEntity(event) &&
-      EventHelpers.targetEntityType(event) === this.humanoidEntityType &&
+      (EventHelpers.targetEntityType(event) === this.humanoidEntityType ||
+      EventHelpers.targetEntityType(event) === this.humanoidSlimEntityType) &&
       EventHelpers.targetEntityName(event) === npcName &&
       PlayerTimingJs.trueIfNotSpam(event)
     )
@@ -13,12 +15,17 @@ const NpcHelper = {
     let player = event.player
     let target = event.target
     let npcName = target.name.getString()
-    if (target.type === this.humanoidEntityType &&
+    if ((target.type === this.humanoidEntityType ||
+      target.type === this.humanoidSlimEntityType) &&
       !PlayerTimingJs.checkAreYouSureLike(player, 'talkToNPC', 5)
     ) {
       let playerName = player.name.getString()
-      let dialog = ArrayJs.getRandomArrayElement(npcDialogDefs(npcName, playerName)[npcName].dialogs)
-      player.tell(dialog)
+      if (npcDialogDefs(npcName, playerName)[npcName]) {
+        let dialog = ArrayJs.getRandomArrayElement(
+          npcDialogDefs(npcName, playerName)[npcName].dialogs
+        )
+        player.tell(dialog)
+      }
       if (offerDefs) {
         let playerName = EventHelpers.playerName(event)
         event.server.runCommandSilent(EasyNpcHelper.updateNpcCommand(playerName, name, offerDefs))
@@ -62,7 +69,7 @@ const NpcHelper = {
   },
   get npcObjs () {
     return [
-      NpcAndre, NpcJess, NpcPamela, NpcRen, NpcSam, NpcYukkie, NpcLaly
+      NpcAndre, NpcJess, NpcPamela, NpcRen, NpcSam, NpcYukkie, NpcLaly, NpcElna
     ]
   }
 }
