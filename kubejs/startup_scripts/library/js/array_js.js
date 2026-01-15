@@ -65,7 +65,9 @@ const ArrayJs = {
   },
   addElementOrArrayValuesToArray(arr, thing) {
     if (Array.isArray(thing)) {
-      arr = arr.concat(thing)
+      thing.forEach(elem => {
+        arr.push(elem)
+      })
     } else {
       arr.push(thing)
     }

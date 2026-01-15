@@ -22,12 +22,12 @@ const NpcBernina = {
     }
 
     if (includeCollectionSets) {
-      setEntries = NpcCollectionHelper.randomEntries(
+      let setEntries = NpcCollectionHelper.randomEntries(
         AccessoriesInfo.collectionSetsObj, 1, 1
       )
       offerDefs.push({
         villagerItems: setEntries[0][0],
-        playerNum: RandHelper.randMineDayInt(this.minPrice, this.maxPrice, entries.length + 1)
+        playerNum: RandHelper.randSellPrice(this.minPrice, this.maxPrice, entries.length + 1)
       })
     }
     return offerDefs
