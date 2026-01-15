@@ -23,6 +23,17 @@ const RandHelper = {
   randMineDayInt (upperBound, idx) {
     return Math.floor(this.mineDayRandNum(idx) * upperBound)
   },
+  randSellPrice (lowerBound, upperBound, idx) {
+    let randNum = this.mineDayRandNum(idx)
+    let middle = Math.floor((lowerBound + upperBound) / 2 + .5)
+    let upperMiddle = Math.floor((middle + upperBound) / 2 + .5)
+    let lowerMiddle = Math.floor((middle + lowerBound) / 2 + .5)
+    if (randNum < .1) { return lowerBound }
+    if (randNum > .9) { return upperBound }
+    if (randNum < .3) { return lowerMiddle }
+    if (randNum > .7) { return upperMiddle }
+    return middle
+  },
   randomMineDayRandFromArr(arr, numToPick) {
     let values = []
     let pickedNumbers = []

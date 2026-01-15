@@ -13,7 +13,7 @@ const NpcElna = {
       let outfit = outfits[outfitIdx]
       offerDefs.push({
         villagerItems: outfit,
-        playerNum: RandHelper.randMineDayIntFromRange(
+        playerNum: RandHelper.randSellPrice(
           this.outfitMinPrice,
           this.outfitMaxPrice,
           outfitIdx
