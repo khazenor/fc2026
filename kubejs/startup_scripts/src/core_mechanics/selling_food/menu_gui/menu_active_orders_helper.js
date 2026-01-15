@@ -3,10 +3,16 @@ const MenuActiveOrdersHelper = {
     let orderStartRow = 1
     let activeOrders = PlayerOrderLogger.allOrders(event)
     ChestGuiHelper.writeArrToMatrix(
-      matrix, orderStartRow, 0, 0, 1, this.customerHeadMatrixSlots(activeOrders)
+      matrix, orderStartRow, 0, 0, 1, this.customerHeadMatrixSlots(activeOrders).slice(0, 9)
     )
     ChestGuiHelper.writeArrToMatrix(
-      matrix, orderStartRow + 1, 0, 0, 1, this.foodRequestsMatrixSlots(activeOrders)
+      matrix, orderStartRow + 1, 0, 0, 1, this.foodRequestsMatrixSlots(activeOrders).slice(0, 9)
+    )
+    ChestGuiHelper.writeArrToMatrix(
+      matrix, orderStartRow + 2, 0, 0, 1, this.customerHeadMatrixSlots(activeOrders).slice(9, 9)
+    )
+    ChestGuiHelper.writeArrToMatrix(
+      matrix, orderStartRow + 3, 0, 0, 1, this.foodRequestsMatrixSlots(activeOrders).slice(9, 9)
     )
   },
   customerHeadMatrixSlots (activeOrders) {
