@@ -55,27 +55,27 @@ villagers = [
     nameKey: 'Ren',
     textureKey: '[I; -903386511, -1993461572, -1126401121, -494593848]',
     entityTypeKey: 'easy_npc:humanoid'
-  }, { # Parlan: bathroom items
+  }, { # Parlan: bathroom items: dark duck
     nameKey: 'Parlan',
     textureKey: '[I; -204422493, 2103980825, -1321315413, 19366235]',
     entityTypeKey: 'easy_npc:humanoid_slim'
-  }, { # Fenny: toy shop
+  }, { # Fenny: toy shop: polar bear
     textureKey: '[I; 33147920, -596426790, -1740605353, 919955631]',
     nameKey: 'Fenny',
     entityTypeKey: 'easy_npc:humanoid_slim'
-  }, { # Harly: holiday shop
+  }, { # Harly: holiday shop: deer
     nameKey: 'Harley',
     entityTypeKey: 'easy_npc:humanoid_slim',
     textureKey: '[I; -461972156, 1346453247, -1623679865, -224887665]'
-  }, { # Langley: science shop
+  }, { # Langley: science shop: yellow duck
     nameKey: 'Langley',
     entityTypeKey: 'easy_npc:humanoid_slim',
     textureKey: '[I; 433989950, -1551420796, -1642578075, 428143535]'
-  }, { # Matan: art shop
+  }, { # Matan: art shop: owl
     nameKey: 'Matan',
     textureKey: '[I; -1794232325, 24067208, -2032440217, -1709533112]',
     entityTypeKey: 'easy_npc:humanoid'
-  }, { # Skye: electronics shop
+  }, { # Skye: electronics shop: elephant
     nameKey: 'Skye',
     textureKey: '[I; -1670307856, 1864056429, -1357094245, 121653734]',
     entityTypeKey: 'easy_npc:humanoid_slim'
