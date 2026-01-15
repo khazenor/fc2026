@@ -92,3 +92,5 @@ const NpcElna = {
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   npcCommonBehavior(event, NpcElna, false)
 }])
+
+RequestHandler.recipes.remove.byItemId(NpcElna.tradeItemIds)
