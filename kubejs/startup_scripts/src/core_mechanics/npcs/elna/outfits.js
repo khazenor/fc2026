@@ -577,14 +577,17 @@ const OutfitInfo = {
     "cosmeticarmoursmod:white_suit_leggings",
     "cosmeticarmoursmod:white_suit_boots",
   ], [
+    "cosmeticarmoursmod:blue_ushanka_hat_helmet",
     "cosmeticarmoursmod:winter_survivalist_blue_chestplate",
     "cosmeticarmoursmod:winter_survivalist_blue_leggings",
     "cosmeticarmoursmod:winter_survivalist_blue_boots",
   ], [
+    "cosmeticarmoursmod:brown_ushanka_hat_helmet",
     "cosmeticarmoursmod:winter_survivalist_brown_chestplate",
     "cosmeticarmoursmod:winter_survivalist_brown_leggings",
     "cosmeticarmoursmod:winter_survivalist_brown_boots",
   ], [
+    "cosmeticarmoursmod:grey_ushanka_hat_helmet",
     "cosmeticarmoursmod:winter_survivalist_grey_chestplate",
     "cosmeticarmoursmod:winter_survivalist_grey_leggings",
     "cosmeticarmoursmod:winter_survivalist_grey_boots",

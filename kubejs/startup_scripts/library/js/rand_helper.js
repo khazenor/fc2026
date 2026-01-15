@@ -23,6 +23,9 @@ const RandHelper = {
   randMineDayInt (upperBound, idx) {
     return Math.floor(this.mineDayRandNum(idx) * upperBound)
   },
+  randWeightedSuccess (chance, idx) {
+    return this.mineDayRandNum(idx) <= chance
+  },
   randSellPrice (lowerBound, upperBound, idx) {
     let randNum = this.mineDayRandNum(idx)
     let middle = Math.floor((lowerBound + upperBound) / 2 + .5)

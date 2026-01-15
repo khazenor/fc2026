@@ -62,5 +62,12 @@ const ArrayJs = {
       chunks.push(array.slice(i, chunkSize))
     }
     return chunks
-  } 
+  },
+  addElementOrArrayValuesToArray(arr, thing) {
+    if (Array.isArray(thing)) {
+      arr = arr.concat(thing)
+    } else {
+      arr.push(thing)
+    }
+  }
 }

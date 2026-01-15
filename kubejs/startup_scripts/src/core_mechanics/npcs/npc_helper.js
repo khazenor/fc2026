@@ -69,7 +69,7 @@ const NpcHelper = {
   },
   get npcObjs () {
     return [
-      NpcAndre, NpcJess, NpcPamela, NpcRen, NpcSam, NpcYukkie, NpcLaly, NpcElna
+      NpcAndre, NpcJess, NpcPamela, NpcRen, NpcSam, NpcYukkie, NpcLaly, NpcElna, NpcBernina
     ]
   }
 }
