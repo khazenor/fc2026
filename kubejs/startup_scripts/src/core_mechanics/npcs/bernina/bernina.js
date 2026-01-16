@@ -7,29 +7,22 @@ const NpcBernina = {
   numCategories: 4,
   numEntries: 4,
   get offerDefs () {
-    let offerDefs = []
     let includeCollectionSets = RandHelper.randWeightedSuccess(this.showCollectionSetsChance, 1)
     let updatedNumCategories = includeCollectionSets ? this.numCategories - 1 : this.numCategories
-    let entries = NpcCollectionHelper.randomEntries(
-      AccessoriesInfo.collectionsObj, updatedNumCategories, this.numEntries
+    NpcCollectionHelper.resetRandIdx()
+    let offerDefs = NpcCollectionHelper.collectionObjOfferDefs(
+      AccessoriesInfo.collectionsObj,
+      updatedNumCategories,
+      this.numEntries,
+      this.minPrice,
+      this.maxPrice
     )
-    for (let [idx, entry] of entries.entries()) {
-      let price = RandHelper.randSellPrice(this.minPrice, this.maxPrice, idx)
-      offerDefs.push({
-        villagerItems: entry,
-        playerNum: price
-      })
-    }
-
-    if (includeCollectionSets) {
-      let setEntries = NpcCollectionHelper.randomEntries(
-        AccessoriesInfo.collectionSetsObj, 1, 1
+    offerDefs = offerDefs.concat(
+      NpcCollectionHelper.collectionObjOfferDefs(
+        AccessoriesInfo.collectionSetsObj,
+        1, 1, this.minPrice, this.maxPrice
       )
-      offerDefs.push({
-        villagerItems: setEntries[0][0],
-        playerNum: RandHelper.randSellPrice(this.minPrice, this.maxPrice, entries.length + 1)
-      })
-    }
+    )
     return offerDefs
   },
   get tradeItemIds () {
