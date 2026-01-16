@@ -1,6 +1,6 @@
 // priority: 2
-const AccessoriesInfo = {
-  collectionsObj: {
+const BerninaItems = {
+  simpleCollections: {
     misc: [
       "cosmeticarmoursmod:empty_satchel_chestplate",
       "cosmeticarmoursmod:leaf_hairpin_helmet",
@@ -171,7 +171,7 @@ const AccessoriesInfo = {
       "cosmeticarmoursmod:warden_mask_helmet",
     ],
   },
-  collectionSetsObj: {
+  listCollections: {
     animalAddons: [[
       "cosmeticarmoursmod:bunny_ears_black_helmet",
       "cosmeticarmoursmod:bunny_ears_brown_helmet",

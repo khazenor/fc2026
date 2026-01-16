@@ -1,7 +1,48 @@
 // priority: 4
 
 const NpcCollectionHelper = {
-  collectionsObjThings (collectionsObj) {
+  tradeItemIdsForShopNpc (npcObj) {
+    let simpleCollections = npcObj.simpleCollections
+    let listCollections = npcObj.listCollections
+  
+    return NpcCollectionHelper._collectionsObjThings(
+      simpleCollections
+    ).concat(NpcCollectionHelper._collectionsObjThings(
+      listCollections
+    ))
+  },
+  offerDefsForShopNpc (npcObj) {
+    let minPrice = npcObj.minPrice
+    let maxPrice = npcObj.maxPrice
+    let numBasicCategories = npcObj.numBasicCategories
+    let numBasicEntries = npcObj.numBasicEntries
+    let showCollectionListsChance = npcObj.showCollectionListsChance
+    let numListCategories = npcObj.numListCategories
+    let numListEntries = npcObj.numListEntries
+    let simpleCollections = npcObj.simpleCollections
+    let listCollections = npcObj.listCollections
+
+    let includeCollectionSets = RandHelper.randWeightedSuccess(showCollectionListsChance, 1)
+    let updatedNumCategories = includeCollectionSets ? numBasicCategories - 1 : numBasicCategories
+    NpcCollectionHelper.resetRandIdx()
+    let offerDefs = NpcCollectionHelper._collectionObjOfferDefs(
+      simpleCollections,
+      updatedNumCategories,
+      numBasicEntries,
+      minPrice,
+      maxPrice
+    )
+    if (includeCollectionSets) {
+      offerDefs = offerDefs.concat(
+        NpcCollectionHelper._collectionObjOfferDefs(
+          listCollections,
+          numListCategories, numListEntries, minPrice, maxPrice
+        )
+      )
+    }
+    return offerDefs
+  },
+  _collectionsObjThings (collectionsObj) {
     let things = []
     for (let collectionKey in collectionsObj) {
       let collection = collectionsObj[collectionKey]
@@ -11,7 +52,7 @@ const NpcCollectionHelper = {
     }
     return things
   },
-  collectionObjOfferDefs(collectionsObj, numCollections, numEntries, minPrice, maxPrice) {
+  _collectionObjOfferDefs(collectionsObj, numCollections, numEntries, minPrice, maxPrice) {
     let offerDefs = []
     let entries = this._randomEntries(
       collectionsObj, numCollections, numEntries
