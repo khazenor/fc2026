@@ -25,10 +25,12 @@ const NpcHelper = {
           npcDialogDefs(npcName, playerName)[npcName].dialogs
         )
         player.tell(dialog)
+      } else {
+        player.tell('updating trades')
       }
       if (offerDefs) {
         let playerName = EventHelpers.playerName(event)
-        event.server.runCommandSilent(EasyNpcHelper.updateNpcCommand(playerName, name, offerDefs))
+        event.server.runCommandSilent(EasyNpcHelper.updateNpcCommand(playerName, name, offerDefs, target.type))
       }
       event.cancel()
     }
@@ -69,7 +71,8 @@ const NpcHelper = {
   },
   get npcObjs () {
     return [
-      NpcAndre, NpcJess, NpcPamela, NpcRen, NpcSam, NpcYukkie, NpcLaly, NpcElna, NpcBernina
+      NpcAndre, NpcJess, NpcPamela, NpcRen, NpcSam, NpcYukkie, NpcLaly,
+      NpcElna, NpcBernina, NpcParlan
     ]
   }
 }

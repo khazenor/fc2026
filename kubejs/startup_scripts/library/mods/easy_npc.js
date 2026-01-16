@@ -1,14 +1,14 @@
 const EasyNpcHelper = {
   defaultPlayerItem: "kubejs:miles_ticket",
   defaultCount: 1,
-  updateNpcCommand (playerName, npcName, offerDefs) {
+  updateNpcCommand (playerName, npcName, offerDefs, entityType) {
     let command = `execute at @p[name=${playerName}] run `
-    command += `data modify entity ${this.nameSelector(npcName)} `
+    command += `data modify entity ${this.nameSelector(npcName, entityType)} `
     command += `Offers set value ${this.offersStringFromDefs(offerDefs)}`
     return command
   },
-  nameSelector (name) {
-    return `@e[type=easy_npc:humanoid, name=${name}, sort=nearest, limit=1]`
+  nameSelector (name, entityType) {
+    return `@e[type=${entityType}, name=${name}, sort=nearest, limit=1]`
   },
   offersStringFromDefs (offerDefs) {
     let offerStrings = ""

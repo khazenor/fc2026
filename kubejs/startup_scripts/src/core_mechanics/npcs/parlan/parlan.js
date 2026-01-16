@@ -1,6 +1,6 @@
 // priority: 1
-const NpcBernina = {
-  name: 'Bernina',
+const NpcParlan = {
+  name: 'Parlan',
   showCollectionSetsChance: .1,
   minPrice: 4,
   maxPrice: 16,
@@ -11,7 +11,7 @@ const NpcBernina = {
     let updatedNumCategories = includeCollectionSets ? this.numCategories - 1 : this.numCategories
     NpcCollectionHelper.resetRandIdx()
     let offerDefs = NpcCollectionHelper.collectionObjOfferDefs(
-      AccessoriesInfo.collectionsObj,
+      ParlanItems.simpleCollections,
       updatedNumCategories,
       this.numEntries,
       this.minPrice,
@@ -20,7 +20,7 @@ const NpcBernina = {
     if (includeCollectionSets) {
       offerDefs = offerDefs.concat(
         NpcCollectionHelper.collectionObjOfferDefs(
-          AccessoriesInfo.collectionSetsObj,
+          ParlanItems.listCollections,
           1, 1, this.minPrice, this.maxPrice
         )
       )
@@ -29,15 +29,15 @@ const NpcBernina = {
   },
   get tradeItemIds () {
     return NpcCollectionHelper.collectionsObjThings(
-      AccessoriesInfo.collectionSetsObj
+      ParlanItems.simpleCollections
     ).concat(NpcCollectionHelper.collectionsObjThings(
-      AccessoriesInfo.collectionsObj
+      ParlanItems.listCollections
     ))
   }
 }
 
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
-  npcCommonBehavior(event, NpcBernina, false)
+  npcCommonBehavior(event, NpcParlan, false)
 }])
 
-RequestHandler.recipes.remove.byItemId(NpcBernina.tradeItemIds)
+RequestHandler.recipes.remove.byItemId(NpcParlan.tradeItemIds)
