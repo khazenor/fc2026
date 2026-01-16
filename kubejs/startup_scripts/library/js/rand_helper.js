@@ -8,7 +8,7 @@ const RandHelper = {
   mineDayRandNum (idx) {
     if (
       this.cachedRandNums.length === 0 ||
-      PlayerTimingJs.hasItBeen('randHelper', 'mineDayRandNum', 1200)
+      PlayerTimingJs.hasItBeen('randHelper', 'mineDayRandNum', 600)
     ) {
       this.cachedRandNums = []
       for (let i = 0; i < this.numCacheRandNums; i++) {
