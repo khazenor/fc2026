@@ -63,7 +63,7 @@ villagers = [
     textureKey: '[I; 33147920, -596426790, -1740605353, 919955631]',
     nameKey: 'Fenny',
     entityTypeKey: 'easy_npc:humanoid_slim'
-  }, { # Harly: holiday shop: deer
+  }, { # Harley: holiday shop: deer
     nameKey: 'Harley',
     entityTypeKey: 'easy_npc:humanoid_slim',
     textureKey: '[I; -461972156, 1346453247, -1623679865, -224887665]'
