@@ -43,6 +43,10 @@ const NpcCollectionHelper = {
     return offerDefs
   },
   _collectionsObjThings (collectionsObj) {
+    if (!collectionsObj) {
+      return []
+    }
+
     let things = []
     for (let collectionKey in collectionsObj) {
       let collection = collectionsObj[collectionKey]
