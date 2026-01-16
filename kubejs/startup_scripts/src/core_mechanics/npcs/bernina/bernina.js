@@ -37,3 +37,5 @@ const NpcBernina = {
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   npcCommonBehavior(event, NpcBernina, false)
 }])
+
+RequestHandler.recipes.remove.byItemId(NpcBernina.tradeItemIds)
