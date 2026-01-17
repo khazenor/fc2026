@@ -10,6 +10,7 @@ const NpcSkye = {
   numListEntries: 0,
   simpleCollections: SkyeItems.simpleCollections,
   listCollections: SkyeItems.listCollections,
+  startingRandIdx: 70,
   get offerDefs () {
     return NpcCollectionHelper.offerDefsForShopNpc(this)
   },

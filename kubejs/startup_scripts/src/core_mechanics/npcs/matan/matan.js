@@ -10,6 +10,7 @@ const NpcMatan = {
   numListEntries: 0,
   simpleCollections: MatanItems.simpleCollections,
   listCollections: MatanItems.listCollections,
+  startingRandIdx: 50,
   get offerDefs () {
     return NpcCollectionHelper.offerDefsForShopNpc(this)
   },

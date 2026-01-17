@@ -10,6 +10,7 @@ const NpcLangley = {
   numListEntries: 0,
   simpleCollections: LangleyItems.simpleCollections,
   listCollections: LangleyItems.listCollections,
+  startingRandIdx: 40,
   get offerDefs () {
     return NpcCollectionHelper.offerDefsForShopNpc(this)
   },

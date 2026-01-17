@@ -10,6 +10,7 @@ const NpcFenny = {
   numListEntries: 0,
   simpleCollections: FennyItems.simpleCollections,
   listCollections: FennyItems.listCollections,
+  startingRandIdx: 20,
   get offerDefs () {
     return NpcCollectionHelper.offerDefsForShopNpc(this)
   },

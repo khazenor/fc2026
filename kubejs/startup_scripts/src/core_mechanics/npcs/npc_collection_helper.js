@@ -21,10 +21,11 @@ const NpcCollectionHelper = {
     let numListEntries = npcObj.numListEntries
     let simpleCollections = npcObj.simpleCollections
     let listCollections = npcObj.listCollections
+    let startingRandIdx = npcObj.startingRandIdx
 
     let includeCollectionSets = RandHelper.randWeightedSuccess(showCollectionListsChance, 1)
     let updatedNumCategories = includeCollectionSets ? numBasicCategories - 1 : numBasicCategories
-    NpcCollectionHelper.resetRandIdx()
+    this._tempRandomIdx = startingRandIdx
     let offerDefs = NpcCollectionHelper._collectionObjOfferDefs(
       simpleCollections,
       updatedNumCategories,
@@ -71,9 +72,6 @@ const NpcCollectionHelper = {
       }
     }
     return offerDefs
-  },
-  resetRandIdx () {
-    this._tempRandomIdx = 0
   },
   _randomEntries (collectionsObj, numCollections, numEntries) {
     let entries = []

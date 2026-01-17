@@ -10,6 +10,7 @@ const NpcParlan = {
   numListEntries: 1,
   simpleCollections: ParlanItems.simpleCollections,
   listCollections: ParlanItems.listCollections,
+  startingRandIdx: 60,
   get offerDefs () {
     return NpcCollectionHelper.offerDefsForShopNpc(this)
   },

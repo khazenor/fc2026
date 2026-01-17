@@ -10,6 +10,7 @@ const NpcBernina = {
   numListEntries: 1,
   simpleCollections: BerninaItems.simpleCollections,
   listCollections: BerninaItems.listCollections,
+  startingRandIdx: 10,
   get offerDefs () {
     return NpcCollectionHelper.offerDefsForShopNpc(this)
   },

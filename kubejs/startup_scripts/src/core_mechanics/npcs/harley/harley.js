@@ -10,6 +10,7 @@ const NpcHarley = {
   numListEntries: 0,
   simpleCollections: HarleyItems.simpleCollections,
   listCollections: HarleyItems.listCollections,
+  startingRandIdx: 30,
   get offerDefs () {
     return NpcCollectionHelper.offerDefsForShopNpc(this)
   },
