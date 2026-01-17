@@ -25,7 +25,7 @@ def updateNpcCommand(name, offers):
 def highlightNpcCommand(name, entityType='easy_npc:humanoid'):
 	command = 'execute at @p'
 	command += f' if entity {nameSelector(name, entityType)}'
-	command += f' run effect give {nameSelector(name)}'
+	command += f' run effect give {nameSelector(name, entityType)}'
 	command += ' minecraft:glowing 30 1 true'
 	command += '\n'
 	return command
