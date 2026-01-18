@@ -289,6 +289,18 @@
 	quest.5B2F73BE722EFC7A.title: "Creative Portable Grid"
 	quest.5BB3A4D8C0D8386C.title: "Collected 20 Unique Flora!"
 	quest.5BB57D9BEC8038FB.title: "Observing Animals"
+	quest.5BD4C23644BF2703.quest_desc: [
+		"** your phone rings **"
+		""
+		"Hi, it's me! Jess the Beaver!  It was great speaking with you earlier about our new Adventurers Settlement package!"
+		""
+		"I am very glad you have agreed to find a good location for a settlement and develop the land.  In return Jess incorporated will loan you building material for settlement at zero interest. "
+		""
+		"But enough of the business talk!  I'm sure you'l find all kind of thrills and delights are you explore the land!"
+		""
+		"Get yourself started with a crafting table on a stick and I'll send over some basic starting gear for you"
+	]
+	quest.5BD4C23644BF2703.title: "The Adventurers Settlement Package"
 	quest.5BFC475408E39C24.title: "Locate Fenny"
 	quest.5CE74678035D4392.title: "Invite Ren"
 	quest.5D3A59A2553E1D3C.title: "Savanna Completion"

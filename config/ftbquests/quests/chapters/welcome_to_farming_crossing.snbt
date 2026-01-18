@@ -11,6 +11,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "minecraft:mangrove_propagule"
+			}
 			id: "5BD4C23644BF2703"
 			rewards: [
 				{
