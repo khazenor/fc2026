@@ -28,6 +28,9 @@ const NpcSam = {
   },
   get offerDefs () {
     return [{
+      villagerItems: ['moa_cookery:sushi'],
+      playerNum: RandHelper.randSellPrice(2, 8, 1)
+    }, {
       villagerItems: this.offer.hooks,
       playerNum: 8
     }, {
@@ -45,7 +48,8 @@ const NpcSam = {
     return this.offer.colorBobbers.concat(
       this.offer.specialBobbers,
       this.offer.hooks,
-      this.offer.lines
+      this.offer.lines,
+      ['moa_cookery:sushi']
     )
   },
   offer: {

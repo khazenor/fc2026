@@ -67,7 +67,6 @@ const PamelaItems = {
     'moa_cookery:sopa_betabel',
     'moa_cookery:sopa_conejo',
     'moa_cookery:sopa_hongos',
-    'moa_cookery:sushi',
     'moa_cookery:tacos',
     'moa_cookery:waffles',
     'moa_cookery:lata_atun',
