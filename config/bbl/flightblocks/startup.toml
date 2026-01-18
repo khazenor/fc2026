@@ -1,0 +1,4 @@
+#Flight Block Config
+["Flight Block"]
+	#Range on each side on the Flight Block, default = 32
+	"Max Flight Block Range" = 32
