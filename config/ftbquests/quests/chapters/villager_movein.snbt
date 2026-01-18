@@ -336,6 +336,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["652E92C4C78931C0"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:ren"
@@ -364,6 +365,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["652E92C4C78931C0"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"
@@ -388,6 +390,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["244EB51B41EAB417"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:bernina"
@@ -416,6 +419,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["712B913703C63ED7"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:elna"
@@ -444,6 +448,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4753B66B830D109F"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:parlan"
@@ -472,6 +477,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["66DC33622164FCCC"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:fenny"
@@ -500,6 +506,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["558A1A31A21872DB"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:harley"
@@ -528,6 +535,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["7EAEF8A92CA83B75"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:langley"
@@ -556,6 +564,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D5FB33032B2E67B"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:matan"
@@ -584,6 +593,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2EEE42B677C05AF4"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:skye"
@@ -612,6 +622,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["244EB51B41EAB417"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"
@@ -636,6 +647,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["712B913703C63ED7"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"
@@ -660,6 +672,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["66DC33622164FCCC"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"
@@ -684,6 +697,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2EEE42B677C05AF4"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"
@@ -708,6 +722,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["2D5FB33032B2E67B"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"
@@ -732,6 +747,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["558A1A31A21872DB"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"
@@ -756,6 +772,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["7EAEF8A92CA83B75"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"
@@ -780,6 +797,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["4753B66B830D109F"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:spyglass"

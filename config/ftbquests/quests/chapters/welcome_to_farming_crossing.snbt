@@ -998,8 +998,12 @@
 				"0837A544E05704BC"
 			]
 			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:miles_booklet"
+			}
 			id: "405396378EE4B767"
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "16DE253CD1896B19"
 				item: { count: 1, id: "kubejs:miles_booklet" }
@@ -1438,8 +1442,8 @@
 				item: { count: 1, id: "minecraft:oak_log" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C5C72BBA123A633"]
@@ -1459,8 +1463,238 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:cuttable_furniture)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"32A06EEE318AC659"
+				"6A694FC4A6083409"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:ren"
+			}
+			id: "652E92C4C78931C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BBCD0B867F7E693"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EB4267EC0C31BAE"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:bernina"
+			}
+			id: "244EB51B41EAB417"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F71C88FA42CEF59"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "710C54CB94523346"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["244EB51B41EAB417"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:elna"
+			}
+			id: "712B913703C63ED7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CEE84C399AF31A5"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "32813A3F759BC3B4"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:parlan"
+			}
+			id: "4753B66B830D109F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0293511AC9719527"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "35AD5C8EC0B25453"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4753B66B830D109F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:langley"
+			}
+			id: "7EAEF8A92CA83B75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "726269EF0BA098F1"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "68C96575B1A390D9"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:skye"
+			}
+			id: "2EEE42B677C05AF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20501ECA1E44AE80"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "091E28F3B95946C6"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:matan"
+			}
+			id: "2D5FB33032B2E67B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15480E434453AD87"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7CFAE9A2268E6AE1"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:fenny"
+			}
+			id: "66DC33622164FCCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66DD6585A925ECA7"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "647249803C14B179"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["405396378EE4B767"]
+			icon: {
+				id: "kubejs:village_capacity_permit"
+			}
+			id: "7041BB13DE704850"
+			rewards: [{
+				id: "0FF46B6D43059A0A"
+				item: {
+					count: 1
+					id: "kubejs:village_capacity_permit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "594F0673351BBA80"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D5FB33032B2E67B"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:harley"
+			}
+			id: "558A1A31A21872DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24E767130EBFC895"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "34E652D81DCB377A"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
 		}
 	]
 }
