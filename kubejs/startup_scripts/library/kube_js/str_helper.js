@@ -26,5 +26,8 @@ const StrHelper = {
   },
   itemStackStr(itemId, count) {
     return `${count}x ${itemId}`
+  },
+  idCountToFilename(itemId, count) {
+    return `${this.replaceAll(itemId, ':', '')}_${this.cleanFloor(count)}`
   }
 }

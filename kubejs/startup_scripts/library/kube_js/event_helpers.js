@@ -48,6 +48,9 @@ const EventHelpers = {
   mainHandItemId: (event) => {
     return StrHelper.cleanStr(event.player.mainHandItem.id)
   },
+  offHandItemId: (event) => {
+    return event.player.offHandItem.id
+  },
   numStacksOfItemInPlayer: (event, itemId) => {
     let count = 0
     for (let itemStack of event.player.inventory.allItems) {

@@ -7,7 +7,7 @@ const IoHelper = {
       newWriteObj[this.arrayValuesKey] = writeObj
       JsonIO.write(fileDir, newWriteObj)
     } else {
-      JsonIO.write(writeObj)
+      JsonIO.write(fileDir, writeObj)
     }
   },
   readObj(fileDir) {
