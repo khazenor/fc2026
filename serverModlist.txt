@@ -34,7 +34,9 @@ defaultoptions-neoforge-1.21.1-21.1.5.jar
 domum-ornamentum-1.0.227-snapshot-main.jar
 DungeonCrawl-NeoForge-1.21-2.3.15.jar
 dynview-1.21-4.0.jar
-easy_npc-neoforge-1.21.1-5.9.0.jar
+easy_npc-neoforge-1.21.1-6.6.2.jar
+easy_npc_bundle-neoforge-1.21.1-6.6.2.jar
+easy_npc_config_ui-neoforge-1.21.1-6.6.2.jar
 effortlessbuilding-1.21.1-3.10-all.jar
 fallingtrees-neoforge-mc1.21-0.13.2-SNAPSHOT.jar
 farmingforblockheads-neoforge-1.21.1-21.1.10.jar
@@ -81,6 +83,7 @@ MOAdecor SCIENCE 1.21.1.A.jar
 MOAdecor TOYS 1.21.1.A.jar
 MobCapturingTool-neoforge-1.21-4.1.0.jar
 modernfix-neoforge-5.25.1+mc1.21.1.jar
+mods.txt
 OctoLib-NEOFORGE-0.6.0.4+1.21.jar
 Oh-The-Biomes-Weve-Gone-NeoForge-2.5.2.jar
 Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar
