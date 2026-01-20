@@ -24,3 +24,10 @@ const decorationCatalog = {
 }
 
 RequestHandler.items.create.simple([decorationCatalog.catalogId])
+
+RequestHandler.tooltips.add([
+  [decorationCatalog.catalogId, [
+    Text.translate('tooltips.decoration_catalog1'),
+    Text.translate('tooltips.decoration_catalog2')
+  ]]
+])
