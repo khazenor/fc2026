@@ -826,7 +826,7 @@ questlines = [
       }, { # create
         nameKey: 'Create Completion',
         iconKey: 'create:cogwheel',
-        dependencyIdKey: '44DB551B93AA28F9',
+        dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
         increaseRateKey: 0.03,
         tasksKey: [
           'create:crimsite',
