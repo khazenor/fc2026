@@ -21,7 +21,7 @@ icon.png
 kubejs/config
 local
 logs
-options.txt
+/options.txt
 saves
 screenshots
 servers.dat_old

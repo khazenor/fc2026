@@ -1,0 +1,3 @@
+version:3955
+resourcePacks:["vanilla","mod_resources","file/xali\u0027s enchanted book v1.0.0.zip","file/AC_Suspicious_Digspots.zip"]
+incompatibleResourcePacks:["file/AC_Suspicious_Digspots.zip"]
