@@ -1445,8 +1445,8 @@
 				item: { count: 1, id: "minecraft:oak_log" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4C5C72BBA123A633"]
@@ -1466,8 +1466,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:cuttable_furniture)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1489,7 +1489,7 @@
 				id: "4EB4267EC0C31BAE"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
@@ -2032,7 +2032,7 @@
 				item: { count: 1, id: "flightblocks:flight_block" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -2086,6 +2086,58 @@
 			}]
 			x: -3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["32D9390F9B877315"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:rigg"
+			}
+			id: "14E4D983C6F318CD"
+			rewards: [{
+				count: 4
+				id: "333EA9DC71D81DE3"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "5986AF9819F5B8FD"
+					item: { count: 1, id: "kubejs:miles_ticket" }
+					type: "item"
+				}
+				{
+					id: "70D2DC722C53C66E"
+					item: { count: 1, id: "farmingforblockheads:market" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			id: "32D9390F9B877315"
+			rewards: [{
+				id: "682759D24A542A64"
+				item: {
+					count: 1
+					id: "paraglider:paraglider"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BAD93141D1512F1"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 }

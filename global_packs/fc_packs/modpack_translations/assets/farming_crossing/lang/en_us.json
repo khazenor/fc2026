@@ -260,5 +260,8 @@
   "translation.are": "are %s",
   "translation.is": "is %s",
   "translation.pluralizeNoun": "%ss",
-  "translation.spaceBetween": "%s %s"
+  "translation.spaceBetween": "%s %s",
+  "block.farmingforblockheads.market": "Rigg's Market Stand",
+  "container.farmingforblockheads.market": "Rigg's Market Stand",
+  "jei.farmingforblockheads.market": "Rigg's Market Stand"
 }
