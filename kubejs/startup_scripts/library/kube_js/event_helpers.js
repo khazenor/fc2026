@@ -67,6 +67,16 @@ const EventHelpers = {
     let leftOverSlots = totalSlots - usedSlots - craftingSlots
     return leftOverSlots
   },
+  playerInventoryItems: (event) => {
+    return event.player.inventory.allItems
+  },
+  playerInventoryItemIds: (event) => {
+    let itemIds = []
+    for (let item of event.player.inventory.allItems) {
+      itemIds.push(item.id)
+    }
+    return itemIds
+  },
   playerData: (event) => {
     return event.player.persistentData
   },

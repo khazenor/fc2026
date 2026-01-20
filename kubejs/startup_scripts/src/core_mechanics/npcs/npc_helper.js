@@ -11,7 +11,9 @@ const NpcHelper = {
       PlayerTimingJs.trueIfNotSpam(event)
     )
   },
-  npcTalkToPlayerAndUpdateTrades (event, name, offerDefs) {
+  npcTalkToPlayerAndUpdateTrades (event, npcObj) {
+    let name = npcObj.name
+    let offerDefs = npcObj.offerDefs
     let player = event.player
     let target = event.target
     let npcName = target.name.getString()
@@ -28,7 +30,14 @@ const NpcHelper = {
       } else {
         player.tell('updating trades')
       }
+      let catalogOfferDef = decorationCatalog.catalogOfferDef(event, npcObj)
+      console.log('catalogOfferDef', catalogOfferDef)
+      if (catalogOfferDef) {
+        offerDefs = catalogOfferDef
+      }
+
       if (offerDefs) {
+        console.log('offerDefs', offerDefs)
         let playerName = EventHelpers.playerName(event)
         event.server.runCommandSilent(EasyNpcHelper.updateNpcCommand(playerName, name, offerDefs, target.type))
       }

@@ -22,7 +22,7 @@ const npcCommonBehavior = (event, npcObj, callbacksWithTruthTermination) => {
       return
     }
 
-    NpcHelper.npcTalkToPlayerAndUpdateTrades(event, npcObj.name, npcObj.offerDefs)
+    NpcHelper.npcTalkToPlayerAndUpdateTrades(event, npcObj)
   }
 }
 
