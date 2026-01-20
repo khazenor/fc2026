@@ -2,13 +2,16 @@
 const NpcHelper = {
   humanoidEntityType: 'easy_npc:humanoid',
   humanoidSlimEntityType: 'easy_npc:humanoid_slim',
+  ffbMerchantType: 'farmingforblockheads:merchant',
+  get customerTypes () {
+    return [this.humanoidEntityType, this.humanoidSlimEntityType, this.ffbMerchantType]
+  },
   isEventInteractingWithNpc(npcName, event) {
+    let entityType = event.target.type
+    let entityName = event.target.name.getString()
     return (
-      EventHelpers.hasTargetEntity(event) &&
-      (EventHelpers.targetEntityType(event) === this.humanoidEntityType ||
-      EventHelpers.targetEntityType(event) === this.humanoidSlimEntityType) &&
-      EventHelpers.targetEntityName(event) === npcName &&
-      PlayerTimingJs.trueIfNotSpam(event)
+      this.customerTypes.includes(entityType) &&
+      (entityName === npcName)
     )
   },
   npcTalkToPlayerAndUpdateTrades (event, npcObj) {
@@ -17,8 +20,7 @@ const NpcHelper = {
     let player = event.player
     let target = event.target
     let npcName = target.name.getString()
-    if ((target.type === this.humanoidEntityType ||
-      target.type === this.humanoidSlimEntityType) &&
+    if (this.customerTypes.includes(target.type) &&
       !PlayerTimingJs.checkAreYouSureLike(player, 'talkToNPC', 5)
     ) {
       let playerName = player.name.getString()
@@ -33,7 +35,7 @@ const NpcHelper = {
           npcDialogDefs(npcName, playerName)[npcName].dialogs
         )
         player.tell(dialog)
-      } else {
+      } else if (offerDefs) {
         player.tell('updating trades')
       }
       if (catalogOfferDef) {
@@ -41,7 +43,6 @@ const NpcHelper = {
       }
 
       if (offerDefs) {
-        console.log('offerDefs', offerDefs)
         let playerName = EventHelpers.playerName(event)
         event.server.runCommandSilent(EasyNpcHelper.updateNpcCommand(playerName, name, offerDefs, target.type))
       }

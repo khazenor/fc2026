@@ -9,7 +9,7 @@ treatMerchantsLikeBabies = true
 #The chance to get a bonus growth when using Red Fertilizer.
 fertilizerBonusGrowthChance = 1.0
 #List of names the merchant can have.
-merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson"]
+merchantNames = ["Rigg"]
 #The range at which the chicken nest picks up laid eggs.
 chickenNestRange = 8
 #The maximum amount of animals (per type) until the feeding trough stops feeding.

@@ -4,7 +4,6 @@ const decorationCatalog = {
   catalogOfferDef (event, npcObj) {
     if (EventHelpers.mainHandItemId(event) === this.catalogId) {
       let inventoryItemIds = EventHelpers.playerInventoryItemIds(event)
-      console.log('inventoryItemIds', inventoryItemIds)
       let saleItems = npcObj.tradeItemIds
       let duplicatedItemsToSell = []
       for (let inventoryItemId of inventoryItemIds) {
