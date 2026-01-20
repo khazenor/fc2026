@@ -1659,14 +1659,24 @@
 				id: "kubejs:village_capacity_permit"
 			}
 			id: "7041BB13DE704850"
-			rewards: [{
-				id: "0FF46B6D43059A0A"
-				item: {
-					count: 1
-					id: "kubejs:village_capacity_permit"
+			rewards: [
+				{
+					id: "0FF46B6D43059A0A"
+					item: {
+						count: 1
+						id: "kubejs:village_capacity_permit"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0EA5E8BA92939514"
+					item: {
+						count: 1
+						id: "kubejs:decoration_catalog"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "594F0673351BBA80"
@@ -2049,6 +2059,33 @@
 			}]
 			x: 4.0d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5BB57D9BEC8038FB"
+				"4F114B795F9ABFD0"
+				"1B6B73275C612510"
+				"2C1B93F1A534E681"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:check_collection_progress"
+			}
+			id: "0205212A2FE863C8"
+			rewards: [{
+				id: "147D8D893C940ED4"
+				item: {
+					count: 1
+					id: "kubejs:check_collection_progress"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C487C7DCFE478AE"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 	]
 }

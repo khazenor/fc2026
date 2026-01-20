@@ -253,6 +253,7 @@
   "tooltip.canGetFromQuests": "Can be obtained from quests",
   "tooltip.kubejs.meaty_mushroom1": "Can be used as a meat replacement",
   "tooltip.kubejs.meaty_mushroom2": "Place in stonecutter to craft imitation meats",
+  "tooltips.checkCollectionProgress": "Right click this item to check your collection quest progress",
   "refinedStorage.disks.tooltip": "Storage expansion are obtainable from quests",
   "translation.are": "are %s",
   "translation.is": "is %s",

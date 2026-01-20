@@ -1,1 +1,0 @@
-RequestHandler.items.create.simple('kubejs:village_capacity_permit')

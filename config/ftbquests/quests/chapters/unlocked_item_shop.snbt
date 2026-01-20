@@ -524,5 +524,28 @@
 			x: 2.0d
 			y: 0.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["0205212A2FE863C8"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:check_collection_progress"
+			}
+			id: "6B45A8C9BD3BCE5E"
+			rewards: [{
+				id: "324B24A6C89A6F77"
+				item: {
+					count: 1
+					id: "kubejs:check_collection_progress"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56F270EC5007304A"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
 	]
 }

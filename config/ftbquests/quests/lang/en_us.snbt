@@ -11,6 +11,9 @@
 	chapter_group.2AF27285BDAE0A0D.title: "Collection Quests"
 	quest.0019E4A4C435E089.title: "Cheese Form Completion"
 	quest.00D26E807477ABE6.title: "Locate Ren"
+	quest.0205212A2FE863C8.quest_desc: ["You can check your collection progress by right clicking this item."]
+	quest.0205212A2FE863C8.quest_subtitle: "Tracking Your Collectables"
+	quest.0205212A2FE863C8.title: "Checking Collection Progress"
 	quest.0261908781297A1E.title: "Caught 20 Unique Fishes!"
 	quest.0402B3C9225F65F2.title: "Cooked 20 Unique Dishes!"
 	quest.040F861256CDB7B9.title: "1k Storage Disk"
@@ -329,6 +332,7 @@
 	quest.68B6D4B3A9C0410C.title: "Invite Yukkie"
 	quest.694485ACECCFB855.title: "Tea Brewing Completion"
 	quest.6A694FC4A6083409.title: "Move in Jess"
+	quest.6B45A8C9BD3BCE5E.title: "Check Collection Progress"
 	quest.6BA6B6F18AD21A4E.title: "Aquarium Completion!"
 	quest.6C5F3C2BE3568F1A.title: "Stove Completion"
 	quest.6E3D3BA7844BFBCD.title: "Cooking Jurney Begins"
@@ -336,6 +340,11 @@
 	quest.6F131E57A7D55E00.title: "Mushroom Completion"
 	quest.703E05E1F1899BE1.title: "Creative Range Upgrade"
 	quest.7041BB13DE704850.quest_desc: [
+		""
+		"# Purchasing decorations/outfits you already own"
+		""
+		"- Right clicking a villager you move in after the higher village capacity with the catalog will set the trade of the npc to the items you have in your inventory that that npc sells"
+		""
 		""
 		"- Note from the modpack author -"
 		""
@@ -347,6 +356,7 @@
 		""
 		"-Khazenor"
 	]
+	quest.7041BB13DE704850.title: "Village Capacity Permit"
 	quest.712B913703C63ED7.title: "Move in Elna"
 	quest.71C1250C2004016A.title: "Iron Fishing Rod Upgrade"
 	quest.71DD63453348DBE8.quest_desc: ["Catch 10 unique fishes to invite Sam to your area!"]
