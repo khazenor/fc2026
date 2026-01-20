@@ -31,3 +31,5 @@ const SophisticatedBackPackSupport = {
 RequestHandler.items.create.simple(SophisticatedBackPackSupport.backpackUpgradeIds)
 
 RequestHandler.recipes.add.custom(SophisticatedBackPackSupport.upgradeRecipes)
+
+RequestHandler.recipes.remove.byItemId(SophisticatedBackPacks.backpackIds)

@@ -33,6 +33,9 @@ const SophisticatedBackPacks = {
       return `sophisticatedbackpacks:${tier}_backpack`
     }
   },
+  get backpackIds () {
+    return this.tierOrder.map(tier => this.backpackId(tier))
+  },
   upgradeRecipe (resultId, keysObj, patternMatrix) {
     return {
       "neoforge:conditions": [
