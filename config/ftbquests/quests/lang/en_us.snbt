@@ -78,7 +78,29 @@
 		"- hold right click on the mincer to process the ingredient to their output"
 	]
 	quest.1A6015D93785C5F8.title: "Mincing Wheat"
-	quest.1B6B73275C612510.quest_desc: [""]
+	quest.1B6B73275C612510.quest_desc: [
+		"** your phone rings **"
+		""
+		"Hello. This is Sam the Osprey. I'm somewhat of a connoisseur of aquatic life, both in terms of natural history and consumption.  My life revolves around fish - I'm a sushi chef by day and a fisherman by night."
+		""
+		"Jess told me that you are working on the new Adventurer's Settlement and that you have taken quite a liking to fishing!  I'm very glad to hear that! I'll guide you through some fishing steps and even send some packages your way to help on your settlement quest."
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"## Catching Fishes"
+		""
+		"- This modpack has the Tide mod installed and there is a mini game for fish catches."
+		""
+		"- Hold right click with a fishing rod to wind up your fishing rod"
+		""
+		"- Releasing right click will cast the rod"
+		""
+		"- When a fish bites, a moving target appears."
+		""
+		"- Right click again with the target as close to the center as possible."
+		""
+		"- The closer to the center, the higher chance you will actually catch the fish."
+	]
 	quest.1B6B73275C612510.title: "Catching Fishes"
 	quest.1B95DAE862D857D1.title: "Snowy Completion"
 	quest.1D5D4866122C83D2.title: "Observed 2 Unique Animals!"
@@ -111,6 +133,11 @@
 	quest.295061854693C97A.title: "Collected 35 Unique Flora!"
 	quest.2A1AEF0E0411614B.title: "Invite Laly"
 	quest.2AA29F9A4845B0C2.title: "Netherite Fishing Rod Upgrade"
+	quest.2C1B93F1A534E681.quest_desc: [
+		"** Your phone rings **"
+		""
+		"Hi, hi! I'm Laly, Laly the Meerkat! I'm a geologist who loves caving, and a curator of the Oyster Creek Museum's gems and minerals exhibit. I spend A LOT of time underground. It's my happy place. But lately I haven't been able to get out in the field as much as I'd like, since work at the museum has been picking up. I was sooo jealous when Jess told me where she sent you. Lucky you! Turns out, the land is an absolute treasure trove for gems. Since you'll be finding a ton of gems while you mine, you wouldn't mind sending me some specimens for science, right? I can't wait to see what you find!"
+	]
 	quest.2C1B93F1A534E681.title: "Mining Minerals"
 	quest.2C347959EBCF675E.quest_desc: [
 		"# How to use the farm and charm crafting bowl:"
@@ -143,7 +170,14 @@
 	quest.2D7FBD31BB35A035.title: "Caught 10 Unique Fishes!"
 	quest.2DB621BCC10A0C1C.title: "Modded Foods Completion"
 	quest.2DBF1187A9D50614.quest_desc: [
-		"# Selling Food"
+		""
+		"** Pamela the Rabbit **"
+		"I see you are coming along great with learning the cooking basics! Once you have learned 5 meals, we can start crafting a menu together.  I bet all the villagers in the Adventure's Settlement would be excited to try out dishes you have just learned!"
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"## Selling Food"
+		""
 		"- As you collect more meals, they will be added to your menu"
 		""
 		"- The more meals you collect, the more your meals will be worth in tickets!"
@@ -156,7 +190,7 @@
 		""
 		"- If you have multiple copies of the same Farming Crossing NPC spawned, they will act like the same customer (as in you can request a dish from sam#1 and deliver it to sam#2)"
 		""
-		"# Menu right click gui:"
+		"## Menu right click gui:"
 		"- top left (with the roast chicken): number of meals the player has collected so far"
 		""
 		"- top right (with the tickets): how many tickets the player will receive for delivering each meal to the villagers."
@@ -165,13 +199,26 @@
 		""
 		"- Tip: You can add the food items to your JEI bookmarks by pressing 'a' while hovering over a dish!"
 	]
+	quest.2DBF1187A9D50614.title: "Designing Your Own Menu"
 	quest.2EEE42B677C05AF4.title: "Move in Skye"
 	quest.2F7D2916F2B8EEEF.title: "4k Storage"
 	quest.31625B8D809CCCCB.title: "Biome Saplings"
 	quest.3245B3090207C513.title: "Creative Range Upgrade"
 	quest.3249330012813FDA.title: "Freezing with a Fridge"
 	quest.3276A212EDB474BA.title: "Aquarium Completion!"
-	quest.32A06EEE318AC659.title: "Cutting Furniture"
+	quest.32A06EEE318AC659.quest_desc: [
+		"** Woodpecker Ren **"
+		"Very good material...  Cut wood with stone cutter to make fine furniture"
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"## How to make furniture using the stonecutter"
+		""
+		"- In this modpack you can convert logs into other furniture by putting them in the stonecutter"
+		""
+		"- After a furniture is cut, it can then be converted again into other furniture, or even back to logs"
+	]
+	quest.32A06EEE318AC659.title: "Making Furniture"
 	quest.32D9390F9B877315.quest_desc: [
 		"** Jess the Beaver **"
 		"As you go on your adventures, you'll find fishes, minerals, flora, and even observe some local wildlife! Filling out the dex in your quest book will get you compensation in the form of Miles Tickets.  Keep them save! They are as good as gold!"
@@ -260,15 +307,19 @@
 	quest.4C25B193AEB81C44.title: "Biome Misc"
 	quest.4C56F43DC4E182D8.title: "Mincer Completion"
 	quest.4C5C72BBA123A633.quest_desc: [
-		"- In this modpack you can convert logs into other furniture by putting them in the stonecutter"
+		"** Your phone rings **"
 		""
-		"- After a furniture is cut, it can then be converted again into other furniture, or event back to logs"
+		"I'm Woodpecker Ren...  Cutter of wood for many years... Making furniture? Simple. Find yourself some good materials and I'll help you from there"
 	]
-	quest.4C5C72BBA123A633.quest_subtitle: "How to make furniture using the stonecutter"
-	quest.4C5C72BBA123A633.title: "Learning to Cut Furniture"
+	quest.4C5C72BBA123A633.title: "Learning to Make Furniture"
 	quest.4CEB9362A3403CA6.title: "Making Cocktails"
 	quest.4DEF63334FEF5391.title: "Locate Laly"
 	quest.4EC2DC93EC0BED9F.title: "Saltwater Completion"
+	quest.4F114B795F9ABFD0.quest_desc: [
+		"** Your phone rings **"
+		""
+		"I LOVE FRUITS! There are so many fruit trees here! Oh, I'm Yukkie the Bat, by the way. You're an adventurer too?  Nice to meet you! The world is my orchard. It can be yours too. Keep your eyes peeled, and you're bound to find nature's bounty on every branch and bough. Once you pick one - you'll be hooked! As for me, I'm happy just keeping them all for myself. Ha!"
+	]
 	quest.4F114B795F9ABFD0.title: "Collecting Flora"
 	quest.4FA08F2A855CB462.title: "Observed 5 Unique Animals!"
 	quest.517973B7A58F929E.title: "Cooked 35 Unique Dishes!"
@@ -299,6 +350,11 @@
 	quest.55310AAA5E4452D6.title: "Locate Harley"
 	quest.558A1A31A21872DB.title: "Move in Harley"
 	quest.5655FAEE335E8842.title: "Biome Foods"
+	quest.56AC6181113D8B4E.quest_desc: [
+		"** Laly the Meerkat **"
+		""
+		"Ooo I see you have found yourself some special gems! They can be used in the Jewelcrafting Station for all kinds of jewelry.  Keep your eye peeled in villages as you explore.  There might be people around that will sell you new jewelry patterns!"
+	]
 	quest.56AC6181113D8B4E.title: "Jewelry Crafting"
 	quest.56F458AB639E8D1E.title: "Creative Storage Disk"
 	quest.57BE1A138D1F6B53.title: "Vanilla Flora Completion"
@@ -309,6 +365,11 @@
 	quest.5AC743FE401681BD.title: "Fish up an Obsidian Crate"
 	quest.5B2F73BE722EFC7A.title: "Creative Portable Grid"
 	quest.5BB3A4D8C0D8386C.title: "Collected 20 Unique Flora!"
+	quest.5BB57D9BEC8038FB.quest_desc: [
+		"** Your phone rings **"
+		""
+		"G'day, I'm Andre the Dog! I've been farming since I was old enough to fill a trough. I'm retired now, but I must say, I'm enjoying it well enough. No losing sleep over managing the farm. No need to worry about logistics, the weather... I can focus my full attention on training my animals. The other day, I taught my chicken Bessie to roll over. She's a smart one, that hen. I even have time to help out at the Oyster Creek Zoo every now and then."
+	]
 	quest.5BB57D9BEC8038FB.title: "Observing Animals"
 	quest.5BD4C23644BF2703.quest_desc: [
 		"** your phone rings **"
@@ -349,10 +410,24 @@
 	quest.689463295963E36C.title: "Locate Parlan"
 	quest.68B6D4B3A9C0410C.title: "Invite Yukkie"
 	quest.694485ACECCFB855.title: "Tea Brewing Completion"
+	quest.6A694FC4A6083409.quest_desc: [
+		"** Jess the Beaver **"
+		""
+		"Oh have you found a place for the settlement?  Here is a shipment of building materials for a welcome center.  We gotta have a place for all of the villager to check in before they move in!  Oh while you are at it if you can build an office for me that would be great!  I've included the some office materials with the materials bundle as well!"
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"Using the architext's cutter you can cut blocks into all kinds of shapes!"
+	]
 	quest.6A694FC4A6083409.title: "Move in Jess"
 	quest.6B45A8C9BD3BCE5E.title: "Check Collection Progress"
 	quest.6BA6B6F18AD21A4E.title: "Aquarium Completion!"
 	quest.6C5F3C2BE3568F1A.title: "Stove Completion"
+	quest.6E3D3BA7844BFBCD.quest_desc: [
+		"** Your phone rings **"
+		""
+		"Hi there, human!  I'm Pamela the Rabbit, hobbyist gardener and head chef of the Carrot Place! Jess told me you are aspiring to be a great chef one day - that's wonderful! I'd be delighted to help you get started."
+	]
 	quest.6E3D3BA7844BFBCD.title: "Cooking Jurney Begins"
 	quest.6F0C1C706C6AF72A.title: "Cooked 2 Unique Dishes!"
 	quest.6F131E57A7D55E00.title: "Mushroom Completion"

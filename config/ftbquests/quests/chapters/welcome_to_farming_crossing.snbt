@@ -983,6 +983,38 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5CE29F2F4140C253"
+					item: {
+						count: 1
+						id: "moa_decor_electronics:pc_antigua"
+					}
+					type: "item"
+				}
+				{
+					id: "0F02CDFBFDDFB1E1"
+					item: {
+						count: 1
+						id: "moa_decor_electronics:aire_acondicionado_moderno"
+					}
+					type: "item"
+				}
+				{
+					id: "109F3DB9FC1F9FBF"
+					item: {
+						count: 1
+						id: "moa_decor_electronics:reloj_despertador_naranja"
+					}
+					type: "item"
+				}
+				{
+					id: "17F049A12EF9EDEC"
+					item: {
+						count: 1
+						id: "moa_decor_electronics:teclado_antiguo"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "47D968778F725753"
@@ -2124,10 +2156,10 @@
 			hide_until_deps_complete: true
 			id: "32D9390F9B877315"
 			rewards: [{
-				id: "682759D24A542A64"
+				id: "06BD04E64A15B993"
 				item: {
 					count: 1
-					id: "paraglider:paraglider"
+					id: "kubejs:miles_ticket"
 				}
 				type: "item"
 			}]

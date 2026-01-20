@@ -179,3 +179,11 @@ you have closed the hatch the good will pop out after you open the hatch again.
 - In this modpack you can convert logs into other furniture by putting them in the stonecutter
 
 - After a furniture is cut, it can then be converted again into other furniture, or event back to logs
+
+# Catching Fishes
+- This modpack has the Tide mod installed and there is a mini game for fish catches.
+- Hold right click with a fishing rod to wind up your fishing rod
+- Releasing right click will cast the rod
+- When a fish bites, a moving target appears.
+- Right click again with the target as close to the center as possible.
+- The closer to the center, the higher chance you will actually catch the fish.
