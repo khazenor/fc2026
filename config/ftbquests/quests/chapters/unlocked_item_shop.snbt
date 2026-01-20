@@ -547,5 +547,28 @@
 			x: 3.0d
 			y: 0.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:decoration_catalog"
+			}
+			id: "01796A4E42A7ADD7"
+			rewards: [{
+				id: "1ED547EECAC9BF5A"
+				item: {
+					count: 1
+					id: "kubejs:decoration_catalog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5950AB11BED4F3D8"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
 	]
 }
