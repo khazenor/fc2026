@@ -91,6 +91,7 @@
   "npcs.dialog.yukkie1": "<%s> Do you have any fruits on'ya?",
   "npcs.dialog.yukkie2": "<%s> Best thing to have after a long day of adventur'n is FRUIT!",
   "npcs.dialog.yukkie3": "<%s> FRUIT!! oh hai %s!",
+  "npcs.dialog.catalogDialog": "<%s> Let me find the items I have in storage that matches the items in your inventory...",
   "npcs.sellItem.areYouSureSell": "Are you sure you want to sell your %s? (Right click again to confirm)",
   "npcs.sellItem.thankYou": "<%s> Thank you so much! Here %s!",
   "npcs.sellTooltip": "You can sell this to %s for %s",

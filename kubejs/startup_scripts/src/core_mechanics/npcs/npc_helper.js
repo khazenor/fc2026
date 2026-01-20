@@ -22,7 +22,13 @@ const NpcHelper = {
       !PlayerTimingJs.checkAreYouSureLike(player, 'talkToNPC', 5)
     ) {
       let playerName = player.name.getString()
-      if (npcDialogDefs(npcName, playerName)[npcName]) {
+      let catalogOfferDef = decorationCatalog.catalogOfferDef(event, npcObj)
+
+      if (catalogOfferDef) {
+        EventHelpers.tellPlayer(event, 
+          Text.translate('npcs.dialog.catalogDialog', playerName)
+        )
+      } else if (npcDialogDefs(npcName, playerName)[npcName]) {
         let dialog = ArrayJs.getRandomArrayElement(
           npcDialogDefs(npcName, playerName)[npcName].dialogs
         )
@@ -30,8 +36,6 @@ const NpcHelper = {
       } else {
         player.tell('updating trades')
       }
-      let catalogOfferDef = decorationCatalog.catalogOfferDef(event, npcObj)
-      console.log('catalogOfferDef', catalogOfferDef)
       if (catalogOfferDef) {
         offerDefs = catalogOfferDef
       }
