@@ -254,6 +254,8 @@
   "tooltip.kubejs.meaty_mushroom1": "Can be used as a meat replacement",
   "tooltip.kubejs.meaty_mushroom2": "Place in stonecutter to craft imitation meats",
   "tooltips.checkCollectionProgress": "Right click this item to check your collection quest progress",
+  "tooltips.decoration_catalog1": "Right click a post village capacity upgrade npc",
+  "tooltips.decoration_catalog2": "to purchase more copies of wares in your inventory",
   "refinedStorage.disks.tooltip": "Storage expansion are obtainable from quests",
   "translation.are": "are %s",
   "translation.is": "is %s",
