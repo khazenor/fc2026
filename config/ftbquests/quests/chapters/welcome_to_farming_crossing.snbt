@@ -2179,5 +2179,28 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["2EEE42B677C05AF4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:pingu"
+			}
+			id: "22C8BB99ECF5AB13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FDE54107E1F6EAA"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "775A4726BB822B0F"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
 	]
 }

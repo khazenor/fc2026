@@ -227,8 +227,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 2.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -257,7 +257,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -306,8 +306,8 @@
 				id: "03EF8D3C33F64AF5"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -332,7 +332,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -361,7 +361,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -386,7 +386,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -414,8 +414,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -443,8 +443,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -472,8 +472,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -502,7 +502,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -559,8 +559,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -617,8 +617,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -642,8 +642,8 @@
 				id: "5A2E9A6AC8AB187A"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -667,8 +667,8 @@
 				id: "3D3CFA15BC8DB366"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -693,7 +693,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -717,8 +717,8 @@
 				id: "052F543974C6ED9F"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -792,8 +792,8 @@
 				id: "0C8EAFBD678C7455"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -817,8 +817,62 @@
 				id: "26A4184AAAF67271"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["22C8BB99ECF5AB13"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:pingu"
+			}
+			id: "1FA0561DCA4884D6"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:pingu"
+				icon: {
+					id: "kubejs:pingu"
+				}
+				id: "4F4F3CC87E248775"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0587CE2EC3FD202F"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["22C8BB99ECF5AB13"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "2C1B09546A8F09E7"
+			rewards: [{
+				command: "/function fc_villagers:pingu_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "7EE1EA7CE9AC0814"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "6FA11A0CEAC1C982"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -0.5d
 		}
 	]
 }
