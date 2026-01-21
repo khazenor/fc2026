@@ -1015,6 +1015,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3ABC9E4073F109CF"
+					item: {
+						count: 1
+						id: "furniture:cash_register"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "47D968778F725753"
