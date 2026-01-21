@@ -15,7 +15,8 @@
         "weaponsmith": [],
         "nitwit": [],
         "none": [],
-        "jeweler": []
+        "jeweler": [],
+        "archeologist": []
     },
     "globalBookmarks1": {
         "armorer": [],
@@ -33,7 +34,8 @@
         "weaponsmith": [],
         "nitwit": [],
         "none": [],
-        "jeweler": []
+        "jeweler": [],
+        "archeologist": []
     },
     "globalBookmarks2": {
         "armorer": [],
@@ -51,6 +53,7 @@
         "weaponsmith": [],
         "nitwit": [],
         "none": [],
-        "jeweler": []
+        "jeweler": [],
+        "archeologist": []
     }
 }
