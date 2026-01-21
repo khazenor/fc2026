@@ -83,16 +83,19 @@ const PinguItems = {
     "betterarcheology:music_disc_swings",
   ],
   musicPlayers: [
-    "sophisticatedstorage:advanced_jukebox_upgrade",
-    "sophisticatedbackpacks:advanced_jukebox_upgrade",
     "minecraft:jukebox",
     "furniture:gramophone",
+  ],
+  musicUpgrades: [
+    "sophisticatedstorage:advanced_jukebox_upgrade",
+    "sophisticatedbackpacks:advanced_jukebox_upgrade",
   ],
   get allItems () {
     return this.minecraftDiscs.concat(
       this.otherDiscs,
       this.onaulDiscs,
-      this.musicPlayers
+      this.musicPlayers,
+      this.musicUpgrades
     )
   }
 }
