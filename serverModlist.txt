@@ -77,6 +77,7 @@ MOAdecor ART 1.21.1.B.jar
 MOAdecor BATH 1.21.1.C.jar
 MOAdecor COOKERY 1.21.1.B.jar
 MOAdecor ELECTRONICS 1.21.1.A.jar
+MOAdecor Garden 1.21.1.A.jar
 MOAdecor HOLIDAYS 1.21.1.A.jar
 MOAdecor LIGHTS 1.21.1.A.jar
 MOAdecor SCIENCE 1.21.1.A.jar
