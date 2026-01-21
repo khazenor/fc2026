@@ -1,4 +1,4 @@
-// priority 1
+// priority 100
 const StrHelper = {
   cleanFloor: (number) => {
     let decimal = '.'

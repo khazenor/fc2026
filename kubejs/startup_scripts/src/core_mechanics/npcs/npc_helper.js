@@ -87,7 +87,7 @@ const NpcHelper = {
     return [
       NpcAndre, NpcJess, NpcPamela, NpcRen, NpcSam, NpcYukkie, NpcLaly,
       NpcElna, NpcBernina, NpcParlan, NpcFenny, NpcHarley, NpcLangley,
-      NpcMatan, NpcSkye
+      NpcMatan, NpcSkye, NpcPingu, NpcRigg
     ]
   }
 }

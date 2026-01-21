@@ -1,15 +1,14 @@
-const npcRigg = {
+// priority: 2
+const NpcRigg = {
   name: 'Rigg',
   marketId: 'farmingforblockheads:market'
 }
 
-RequestHandler.items.create.simple(['kubejs:rigg'])
-
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
-  npcCommonBehavior(event, npcRigg, false)
+  npcCommonBehavior(event, NpcRigg, false)
 }])
 
-RequestHandler.recipes.remove.byItemId([npcRigg.marketId])
+RequestHandler.recipes.remove.byItemId([NpcRigg.marketId])
 RequestHandler.recipes.add.shapeless([
-  [npcRigg.marketId, StrHelper.itemStackStr(MilesTickets.ticketId, 4)]
+  [NpcRigg.marketId, StrHelper.itemStackStr(MilesTickets.ticketId, 4)]
 ])

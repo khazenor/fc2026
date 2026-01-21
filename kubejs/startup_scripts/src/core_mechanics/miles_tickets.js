@@ -1,4 +1,4 @@
-// priority 1
+// priority 10
 const MilesTickets = {
   ticketId: 'kubejs:miles_ticket',
   bookletId: 'kubejs:miles_booklet',
