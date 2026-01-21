@@ -455,7 +455,17 @@
 	quest.7041BB13DE704850.title: "Village Capacity Permit"
 	quest.712B913703C63ED7.title: "Move in Elna"
 	quest.71C1250C2004016A.title: "Iron Fishing Rod Upgrade"
-	quest.71DD63453348DBE8.quest_desc: ["Catch 10 unique fishes to invite Sam to your area!"]
+	quest.71DD63453348DBE8.quest_desc: [
+		"** Sam the Osprey **"
+		""
+		"I see that you're fishing adventure is coming along nicely. Once you have caught a good amount of fishes I'll be more than happy to setup a sushi and fishing shop in the Adventurer's Settlement! I'll send over some of my belongings with the building materials!"
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"- Catch 10 unique fishes to invite Sam to your area!"
+		""
+		"- You can right click the fish tank with Cod, Salmon, and Pufferfish buckets to fill the tanks with fish!"
+	]
 	quest.71DD63453348DBE8.title: "Move in Sam"
 	quest.7210EC2E7E8AC453.title: "Cooking Pot Completion"
 	quest.745AA53B27CCFED3.title: "Caught 20 Unique Fishes!"

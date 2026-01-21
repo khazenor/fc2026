@@ -97,3 +97,13 @@ I see you are coming along great with learning the cooking basics! Once you have
 # Jewelry Crafting
 ** Laly the Meerkat **
 Ooo I see you have found yourself some special gems! They can be used in the Jewelcrafting Station for all kinds of jewelry.  Keep your eye peeled in villages as you explore.  There might be people around that will sell you new jewelry patterns!
+
+# Move in Sam
+** Sam the Osprey **
+I see that you're fishing adventure is coming along nicely. Once you have caught a good amount of fishes I'll be more than happy to setup a sushi and fishing shop in the Adventurer's Settlement! I'll send over some of my belongings with the building materials!
+
+== MODPACK TUTORIAL ==
+- Catch 10 unique fishes to invite Sam to your area!
+- You can right click the fish tank with Cod, Salmon, and Pufferfish buckets to fill the tanks with fish!
+
+# Move in 

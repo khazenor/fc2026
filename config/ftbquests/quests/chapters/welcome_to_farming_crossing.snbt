@@ -954,6 +954,22 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0EC656782C4DF1D5"
+					item: {
+						count: 1
+						id: "furniture:copper_fish_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "0A985864D32B423B"
+					item: {
+						count: 1
+						id: "furniture:iron_fish_tank"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "39B5D0607784AC8A"
