@@ -79,5 +79,9 @@ villagers = [
     nameKey: 'Skye',
     textureKey: '[I; -1670307856, 1864056429, -1357094245, 121653734]',
     entityTypeKey: 'easy_npc:humanoid_slim'
+  }, { # Pingu: music shop: penguin
+    nameKey: 'Pingu',
+    textureKey: '[I; 62130089, -569755960, -1758694603, -1404791822]',
+    entityTypeKey: 'easy_npc:humanoid_slim'
   }
 ]

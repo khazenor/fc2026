@@ -9,3 +9,4 @@
 - https://namemc.com/skin/9cc97c4913b0b607
 - https://namemc.com/skin/ad09e3fd9a31d900
 - https://namemc.com/skin/96aca0ea14d3d616
+- https://namemc.com/skin/099d3ce9a3aa31a0
