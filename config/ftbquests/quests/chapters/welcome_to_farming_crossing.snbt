@@ -2174,6 +2174,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7FB1D8CB6C67396D"
+					item: {
+						count: 1
+						id: "moa_art:bateria_roja"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				consume_items: true

@@ -140,6 +140,7 @@
 	quest.225F1F8C7A7D87A0.title: "Cooking Collection Completion!"
 	quest.226281A3E70EC971.title: "Locate Jess"
 	quest.2295A2D79C1D1833.title: "Animal Observation Completion!"
+	quest.22C8BB99ECF5AB13.quest_desc: ["Nice to meet you!  I am Pingu the Penguin.  I run a music store where I'm from and I'm also the keyboardist in the Sky Penguin.  I also sell some of Sky Penguin's music disc here as well, feel free to check them out!"]
 	quest.22C8BB99ECF5AB13.title: "Move in Pingu"
 	quest.237FE170DCEF0E64.title: "Collected 10 Unique Flora!"
 	quest.23AAF4EDBDAF772A.title: "Invite Elna"
@@ -229,6 +230,7 @@
 		"- Tip: You can add the food items to your JEI bookmarks by pressing 'a' while hovering over a dish!"
 	]
 	quest.2DBF1187A9D50614.title: "Designing Your Own Menu"
+	quest.2EEE42B677C05AF4.quest_desc: ["Hi I'm Sky the elephant, electronics shop owner and guitarist in the Sky Penguin.  Pingu and I have been touring for a while and would love to have a concert in the settlement.  If you can secure a venue for me and Pingu along with an hut for me to sell electronics that would be great!"]
 	quest.2EEE42B677C05AF4.title: "Move in Skye"
 	quest.2F7D2916F2B8EEEF.title: "4k Storage"
 	quest.31625B8D809CCCCB.title: "Biome Saplings"
@@ -396,7 +398,7 @@
 	quest.53A97CAB5255B2F3.title: "Using the Cooking Caldron"
 	quest.55174CBE09CAF168.title: "Locate Skye"
 	quest.55310AAA5E4452D6.title: "Locate Harley"
-	quest.558A1A31A21872DB.quest_desc: ["Hello! Harley the deer at your service! After hearing how my happy partner Matan is with his studio at the settlement, I can't wait to join in as well with my holiday decorations shop!  You see making arts and crafts is my hobby and I'm very happy to help other people getting into the holiday spirits with my crafts! I hope you'll be able to secure a building for me at the settlement!"]
+	quest.558A1A31A21872DB.quest_desc: ["Hello! Harley the deer at your service! After hearing how my happy partner Matan is with his studio at the settlement, I can't wait to join in as well with my holiday decorations shop!  You see making arts and crafts is my hobby and I'm very happy to help other people getting into the holiday spirits with my crafts! I hope you'll be able to secure a building for me at the settlement!  Oh and if Skye and Pingu ever visit the settlement let me know!  I play drums in their band Sky Penguin every once in a while."]
 	quest.558A1A31A21872DB.title: "Move in Harley"
 	quest.5655FAEE335E8842.title: "Biome Foods"
 	quest.56AC6181113D8B4E.quest_desc: [

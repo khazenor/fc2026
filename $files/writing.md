@@ -166,7 +166,7 @@ Hi~~~ I'm Fenny the fox! I'm recently started an apprenticeship with Bernina and
 I am Matan the Owl, an artist and collector of arts.  After I heard about the adventure settlement my partner Harley and I've been thinking about starting a studio there. If you are able to secure the building I would be very grateful.
 
 # Move in Harley
-Hello! Harley the deer at your service! After hearing how my happy partner Matan is with his studio at the settlement, I can't wait to join in as well with my holiday decorations shop!  You see making arts and crafts is my hobby and I'm very happy to help other people getting into the holiday spirits with my crafts! I hope you'll be able to secure a building for me at the settlement!
+Hello! Harley the deer at your service! After hearing how my happy partner Matan is with his studio at the settlement, I can't wait to join in as well with my holiday decorations shop!  You see making arts and crafts is my hobby and I'm very happy to help other people getting into the holiday spirits with my crafts! I hope you'll be able to secure a building for me at the settlement!  Oh and if Skye and Pingu ever visit the settlement let me know!  I play drums in their band Sky Penguin every once in a while.
 
 # Handcrafting Furniture
 ** Ren the Woodpecker **
@@ -181,4 +181,4 @@ Cushions and sheets can be used to decorate handcrafted furniture (e.g. sheets c
 Hi I'm Sky the elephant, electronics shop owner and guitarist in the Sky Penguin.  Pingu and I have been touring for a while and would love to have a concert in the settlement.  If you can secure a venue for me and Pingu along with an hut for me to sell electronics that would be great!
 
 # Move in Pingu
-Nice to meet you!  I am Pingu the Penguin.  I run a music store where I'm from and I'm also the keyboardist in the Sky Penguin
+Nice to meet you!  I am Pingu the Penguin.  I run a music store where I'm from and I'm also the keyboardist in the Sky Penguin.  I also sell some of Sky Penguin's music disc here as well, feel free to check them out!
