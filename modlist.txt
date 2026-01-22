@@ -125,4 +125,5 @@ TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 tide-neoforge-1.21-1.6.4.jar
 weavers_cosmetics-neo-1.21.1_v1.0.jar
 weavers_cosmetics_cosplay-v1.0.jar
+xaeroworldmap-neoforge-1.21.1-1.40.6.jar
 yukamibackpacktab-1.21.1-1.1.1-neoforge.jar

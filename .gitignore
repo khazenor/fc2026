@@ -35,3 +35,5 @@ servers.dat_old
 usercache.json
 usernamecache.json
 config/camerapture.client.json
+config/xaero/lib/client.cfg
+xaero/world-map/
