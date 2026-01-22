@@ -57,16 +57,24 @@ const FurnitureCutting = {
       this.generateCuttableInfo()
     }
     return this.furnitureCache
-  }
+  },
+  hasStonecuttingRecipesBeenAdded: false,
+  hasTooltipsBeenAdded: false
 }
 RequestHandler.callbacks.beforeServerHooks([() => {
-  RequestHandler.recipes.add.stonecutting(FurnitureCutting.stonecuttingDefs)
-  RequestHandler.tags.item.add([['c:cuttable_furniture', FurnitureCutting.furniture]])
-  RequestHandler.tags.item.add(FurnitureCutting.tagsDefs)
+  if (!FurnitureCutting.hasStonecuttingRecipesBeenAdded) {
+    RequestHandler.recipes.add.stonecutting(FurnitureCutting.stonecuttingDefs)
+    RequestHandler.tags.item.add([['c:cuttable_furniture', FurnitureCutting.furniture]])
+    RequestHandler.tags.item.add(FurnitureCutting.tagsDefs)
+    FurnitureCutting.hasStonecuttingRecipesBeenAdded = true
+  }
 }])
 
 RequestHandler.callbacks.beforeClientLoaded([() => {
-  RequestHandler.tooltips.addSingular(
-    FurnitureCutting.cuttables, [Text.translate('furnitureCutting.youCanCutThis')]
-  )
+  if (!FurnitureCutting.hasTooltipsBeenAdded) {
+    RequestHandler.tooltips.addSingular(
+      FurnitureCutting.cuttables, [Text.translate('furnitureCutting.youCanCutThis')]
+    )
+    FurnitureCutting.hasTooltipsBeenAdded = true
+  }
 }])
