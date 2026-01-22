@@ -51,6 +51,7 @@ ftb-xmod-compat-neoforge-21.1.6.jar
 geckolib-neoforge-1.21.1-4.8.2.jar
 getittogetherdrops-neoforge-1.21.5-1.4.jar
 globalpacks-neoforge-1.21.1-21.0.6.jar
+handcrafted-neoforge-1.21.1-4.0.3.jar
 incontrol-1.21-10.2.5.jar
 irons_jewelry-1.21.1-1.6.0.jar
 Jade-1.21.1-NeoForge-15.10.3.jar
@@ -97,6 +98,7 @@ refinedstorage-neoforge-2.0.0.jar
 refurbished_furniture-neoforge-1.21.1-1.0.20.jar
 relics-1.21.1-0.10.7.6.jar
 resourcefulconfig-neoforge-1.21-3.0.11.jar
+resourcefullib-neoforge-1.21-3.0.12.jar
 rhino-2101.2.7-build.81.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
 smoothchunk-1.21-4.1.jar

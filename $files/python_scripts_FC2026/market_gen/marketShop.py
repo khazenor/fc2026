@@ -67,6 +67,49 @@ categories = {
       }
     ]
   },
+  'handcrafted': {
+    nameKey: "Handcrafted Furniture Sheets and Cushions",
+    iconKey: "handcrafted:brown_cushion",
+    entryGroupsKey: [
+      { # handcrafted
+        productNumKey: 4,
+        itemsKey: [
+          "handcrafted:black_sheet",
+          "handcrafted:blue_sheet",
+          "handcrafted:brown_sheet",
+          "handcrafted:cyan_sheet",
+          "handcrafted:gray_sheet",
+          "handcrafted:green_sheet",
+          "handcrafted:light_blue_sheet",
+          "handcrafted:light_gray_sheet",
+          "handcrafted:lime_sheet",
+          "handcrafted:magenta_sheet",
+          "handcrafted:orange_sheet",
+          "handcrafted:pink_sheet",
+          "handcrafted:purple_sheet",
+          "handcrafted:red_sheet",
+          "handcrafted:white_sheet",
+          "handcrafted:yellow_sheet",
+          "handcrafted:black_cushion",
+          "handcrafted:blue_cushion",
+          "handcrafted:brown_cushion",
+          "handcrafted:cyan_cushion",
+          "handcrafted:gray_cushion",
+          "handcrafted:green_cushion",
+          "handcrafted:light_blue_cushion",
+          "handcrafted:light_gray_cushion",
+          "handcrafted:lime_cushion",
+          "handcrafted:magenta_cushion",
+          "handcrafted:orange_cushion",
+          "handcrafted:pink_cushion",
+          "handcrafted:purple_cushion",
+          "handcrafted:red_cushion",
+          "handcrafted:white_cushion",
+          "handcrafted:yellow_cushion" 
+        ]
+      }
+    ]
+  },
   floraCategoryKey: {
     nameKey: "Plants and Dyes",
     iconKey: "minecraft:poppy",

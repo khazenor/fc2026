@@ -169,3 +169,12 @@ I am Matan the Owl, an artist and collector of arts.  After I heard about the ad
 Hello! Harley the deer at your service! After hearing how my happy partner Matan is with his studio at the settlement, I can't wait to join in as well with my holiday decorations shop!  You see making arts and crafts is my hobby and I'm very happy to help other people getting into the holiday spirits with my crafts! I hope you'll be able to secure a building for me at the settlement!
 
 # Move in Skye
+
+# Handcrafting Furniture
+** Ren the Woodpecker **
+
+Handcrafted furniture can be decorated.  You can see Rigg for cushions and sheets.
+
+== MODPACK TUTORIAL ==
+
+Cushions and sheets can be used to decorate handcrafted furniture (e.g. sheets can be placed on tables and cushions can be put on couches)

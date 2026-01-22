@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "farmingForBlockheads.market.handcraftedFurnitureSheetsAndCushions"
+  },
+  "icon": {
+    "id": "handcrafted:brown_cushion"
+  },
+  "sortIndex": 2
+}

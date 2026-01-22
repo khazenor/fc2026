@@ -1672,8 +1672,8 @@
 		}
 		{
 			dependencies: [
-				"32A06EEE318AC659"
 				"6A694FC4A6083409"
+				"3AC5083E3D1BEDB0"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -2707,6 +2707,50 @@
 				type: "item"
 			}]
 			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"32A06EEE318AC659"
+				"14E4D983C6F318CD"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "handcrafted:dark_oak_fancy_bed"
+			}
+			id: "3AC5083E3D1BEDB0"
+			rewards: [{
+				count: 6
+				id: "5E2E0B875A00D040"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "749D9BA6447A803D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:couches)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "43CA63F697A89A98"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4AA19474BF87D4E9"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cushions)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "538AC2253D76795F"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:sheets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
 			y: -4.0d
 		}
 	]

@@ -1,0 +1,9 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:handcrafted",
+  "preset": "farming_crossing:kubejsmiles_ticket_1",
+  "result": {
+    "count": 4,
+    "item": "handcrafted:cyan_cushion"
+  }
+}
