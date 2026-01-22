@@ -1,0 +1,81 @@
+{
+  "Andre": [
+    "npc.dialogs.Andre_0",
+    "npc.dialogs.Andre_1"
+  ],
+  "Bernina": [
+    "npc.dialogs.Bernina_0",
+    "npc.dialogs.Bernina_1",
+    "npc.dialogs.Bernina_2",
+    "npc.dialogs.Bernina_3"
+  ],
+  "Elna": [
+    "npc.dialogs.Elna_0",
+    "npc.dialogs.Elna_1"
+  ],
+  "Fenny": [
+    "npc.dialogs.Fenny_0",
+    "npc.dialogs.Fenny_1"
+  ],
+  "Jess": [
+    "npc.dialogs.Jess_0",
+    "npc.dialogs.Jess_1",
+    "npc.dialogs.Jess_2",
+    "npc.dialogs.Jess_3"
+  ],
+  "Laly": [
+    "npc.dialogs.Laly_0",
+    "npc.dialogs.Laly_1"
+  ],
+  "Pamela": [
+    "npc.dialogs.Pamela_0",
+    "npc.dialogs.Pamela_1",
+    "npc.dialogs.Pamela_2",
+    "npc.dialogs.Pamela_3"
+  ],
+  "Ren": [
+    "npc.dialogs.Ren_0",
+    "npc.dialogs.Ren_1",
+    "npc.dialogs.Ren_2",
+    "npc.dialogs.Ren_3"
+  ],
+  "Sam": [
+    "npc.dialogs.Sam_0",
+    "npc.dialogs.Sam_1",
+    "npc.dialogs.Sam_2"
+  ],
+  "Yukkie": [
+    "npc.dialogs.Yukkie_0",
+    "npc.dialogs.Yukkie_1",
+    "npc.dialogs.Yukkie_2"
+  ],
+  "Rigg": [
+    "npc.dialogs.Rigg_0",
+    "npc.dialogs.Rigg_1"
+  ],
+  "Parlan": [
+    "npc.dialogs.Parlan_0",
+    "npc.dialogs.Parlan_1"
+  ],
+  "Langley": [
+    "npc.dialogs.Langley_0",
+    "npc.dialogs.Langley_1"
+  ],
+  "Skye": [
+    "npc.dialogs.Skye_0",
+    "npc.dialogs.Skye_1",
+    "npc.dialogs.Skye_2"
+  ],
+  "Pengu": [
+    "npc.dialogs.Pengu_0",
+    "npc.dialogs.Pengu_1"
+  ],
+  "Matan:": [
+    "npc.dialogs.Matan:_0",
+    "npc.dialogs.Matan:_1"
+  ],
+  "Harley:": [
+    "npc.dialogs.Harley:_0",
+    "npc.dialogs.Harley:_1"
+  ]
+}

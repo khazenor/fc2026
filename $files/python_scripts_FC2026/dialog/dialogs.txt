@@ -1,0 +1,78 @@
+Andre
+  - Hello kiddo, I hope you are doing well.
+  - Howdy, kiddo.  Searching for animal care supplies?  I’ve got 'em right here.
+
+Bernina
+  - Have you heard of the Elna fashion brand? My sister started that company!
+  - Now you look like a new hat would be just the thing to brighten up your day!
+  - 'Ello there %s
+  - ~~ Lovely hats for sell ~~
+
+Elna
+  - Hello %s! Care to try out some new looks today?
+  - It would be amazing if we can have coordinated outfits for all the people in the settlement!
+
+Fenny
+  - Fenny's Plushes! Fenny's Plushes!
+  - I just came out a new plushy design today!  I hope you'll look forward to it whenever it goes on sale!
+
+Jess
+  - The welcome center is getting more and more cozy everyday!  I love the updates you made to the place!
+  - Hope you are doing well %s
+  - Isn't the weather amazing today?
+  - Oh oh! I think I just thought of another angle to advertize the adventure's settlement package!
+
+Laly
+  - Oooo do you have any minerals? I would love to process some for you!
+  - Hi %s!
+
+Pamela
+  - Hello %s have you discovered any interesting dishes recently?
+  - I wonder if my children back home would enjoy pork carrot wontons? Oh hello %s, how have you been?
+  - The place you've build for me is amazing! I love being able to cook while on my holiday!
+  - Do you need any common cooking ingredients?  I have plenty for sale!
+
+Ren
+  - ... Hello
+  - Take good care of your tools
+  - ... Hello
+  - ... Hello
+
+Sam
+  - Do you need any fishing equipment?  I've got you covered!
+  - I've got to say it's very refreshing to sell sushi in this area
+  - Have you caught anything interesting while fishing lately?
+
+Yukkie
+  - Do you have any fruits on'ya?
+  - Best thing to have after a long day of adventur'n is FRUIT!
+  - FRUIT!! oh hai %s!
+
+Rigg
+  - You won't find this fox munching on miles tickets, no siree!
+  - Enchantment books, materials and collectible, I got it all right here!
+
+Parlan
+  - Hello %s I've got some new plumbing materials restocked today
+  - Need to repair your kitchen or bathroom? All my wares are of highest quality
+
+Langley
+  - Oh don't mind the smoke! I got everything under control!
+  - ... ... Oh hi %s, was deep in thought there haha
+
+Skye
+  - Hi %s, you got to check out these latest electronic releases!
+  - I think you're office station could use a upgrade!
+  - I just found a new supplier for amps, it's going to be very useful for our next Sky Penguins performance
+
+Pengu
+  - You should really check out Sky Penguins latest release Skye and I worked really hard on it.
+  - I wonder if we will be able to collab with Harley again soon?
+
+Matan:
+  - I've completed a new work today!  I hope you like to purchase a copy of it!
+  - Is there anything in my collection the piques your fancy?
+
+Harley:
+  - Come get some of these arts and crafts to spread some holiday cheer!
+  - I really should practice my drums some more

@@ -32,7 +32,7 @@ const NpcHelper = {
         )
       } else if (npcDialogDefs(npcName, playerName)[npcName]) {
         let dialog = ArrayJs.getRandomArrayElement(
-          npcDialogDefs(npcName, playerName)[npcName].dialogs
+          npcDialogDefs(npcName, playerName)[npcName]
         )
         player.tell(dialog)
       } else if (offerDefs) {
