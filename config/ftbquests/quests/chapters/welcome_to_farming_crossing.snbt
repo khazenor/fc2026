@@ -2656,5 +2656,58 @@
 			x: 7.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["32A06EEE318AC659"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"camerapture:camera_active": 0b
+				}
+				id: "camerapture:camera"
+			}
+			id: "6440EA925BDD070D"
+			rewards: [
+				{
+					id: "7139055BCA72CE12"
+					item: {
+						components: {
+							"camerapture:camera_active": 0b
+						}
+						count: 1
+						id: "camerapture:camera"
+					}
+					type: "item"
+				}
+				{
+					id: "2055F995061F6FCD"
+					item: {
+						components: {
+							"minecraft:container": [ ]
+						}
+						count: 1
+						id: "camerapture:album"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3EFD4316196AFDB9"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4FDC4AB1A1CFE1ED"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
 	]
 }

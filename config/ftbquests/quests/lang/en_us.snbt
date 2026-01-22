@@ -438,6 +438,21 @@
 	quest.63A866594B197D5F.title: "Special Completion"
 	quest.6400ACD187A54476.title: "Caught 2 Unique Fishes!"
 	quest.6427EF320B80E37D.title: "Caves Completion"
+	quest.6440EA925BDD070D.quest_desc: [
+		"- To start taking photos, right click with the camera with paper in your inventory"
+		""
+		"- after that, left click to take a photo"
+		""
+		"- scroll to zoom"
+		""
+		"- to place a photo shift right click a wall"
+		""
+		"- shift right click a photo to resize and configure (hold shift to shrink)"
+		""
+		"- shift right click an album to collect photos"
+	]
+	quest.6440EA925BDD070D.quest_subtitle: "Taking Photos with the Camera"
+	quest.6440EA925BDD070D.title: "Taking Photos"
 	quest.6481478DAA1C954B.title: "Flight Block"
 	quest.652E92C4C78931C0.quest_desc: [
 		"** Ren the Woodpecker **"

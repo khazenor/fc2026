@@ -187,3 +187,11 @@ you have closed the hatch the good will pop out after you open the hatch again.
 - When a fish bites, a moving target appears.
 - Right click again with the target as close to the center as possible.
 - The closer to the center, the higher chance you will actually catch the fish.
+
+# Taking Photos with the Camera
+- To start taking photos, right click with the camera with paper in your inventory
+- after that, left click to take a photo
+- scroll to zoom
+- to place a photo shift right click a wall
+- shift right click a photo to resize and configure (hold shift to shrink)
+- shift right click an album to collect photos

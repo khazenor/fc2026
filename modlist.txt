@@ -16,6 +16,7 @@ biomemusic-1.21-3.4.jar
 bookshelf-neoforge-1.21.1-21.1.80.jar
 botanypots-neoforge-1.21.1-21.1.41.jar
 BuildingWands-neoforge-MC1.21-2.11.jar
+Camerapture-1.10.8+mc1.21.1-neoforge.jar
 clientcrafting-1.21-1.8.jar
 cloth-config-15.0.140-neoforge.jar
 Clumps-neoforge-1.21.1-19.0.0.1.jar
