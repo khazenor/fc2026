@@ -9,6 +9,9 @@ const NpcPingu = {
       villagerItems: PinguItems.musicUpgrades,
       playerNum: RandHelper.randSellPrice(8, 32, 4)
     }, {
+      villagerItems: RandHelper.randomMineDayRandFromArr(PinguItems.skyPenguinDiscs, 1),
+      playerNum: RandHelper.randSellPrice(8, 32, 5)
+    }, {
       villagerItems: RandHelper.randomMineDayRandFromArr(PinguItems.onaulDiscs, 4),
       playerNum: RandHelper.randSellPrice(8, 32, 1)
     }, {

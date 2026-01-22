@@ -394,5 +394,41 @@
         "stream": true
       }
     ]
+  },
+  "sky_penguin_midnight_frankum": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "farming_crossing_records:records/sky_penguin_midnight_frankum",
+        "stream": true
+      }
+    ]
+  },
+  "sky_penguin_stargazing_frankum": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "farming_crossing_records:records/sky_penguin_stargazing_frankum",
+        "stream": true
+      }
+    ]
+  },
+  "sky_penguin_sunrise_frankum": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "farming_crossing_records:records/sky_penguin_sunrise_frankum",
+        "stream": true
+      }
+    ]
+  },
+  "sky_penguin_together_migfus20": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "farming_crossing_records:records/sky_penguin_together_migfus20",
+        "stream": true
+      }
+    ]
   }
 }

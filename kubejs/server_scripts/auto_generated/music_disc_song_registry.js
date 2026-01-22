@@ -43,4 +43,8 @@ ServerEvents.registry('jukebox_song', event => {
   event.create("oneul_watermelon_fizz").song("farming_crossing_records:oneul_watermelon_fizz", 75)
   event.create("oneul_weekend_blanket").song("farming_crossing_records:oneul_weekend_blanket", 123)
   event.create("oneul_winter_glow").song("farming_crossing_records:oneul_winter_glow", 83)
+  event.create("sky_penguin_midnight_frankum").song("farming_crossing_records:sky_penguin_midnight_frankum", 144)
+  event.create("sky_penguin_stargazing_frankum").song("farming_crossing_records:sky_penguin_stargazing_frankum", 120)
+  event.create("sky_penguin_sunrise_frankum").song("farming_crossing_records:sky_penguin_sunrise_frankum", 201)
+  event.create("sky_penguin_together_migfus20").song("farming_crossing_records:sky_penguin_together_migfus20", 225)
 })

@@ -90,12 +90,19 @@ const PinguItems = {
     "sophisticatedstorage:advanced_jukebox_upgrade",
     "sophisticatedbackpacks:advanced_jukebox_upgrade",
   ],
+  skyPenguinDiscs: [
+    'kubejs:sky_penguin_midnight_frankum',
+    'kubejs:sky_penguin_stargazing_frankum',
+    'kubejs:sky_penguin_sunrise_frankum',
+    'kubejs:sky_penguin_together_migfus20',
+  ],
   get allItems () {
     return this.minecraftDiscs.concat(
       this.otherDiscs,
       this.onaulDiscs,
       this.musicPlayers,
-      this.musicUpgrades
+      this.musicUpgrades,
+      this.skyPenguinDiscs
     )
   }
 }

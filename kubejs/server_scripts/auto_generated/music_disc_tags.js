@@ -45,7 +45,11 @@ ServerEvents.tags('item', event => {
       'kubejs:oneul_vanilla_milkshake', 
       'kubejs:oneul_watermelon_fizz', 
       'kubejs:oneul_weekend_blanket', 
-      'kubejs:oneul_winter_glow'
+      'kubejs:oneul_winter_glow', 
+      'kubejs:sky_penguin_midnight_frankum', 
+      'kubejs:sky_penguin_stargazing_frankum', 
+      'kubejs:sky_penguin_sunrise_frankum', 
+      'kubejs:sky_penguin_together_migfus20'
     ])
 
 })
