@@ -53,6 +53,7 @@ getittogetherdrops-neoforge-1.21.5-1.4.jar
 globalpacks-neoforge-1.21.1-21.0.6.jar
 handcrafted-neoforge-1.21.1-4.0.3.jar
 incontrol-1.21-10.2.5.jar
+iris-flywheel-compat-NeoForge-2.1.0.jar
 irons_jewelry-1.21.1-1.6.0.jar
 Jade-1.21.1-NeoForge-15.10.3.jar
 jei-1.21.1-neoforge-19.25.1.332.jar
