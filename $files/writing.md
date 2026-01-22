@@ -158,3 +158,14 @@ I'm Parlan the duck, I've been running my humble business for more than 10 years
 
 # Move in Langley
 Ello Ello!  I'm Langley the duck!  Researching is my passion and I love to spend as much time as I can experimenting with various solutions.  My dad said there seems to be a good amount of good experimentation material in the settlement. I would love to open a temp research facility in the settlement.  While I'm at it I might as well sell some extra lap equipment I have lying around.  Research ain't cheap!
+
+# Move in Fenny
+Hi~~~ I'm Fenny the fox! I'm recently started an apprenticeship with Bernina and Elna.  Working with them I am getting pretty confident with my ability to make plushies.  Bernina and Elna had already started working in the settlement and I'd love to join as well.  Feel free to drop by and check out my plushes whenever you are around!
+
+# Move in Matan
+I am Matan the Owl, an artist and collector of arts.  After I heard about the adventure settlement my partner Harley and I've been thinking about starting a studio there. If you are able to secure the building I would be very grateful.
+
+# Move in Harley
+Hello! Harley the deer at your service! After hearing how my happy partner Matan is with his studio at the settlement, I can't wait to join in as well with my holiday decorations shop!  You see making arts and crafts is my hobby and I'm very happy to help other people getting into the holiday spirits with my crafts! I hope you'll be able to secure a building for me at the settlement!
+
+# Move in Skye

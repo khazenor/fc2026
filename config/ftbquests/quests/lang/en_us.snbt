@@ -194,6 +194,7 @@
 	quest.2C8130F0E14958B4.title: "Move in Pamela"
 	quest.2D21AAD58999457C.title: "Collected 20 Unique Minerals!"
 	quest.2D45906B062171D6.title: "Vanilla Completion"
+	quest.2D5FB33032B2E67B.quest_desc: ["I am Matan the Owl, an artist and collector of arts.  After I heard about the adventure settlement I've been thinking about starting a studio there. If you are able to secure the building I would be very grateful."]
 	quest.2D5FB33032B2E67B.title: "Move in Matan"
 	quest.2D7FBD31BB35A035.title: "Caught 10 Unique Fishes!"
 	quest.2DB621BCC10A0C1C.title: "Modded Foods Completion"
@@ -385,6 +386,7 @@
 	quest.53A97CAB5255B2F3.title: "Using the Cooking Caldron"
 	quest.55174CBE09CAF168.title: "Locate Skye"
 	quest.55310AAA5E4452D6.title: "Locate Harley"
+	quest.558A1A31A21872DB.quest_desc: ["Hello! Harley the deer at your service! After hearing how my happy partner Matan is with his studio at the settlement, I can't wait to join in as well with my holiday decorations shop!  You see making arts and crafts is my hobby and I'm very happy to help other people getting into the holiday spirits with my crafts! I hope you'll be able to secure a building for me at the settlement!"]
 	quest.558A1A31A21872DB.title: "Move in Harley"
 	quest.5655FAEE335E8842.title: "Biome Foods"
 	quest.56AC6181113D8B4E.quest_desc: [
@@ -447,6 +449,7 @@
 	quest.6606553B4C31D667.title: "Collected 2 Unique Flora!"
 	quest.662508CD3479F7E7.title: "Invite Sam"
 	quest.666D55906F99FC33.title: "Flora Compendium Completion!"
+	quest.66DC33622164FCCC.quest_desc: ["Hi~~~ I'm Fenny the fox! I'm recently started an apprenticeship with Bernina and Elna.  Working with them I am getting pretty confident with my ability to make plushies.  Bernina and Elna had already started working in the settlement and I'd love to join as well.  Feel free to drop by and check out my plushes whenever you are around!"]
 	quest.66DC33622164FCCC.title: "Move in Fenny"
 	quest.66E0ADE0CB1FB995.title: "Collected 5 Unique Flora!"
 	quest.689463295963E36C.title: "Locate Parlan"
