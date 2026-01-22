@@ -24,7 +24,15 @@
 	quest.0630CE07E50C1851.title: "Forming Cheese"
 	quest.068C214AF95CE24F.title: "Creative Wireless Grid"
 	quest.081A08FAF0E2C637.title: "Diamond Fishing Rod Upgrade"
-	quest.0837A544E05704BC.quest_desc: ["Observe 10 unique animals to move in Andre"]
+	quest.0837A544E05704BC.quest_desc: [
+		"** Andre the Dog **"
+		""
+		"Have you been observing the animals human?  If you are ready I'll love to start a small garden and farm in the settlement."
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"Observe 10 unique animals to move in Andre"
+	]
 	quest.0837A544E05704BC.title: "Move in Andre"
 	quest.09AC0621E9289FEB.title: "Cooked 5 Unique Dishes!"
 	quest.0A7D67D49D0C740B.title: "Biome Allium and Tulips"
@@ -105,7 +113,15 @@
 	quest.1B95DAE862D857D1.title: "Snowy Completion"
 	quest.1D5D4866122C83D2.title: "Observed 2 Unique Animals!"
 	quest.1D9D9EDF46B00402.title: "Fish up a Loot Crate"
-	quest.1EDF709B0F6F410A.quest_desc: ["Collect 10 unique flora to move in Yukkie"]
+	quest.1EDF709B0F6F410A.quest_desc: [
+		"** Yukkie the Bat **"
+		""
+		"Sweet! You have been finding plants!  Make sure you save some fruits for me!  I'm going to set up an adventurer's stand in the settlement so I can get all the fruit people can offer me!"
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"Collect 10 unique flora to move in Yukkie"
+	]
 	quest.1EDF709B0F6F410A.title: "Move in Yukkie"
 	quest.1FA0561DCA4884D6.title: "Invite Pingu"
 	quest.2122E8FE274B020A.title: "Special Completion"
@@ -127,6 +143,7 @@
 	quest.22C8BB99ECF5AB13.title: "Move in Pingu"
 	quest.237FE170DCEF0E64.title: "Collected 10 Unique Flora!"
 	quest.23AAF4EDBDAF772A.title: "Invite Elna"
+	quest.244EB51B41EAB417.quest_desc: ["'Ello, 'ello! Nice to make your aquaintance. My name is Bernina the Shrew. Jess told me you might be interested in buying some hats, and well, I happen to be selling 'em.  I would love to start another hat shop near the settlement."]
 	quest.244EB51B41EAB417.title: "Move in Bernina"
 	quest.24A47A72A30E2BF1.title: "Invite Andre"
 	quest.25599488DBA4BBEC.title: "Gold Fishing Rod Upgrade Kit"
@@ -165,7 +182,15 @@
 		"- right click with empty bucket to fill bucket"
 	]
 	quest.2C42B4AF446B4BD9.title: "Cooking with a Pot"
-	quest.2C8130F0E14958B4.quest_desc: ["Cook 10 unique dishes to invite Pamela!"]
+	quest.2C8130F0E14958B4.quest_desc: [
+		"** Pamela the Rabbit **"
+		""
+		"Looks like you been cooking great meals.  I'd love to setup a restaurant supplies shop in the settlement!  Maybe even cook some nice meals while I'm there!"
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"Cook 10 unique dishes to invite Pamela!"
+	]
 	quest.2C8130F0E14958B4.title: "Move in Pamela"
 	quest.2D21AAD58999457C.title: "Collected 20 Unique Minerals!"
 	quest.2D45906B062171D6.title: "Vanilla Completion"
@@ -278,6 +303,7 @@
 	quest.451F16432EFAC417.title: "Making Monster Parts Last"
 	quest.46394CBBF5F1EE7C.title: "Vanilla Blocks Completion"
 	quest.47254C7C6ACB15E3.title: "Biome Ground Covers"
+	quest.4753B66B830D109F.quest_desc: ["I'm Parlan the duck, I've been running my humble business for more than 10 years.  If you ever need plumbing supplies you know I got what you need.  I would love to start another store in the settlement.  My daughter Langley and I have been itching to visit another area lately."]
 	quest.4753B66B830D109F.title: "Move in Parlan"
 	quest.475A0548B2D4CCF7.title: "Forest Completion"
 	quest.475B5DD94020E4C0.title: "Collected 10 Unique Minerals!"
@@ -336,7 +362,15 @@
 	]
 	quest.52581AC8E4D24289.title: "Menu"
 	quest.5282566E7826B996.title: "Invite Matan"
-	quest.5311686C2B4B0C71.quest_desc: ["Collect 10 unique minerals to move in Laly"]
+	quest.5311686C2B4B0C71.quest_desc: [
+		"** Laly the Meerkat **"
+		""
+		"Ooooh you have been finding exquisite specimens I would love to start a new branch of the Oyster Creek Museum at the settlement to showcase some local gems!"
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"Collect 10 unique minerals to move in Laly"
+	]
 	quest.5311686C2B4B0C71.title: "Move in Laly"
 	quest.53758DAA16D2F0A1.title: "Locate Yukkie"
 	quest.5385E5667B17FB0D.title: "Caking Completion"
@@ -403,6 +437,11 @@
 	quest.6400ACD187A54476.title: "Caught 2 Unique Fishes!"
 	quest.6427EF320B80E37D.title: "Caves Completion"
 	quest.6481478DAA1C954B.title: "Flight Block"
+	quest.652E92C4C78931C0.quest_desc: [
+		"** Ren the Woodpecker **"
+		""
+		"You have made very good furniture.  I can set up a carpenter and blacksmith shop in the Adventurer's settlement to you and other adventurers."
+	]
 	quest.652E92C4C78931C0.title: "Move in Ren"
 	quest.65BA9D1B2DCE2F7E.title: "Collected 80 Unique Flora!"
 	quest.6606553B4C31D667.title: "Collected 2 Unique Flora!"
@@ -453,6 +492,7 @@
 		"-Khazenor"
 	]
 	quest.7041BB13DE704850.title: "Village Capacity Permit"
+	quest.712B913703C63ED7.quest_desc: ["Hey there! I'm Elna the Shrew. My older sis, Berni, told me about you. Said you were into the fashion scene. I'm actually starting my own fashion brand, and would totally be down to open a shop in the settlement, if you're the real deal."]
 	quest.712B913703C63ED7.title: "Move in Elna"
 	quest.71C1250C2004016A.title: "Iron Fishing Rod Upgrade"
 	quest.71DD63453348DBE8.quest_desc: [
@@ -483,6 +523,7 @@
 	quest.79FB2F7613DF7D19.title: "Invite Bernina"
 	quest.7DBED7DA198DC1F2.title: "Desert Completion"
 	quest.7E65A136C4C4CCCE.title: "Barrel Brewing Completion"
+	quest.7EAEF8A92CA83B75.quest_desc: ["Ello Ello!  I'm Langley the duck!  Researching is my passion and I love to spend as much time as I can experimenting with various solutions.  My dad said there seems to be a good amount of good experimentation material in the settlement. I would love to open a temp research facility in the settlement.  While I'm at it I might as well sell some extra lap equipment I have lying around.  Research ain't cheap!"]
 	quest.7EAEF8A92CA83B75.title: "Move in Langley"
 	quest.7EBEA8535B48079B.title: "Collected 5 Unique Minerals!"
 	quest.7EF0A60D2381B72D.quest_desc: [

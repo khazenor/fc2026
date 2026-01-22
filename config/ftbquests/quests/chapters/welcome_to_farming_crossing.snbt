@@ -2030,7 +2030,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7041BB13DE704850"]
+			dependencies: ["712B913703C63ED7"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:fenny"

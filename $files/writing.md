@@ -106,4 +106,55 @@ I see that you're fishing adventure is coming along nicely. Once you have caught
 - Catch 10 unique fishes to invite Sam to your area!
 - You can right click the fish tank with Cod, Salmon, and Pufferfish buckets to fill the tanks with fish!
 
-# Move in 
+# Move in Ren
+** Ren the Woodpecker **
+
+You have made very good furniture.  I can set up a carpenter and blacksmith shop in the Adventurer's settlement to you and other adventurers.
+
+# Move in Yukkie
+** Yukkie the Bat **
+
+Sweet! You have been finding plants!  Make sure you save some fruits for me!  I'm going to set up an adventurer's stand in the settlement so I can get all the fruit people can offer me!
+
+== MODPACK TUTORIAL ==
+
+Collect 10 unique flora to move in Yukkie
+
+# Move in Andre
+** Andre the Dog **
+
+Have you been observing the animals human?  If you are ready I'll love to start a small garden and farm in the settlement.
+
+== MODPACK TUTORIAL ==
+
+Observe 10 unique animals to move in Andre
+
+# Move in Pamela
+** Pamela the Rabbit **
+
+Looks like you been cooking great meals.  I'd love to setup a restaurant supplies shop in the settlement!  Maybe even cook some nice meals while I'm there!
+
+== MODPACK TUTORIAL ==
+
+Cook 10 unique dishes to invite Pamela!
+
+# Move in Laly
+** Laly the Meerkat **
+
+Ooooh you have been finding exquisite specimens I would love to start a new branch of the Oyster Creek Museum at the settlement to showcase some local gems!
+
+== MODPACK TUTORIAL ==
+
+Collect 10 unique minerals to move in Laly
+
+# Move in Bernina
+'Ello, 'ello! Nice to make your aquaintance. My name is Bernina the Shrew. Jess told me you might be interested in buying some hats, and well, I happen to be selling 'em.  I would love to start another hat shop near the settlement.
+
+# Move in Elna
+Hey there! I'm Elna the Shrew. My older sis, Berni, told me about you. Said you were into the fashion scene. I'm actually starting my own fashion brand, and would totally be down to open a shop in the settlement, if you're the real deal.
+
+# Move in Parlan
+I'm Parlan the duck, I've been running my humble business for more than 10 years.  If you ever need plumbing supplies you know I got what you need.  I would love to start another store in the settlement.  My daughter Langley and I have been itching to visit another area lately.
+
+# Move in Langley
+Ello Ello!  I'm Langley the duck!  Researching is my passion and I love to spend as much time as I can experimenting with various solutions.  My dad said there seems to be a good amount of good experimentation material in the settlement. I would love to open a temp research facility in the settlement.  While I'm at it I might as well sell some extra lap equipment I have lying around.  Research ain't cheap!
