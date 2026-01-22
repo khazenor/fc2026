@@ -1016,26 +1016,18 @@
 					type: "item"
 				}
 				{
-					id: "109F3DB9FC1F9FBF"
-					item: {
-						count: 1
-						id: "moa_decor_electronics:reloj_despertador_naranja"
-					}
-					type: "item"
-				}
-				{
-					id: "17F049A12EF9EDEC"
-					item: {
-						count: 1
-						id: "moa_decor_electronics:teclado_antiguo"
-					}
-					type: "item"
-				}
-				{
 					id: "3ABC9E4073F109CF"
 					item: {
 						count: 1
 						id: "furniture:cash_register"
+					}
+					type: "item"
+				}
+				{
+					id: "42C08B9FFADCD7E1"
+					item: {
+						count: 1
+						id: "moa_cookery:cafetera"
 					}
 					type: "item"
 				}
@@ -1361,12 +1353,54 @@
 				id: "kubejs:pamela"
 			}
 			id: "2C8130F0E14958B4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4D69B65B665C2534"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D69B65B665C2534"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "7E98F5C0775DF320"
+					item: {
+						count: 1
+						id: "moa_cookery:soporte_delantal"
+					}
+					type: "item"
+				}
+				{
+					id: "0DF4B2E72741D2EB"
+					item: {
+						count: 1
+						id: "moa_cookery:soporte_instrumentos"
+					}
+					type: "item"
+				}
+				{
+					id: "4B33684BBB1A13F5"
+					item: {
+						count: 1
+						id: "moa_cookery:estufa"
+					}
+					type: "item"
+				}
+				{
+					id: "44F74DBBB81BD81C"
+					item: {
+						count: 1
+						id: "moa_cookery:refrigerador"
+					}
+					type: "item"
+				}
+				{
+					id: "4658284015F7C135"
+					item: {
+						count: 1
+						id: "moa_cookery:pay_manzana"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "64BCE85D79C8E124"
 				type: "checkmark"
@@ -1405,12 +1439,46 @@
 				id: "kubejs:yukkie"
 			}
 			id: "1EDF709B0F6F410A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4AE56D21A2903EF7"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AE56D21A2903EF7"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "0BEC92A973AF9990"
+					item: {
+						count: 1
+						id: "moa_cookery:manzana_dorada_cortada"
+					}
+					type: "item"
+				}
+				{
+					id: "04F1E26B8911EAAD"
+					item: {
+						count: 1
+						id: "moa_cookery:manzana"
+					}
+					type: "item"
+				}
+				{
+					id: "2B4AEA2175242BFE"
+					item: {
+						count: 1
+						id: "moa_cookery:sandia"
+					}
+					type: "item"
+				}
+				{
+					id: "0472457B2139E88A"
+					item: {
+						count: 1
+						id: "moa_cookery:calabaza"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "64083F8BBF9CEA39"
 				type: "checkmark"
@@ -1428,12 +1496,54 @@
 				id: "kubejs:andre"
 			}
 			id: "0837A544E05704BC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "40EE2B4CE1167B6E"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40EE2B4CE1167B6E"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "440387FB8BCC44A7"
+					item: {
+						count: 1
+						id: "moa_cookery:botellas_leche"
+					}
+					type: "item"
+				}
+				{
+					id: "61713313C7A194B9"
+					item: {
+						count: 1
+						id: "moa_cookery:cesta_picnic"
+					}
+					type: "item"
+				}
+				{
+					id: "091C5B05B640A2D1"
+					item: {
+						count: 1
+						id: "moa_garden:regadera_jardin"
+					}
+					type: "item"
+				}
+				{
+					id: "7A3D7E96BFB952B9"
+					item: {
+						count: 1
+						id: "moa_garden:apiario"
+					}
+					type: "item"
+				}
+				{
+					id: "1729DDDE5706A2BB"
+					item: {
+						count: 1
+						id: "moa_toys:p_gallina"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "79243228092AB346"
 				type: "checkmark"
@@ -1451,12 +1561,47 @@
 				id: "kubejs:laly"
 			}
 			id: "5311686C2B4B0C71"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57ACECA3E6DE3506"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57ACECA3E6DE3506"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "47445500DAF7FF90"
+					item: {
+						count: 1
+						id: "betterarcheology:archeology_table"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "38D0C9BE3FFB664E"
+					item: {
+						count: 1
+						id: "create:placard"
+					}
+					type: "item"
+				}
+				{
+					id: "357EF5847529FA29"
+					item: {
+						count: 1
+						id: "moa_science:telescopio"
+					}
+					type: "item"
+				}
+				{
+					id: "0CDC79B1AD6E7D61"
+					item: {
+						count: 1
+						id: "furniture:display"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "79FFB63DB33B6DB9"
 				type: "checkmark"
@@ -1535,12 +1680,38 @@
 				id: "kubejs:ren"
 			}
 			id: "652E92C4C78931C0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3BBCD0B867F7E693"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BBCD0B867F7E693"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "6C6EB9686DD38221"
+					item: {
+						count: 1
+						id: "moa_garden:hacha_clavada"
+					}
+					type: "item"
+				}
+				{
+					id: "423AF187E2FA80C4"
+					item: {
+						count: 1
+						id: "moa_cookery:sal_pimienta"
+					}
+					type: "item"
+				}
+				{
+					id: "2F182330534BD541"
+					item: {
+						count: 1
+						id: "moa_cookery:lata_atun"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4EB4267EC0C31BAE"
 				type: "checkmark"
@@ -1555,12 +1726,38 @@
 				id: "kubejs:bernina"
 			}
 			id: "244EB51B41EAB417"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4F71C88FA42CEF59"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F71C88FA42CEF59"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "6F81FD306E7DC496"
+					item: {
+						count: 1
+						id: "moa_bath:c_toallas_cafes"
+					}
+					type: "item"
+				}
+				{
+					id: "35DDF73B3F797CA7"
+					item: {
+						count: 1
+						id: "moa_art:maquina_coser"
+					}
+					type: "item"
+				}
+				{
+					id: "767686B780EB3D8B"
+					item: {
+						count: 1
+						id: "moa_art:hilo_rojo"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1578,12 +1775,46 @@
 				id: "kubejs:elna"
 			}
 			id: "712B913703C63ED7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2CEE84C399AF31A5"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CEE84C399AF31A5"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "7C503BDF9F10C3F1"
+					item: {
+						count: 1
+						id: "moa_bath:c_toallas_azul_claras"
+					}
+					type: "item"
+				}
+				{
+					id: "69C1910D4E39B606"
+					item: {
+						count: 1
+						id: "moa_art:maniqui"
+					}
+					type: "item"
+				}
+				{
+					id: "56557B47E814C76B"
+					item: {
+						count: 1
+						id: "moa_bath:tabla_planchar"
+					}
+					type: "item"
+				}
+				{
+					id: "76105D373C311F67"
+					item: {
+						count: 1
+						id: "moa_bath:plancha"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1601,12 +1832,38 @@
 				id: "kubejs:parlan"
 			}
 			id: "4753B66B830D109F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0293511AC9719527"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0293511AC9719527"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "1078A86944A8A47D"
+					item: {
+						count: 1
+						id: "moa_science:documentos"
+					}
+					type: "item"
+				}
+				{
+					id: "5038BA08FCF8F48A"
+					item: {
+						count: 1
+						id: "furniture:coffer"
+					}
+					type: "item"
+				}
+				{
+					id: "75C51D9DC6013FAE"
+					item: {
+						count: 1
+						id: "furniture:blueprints"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1624,12 +1881,38 @@
 				id: "kubejs:langley"
 			}
 			id: "7EAEF8A92CA83B75"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "726269EF0BA098F1"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "726269EF0BA098F1"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "6B1AC572D3068F78"
+					item: {
+						count: 1
+						id: "moa_science:microscopio"
+					}
+					type: "item"
+				}
+				{
+					id: "2F50245E4C0B36DA"
+					item: {
+						count: 1
+						id: "moa_cookery:fideos"
+					}
+					type: "item"
+				}
+				{
+					id: "3DAD9A007F93E614"
+					item: {
+						count: 1
+						id: "moa_cookery:frasco_galletas"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1647,12 +1930,38 @@
 				id: "kubejs:skye"
 			}
 			id: "2EEE42B677C05AF4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "20501ECA1E44AE80"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20501ECA1E44AE80"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "11801CFA90203575"
+					item: {
+						count: 1
+						id: "moa_science:lupa"
+					}
+					type: "item"
+				}
+				{
+					id: "402AED1D183C1F2F"
+					item: {
+						count: 1
+						id: "moa_decor_electronics:pc_antigua"
+					}
+					type: "item"
+				}
+				{
+					id: "7D0EC6F917E78DE7"
+					item: {
+						count: 1
+						id: "moa_science:libros"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1670,12 +1979,46 @@
 				id: "kubejs:matan"
 			}
 			id: "2D5FB33032B2E67B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "15480E434453AD87"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15480E434453AD87"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "3709C0D6B330A8D3"
+					item: {
+						count: 1
+						id: "moa_science:globo_terraqueo"
+					}
+					type: "item"
+				}
+				{
+					id: "37433E1F51E6BD2A"
+					item: {
+						count: 1
+						id: "moa_art:caballete"
+					}
+					type: "item"
+				}
+				{
+					id: "683918B2C46C0730"
+					item: {
+						count: 1
+						id: "furniture:boat_in_a_jar"
+					}
+					type: "item"
+				}
+				{
+					id: "5A13AD760E6D4C41"
+					item: {
+						count: 1
+						id: "moa_science:libro_tintero"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1693,12 +2036,46 @@
 				id: "kubejs:fenny"
 			}
 			id: "66DC33622164FCCC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "66DD6585A925ECA7"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66DD6585A925ECA7"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "466984355E94E701"
+					item: {
+						count: 1
+						id: "moa_toys:p_conejo_dorado"
+					}
+					type: "item"
+				}
+				{
+					id: "0856C104AF67A78A"
+					item: {
+						count: 1
+						id: "moa_art:tijeras"
+					}
+					type: "item"
+				}
+				{
+					id: "2F5C505FB699066C"
+					item: {
+						count: 1
+						id: "moa_toys:p_cab_negro_cop"
+					}
+					type: "item"
+				}
+				{
+					id: "5EDDF98A03F3122E"
+					item: {
+						count: 1
+						id: "furniture:sewing_kit"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1749,12 +2126,47 @@
 				id: "kubejs:harley"
 			}
 			id: "558A1A31A21872DB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "24E767130EBFC895"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24E767130EBFC895"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "54A03DB99912A3CC"
+					item: {
+						count: 1
+						id: "moa_lights:guirnalda_luz"
+					}
+					type: "item"
+				}
+				{
+					id: "713ADB1180C83C3A"
+					item: {
+						count: 1
+						id: "moa_garden:fbl_anflorcha"
+					}
+					type: "item"
+				}
+				{
+					id: "5FAD3527E85594DF"
+					item: {
+						count: 1
+						id: "moa_garden:fbl_lirio_valle"
+					}
+					type: "item"
+				}
+				{
+					id: "173D9C44C5E33353"
+					item: {
+						count: 1
+						id: "moa_garden:fbl_allium"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -2202,12 +2614,38 @@
 				id: "kubejs:pingu"
 			}
 			id: "22C8BB99ECF5AB13"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6FDE54107E1F6EAA"
-				table_id: 8222570253584073542L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FDE54107E1F6EAA"
+					table_id: 8222570253584073542L
+					type: "random"
+				}
+				{
+					id: "323844C04AFC3050"
+					item: {
+						count: 1
+						id: "moa_art:fonografo"
+					}
+					type: "item"
+				}
+				{
+					id: "6610930E42C397E3"
+					item: {
+						count: 1
+						id: "moa_art:maquina_discos"
+					}
+					type: "item"
+				}
+				{
+					id: "1A9AD66AD1F8FE75"
+					item: {
+						count: 1
+						id: "moa_science:pergaminos"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 3L
