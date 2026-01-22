@@ -1954,10 +1954,18 @@
 					type: "item"
 				}
 				{
-					id: "7D0EC6F917E78DE7"
+					id: "24BFC460C238F35B"
 					item: {
 						count: 1
-						id: "moa_science:libros"
+						id: "moa_art:ge_roja"
+					}
+					type: "item"
+				}
+				{
+					id: "70F5A54C8B824CD7"
+					item: {
+						count: 1
+						id: "moa_art:amplificador"
 					}
 					type: "item"
 				}
@@ -2638,10 +2646,18 @@
 					type: "item"
 				}
 				{
-					id: "1A9AD66AD1F8FE75"
+					id: "162F8AEB504E767D"
 					item: {
 						count: 1
-						id: "moa_science:pergaminos"
+						id: "moa_art:teclado_musical"
+					}
+					type: "item"
+				}
+				{
+					id: "6A9E7D767B52F4CC"
+					item: {
+						count: 1
+						id: "moa_art:amplificador"
 					}
 					type: "item"
 				}
