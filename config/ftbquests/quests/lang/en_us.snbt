@@ -114,6 +114,12 @@
 		"- Right click again with the target as close to the center as possible."
 		""
 		"- The closer to the center, the higher chance you will actually catch the fish."
+		""
+		"== Advance Pickup Upgrade =="
+		""
+		"- If the Advance pickup upgrade can be put in the back pack to allow for it to pick up items for you"
+		""
+		"- If you set the setting to \"match inventory items\" it will automatically pick up any items matching its contents"
 	]
 	quest.1B6B73275C612510.title: "Catching Fishes"
 	quest.1B95DAE862D857D1.title: "Snowy Completion"
@@ -165,6 +171,12 @@
 		"** Your phone rings **"
 		""
 		"Hi, hi! I'm Laly, Laly the Meerkat! I'm a geologist who loves caving, and a curator of the Oyster Creek Museum's gems and minerals exhibit. I spend A LOT of time underground. It's my happy place. But lately I haven't been able to get out in the field as much as I'd like, since work at the museum has been picking up. I was sooo jealous when Jess told me where she sent you. Lucky you! Turns out, the land is an absolute treasure trove for gems. Since you'll be finding a ton of gems while you mine, you wouldn't mind sending me some specimens for science, right? I can't wait to see what you find!"
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"- If the Advance pickup upgrade can be put in the back pack to allow for it to pick up items for you"
+		""
+		"- If you set the setting to \"match inventory items\" it will automatically pick up any items matching its contents"
 	]
 	quest.2C1B93F1A534E681.title: "Mining Minerals"
 	quest.2C347959EBCF675E.quest_desc: [
@@ -368,6 +380,12 @@
 		"** Your phone rings **"
 		""
 		"I LOVE FRUITS! There are so many fruit trees here! Oh, I'm Yukkie the Bat, by the way. You're an adventurer too?  Nice to meet you! The world is my orchard. It can be yours too. Keep your eyes peeled, and you're bound to find nature's bounty on every branch and bough. Once you pick one - you'll be hooked! As for me, I'm happy just keeping them all for myself. Ha!"
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"- If the Advance pickup upgrade can be put in the back pack to allow for it to pick up items for you"
+		""
+		"- If you set the setting to \"match inventory items\" it will automatically pick up any items matching its contents"
 	]
 	quest.4F114B795F9ABFD0.title: "Collecting Flora"
 	quest.4FA08F2A855CB462.title: "Observed 5 Unique Animals!"
