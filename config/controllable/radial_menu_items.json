@@ -22,5 +22,21 @@
   {
     "key": "key.screenshot",
     "color": "WHITE"
+  },
+  {
+    "key": "gui.xaero_open_map.custom",
+    "color": "DARK_BLUE"
+  },
+  {
+    "key": "iris.keybind.toggleShaders.custom",
+    "color": "DARK_GREEN"
+  },
+  {
+    "key": "key.effortlessbuilding.mode.desc.custom",
+    "color": "DARK_PURPLE"
+  },
+  {
+    "key": "key.toolbelt.open.custom",
+    "color": "DARK_GRAY"
   }
 ]
