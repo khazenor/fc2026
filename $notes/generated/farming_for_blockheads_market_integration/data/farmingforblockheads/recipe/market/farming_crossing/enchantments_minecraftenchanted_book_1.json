@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:bane_of_arthropods": 5
+          "double_axes:seismic_shift": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.bane_of_arthropods\"}, {\"text\": \" 5\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.double_axes.seismic_shift\"}]"
     }
   }
 }

@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:aqua_affinity": 1
+          "botanypots:idle_hands": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.aqua_affinity\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.botanypots.idle_hands\"}]"
     }
   }
 }

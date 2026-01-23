@@ -309,6 +309,14 @@ categories = {
 }
 
 enchantments = {
+  'botanypots:idle_hands': 1,
+  'double_axes:seismic_shift': 1,
+  "betterarcheology:penetrating_strike": 1,
+  "betterarcheology:soaring_winds": 1,
+  "betterarcheology:tunneling": 1,
+  "botanypots:idle_hands": 1,
+  "create:capacity": 3,
+  "create:potato_recovery": 3,
   "minecraft:aqua_affinity": 1,
   "minecraft:bane_of_arthropods": 5,
   "minecraft:binding_curse": 1,
@@ -351,10 +359,6 @@ enchantments = {
   "minecraft:unbreaking": 3,
   "minecraft:vanishing_curse": 1,
   "minecraft:wind_burst": 3,
-  "betterarcheology:penetrating_strike": 1,
-  "betterarcheology:soaring_winds": 1,
-  "betterarcheology:tunneling": 1,
-  "botanypots:idle_hands": 1,
-  "create:capacity": 3,
-  "create:potato_recovery": 3
+  "simplytools:power_of_the_depth": 3,
+  "utilitix:bell_range": 3,
 }

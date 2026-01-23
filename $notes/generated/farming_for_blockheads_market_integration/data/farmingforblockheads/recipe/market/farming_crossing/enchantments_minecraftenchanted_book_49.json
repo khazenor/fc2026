@@ -1,17 +1,17 @@
 {
   "type": "farmingforblockheads:market",
   "category": "farmingforblockheads:enchantments",
-  "preset": "farming_crossing:kubejsmiles_ticket_2",
+  "preset": "farming_crossing:kubejsmiles_ticket_4",
   "result": {
     "count": 1,
     "item": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:impaling": 1
+          "minecraft:fire_protection": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.impaling\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.fire_protection\"}]"
     }
   }
 }

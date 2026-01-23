@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:fire_protection": 1
+          "minecraft:efficiency": 2
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.fire_protection\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.efficiency\"}, {\"text\": \" 2\"}]"
     }
   }
 }

@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:swift_sneak": 2
+          "minecraft:smite": 4
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.swift_sneak\"}, {\"text\": \" 2\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.smite\"}, {\"text\": \" 4\"}]"
     }
   }
 }

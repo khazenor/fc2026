@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:lure": 2
+          "minecraft:knockback": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.lure\"}, {\"text\": \" 2\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.knockback\"}]"
     }
   }
 }

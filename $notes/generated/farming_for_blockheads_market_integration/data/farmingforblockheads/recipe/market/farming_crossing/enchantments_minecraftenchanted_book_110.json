@@ -1,17 +1,17 @@
 {
   "type": "farmingforblockheads:market",
   "category": "farmingforblockheads:enchantments",
-  "preset": "farming_crossing:kubejsmiles_ticket_16",
+  "preset": "farming_crossing:kubejsmiles_ticket_2",
   "result": {
     "count": 1,
     "item": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:sweeping_edge": 2
+          "minecraft:sharpness": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.sweeping_edge\"}, {\"text\": \" 2\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.sharpness\"}]"
     }
   }
 }

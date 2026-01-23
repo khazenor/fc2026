@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "create:potato_recovery": 3
+          "minecraft:vanishing_curse": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.create.potato_recovery\"}, {\"text\": \" 3\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.vanishing_curse\"}]"
     }
   }
 }

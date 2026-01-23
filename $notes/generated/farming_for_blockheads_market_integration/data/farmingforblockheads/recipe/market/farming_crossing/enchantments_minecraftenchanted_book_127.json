@@ -1,17 +1,17 @@
 {
   "type": "farmingforblockheads:market",
   "category": "farmingforblockheads:enchantments",
-  "preset": "farming_crossing:kubejsmiles_ticket_32",
+  "preset": "farming_crossing:kubejsmiles_ticket_16",
   "result": {
     "count": 1,
     "item": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "betterarcheology:tunneling": 1
+          "minecraft:thorns": 2
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.betterarcheology.tunneling\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.thorns\"}, {\"text\": \" 2\"}]"
     }
   }
 }

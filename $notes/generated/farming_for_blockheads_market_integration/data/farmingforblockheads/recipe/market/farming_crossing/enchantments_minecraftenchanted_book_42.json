@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:fortune": 1
+          "minecraft:feather_falling": 2
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.fortune\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.feather_falling\"}, {\"text\": \" 2\"}]"
     }
   }
 }

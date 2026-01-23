@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:infinity": 1
+          "minecraft:flame": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.infinity\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.flame\"}]"
     }
   }
 }

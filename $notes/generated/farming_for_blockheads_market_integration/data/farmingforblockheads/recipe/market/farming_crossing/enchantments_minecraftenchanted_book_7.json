@@ -1,17 +1,17 @@
 {
   "type": "farmingforblockheads:market",
   "category": "farmingforblockheads:enchantments",
-  "preset": "farming_crossing:kubejsmiles_ticket_32",
+  "preset": "farming_crossing:kubejsmiles_ticket_8",
   "result": {
     "count": 1,
     "item": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:blast_protection": 4
+          "create:capacity": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.blast_protection\"}, {\"text\": \" 4\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.create.capacity\"}]"
     }
   }
 }

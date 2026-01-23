@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:knockback": 2
+          "minecraft:fortune": 3
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.knockback\"}, {\"text\": \" 2\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.fortune\"}, {\"text\": \" 3\"}]"
     }
   }
 }

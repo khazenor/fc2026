@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:sharpness": 4
+          "minecraft:punch": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.sharpness\"}, {\"text\": \" 4\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.punch\"}]"
     }
   }
 }

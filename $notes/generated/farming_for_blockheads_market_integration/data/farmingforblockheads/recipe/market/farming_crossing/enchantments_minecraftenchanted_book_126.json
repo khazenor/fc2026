@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "betterarcheology:soaring_winds": 1
+          "minecraft:thorns": 3
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.betterarcheology.soaring_winds\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.thorns\"}, {\"text\": \" 3\"}]"
     }
   }
 }

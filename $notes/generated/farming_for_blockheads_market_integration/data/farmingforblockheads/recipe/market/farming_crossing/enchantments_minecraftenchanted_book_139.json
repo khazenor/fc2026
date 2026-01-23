@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:fire_aspect": 2
+          "utilitix:bell_range": 3
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.fire_aspect\"}, {\"text\": \" 2\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.utilitix.bell_range\"}, {\"text\": \" 3\"}]"
     }
   }
 }

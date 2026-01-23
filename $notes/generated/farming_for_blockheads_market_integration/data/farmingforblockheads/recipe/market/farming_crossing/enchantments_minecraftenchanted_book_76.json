@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:projectile_protection": 4
+          "minecraft:mending": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.projectile_protection\"}, {\"text\": \" 4\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.mending\"}]"
     }
   }
 }

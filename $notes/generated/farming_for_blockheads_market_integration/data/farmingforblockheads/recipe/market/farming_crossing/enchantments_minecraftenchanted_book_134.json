@@ -1,17 +1,17 @@
 {
   "type": "farmingforblockheads:market",
   "category": "farmingforblockheads:enchantments",
-  "preset": "farming_crossing:kubejsmiles_ticket_8",
+  "preset": "farming_crossing:kubejsmiles_ticket_16",
   "result": {
     "count": 1,
     "item": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "create:potato_recovery": 1
+          "minecraft:wind_burst": 2
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.create.potato_recovery\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.wind_burst\"}, {\"text\": \" 2\"}]"
     }
   }
 }

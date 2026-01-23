@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:fire_aspect": 2
+          "simplytools:power_of_the_depth": 3
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.fire_aspect\"}, {\"text\": \" 2\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.simplytools.power_of_the_depth\"}, {\"text\": \" 3\"}]"
     }
   }
 }

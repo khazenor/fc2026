@@ -1,17 +1,17 @@
 {
   "type": "farmingforblockheads:market",
   "category": "farmingforblockheads:enchantments",
-  "preset": "farming_crossing:kubejsmiles_ticket_8",
+  "preset": "farming_crossing:kubejsmiles_ticket_16",
   "result": {
     "count": 1,
     "item": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:looting": 1
+          "minecraft:frost_walker": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.looting\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.frost_walker\"}]"
     }
   }
 }

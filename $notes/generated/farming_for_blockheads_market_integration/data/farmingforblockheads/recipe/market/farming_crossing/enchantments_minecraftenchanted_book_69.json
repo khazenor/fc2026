@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:piercing": 2
+          "minecraft:loyalty": 1
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.piercing\"}, {\"text\": \" 2\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.loyalty\"}]"
     }
   }
 }

@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:soul_speed": 1
+          "minecraft:sharpness": 3
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.soul_speed\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.sharpness\"}, {\"text\": \" 3\"}]"
     }
   }
 }

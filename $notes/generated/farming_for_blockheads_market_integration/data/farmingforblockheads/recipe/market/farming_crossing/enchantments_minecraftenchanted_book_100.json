@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:silk_touch": 1
+          "minecraft:respiration": 3
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.silk_touch\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.respiration\"}, {\"text\": \" 3\"}]"
     }
   }
 }

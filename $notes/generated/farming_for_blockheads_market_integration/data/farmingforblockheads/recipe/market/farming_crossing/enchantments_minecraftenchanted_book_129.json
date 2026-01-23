@@ -8,10 +8,10 @@
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "create:capacity": 3
+          "minecraft:unbreaking": 3
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.create.capacity\"}, {\"text\": \" 3\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.unbreaking\"}, {\"text\": \" 3\"}]"
     }
   }
 }

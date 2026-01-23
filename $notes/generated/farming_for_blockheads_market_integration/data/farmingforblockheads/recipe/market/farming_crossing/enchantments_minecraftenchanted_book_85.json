@@ -1,17 +1,17 @@
 {
   "type": "farmingforblockheads:market",
   "category": "farmingforblockheads:enchantments",
-  "preset": "farming_crossing:kubejsmiles_ticket_16",
+  "preset": "farming_crossing:kubejsmiles_ticket_4",
   "result": {
     "count": 1,
     "item": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:punch": 1
+          "minecraft:power": 2
         }
       },
-      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.punch\"}]"
+      "minecraft:custom_name": "[{\"translate\": \"enchantment.minecraft.power\"}, {\"text\": \" 2\"}]"
     }
   }
 }
