@@ -91,6 +91,13 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
+      'create:blaze_burner'
+    ],
+    [
+      Text.translate('marketTooltips.obtainableFor16TicketsInTheMarket')
+    ])
+  event.add(
+    [
       'minecraft:ice', 
       'minecraft:blackstone', 
       'minecraft:end_stone', 

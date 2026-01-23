@@ -7,6 +7,7 @@
 	chapter.5BF39E04B86F3E0E.title: "Mineral Museum"
 	chapter.6A0A643006B111D8.title: "Aquarium"
 	chapter.7264A648F9613D3D.title: "Farming Crossing!"
+	chapter.738AB02774440896.title: "Factory Foods"
 	chapter.777610DAF01F24E9.title: "Collection Achievements"
 	chapter_group.2AF27285BDAE0A0D.title: "Collection Quests"
 	quest.0019E4A4C435E089.title: "Cheese Form Completion"
@@ -76,6 +77,11 @@
 	quest.1608E3DFC63FB3D8.title: "Invite Fenny"
 	quest.1745B27519BD5204.title: "Alternative Locales Completion"
 	quest.1754A8F9C2B428F3.title: "64k Storage"
+	quest.1762BB2252F27EB4.quest_desc: [
+		"Rotational energy generation is key to all create factories. "
+		""
+		"Press \"W\" while hovering over these items to see how they work in ponder"
+	]
 	quest.17D6590D3E94E02A.title: "Creative Portable Grid"
 	quest.18C4BA444FB5D4A1.title: "16k Storage"
 	quest.19B9404802BDE308.title: "Modded Foods"
@@ -503,6 +509,12 @@
 	quest.6E3D3BA7844BFBCD.title: "Cooking Jurney Begins"
 	quest.6F0C1C706C6AF72A.title: "Cooked 2 Unique Dishes!"
 	quest.6F131E57A7D55E00.title: "Mushroom Completion"
+	quest.6FE6A8C6D76300A4.quest_desc: [
+		"** Pamela the Rabbit **"
+		""
+		"Besides making food in the kitchen, you can also build a factory to make foods in scale to sell as shipments. With your building skills I’m sure this will be very approachable for you.  I’ll guide you through the process of making factory foods."
+	]
+	quest.6FE6A8C6D76300A4.title: "Creating Factory Foods"
 	quest.703E05E1F1899BE1.title: "Creative Range Upgrade"
 	quest.7041BB13DE704850.quest_desc: [
 		""
@@ -754,6 +766,7 @@
 	task.7ABA51029C6AB4B2.title: "Free Task"
 	task.7C3CCF3B0377FDF4.title: "Spot an allay"
 	task.7CBB16C9B2257774.title: "Spot a sniffer"
+	task.7E8F5526B0799A3C.title: "Any #c:create_energy_generation"
 	task.7EDA8E89BC8C6677.title: "Spot a turkey"
 	task.7EFEE5B04490929F.title: "Spot a llama"
 	task.7F0EDDFC7B43BC77.title: "Any #fc:flora_quest_items"

@@ -45,6 +45,9 @@ categories = {
         itemsKey: [
           "minecraft:emerald"
         ]
+      }, {
+        itemsKey: ["create:blaze_burner"],
+        priceKey: 16
       }
     ]
   },
