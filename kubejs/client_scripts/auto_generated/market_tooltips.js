@@ -25,14 +25,14 @@ ItemEvents.modifyTooltips(event => {
       'minecraft:bow'
     ],
     [
-      Text.translate('marketTooltips.obtainableFor4TicketsInTheMarket')
+      Text.translate('marketTooltips.obtainableFor4TicketsInRiggsMarket')
     ])
   event.add(
     [
       'minecraft:glowstone_dust'
     ],
     [
-      Text.translate('marketTooltips.obtainableFor6TicketsInTheMarket')
+      Text.translate('marketTooltips.obtainableFor6TicketsInRiggsMarket')
     ])
   event.add(
     [
@@ -45,7 +45,7 @@ ItemEvents.modifyTooltips(event => {
       'minecraft:glow_ink_sac'
     ],
     [
-      Text.translate('marketTooltips.obtainableFor8TicketsInTheMarket')
+      Text.translate('marketTooltips.obtainableFor8TicketsInRiggsMarket')
     ])
   event.add(
     [
@@ -87,14 +87,14 @@ ItemEvents.modifyTooltips(event => {
       'minecraft:arrow'
     ],
     [
-      Text.translate('marketTooltips.obtainableFor1TicketInTheMarket')
+      Text.translate('marketTooltips.obtainableFor1TicketInRiggsMarket')
     ])
   event.add(
     [
       'create:blaze_burner'
     ],
     [
-      Text.translate('marketTooltips.obtainableFor16TicketsInTheMarket')
+      Text.translate('marketTooltips.obtainableFor16TicketsInRiggsMarket')
     ])
   event.add(
     [
@@ -111,7 +111,7 @@ ItemEvents.modifyTooltips(event => {
       'minecraft:twisting_vines'
     ],
     [
-      Text.translate('marketTooltips.obtainableFor32TicketsInTheMarket')
+      Text.translate('marketTooltips.obtainableFor32TicketsInRiggsMarket')
     ])
   event.add(
     [
@@ -129,7 +129,7 @@ ItemEvents.modifyTooltips(event => {
       'minecraft:slime_ball'
     ],
     [
-      Text.translate('marketTooltips.obtainableFor2TicketsInTheMarket')
+      Text.translate('marketTooltips.obtainableFor2TicketsInRiggsMarket')
     ])
   event.add(
     [
@@ -139,7 +139,7 @@ ItemEvents.modifyTooltips(event => {
       'minecraft:phantom_membrane'
     ],
     [
-      Text.translate('marketTooltips.obtainableFor24TicketsInTheMarket')
+      Text.translate('marketTooltips.obtainableFor24TicketsInRiggsMarket')
     ])
   event.add(
     [
@@ -476,7 +476,7 @@ ItemEvents.modifyTooltips(event => {
       'create:veridium'
     ],
     [
-      Text.translate('marketTooltips.obtainableFor64TicketsInTheMarket')
+      Text.translate('marketTooltips.obtainableFor64TicketsInRiggsMarket')
     ])
 
 })

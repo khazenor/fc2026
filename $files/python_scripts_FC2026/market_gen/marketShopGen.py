@@ -37,7 +37,7 @@ def generateMarketTooltips(categories):
 			plural = 's'
 		else:
 			plural = ''
-		tooltip = f"Obtainable for {price} ticket{plural} in the market"
+		tooltip = f"Obtainable for {price} ticket{plural} in Rigg's Market"
 		tooltipContent += kubejs.eventAddTranslatedTooltips(items, [tooltip])
 		kubejs.writeClientFile(
 			kubejs.tooltipFileContent(tooltipContent),
