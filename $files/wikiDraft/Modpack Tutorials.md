@@ -195,3 +195,9 @@ you have closed the hatch the good will pop out after you open the hatch again.
 - to place a photo shift right click a wall
 - shift right click a photo to resize and configure (hold shift to shrink)
 - shift right click an album to collect photos
+
+# Carrying your tools around with the toolbelt
+- to equip the tool belt, open your curios menu by clicking on the icon on the top left corner of you player character in the inventory screen
+- shift right click the tool belt into your belt slot
+- to access the tool belt press "R" to open the radial menu
+- you can put any non-stackable items into it and get it back using this radial menu

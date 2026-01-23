@@ -1,0 +1,147 @@
+{
+  // Various items
+  "Items": {
+  
+    // If you disable this, the following content is gone:
+    // - Ancient Compass
+    "ancientCompass": true,
+    
+    // If you disable this, the following content is gone:
+    // - Diamond Shears
+    "diamondShears": true,
+    
+    // If you disable this, the following content is gone:
+    // - Hand Bell
+    // - Mob Bell
+    "handBells": true,
+    
+    // If you disable this, the following content is gone:
+    // - Mob Yoinker
+    "mobYoinker": true,
+    
+    // If you disable this, the following content is gone:
+    // - Quiver
+    "quiver": true,
+    
+    // If you disable this, the following content is gone:
+    // - Tiny Coal
+    // - Tiny Char Coal
+    "tinyCoal": true
+  },
+  
+  // All blocks that you can interact with
+  "Machines": {
+  
+    // If you disable this, the following content is gone:
+    // - Advanced Brewery
+    // - Failed Potion
+    "advancedBrewery": true,
+    
+    // If you disable this, the following content is gone:
+    // - Crude Furnace
+    "crudeFurnace": true,
+    
+    // If you disable this, the following content is gone:
+    // - Experience Crystal
+    "experienceCrystal": true
+  },
+  
+  // Various content in different sub-categories
+  "Misc": {
+  
+    // If you disable this, the following content is gone:
+    // - Armed Stand
+    "armedStand": true,
+    
+    // If you disable this, the following content is gone:
+    // - Stone Wall
+    "decoration": true,
+    
+    // All the changes that change in world vanilla behavior
+    "InWorldChanges": {
+    
+      // When a block from #minecraft:saplings or #minecraft:crops despawns, it tries to plant it instead
+      "autoReplant": true,
+      
+      // Items in world which have mending collect xp orbs to get repaired
+      "betterMending": true,
+      
+      // Prevents waterlogging when holding the sneak key
+      "crouchNoWaterlog": true,
+      
+      // Both doors open at the same time if connected
+      "doubleDoor": true,
+      
+      // If you disable this, the following content is gone:
+      // - Creeper explosion reduction based on its health
+      "dynamicCreeperExplosions": true,
+      
+      // If you disable this, the following content is gone:
+      // - Gilding using a Gilding Crystal
+      "gilding": true,
+      
+      // If you disable this, the following content is gone:
+      // - Glue Ball
+      "glue": true,
+      
+      // If you disable this, the following content is gone:
+      // - Extra time for Wandering Traders in World
+      // - More Wandering Traders per World
+      "wanderingTrader": true
+    },
+    
+    // All the content related to redstone
+    "Redstone": {
+    
+      // If you disable this, the following content is gone:
+      // - Comparator Redirector Up
+      // - Comparator Redirector Down
+      "comparatorRedirector": true,
+      
+      // If you disable this, the following content is gone:
+      // - Dimmable Redstone Lamp
+      "dimmableLamps": true,
+      
+      // If you disable this, the following content is gone:
+      // - Weak Redstone Torch
+      "weakRedstoneTorch": true,
+      
+      // If you disable this, the following content is gone:
+      // - Linked Repeater
+      // - Redstone Crystal
+      "wirelessRedstone": true
+    }
+  },
+  
+  // Items, blocks, and entities used for transportation
+  "Transportation": {
+  
+    // If you disable this, the following content is gone:
+    // - Anvil Cart
+    // - Ender Cart
+    // - Piston Cart
+    // - Stonecutter Cart
+    // If you also disable "moreRails", this item is gone:
+    // - Minecart Tinkerer
+    "moreMinecarts": true,
+    
+    // If you disable this, the following content is gone:
+    // - Crossing Rail
+    // - Directional Rail
+    // - Filter Rail
+    // - Highspeed Rail
+    // - Piston Minecart Controller Rail
+    // - Directional Highspeed Rail
+    // - Reinforced Rail
+    // - Reinforced Crossing Rail
+    // - Reinforced Filter Rail
+    // - Reinforced Piston Minecart Controller Rail
+    // If you also disable "moreMinecarts", this item is gone:
+    // - Minecart Tinkerer
+    "moreRails": true,
+    
+    // If you disable this, the following content is gone:
+    // - All Shulker Boat variants
+    "shulkerBoats": true
+  }
+}

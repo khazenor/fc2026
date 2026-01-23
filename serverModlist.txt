@@ -34,6 +34,7 @@ cupboard-1.21-2.9.jar
 curios-neoforge-9.5.1+1.21.1.jar
 defaultoptions-neoforge-1.21.1-21.1.5.jar
 domum-ornamentum-1.0.227-snapshot-main.jar
+double_axes-1.5.2-1.21.1.jar
 DungeonCrawl-NeoForge-1.21-2.3.15.jar
 dynview-1.21-4.0.jar
 easy_npc-neoforge-1.21.1-5.9.0.jar
@@ -73,6 +74,7 @@ letsdo-meadow-neoforge-1.4.4.jar
 letsdo-vinery-neoforge-1.5.2.jar
 letsdo-wildernature-neoforge-1.1.3.jar
 libIPN-neoforge-1.21.1-6.6.2.jar
+LibX-1.21.1-6.0.9.jar
 limitedchunks-1.21-4.1.jar
 logbegone-neoforge-1.21.1-1.0.3.jar
 lootr-neoforge-1.21.1-1.11.36.111.jar
@@ -104,6 +106,7 @@ resourcefulconfig-neoforge-1.21-3.0.11.jar
 resourcefullib-neoforge-1.21-3.0.12.jar
 rhino-2101.2.7-build.81.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
+SimplyTools-21.1.3.jar
 smoothchunk-1.21-4.1.jar
 sophisticatedbackpacks-1.21.1-3.25.19.1465.jar
 sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar
@@ -113,7 +116,9 @@ structureessentials-1.21.1-4.8.jar
 superior-stonecutter-1.2.7.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 tide-neoforge-1.21-1.6.4.jar
+ToolBelt-1.21.1-2.2.7.jar
 t_and_t-neoforge-fabric-1.13.7+1.21.1.jar
+UtilitiX-21.1.3.jar
 waystones-neoforge-1.21.1-21.1.25.jar
 weavers_cosmetics-neo-1.21.1_v1.0.jar
 weavers_cosmetics_cosplay-v1.0.jar

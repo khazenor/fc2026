@@ -564,6 +564,22 @@
 	quest.75C2CF619214683E.title: "Cooked 55 Unique Dishes!"
 	quest.7706D57610B5396D.title: "Beer Brewing Completion"
 	quest.79FB2F7613DF7D19.title: "Invite Bernina"
+	quest.7B74B56291565C0D.quest_desc: [
+		"** Ren the Woodpecker **"
+		""
+		"Tool belts are a useful utility … I have this one for sell."
+		""
+		"== MODPACK TUTORIAL =="
+		""
+		"- to equip the tool belt, open your curios menu by clicking on the icon on the top left corner of you player character in the inventory screen"
+		""
+		"- shift right click the tool belt into your belt slot"
+		""
+		"- to access the tool belt press \"R\" to open the radial menu"
+		""
+		"- you can put any non-stackable items into it and get it back using this radial menu"
+	]
+	quest.7B74B56291565C0D.title: "Carrying Your Tools Around"
 	quest.7DBED7DA198DC1F2.title: "Desert Completion"
 	quest.7E65A136C4C4CCCE.title: "Barrel Brewing Completion"
 	quest.7EAEF8A92CA83B75.quest_desc: ["Ello Ello!  I'm Langley the duck!  Researching is my passion and I love to spend as much time as I can experimenting with various solutions.  My dad said there seems to be a good amount of good experimentation material in the settlement. I would love to open a temp research facility in the settlement.  While I'm at it I might as well sell some extra lap equipment I have lying around.  Research ain't cheap!"]

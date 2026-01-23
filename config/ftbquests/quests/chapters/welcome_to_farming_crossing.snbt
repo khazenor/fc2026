@@ -2777,5 +2777,33 @@
 			x: 2.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["652E92C4C78931C0"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "toolbelt:belt"
+			}
+			id: "7B74B56291565C0D"
+			rewards: [{
+				id: "5A746619F3363657"
+				item: {
+					components: {
+						"toolbelt:belt_size": 9
+					}
+					count: 1
+					id: "toolbelt:belt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6B080DD400729754"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
 	]
 }
