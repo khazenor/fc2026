@@ -52,8 +52,6 @@ scoreboard objectives add flora_compendium_vanilla_sapling_completion dummy {"tr
 scoreboard players set @p flora_compendium_vanilla_sapling_completion 0
 scoreboard objectives add flora_compendium_vanilla_flora_completion dummy {"translate":"questFunctions.vanillaFloraCompletion0"}
 scoreboard players set @p flora_compendium_vanilla_flora_completion 0
-scoreboard objectives add flora_compendium_modded_foods dummy {"translate":"questFunctions.moddedFoods0"}
-scoreboard players set @p flora_compendium_modded_foods 0
 scoreboard objectives add flora_compendium_modded_saplings dummy {"translate":"questFunctions.moddedSaplings0"}
 scoreboard players set @p flora_compendium_modded_saplings 0
 scoreboard objectives add flora_compendium_biome_bushes dummy {"translate":"questFunctions.biomeBushes0"}

@@ -412,6 +412,11 @@ questlines = [
             iconKey: "minecraft:axolotl_spawn_egg",
             nameKey: "Spot an axolotl",
             observeKey: "minecraft:axolotl"
+          },
+          {
+            observeKey: 'yungscavebiomes:sand_snapper',
+            iconKey: 'yungscavebiomes:sand_snapper_spawn_egg',
+            nameKey: 'Spot a sand snapper'
           }
         ]
       },
@@ -498,7 +503,8 @@ questlines = [
           "minecraft:pumpkin",
           "minecraft:apple"
         ]
-      }, {
+      },
+      {
         nameKey: 'Modded Foods Completion',
         iconKey: 'farm_and_charm:corn',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -525,9 +531,16 @@ questlines = [
           'vinery:jungle_grapes_white',
           'vinery:cherry',
           'biomeswevegone:blueberries',
-          'biomeswevegone:green_apple'
+          'biomeswevegone:green_apple',
+          'yungscavebiomes:prickly_peach',
+          "biomeswevegone:aloe_vera",
+          "biomeswevegone:horseweed",
+          "biomeswevegone:oddion_bulb",
+          "biomeswevegone:pale_pumpkin",
+          'wildernature:hazelnut'
         ]
-      }, { # Vanilla Flower
+      },
+      { # Vanilla Flower
         nameKey: 'Vanilla Flower Completion',
         iconKey: 'minecraft:red_tulip',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -582,18 +595,8 @@ questlines = [
           "minecraft:sea_pickle",
           "minecraft:lily_pad"
         ]
-      }, {
-        nameKey: 'Modded Foods',
-        iconKey: 'biomeswevegone:aloe_vera',
-        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
-        tasksKey: [
-          "biomeswevegone:aloe_vera",
-          "biomeswevegone:horseweed",
-          "biomeswevegone:oddion_bulb",
-          "biomeswevegone:pale_pumpkin",
-          'wildernature:hazelnut'
-        ]
-      }, {
+      },
+      { # mod saps
         nameKey: 'Modded Saplings',
         iconKey: 'biomeswevegone:araucaria_sapling',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -634,7 +637,8 @@ questlines = [
           "biomeswevegone:zelkova_sapling",
           "vinery:dark_cherry_sapling"
         ]
-      }, {
+      },
+      { # bushes
         nameKey: 'Biome Bushes',
         iconKey: 'biomeswevegone:allium_flower_bush',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -644,7 +648,8 @@ questlines = [
           "biomeswevegone:hydrangea_bush",
           "biomeswevegone:firecracker_flower_bush"
         ]
-      }, {
+      },
+      { # ground covers
         nameKey: 'Biome Ground Covers',
         iconKey: 'biomeswevegone:clover_patch',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -656,7 +661,8 @@ questlines = [
           "biomeswevegone:white_sakura_petals",
           "biomeswevegone:yellow_sakura_petals"
         ]
-      }, {
+      },
+      { # biome flowers
         nameKey: 'Biome Flowers',
         iconKey: 'biomeswevegone:amaranth',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -702,7 +708,8 @@ questlines = [
           "meadow:eriophorum_tall",
           "candlelight:rose"
         ]
-      }, {
+      },
+      { # allium and tulips
         nameKey: 'Biome Allium and Tulips',
         iconKey: 'biomeswevegone:allium_flower_bush',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -724,7 +731,8 @@ questlines = [
           "biomeswevegone:purple_tulip",
           "biomeswevegone:yellow_tulip"
         ]
-      }, {
+      },
+      { # misc
         nameKey: 'Biome Misc',
         iconKey: 'biomeswevegone:beach_grass',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -736,7 +744,10 @@ questlines = [
           "biomeswevegone:prairie_grass",
           "biomeswevegone:shrub",
           "biomeswevegone:white_puffball_spores",
-          "meadow:small_fir"
+          "meadow:small_fir",
+          "yungscavebiomes:prickly_peach_cactus",
+          "yungscavebiomes:prickly_vines",
+          "yungscavebiomes:frost_lily",
         ]
       }
     ]
@@ -784,7 +795,8 @@ questlines = [
           "minecraft:coal",
           "minecraft:redstone"
         ]
-      }, {
+      },
+      { # gems
         nameKey: 'Gems Completion',
         iconKey: 'minecraft:amethyst_shard',
         dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
@@ -801,7 +813,8 @@ questlines = [
           'irons_jewelry:onyx',
           'irons_jewelry:garnet'
         ]
-      }, {
+      },
+      { # modded
         nameKey: 'Modded Completion',
         iconKey: 'biomeswevegone:blue_sandstone',
         dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
@@ -821,9 +834,14 @@ questlines = [
           "biomeswevegone:white_dacite",
           "biomeswevegone:windswept_sand",
           "biomeswevegone:windswept_sandstone",
-          'meadow:limestone'
+          'meadow:limestone',
+          'yungscavebiomes:icicle',
+          'yungscavebiomes:rare_ice',
+          'yungscavebiomes:ancient_sand',
+          'yungscavebiomes:ancient_sandstone',
         ]
-      }, { # create
+      },
+      { # create
         nameKey: 'Create Completion',
         iconKey: 'create:cogwheel',
         dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
@@ -881,7 +899,8 @@ questlines = [
           "brewery:dumplings",
           "brewery:sausage"
         ]
-      }, {
+      },
+      {
         nameKey: 'Mincer Completion',
         iconKey: 'farm_and_charm:mincer',
         dependencyIdKey: '1A6015D93785C5F8', # Mincing Wheat
@@ -890,7 +909,8 @@ questlines = [
           "brewery:mashed_potatoes",
           "farm_and_charm:lamb_ham"
         ]
-      }, {
+      },
+      {
         nameKey: 'Crafting Bowl Completion',
         iconKey: 'farm_and_charm:crafting_bowl',
         dependencyIdKey: '2C347959EBCF675E', # Bowl Mixing
@@ -906,7 +926,8 @@ questlines = [
           "farm_and_charm:farmer_salad",
           "farm_and_charm:oatmeal_with_strawberries"
         ]
-      }, {
+      },
+      {
         nameKey: 'Stove Completion',
         dependencyIdKey: '49BBEA6293EEAE79', # Stove Baking
         iconKey:'farm_and_charm:stove',
@@ -949,7 +970,8 @@ questlines = [
           "farm_and_charm:stuffed_chicken",
           "farm_and_charm:stuffed_rabbit"
         ]
-      }, {
+      },
+      {
         nameKey: 'Caking Completion',
         dependencyIdKey: '5B2855A053DE0501', # Caking Station
         iconKey:'bakery:baker_station',
@@ -967,7 +989,8 @@ questlines = [
           "bakery:chocolate_cake",
           "bakery:chocolate_gateau"
         ]
-      }, {
+      },
+      {
         nameKey: 'Cheese Form Completion',
         dependencyIdKey: '0630CE07E50C1851', # Forming Cheese
         iconKey:'meadow:cheese_form',
@@ -978,7 +1001,8 @@ questlines = [
           "meadow:buffalo_cheese_block",
           "meadow:grain_cheese_block"
         ]
-      }, {
+      },
+      {
         nameKey: 'Cooking Caldron Completion',
         dependencyIdKey: '59449FD43D19FE6B', # Using the Cooking Caldron
         iconKey: 'meadow:cooking_cauldron',
@@ -987,7 +1011,8 @@ questlines = [
           "meadow:sausage_with_cheese",
           "meadow:roasted_ham"
         ]
-      }, {
+      },
+      {
         nameKey: 'Roaster Completion',
         dependencyIdKey: '4A69082167D41264', # Roaster Roasting
         iconKey:'farm_and_charm:roaster',
@@ -1010,7 +1035,8 @@ questlines = [
           "farm_and_charm:oat_pancake",
           "farm_and_charm:sausage_with_oat_patty"
         ]
-      }, {
+      },
+      {
         nameKey: 'Palm Bar Completion',
         dependencyIdKey: '4CEB9362A3403CA6', # Making Cocktails
         iconKey:'beachparty:palm_bar',
@@ -1022,7 +1048,8 @@ questlines = [
           "beachparty:pumpkin_cocktail",
           "beachparty:sweetberries_cocktail"
         ]
-      }, {
+      },
+      {
         nameKey: 'Tea Brewing Completion',
         dependencyIdKey: '21BA88188D23BF4E', # Brewing Tea
         iconKey:'herbalbrews:tea_kettle',
@@ -1037,7 +1064,8 @@ questlines = [
           "herbalbrews:milk_coffee",
           "herbalbrews:yerba_mate_tea"
         ]
-      }, {
+      },
+      {
         nameKey: 'Juicing Completion',
         dependencyIdKey: '49A24AD6CB0927FB', # Mashing Grape Juice
         iconKey:'vinery:apple_press',
@@ -1052,7 +1080,8 @@ questlines = [
           'vinery:white_savanna_grapejuice',
           'vinery:apple_juice'
         ]
-      }, {
+      },
+      {
         nameKey: 'Barrel Brewing Completion',
         dependencyIdKey: '74D876358D8D89DB', # Barrel Brewing
         iconKey:'vinery:fermentation_barrel',
@@ -1084,7 +1113,8 @@ questlines = [
           "vinery:strad_wine",
           "vinery:villagers_fright"
         ]
-      }, {
+      },
+      {
         nameKey: 'Beer Brewing Completion',
         dependencyIdKey: '144B3D6C8E09A63D', # Beer Brewing
         iconKey:'brewery:wooden_brewingstation',

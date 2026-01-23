@@ -41,7 +41,8 @@ const NpcYukkie = {
     'vinery:jungle_grapes_red',
     'vinery:jungle_grapes_white',
     'biomeswevegone:green_apple',
-    'biomeswevegone:blueberries'
+    'biomeswevegone:blueberries',
+    'yungscavebiomes:prickly_peach'
   ]
 }
 

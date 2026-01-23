@@ -1610,6 +1610,138 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3C4807F7A517F57C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "6C05A422EBB9F483"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_modded_completion"
+					exclude_from_claim_all: true
+					id: "272CF07E0D4114D8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "506A144CC68A53FE"
+				item: { count: 1, id: "yungscavebiomes:icicle" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "54D0CFA3457FA0BD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "2639F930830163EB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_modded_completion"
+					exclude_from_claim_all: true
+					id: "176F57F2C5766D9A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "58F9D46FDBFF9248"
+				item: { count: 1, id: "yungscavebiomes:rare_ice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7D2F62F406515052"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "6B3647E7AB1227B9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_modded_completion"
+					exclude_from_claim_all: true
+					id: "78A4C75E7EA78CEA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "747BAC35484184D4"
+				item: { count: 1, id: "yungscavebiomes:ancient_sand" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "501C999C18AE8A5E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "2CDC9A1803F35D68"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_modded_completion"
+					exclude_from_claim_all: true
+					id: "268D332182D19A13"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7464F51B02574517"
+				item: { count: 1, id: "yungscavebiomes:ancient_sandstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
 			dependencies: [
 				"647A02DA6D076AF1"
 				"48C09E362E21742F"
@@ -1626,13 +1758,17 @@
 				"3D345D21320CCDD9"
 				"52E9F39576D10C21"
 				"74D083DFAB240C63"
+				"3C4807F7A517F57C"
+				"54D0CFA3457FA0BD"
+				"7D2F62F406515052"
+				"501C999C18AE8A5E"
 			]
 			icon: {
 				id: "biomeswevegone:blue_sandstone"
 			}
 			id: "13E53AD4839DC9A4"
 			rewards: [{
-				count: 21
+				count: 29
 				id: "45941889B866DFC7"
 				item: {
 					count: 1
@@ -1650,7 +1786,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1683,7 +1819,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1716,7 +1852,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1749,7 +1885,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1782,7 +1918,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1815,7 +1951,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1848,7 +1984,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1881,7 +2017,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -1916,7 +2052,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 11.5d
+			y: 12.5d
 		}
 	]
 }

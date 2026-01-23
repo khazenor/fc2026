@@ -41,6 +41,12 @@ ServerEvents.tags('item', event => {
       'vinery:cherry', 
       'biomeswevegone:blueberries', 
       'biomeswevegone:green_apple', 
+      'yungscavebiomes:prickly_peach', 
+      'biomeswevegone:aloe_vera', 
+      'biomeswevegone:horseweed', 
+      'biomeswevegone:oddion_bulb', 
+      'biomeswevegone:pale_pumpkin', 
+      'wildernature:hazelnut', 
       'minecraft:allium', 
       'minecraft:azure_bluet', 
       'minecraft:blue_orchid', 
@@ -76,11 +82,6 @@ ServerEvents.tags('item', event => {
       'minecraft:big_dripleaf', 
       'minecraft:sea_pickle', 
       'minecraft:lily_pad', 
-      'biomeswevegone:aloe_vera', 
-      'biomeswevegone:horseweed', 
-      'biomeswevegone:oddion_bulb', 
-      'biomeswevegone:pale_pumpkin', 
-      'wildernature:hazelnut', 
       'biomeswevegone:araucaria_sapling', 
       'biomeswevegone:aspen_sapling', 
       'biomeswevegone:baobab_sapling', 
@@ -186,7 +187,10 @@ ServerEvents.tags('item', event => {
       'biomeswevegone:prairie_grass', 
       'biomeswevegone:shrub', 
       'biomeswevegone:white_puffball_spores', 
-      'meadow:small_fir'
+      'meadow:small_fir', 
+      'yungscavebiomes:prickly_peach_cactus', 
+      'yungscavebiomes:prickly_vines', 
+      'yungscavebiomes:frost_lily'
     ])
 
 })

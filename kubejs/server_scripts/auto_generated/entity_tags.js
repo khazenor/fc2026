@@ -49,7 +49,8 @@ ServerEvents.tags('entity_type', event => {
       'wildernature:raccoon', 
       'wildernature:red_wolf', 
       'wildernature:squirrel', 
-      'wildernature:turkey'
+      'wildernature:turkey', 
+      'yungscavebiomes:sand_snapper'
     ])
 
 })

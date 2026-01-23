@@ -134,7 +134,13 @@ ItemEvents.modifyTooltips(event => {
       'vinery:jungle_grapes_white', 
       'vinery:cherry', 
       'biomeswevegone:blueberries', 
-      'biomeswevegone:green_apple'
+      'biomeswevegone:green_apple', 
+      'yungscavebiomes:prickly_peach', 
+      'biomeswevegone:aloe_vera', 
+      'biomeswevegone:horseweed', 
+      'biomeswevegone:oddion_bulb', 
+      'biomeswevegone:pale_pumpkin', 
+      'wildernature:hazelnut'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
@@ -195,18 +201,6 @@ ItemEvents.modifyTooltips(event => {
     [
       Text.translate('collectionTooltips.floraCompendium'), 
       Text.translate('collectionTooltips.vanillaFloraCompletion')
-    ])
-  event.add(
-    [
-      'biomeswevegone:aloe_vera', 
-      'biomeswevegone:horseweed', 
-      'biomeswevegone:oddion_bulb', 
-      'biomeswevegone:pale_pumpkin', 
-      'wildernature:hazelnut'
-    ],
-    [
-      Text.translate('collectionTooltips.floraCompendium'), 
-      Text.translate('collectionTooltips.moddedFoods')
     ])
   event.add(
     [
@@ -350,7 +344,10 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:prairie_grass', 
       'biomeswevegone:shrub', 
       'biomeswevegone:white_puffball_spores', 
-      'meadow:small_fir'
+      'meadow:small_fir', 
+      'yungscavebiomes:prickly_peach_cactus', 
+      'yungscavebiomes:prickly_vines', 
+      'yungscavebiomes:frost_lily'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
@@ -423,7 +420,11 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:white_dacite', 
       'biomeswevegone:windswept_sand', 
       'biomeswevegone:windswept_sandstone', 
-      'meadow:limestone'
+      'meadow:limestone', 
+      'yungscavebiomes:icicle', 
+      'yungscavebiomes:rare_ice', 
+      'yungscavebiomes:ancient_sand', 
+      'yungscavebiomes:ancient_sandstone'
     ],
     [
       Text.translate('collectionTooltips.mineralMuseum'), 

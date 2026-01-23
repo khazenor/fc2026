@@ -1926,17 +1926,56 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["5BB57D9BEC8038FB"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "66F8B75F08D03BD9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:animal_watching"
+					exclude_from_claim_all: true
+					id: "5E938FF5A7B4DB33"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:animal_watching_caves_completion"
+					exclude_from_claim_all: true
+					id: "0BA6DE69299DFD3D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "yungscavebiomes:sand_snapper_spawn_egg"
+				}
+				id: "325C3248CFB459C9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "yungscavebiomes:sand_snapper"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
 			dependencies: [
 				"146751189BDC436F"
 				"14CABCA3287E1DED"
 				"306283F27FAC08C6"
+				"66F8B75F08D03BD9"
 			]
 			icon: {
 				id: "minecraft:stone"
 			}
 			id: "6427EF320B80E37D"
 			rewards: [{
-				count: 3
+				count: 4
 				id: "3932201E9B0617D4"
 				item: {
 					count: 1
