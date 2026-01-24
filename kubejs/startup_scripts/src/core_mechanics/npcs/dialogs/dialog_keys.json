@@ -70,12 +70,12 @@
     "npc.dialogs.Pengu_0",
     "npc.dialogs.Pengu_1"
   ],
-  "Matan:": [
-    "npc.dialogs.Matan:_0",
-    "npc.dialogs.Matan:_1"
+  "Matan": [
+    "npc.dialogs.Matan_0",
+    "npc.dialogs.Matan_1"
   ],
-  "Harley:": [
-    "npc.dialogs.Harley:_0",
-    "npc.dialogs.Harley:_1"
+  "Harley": [
+    "npc.dialogs.Harley_0",
+    "npc.dialogs.Harley_1"
   ]
 }
