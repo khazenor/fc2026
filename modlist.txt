@@ -67,6 +67,7 @@ fastasyncworldsave-1.21-2.6.jar
 ferritecore-7.0.2-neoforge.jar
 flightblocks-1.21.1-1.0.7.jar
 forgivingvoid-neoforge-1.21.1-21.1.6.jar
+FramedBlocks-10.5.1.jar
 framework-neoforge-1.21.1-0.13.6.jar
 ftb-filter-system-neoforge-21.1.3.jar
 ftb-library-neoforge-2101.1.29.jar
