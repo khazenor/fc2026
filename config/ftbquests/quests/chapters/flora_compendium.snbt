@@ -6706,6 +6706,138 @@
 			y: 39.0d
 		}
 		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "68BB0301A256AE2F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "02783E134537F698"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biome_misc"
+					exclude_from_claim_all: true
+					id: "1CF72C9D2F902C1D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "650F9230D131A6B9"
+				item: { count: 1, id: "biomeswevegone:green_mushroom" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "30DF20047C013255"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "253681C8E5C06CDE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biome_misc"
+					exclude_from_claim_all: true
+					id: "6965E3DB1792DA73"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7032F1FB8EC55A47"
+				item: { count: 1, id: "biomeswevegone:shelf_fungi" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "09CA806A8EECF77E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "48FD85587578B0D3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biome_misc"
+					exclude_from_claim_all: true
+					id: "0AAB83A5573204B4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2E6E8CC6F69AFF14"
+				item: { count: 1, id: "biomeswevegone:weeping_milkcap" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "50D63F4CD14D00E6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "79B6268BD685406D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biome_misc"
+					exclude_from_claim_all: true
+					id: "4ABC8325FFA71238"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "64881C7E863F4612"
+				item: { count: 1, id: "biomeswevegone:wood_blewit" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 40.0d
+		}
+		{
 			dependencies: [
 				"014DB4C542AA0B13"
 				"19A01CDD3B8D2255"
@@ -6718,13 +6850,17 @@
 				"194CCC1B406D487A"
 				"1EEA643EC43EE2AE"
 				"0573C70D1AC5A01D"
+				"0DB28F26C5ED8582"
+				"30DF20047C013255"
+				"09CA806A8EECF77E"
+				"50D63F4CD14D00E6"
 			]
 			icon: {
 				id: "biomeswevegone:beach_grass"
 			}
 			id: "4C25B193AEB81C44"
 			rewards: [{
-				count: 13
+				count: 19
 				id: "2A70C6832803D5A0"
 				item: {
 					count: 1
@@ -6742,7 +6878,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 38.5d
+			y: 39.0d
 		}
 	]
 }

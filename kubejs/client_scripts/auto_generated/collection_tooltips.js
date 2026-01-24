@@ -347,7 +347,11 @@ ItemEvents.modifyTooltips(event => {
       'meadow:small_fir', 
       'yungscavebiomes:prickly_peach_cactus', 
       'yungscavebiomes:prickly_vines', 
-      'yungscavebiomes:frost_lily'
+      'yungscavebiomes:frost_lily', 
+      'biomeswevegone:green_mushroom', 
+      'biomeswevegone:shelf_fungi', 
+      'biomeswevegone:weeping_milkcap', 
+      'biomeswevegone:wood_blewit'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
