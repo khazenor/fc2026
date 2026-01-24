@@ -44,3 +44,4 @@ config/inventoryprofilesnext/FlatTest/villager-trading-config-v2.json
 config/utilitix/client.json5
 config/inventoryprofilesnext/1(slash)23/villager-trading-config-v2.json
 config/inventoryprofilesnext/1(slash)23/prev-villager-trading-config-v2.json
+config/controllable/selected_controllers.json

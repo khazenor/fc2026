@@ -1,35 +1,31 @@
 [
   {
-    "key": "controllable.key.open_controllable_settings",
-    "color": "BLUE"
+    "key": "key.fullscreen",
+    "color": "WHITE"
   },
   {
     "key": "crafting_on_a_stick.key.open_curios.custom",
     "color": "DARK_RED"
   },
   {
-    "key": "key.ftbquests.quests.custom",
-    "color": "GOLD"
+    "key": "key.screenshot",
+    "color": "WHITE"
   },
   {
     "key": "keybind.sophisticatedbackpacks.open_backpack.custom",
     "color": "DARK_AQUA"
   },
   {
-    "key": "key.fullscreen",
-    "color": "WHITE"
+    "key": "iris.keybind.toggleShaders.custom",
+    "color": "DARK_GREEN"
   },
   {
-    "key": "key.screenshot",
-    "color": "WHITE"
+    "key": "key.ftbquests.quests.custom",
+    "color": "GOLD"
   },
   {
     "key": "gui.xaero_open_map.custom",
     "color": "DARK_BLUE"
-  },
-  {
-    "key": "iris.keybind.toggleShaders.custom",
-    "color": "DARK_GREEN"
   },
   {
     "key": "key.effortlessbuilding.mode.desc.custom",
