@@ -16,6 +16,7 @@ betterchunkloading-1.21-5.4.jar
 betterfpsdist-1.21-6.0.jar
 BetterThirdPerson-neoforge-1.9.0.jar
 BetterTitleScreen-neoforge-1.21-1.14.0.jar
+BetterTridents-v21.1.0-1.21.1-NeoForge.jar
 biomemusic-1.21-3.4.jar
 bookshelf-neoforge-1.21.1-21.1.80.jar
 botanypots-neoforge-1.21.1-21.1.41.jar
@@ -120,6 +121,7 @@ Placebo-1.21.1-9.9.1.jar
 polymorph-neoforge-1.1.0+1.21.1.jar
 prickle-neoforge-1.21.1-21.1.11.jar
 ProbeJS-7.7.2.jar
+PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar
 recipeessentials-1.21-4.0.jar
 refinedstorage-neoforge-2.0.0.jar
 refurbished_furniture-neoforge-1.21.1-1.0.20.jar
