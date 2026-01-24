@@ -21,6 +21,12 @@ const NpcSam = {
       let sell = Math.floor((weightInverse * ticketOverWeight) + .5) + 1
       fishPrices[fishId] = { id: MilesTickets.ticketId, count: sell }
     }
+
+    let specialFishSell = 8
+    for (let specialFishId of FishInfo.specialFishes) {
+      fishPrices[specialFishId] = { id: MilesTickets.ticketId, count: specialFishSell }
+    }
+
     return fishPrices
   },
   get sellableFishes () {
