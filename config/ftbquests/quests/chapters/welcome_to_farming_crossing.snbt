@@ -1661,6 +1661,9 @@
 		{
 			dependencies: ["5BD4C23644BF2703"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:stonecutter"
+			}
 			id: "4C5C72BBA123A633"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1669,10 +1672,9 @@
 				type: "choice"
 			}]
 			tasks: [{
-				consume_items: true
 				count: 16L
 				id: "56C5449D42AAC4FB"
-				item: { count: 1, id: "minecraft:oak_log" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d
