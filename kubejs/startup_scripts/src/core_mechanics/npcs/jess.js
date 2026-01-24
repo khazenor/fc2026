@@ -5,6 +5,9 @@ const NpcJess = {
     let soph = SophisticatedBackPacks
     let sophSup = SophisticatedBackPackSupport
     return [{
+      villagerItems: ['simplemagnets:basicmagnet'],
+      playerNum: 8
+    }, {
       villagerItems: [soph.backpackId(soph.tiers.normal)],
       playerNum: 8
     }, {

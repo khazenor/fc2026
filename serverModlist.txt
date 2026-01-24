@@ -1,5 +1,6 @@
 advancednetherite-neoforge-2.3.1-1.21.1.jar
 AI-Improvements-1.21-0.5.3.jar
+allthecompressed-1.21.1-4.4.0.jar
 Almanac-1.21.1-2-neoforge-1.5.0.jar
 ApothicAttributes-1.21.1-2.9.0.jar
 appleskin-neoforge-mc1.21-3.0.7.jar
@@ -58,6 +59,7 @@ incontrol-1.21-10.2.5.jar
 iris-flywheel-compat-NeoForge-2.1.0.jar
 irons_jewelry-1.21.1-1.6.0.jar
 Jade-1.21.1-NeoForge-15.10.3.jar
+jamlib-neoforge-1.3.5+1.21.1.jar
 jei-1.21.1-neoforge-19.25.1.332.jar
 kotlinforforge-5.10.0-all.jar
 kubejs-neoforge-2101.7.2-build.348.jar
@@ -105,7 +107,9 @@ relics-1.21.1-0.10.7.6.jar
 resourcefulconfig-neoforge-1.21-3.0.11.jar
 resourcefullib-neoforge-1.21-3.0.12.jar
 rhino-2101.2.7-build.81.jar
+rightclickharvest-neoforge-4.6.1+1.21.1.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
+simplemagnets-1.1.12c-neoforge-mc1.21.jar
 SimplyTools-21.1.3.jar
 smoothchunk-1.21-4.1.jar
 sophisticatedbackpacks-1.21.1-3.25.19.1465.jar
@@ -114,6 +118,8 @@ sophisticatedcore-1.21.1-1.3.95.1311.jar
 sophisticatedstorage-1.21.1-1.5.17.1398.jar
 structureessentials-1.21.1-4.8.jar
 superior-stonecutter-1.2.7.jar
+supermartijn642configlib-1.1.8-neoforge-mc1.21.jar
+supermartijn642corelib-1.1.19-neoforge-mc1.21.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 tide-neoforge-1.21-1.6.4.jar
 ToolBelt-1.21.1-2.2.7.jar
