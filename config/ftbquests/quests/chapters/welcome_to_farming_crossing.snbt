@@ -7,6 +7,35 @@
 		id: "minecraft:mangrove_propagule"
 	}
 	id: "7264A648F9613D3D"
+	images: [
+		{
+			click: "https://ko-fi.com/khazenorsmodpacks"
+			dependency: "7041BB13DE704850"
+			height: 1.0d
+			hover: [
+				"If you enjoyed the modpack,"
+				"I would appreciated very much if"
+				"you can send some donations to "
+				"my ko-fi                       -Khazenor"
+			]
+			image: "ftbquests:textures/gui/chain_link.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			click: "https://github.com/khazenor/fc2026/wiki"
+			dependency: "5BD4C23644BF2703"
+			height: 1.0d
+			hover: ["Modpack Wiki"]
+			image: "jamlib:textures/gui/sprites/writable_book.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -927,7 +956,7 @@
 				to_observe: "tide:surface_loot_crate"
 				type: "observation"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -1095,7 +1124,7 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -1120,7 +1149,7 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -1145,7 +1174,7 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -4.0d
 		}
 		{
@@ -1170,8 +1199,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["38DDF6DE6C1C57DE"]
@@ -1195,8 +1224,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["081A08FAF0E2C637"]
@@ -1220,8 +1249,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1246,7 +1275,7 @@
 				to_observe: "tide:obsidian_loot_crate"
 				type: "observation"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: -3.0d
 		}
 		{

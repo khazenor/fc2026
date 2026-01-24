@@ -570,5 +570,28 @@
 			x: -2.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:light_blue_shulker_box"
+			}
+			id: "7046FDDEF7CD4AC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "665354C7022F5E34"
+				table_id: 8222570253584073542L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "32323D37D918FBDB"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
 	]
 }

@@ -319,6 +319,7 @@
 	quest.3CA5ABA6ED18830D.title: "Invite Pamela"
 	quest.3D6181906ADC7014.title: "Vanilla Flower Completion"
 	quest.3E5304852BAF4E53.title: "Modded Saplings"
+	quest.405396378EE4B767.quest_desc: ["Good job moving all of the villagers in!  Now as per our agreement the amount you owe Busy Beaver Inc. … 192 tickets!  The loan is at zero interest so feel free to take your time.  Just know that there are most possibilities ahead for the settlement if you get that loan paid!"]
 	quest.405396378EE4B767.title: "Building Material Loan Payment"
 	quest.415000FB5B40DE01.title: "Stone Fishing Rod Upgrade Kit"
 	quest.41CFE541B5041D5F.title: "Mineral Museum Completion!"
@@ -535,6 +536,9 @@
 	quest.6FE6A8C6D76300A4.title: "Creating Factory Foods"
 	quest.703E05E1F1899BE1.title: "Creative Range Upgrade"
 	quest.7041BB13DE704850.quest_desc: [
+		"** Jess the Beaver **"
+		""
+		"Good Job paying off the loan!  If you are interested in expanding the settlement further, I’ve been talking with a lot of my clients and it seems like the settlement you’ve made so far has drummed up lots of hype and many other villagers are looking to visit. Unfortunately we do need to get some paperwork done to expand the capacity of the settlement.  If you can secure the fee for the paper work I’ll be more than happy to reach out to my clients!"
 		""
 		"# Purchasing decorations/outfits you already own"
 		""
@@ -545,13 +549,14 @@
 		""
 		"Thank you so much for playing the modpack and congrats on paying off your building material loan!"
 		""
-		"I really hope you enjoy the modpack up till now since I try best with each Farming Crossing release to make the modpack have as much of a comfy aesthetic as I can.  And that does often mean staying up many nights so I can have a few precious hours of free time each week to work on this modpack."
+		"I really hope you enjoy the modpack up till now since I try best with each Farming Crossing release to make the modpack have as much of a comfy aesthetic as I can.  And that does often mean staying up many nights so I can spend my few precious hours of free time each week to work on this modpack."
 		""
-		"If you feel this modpack has provided you enough entertainment, I would be super happy if you would consider donating a bit of money on my ko-fi linked on the modpack page.  No pressure of course haha.  I do hope you enjoy the rest of the pack! <3"
+		"If you feel this modpack has provided you enough entertainment, I would be super happy if you would consider donating a bit of money on my ko-fi link on the modpack page.  No pressure of course haha.  I do hope you enjoy the rest of the pack! <3"
 		""
 		"-Khazenor"
 	]
 	quest.7041BB13DE704850.title: "Village Capacity Permit"
+	quest.7046FDDEF7CD4AC7.title: "Building Bundle"
 	quest.712B913703C63ED7.quest_desc: ["Hey there! I'm Elna the Shrew. My older sis, Berni, told me about you. Said you were into the fashion scene. I'm actually starting my own fashion brand, and would totally be down to open a shop in your settlement, if you're the real deal."]
 	quest.712B913703C63ED7.title: "Move in Elna"
 	quest.71C1250C2004016A.title: "Iron Fishing Rod Upgrade"
