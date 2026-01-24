@@ -20,6 +20,7 @@ BetterTridents-v21.1.0-1.21.1-NeoForge.jar
 biomemusic-1.21-3.4.jar
 bookshelf-neoforge-1.21.1-21.1.80.jar
 botanypots-neoforge-1.21.1-21.1.41.jar
+BridgingMod-2.6.2+1.21.1.neoforge-release.jar
 BuildingWands-neoforge-MC1.21-2.11.jar
 Camerapture-1.10.8+mc1.21.1-neoforge.jar
 clientcrafting-1.21-1.8.jar
@@ -153,6 +154,7 @@ waystones-neoforge-1.21.1-21.1.25.jar
 weavers_cosmetics-neo-1.21.1_v1.0.jar
 weavers_cosmetics_cosplay-v1.0.jar
 xaeroworldmap-neoforge-1.21.1-1.40.6.jar
+yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar
 yukamibackpacktab-1.21.1-1.1.1-neoforge.jar
 YungsApi-1.21.1-NeoForge-5.1.6.jar
 YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar
