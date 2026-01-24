@@ -47,6 +47,7 @@ doubledoors-1.21.1-7.2.jar
 double_axes-1.5.2-1.21.1.jar
 DungeonCrawl-NeoForge-1.21-2.3.15.jar
 dynview-1.21-4.0.jar
+EasyAnvils-v21.1.0-1.21.1-NeoForge.jar
 easy_npc-neoforge-1.21.1-5.9.0.jar
 effortlessbuilding-1.21.1-3.10-all.jar
 fallingtrees-neoforge-mc1.21-0.13.2-SNAPSHOT.jar
