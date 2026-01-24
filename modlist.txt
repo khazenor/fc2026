@@ -45,6 +45,7 @@ createaddition-1.5.9.jar
 cristellib-neoforge-1.21.1-3.0.2.1.jar
 cupboard-1.21-2.9.jar
 curios-neoforge-9.5.1+1.21.1.jar
+cyclepaintings-1.21.1-4.1.jar
 defaultoptions-neoforge-1.21.1-21.1.5.jar
 domum-ornamentum-1.0.227-snapshot-main.jar
 double_axes-1.5.2-1.21.1.jar
