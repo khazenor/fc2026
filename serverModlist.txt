@@ -50,6 +50,7 @@ dynview-1.21-4.0.jar
 EasyAnvils-v21.1.0-1.21.1-NeoForge.jar
 easy_npc-neoforge-1.21.1-5.9.0.jar
 effortlessbuilding-1.21.1-3.10-all.jar
+everythingcopper-1.21.1-2.4.5.jar
 fallingtrees-neoforge-mc1.21-0.13.2-SNAPSHOT.jar
 farmingforblockheads-neoforge-1.21.1-21.1.10.jar
 fastasyncworldsave-1.21-2.6.jar

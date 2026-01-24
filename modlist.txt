@@ -59,6 +59,7 @@ effortlessbuilding-1.21.1-3.10-all.jar
 entityculling-neoforge-1.9.4-mc1.21.1.jar
 entity_model_features_1.21-neoforge-3.0.9.jar
 entity_texture_features_1.21-neoforge-7.0.8.jar
+everythingcopper-1.21.1-2.4.5.jar
 ExtremeSoundMuffler-3.52_NeoForge-1.21.jar
 fallingtrees-neoforge-mc1.21-0.13.2-SNAPSHOT.jar
 farmingforblockheads-neoforge-1.21.1-21.1.10.jar
