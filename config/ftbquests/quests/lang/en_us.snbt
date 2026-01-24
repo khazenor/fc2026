@@ -28,7 +28,7 @@
 	quest.0837A544E05704BC.quest_desc: [
 		"** Andre the Dog **"
 		""
-		"Have you been observing the animals human?  If you are ready I'll love to start a small garden and farm in the settlement."
+		"Have you been observing the animals, kiddo?  If you are ready I wouldn’t mind startin’ a small garden and farm in the settlement."
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -66,9 +66,9 @@
 	quest.14E4D983C6F318CD.quest_desc: [
 		"** Your phone rings **"
 		""
-		"Hi there human!  This is Rigg the Racoon.  I've sensed you have gotten yourselves some Miles Tickets. (How? Oh don't worry about that!) The point is that I am a good business partner of Jess and I love to make you an offer: just rub some miles tickets in a crafting table to make a market stand and I'll be right there you offer you all kinds of wares!"
+		"Ahoy there, human!  This is Rigg the Racoon.  My keen senses tell me you’ve gotten yourselves some Miles Tickets!! (How? Oh don't worry about that!) The point is that I am Jess’ greatest business partner, and I’d love to make you an offer: Just rub some Miles Tickets in a crafting table to make a market stand, and I'll be right there to supply you all kinds of wares!"
 		""
-		"Do you want meats sourced from the finest farms? Ancient texts of enchanting to help your adventures? Or even some collection from Jess's dex that are too troublesome to obtain?  This all and more can be yours for the right amount of tix haha!"
+		"Do you want meats sourced from the finest farms? Ancient texts of enchanting to help you on your adventures? Or even some collections from Jess's dex that are too troublesome to obtain?  All this and more can be yours for the right amount of tix!"
 	]
 	quest.14E4D983C6F318CD.title: "Rigg the Travel Merchant"
 	quest.15CB4ED1A7CC32B8.title: "General Water Completion"
@@ -95,9 +95,9 @@
 	quest.1B6B73275C612510.quest_desc: [
 		"** your phone rings **"
 		""
-		"Hello. This is Sam the Osprey. I'm somewhat of a connoisseur of aquatic life, both in terms of natural history and consumption.  My life revolves around fish - I'm a sushi chef by day and a fisherman by night."
+		"Salutations. This is Sam the Osprey. I'm somewhat of a connoisseur of aquatic life, both in terms of natural history and consumption.  You see, my life revolves around fish - I am a sushi chef by day and a fisherman by night."
 		""
-		"Jess told me that you are working on the new Adventurer's Settlement and that you have taken quite a liking to fishing!  I'm very glad to hear that! I'll guide you through some fishing steps and even send some packages your way to help on your settlement quest."
+		"Jess told me that you are working on the new Adventurer's Settlement, and that you have taken quite a liking to the art of fishing.  I am incredibly pleased to hear that. I wouldn’t mind taking a new novice fisher under my wing... Yes, allow me to share with you a tip or two about the fishing way, and ship you a couple parcels to aid you with your settlement."
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -105,15 +105,15 @@
 		""
 		"- This modpack has the Tide mod installed and there is a mini game for fish catches."
 		""
-		"- Hold right click with a fishing rod to wind up your fishing rod"
+		"- Hold right click with a fishing rod to wind up your fishing rod."
 		""
-		"- Releasing right click will cast the rod"
+		"- Releasing right click will cast the rod."
 		""
 		"- When a fish bites, a moving target appears."
 		""
 		"- Right click again with the target as close to the center as possible."
 		""
-		"- The closer to the center, the higher chance you will actually catch the fish."
+		"- The closer to the center, the higher the chance you will actually catch the fish."
 		""
 		"== Advance Pickup Upgrade =="
 		""
@@ -128,7 +128,7 @@
 	quest.1EDF709B0F6F410A.quest_desc: [
 		"** Yukkie the Bat **"
 		""
-		"Sweet! You have been finding plants!  Make sure you save some fruits for me!  I'm going to set up an adventurer's stand in the settlement so I can get all the fruit people can offer me!"
+		"Sweet! You have been finding plants!  Make sure you save some fruits for me!  I'm going to set up an adventurer's stand in your settlement so I can nab all the fruit people want to trade!"
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -152,11 +152,11 @@
 	quest.225F1F8C7A7D87A0.title: "Cooking Collection Completion!"
 	quest.226281A3E70EC971.title: "Locate Jess"
 	quest.2295A2D79C1D1833.title: "Animal Observation Completion!"
-	quest.22C8BB99ECF5AB13.quest_desc: ["Nice to meet you!  I am Pingu the Penguin.  I run a music store where I'm from and I'm also the keyboardist in the Sky Penguin.  I also sell some of Sky Penguin's music disc here as well, feel free to check them out!"]
+	quest.22C8BB99ECF5AB13.quest_desc: ["Nice to meet you!  I am Pingu the Penguin.  I run a music store where I'm from.  I'm also the keyboardist in Sky Penguin. I sell some of Sky Penguin's music discs here, feel free to check them out!"]
 	quest.22C8BB99ECF5AB13.title: "Move in Pingu"
 	quest.237FE170DCEF0E64.title: "Collected 10 Unique Flora!"
 	quest.23AAF4EDBDAF772A.title: "Invite Elna"
-	quest.244EB51B41EAB417.quest_desc: ["'Ello, 'ello! Nice to make your aquaintance. My name is Bernina the Shrew. Jess told me you might be interested in buying some hats, and well, I happen to be selling 'em.  I would love to start another hat shop near the settlement."]
+	quest.244EB51B41EAB417.quest_desc: ["'Ello, 'ello! Nice to make your acquaintance. My name is Bernina the Shrew. Jess told me you might be interested in buying some hats, and well, I happen to be selling 'em.  I would love to start another hat shop near the settlement."]
 	quest.244EB51B41EAB417.title: "Move in Bernina"
 	quest.24A47A72A30E2BF1.title: "Invite Andre"
 	quest.25599488DBA4BBEC.title: "Gold Fishing Rod Upgrade Kit"
@@ -205,7 +205,7 @@
 	quest.2C8130F0E14958B4.quest_desc: [
 		"** Pamela the Rabbit **"
 		""
-		"Looks like you been cooking great meals.  I'd love to setup a restaurant supplies shop in the settlement!  Maybe even cook some nice meals while I'm there!"
+		"Looks like you have been busy cooking wonderful meals!  I'd absolutely love to set up a restaurant supplies shop in the settlement, so I can share the joys of cooking with everyone.  Maybe I’ll even whip up some nice meals while I'm there!"
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -214,14 +214,14 @@
 	quest.2C8130F0E14958B4.title: "Move in Pamela"
 	quest.2D21AAD58999457C.title: "Collected 20 Unique Minerals!"
 	quest.2D45906B062171D6.title: "Vanilla Completion"
-	quest.2D5FB33032B2E67B.quest_desc: ["I am Matan the Owl, an artist and collector of arts.  After I heard about the adventure settlement I've been thinking about starting a studio there. If you are able to secure the building I would be very grateful."]
+	quest.2D5FB33032B2E67B.quest_desc: ["I am Matan the Owl, an artist, collector, and distributor of fine artwork.  After I heard about your settlement, my partner Harley and I have been thinking about starting a studio there. If you are able to secure a building for us, I would be very grateful."]
 	quest.2D5FB33032B2E67B.title: "Move in Matan"
 	quest.2D7FBD31BB35A035.title: "Caught 10 Unique Fishes!"
 	quest.2DB621BCC10A0C1C.title: "Modded Foods Completion"
 	quest.2DBF1187A9D50614.quest_desc: [
-		""
 		"** Pamela the Rabbit **"
-		"I see you are coming along great with learning the cooking basics! Once you have learned 5 meals, we can start crafting a menu together.  I bet all the villagers in the Adventure's Settlement would be excited to try out dishes you have just learned!"
+		""
+		"I see you are already getting a solid handle on the cooking basics. Keep it up and I have no doubts you’ll be a great cook in no time!  Once you have learned to cook 5 meals, we can start crafting a menu together.  I bet all the villagers in the Adventure's Settlement would be so excited to try out dishes you just learned!"
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -249,7 +249,7 @@
 		"- Tip: You can add the food items to your JEI bookmarks by pressing 'a' while hovering over a dish!"
 	]
 	quest.2DBF1187A9D50614.title: "Designing Your Own Menu"
-	quest.2EEE42B677C05AF4.quest_desc: ["Hi I'm Sky the elephant, electronics shop owner and guitarist in the Sky Penguin.  Pingu and I have been touring for a while and would love to have a concert in the settlement.  If you can secure a venue for me and Pingu along with an hut for me to sell electronics that would be great!"]
+	quest.2EEE42B677C05AF4.quest_desc: ["Hi, I'm Skye the elephant, electronics shop owner and guitarist in Sky Penguin.  Pingu and I have been touring for a while and would love to have a concert in your settlement.  If you can secure a venue for me and Pingu along with a hut for me to sell electronics, that would be great!"]
 	quest.2EEE42B677C05AF4.title: "Move in Skye"
 	quest.2F7D2916F2B8EEEF.title: "4k Storage"
 	quest.31625B8D809CCCCB.title: "Biome Saplings"
@@ -258,7 +258,8 @@
 	quest.3276A212EDB474BA.title: "Aquarium Completion!"
 	quest.32A06EEE318AC659.quest_desc: [
 		"** Woodpecker Ren **"
-		"Very good material...  Cut wood with stone cutter to make fine furniture"
+		""
+		"Very good material...  Cut wood with stonecutter to make fine furniture."
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -271,11 +272,12 @@
 	quest.32A06EEE318AC659.title: "Making Furniture"
 	quest.32D9390F9B877315.quest_desc: [
 		"** Jess the Beaver **"
-		"As you go on your adventures, you'll find fishes, minerals, flora, and even observe some local wildlife! Filling out the dex in your quest book will get you compensation in the form of Miles Tickets.  Keep them save! They are as good as gold!"
 		""
-		"There are other ways you can get tickets as well.  I know Sam the Osprey exchange them for fishes and all of the people you invite through the Adventurers Settlement package are happy to pay you tickets for a well cooked meal after you have made up a menu!"
+		"As you go on your adventures, you'll find fish, minerals, flora, and even observe some local wildlife! Filling out the dex in your quest book will not only help Busy Beaver Inc. get a better lay of the land — it will also get you compensated in the form of Miles Tickets! Keep them safe. They are as good as gold!"
 		""
-		"The uses of tickets are endless!  All of us have wares for sell in exchange for them and of course the material loan from Jess Inc. will be paid off with them as well."
+		"Oh yes, there are other ways you can get Miles Tickets. I know Sam the Osprey will exchange tickets for fresh caught fish.  And all of the new villagers you invite through the Adventurer’s Settlement Package (myself included!) would be happy to pay you tickets for a well cooked meal, after you have created a menu."
+		""
+		"The uses for tickets are truly endless!  Your villagers will happily exchange wares for tickets.  And of course, the material loan from Busy Beaver Inc. can be paid off with tickets as well. **Nudge, nudge, wink, wink.**"
 	]
 	quest.32D9390F9B877315.title: "Earning a Profit!"
 	quest.33986A0D0262F9CE.title: "Invite Harley"
@@ -303,7 +305,7 @@
 	quest.3AC5083E3D1BEDB0.quest_desc: [
 		"** Ren the Woodpecker **"
 		""
-		"Handcrafted furniture can be decorated.  You can see Rigg for cushions and sheets."
+		"Handcrafted furniture can be decorated...  See Rigg for cushions and sheets."
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -335,7 +337,7 @@
 	quest.451F16432EFAC417.title: "Making Monster Parts Last"
 	quest.46394CBBF5F1EE7C.title: "Vanilla Blocks Completion"
 	quest.47254C7C6ACB15E3.title: "Biome Ground Covers"
-	quest.4753B66B830D109F.quest_desc: ["I'm Parlan the duck, I've been running my humble business for more than 10 years.  If you ever need plumbing supplies you know I got what you need.  I would love to start another store in the settlement.  My daughter Langley and I have been itching to visit another area lately."]
+	quest.4753B66B830D109F.quest_desc: ["I'm Parlan the Duck, I've been running my humble business for more than 10 years.  If you ever need plumbing supplies you know I got what you need.  I would love to start another store in your settlement.  My daughter Langley and I have been itching to visit another area lately."]
 	quest.4753B66B830D109F.title: "Move in Parlan"
 	quest.475A0548B2D4CCF7.title: "Forest Completion"
 	quest.475B5DD94020E4C0.title: "Collected 10 Unique Minerals!"
@@ -370,7 +372,7 @@
 	quest.4C5C72BBA123A633.quest_desc: [
 		"** Your phone rings **"
 		""
-		"I'm Woodpecker Ren...  Cutter of wood for many years... Making furniture? Simple. Find yourself some good materials and I'll help you from there"
+		"I'm Woodpecker Ren...  Cutter of wood for many years... Making furniture? Simple. Find yourself some good materials… I'll help you from there."
 	]
 	quest.4C5C72BBA123A633.title: "Learning to Make Furniture"
 	quest.4CEB9362A3403CA6.title: "Making Cocktails"
@@ -403,7 +405,7 @@
 	quest.5311686C2B4B0C71.quest_desc: [
 		"** Laly the Meerkat **"
 		""
-		"Ooooh you have been finding exquisite specimens I would love to start a new branch of the Oyster Creek Museum at the settlement to showcase some local gems!"
+		"Ooooh you have been finding exquisite specimens!  I would be thrilled to start a new branch of the Oyster Creek Museum at your settlement to showcase some local gems!"
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -423,13 +425,13 @@
 	quest.53A97CAB5255B2F3.title: "Using the Cooking Caldron"
 	quest.55174CBE09CAF168.title: "Locate Skye"
 	quest.55310AAA5E4452D6.title: "Locate Harley"
-	quest.558A1A31A21872DB.quest_desc: ["Hello! Harley the deer at your service! After hearing how my happy partner Matan is with his studio at the settlement, I can't wait to join in as well with my holiday decorations shop!  You see making arts and crafts is my hobby and I'm very happy to help other people getting into the holiday spirits with my crafts! I hope you'll be able to secure a building for me at the settlement!  Oh and if Skye and Pingu ever visit the settlement let me know!  I play drums in their band Sky Penguin every once in a while."]
+	quest.558A1A31A21872DB.quest_desc: ["Hello! Harley the Deer at your service! After hearing how happy my partner Matan is at your settlement, I can't wait to open my holiday decorations shop there!  You see, making arts and crafts is my hobby, and helping other people get into the holiday spirit with my crafts is my passion! I hope you'll be able to secure a building for me at your settlement!  Oh and if Skye and Pingu ever visit, let me know!  I play drums in their band Sky Penguin every once in a while."]
 	quest.558A1A31A21872DB.title: "Move in Harley"
 	quest.5655FAEE335E8842.title: "Biome Foods"
 	quest.56AC6181113D8B4E.quest_desc: [
 		"** Laly the Meerkat **"
 		""
-		"Ooo I see you have found yourself some special gems! They can be used in the Jewelcrafting Station for all kinds of jewelry.  Keep your eye peeled in villages as you explore.  There might be people around that will sell you new jewelry patterns!"
+		"Ooo I see you have found yourself some special gems! They can be used in the Jewelcrafting Station for all kinds of jewelry.  Keep your eyes peeled in villages as you explore.  There might be people around that will sell you new jewelry patterns!"
 	]
 	quest.56AC6181113D8B4E.title: "Jewelry Crafting"
 	quest.56F458AB639E8D1E.title: "Creative Storage Disk"
@@ -444,19 +446,17 @@
 	quest.5BB57D9BEC8038FB.quest_desc: [
 		"** Your phone rings **"
 		""
-		"G'day, I'm Andre the Dog! I've been farming since I was old enough to fill a trough. I'm retired now, but I must say, I'm enjoying it well enough. No losing sleep over managing the farm. No need to worry about logistics, the weather... I can focus my full attention on training my animals. The other day, I taught my chicken Bessie to roll over. She's a smart one, that hen. I even have time to help out at the Oyster Creek Zoo every now and then."
+		"G'day, I'm Andre the Dog. I've been farming since I was old enough to fill a trough. I'm retired now, but I must say, I'm enjoying it well enough. No losing sleep over managing the farm. No need to worry about logistics, the weather... I can focus my full attention on training my animals. The other day, I taught my chicken Bessie to roll over. She's a smart one, that hen. I even have time to help out at the Oyster Creek Zoo every now and then."
 	]
 	quest.5BB57D9BEC8038FB.title: "Observing Animals"
 	quest.5BD4C23644BF2703.quest_desc: [
 		"** your phone rings **"
 		""
-		"Hi, it's me! Jess the Beaver!  It was great speaking with you earlier about our new Adventurers Settlement package!"
+		"Hi, it's me. Jess the Beaver! Thank you for your interest in our new Adventurer’s Settlement Package. I am so thrilled to be your trusted partner in building a brand new settlement from the ground up - your very own home sweet home!"
 		""
-		"I am very glad you have agreed to find a good location for a settlement and develop the land.  In return Jess incorporated will loan you building material for settlement at zero interest. "
+		"As we agreed, your part of the deal will be to scout this vast new land, find the *perfect* location to set down roots, and develop a beautiful new settlement to call your own.  In return, Busy Beaver Inc. will loan you the building materials you’ll need to start your settlement, all at zero percent interest! "
 		""
-		"But enough of the business talk!  I'm sure you'l find all kind of thrills and delights are you explore the land!"
-		""
-		"Get yourself started with a crafting table on a stick and I'll send over some basic starting gear for you"
+		"But enough business talk. Go exploring, and I'm sure you'll find all the delights and thrills your adventurer’s heart craves!  Get yourself started with a crafting table on a stick and I'll send over some basic starting gear for you."
 	]
 	quest.5BD4C23644BF2703.title: "The Adventurers Settlement Package"
 	quest.5BFC475408E39C24.title: "Locate Fenny"
@@ -494,14 +494,14 @@
 	quest.652E92C4C78931C0.quest_desc: [
 		"** Ren the Woodpecker **"
 		""
-		"You have made very good furniture.  I can set up a carpenter and blacksmith shop in the Adventurer's settlement to you and other adventurers."
+		"You have made very good furniture...  Let me set up a shop in the settlement… I will help with woodworking and blacksmithing."
 	]
 	quest.652E92C4C78931C0.title: "Move in Ren"
 	quest.65BA9D1B2DCE2F7E.title: "Collected 80 Unique Flora!"
 	quest.6606553B4C31D667.title: "Collected 2 Unique Flora!"
 	quest.662508CD3479F7E7.title: "Invite Sam"
 	quest.666D55906F99FC33.title: "Flora Compendium Completion!"
-	quest.66DC33622164FCCC.quest_desc: ["Hi~~~ I'm Fenny the fox! I'm recently started an apprenticeship with Bernina and Elna.  Working with them I am getting pretty confident with my ability to make plushies.  Bernina and Elna had already started working in the settlement and I'd love to join as well.  Feel free to drop by and check out my plushes whenever you are around!"]
+	quest.66DC33622164FCCC.quest_desc: ["Hi~~~ I'm Fenny the Fox! I've recently started an apprenticeship with Bernina and Elna.  Not to brag or anything, buuuut I am getting pretty good at making adorable plushies!  I heard Bernina and Elna have already started working in your settlement, and I'd love to join as well.  Feel free to drop by and check out my plushes whenever you are around!"]
 	quest.66DC33622164FCCC.title: "Move in Fenny"
 	quest.66E0ADE0CB1FB995.title: "Collected 5 Unique Flora!"
 	quest.689463295963E36C.title: "Locate Parlan"
@@ -510,10 +510,9 @@
 	quest.6A694FC4A6083409.quest_desc: [
 		"** Jess the Beaver **"
 		""
-		"Oh have you found a place for the settlement?  Here is a shipment of building materials for a welcome center.  We gotta have a place for all of the villager to check in before they move in!  Oh while you are at it if you can build an office for me that would be great!  I've included the some office materials with the materials bundle as well!"
+		"Oh, have you found a place for the settlement?  That’s wonderful news!  Here is a shipment of building materials for a welcome center.  We need a warm, inviting place for all of the villagers to stop by before they move in.  Oh and while you are at it, if you could build an office for me, I would greatly appreciate it! I've included some office materials in the same shipment for your convenience. I can’t wait to see what you come up with, partner!"
 		""
 		"== MODPACK TUTORIAL =="
-		""
 		"Using the architext's cutter you can cut blocks into all kinds of shapes!"
 	]
 	quest.6A694FC4A6083409.title: "Move in Jess"
@@ -531,7 +530,7 @@
 	quest.6FE6A8C6D76300A4.quest_desc: [
 		"** Pamela the Rabbit **"
 		""
-		"Besides making food in the kitchen, you can also build a factory to make foods in scale to sell as shipments. With your building skills I’m sure this will be very approachable for you.  I’ll guide you through the process of making factory foods."
+		"In addition to making food in the kitchen, you can build a factory to make foods in bulk to sell as shipments. With your building skills I’m sure this will be no problem for you. I’m happy to guide you through the process of making factory foods to share with the world!"
 	]
 	quest.6FE6A8C6D76300A4.title: "Creating Factory Foods"
 	quest.703E05E1F1899BE1.title: "Creative Range Upgrade"
@@ -553,13 +552,13 @@
 		"-Khazenor"
 	]
 	quest.7041BB13DE704850.title: "Village Capacity Permit"
-	quest.712B913703C63ED7.quest_desc: ["Hey there! I'm Elna the Shrew. My older sis, Berni, told me about you. Said you were into the fashion scene. I'm actually starting my own fashion brand, and would totally be down to open a shop in the settlement, if you're the real deal."]
+	quest.712B913703C63ED7.quest_desc: ["Hey there! I'm Elna the Shrew. My older sis, Berni, told me about you. Said you were into the fashion scene. I'm actually starting my own fashion brand, and would totally be down to open a shop in your settlement, if you're the real deal."]
 	quest.712B913703C63ED7.title: "Move in Elna"
 	quest.71C1250C2004016A.title: "Iron Fishing Rod Upgrade"
 	quest.71DD63453348DBE8.quest_desc: [
 		"** Sam the Osprey **"
 		""
-		"I see that you're fishing adventure is coming along nicely. Once you have caught a good amount of fishes I'll be more than happy to setup a sushi and fishing shop in the Adventurer's Settlement! I'll send over some of my belongings with the building materials!"
+		"I see that your fishing journey is coming along quite splendidly. I do hope that you will catch even more fish and prove your devotion to the fishing way. Once you have demonstrated your commitment, I would be honored to establish a sushi and fishing shop in your Adventurer's Settlement. Yes, when that time comes, I shall ship you a few of my belongings with the building materials for my shop."
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -585,7 +584,7 @@
 	quest.7B74B56291565C0D.quest_desc: [
 		"** Ren the Woodpecker **"
 		""
-		"Tool belts are a useful utility … I have this one for sell."
+		"Tool belts are a useful utility … I have this one for sale."
 		""
 		"== MODPACK TUTORIAL =="
 		""
@@ -600,7 +599,7 @@
 	quest.7B74B56291565C0D.title: "Carrying Your Tools Around"
 	quest.7DBED7DA198DC1F2.title: "Desert Completion"
 	quest.7E65A136C4C4CCCE.title: "Barrel Brewing Completion"
-	quest.7EAEF8A92CA83B75.quest_desc: ["Ello Ello!  I'm Langley the duck!  Researching is my passion and I love to spend as much time as I can experimenting with various solutions.  My dad said there seems to be a good amount of good experimentation material in the settlement. I would love to open a temp research facility in the settlement.  While I'm at it I might as well sell some extra lap equipment I have lying around.  Research ain't cheap!"]
+	quest.7EAEF8A92CA83B75.quest_desc: ["Hey, hey!  I'm Langley the Duck!  Researching is my passion and I love to spend as much time as I can experimenting with various solutions.  My dad said there seems to be a decent supply of interesting materials around your settlement that could fuel my experiments. I would love to open a temp research facility in your area.  While I'm at it, I might as well sell some extra lab equipment I have lying around.  Research ain't cheap!"]
 	quest.7EAEF8A92CA83B75.title: "Move in Langley"
 	quest.7EBEA8535B48079B.title: "Collected 5 Unique Minerals!"
 	quest.7EF0A60D2381B72D.quest_desc: [
