@@ -13,6 +13,7 @@ betterarcheology-neoforge-1.21.1-1.3.4.jar
 betterbeds-1.4.0.jar
 betterchunkloading-1.21-5.4.jar
 betterfpsdist-1.21-6.0.jar
+BetterThirdPerson-neoforge-1.9.0.jar
 biomemusic-1.21-3.4.jar
 bookshelf-neoforge-1.21.1-21.1.80.jar
 botanypots-neoforge-1.21.1-21.1.41.jar
