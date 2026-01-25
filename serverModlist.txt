@@ -70,6 +70,7 @@ getittogetherdrops-neoforge-1.21.5-1.4.jar
 glassbreaker-2.0.0+1.21+neoforge.jar
 Glassential-renewed-1.21.1-3.4.0.jar
 globalpacks-neoforge-1.21.1-21.0.6.jar
+grind-enchantments-4.0.1+neoforge-1.21.1.jar
 handcrafted-neoforge-1.21.1-4.0.3.jar
 incontrol-1.21-10.2.5.jar
 iris-flywheel-compat-NeoForge-2.1.0.jar
