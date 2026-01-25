@@ -72,7 +72,8 @@ RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   npcCommonBehavior(event, NpcRen, [
     () => {
       let mainHandItem = EventHelpers.mainHandItem(event).id
-      if (MaterialList.includes(mainHandItem)) {
+      let mainHandItemCount = EventHelpers.mainHandItem(event).count
+      if (MaterialList.includes(mainHandItem) && mainHandItemCount == 64) {
         NpcHelper.handleSellingItemToNpc(event,
           NpcRen.constructionTicketId,
           1,
