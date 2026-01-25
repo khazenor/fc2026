@@ -28,6 +28,8 @@ const NpcJess = {
       playerGive: MilesTickets.bookletId,
       playerNum: 4
     }, {
+      villagerItems: ['sophisticatedstorage:basic_tier_upgrade']
+    }, {
       villagerItems: ['sophisticatedstorage:basic_to_copper_tier_upgrade'],
       playerNum: 4,
     }, {
