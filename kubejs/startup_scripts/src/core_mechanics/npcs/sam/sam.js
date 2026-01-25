@@ -117,7 +117,8 @@ RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
       NpcHelper.handleSellingItemToNpc(
         event,
         NpcSam.fishSellDefs[mainHandItem].id,
-        NpcSam.fishSellDefs[mainHandItem].count
+        NpcSam.fishSellDefs[mainHandItem].count,
+        1
       )
       return true
     } else {

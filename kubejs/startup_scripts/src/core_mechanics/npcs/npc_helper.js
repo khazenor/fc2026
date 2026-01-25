@@ -63,7 +63,7 @@ const NpcHelper = {
       )]])
     }
   },
-  handleSellingItemToNpc (event, npcGiveId, npcGiveCount) {
+  handleSellingItemToNpc (event, npcGiveId, npcGiveCount, playerGiveCount) {
     let player = event.player
     let target = event.target
     let handItemId = EventHelpers.mainHandItemId(event)
@@ -75,10 +75,13 @@ const NpcHelper = {
         target.name.getString(),
         TransHelper.itemNameWithIsArePlural(npcGiveId, npcGiveCount)
       ))
-      player.mainHandItem.count --
+      player.mainHandItem.count -= playerGiveCount
       GiveItem.giveItemsSmart(event, npcGiveId, npcGiveCount)
     } else {
-      player.tell(Text.translatable('npcs.sellItem.areYouSureSell', itemName))
+      player.tell(Text.translatable('npcs.sellItem.areYouSureSell',
+        StrHelper.cleanFloor(playerGiveCount), itemName,
+        StrHelper.cleanFloor(npcGiveCount), TransHelper.itemName(npcGiveId)
+      ))
     }
     event.cancel()
   },

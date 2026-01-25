@@ -1,4 +1,4 @@
-// priority 1
+// priority 2
 const MaterialList = [
   "minecraft:dirt",
   "minecraft:coarse_dirt",

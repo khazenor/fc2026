@@ -2,6 +2,7 @@
 const NpcRen = {
   name: 'Ren',
   diamondIngotId: 'kubejs:diamond_ingot',
+  constructionTicketId: 'kubejs:construction_ticket',
   get offerDefs () { return [{
     villagerItems: [this.diamondIngotId],
     playerNum: 64
@@ -52,7 +53,10 @@ const NpcRen = {
   }
 }
 
-RequestHandler.items.create.simple(NpcRen.diamondIngotId)
+RequestHandler.items.create.simple([
+  NpcRen.diamondIngotId,
+  NpcRen.constructionTicketId
+])
 RequestHandler.recipes.remove.byItemId(NpcRen.disableRecipesForItemIds)
 
 for (let base in NpcRen.diamondSmithingRecipes) {
@@ -65,5 +69,25 @@ for (let base in NpcRen.diamondSmithingRecipes) {
 }
 
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
-  npcCommonBehavior(event, NpcRen, false)
+  npcCommonBehavior(event, NpcRen, [
+    () => {
+      let mainHandItem = EventHelpers.mainHandItem(event).id
+      if (MaterialList.includes(mainHandItem)) {
+        NpcHelper.handleSellingItemToNpc(event,
+          NpcRen.constructionTicketId,
+          1,
+          64
+        )
+      }
+    }
+  ])
 }])
+
+MaterialList.forEach(materialId => {
+  RequestHandler.recipes.add.shapeless([
+    [StrHelper.itemStackStr(materialId, 64), [
+      materialId,
+      NpcRen.constructionTicketId
+    ]]
+  ])
+})
