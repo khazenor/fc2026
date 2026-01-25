@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "moa_decor_electronics:blocks/camara_seguridad_izquierda",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "moa_decor_electronics:camara_seguridad_izquierda"
+        }
+      ]
+    }
+  ]
+}
