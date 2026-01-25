@@ -74,16 +74,7 @@ const RequestHandler = {
         }
         this.stonecuttingCache = this.stonecuttingCache.concat(updatedDefs)
       },
-      stonecuttingArrInAndOutput (defs) {
-        for (let def of defs) {
-          for (let outputId of def) {
-            for (let inputId of def) {
-              this.stonecuttingCache.push([outputId, inputId])
-            }
-          }
-        }
-      },
-      stonecuttingWithTags (defs) {
+      stonecuttingWithOutputTags (defs) {
         this.stonecuttingWithTagsCache = this.stonecuttingWithTagsCache.concat(defs)
       },
       stonecuttingWithTagsCache: [],
@@ -170,5 +161,19 @@ const RequestHandler = {
       this.beforeServerHooksCache = this.beforeServerHooksCache.concat(callbacks)
     },
     beforeServerHooksCache: []
+  }
+}
+
+const RequestHelper = {
+  stonecuttingAllToAll (itemIds, tagName) {
+    itemIds.forEach(itemId => {
+      RequestHandler.recipes.add.stonecutting([
+        [itemId, `#${tagName}`]
+      ])
+    })
+
+    RequestHandler.tags.item.add([
+      [tagName, itemIds]
+    ])
   }
 }

@@ -91,7 +91,7 @@ RequestHandler.recipes.add.allFoodCooking([
 
 RequestHandler.recipes.add.shapeless(MeatyMushrooms.shapelessDefs)
 
-RequestHandler.recipes.add.stonecuttingWithTags([
+RequestHandler.recipes.add.stonecuttingWithOutputTags([
   ['#c:foods/raw_meat', MeatyMushrooms.pattyId],
   ['#c:foods/cooked_meat', MeatyMushrooms.cookedPattyId]
 ])
