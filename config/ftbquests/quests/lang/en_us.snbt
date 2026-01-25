@@ -71,6 +71,8 @@
 		"Do you want meats sourced from the finest farms? Ancient texts of enchanting to help you on your adventures? Or even some collections from Jess's dex that are too troublesome to obtain?  All this and more can be yours for the right amount of tix!"
 	]
 	quest.14E4D983C6F318CD.title: "Rigg the Travel Merchant"
+	quest.151D4079C92BCA30.quest_desc: ["You can duplicate building materials using a miles ticket by crafting it with the crafting table!"]
+	quest.151D4079C92BCA30.title: "Duplicating Materials"
 	quest.15CB4ED1A7CC32B8.title: "General Water Completion"
 	quest.15D4AD19820415DF.title: "Beaches Completion"
 	quest.16075BB40754A758.title: "Biome Flowers"
@@ -318,6 +320,22 @@
 	quest.3B9CE10D0F209658.title: "Locate Bernina"
 	quest.3CA5ABA6ED18830D.title: "Invite Pamela"
 	quest.3D6181906ADC7014.title: "Vanilla Flower Completion"
+	quest.3D99799B43A55505.quest_desc: [
+		"** Ren the Woodpecker **"
+		""
+		"Do you have any extra building materials? I can trade construction tickets."
+		""
+		"## Modpack Tutorial ##"
+		""
+		"- Ren buys any extra building materials you have lying around"
+		""
+		"- To trade, right click Ren with a stack of building materials in your hand"
+		""
+		"- Right click again to confirm"
+		""
+		"- Construction tickets can be used in the crafting table to duplicate other building materials"
+	]
+	quest.3D99799B43A55505.title: "Selling Building Materials"
 	quest.3E5304852BAF4E53.title: "Modded Saplings"
 	quest.405396378EE4B767.quest_desc: ["Good job moving all of the villagers in!  Now as per our agreement the amount you owe Busy Beaver Inc. … 192 tickets!  The loan is at zero interest so feel free to take your time.  Just know that there are most possibilities ahead for the settlement if you get that loan paid!"]
 	quest.405396378EE4B767.title: "Building Material Loan Payment"
@@ -760,6 +778,7 @@
 	task.551F406652B0EFC0.title: "Free Task"
 	task.55F87828A957E5CE.title: "Any #c:cuttable_furniture"
 	task.56C5449D42AAC4FB.title: "Any #minecraft:logs"
+	task.56F93F3D9388937F.title: "Any #c:building_materials"
 	task.5847BD3D1E748F72.title: "Free Task"
 	task.5861DEF632C4ACC9.title: "Free Task"
 	task.58B2A274840BA894.title: "Spot a glow squid"

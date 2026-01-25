@@ -1678,7 +1678,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4C5C72BBA123A633"]
@@ -1698,8 +1698,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:cuttable_furniture)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -2523,7 +2523,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["652E92C4C78931C0"]
+			dependencies: ["3D99799B43A55505"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "flightblocks:flight_block"
@@ -2547,8 +2547,8 @@
 				item: { count: 1, id: "flightblocks:flight_block" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1754A8F9C2B428F3"]
@@ -2761,8 +2761,8 @@
 				item: { count: 1, id: "kubejs:miles_ticket" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -2835,6 +2835,54 @@
 			}]
 			x: 3.0d
 			y: -4.0d
+		}
+		{
+			dependencies: [
+				"652E92C4C78931C0"
+				"151D4079C92BCA30"
+			]
+			hide_until_deps_complete: true
+			id: "3D99799B43A55505"
+			rewards: [{
+				count: 2
+				id: "3007ADE4988E11E3"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60D6AFAF0D20F5CE"
+				item: { count: 1, id: "kubejs:construction_ticket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32D9390F9B877315"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "151D4079C92BCA30"
+			rewards: [{
+				id: "6A3C016BF17C1129"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "56F93F3D9388937F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:building_materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
 		}
 	]
 }

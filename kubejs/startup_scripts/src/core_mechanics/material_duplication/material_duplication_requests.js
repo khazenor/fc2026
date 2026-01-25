@@ -23,3 +23,7 @@ RequestHandler.tooltips.add([
 ])
 
 RequestHandler.recipes.add.shapeless(MaterialDupeReqs.shaplessDefs)
+
+RequestHandler.tags.item.add([
+  ['c:building_materials', MaterialList]
+])
