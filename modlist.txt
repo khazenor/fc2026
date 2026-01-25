@@ -167,6 +167,7 @@ TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 tide-neoforge-1.21-1.6.4.jar
 tinycoal-neoforge-1.21.1-1.0.3.jar
 ToolBelt-1.21.1-2.2.7.jar
+toomanypaintings-25.10.20-1.21-neoforge.jar
 t_and_t-neoforge-fabric-1.13.7+1.21.1.jar
 UtilitiX-21.1.3.jar
 waystones-neoforge-1.21.1-21.1.25.jar
