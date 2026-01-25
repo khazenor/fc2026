@@ -143,6 +143,7 @@ resourcefulconfig-neoforge-1.21-3.0.11.jar
 resourcefullib-neoforge-1.21-3.0.12.jar
 rhino-2101.2.7-build.81.jar
 rightclickharvest-neoforge-4.6.1+1.21.1.jar
+RingOfTeleport-NeoForge-1.21.1-1.8.4.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
 ShoulderSurfing-NeoForge-1.21.1-4.18.2.jar
 simplemagnets-1.1.12c-neoforge-mc1.21.jar
