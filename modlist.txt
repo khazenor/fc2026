@@ -124,6 +124,7 @@ MOAdecor TOYS 1.21.1.A.jar
 MobCapturingTool-neoforge-1.21-4.1.0.jar
 modernfix-neoforge-5.25.1+mc1.21.1.jar
 moonlight-1.21-2.29.14-neoforge.jar
+more-enchantment-info-0.3.0.jar
 MouseTweaks-neoforge-mc1.21-2.26.1.jar
 OctoLib-NEOFORGE-0.6.0.4+1.21.jar
 Oh-The-Biomes-Weve-Gone-NeoForge-2.5.2.jar
