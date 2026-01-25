@@ -1,0 +1,8 @@
+#Makes the impaling enchantment apply to any creature in contact with rain or water.
+#Default Value: true
+#Requires Restart: Game
+boost_impaling = true
+#Elder guardians will always drop one trident fragment, you need three to craft yourself a new trident. How convenient!
+#Default Value: true
+#Requires Restart: World
+trident_fragment_drop = true
