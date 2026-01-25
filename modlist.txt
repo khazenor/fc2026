@@ -2,7 +2,6 @@ advancednetherite-neoforge-2.3.1-1.21.1.jar
 AI-Improvements-1.21-0.5.3.jar
 allthecompressed-1.21.1-4.4.0.jar
 Almanac-1.21.1-2-neoforge-1.5.0.jar
-amendments-1.21-2.0.15-neoforge.jar
 ApothicAttributes-1.21.1-2.9.0.jar
 appleskin-neoforge-mc1.21-3.0.7.jar
 architectury-13.0.8-neoforge.jar
@@ -123,8 +122,6 @@ MOAdecor SCIENCE 1.21.1.A.jar
 MOAdecor TOYS 1.21.1.A.jar
 MobCapturingTool-neoforge-1.21-4.1.0.jar
 modernfix-neoforge-5.25.1+mc1.21.1.jar
-moonlight-1.21-2.29.14-neoforge.jar
-more-enchantment-info-0.3.0.jar
 MouseTweaks-neoforge-mc1.21-2.26.1.jar
 NaturesCompass-1.21.1-3.0.3-neoforge.jar
 OctoLib-NEOFORGE-0.6.0.4+1.21.jar
