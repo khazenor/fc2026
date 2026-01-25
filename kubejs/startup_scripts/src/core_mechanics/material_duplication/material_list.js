@@ -158,5 +158,16 @@ const MaterialList = [
   'biomeswevegone:weeping_milkcap_mushroom_block',
   'biomeswevegone:white_mushroom_stem',
   'biomeswevegone:wood_blewit_mushroom_block',
-  'minecraft:red_mushroom_block'
+  'minecraft:red_mushroom_block',
+  'yungscavebiomes:ancient_sand',
+  'biomeswevegone:peat',
+  'biomeswevegone:sandy_dirt',
+  'biomeswevegone:lush_dirt',
+  'biomeswevegone:white_sand',
+  'biomeswevegone:blue_sand',
+  'biomeswevegone:purple_sand',
+  'biomeswevegone:cracked_sand',
+  'biomeswevegone:cracked_red_sand',
+  'biomeswevegone:quicksand',
+  'biomeswevegone:red_quicksand',
 ]
