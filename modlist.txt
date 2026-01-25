@@ -165,6 +165,7 @@ supermartijn642configlib-1.1.8-neoforge-mc1.21.jar
 supermartijn642corelib-1.1.19-neoforge-mc1.21.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 tide-neoforge-1.21-1.6.4.jar
+tinycoal-neoforge-1.21.1-1.0.3.jar
 ToolBelt-1.21.1-2.2.7.jar
 t_and_t-neoforge-fabric-1.13.7+1.21.1.jar
 UtilitiX-21.1.3.jar
