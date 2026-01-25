@@ -88,5 +88,9 @@ const WoodTypeInfo = {
       'biomeswevegone:skyris_log'
     ],
     convertableIds: []
+  }, {
+    names: ['streetlight', 'lamp', 'lantern'],
+    ids: ['minecraft:lantern'],
+    convertableIds: []
   }]
 }
