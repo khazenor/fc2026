@@ -31,6 +31,16 @@ const ArrayJs = {
       objArray[key] = [value]
     }
   },
+  javaArrToArr (javaArr) {
+    if (typeof javaArr === 'string') {
+      return [javaArr]
+    }
+    let arr = []
+    for (let i = 0; i<javaArr.length; i++) {
+      arr.push(javaArr[`${i}`])
+    }
+    return arr
+  },
   arrayDiff (parentArray, subtractArray) {
     let arrayDiff = []
     for (let parentVal of parentArray) {

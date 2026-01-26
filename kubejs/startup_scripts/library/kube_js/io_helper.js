@@ -12,10 +12,14 @@ const IoHelper = {
   },
   readObj(fileDir) {
     let loadedObj = JsonIO.read(fileDir)
-    if (Object.keys(loadedObj).includes(this.arrayValuesKey)) {
-      return loadedObj[this.arrayValuesKey]
+    if (loadedObj) {
+      if (Object.keys(loadedObj).includes(this.arrayValuesKey)) {
+        return loadedObj[this.arrayValuesKey]
+      } else {
+        return loadedObj
+      }
     } else {
-      return loadedObj
+      return null
     }
   }
 }

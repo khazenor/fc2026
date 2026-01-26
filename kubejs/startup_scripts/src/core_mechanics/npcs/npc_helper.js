@@ -36,9 +36,6 @@ const NpcHelper = {
         )
         player.tell(dialog)
       } else if (offerDefs) {
-        console.log('npcDialogDefs(npcName, playerName)[npcName]', npcDialogDefs(npcName, playerName)[npcName])
-        console.log('npcDialogDefs(npcName, playerName)', npcDialogDefs(npcName, playerName))
-        console.log('npcName', npcName)
         player.tell('updating trades')
       }
       if (catalogOfferDef) {
