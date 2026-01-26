@@ -1513,7 +1513,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1578,7 +1578,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -2883,6 +2883,31 @@
 			}]
 			x: 1.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["14E4D983C6F318CD"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "ring_of_teleport:ring_of_teleport"
+			}
+			id: "5D97E780E413EDAC"
+			rewards: [{
+				id: "3F00C6E28E89EB72"
+				item: {
+					count: 1
+					id: "ring_of_teleport:ring_of_teleport"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4C2DE79D5D948337"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 }

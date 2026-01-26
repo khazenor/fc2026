@@ -482,6 +482,12 @@
 	quest.5CE74678035D4392.title: "Invite Ren"
 	quest.5D3A59A2553E1D3C.title: "Savanna Completion"
 	quest.5D5B330B0F9BAEE0.title: "Ore Completion"
+	quest.5D97E780E413EDAC.quest_desc: [
+		"** Rigg the Racoon **"
+		""
+		"Do you need a quick way to get back home after a long day of exploration? Well look no more as I have just found something while traveling that can solve that problem in a jiffy!  All for the low low price of 16 tix!"
+	]
+	quest.5D97E780E413EDAC.title: "Coming Home"
 	quest.5E2326EDD5B662A8.title: "Crystal Fishing Rod Upgrade Kit"
 	quest.5E30BB54995DB642.title: "Collected 110 Unique Flora!"
 	quest.5E40E79D5B5E737F.title: "Iron Fishing Rod Upgrade Kit"
