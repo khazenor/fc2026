@@ -1,9 +1,5 @@
 [
   {
-    "key": "key.fullscreen",
-    "color": "WHITE"
-  },
-  {
     "key": "crafting_on_a_stick.key.open_curios.custom",
     "color": "DARK_RED"
   },
@@ -28,11 +24,11 @@
     "color": "DARK_BLUE"
   },
   {
-    "key": "key.effortlessbuilding.mode.desc.custom",
-    "color": "DARK_PURPLE"
+    "key": "key.wands.wand_menu.custom",
+    "color": "YELLOW"
   },
   {
-    "key": "key.toolbelt.open.custom",
-    "color": "DARK_GRAY"
+    "key": "key.shouldersurfing.toggle_third_person_back.custom",
+    "color": "DARK_PURPLE"
   }
 ]
