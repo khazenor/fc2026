@@ -8,7 +8,7 @@
 const NpcSam = {
   name: 'Sam',
   get fishSellDefs () {
-    let maxFishSell = 16
+    let maxFishSell = 8
     let minFishSell = 1
     let weights = Object.values(FishInfo.weights)
     let minWeight = ArrayJs.min(weights)
@@ -22,7 +22,7 @@ const NpcSam = {
       fishPrices[fishId] = { id: MilesTickets.ticketId, count: sell }
     }
 
-    let specialFishSell = 8
+    let specialFishSell = 4
     for (let specialFishId of FishInfo.specialFishes) {
       fishPrices[specialFishId] = { id: MilesTickets.ticketId, count: specialFishSell }
     }
