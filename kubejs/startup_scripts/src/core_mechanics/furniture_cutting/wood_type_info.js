@@ -89,7 +89,7 @@ const WoodTypeInfo = {
     ],
     convertableIds: []
   }, {
-    names: ['streetlight', 'lamp', 'lantern'],
+    names: ['streetlight', 'lamp', 'lantern', 'bulkhead', 'wall light', 'chandelier', 'lightbulb', 'spotlight'],
     ids: ['minecraft:lantern'],
     convertableIds: []
   }]
