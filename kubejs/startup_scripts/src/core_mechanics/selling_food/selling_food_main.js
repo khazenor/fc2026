@@ -1,5 +1,6 @@
 const SellingFood = {
   debugDeleteItemId: 'kubejs:debug_clear_player_food_collected',
+  clearMenuItemId: 'kubejs:debug_clear_menu',
   menuId: 'kubejs:menu',
   get itemIds () {
     return [this.debugDeleteItemId, this.debugTrigger, this.menuId]
@@ -56,16 +57,15 @@ RequestHandler.callbacks.itemEvents.rightClicked([event => {
   let mainHandItemId = EventHelpers.mainHandItemId(event)
   let isPlayerShifting = EventHelpers.isPlayerShifting(event)
 
-  // clear food collected
-  if (
-    mainHandItemId === SellingFood.debugDeleteItemId && isPlayerShifting
-  ) {
-    PlayerFoodCollectedLogger.clearFoods(event)
-    EventHelpers.tellPlayer(event, Text.translate('sellingFood.foodCollectedClearedMsg'))
-  }
+  if (isPlayerShifting) {
+    // clear food collected
+    if (mainHandItemId === SellingFood.debugDeleteItemId) {
+      PlayerFoodCollectedLogger.clearFoods(event)
+      EventHelpers.tellPlayer(event, Text.translate('sellingFood.foodCollectedClearedMsg'))
+    }
 
-  if (mainHandItemId === SellingFood.menuId) {
-    if (isPlayerShifting) {
+    // clear menu
+    else if (mainHandItemId === SellingFood.clearMenuItemId) {
       if (PlayerTimingJs.checkAreYouSureLike(
         EventHelpers.playerName(event), 'ClearOrderAreYouSure', 5
       )) {
@@ -74,9 +74,11 @@ RequestHandler.callbacks.itemEvents.rightClicked([event => {
       } else {
         EventHelpers.tellPlayer(event, Text.translate('sellingFood.clearOrderAreYouSure'))
       }
-    } else if (!EventHelpers.hasTargetEntity(event)) {
-      MenuGui.openMenuGui(event)
     }
+  }
+
+  if (mainHandItemId === SellingFood.menuId && !EventHelpers.hasTargetEntity(event)) {
+    MenuGui.openMenuGui(event)
   }
 }])
 
@@ -84,7 +86,6 @@ RequestHandler.items.create.simple(SellingFood.itemIds)
 RequestHandler.tooltips.add([
   [SellingFood.menuId, [
     Text.translate('sellingFood.tooltip.menu.rightClickCustomer'),
-    Text.translate('sellingFood.tooltip.menu.rightClick'),
-    Text.translate('sellingFood.tooltip.menu.shiftClickToClear')
+    Text.translate('sellingFood.tooltip.menu.rightClick')
   ]]
 ])

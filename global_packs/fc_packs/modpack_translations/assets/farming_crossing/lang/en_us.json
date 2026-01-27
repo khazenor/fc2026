@@ -271,7 +271,6 @@
   "sellingFood.sellingFoodThanksMsg": "<%s> Thank you so much for the %s! (Miles Ticket x%s received)",
   "sellingFood.tooltip.menu.rightClick": "Right Click the air to see all active orders",
   "sellingFood.tooltip.menu.rightClickCustomer": "Right Click a FC Npc to receive their order",
-  "sellingFood.tooltip.menu.shiftClickToClear": "Shift Click to clear all customer orders",
   "ticketBundling.bookletShift": "Sneak-click to unbundle",
   "ticketBundling.bookletWorth": "Each worth %s Miles Tickets",
   "ticketBundling.shiftToBundle": "Sneak-click to bundle",

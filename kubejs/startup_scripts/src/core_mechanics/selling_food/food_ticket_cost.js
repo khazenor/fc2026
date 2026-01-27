@@ -1,6 +1,6 @@
 const FoodTicketCost = {
   tiers: [5, 10, 15, 25, 40, 65, 105, 170, 275, 445],
-  costs: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20],
+  costs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   foodCost (numFoodCollected) {
     if (numFoodCollected < this.tiers[0]) {
       return this.costs[0]
