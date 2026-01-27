@@ -13,6 +13,10 @@ RequestHandler.recipes.remove.byItemId([
   'vinery:grapevine_stem'
 ])
 
+RequestHandler.recipes.remove.byRecipeId([
+  'meadow:cooking_pot/baked_potato'
+])
+
 RequestHandler.tooltips.add([
   ['farm_and_charm:water_sprinkler', [Text.translate('letsDo.tooltip.sprinkler')]],
   ['farm_and_charm:cattlegrid', [Text.translate('letsDo.tooltip.cattleGrid')]]
