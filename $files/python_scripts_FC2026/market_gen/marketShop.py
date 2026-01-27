@@ -51,6 +51,9 @@ categories = {
       }, {
         itemsKey: ["minecraft:anvil"],
         priceKey: 16
+      }, {
+        itemsKey: ['simplemagnets:basicmagnet'],
+        priceKey: 8
       }
     ]
   },

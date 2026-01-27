@@ -37,6 +37,7 @@ ItemEvents.modifyTooltips(event => {
   event.add(
     [
       'minecraft:bundle', 
+      'simplemagnets:basicmagnet', 
       'minecraft:chorus_fruit', 
       'minecraft:spider_eye', 
       'minecraft:gunpowder', 
