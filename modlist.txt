@@ -147,6 +147,7 @@ rightclickharvest-neoforge-4.6.1+1.21.1.jar
 RingOfTeleport-NeoForge-1.21.1-1.8.4.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
 ShoulderSurfing-NeoForge-1.21.1-4.18.2.jar
+shulkerboxtooltip-neoforge-5.1.8+1.21.1.jar
 simplemagnets-1.1.12c-neoforge-mc1.21.jar
 SimplyTools-21.1.3.jar
 smoothchunk-1.21-4.1.jar
