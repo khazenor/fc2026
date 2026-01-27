@@ -23,6 +23,15 @@ const NpcJess = {
     let soph = SophisticatedBackPacks
     let sophSup = SophisticatedBackPackSupport
     return [{
+      villagerItems: RandHelper.randomMineDayRandFromArr(JessItems.backpackUpgradesMisc, 1),
+      playerNum: RandHelper.randSellPrice(16, 64, 0)
+    }, {
+      villagerItems: RandHelper.randomMineDayRandFromArr(JessItems.storageUpgrades, 1),
+      playerNum: RandHelper.randSellPrice(16, 64, 1)
+    }, {
+      villagerItems: RandHelper.randomMineDayRandFromArr(JessItems.drawerUpgrades, 1),
+      playerNum: RandHelper.randSellPrice(16, 64, 2)
+    }, {
       villagerItems: [soph.backpackId(soph.tiers.normal)],
       playerNum: 8
     }, {
