@@ -91,7 +91,8 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
-      'create:blaze_burner'
+      'create:blaze_burner', 
+      'minecraft:anvil'
     ],
     [
       Text.translate('marketTooltips.obtainableFor16TicketsInRiggsMarket')

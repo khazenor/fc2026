@@ -48,6 +48,9 @@ categories = {
       }, {
         itemsKey: ["create:blaze_burner"],
         priceKey: 16
+      }, {
+        itemsKey: ["minecraft:anvil"],
+        priceKey: 16
       }
     ]
   },
