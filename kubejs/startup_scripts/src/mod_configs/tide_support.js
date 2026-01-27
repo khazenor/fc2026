@@ -28,7 +28,7 @@ const TideSupport = {
           defs.push([output, 'minecraft:fishing_rod', upgradeMaterial, 'minecraft:stick'])
         } else {
           let itemToUpgrade = this.fishingRodIds[j]
-          defs.push([output, itemToUpgrade, upgradeMaterial, 'minecraft:stick'])
+          defs.push([output, upgradeMaterial, itemToUpgrade, 'minecraft:stick'])
         }
       }
     }
