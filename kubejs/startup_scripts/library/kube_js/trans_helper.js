@@ -6,7 +6,7 @@ const TransHelper = {
     return Text.translate(Item.of(itemId).getDescriptionId())
   },
   itemNameEngStr (itemId) {
-    return this.itemName(itemId).getString()
+    return StrHelper.cleanStr(this.itemName(itemId).getString())
   },
   itemNameWithPlural (itemId, count) {
     let itemName = this.itemName(itemId)
