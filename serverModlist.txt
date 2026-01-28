@@ -98,6 +98,7 @@ limitedchunks-1.21-4.1.jar
 logbegone-neoforge-1.21.1-1.0.3.jar
 lootr-neoforge-1.21.1-1.11.36.111.jar
 mcw-bridges-3.1.1-mc1.21.1neoforge.jar
+mcw-doors-1.1.2-mc1.21.1neoforge.jar
 mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar
 MOAdecor ART 1.21.1.B.jar
 MOAdecor BATH 1.21.1.C.jar
