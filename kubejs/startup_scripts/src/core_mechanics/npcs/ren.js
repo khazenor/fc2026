@@ -3,6 +3,8 @@ const NpcRen = {
   name: 'Ren',
   diamondIngotId: 'kubejs:diamond_ingot',
   constructionTicketId: 'kubejs:construction_ticket',
+  constructionBookletId: 'kubejs:construction_booklet',
+  constructionBundleCount: 64,
   get offerDefs () { return [{
     villagerItems: [this.diamondIngotId],
     playerNum: 64
@@ -55,7 +57,8 @@ const NpcRen = {
 
 RequestHandler.items.create.simple([
   NpcRen.diamondIngotId,
-  NpcRen.constructionTicketId
+  NpcRen.constructionTicketId,
+  NpcRen.constructionBookletId
 ])
 RequestHandler.recipes.remove.byItemId(NpcRen.disableRecipesForItemIds)
 
@@ -92,3 +95,35 @@ MaterialList.forEach(materialId => {
     ]]
   ])
 })
+
+RequestHandler.callbacks.itemEvents.rightClicked([
+  event => {
+    if (event.player.shiftKeyDown && event.item === NpcRen.constructionBookletId) {
+      MilesTickets.unBundleItems(event,
+        NpcRen.constructionTicketId,
+        NpcRen.constructionBundleCount
+      )
+    }
+  },
+  event => {
+    if (event.player.shiftKeyDown && event.item === NpcRen.constructionTicketId) {
+      MilesTickets.bundleItems(event, 
+        NpcRen.constructionTicketId,
+        NpcRen.constructionBookletId,
+        NpcRen.constructionBundleCount,
+        1
+      )
+    }
+  }
+])
+
+RequestHandler.recipes.add.shapeless([
+  [StrHelper.itemStackStr(NpcRen.constructionTicketId, NpcRen.constructionBundleCount), [NpcRen.constructionBookletId]]
+])
+
+RequestHandler.tooltips.add([
+  [NpcRen.constructionTicketId, [Text.translate('ticketBundling.shiftToBundle')]],
+  [NpcRen.constructionBookletId, [
+    Text.translate('ticketBundling.bookletShift')
+  ]]
+])

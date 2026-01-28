@@ -3,7 +3,27 @@ const MilesTickets = {
   ticketId: 'kubejs:miles_ticket',
   bookletId: 'kubejs:miles_booklet',
   bundleCount: 64,
-  numStacksToBundle: 1
+  numStacksToBundle: 1,
+  bundleItems(event, singleId, bundleId, bundleCount, numStacksToBundle) {
+    let thresholdForBundling = bundleCount * numStacksToBundle
+
+    while (
+      EventHelpers.numItemsInPlayer(event, singleId)
+        >= thresholdForBundling
+    ) {
+      EventHelpers.removeItemsFromPlayer(
+        event, singleId, bundleCount
+      )
+      EventHelpers.giveItems(event, bundleId, 1)
+    }
+  },
+  unBundleItems(event, singleId, bundleCount) {
+    let player = event.player
+    player.mainHandItem.count --
+    let singleItem = Item.of(singleId)
+    singleItem.count = bundleCount
+    player.give(singleItem)
+  }
 }
 
 RequestHandler.items.create.simple([
@@ -17,28 +37,21 @@ RequestHandler.recipes.add.shapeless([
 
 RequestHandler.callbacks.itemEvents.rightClicked([
   event => {
-    let player = event.player
-    if (player.shiftKeyDown && event.item === MilesTickets.bookletId) {
-      player.mainHandItem.count --
-      let ticketItem = Item.of(MilesTickets.ticketId)
-      ticketItem.count = MilesTickets.bundleCount
-      player.give(ticketItem)
+    if (event.player.shiftKeyDown && event.item === MilesTickets.bookletId) {
+      MilesTickets.unBundleItems(event,
+        MilesTickets.ticketId,
+        MilesTickets.bundleCount
+      )
     }
   },
   event => {
     if (event.player.shiftKeyDown && event.item === MilesTickets.ticketId) {
-      let ticketThresholdForBundling = MilesTickets.bundleCount
-        * MilesTickets.numStacksToBundle
-
-      while (
-        EventHelpers.numItemsInPlayer(event, MilesTickets.ticketId)
-          >= ticketThresholdForBundling
-      ) {
-        EventHelpers.removeItemsFromPlayer(
-          event, MilesTickets.ticketId, MilesTickets.bundleCount
-        )
-        EventHelpers.giveItems(event, MilesTickets.bookletId, 1)
-      }
+      MilesTickets.bundleItems(event, 
+        MilesTickets.ticketId,
+        MilesTickets.bookletId,
+        MilesTickets.bundleCount,
+        MilesTickets.numStacksToBundle
+      )
     }
   }
 ])

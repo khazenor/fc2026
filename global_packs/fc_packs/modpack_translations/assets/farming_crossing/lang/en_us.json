@@ -275,6 +275,8 @@
   "ticketBundling.bookletShift": "Sneak-click to unbundle",
   "ticketBundling.bookletWorth": "Each worth %s Miles Tickets",
   "ticketBundling.shiftToBundle": "Sneak-click to bundle",
+  "constructionTicketBundling.bookletShift": "Sneak-click to unbundle",
+  "constructionTicketBundling.shiftToBundle": "Sneak-click to bundle",
   "tooltip.canGetFromQuests": "Can be obtained from quests",
   "tooltip.kubejs.meaty_mushroom1": "Can be used as a meat replacement",
   "tooltip.kubejs.meaty_mushroom2": "Place in stonecutter to craft imitation meats",
