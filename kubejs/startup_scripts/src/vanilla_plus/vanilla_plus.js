@@ -82,5 +82,15 @@ RequestHandler.recipes.add.shaped([
       F: '#minecraft:fences',
       G: 'minecraft:gold_block'
     }
+  ],
+  [
+    '9x minecraft:lantern', [
+      'III',
+      'ITI',
+      'III'
+    ], {
+      I: 'minecraft:iron_ingot',
+      T: 'minecraft:torch'
+    }
   ]
 ])

@@ -13,3 +13,16 @@ RequestHandler.recipes.add.shapeless([
 RequestHandler.tags.item.removeAll([
   EverythingIsCopperInteg.nuggetId
 ])
+
+RequestHandler.recipes.add.shaped([
+  [
+    '9x everythingcopper:copper_lantern', [
+      'III',
+      'ITI',
+      'III'
+    ], {
+      I: 'minecraft:copper_ingot',
+      T: 'minecraft:torch'
+    }
+  ]
+])
