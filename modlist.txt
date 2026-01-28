@@ -1,3 +1,4 @@
+addonslib-neoforge-1.21.1-1.10.jar
 advancednetherite-neoforge-2.3.1-1.21.1.jar
 AI-Improvements-1.21-0.5.3.jar
 allthecompressed-1.21.1-4.4.0.jar
@@ -115,6 +116,7 @@ lootr-neoforge-1.21.1-1.11.36.111.jar
 mcw-bridges-3.1.1-mc1.21.1neoforge.jar
 mcw-doors-1.1.2-mc1.21.1neoforge.jar
 mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar
+mcwbyg-neoforge-1.21.1-1.5.jar
 MOAdecor ART 1.21.1.B.jar
 MOAdecor BATH 1.21.1.C.jar
 MOAdecor COOKERY 1.21.1.B.jar
