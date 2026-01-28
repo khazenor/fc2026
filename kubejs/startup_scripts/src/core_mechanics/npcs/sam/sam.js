@@ -114,11 +114,12 @@ RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   npcCommonBehavior(event, NpcSam, [() => {
     let mainHandItem = EventHelpers.mainHandItem(event).id
     if (NpcSam.sellableFishes.includes(mainHandItem)) {
+      let itemCount = EventHelpers.mainHandItem(event).count
       NpcHelper.handleSellingItemToNpc(
         event,
         NpcSam.fishSellDefs[mainHandItem].id,
-        NpcSam.fishSellDefs[mainHandItem].count,
-        1
+        NpcSam.fishSellDefs[mainHandItem].count * itemCount,
+        itemCount
       )
       return true
     } else {
