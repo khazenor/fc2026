@@ -593,5 +593,30 @@
 			x: -1.0d
 			y: 1.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["5D97E780E413EDAC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "ring_of_teleport:ring_of_teleport"
+			}
+			id: "06E7C18829DCC5F6"
+			rewards: [{
+				id: "26D7647009787829"
+				item: {
+					count: 1
+					id: "ring_of_teleport:ring_of_teleport"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "780986EA1463FB6D"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
 	]
 }
