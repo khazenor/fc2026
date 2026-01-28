@@ -1021,14 +1021,6 @@
 					type: "random"
 				}
 				{
-					id: "082ECFF5AD1A6866"
-					item: {
-						count: 1
-						id: "domum_ornamentum:architectscutter"
-					}
-					type: "item"
-				}
-				{
 					id: "5CE29F2F4140C253"
 					item: {
 						count: 1
