@@ -38,4 +38,8 @@ ServerEvents.recipes(event => {
   global.ServerEventsRecipes(event)
 })
 
+BlockEvents.broken(event => {
+  global.BlockEventsBroken(event)
+})
+
 global.beforeServerHooksCallback()

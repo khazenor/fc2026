@@ -170,3 +170,9 @@ global.beforeClientLoadedCallback = () => {
     callback()
   })
 }
+
+global.BlockEventsBroken = (event) => {
+  RequestHandler.callbacks.blockEventsBrokenCache.forEach(callback => {
+    callback(event)
+  })
+}

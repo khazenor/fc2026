@@ -160,7 +160,11 @@ const RequestHandler = {
     beforeServerHooks (callbacks) {
       this.beforeServerHooksCache = this.beforeServerHooksCache.concat(callbacks)
     },
-    beforeServerHooksCache: []
+    beforeServerHooksCache: [],
+    blockEventsBrokenSingle (eventCallback) {
+      this.blockEventsBrokenCache.push(eventCallback)
+    },
+    blockEventsBrokenCache: []
   }
 }
 
