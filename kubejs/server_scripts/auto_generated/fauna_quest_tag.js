@@ -82,6 +82,8 @@ ServerEvents.tags('item', event => {
       'minecraft:big_dripleaf', 
       'minecraft:sea_pickle', 
       'minecraft:lily_pad', 
+      'minecraft:vine', 
+      'minecraft:glow_lichen', 
       'biomeswevegone:araucaria_sapling', 
       'biomeswevegone:aspen_sapling', 
       'biomeswevegone:baobab_sapling', 

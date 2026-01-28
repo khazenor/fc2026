@@ -2835,6 +2835,72 @@
 			y: 16.0d
 		}
 		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "45D5E7907149A1F6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "6FD404B1ED5F8083"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
+					exclude_from_claim_all: true
+					id: "49997C648835FE80"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6BA740714477C2FC"
+				item: { count: 1, id: "minecraft:vine" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "61185D8F1C324C95"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "677FC284563B8B00"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
+					exclude_from_claim_all: true
+					id: "4AA5D5687E64F1C4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "01A1D02FBAB56AE0"
+				item: { count: 1, id: "minecraft:glow_lichen" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
 			dependencies: [
 				"6700D60C1C098304"
 				"68E7B9A21FFF0598"
@@ -2844,13 +2910,15 @@
 				"3C36BC8C0BCCFD5A"
 				"406B6D6A64E16C8F"
 				"630BA1840CED9CDF"
+				"45D5E7907149A1F6"
+				"61185D8F1C324C95"
 			]
 			icon: {
 				id: "minecraft:pink_petals"
 			}
 			id: "57BE1A138D1F6B53"
 			rewards: [{
-				count: 9
+				count: 12
 				id: "74869E026BEFFCFA"
 				item: {
 					count: 1
@@ -6709,13 +6777,13 @@
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "68BB0301A256AE2F"
+			id: "72BE61F705C6ABAC"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "02783E134537F698"
+					id: "6E4C3593CBF87992"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6724,14 +6792,14 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "1CF72C9D2F902C1D"
+					id: "756E1100782E54D2"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "650F9230D131A6B9"
+				id: "4C6B4760D60F5CF8"
 				item: { count: 1, id: "biomeswevegone:green_mushroom" }
 				type: "item"
 			}]

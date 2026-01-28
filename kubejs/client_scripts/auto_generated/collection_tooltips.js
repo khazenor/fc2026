@@ -196,7 +196,9 @@ ItemEvents.modifyTooltips(event => {
       'minecraft:spore_blossom', 
       'minecraft:big_dripleaf', 
       'minecraft:sea_pickle', 
-      'minecraft:lily_pad'
+      'minecraft:lily_pad', 
+      'minecraft:vine', 
+      'minecraft:glow_lichen'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
