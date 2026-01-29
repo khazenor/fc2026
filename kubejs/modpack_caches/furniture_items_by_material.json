@@ -2,6 +2,43 @@
 	"woodTypeChecklist": [
 		{
 			"names": [
+				"torch"
+			],
+			"ids": [
+				"minecraft:torch"
+			],
+			"convertableIds": [
+				"mcwlights:acacia_tiki_torch",
+				"mcwlights:bamboo_tiki_torch",
+				"mcwlights:birch_tiki_torch",
+				"mcwlights:cherry_tiki_torch",
+				"mcwlights:crimson_tiki_torch",
+				"mcwlights:dark_oak_tiki_torch",
+				"mcwlights:framed_torch",
+				"mcwlights:iron_framed_torch",
+				"mcwlights:jungle_tiki_torch",
+				"mcwlights:mangrove_tiki_torch",
+				"mcwlights:oak_tiki_torch",
+				"mcwlights:reinforced_torch",
+				"mcwlights:rustic_torch",
+				"mcwlights:soul_acacia_tiki_torch",
+				"mcwlights:soul_bamboo_tiki_torch",
+				"mcwlights:soul_birch_tiki_torch",
+				"mcwlights:soul_cherry_tiki_torch",
+				"mcwlights:soul_crimson_tiki_torch",
+				"mcwlights:soul_dark_oak_tiki_torch",
+				"mcwlights:soul_jungle_tiki_torch",
+				"mcwlights:soul_mangrove_tiki_torch",
+				"mcwlights:soul_oak_tiki_torch",
+				"mcwlights:soul_spruce_tiki_torch",
+				"mcwlights:soul_warped_tiki_torch",
+				"mcwlights:spruce_tiki_torch",
+				"mcwlights:upgraded_torch",
+				"mcwlights:warped_tiki_torch"
+			]
+		},
+		{
+			"names": [
 				"dark oak"
 			],
 			"ids": [
@@ -77,7 +114,8 @@
 				"moa_lights:vtb_roble_osc",
 				"moa_lights:vtd_roble_osc",
 				"moa_lights:vtg_roble_osc",
-				"moa_lights:vtn_roble_osc"
+				"moa_lights:vtn_roble_osc",
+				"mcwlights:dark_oak_ceiling_fan_light"
 			]
 		},
 		{
@@ -154,7 +192,8 @@
 				"moa_lights:vtb_roble",
 				"moa_lights:vtd_roble",
 				"moa_lights:vtg_roble",
-				"moa_lights:vtn_roble"
+				"moa_lights:vtn_roble",
+				"mcwlights:oak_ceiling_fan_light"
 			]
 		},
 		{
@@ -235,7 +274,8 @@
 				"moa_lights:vtb_abeto",
 				"moa_lights:vtd_abeto",
 				"moa_lights:vtg_abeto",
-				"moa_lights:vtn_abeto"
+				"moa_lights:vtn_abeto",
+				"mcwlights:spruce_ceiling_fan_light"
 			]
 		},
 		{
@@ -318,7 +358,8 @@
 				"moa_lights:vtb_abedul",
 				"moa_lights:vtd_abedul",
 				"moa_lights:vtg_abedul",
-				"moa_lights:vtn_abedul"
+				"moa_lights:vtn_abedul",
+				"mcwlights:birch_ceiling_fan_light"
 			]
 		},
 		{
@@ -399,7 +440,8 @@
 				"moa_lights:vtb_jungla",
 				"moa_lights:vtd_jungla",
 				"moa_lights:vtg_jungla",
-				"moa_lights:vtn_jungla"
+				"moa_lights:vtn_jungla",
+				"mcwlights:jungle_ceiling_fan_light"
 			]
 		},
 		{
@@ -482,7 +524,8 @@
 				"moa_lights:vtb_acacia",
 				"moa_lights:vtd_acacia",
 				"moa_lights:vtg_acacia",
-				"moa_lights:vtn_acacia"
+				"moa_lights:vtn_acacia",
+				"mcwlights:acacia_ceiling_fan_light"
 			]
 		},
 		{
@@ -560,7 +603,8 @@
 				"moa_lights:vtb_mangle",
 				"moa_lights:vtd_mangle",
 				"moa_lights:vtg_mangle",
-				"moa_lights:vtn_mangle"
+				"moa_lights:vtn_mangle",
+				"mcwlights:mangrove_ceiling_fan_light"
 			]
 		},
 		{
@@ -638,7 +682,8 @@
 				"moa_lights:vtb_cerezo",
 				"moa_lights:vtd_cerezo",
 				"moa_lights:vtg_cerezo",
-				"moa_lights:vtn_cerezo"
+				"moa_lights:vtn_cerezo",
+				"mcwlights:cherry_ceiling_fan_light"
 			]
 		},
 		{
@@ -766,7 +811,8 @@
 				"moa_lights:vtbt_carmesi",
 				"moa_lights:vtdt_carmesi",
 				"moa_lights:vtgt_carmesi",
-				"moa_lights:vtnt_carmesi"
+				"moa_lights:vtnt_carmesi",
+				"mcwlights:crimson_ceiling_fan_light"
 			]
 		},
 		{
@@ -844,7 +890,8 @@
 				"moa_lights:vtbt_distorsionado",
 				"moa_lights:vtdt_distorsionado",
 				"moa_lights:vtgt_distorsionado",
-				"moa_lights:vtnt_distorsionado"
+				"moa_lights:vtnt_distorsionado",
+				"mcwlights:warped_ceiling_fan_light"
 			]
 		},
 		{
@@ -856,7 +903,11 @@
 				"wall light",
 				"chandelier",
 				"lightbulb",
-				"spotlight"
+				"spotlight",
+				"street light",
+				"ceiling light",
+				"garden light",
+				"candle holder"
 			],
 			"ids": [
 				"minecraft:lantern"
@@ -884,9 +935,11 @@
 				"refurbished_furniture:blue_lamp",
 				"refurbished_furniture:brown_lamp",
 				"refurbished_furniture:cyan_lamp",
+				"refurbished_furniture:dark_ceiling_light",
 				"refurbished_furniture:gray_lamp",
 				"refurbished_furniture:green_lamp",
 				"refurbished_furniture:light_blue_lamp",
+				"refurbished_furniture:light_ceiling_light",
 				"refurbished_furniture:light_gray_lamp",
 				"refurbished_furniture:lime_lamp",
 				"refurbished_furniture:magenta_lamp",
@@ -1021,7 +1074,106 @@
 				"everythingcopper:waxed_weathered_copper_lantern",
 				"everythingcopper:waxed_weathered_copper_soul_lantern",
 				"everythingcopper:weathered_copper_lantern",
-				"everythingcopper:weathered_copper_soul_lantern"
+				"everythingcopper:weathered_copper_soul_lantern",
+				"mcwlights:bell_lantern",
+				"mcwlights:bell_wall_lantern",
+				"mcwlights:black_ceiling_light",
+				"mcwlights:black_lamp",
+				"mcwlights:black_paper_lamp",
+				"mcwlights:blue_ceiling_light",
+				"mcwlights:blue_lamp",
+				"mcwlights:blue_paper_lamp",
+				"mcwlights:brown_ceiling_light",
+				"mcwlights:brown_lamp",
+				"mcwlights:brown_paper_lamp",
+				"mcwlights:chain_lantern",
+				"mcwlights:chain_wall_lantern",
+				"mcwlights:classic_street_lamp",
+				"mcwlights:copper_candle_holder",
+				"mcwlights:copper_chandelier",
+				"mcwlights:copper_double_candle_holder",
+				"mcwlights:copper_low_candle_holder",
+				"mcwlights:copper_small_chandelier",
+				"mcwlights:copper_triple_candle_holder",
+				"mcwlights:copper_wall_candle_holder",
+				"mcwlights:covered_garden_light",
+				"mcwlights:covered_lantern",
+				"mcwlights:covered_wall_lantern",
+				"mcwlights:cross_lantern",
+				"mcwlights:cross_wall_lantern",
+				"mcwlights:cyan_ceiling_light",
+				"mcwlights:cyan_lamp",
+				"mcwlights:cyan_paper_lamp",
+				"mcwlights:double_street_lamp",
+				"mcwlights:festive_lantern",
+				"mcwlights:festive_wall_lantern",
+				"mcwlights:garden_light",
+				"mcwlights:golden_candle_holder",
+				"mcwlights:golden_chandelier",
+				"mcwlights:golden_double_candle_holder",
+				"mcwlights:golden_low_candle_holder",
+				"mcwlights:golden_small_chandelier",
+				"mcwlights:golden_triple_candle_holder",
+				"mcwlights:golden_wall_candle_holder",
+				"mcwlights:gray_ceiling_light",
+				"mcwlights:gray_lamp",
+				"mcwlights:gray_paper_lamp",
+				"mcwlights:green_ceiling_light",
+				"mcwlights:green_lamp",
+				"mcwlights:green_paper_lamp",
+				"mcwlights:iron_candle_holder",
+				"mcwlights:iron_chandelier",
+				"mcwlights:iron_double_candle_holder",
+				"mcwlights:iron_low_candle_holder",
+				"mcwlights:iron_small_chandelier",
+				"mcwlights:iron_triple_candle_holder",
+				"mcwlights:iron_wall_candle_holder",
+				"mcwlights:lava_lamp",
+				"mcwlights:light_blue_ceiling_light",
+				"mcwlights:light_blue_lamp",
+				"mcwlights:light_blue_paper_lamp",
+				"mcwlights:light_gray_ceiling_light",
+				"mcwlights:light_gray_lamp",
+				"mcwlights:light_gray_paper_lamp",
+				"mcwlights:lime_ceiling_light",
+				"mcwlights:lime_lamp",
+				"mcwlights:lime_paper_lamp",
+				"mcwlights:magenta_ceiling_light",
+				"mcwlights:magenta_lamp",
+				"mcwlights:magenta_paper_lamp",
+				"mcwlights:orange_ceiling_light",
+				"mcwlights:orange_lamp",
+				"mcwlights:orange_paper_lamp",
+				"mcwlights:pink_ceiling_light",
+				"mcwlights:pink_lamp",
+				"mcwlights:pink_paper_lamp",
+				"mcwlights:purple_ceiling_light",
+				"mcwlights:purple_lamp",
+				"mcwlights:purple_paper_lamp",
+				"mcwlights:red_ceiling_light",
+				"mcwlights:red_lamp",
+				"mcwlights:red_paper_lamp",
+				"mcwlights:redstone_lamp_slab",
+				"mcwlights:round_garden_light",
+				"mcwlights:sea_lantern_slab",
+				"mcwlights:soul_classic_street_lamp",
+				"mcwlights:soul_double_street_lamp",
+				"mcwlights:square_wall_lamp",
+				"mcwlights:striped_garden_light",
+				"mcwlights:striped_lantern",
+				"mcwlights:striped_wall_lantern",
+				"mcwlights:tavern_lantern",
+				"mcwlights:tavern_wall_lantern",
+				"mcwlights:thin_garden_light",
+				"mcwlights:tower_garden_light",
+				"mcwlights:wall_lamp",
+				"mcwlights:wall_lantern",
+				"mcwlights:white_ceiling_light",
+				"mcwlights:white_lamp",
+				"mcwlights:white_paper_lamp",
+				"mcwlights:yellow_ceiling_light",
+				"mcwlights:yellow_lamp",
+				"mcwlights:yellow_paper_lamp"
 			]
 		}
 	]

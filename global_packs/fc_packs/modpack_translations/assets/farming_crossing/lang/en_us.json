@@ -48,7 +48,7 @@
   "farmingForBlockheads.market.handcraftedFurnitureSheetsAndCushions": "Handcrafted Furniture Sheets and Cushions",
   "farmingForBlockheads.market.nonQuestRelatedSpawnEggs": "Non Quest Related Spawn Eggs",
   "farmingForBlockheads.market.plantsAndDyes": "Plants and Dyes",
-  "furnitureCutting.youCanCutThis": "Can be stone-cut into other furniture",
+  "furnitureCutting.youCanCutThis": "Can be stone-cut into other items",
   "giveItem.message.itemReceivedFromStash": "%s x %s received from stash.",
   "giveItem.message.itemStored": "Not enough inventory! stashed away %s x %s. (Clear your inventory to receive)",
   "item.kubejs.backpack_upgrade_copper": "Basic to Copper Tier Backpack Upgrade",

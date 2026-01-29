@@ -1,6 +1,10 @@
 // priority: 1
 const WoodTypeInfo = {
   woodTypeChecklist: [{
+    names: ['torch'],
+    ids: ['minecraft:torch'],
+    convertableIds: []
+  }, {
     names: ['dark oak'],
     ids: [
       'minecraft:dark_oak_log',
@@ -89,7 +93,7 @@ const WoodTypeInfo = {
     ],
     convertableIds: []
   }, {
-    names: ['streetlight', 'lamp', 'lantern', 'bulkhead', 'wall light', 'chandelier', 'lightbulb', 'spotlight'],
+    names: ['streetlight', 'lamp', 'lantern', 'bulkhead', 'wall light', 'chandelier', 'lightbulb', 'spotlight', 'street light', 'ceiling light', 'garden light', 'candle holder'],
     ids: ['minecraft:lantern'],
     convertableIds: []
   }]

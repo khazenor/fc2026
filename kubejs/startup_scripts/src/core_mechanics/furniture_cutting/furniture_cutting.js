@@ -31,7 +31,6 @@ const FurnitureCutting = {
         let tagName = `c:${StrHelper.replaceAll(woodDef.names[0], ' ', '_')}_cutting`
         let convertableIds = ArrayJs.javaArrToArr(woodDef.convertableIds)
         let ids = ArrayJs.javaArrToArr(woodDef.ids)
-        console.log('ids', ids)
         let cuttingItems = convertableIds.concat(ids)
         RequestHelper.stonecuttingAllToAll(cuttingItems, tagName)
         
