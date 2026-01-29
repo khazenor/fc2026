@@ -79,4 +79,9 @@ RequestHandler.tooltips.addSingular(
   Text.translate('planksCutting.youCanCutThis')
 )
 
+RequestHandler.tooltips.addSingular(
+  planksList,
+  Text.translate('planksCutting.youCanCutThis')
+)
+
 PlankCutting.registerStonecuttingRecipes()
