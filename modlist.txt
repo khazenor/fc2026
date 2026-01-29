@@ -22,7 +22,6 @@ botanypots-neoforge-1.21.1-21.1.41.jar
 BridgingMod-2.6.2+1.21.1.neoforge-release.jar
 BuildingWands-neoforge-MC1.21-2.11.jar
 Camerapture-1.10.8+mc1.21.1-neoforge.jar
-carryon-neoforge-1.21.1-2.2.4.4.jar
 citresewn-neoforge-1.21.1-0.jar
 clientcrafting-1.21-1.8.jar
 cloth-config-15.0.140-neoforge.jar
@@ -175,7 +174,6 @@ supermartijn642configlib-1.1.8-neoforge-mc1.21.jar
 supermartijn642corelib-1.1.19-neoforge-mc1.21.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
 tide-neoforge-1.21-1.6.4.jar
-tinycoal-neoforge-1.21.1-1.0.3.jar
 ToolBelt-1.21.1-2.2.7.jar
 toomanypaintings-25.10.20-1.21-neoforge.jar
 trade-cycling-neoforge-1.21.1-1.0.18.jar
