@@ -19,6 +19,7 @@ botanypots-neoforge-1.21.1-21.1.41.jar
 BridgingMod-2.6.2+1.21.1.neoforge-release.jar
 BuildingWands-neoforge-MC1.21-2.11.jar
 Camerapture-1.10.8+mc1.21.1-neoforge.jar
+carryon-neoforge-1.21.1-2.2.4.4.jar
 cloth-config-15.0.140-neoforge.jar
 Clumps-neoforge-1.21.1-19.0.0.1.jar
 collective-1.21.1-8.13.jar
