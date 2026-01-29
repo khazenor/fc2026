@@ -29,7 +29,8 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
-      'minecraft:glowstone_dust'
+      'minecraft:glowstone_dust', 
+      'botanypots:terracotta_botany_pot'
     ],
     [
       Text.translate('marketTooltips.obtainableFor6TicketsInRiggsMarket')
@@ -97,6 +98,13 @@ ItemEvents.modifyTooltips(event => {
     ],
     [
       Text.translate('marketTooltips.obtainableFor16TicketsInRiggsMarket')
+    ])
+  event.add(
+    [
+      'botanypots:terracotta_hopper_botany_pot'
+    ],
+    [
+      Text.translate('marketTooltips.obtainableFor12TicketsInRiggsMarket')
     ])
   event.add(
     [

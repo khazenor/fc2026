@@ -1,0 +1,9 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:fc",
+  "preset": "farming_crossing:kubejsmiles_ticket_12",
+  "result": {
+    "count": 1,
+    "item": "botanypots:terracotta_hopper_botany_pot"
+  }
+}

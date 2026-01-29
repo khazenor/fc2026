@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:miles_ticket"
+    },
+    "count": 12
+  }
+}

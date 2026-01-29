@@ -54,6 +54,12 @@ categories = {
       }, {
         itemsKey: ['simplemagnets:basicmagnet'],
         priceKey: 8
+      }, {
+        itemsKey: ['botanypots:terracotta_botany_pot'],
+        priceKey: 6
+      }, {
+        itemsKey: ['botanypots:terracotta_hopper_botany_pot'],
+        priceKey: 12
       }
     ]
   },
