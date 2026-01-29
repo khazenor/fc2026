@@ -1,0 +1,44 @@
+{
+	icon: {
+		components: {
+			"minecraft:bundle_contents": [
+				{
+					count: 20
+					id: "kubejs:construction_ticket"
+				}
+				{
+					count: 1
+					id: "biomeswevegone:lush_grass_block"
+				}
+				{
+					count: 1
+					id: "minecraft:green_concrete_powder"
+				}
+				{
+					count: 1
+					id: "biomeswevegone:green_mushroom_block"
+				}
+				{
+					count: 1
+					id: "minecraft:dark_oak_log"
+				}
+				{
+					count: 1
+					id: "minecraft:magenta_wool"
+				}
+				{
+					count: 1
+					id: "minecraft:cherry_leaves"
+				}
+			]
+		}
+		id: "minecraft:bundle"
+	}
+	id: "656F397D40416704"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ id: "72396E5B39E0C0A5", item: { components: { "minecraft:bundle_contents": [ { count: 20, id: "kubejs:construction_ticket" }, { count: 1, id: "biomeswevegone:lush_grass_block" }, { count: 1, id: "minecraft:green_concrete_powder" }, { count: 1, id: "biomeswevegone:green_mushroom_block" }, { count: 1, id: "minecraft:dark_oak_log" }, { count: 1, id: "minecraft:magenta_wool" }, { count: 1, id: "minecraft:cherry_leaves" } ], "minecraft:custom_name": "\"Lush Woods\"" }, count: 1, id: "minecraft:bundle" } }
+		{ id: "34DBAC7AB0CEDE10", item: { components: { "minecraft:bundle_contents": [ { count: 20, id: "kubejs:construction_ticket" }, { count: 1, id: "minecraft:quartz_block" }, { count: 1, id: "biomeswevegone:blue_sand" }, { count: 1, id: "minecraft:light_blue_concrete_powder" }, { count: 1, id: "biomeswevegone:purple_sand" }, { count: 1, id: "minecraft:pink_concrete" }, { count: 1, id: "minecraft:cherry_log" } ], "minecraft:custom_name": "\"Cherry Blue\"" }, count: 1, id: "minecraft:bundle" } }
+	]
+}
