@@ -23,9 +23,7 @@ const PlankCutting = {
     for (let itemId of planksCuttingList) {
       let itemName = TransHelper.itemNameEngStr(itemId).toLowerCase()
       for (let plankInfoEntry of plankInfo) {
-        for (let plankId of plankInfoEntry.plankIds) {
-          allConvertibleIds.push(plankId)
-        }
+        allConvertibleIds = allConvertibleIds.concat(plankInfoEntry.plankIds)
         if (itemName.includes(plankInfoEntry.name)) {
           if (this._nameContainsCuttables(itemName)) {
             allConvertibleIds.push(itemId)
