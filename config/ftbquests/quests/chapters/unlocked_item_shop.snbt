@@ -578,9 +578,8 @@
 			}
 			id: "7046FDDEF7CD4AC7"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "665354C7022F5E34"
-				table_id: 8222570253584073542L
+				table_id: 7309123930357327620L
 				type: "random"
 			}]
 			tasks: [{
