@@ -6,8 +6,12 @@ const FurnitureCutting = {
     for (let i = 0; i < WoodTypeInfo.woodTypeChecklist.length; i++) {
       let woodDef = WoodTypeInfo.woodTypeChecklist[i]
       for (let name of woodDef.names) {
-        if (itemName.includes(name) && !woodDef.convertableIds.includes(itemId)) {
-          return woodDef
+        if (itemName.includes(name)) {
+          if (woodDef.convertableIds.includes(itemId)) {
+            return null
+          } else {
+            return woodDef
+          }
         }
       }
     }
