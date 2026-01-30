@@ -19,6 +19,7 @@ BetterTridents-v21.1.0-1.21.1-NeoForge.jar
 biomemusic-1.21-3.4.jar
 bookshelf-neoforge-1.21.1-21.1.80.jar
 botanypots-neoforge-1.21.1-21.1.41.jar
+brb-1.10.0-rc5+1.21.jar
 BridgingMod-2.6.2+1.21.1.neoforge-release.jar
 BuildingWands-neoforge-MC1.21-2.11.jar
 Camerapture-1.10.8+mc1.21.1-neoforge.jar
