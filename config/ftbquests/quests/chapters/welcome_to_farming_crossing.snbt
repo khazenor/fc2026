@@ -2895,21 +2895,5 @@
 			x: 0.0d
 			y: -4.0d
 		}
-		{
-			id: "0279BA0258A3FBD9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6B313C48D5D4CCF5"
-				table_id: 7309123930357327620L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "1B84017521563D7E"
-				item: { count: 1, id: "framedblocks:framed_cube" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.5d
-		}
 	]
 }
