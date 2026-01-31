@@ -1357,14 +1357,32 @@
 				id: "kubejs:menu"
 			}
 			id: "2DBF1187A9D50614"
-			rewards: [{
-				id: "15B4B6EDAFFC8646"
-				item: {
-					count: 1
-					id: "kubejs:menu"
+			rewards: [
+				{
+					id: "15B4B6EDAFFC8646"
+					item: {
+						count: 1
+						id: "kubejs:menu"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0B5D7E8EFCE5EFCE"
+					item: {
+						count: 1
+						id: "refurbished_furniture:oak_cutting_board"
+					}
+					type: "item"
+				}
+				{
+					id: "30238D0FBE046DE6"
+					item: {
+						count: 1
+						id: "refurbished_furniture:knife"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "376DFD128BBD5804"
 				type: "checkmark"
@@ -2894,6 +2912,144 @@
 			}]
 			x: 0.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["2DBF1187A9D50614"]
+			hide_until_deps_complete: true
+			id: "606A9EE8C776CB58"
+			rewards: [
+				{
+					id: "0C67288C485F697D"
+					item: {
+						count: 1
+						id: "refurbished_furniture:light_electricity_generator"
+					}
+					type: "item"
+				}
+				{
+					id: "135109E65F088C5B"
+					item: {
+						count: 1
+						id: "refurbished_furniture:light_stove"
+					}
+					type: "item"
+				}
+				{
+					id: "505ED94C50840EE2"
+					item: {
+						count: 1
+						id: "refurbished_furniture:wrench"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4175E2FFAA583C6B"
+				item: { count: 1, id: "refurbished_furniture:bread_slice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["606A9EE8C776CB58"]
+			hide_until_deps_complete: true
+			id: "33AA946121D88CC5"
+			rewards: [{
+				id: "39C4B059144CBA45"
+				item: {
+					count: 1
+					id: "minecraft:cow_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EB230C88453ADF0"
+				item: { count: 1, id: "refurbished_furniture:sea_salt" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33AA946121D88CC5"]
+			hide_until_deps_complete: true
+			id: "2A2E66A8DB7993A5"
+			rewards: [
+				{
+					count: 4
+					id: "5473FA1075D77A8B"
+					item: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
+					type: "item"
+				}
+				{
+					id: "12FD8C2918860618"
+					item: {
+						count: 1
+						id: "refurbished_furniture:frying_pan"
+					}
+					type: "item"
+				}
+				{
+					id: "5B13F196023E7D12"
+					item: {
+						count: 1
+						id: "refurbished_furniture:spatula"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17BB7162C0E1885E"
+				item: { count: 1, id: "refurbished_furniture:cheese_sandwich" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A2E66A8DB7993A5"]
+			hide_until_deps_complete: true
+			id: "716B7AD3C5BC34CB"
+			rewards: [{
+				id: "158B8820048B7C48"
+				item: {
+					count: 1
+					id: "refurbished_furniture:light_toaster"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21883931CA2EDB97"
+				item: { count: 1, id: "refurbished_furniture:sweet_berry_jam" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["716B7AD3C5BC34CB"]
+			hide_until_deps_complete: true
+			id: "6E213508A3317069"
+			rewards: [{
+				count: 16
+				id: "55BB7C2BA53AAA22"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67B4501F2C424694"
+				item: { count: 1, id: "refurbished_furniture:sweet_berry_jam_toast" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
 		}
 	]
 }
