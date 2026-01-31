@@ -227,16 +227,8 @@
 			}
 			id: "040F861256CDB7B9"
 			rewards: [{
-				id: "0A7EAAF6F98D68BB"
+				id: "7B3D3C5B4DD5F160"
 				item: {
-					components: {
-						"refinedstorage:storage_reference": [I;
-							-1918296266
-							531448482
-							-1373595085
-							-705099401
-						]
-					}
 					count: 1
 					id: "refinedstorage:1k_storage_disk"
 				}
@@ -269,16 +261,8 @@
 			}
 			id: "59EC0CF448369939"
 			rewards: [{
-				id: "0337179846329A7F"
+				id: "6CCD1A3BAEB421F8"
 				item: {
-					components: {
-						"refinedstorage:storage_reference": [I;
-							552258984
-							-1999092192
-							-1472444781
-							-78343738
-						]
-					}
 					count: 1
 					id: "refinedstorage:4k_storage_disk"
 				}
@@ -311,16 +295,8 @@
 			}
 			id: "753C165BD07ED470"
 			rewards: [{
-				id: "7AE9E6D60CB39EFC"
+				id: "198D4E60271CBFF4"
 				item: {
-					components: {
-						"refinedstorage:storage_reference": [I;
-							1133273917
-							924140871
-							-1893110155
-							757979485
-						]
-					}
 					count: 1
 					id: "refinedstorage:16k_storage_disk"
 				}
@@ -353,16 +329,8 @@
 			}
 			id: "365E2E575EFA3F99"
 			rewards: [{
-				id: "49E46B2A180DE435"
+				id: "74D5290635E07127"
 				item: {
-					components: {
-						"refinedstorage:storage_reference": [I;
-							-425693163
-							-219529028
-							-1790791368
-							-2016593797
-						]
-					}
 					count: 1
 					id: "refinedstorage:64k_storage_disk"
 				}
@@ -395,16 +363,8 @@
 			}
 			id: "56F458AB639E8D1E"
 			rewards: [{
-				id: "5905044F999EF5A2"
+				id: "305DE329538F5172"
 				item: {
-					components: {
-						"refinedstorage:storage_reference": [I;
-							1614499203
-							-26918335
-							-1598476624
-							1880391615
-						]
-					}
 					count: 1
 					id: "refinedstorage:creative_storage_disk"
 				}

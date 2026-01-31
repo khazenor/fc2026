@@ -2244,16 +2244,8 @@
 					type: "item"
 				}
 				{
-					id: "2B9AFF3FA82C61A4"
+					id: "08861977D195F170"
 					item: {
-						components: {
-							"refinedstorage:storage_reference": [I;
-								-1918296266
-								531448482
-								-1373595085
-								-705099401
-							]
-						}
 						count: 1
 						id: "refinedstorage:1k_storage_disk"
 					}
@@ -2286,16 +2278,8 @@
 			}
 			id: "2F7D2916F2B8EEEF"
 			rewards: [{
-				id: "4DFFB03801DED70F"
+				id: "44711A4CBCF434FF"
 				item: {
-					components: {
-						"refinedstorage:storage_reference": [I;
-							552258984
-							-1999092192
-							-1472444781
-							-78343738
-						]
-					}
 					count: 1
 					id: "refinedstorage:4k_storage_disk"
 				}
@@ -2327,16 +2311,8 @@
 			}
 			id: "18C4BA444FB5D4A1"
 			rewards: [{
-				id: "0F774631170E0582"
+				id: "3A107EFD37DF5BDD"
 				item: {
-					components: {
-						"refinedstorage:storage_reference": [I;
-							1133273917
-							924140871
-							-1893110155
-							757979485
-						]
-					}
 					count: 1
 					id: "refinedstorage:16k_storage_disk"
 				}
@@ -2368,16 +2344,8 @@
 			}
 			id: "1754A8F9C2B428F3"
 			rewards: [{
-				id: "15B58A0DC6705471"
+				id: "5CC640A37E901D85"
 				item: {
-					components: {
-						"refinedstorage:storage_reference": [I;
-							-425693163
-							-219529028
-							-1790791368
-							-2016593797
-						]
-					}
 					count: 1
 					id: "refinedstorage:64k_storage_disk"
 				}
@@ -2409,16 +2377,8 @@
 			}
 			id: "0567525EC9CF0532"
 			rewards: [{
-				id: "1459473A3F9CE991"
+				id: "681F7C396637C101"
 				item: {
-					components: {
-						"refinedstorage:storage_reference": [I;
-							1614499203
-							-26918335
-							-1598476624
-							1880391615
-						]
-					}
 					count: 1
 					id: "refinedstorage:creative_storage_disk"
 				}
