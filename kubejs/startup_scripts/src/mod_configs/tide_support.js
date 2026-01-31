@@ -45,3 +45,7 @@ RequestHandler.recipes.add.smithingMult(TideSupport.smithingDefs)
 RequestHandler.tooltips.addSingular(
   TideSupport.rodUpgradeItemIds, Text.translate('tooltip.canGetFromQuests')
 )
+
+RequestHandler.recipes.add.shapeless([
+  ['minecraft:paper', ['tide:torn_note', 'tide:torn_note']]
+])
