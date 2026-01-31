@@ -55,5 +55,7 @@ RequestHandler.tooltips.addSingular(
 )
 
 RequestHandler.callbacks.serverEvents.loaded([() => {
-  FurnitureCutting.generateItemByMaterialCache()
+  if (isDev) {
+    FurnitureCutting.generateItemByMaterialCache()
+  }
 }])

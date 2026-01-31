@@ -1,0 +1,1 @@
+const isDev = Platform.isLoaded('probejs')

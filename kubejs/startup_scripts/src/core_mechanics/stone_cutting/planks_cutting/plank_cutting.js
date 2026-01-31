@@ -71,7 +71,9 @@ const PlankCutting = {
   }
 }
 RequestHandler.callbacks.serverEvents.loaded([event => {
-  PlankCutting.generatePlanInfoCache()
+  if (isDev) {
+    PlankCutting.generatePlanInfoCache()
+  }
 }])
 
 RequestHandler.tooltips.addSingular(
