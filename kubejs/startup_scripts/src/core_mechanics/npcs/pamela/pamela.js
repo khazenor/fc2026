@@ -14,6 +14,12 @@ const NpcPamela = {
     'create_confectionery:cocoa_butter',
     'create:dough'
   ],
+  containers: [
+    'minecraft:glass_bottle',
+    'bakery:jar',
+    'vinery:wine_bottle',
+    'brewery:beer_mug',
+  ],
   get offerDefs () {
     return [
       { villagerItems: RandHelper.randomMineDayRandFromArr(
@@ -22,6 +28,7 @@ const NpcPamela = {
       { villagerItems: RandHelper.randomMineDayRandFromArr(
         PamelaItems.kitchen, 2
       ), playerNum: 8 },
+      { villagerItems: this.containers, villagerNum: 8 },
       { villagerItems: this.cookingIngs, villagerNum: 8 }
     ]
   },
