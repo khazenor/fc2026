@@ -1420,7 +1420,7 @@
 		{
 			dependencies: [
 				"28D5E795C2CE0159"
-				"6A694FC4A6083409"
+				"71DD63453348DBE8"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1504,8 +1504,8 @@
 		}
 		{
 			dependencies: [
-				"6A694FC4A6083409"
 				"237FE170DCEF0E64"
+				"71DD63453348DBE8"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1560,8 +1560,8 @@
 		}
 		{
 			dependencies: [
-				"6A694FC4A6083409"
 				"376DCB91210E98FD"
+				"71DD63453348DBE8"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1624,8 +1624,8 @@
 		}
 		{
 			dependencies: [
-				"6A694FC4A6083409"
 				"475B5DD94020E4C0"
+				"71DD63453348DBE8"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1744,8 +1744,8 @@
 		}
 		{
 			dependencies: [
-				"6A694FC4A6083409"
 				"3AC5083E3D1BEDB0"
+				"71DD63453348DBE8"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -2595,7 +2595,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["32D9390F9B877315"]
+			dependencies: [
+				"32D9390F9B877315"
+				"71DD63453348DBE8"
+			]
 			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:rigg"
