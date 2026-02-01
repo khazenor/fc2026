@@ -1,0 +1,14 @@
+{
+	icon: {
+		id: "minecraft:stonecutter"
+	}
+	id: "028986092383F706"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "0ACC5412555EF9D2", item: { count: 1, id: "minecraft:stonecutter" } }
+		{ id: "11AFFC1AD9341E82", item: { count: 1, id: "crafting_on_a_stick:stonecutter" } }
+		{ id: "3FC0B27ADD5A3413", item: { count: 1, id: "sophisticatedbackpacks:stonecutter_upgrade" } }
+		{ id: "6906488E7AF32673", item: { count: 1, id: "sophisticatedstorage:stonecutter_upgrade" } }
+	]
+}

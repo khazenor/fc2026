@@ -1,0 +1,49 @@
+{
+  // Multiplier to calculate the durability
+  // Single tool durability * this value = durability
+  // Range: 0.0 - 10.0
+  "durabilityModifier": 1.5,
+  
+  // This is only relevant when MoreVanillaTools is installed
+  "vanillaOnly": false,
+  
+  "ToolValues": {
+  
+    "diamond": {
+      "speed": 8,
+      "attackDamageBonus": 3,
+      "incorrectBlockForDrops": "minecraft:incorrect_for_diamond_tool",
+      "enchantmentValue": 10
+    },
+    "gold": {
+      "speed": 12,
+      "attackDamageBonus": 0.0,
+      "incorrectBlockForDrops": "minecraft:incorrect_for_gold_tool",
+      "enchantmentValue": 22
+    },
+    "iron": {
+      "speed": 6,
+      "attackDamageBonus": 2,
+      "incorrectBlockForDrops": "minecraft:incorrect_for_iron_tool",
+      "enchantmentValue": 14
+    },
+    "netherite": {
+      "speed": 9,
+      "attackDamageBonus": 4,
+      "incorrectBlockForDrops": "minecraft:incorrect_for_netherite_tool",
+      "enchantmentValue": 15
+    },
+    "stone": {
+      "speed": 4,
+      "attackDamageBonus": 1,
+      "incorrectBlockForDrops": "minecraft:incorrect_for_stone_tool",
+      "enchantmentValue": 5
+    },
+    "wood": {
+      "speed": 2,
+      "attackDamageBonus": 0.0,
+      "incorrectBlockForDrops": "minecraft:incorrect_for_wooden_tool",
+      "enchantmentValue": 15
+    }
+  }
+}

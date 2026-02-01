@@ -1,0 +1,34 @@
+[
+  {
+    "key": "crafting_on_a_stick.key.open_curios.custom",
+    "color": "DARK_RED"
+  },
+  {
+    "key": "key.screenshot",
+    "color": "WHITE"
+  },
+  {
+    "key": "keybind.sophisticatedbackpacks.open_backpack.custom",
+    "color": "DARK_AQUA"
+  },
+  {
+    "key": "iris.keybind.toggleShaders.custom",
+    "color": "DARK_GREEN"
+  },
+  {
+    "key": "key.ftbquests.quests.custom",
+    "color": "GOLD"
+  },
+  {
+    "key": "gui.xaero_open_map.custom",
+    "color": "DARK_BLUE"
+  },
+  {
+    "key": "key.wands.wand_menu.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.shouldersurfing.toggle_third_person_back.custom",
+    "color": "DARK_PURPLE"
+  }
+]

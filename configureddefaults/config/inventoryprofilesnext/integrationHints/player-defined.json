@@ -1,0 +1,77 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 61,
+                "top": -8
+            },
+            "SETTINGS": {
+                "horizontalOffset": 61,
+                "top": -10
+            }
+        }
+    },
+    "net.satisfy.meadow.client.gui.CookingCauldronGui": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -18
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -16
+            },
+            "SORT": {
+                "top": -16
+            },
+            "SORT_COLUMNS": {
+                "top": -16
+            },
+            "SORT_ROWS": {
+                "top": -16
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 61,
+                "top": 3
+            },
+            "SETTINGS": {
+                "horizontalOffset": 61
+            }
+        }
+    },
+    "net.satisfy.herbalbrews.client.gui.TeaKettleGui": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -19
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -16
+            },
+            "SORT": {
+                "top": -16
+            },
+            "SORT_COLUMNS": {
+                "top": -16
+            },
+            "SORT_ROWS": {
+                "top": -16
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60,
+                "top": 3
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60,
+                "top": 3
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    }
+}

@@ -1,0 +1,2859 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_farming_crossing"
+	group: ""
+	icon: {
+		id: "minecraft:mangrove_propagule"
+	}
+	id: "7264A648F9613D3D"
+	images: [
+		{
+			click: "https://ko-fi.com/khazenorsmodpacks"
+			dependency: "7041BB13DE704850"
+			height: 1.0d
+			hover: [
+				"If you enjoyed the modpack,"
+				"I would appreciated very much if"
+				"you can send some donations to "
+				"my ko-fi                       -Khazenor"
+			]
+			image: "ftbquests:textures/gui/chain_link.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			click: "https://github.com/khazenor/fc2026/wiki"
+			dependency: "5BD4C23644BF2703"
+			height: 1.0d
+			hover: ["Modpack Wiki"]
+			image: "jamlib:textures/gui/sprites/writable_book.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:mangrove_propagule"
+			}
+			id: "5BD4C23644BF2703"
+			rewards: [
+				{
+					id: "6C00A75A45E035D5"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "52036349FBF99E50"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:init_all_scores"
+					id: "7322A4C0A56B27B5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					id: "6097E2B746560561"
+					item: {
+						count: 1
+						id: "artifacts:running_shoes"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54954BCFBA4B89EF"
+				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:cod"
+			}
+			id: "1B6B73275C612510"
+			rewards: [
+				{
+					id: "05C725D3C48DBE06"
+					item: {
+						count: 1
+						id: "tide:fishing_journal"
+					}
+					type: "item"
+				}
+				{
+					id: "2069BFA1375E9801"
+					item: {
+						components: {
+							"sophisticatedcore:accent_color": -12930086
+							"sophisticatedcore:main_color": -12930086
+						}
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "0FBC4F3E74239C2D"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "19E09CBCAA482AE2"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CF51538BCB2BA35"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:fishes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:poppy"
+			}
+			id: "4F114B795F9ABFD0"
+			rewards: [
+				{
+					id: "303F537B0ACBEE85"
+					item: {
+						count: 1
+						id: "minecraft:shears"
+					}
+					type: "item"
+				}
+				{
+					id: "71860FF4E63D8341"
+					item: {
+						components: {
+							"sophisticatedcore:accent_color": -8337633
+							"sophisticatedcore:main_color": -8337633
+						}
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "48C02BDCF68DCBE8"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "4AD57525D5A315F1"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "5C2110F26F883A9B"
+					item: {
+						count: 1
+						id: "compostbag:compost_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F0EDDFC7B43BC77"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fc:flora_quest_items)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:calcite"
+			}
+			id: "2C1B93F1A534E681"
+			rewards: [
+				{
+					count: 16
+					id: "057651607F938237"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "37114AD8B9884EDB"
+					item: {
+						components: {
+							"sophisticatedcore:accent_color": -14869215
+							"sophisticatedcore:main_color": -14869215
+						}
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "2C8EBA8520E077E2"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "295F954DD403393F"
+					item: {
+						count: 1
+						id: "minecraft:bundle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F60A140F50B49B9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(fc:minerals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			id: "6E3D3BA7844BFBCD"
+			rewards: [
+				{
+					id: "1875884FC87E75AC"
+					item: {
+						count: 1
+						id: "farm_and_charm:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "5018A62737DBCB26"
+					item: {
+						count: 1
+						id: "bakery:kitchen_sink"
+					}
+					type: "item"
+				}
+				{
+					id: "3DDF582EA4D6E442"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "78068DE1E0442F28"
+					item: {
+						count: 1
+						id: "minecraft:sugar_cane"
+					}
+					type: "item"
+				}
+				{
+					id: "1183EEA146EC3328"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A1338EFAE381B0C"
+				item: { count: 1, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3D3BA7844BFBCD"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:cooking_pot"
+			}
+			id: "2C42B4AF446B4BD9"
+			rewards: [{
+				id: "0835D15B612E2CCB"
+				item: {
+					count: 1
+					id: "farm_and_charm:mincer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "745A3EC4E4353D4A"
+				item: { count: 1, id: "farm_and_charm:yeast" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C42B4AF446B4BD9"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:mincer"
+			}
+			id: "1A6015D93785C5F8"
+			rewards: [{
+				id: "4C91067147C529A8"
+				item: {
+					count: 1
+					id: "farm_and_charm:crafting_bowl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D80D9E64CAAD520"
+				item: { count: 1, id: "farm_and_charm:flour" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A6015D93785C5F8"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:crafting_bowl"
+			}
+			id: "2C347959EBCF675E"
+			rewards: [{
+				id: "42DA83C58046FB45"
+				item: {
+					count: 1
+					id: "farm_and_charm:stove"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EF2580A26C727D1"
+				item: { count: 1, id: "farm_and_charm:dough" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C347959EBCF675E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:stove"
+			}
+			id: "49BBEA6293EEAE79"
+			rewards: [{
+				count: 16
+				id: "3EB593B1A0BCD070"
+				item: {
+					count: 1
+					id: "minecraft:sweet_berries"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "30E69AB566455F9D"
+					item: { count: 1, id: "bakery:bread" }
+					type: "item"
+				}
+				{
+					id: "2903E91A3356F0A5"
+					item: { count: 1, id: "bakery:cake_dough" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49BBEA6293EEAE79"]
+			hide_until_deps_complete: true
+			id: "5B2855A053DE0501"
+			rewards: [{
+				id: "451716A670410CCA"
+				item: {
+					count: 1
+					id: "bakery:baker_station"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09CB6D59876227E2"
+				item: { count: 1, id: "bakery:sweetberry_jam" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B2855A053DE0501"]
+			hide_until_deps_complete: true
+			id: "59449FD43D19FE6B"
+			rewards: [
+				{
+					id: "60B8627ED36DC818"
+					item: {
+						count: 1
+						id: "meadow:frame"
+					}
+					type: "item"
+				}
+				{
+					id: "5ACD7AA9F1653FBA"
+					item: {
+						count: 1
+						id: "meadow:cooking_cauldron"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "209E48CB341E34A5"
+					item: {
+						count: 1
+						id: "minecraft:calcite"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "129FCC6DBD6D29A9"
+				item: { count: 1, id: "bakery:sweetberry_cupcake" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59449FD43D19FE6B"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "meadow:cooking_cauldron"
+			}
+			id: "53A97CAB5255B2F3"
+			rewards: [
+				{
+					count: 16
+					id: "72EB11AA8842CE8B"
+					item: {
+						count: 1
+						id: "minecraft:egg"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50766B81ADD27146"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69DD6844E45F897F"
+				item: { count: 1, id: "meadow:alpine_salt" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53A97CAB5255B2F3"]
+			hide_until_deps_complete: true
+			id: "0F53FC1CCEA5E2FA"
+			rewards: [
+				{
+					id: "63C85AC5CEAB1C8F"
+					item: {
+						count: 1
+						id: "meadow:cheese_form"
+					}
+					type: "item"
+				}
+				{
+					id: "68544AA970A92D82"
+					item: {
+						count: 1
+						id: "minecraft:cow_spawn_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B3ADFA9D83A05CE"
+				item: { count: 1, id: "meadow:rennet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0630CE07E50C1851"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:brown_mushroom"
+			}
+			id: "7EF0A60D2381B72D"
+			rewards: [{
+				id: "15EF7B732CA2602A"
+				item: {
+					count: 1
+					id: "farm_and_charm:roaster"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C41642E8C56AF79"
+					item: { count: 1, id: "kubejs:mushroom_patty" }
+					type: "item"
+				}
+				{
+					id: "1648713EC1D08354"
+					item: { count: 1, id: "minecraft:beef" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EF0A60D2381B72D"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:roaster"
+			}
+			id: "4A69082167D41264"
+			rewards: [{
+				id: "21835F5D09971518"
+				item: {
+					count: 1
+					id: "beachparty:mini_fridge"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7187103EA1747A25"
+				item: { count: 1, id: "candlelight:fillet_steak" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A69082167D41264"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "beachparty:mini_fridge"
+			}
+			id: "3249330012813FDA"
+			rewards: [
+				{
+					id: "01883495A05A05A6"
+					item: {
+						count: 1
+						id: "beachparty:palm_bar"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1875BCEB879812D1"
+					item: {
+						count: 1
+						id: "minecraft:cocoa_beans"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "03A8F72B0BB2412B"
+					item: {
+						count: 1
+						id: "minecraft:jungle_log"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EFAD014D5B05534"
+				item: { count: 1, id: "minecraft:ice" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3249330012813FDA"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "beachparty:palm_bar"
+			}
+			id: "4CEB9362A3403CA6"
+			rewards: [{
+				count: 16
+				id: "1DC60DCAE1C2CB90"
+				item: {
+					count: 1
+					id: "herbalbrews:tea_blossom"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2297A7375502BBAF"
+				item: { count: 1, id: "beachparty:cocoa_cocktail" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CEB9362A3403CA6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "herbalbrews:dried_green_tea_leaf_block"
+			}
+			id: "385BF7D960C48CEF"
+			rewards: [
+				{
+					id: "4E0194C183FA28C1"
+					item: {
+						count: 1
+						id: "herbalbrews:tea_kettle"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "19754F8086ABEFAC"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "599B09A4E4FCC5CF"
+					item: {
+						count: 1
+						id: "farm_and_charm:stove"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "43791B6903A4534A"
+					item: { count: 1, id: "herbalbrews:green_tea_leaf_block" }
+					type: "item"
+				}
+				{
+					id: "78669B9CCA641361"
+					item: { count: 1, id: "herbalbrews:dried_green_tea" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["385BF7D960C48CEF"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "herbalbrews:tea_kettle"
+			}
+			id: "21BA88188D23BF4E"
+			rewards: [
+				{
+					count: 16
+					id: "3056C2AF363AC3E5"
+					item: {
+						count: 1
+						id: "vinery:red_grape_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "7F81166246A2EB21"
+					item: {
+						count: 1
+						id: "vinery:grapevine_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "34CCE2213F0E8970"
+					item: {
+						count: 1
+						id: "vinery:wine_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6002C44BFBD7A09C"
+					item: {
+						count: 1
+						id: "vinery:jungle_lattice"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D9CFCD25DE15604"
+				item: { count: 1, id: "herbalbrews:green_tea" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21BA88188D23BF4E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "vinery:grapevine_pot"
+			}
+			id: "49A24AD6CB0927FB"
+			rewards: [{
+				id: "04E13CC83B36BF4F"
+				item: {
+					count: 1
+					id: "vinery:fermentation_barrel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0827A6018C65B03D"
+				item: { count: 1, id: "vinery:red_grapejuice" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49A24AD6CB0927FB"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "vinery:fermentation_barrel"
+			}
+			id: "74D876358D8D89DB"
+			rewards: [{
+				id: "2D6056F36620FB2C"
+				item: {
+					count: 1
+					id: "vinery:apple_press"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1390B9A0D49B2300"
+				item: { count: 1, id: "vinery:noir_wine" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74D876358D8D89DB"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "vinery:apple_press"
+			}
+			id: "7F9E567D1A1178E6"
+			rewards: [{
+				count: 8
+				id: "21FE2B7C6BC4E3C1"
+				item: {
+					count: 1
+					id: "farm_and_charm:silo_wood"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "602E51A53B3E35A8"
+				item: { count: 1, id: "vinery:apple_juice" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F9E567D1A1178E6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "farm_and_charm:silo_wood"
+			}
+			id: "0D128DE964133D4A"
+			rewards: [
+				{
+					count: 16
+					id: "5A254F27D8343746"
+					item: {
+						count: 1
+						id: "brewery:hops_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "1D06BD934615F381"
+					item: {
+						count: 1
+						id: "brewery:wooden_brewingstation"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AD78226211E1223"
+				item: { count: 1, id: "brewery:dried_wheat" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D128DE964133D4A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "brewery:wooden_brewingstation"
+			}
+			id: "144B3D6C8E09A63D"
+			rewards: [{
+				count: 32
+				id: "34FF5BCC689E0877"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A9D140564747443"
+				item: { count: 1, id: "brewery:beer_wheat" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F53FC1CCEA5E2FA"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "meadow:cheese_form"
+			}
+			id: "0630CE07E50C1851"
+			rewards: [
+				{
+					count: 16
+					id: "366D651A053ED389"
+					item: {
+						count: 1
+						id: "minecraft:brown_mushroom"
+					}
+					type: "item"
+				}
+				{
+					id: "4DEF5FDF297534C6"
+					item: {
+						count: 1
+						id: "botanypots:terracotta_hopper_botany_pot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "632FD3AF22594DBF"
+					item: {
+						count: 1
+						id: "minecraft:mycelium"
+					}
+					type: "item"
+				}
+				{
+					id: "72CE4ED97CCEC8FD"
+					item: {
+						count: 1
+						id: "minecraft:stonecutter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74F29F19982FAB25"
+				item: { count: 1, id: "meadow:cheese_block" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			hide_until_deps_complete: true
+			id: "1D9D9EDF46B00402"
+			rewards: [{
+				count: 8
+				id: "79AFAC6C4EE16152"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "tide:surface_loot_crate"
+				}
+				id: "3BCEACC7D9ECE8CB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tide:surface_loot_crate"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6A694FC4A6083409"
+				"4978B74B1C3BC5A7"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:sam"
+			}
+			id: "71DD63453348DBE8"
+			rewards: [
+				{
+					id: "15F240187BA04A2E"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "491CF6C6EA0492E1"
+					item: {
+						count: 1
+						id: "tide:angler_workshop"
+					}
+					type: "item"
+				}
+				{
+					id: "0EC656782C4DF1D5"
+					item: {
+						count: 1
+						id: "furniture:copper_fish_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "0A985864D32B423B"
+					item: {
+						count: 1
+						id: "furniture:iron_fish_tank"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39B5D0607784AC8A"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:jess"
+			}
+			id: "6A694FC4A6083409"
+			rewards: [
+				{
+					id: "6C15349FED759A6F"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "5CE29F2F4140C253"
+					item: {
+						count: 1
+						id: "moa_decor_electronics:pc_antigua"
+					}
+					type: "item"
+				}
+				{
+					id: "0F02CDFBFDDFB1E1"
+					item: {
+						count: 1
+						id: "moa_decor_electronics:aire_acondicionado_moderno"
+					}
+					type: "item"
+				}
+				{
+					id: "3ABC9E4073F109CF"
+					item: {
+						count: 1
+						id: "furniture:cash_register"
+					}
+					type: "item"
+				}
+				{
+					id: "42C08B9FFADCD7E1"
+					item: {
+						count: 1
+						id: "moa_cookery:cafetera"
+					}
+					type: "item"
+				}
+				{
+					id: "19F204D255F185EF"
+					item: {
+						count: 1
+						id: "framedblocks:framing_saw"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47D968778F725753"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"71DD63453348DBE8"
+				"6A694FC4A6083409"
+				"2C8130F0E14958B4"
+				"1EDF709B0F6F410A"
+				"5311686C2B4B0C71"
+				"0837A544E05704BC"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:miles_booklet"
+			}
+			id: "405396378EE4B767"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "16DE253CD1896B19"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:stone_fishing_rod_upgrade_kit"
+			}
+			id: "429B913B2B35BC9E"
+			rewards: [
+				{
+					id: "0D1E9866FEBB551F"
+					item: {
+						count: 1
+						id: "kubejs:stone_fishing_rod_upgrade_kit"
+					}
+					type: "item"
+				}
+				{
+					id: "2FF263BB9E5BD917"
+					item: {
+						count: 1
+						id: "minecraft:smithing_table"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4BBEE79B6AD91AE2"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["429B913B2B35BC9E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:iron_fishing_rod_upgrade_kit"
+			}
+			id: "71C1250C2004016A"
+			rewards: [{
+				id: "55E7F0767A0B8A35"
+				item: {
+					count: 1
+					id: "kubejs:iron_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "48001C451B023551"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71C1250C2004016A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:golden_fishing_rod_upgrade_kit"
+			}
+			id: "0AECF2D9C00588B1"
+			rewards: [{
+				id: "1A1DAEB9C8CA4DE5"
+				item: {
+					count: 1
+					id: "kubejs:golden_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5D3315722A4E3C61"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AECF2D9C00588B1"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:crystal_fishing_rod_upgrade_kit"
+			}
+			id: "38DDF6DE6C1C57DE"
+			rewards: [{
+				id: "66016B9E56943A89"
+				item: {
+					count: 1
+					id: "kubejs:crystal_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "5B912ED2E16EAC03"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38DDF6DE6C1C57DE"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:diamond_fishing_rod_upgrade_kit"
+			}
+			id: "081A08FAF0E2C637"
+			rewards: [{
+				id: "06DDAFB78EBE5252"
+				item: {
+					count: 1
+					id: "kubejs:diamond_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6AADBF0513C8AF88"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["081A08FAF0E2C637"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:netherite_fishing_rod_upgrade_kit"
+			}
+			id: "2AA29F9A4845B0C2"
+			rewards: [{
+				id: "112F49E19D64B46F"
+				item: {
+					count: 1
+					id: "kubejs:netherite_fishing_rod_upgrade_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "285E43BB6A860A52"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			hide_until_deps_complete: true
+			id: "5AC743FE401681BD"
+			rewards: [{
+				count: 16
+				id: "0D47C5C369E3F764"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "tide:obsidian_loot_crate"
+				}
+				id: "22AF57429186BA12"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tide:obsidian_loot_crate"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			id: "5BB57D9BEC8038FB"
+			rewards: [
+				{
+					count: 2
+					id: "79CEA99DB2601F37"
+					item: {
+						count: 1
+						id: "mobcapturingtool:mob_capturing_tool"
+					}
+					type: "item"
+				}
+				{
+					id: "323B3B71FE9A9A22"
+					item: {
+						count: 1
+						id: "paraglider:paraglider"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:armadillo_spawn_egg"
+				}
+				id: "434C0605367C1A6C"
+				observe_type: 6
+				timer: 0L
+				to_observe: "kubejs:all_animals"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "irons_jewelry:ruby"
+			}
+			id: "56AC6181113D8B4E"
+			rewards: [
+				{
+					id: "0D4AF209F437EEC0"
+					item: {
+						count: 1
+						id: "irons_jewelry:jewelcrafting_guide"
+					}
+					type: "item"
+				}
+				{
+					id: "6B117E8D1ABDFAB7"
+					item: {
+						count: 1
+						id: "irons_jewelry:jewelcrafting_station"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61380A707E1B1CF3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2C42B4AF446B4BD9"
+				"09AC0621E9289FEB"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:menu"
+			}
+			id: "2DBF1187A9D50614"
+			rewards: [{
+				id: "15B4B6EDAFFC8646"
+				item: {
+					count: 1
+					id: "kubejs:menu"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "376DFD128BBD5804"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"28D5E795C2CE0159"
+				"6A694FC4A6083409"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:pamela"
+			}
+			id: "2C8130F0E14958B4"
+			rewards: [
+				{
+					id: "4D69B65B665C2534"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "7E98F5C0775DF320"
+					item: {
+						count: 1
+						id: "moa_cookery:soporte_delantal"
+					}
+					type: "item"
+				}
+				{
+					id: "0DF4B2E72741D2EB"
+					item: {
+						count: 1
+						id: "moa_cookery:soporte_instrumentos"
+					}
+					type: "item"
+				}
+				{
+					id: "4B33684BBB1A13F5"
+					item: {
+						count: 1
+						id: "moa_cookery:estufa"
+					}
+					type: "item"
+				}
+				{
+					id: "44F74DBBB81BD81C"
+					item: {
+						count: 1
+						id: "moa_cookery:refrigerador"
+					}
+					type: "item"
+				}
+				{
+					id: "4658284015F7C135"
+					item: {
+						count: 1
+						id: "moa_cookery:pay_manzana"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64BCE85D79C8E124"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3D3BA7844BFBCD"]
+			hide_until_deps_complete: true
+			id: "451F16432EFAC417"
+			rewards: [{
+				count: 16
+				id: "6A7F86FAB489C71B"
+				item: {
+					count: 1
+					id: "kubejs:ash"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5849A955474FBBDD"
+				item: { count: 1, id: "kubejs:ash" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A694FC4A6083409"
+				"237FE170DCEF0E64"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:yukkie"
+			}
+			id: "1EDF709B0F6F410A"
+			rewards: [
+				{
+					id: "4AE56D21A2903EF7"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "0BEC92A973AF9990"
+					item: {
+						count: 1
+						id: "moa_cookery:manzana_dorada_cortada"
+					}
+					type: "item"
+				}
+				{
+					id: "04F1E26B8911EAAD"
+					item: {
+						count: 1
+						id: "moa_cookery:manzana"
+					}
+					type: "item"
+				}
+				{
+					id: "2B4AEA2175242BFE"
+					item: {
+						count: 1
+						id: "moa_cookery:sandia"
+					}
+					type: "item"
+				}
+				{
+					id: "0472457B2139E88A"
+					item: {
+						count: 1
+						id: "moa_cookery:calabaza"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64083F8BBF9CEA39"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6A694FC4A6083409"
+				"376DCB91210E98FD"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:andre"
+			}
+			id: "0837A544E05704BC"
+			rewards: [
+				{
+					id: "40EE2B4CE1167B6E"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "440387FB8BCC44A7"
+					item: {
+						count: 1
+						id: "moa_cookery:botellas_leche"
+					}
+					type: "item"
+				}
+				{
+					id: "61713313C7A194B9"
+					item: {
+						count: 1
+						id: "moa_cookery:cesta_picnic"
+					}
+					type: "item"
+				}
+				{
+					id: "091C5B05B640A2D1"
+					item: {
+						count: 1
+						id: "moa_garden:regadera_jardin"
+					}
+					type: "item"
+				}
+				{
+					id: "7A3D7E96BFB952B9"
+					item: {
+						count: 1
+						id: "moa_garden:apiario"
+					}
+					type: "item"
+				}
+				{
+					id: "1729DDDE5706A2BB"
+					item: {
+						count: 1
+						id: "moa_toys:p_gallina"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79243228092AB346"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6A694FC4A6083409"
+				"475B5DD94020E4C0"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "kubejs:laly"
+			}
+			id: "5311686C2B4B0C71"
+			rewards: [
+				{
+					id: "57ACECA3E6DE3506"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "47445500DAF7FF90"
+					item: {
+						count: 1
+						id: "betterarcheology:archeology_table"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "38D0C9BE3FFB664E"
+					item: {
+						count: 1
+						id: "create:placard"
+					}
+					type: "item"
+				}
+				{
+					id: "357EF5847529FA29"
+					item: {
+						count: 1
+						id: "moa_science:telescopio"
+					}
+					type: "item"
+				}
+				{
+					id: "0CDC79B1AD6E7D61"
+					item: {
+						count: 1
+						id: "furniture:display"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79FFB63DB33B6DB9"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D128DE964133D4A"]
+			hide_until_deps_complete: true
+			id: "523D97361A2661A4"
+			rewards: [{
+				id: "19AEF15132169A62"
+				item: {
+					count: 1
+					id: "farm_and_charm:pitchfork"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77D0D6273B1901F2"
+				item: { count: 1, id: "farm_and_charm:fertilized_soil" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:stonecutter"
+			}
+			id: "4C5C72BBA123A633"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CA1BE9980E94817"
+				table_id: 182824633693894406L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 16L
+				id: "56C5449D42AAC4FB"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4C5C72BBA123A633"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "refurbished_furniture:jungle_table"
+			}
+			id: "32A06EEE318AC659"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59BA8945E3007DF0"
+				table_id: 7712232950386025038L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "55F87828A957E5CE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:cuttable_furniture)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6A694FC4A6083409"
+				"3AC5083E3D1BEDB0"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:ren"
+			}
+			id: "652E92C4C78931C0"
+			rewards: [
+				{
+					id: "3BBCD0B867F7E693"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "6C6EB9686DD38221"
+					item: {
+						count: 1
+						id: "moa_garden:hacha_clavada"
+					}
+					type: "item"
+				}
+				{
+					id: "423AF187E2FA80C4"
+					item: {
+						count: 1
+						id: "moa_cookery:sal_pimienta"
+					}
+					type: "item"
+				}
+				{
+					id: "2F182330534BD541"
+					item: {
+						count: 1
+						id: "moa_cookery:lata_atun"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EB4267EC0C31BAE"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:bernina"
+			}
+			id: "244EB51B41EAB417"
+			rewards: [
+				{
+					id: "4F71C88FA42CEF59"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "6F81FD306E7DC496"
+					item: {
+						count: 1
+						id: "moa_bath:c_toallas_cafes"
+					}
+					type: "item"
+				}
+				{
+					id: "35DDF73B3F797CA7"
+					item: {
+						count: 1
+						id: "moa_art:maquina_coser"
+					}
+					type: "item"
+				}
+				{
+					id: "767686B780EB3D8B"
+					item: {
+						count: 1
+						id: "moa_art:hilo_rojo"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "710C54CB94523346"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["244EB51B41EAB417"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:elna"
+			}
+			id: "712B913703C63ED7"
+			rewards: [
+				{
+					id: "2CEE84C399AF31A5"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "7C503BDF9F10C3F1"
+					item: {
+						count: 1
+						id: "moa_bath:c_toallas_azul_claras"
+					}
+					type: "item"
+				}
+				{
+					id: "69C1910D4E39B606"
+					item: {
+						count: 1
+						id: "moa_art:maniqui"
+					}
+					type: "item"
+				}
+				{
+					id: "56557B47E814C76B"
+					item: {
+						count: 1
+						id: "moa_bath:tabla_planchar"
+					}
+					type: "item"
+				}
+				{
+					id: "76105D373C311F67"
+					item: {
+						count: 1
+						id: "moa_bath:plancha"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "32813A3F759BC3B4"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:parlan"
+			}
+			id: "4753B66B830D109F"
+			rewards: [
+				{
+					id: "0293511AC9719527"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "1078A86944A8A47D"
+					item: {
+						count: 1
+						id: "moa_science:documentos"
+					}
+					type: "item"
+				}
+				{
+					id: "5038BA08FCF8F48A"
+					item: {
+						count: 1
+						id: "furniture:coffer"
+					}
+					type: "item"
+				}
+				{
+					id: "75C51D9DC6013FAE"
+					item: {
+						count: 1
+						id: "furniture:blueprints"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "35AD5C8EC0B25453"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4753B66B830D109F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:langley"
+			}
+			id: "7EAEF8A92CA83B75"
+			rewards: [
+				{
+					id: "726269EF0BA098F1"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "6B1AC572D3068F78"
+					item: {
+						count: 1
+						id: "moa_science:microscopio"
+					}
+					type: "item"
+				}
+				{
+					id: "2F50245E4C0B36DA"
+					item: {
+						count: 1
+						id: "moa_cookery:fideos"
+					}
+					type: "item"
+				}
+				{
+					id: "3DAD9A007F93E614"
+					item: {
+						count: 1
+						id: "moa_cookery:frasco_galletas"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "68C96575B1A390D9"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:skye"
+			}
+			id: "2EEE42B677C05AF4"
+			rewards: [
+				{
+					id: "20501ECA1E44AE80"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "11801CFA90203575"
+					item: {
+						count: 1
+						id: "moa_science:lupa"
+					}
+					type: "item"
+				}
+				{
+					id: "402AED1D183C1F2F"
+					item: {
+						count: 1
+						id: "moa_decor_electronics:pc_antigua"
+					}
+					type: "item"
+				}
+				{
+					id: "24BFC460C238F35B"
+					item: {
+						count: 1
+						id: "moa_art:ge_roja"
+					}
+					type: "item"
+				}
+				{
+					id: "70F5A54C8B824CD7"
+					item: {
+						count: 1
+						id: "moa_art:amplificador"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "091E28F3B95946C6"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7041BB13DE704850"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:matan"
+			}
+			id: "2D5FB33032B2E67B"
+			rewards: [
+				{
+					id: "15480E434453AD87"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "3709C0D6B330A8D3"
+					item: {
+						count: 1
+						id: "moa_science:globo_terraqueo"
+					}
+					type: "item"
+				}
+				{
+					id: "37433E1F51E6BD2A"
+					item: {
+						count: 1
+						id: "moa_art:caballete"
+					}
+					type: "item"
+				}
+				{
+					id: "683918B2C46C0730"
+					item: {
+						count: 1
+						id: "furniture:boat_in_a_jar"
+					}
+					type: "item"
+				}
+				{
+					id: "5A13AD760E6D4C41"
+					item: {
+						count: 1
+						id: "moa_science:libro_tintero"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7CFAE9A2268E6AE1"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["712B913703C63ED7"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:fenny"
+			}
+			id: "66DC33622164FCCC"
+			rewards: [
+				{
+					id: "66DD6585A925ECA7"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "466984355E94E701"
+					item: {
+						count: 1
+						id: "moa_toys:p_conejo_dorado"
+					}
+					type: "item"
+				}
+				{
+					id: "0856C104AF67A78A"
+					item: {
+						count: 1
+						id: "moa_art:tijeras"
+					}
+					type: "item"
+				}
+				{
+					id: "2F5C505FB699066C"
+					item: {
+						count: 1
+						id: "moa_toys:p_cab_negro_cop"
+					}
+					type: "item"
+				}
+				{
+					id: "5EDDF98A03F3122E"
+					item: {
+						count: 1
+						id: "furniture:sewing_kit"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "647249803C14B179"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["405396378EE4B767"]
+			icon: {
+				id: "kubejs:village_capacity_permit"
+			}
+			id: "7041BB13DE704850"
+			rewards: [
+				{
+					id: "0FF46B6D43059A0A"
+					item: {
+						count: 1
+						id: "kubejs:village_capacity_permit"
+					}
+					type: "item"
+				}
+				{
+					id: "0EA5E8BA92939514"
+					item: {
+						count: 1
+						id: "kubejs:decoration_catalog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "594F0673351BBA80"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D5FB33032B2E67B"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:harley"
+			}
+			id: "558A1A31A21872DB"
+			rewards: [
+				{
+					id: "24E767130EBFC895"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "54A03DB99912A3CC"
+					item: {
+						count: 1
+						id: "moa_lights:guirnalda_luz"
+					}
+					type: "item"
+				}
+				{
+					id: "713ADB1180C83C3A"
+					item: {
+						count: 1
+						id: "moa_garden:fbl_anflorcha"
+					}
+					type: "item"
+				}
+				{
+					id: "5FAD3527E85594DF"
+					item: {
+						count: 1
+						id: "moa_garden:fbl_lirio_valle"
+					}
+					type: "item"
+				}
+				{
+					id: "173D9C44C5E33353"
+					item: {
+						count: 1
+						id: "moa_garden:fbl_allium"
+					}
+					type: "item"
+				}
+				{
+					id: "7FB1D8CB6C67396D"
+					item: {
+						count: 1
+						id: "moa_art:bateria_roja"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "34E652D81DCB377A"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A694FC4A6083409"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "refinedstorage:crafting_grid"
+			}
+			id: "7FEEA0C56B23D7A2"
+			rewards: [
+				{
+					id: "08A7BC4356775A45"
+					item: {
+						count: 1
+						id: "refinedstorage:crafting_grid"
+					}
+					type: "item"
+				}
+				{
+					id: "72C41F3CED97A47A"
+					item: {
+						count: 1
+						id: "refinedstorage:disk_drive"
+					}
+					type: "item"
+				}
+				{
+					id: "0358FE35E68D29C7"
+					item: {
+						count: 1
+						id: "refinedstorage:creative_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "08861977D195F170"
+					item: {
+						count: 1
+						id: "refinedstorage:1k_storage_disk"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6464056DF5791E0E"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FEEA0C56B23D7A2"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"refinedstorage:storage_reference": [I;
+						552258984
+						-1999092192
+						-1472444781
+						-78343738
+					]
+				}
+				id: "refinedstorage:4k_storage_disk"
+			}
+			id: "2F7D2916F2B8EEEF"
+			rewards: [{
+				id: "44711A4CBCF434FF"
+				item: {
+					count: 1
+					id: "refinedstorage:4k_storage_disk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "68D39CFE656F8AD8"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F7D2916F2B8EEEF"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"refinedstorage:storage_reference": [I;
+						1133273917
+						924140871
+						-1893110155
+						757979485
+					]
+				}
+				id: "refinedstorage:16k_storage_disk"
+			}
+			id: "18C4BA444FB5D4A1"
+			rewards: [{
+				id: "3A107EFD37DF5BDD"
+				item: {
+					count: 1
+					id: "refinedstorage:16k_storage_disk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 25L
+				id: "0CD23054CCB1F604"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18C4BA444FB5D4A1"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"refinedstorage:storage_reference": [I;
+						-425693163
+						-219529028
+						-1790791368
+						-2016593797
+					]
+				}
+				id: "refinedstorage:64k_storage_disk"
+			}
+			id: "1754A8F9C2B428F3"
+			rewards: [{
+				id: "5CC640A37E901D85"
+				item: {
+					count: 1
+					id: "refinedstorage:64k_storage_disk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 125L
+				id: "688605AB208FA6D0"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1754A8F9C2B428F3"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"refinedstorage:storage_reference": [I;
+						1614499203
+						-26918335
+						-1598476624
+						1880391615
+					]
+				}
+				id: "refinedstorage:creative_storage_disk"
+			}
+			id: "0567525EC9CF0532"
+			rewards: [{
+				id: "681F7C396637C101"
+				item: {
+					count: 1
+					id: "refinedstorage:creative_storage_disk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 625L
+				id: "49294A291EFD9446"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1754A8F9C2B428F3"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "refinedstorage:creative_portable_grid"
+			}
+			id: "5B2F73BE722EFC7A"
+			rewards: [{
+				id: "3E9F6BC423E87DDD"
+				item: {
+					count: 1
+					id: "refinedstorage:creative_portable_grid"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2E0C76892D343320"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1754A8F9C2B428F3"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "refinedstorage:creative_range_upgrade"
+			}
+			id: "703E05E1F1899BE1"
+			rewards: [{
+				id: "15F20D0B4135BB01"
+				item: {
+					count: 1
+					id: "refinedstorage:creative_range_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2DBA4B80C7F5D16E"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1754A8F9C2B428F3"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "refinedstorage:creative_controller"
+			}
+			id: "3AFF7461B2387639"
+			rewards: [{
+				id: "7B8AAF7565195B03"
+				item: {
+					count: 1
+					id: "refinedstorage:creative_controller"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "75BB8DD43B70DE41"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D99799B43A55505"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "flightblocks:flight_block"
+			}
+			id: "60D11B166A66E480"
+			rewards: [{
+				id: "731E993C51A856BB"
+				item: {
+					count: 1
+					id: "flightblocks:flight_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				icon: {
+					id: "kubejs:miles_booklet"
+				}
+				id: "6D8EAA481DC191C9"
+				item: { count: 1, id: "flightblocks:flight_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1754A8F9C2B428F3"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "refinedstorage:creative_wireless_grid"
+			}
+			id: "068C214AF95CE24F"
+			rewards: [{
+				id: "4D990EF457FD0090"
+				item: {
+					count: 1
+					id: "refinedstorage:creative_wireless_grid"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2D20D08486054EE1"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5BB57D9BEC8038FB"
+				"4F114B795F9ABFD0"
+				"1B6B73275C612510"
+				"2C1B93F1A534E681"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:check_collection_progress"
+			}
+			id: "0205212A2FE863C8"
+			rewards: [{
+				id: "147D8D893C940ED4"
+				item: {
+					count: 1
+					id: "kubejs:check_collection_progress"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C487C7DCFE478AE"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32D9390F9B877315"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:rigg"
+			}
+			id: "14E4D983C6F318CD"
+			rewards: [{
+				count: 4
+				id: "333EA9DC71D81DE3"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "5986AF9819F5B8FD"
+					item: { count: 1, id: "kubejs:miles_ticket" }
+					type: "item"
+				}
+				{
+					id: "70D2DC722C53C66E"
+					item: { count: 1, id: "farmingforblockheads:market" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BD4C23644BF2703"]
+			hide_until_deps_complete: true
+			id: "32D9390F9B877315"
+			rewards: [{
+				id: "06BD04E64A15B993"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BAD93141D1512F1"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EEE42B677C05AF4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:pingu"
+			}
+			id: "22C8BB99ECF5AB13"
+			rewards: [
+				{
+					id: "6FDE54107E1F6EAA"
+					table_id: 7309123930357327620L
+					type: "random"
+				}
+				{
+					id: "323844C04AFC3050"
+					item: {
+						count: 1
+						id: "moa_art:fonografo"
+					}
+					type: "item"
+				}
+				{
+					id: "6610930E42C397E3"
+					item: {
+						count: 1
+						id: "moa_art:maquina_discos"
+					}
+					type: "item"
+				}
+				{
+					id: "162F8AEB504E767D"
+					item: {
+						count: 1
+						id: "moa_art:teclado_musical"
+					}
+					type: "item"
+				}
+				{
+					id: "6A9E7D767B52F4CC"
+					item: {
+						count: 1
+						id: "moa_art:amplificador"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "775A4726BB822B0F"
+				item: { count: 1, id: "kubejs:miles_booklet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32A06EEE318AC659"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"camerapture:camera_active": 0b
+				}
+				id: "camerapture:camera"
+			}
+			id: "6440EA925BDD070D"
+			rewards: [
+				{
+					id: "7139055BCA72CE12"
+					item: {
+						components: {
+							"camerapture:camera_active": 0b
+						}
+						count: 1
+						id: "camerapture:camera"
+					}
+					type: "item"
+				}
+				{
+					id: "2055F995061F6FCD"
+					item: {
+						components: {
+							"minecraft:container": [ ]
+						}
+						count: 1
+						id: "camerapture:album"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3EFD4316196AFDB9"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4FDC4AB1A1CFE1ED"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"32A06EEE318AC659"
+				"14E4D983C6F318CD"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "handcrafted:dark_oak_fancy_bed"
+			}
+			id: "3AC5083E3D1BEDB0"
+			rewards: [{
+				count: 6
+				id: "5E2E0B875A00D040"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "749D9BA6447A803D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:couches)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "43CA63F697A89A98"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4AA19474BF87D4E9"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:cushions)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "538AC2253D76795F"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(handcrafted:sheets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["652E92C4C78931C0"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "toolbelt:belt"
+			}
+			id: "7B74B56291565C0D"
+			rewards: [{
+				id: "5A746619F3363657"
+				item: {
+					components: {
+						"toolbelt:belt_size": 9
+					}
+					count: 1
+					id: "toolbelt:belt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6B080DD400729754"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"652E92C4C78931C0"
+				"151D4079C92BCA30"
+			]
+			hide_until_deps_complete: true
+			id: "3D99799B43A55505"
+			rewards: [{
+				count: 2
+				id: "3007ADE4988E11E3"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60D6AFAF0D20F5CE"
+				item: { count: 1, id: "kubejs:construction_ticket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32D9390F9B877315"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "151D4079C92BCA30"
+			rewards: [{
+				id: "6A3C016BF17C1129"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "56F93F3D9388937F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:building_materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["14E4D983C6F318CD"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "ring_of_teleport:ring_of_teleport"
+			}
+			id: "5D97E780E413EDAC"
+			rewards: [{
+				id: "3F00C6E28E89EB72"
+				item: {
+					count: 1
+					id: "ring_of_teleport:ring_of_teleport"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4C2DE79D5D948337"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+}

@@ -1,0 +1,794 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative_foods"
+	group: ""
+	icon: {
+		id: "create_confectionery:gingerbread_man"
+	}
+	id: "738AB02774440896"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1A030FF8B3701F3E"]
+			hide_until_deps_complete: true
+			id: "22185ED6536D9ECF"
+			rewards: [{
+				count: 6
+				id: "221AE59B40E7218D"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "4142C968CF25323B"
+				item: { count: 1, id: "create_confectionery:gingerbread_man" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["647B2F3D3683B33C"]
+			hide_until_deps_complete: true
+			id: "1A030FF8B3701F3E"
+			rewards: [{
+				id: "79CB3506C54D135A"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DA84B742C05AA86"
+				item: { count: 1, id: "create:cinder_flour" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B55D4BA8E798DB7"]
+			hide_until_deps_complete: true
+			id: "647B2F3D3683B33C"
+			rewards: [{
+				id: "7D2A95E43EF75E93"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A2C0096D1C7004D"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+				{
+					id: "7C08D9F813071966"
+					item: { count: 1, id: "create:item_drain" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1762BB2252F27EB4"]
+			hide_until_deps_complete: true
+			id: "2C0E4B35662D27BA"
+			rewards: [{
+				id: "3E22C1E93326F9ED"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02C2BFF06736BF65"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26DBCA58459F81BD"]
+			hide_until_deps_complete: true
+			id: "6B55D4BA8E798DB7"
+			rewards: [{
+				id: "3E04D19C2F1FFEA7"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "674BC047FC2F8842"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["737F4A32CD10213E"]
+			hide_until_deps_complete: true
+			id: "26DBCA58459F81BD"
+			rewards: [{
+				id: "2BFAF253003D11A9"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60E17633C626A989"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C501FFAC01D79FF"]
+			hide_until_deps_complete: true
+			id: "737F4A32CD10213E"
+			rewards: [{
+				id: "5CAD63E3DE59B815"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54265985A5D92422"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "703D169FC3FEE831"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+				{
+					id: "22283D15BC663AD6"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DBF1187A9D50614"]
+			hide_until_deps_complete: true
+			id: "6FE6A8C6D76300A4"
+			rewards: [{
+				id: "128C3904A51240AF"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A55ED419754CB42"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6FE6A8C6D76300A4"]
+			hide_until_deps_complete: true
+			id: "1762BB2252F27EB4"
+			rewards: [{
+				id: "47D8CEF09D659BB4"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E8F5526B0799A3C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:create_energy_generation)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2C0E4B35662D27BA"]
+			hide_until_deps_complete: true
+			id: "7C501FFAC01D79FF"
+			rewards: [{
+				id: "349E1B41FF39CCFD"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B39215FA3B740F2"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["647B2F3D3683B33C"]
+			hide_until_deps_complete: true
+			id: "2D416C333AD15935"
+			rewards: [{
+				id: "2F212C5AD7EE8AE9"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DC2EE3ECD300E82"
+				item: { count: 1, id: "create_confectionery:bar_of_black_chocolate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D416C333AD15935"]
+			hide_until_deps_complete: true
+			id: "72107B7BEE230CAC"
+			rewards: [{
+				count: 6
+				id: "59DA7AB1D398D669"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "12275CF1A0DD3F79"
+				item: { count: 1, id: "create_confectionery:full_chocolate_bar" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D416C333AD15935"]
+			hide_until_deps_complete: true
+			id: "7BB342C194BD3BE1"
+			rewards: [{
+				count: 6
+				id: "0D9EDE0966896402"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "2D0DF2701554B85D"
+				item: { count: 1, id: "create_confectionery:full_black_chocolate_bar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D416C333AD15935"]
+			hide_until_deps_complete: true
+			id: "13446FE79A471ACA"
+			rewards: [{
+				count: 6
+				id: "06B855A096864DE4"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "42840567F7E273A9"
+				item: { count: 1, id: "create_confectionery:full_white_chocolate_bar" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "1EF6724D659B077B"
+			rewards: [{
+				count: 6
+				id: "71DF75F75B3578BC"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "3CF74BAB4F1D750E"
+				item: { count: 1, id: "create_confectionery:black_chocolate_glazed_berries" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "55693AB0AE42D019"
+			rewards: [{
+				count: 6
+				id: "5B856A8A47750D0C"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "2833B2CC94AC8505"
+				item: { count: 1, id: "create_confectionery:white_chocolate_glazed_berries" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "2A162557A7CB3259"
+			rewards: [{
+				count: 6
+				id: "690EA1DE68809DEE"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "7C060E804BAA9037"
+				item: { count: 1, id: "create_confectionery:caramel_glazed_berries" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "583037CF01745BE6"
+			rewards: [{
+				count: 6
+				id: "1C22188640F0AF18"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "05F3C24DB35158EC"
+				item: { count: 1, id: "create_confectionery:candy_cane" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "4DA340F4B7A995BA"
+			rewards: [{
+				count: 6
+				id: "7E62B5981404D57E"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "0894CB31059E43F3"
+				item: { count: 1, id: "create_confectionery:honey_candy" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "59A1AFFBF24E6F85"
+			rewards: [{
+				count: 6
+				id: "26DFECED8D49934F"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "62BDD81E5CC66FB8"
+				item: { count: 1, id: "create_confectionery:chocolate_candy" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "5FC67B20501339AC"
+			rewards: [{
+				count: 6
+				id: "1A3D8AAAED1E3E3B"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "202EAF46048FF9E1"
+				item: { count: 1, id: "create_confectionery:chocolate_candy_1" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "4909F477E90DE35C"
+			rewards: [{
+				count: 6
+				id: "5B1FF440DE568026"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "102C726D71E195C7"
+				item: { count: 1, id: "create_confectionery:chocolate_candy_2" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "4B8B01EAC62D9FF2"
+			rewards: [{
+				count: 6
+				id: "199AC242255A187C"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "1B5680A1C401E364"
+				item: { count: 1, id: "create_confectionery:black_chocolate_candy" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "14F87853C78E0784"
+			rewards: [{
+				count: 6
+				id: "249DFCEC53AB002A"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "4BB6DFE2041B844D"
+				item: { count: 1, id: "create_confectionery:black_chocolate_candy_1" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "3D2F740CD936E342"
+			rewards: [{
+				count: 6
+				id: "239195F17C84CD48"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "2E7C6EB68360DEDD"
+				item: { count: 1, id: "create_confectionery:black_chocolate_candy_2" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "75FCCA4F18FFB676"
+			rewards: [{
+				count: 6
+				id: "29BB3BFF401B16BC"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "41CBFC3B2AD50CDA"
+				item: { count: 1, id: "create_confectionery:white_chocolate_candy" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "2D5C84A92FC970AA"
+			rewards: [{
+				count: 6
+				id: "06611DB098E97ED0"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "23B7432279D85200"
+				item: { count: 1, id: "create_confectionery:white_chocolate_candy_1" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "50C26DA282F17774"
+			rewards: [{
+				count: 6
+				id: "73361CB5899A5517"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "295FB1DB6E5E48DB"
+				item: { count: 1, id: "create_confectionery:white_chocolate_candy_2" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "6183BD5265E402FF"
+			rewards: [{
+				count: 6
+				id: "39D4554A94AB67C6"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "3373D6940CB92EAB"
+				item: { count: 1, id: "create:sweet_roll" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "7D8B41A2A841D0BF"
+			rewards: [{
+				count: 6
+				id: "37D4AD05348D6F7C"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "7478A57DBF96810B"
+				item: { count: 1, id: "create:chocolate_glazed_berries" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "3B17BFC57CD55484"
+			rewards: [{
+				count: 6
+				id: "6FA5398E1E766BE6"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "3063E87FDF40CC81"
+				item: { count: 1, id: "create:honeyed_apple" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "7658BA8AE88D1B57"
+			rewards: [{
+				count: 6
+				id: "37F0D2C8E865DAF0"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "0242A0808F4B5F56"
+				item: { count: 1, id: "createaddition:chocolate_cake" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["637E10A0A8549DC1"]
+			hide_until_deps_complete: true
+			id: "5613195A838E5F4E"
+			rewards: [{
+				count: 6
+				id: "30E09BB9CB616520"
+				item: {
+					count: 1
+					id: "kubejs:miles_booklet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "6748E69D01EA7748"
+				item: { count: 1, id: "createaddition:honey_cake" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["647B2F3D3683B33C"]
+			hide_until_deps_complete: true
+			id: "637E10A0A8549DC1"
+			rewards: [{
+				id: "692AC426F96E4D3D"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1574B4B6C8F5ED4B"
+					item: { count: 1, id: "create:spout" }
+					type: "item"
+				}
+				{
+					id: "7BDBAABAAE576AF3"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					id: "720B03C4676E0F9C"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

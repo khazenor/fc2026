@@ -1,0 +1,14 @@
+{
+  // Size scale for exporting maps
+  // 1 = 128x128px
+  // 2 = 256x256px
+  // 3 = 384x384px
+  // And so on, you got the pattern I hope
+  // Minimum: 1
+  "mapScale": 3,
+  
+  // On some slower PCs, or in big modpacks, it seems like rendering glue drains a lot of performance.
+  // You can disable it here to see if it improves your performance.
+  // This will deactivate the glue rendering in the world, so you won't see any glue on any block.
+  "renderGlueOnBlocks": true
+}

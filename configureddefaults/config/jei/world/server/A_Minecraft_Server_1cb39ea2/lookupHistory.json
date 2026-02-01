@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:stonecutter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"vinery:apple_tree_sapling"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"vinery:cherry"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"vinery:dark_cherry_sapling"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"vinery:rotten_cherry"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"vinery:dark_cherry_leaves"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

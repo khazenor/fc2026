@@ -1,0 +1,878 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "villager_movein"
+	group: ""
+	icon: {
+		id: "kubejs:jess"
+	}
+	id: "54E0F0AC5FB1DBEC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["71DD63453348DBE8"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:sam"
+			}
+			id: "662508CD3479F7E7"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:sam"
+				icon: {
+					id: "kubejs:sam"
+				}
+				id: "3E69470E1EE2C2F5"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "19AD8DA1770E7BB7"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["71DD63453348DBE8"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "62DD1ED32EA1E29B"
+			rewards: [{
+				command: "/function fc_villagers:sam_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "1C6D1A7B94C78054"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "0C1C765B1B9E6986"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A694FC4A6083409"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:jess"
+			}
+			id: "3B2FC193848CADB0"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:jess"
+				icon: {
+					id: "kubejs:jess"
+				}
+				id: "690264246C41E3F9"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "578EE00C8185F3F1"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A694FC4A6083409"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "226281A3E70EC971"
+			rewards: [{
+				command: "/function fc_villagers:jess_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "70F6B39F200B5BF7"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "59DD59E1A5AC613E"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2C8130F0E14958B4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:pamela"
+			}
+			id: "3CA5ABA6ED18830D"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:pamela"
+				icon: {
+					id: "kubejs:pamela"
+				}
+				id: "135F0F48F9B380FC"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7E7314B7511294F8"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2C8130F0E14958B4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "433EE8A9CC98B14E"
+			rewards: [{
+				command: "/function fc_villagers:pamela_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "3951420C50FFE20F"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "14EAB549606F44BA"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0837A544E05704BC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:andre"
+			}
+			id: "24A47A72A30E2BF1"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:andre"
+				icon: {
+					id: "kubejs:andre"
+				}
+				id: "5768663A64833555"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "45E330F44EA726F5"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5311686C2B4B0C71"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:laly"
+			}
+			id: "2A1AEF0E0411614B"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:laly"
+				icon: {
+					id: "kubejs:laly"
+				}
+				id: "36B5EBED34BB417B"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "14C0D199BCF9C2DE"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EDF709B0F6F410A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:yukkie"
+			}
+			id: "68B6D4B3A9C0410C"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:yukkie"
+				icon: {
+					id: "kubejs:yukkie"
+				}
+				id: "674547A832E568C9"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "568B8A2DE791816E"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0837A544E05704BC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "0EF4C08295FD0C42"
+			rewards: [{
+				command: "/function fc_villagers:andre_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "36A176CDA5869125"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "3481EC86C1EEB5C2"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5311686C2B4B0C71"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "4DEF63334FEF5391"
+			rewards: [{
+				command: "/function fc_villagers:laly_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "1EE053483AB08EB7"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "03EF8D3C33F64AF5"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EDF709B0F6F410A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "53758DAA16D2F0A1"
+			rewards: [{
+				command: "/function fc_villagers:yukkie_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "66C90450BE81A057"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "68D3A7EEF4996474"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["652E92C4C78931C0"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:ren"
+			}
+			id: "5CE74678035D4392"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:ren"
+				icon: {
+					id: "kubejs:ren"
+				}
+				id: "2BF7C34D3EDF8130"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "6A1D5E30035C10BA"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["652E92C4C78931C0"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "00D26E807477ABE6"
+			rewards: [{
+				command: "/function fc_villagers:ren_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "1F209FA2D7AC0849"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "6DDA37A856A0B54D"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["244EB51B41EAB417"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:bernina"
+			}
+			id: "79FB2F7613DF7D19"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:bernina"
+				icon: {
+					id: "kubejs:bernina"
+				}
+				id: "761524A9DDFD19EE"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2613FF0A6A45DAFD"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["712B913703C63ED7"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:elna"
+			}
+			id: "23AAF4EDBDAF772A"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:elna"
+				icon: {
+					id: "kubejs:elna"
+				}
+				id: "02F4FC23E1106F52"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0E12D0428346B4C3"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4753B66B830D109F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:parlan"
+			}
+			id: "428E3DF7673B67C7"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:parlan"
+				icon: {
+					id: "kubejs:parlan"
+				}
+				id: "6AB88BCFCCFE5F11"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "650FFC72753EAFC2"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66DC33622164FCCC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:fenny"
+			}
+			id: "1608E3DFC63FB3D8"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:fenny"
+				icon: {
+					id: "kubejs:fenny"
+				}
+				id: "0F10C88596D39788"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "637E9E0B3591D0DF"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["558A1A31A21872DB"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:harley"
+			}
+			id: "33986A0D0262F9CE"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:harley"
+				icon: {
+					id: "kubejs:harley"
+				}
+				id: "72AC05E6F4640571"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "03B9DB67A9B8D6AD"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7EAEF8A92CA83B75"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:langley"
+			}
+			id: "42252542E745CC68"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:langley"
+				icon: {
+					id: "kubejs:langley"
+				}
+				id: "69355BF9C40A3885"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3E32F5E726F2CA1B"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2D5FB33032B2E67B"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:matan"
+			}
+			id: "5282566E7826B996"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:matan"
+				icon: {
+					id: "kubejs:matan"
+				}
+				id: "5DD2C3790C664B63"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1F9B6F93C2870540"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2EEE42B677C05AF4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:skye"
+			}
+			id: "387D9AE3BD7E53E6"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:skye"
+				icon: {
+					id: "kubejs:skye"
+				}
+				id: "4440447E1FA219E4"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "34D1F36CADCDB812"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["244EB51B41EAB417"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "3B9CE10D0F209658"
+			rewards: [{
+				command: "/function fc_villagers:bernina_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "1054118747F71C2D"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "5A2E9A6AC8AB187A"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["712B913703C63ED7"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "4B9D6D9D0EA42CCD"
+			rewards: [{
+				command: "/function fc_villagers:elna_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "347C3C3202E17784"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "3D3CFA15BC8DB366"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66DC33622164FCCC"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "5BFC475408E39C24"
+			rewards: [{
+				command: "/function fc_villagers:fenny_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "7B189D698EEE4960"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "23595537AB48FE95"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2EEE42B677C05AF4"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "55174CBE09CAF168"
+			rewards: [{
+				command: "/function fc_villagers:skye_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "4C1423C95BBCD454"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "052F543974C6ED9F"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2D5FB33032B2E67B"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "10DC7FD3F467260F"
+			rewards: [{
+				command: "/function fc_villagers:matan_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "74C54C3E9D518DC8"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "2D5EE3CE66370376"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["558A1A31A21872DB"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "55310AAA5E4452D6"
+			rewards: [{
+				command: "/function fc_villagers:harley_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "7B8CBDD2A052E4B8"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "76782CDB9977C431"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7EAEF8A92CA83B75"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "214A928A4F17D394"
+			rewards: [{
+				command: "/function fc_villagers:langley_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "6AE6D1043C6BD58C"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "0C8EAFBD678C7455"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4753B66B830D109F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "689463295963E36C"
+			rewards: [{
+				command: "/function fc_villagers:parlan_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "37FEAB2A2C33D2EA"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "26A4184AAAF67271"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["22C8BB99ECF5AB13"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:pingu"
+			}
+			id: "1FA0561DCA4884D6"
+			rewards: [{
+				auto: "disabled"
+				command: "/function fc_villagers:pingu"
+				icon: {
+					id: "kubejs:pingu"
+				}
+				id: "4F4F3CC87E248775"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0587CE2EC3FD202F"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["22C8BB99ECF5AB13"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "2C1B09546A8F09E7"
+			rewards: [{
+				command: "/function fc_villagers:pingu_highlight"
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "7EE1EA7CE9AC0814"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "6FA11A0CEAC1C982"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+	]
+}
