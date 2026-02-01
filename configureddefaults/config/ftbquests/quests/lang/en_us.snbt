@@ -456,6 +456,15 @@
 	quest.56AC6181113D8B4E.title: "Jewelry Crafting"
 	quest.56F458AB639E8D1E.title: "Creative Storage Disk"
 	quest.57BE1A138D1F6B53.title: "Vanilla Flora Completion"
+	quest.59449FD43D19FE6B.quest_desc: [
+		"Right click the caking station while holding a cake dough. After that you can do different interactions with the cake dough: "
+		""
+		"Knife -> Cutting -> Use Jam on it -> Make Cupcakes "
+		""
+		"Knife -> Rolling Pin -> Use Jam on it -> Make Cookies "
+		""
+		"Using Jam on it -> Make a cake"
+	]
 	quest.59449FD43D19FE6B.title: "Caking Station"
 	quest.59EC0CF448369939.title: "4k Storage Disk"
 	quest.5A08DE6581ABEB44.title: "Creative Wireless Grid"

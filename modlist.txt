@@ -34,6 +34,7 @@ connectedglass-1.1.14-neoforge-mc1.21.jar
 connectivity-1.21.1-7.2.jar
 controllable-neoforge-1.21.1-0.25.3.jar
 Controlling-neoforge-1.21.1-19.0.5.jar
+cookingforblockheads-neoforge-1.21.1-21.1.17.jar
 copycats-3.0.4+mc.1.21.1-neoforge.jar
 Corgilib-NeoForge-1.21.1-5.0.0.7.jar
 cosmeticarmorreworked-1.21.1-v1-neoforge.jar

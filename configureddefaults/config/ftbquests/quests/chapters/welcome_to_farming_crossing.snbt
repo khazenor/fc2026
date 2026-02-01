@@ -300,6 +300,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "18FA8FA26505C939"
+					item: {
+						count: 1
+						id: "botanypots:terracotta_hopper_botany_pot"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7A1338EFAE381B0C"
@@ -362,14 +370,33 @@
 				id: "farm_and_charm:crafting_bowl"
 			}
 			id: "2C347959EBCF675E"
-			rewards: [{
-				id: "42DA83C58046FB45"
-				item: {
-					count: 1
-					id: "farm_and_charm:stove"
+			rewards: [
+				{
+					id: "42DA83C58046FB45"
+					item: {
+						count: 1
+						id: "farm_and_charm:stove"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "0296E5C1335095BF"
+					item: {
+						count: 1
+						id: "minecraft:chicken_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "36E4DFDA8704AF45"
+					item: {
+						count: 1
+						id: "cookingforblockheads:cow_jar"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4EF2580A26C727D1"
 				item: { count: 1, id: "farm_and_charm:dough" }
@@ -413,14 +440,32 @@
 			dependencies: ["49BBEA6293EEAE79"]
 			hide_until_deps_complete: true
 			id: "5B2855A053DE0501"
-			rewards: [{
-				id: "451716A670410CCA"
-				item: {
-					count: 1
-					id: "bakery:baker_station"
+			rewards: [
+				{
+					id: "451716A670410CCA"
+					item: {
+						count: 1
+						id: "bakery:baker_station"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "69F7658CD4298231"
+					item: {
+						count: 1
+						id: "bakery:rolling_pin"
+					}
+					type: "item"
+				}
+				{
+					id: "77FC9AF13F35F866"
+					item: {
+						count: 1
+						id: "bakery:bread_knife"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "09CB6D59876227E2"
 				item: { count: 1, id: "bakery:sweetberry_jam" }

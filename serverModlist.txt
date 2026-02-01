@@ -26,6 +26,7 @@ CompostBag-Neo-1.21-4.1.0.jar
 ConfiguredDefaults-v21.1.3-1.21.1-NeoForge.jar
 connectedglass-1.1.14-neoforge-mc1.21.jar
 connectivity-1.21.1-7.2.jar
+cookingforblockheads-neoforge-1.21.1-21.1.17.jar
 copycats-3.0.4+mc.1.21.1-neoforge.jar
 Corgilib-NeoForge-1.21.1-5.0.0.7.jar
 cosmeticarmorreworked-1.21.1-v1-neoforge.jar
