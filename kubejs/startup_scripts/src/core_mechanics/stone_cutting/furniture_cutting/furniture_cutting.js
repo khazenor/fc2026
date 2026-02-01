@@ -39,11 +39,11 @@ const FurnitureCutting = {
         RequestHelper.stonecuttingAllToAll(cuttingItems, tagName)
         
         cuttables = cuttables.concat(cuttingItems)
-        furniture.concat(woodDef.convertableIds)
+        furniture = furniture.concat(convertableIds)
       }
       this.cuttablesCache = cuttables
       CacheHelper.cacheObject(this.allCuttablesWoodCacheName, cuttables)
-
+      console.log('furniture', furniture)
       RequestHandler.tags.item.add([['c:cuttable_furniture', furniture]])
     }
   }
