@@ -3,9 +3,7 @@ from quests import collectionQuestsInput as cqIn
 itemCollectableFiles = ['aquarium', 'flora_compendium', 'mineral_museum']
 collectionQuestGroupDenyNames = [
 	'Ore Completion',
-	'Fruits Completion',
-	'Vanilla Foods Completion',
-	'Modded Foods Completion'
+	'Fruits Completion'
 ]
 spawnEggDenyIds = [
 	'minecraft:bee_spawn_egg'
