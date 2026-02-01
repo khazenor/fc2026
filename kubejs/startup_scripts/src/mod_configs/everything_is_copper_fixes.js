@@ -24,5 +24,14 @@ RequestHandler.recipes.add.shaped([
       I: 'minecraft:copper_ingot',
       T: 'minecraft:torch'
     }
+  ], [
+    'everythingcopper:copper_hopper', [
+      'ILI',
+      'ILI',
+      ' I '
+    ], {
+      I: 'minecraft:copper_ingot',
+      L: '#minecraft:logs'
+    }
   ]
 ])
