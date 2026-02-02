@@ -2160,6 +2160,7 @@
 		}
 		{
 			dependencies: ["405396378EE4B767"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:village_capacity_permit"
 			}
