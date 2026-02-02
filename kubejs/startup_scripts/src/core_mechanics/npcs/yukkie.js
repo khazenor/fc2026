@@ -9,21 +9,12 @@ const NpcYukkie = {
       let monsterPart = MonsterAsh.monsterParts[i]
       let fruit = fruits[i]
       let randomNum = RandHelper.cachedRandNums[i]
-      let villagerNum
-      if (randomNum < .5) {
-        villagerNum = 1
-      } else if (randomNum < .7) {
-        villagerNum = 2
-      } else if (randomNum < .8) {
-        villagerNum = 4
-      } else if (randomNum < .9) {
-        villagerNum = 8
-      } else {
-        villagerNum = 16
-      }
+      let villagerNum = RandHelper.randSellPrice(
+        4, 32, i
+      )
 
       offerDefs.push({
-        villagerItems: [monsterPart], villagerNum: villagerNum, playerGive: fruit
+        villagerItems: [monsterPart], playerNum: villagerNum, playerGive: fruit
       })
     }
     return offerDefs
