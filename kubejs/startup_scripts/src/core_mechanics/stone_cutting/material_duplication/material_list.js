@@ -272,4 +272,8 @@ const MaterialList = [
   'meadow:rustic_wool',
   'meadow:tweed_wool',
   'meadow:warped_wool',
+  'biomeswevegone:allium_petal_block',
+  'biomeswevegone:pink_allium_petal_block',
+  'biomeswevegone:rose_petal_block',
+  'biomeswevegone:white_allium_petal_block',
 ]
