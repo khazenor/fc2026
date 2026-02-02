@@ -264,4 +264,12 @@ const MaterialList = [
   'vinery:apple_leaves',
   'vinery:dark_cherry_leaves',
   'vinery:grapevine_leaves',
+  'brewery:patterned_wool',
+  'meadow:chambray_wool',
+  'meadow:jacquard_wool',
+  'meadow:linen_wool',
+  'meadow:plaid_wool',
+  'meadow:rustic_wool',
+  'meadow:tweed_wool',
+  'meadow:warped_wool',
 ]
