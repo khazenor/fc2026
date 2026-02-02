@@ -22,13 +22,14 @@ def collectionQuestItems():
 						collectableItems.append(task[cqIn.iconKey])
 	return collectableItems
 
-def collectionQuestLineItems(questLineFileName):
+def collectionQuestLineItems(questLineFileName, denyGroupNames=[]):
 	collectableItems = []
 	for questline in cqIn.questlines:
 		for questGroup in questline[cqIn.questGroupsKey]:
-			for task in questGroup[cqIn.tasksKey]:
-				if questline[cqIn.filenameKey] == questLineFileName:\
-					collectableItems.append(task)
+			if questGroup[cqIn.nameKey] not in denyGroupNames:
+				for task in questGroup[cqIn.tasksKey]:
+					if questline[cqIn.filenameKey] == questLineFileName:\
+						collectableItems.append(task)
 	return collectableItems
 
 
