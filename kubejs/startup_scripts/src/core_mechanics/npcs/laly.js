@@ -3,7 +3,6 @@ const NpcLaly = {
   name: 'Laly',
   offerDefs: [{
       villagerItems: ['minecraft:copper_ingot'],
-      villagerNum: 64,
       playerGive: 'minecraft:cobblestone',
       playerNum: 64,
       playerGive2: MilesTickets.ticketId,
