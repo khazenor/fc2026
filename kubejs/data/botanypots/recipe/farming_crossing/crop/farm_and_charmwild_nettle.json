@@ -1,0 +1,24 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "farm_and_charm:wild_nettle"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "farm_and_charm:wild_nettle",
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "input": {
+    "item": "farm_and_charm:wild_nettle"
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "botanypots:blocks/farm_and_charmwild_nettle"
+    }
+  ]
+}
