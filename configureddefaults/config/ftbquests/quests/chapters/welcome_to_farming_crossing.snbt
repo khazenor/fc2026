@@ -520,26 +520,15 @@
 				id: "meadow:cooking_cauldron"
 			}
 			id: "53A97CAB5255B2F3"
-			rewards: [
-				{
-					count: 16
-					id: "72EB11AA8842CE8B"
-					item: {
-						count: 1
-						id: "minecraft:egg"
-					}
-					type: "item"
+			rewards: [{
+				count: 64
+				id: "50766B81ADD27146"
+				item: {
+					count: 1
+					id: "minecraft:glass"
 				}
-				{
-					count: 64
-					id: "50766B81ADD27146"
-					item: {
-						count: 1
-						id: "minecraft:glass"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "69DD6844E45F897F"
 				item: { count: 1, id: "meadow:alpine_salt" }
@@ -552,24 +541,14 @@
 			dependencies: ["53A97CAB5255B2F3"]
 			hide_until_deps_complete: true
 			id: "0F53FC1CCEA5E2FA"
-			rewards: [
-				{
-					id: "63C85AC5CEAB1C8F"
-					item: {
-						count: 1
-						id: "meadow:cheese_form"
-					}
-					type: "item"
+			rewards: [{
+				id: "63C85AC5CEAB1C8F"
+				item: {
+					count: 1
+					id: "meadow:cheese_form"
 				}
-				{
-					id: "68544AA970A92D82"
-					item: {
-						count: 1
-						id: "minecraft:cow_spawn_egg"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B3ADFA9D83A05CE"
 				item: { count: 1, id: "meadow:rennet" }
@@ -2160,6 +2139,7 @@
 		}
 		{
 			dependencies: ["405396378EE4B767"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:village_capacity_permit"
 			}
