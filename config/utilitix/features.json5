@@ -61,7 +61,7 @@
     "InWorldChanges": {
     
       // When a block from #minecraft:saplings or #minecraft:crops despawns, it tries to plant it instead
-      "autoReplant": true,
+      "autoReplant": false,
       
       // Items in world which have mending collect xp orbs to get repaired
       "betterMending": true,
