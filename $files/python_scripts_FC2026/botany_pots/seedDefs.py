@@ -97,5 +97,9 @@ seedDefs = [
 		keys.seed: "herbalbrews:coffee_beans",
 		keys.crop: "herbalbrews:coffee_beans",
 		keys.block: "herbalbrews:coffee_plant"
-  }
+  }, {
+    keys.seed: 'biomeswevegone:orchard_sapling',
+    keys.crop: 'minecraft:apple',
+    keys.block: 'biomeswevegone:orchard_sapling'
+	}
 ]
