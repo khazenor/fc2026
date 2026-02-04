@@ -119,7 +119,6 @@ MOAdecor TOYS 1.21.1.A.jar
 MobCapturingTool-neoforge-1.21-4.1.0.jar
 modernfix-neoforge-5.25.1+mc1.21.1.jar
 NaturesCompass-1.21.1-3.0.3-neoforge.jar
-OctoLib-NEOFORGE-0.6.0.4+1.21.jar
 Oh-The-Biomes-Weve-Gone-NeoForge-2.5.2.jar
 Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar
 open-parties-and-claims-neoforge-1.21.1-0.25.8.jar
@@ -134,7 +133,6 @@ PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar
 recipeessentials-1.21-4.0.jar
 refinedstorage-neoforge-2.0.0.jar
 refurbished_furniture-neoforge-1.21.1-1.0.20.jar
-relics-1.21.1-0.10.7.6.jar
 resourcefulconfig-neoforge-1.21-3.0.11.jar
 resourcefullib-neoforge-1.21-3.0.12.jar
 rhino-2101.2.7-build.81.jar
