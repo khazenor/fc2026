@@ -64,7 +64,7 @@
 				{
 					auto: "invisible"
 					command: "/function fc_collection:init_all_scores"
-					id: "7322A4C0A56B27B5"
+					id: "67F1664EE6C8B3ED"
 					permission_level: 4
 					silent: true
 					type: "command"
@@ -890,11 +890,10 @@
 			}
 			id: "144B3D6C8E09A63D"
 			rewards: [{
-				count: 32
-				id: "34FF5BCC689E0877"
+				id: "50A47945A38533E7"
 				item: {
 					count: 1
-					id: "kubejs:miles_ticket"
+					id: "brewery:copper_brewingstation"
 				}
 				type: "item"
 			}]
@@ -2882,6 +2881,64 @@
 			}]
 			x: 0.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["144B3D6C8E09A63D"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "brewery:copper_brewingstation"
+			}
+			id: "19624CB79AFCA70A"
+			rewards: [
+				{
+					id: "176C48B6E69D4FBE"
+					item: {
+						count: 1
+						id: "brewery:netherite_brewingstation"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2413046C7311C4A0"
+					item: {
+						count: 1
+						id: "farm_and_charm:oat_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "403B714376FE08A9"
+				item: { count: 1, id: "brewery:whiskey_maggoallan" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19624CB79AFCA70A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "brewery:netherite_brewingstation"
+			}
+			id: "520B83F3DCC1C5B9"
+			rewards: [{
+				count: 64
+				id: "1F777717261EC0E2"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6723DB1A0E485485"
+				item: { count: 1, id: "brewery:whiskey_smokey_reverie" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
 		}
 	]
 }

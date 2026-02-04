@@ -1,1 +1,1 @@
-rewardSeedStarter = 'fc2026 dev 1'
+rewardSeedStarter = 'v0.0.9'

@@ -1120,26 +1120,40 @@ questlines = [
           "vinery:villagers_fright"
         ]
       },
-      {
+      { # Wood Brewing
         nameKey: 'Beer Brewing Completion',
         dependencyIdKey: '144B3D6C8E09A63D', # Beer Brewing
         iconKey:'brewery:wooden_brewingstation',
         tasksKey: [
           "brewery:beer_barley",
-          "brewery:dark_brew",
           "brewery:beer_haley",
           "brewery:beer_hops",
           "brewery:beer_nettle",
           "brewery:beer_oat",
-          "brewery:beer_wheat",
+          "brewery:beer_wheat"
+        ]
+      },
+      { # Copper Brewing
+        nameKey: 'Copper Brewing Completion',
+        dependencyIdKey: '19624CB79AFCA70A', # Copper Brewing
+        iconKey:'brewery:copper_brewingstation',
+        tasksKey: [
           "brewery:whiskey_ak",
           "brewery:whiskey_cristelwalker",
           "brewery:whiskey_carrasconlabel",
           "brewery:whiskey_highland_hearth",
-          "brewery:whiskey_jamesons_malt",
           "brewery:whiskey_jojannik",
           "brewery:whiskey_lilitusinglemalt",
-          "brewery:whiskey_maggoallan",
+          "brewery:whiskey_maggoallan"
+        ]
+      },
+      { # Netherite Brewing
+        nameKey: 'Netherite Brewing Completion',
+        dependencyIdKey: '520B83F3DCC1C5B9', # Netherite Brewing
+        iconKey:'brewery:netherite_brewingstation',
+        tasksKey: [
+          "brewery:dark_brew",
+          "brewery:whiskey_jamesons_malt",
           "brewery:whiskey_smokey_reverie"
         ]
       }

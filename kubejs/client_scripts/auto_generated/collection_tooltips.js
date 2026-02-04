@@ -697,25 +697,39 @@ ItemEvents.modifyTooltips(event => {
   event.add(
     [
       'brewery:beer_barley', 
-      'brewery:dark_brew', 
       'brewery:beer_haley', 
       'brewery:beer_hops', 
       'brewery:beer_nettle', 
       'brewery:beer_oat', 
-      'brewery:beer_wheat', 
-      'brewery:whiskey_ak', 
-      'brewery:whiskey_cristelwalker', 
-      'brewery:whiskey_carrasconlabel', 
-      'brewery:whiskey_highland_hearth', 
-      'brewery:whiskey_jamesons_malt', 
-      'brewery:whiskey_jojannik', 
-      'brewery:whiskey_lilitusinglemalt', 
-      'brewery:whiskey_maggoallan', 
-      'brewery:whiskey_smokey_reverie'
+      'brewery:beer_wheat'
     ],
     [
       Text.translate('collectionTooltips.cookingCollection'), 
       Text.translate('collectionTooltips.beerBrewingCompletion')
+    ])
+  event.add(
+    [
+      'brewery:whiskey_ak', 
+      'brewery:whiskey_cristelwalker', 
+      'brewery:whiskey_carrasconlabel', 
+      'brewery:whiskey_highland_hearth', 
+      'brewery:whiskey_jojannik', 
+      'brewery:whiskey_lilitusinglemalt', 
+      'brewery:whiskey_maggoallan'
+    ],
+    [
+      Text.translate('collectionTooltips.cookingCollection'), 
+      Text.translate('collectionTooltips.copperBrewingCompletion')
+    ])
+  event.add(
+    [
+      'brewery:dark_brew', 
+      'brewery:whiskey_jamesons_malt', 
+      'brewery:whiskey_smokey_reverie'
+    ],
+    [
+      Text.translate('collectionTooltips.cookingCollection'), 
+      Text.translate('collectionTooltips.netheriteBrewingCompletion')
     ])
 
 })

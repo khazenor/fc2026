@@ -104,3 +104,7 @@ scoreboard objectives add cooking_collection_barrel_brewing_completion dummy {"t
 scoreboard players set @p cooking_collection_barrel_brewing_completion 0
 scoreboard objectives add cooking_collection_beer_brewing_completion dummy {"translate":"questFunctions.beerBrewingCompletion0"}
 scoreboard players set @p cooking_collection_beer_brewing_completion 0
+scoreboard objectives add cooking_collection_copper_brewing_completion dummy {"translate":"questFunctions.copperBrewingCompletion0"}
+scoreboard players set @p cooking_collection_copper_brewing_completion 0
+scoreboard objectives add cooking_collection_netherite_brewing_completion dummy {"translate":"questFunctions.netheriteBrewingCompletion0"}
+scoreboard players set @p cooking_collection_netherite_brewing_completion 0
