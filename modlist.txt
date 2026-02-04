@@ -137,6 +137,7 @@ modernfix-neoforge-5.25.1+mc1.21.1.jar
 more-enchantment-info-0.3.0.jar
 MouseTweaks-neoforge-mc1.21-2.26.1.jar
 NaturesCompass-1.21.1-3.0.3-neoforge.jar
+obscuraspanoramica-1.0.0.jar
 Oh-The-Biomes-Weve-Gone-NeoForge-2.5.2.jar
 Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar
 open-parties-and-claims-neoforge-1.21.1-0.25.8.jar
