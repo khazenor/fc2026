@@ -17,6 +17,7 @@
 	quest.0205212A2FE863C8.quest_subtitle: "Tracking Your Collectables"
 	quest.0205212A2FE863C8.title: "Checking Collection Progress"
 	quest.0261908781297A1E.title: "Caught 20 Unique Fishes!"
+	quest.034618F0272E03A7.title: "Netherite Brewing Completion"
 	quest.0402B3C9225F65F2.title: "Cooked 20 Unique Dishes!"
 	quest.040F861256CDB7B9.title: "1k Storage Disk"
 	quest.0487F6609FF4DFAA.title: "Grass Completion"
@@ -109,6 +110,7 @@
 	]
 	quest.17D6590D3E94E02A.title: "Creative Portable Grid"
 	quest.18C4BA444FB5D4A1.title: "16k Storage"
+	quest.19624CB79AFCA70A.title: "Copper Brewing"
 	quest.19B9404802BDE308.title: "Modded Foods"
 	quest.1A6015D93785C5F8.quest_desc: [
 		"# How to use the farm and charm mincer:"
@@ -385,6 +387,7 @@
 	quest.475B5DD94020E4C0.title: "Collected 10 Unique Minerals!"
 	quest.491F66D71C4CF764.title: "Swamp Completion"
 	quest.4978B74B1C3BC5A7.title: "Caught 5 Unique Fishes!"
+	quest.49819914E053177B.title: "Copper Brewing Completion"
 	quest.49A24AD6CB0927FB.quest_desc: [
 		"# How to make grape juice from vinery:"
 		"- place a grape pot"
@@ -435,6 +438,7 @@
 	quest.4FA08F2A855CB462.title: "Observed 5 Unique Animals!"
 	quest.517973B7A58F929E.title: "Cooked 35 Unique Dishes!"
 	quest.520285E09CFCACAB.title: "Netherite Fishing Rod Upgrade Kit"
+	quest.520B83F3DCC1C5B9.title: "Netherite Brewing"
 	quest.523D97361A2661A4.quest_desc: [
 		"# Usage"
 		""
@@ -744,6 +748,7 @@
 	task.02661B63B74374A4.title: "Free Task"
 	task.02DB503B032F9F56.title: "Spot a bee"
 	task.0372845E77BB8D8C.title: "Free Task"
+	task.037B33D13E67F88C.title: "Free Task"
 	task.05381EAFE5E6C9A6.title: "Free Task"
 	task.062A4921B9A95E4C.title: "Free Task"
 	task.0671BFFF9AA4E7A5.title: "Free Task"
@@ -858,6 +863,7 @@
 	task.5F6D86A9B78454DE.title: "Spot a armadillo"
 	task.5F7551CD64AEA59F.title: "Any #minecraft:logs"
 	task.5F8E7F20E48CBEDC.title: "Free Task"
+	task.600718C429D1D82D.title: "Free Task"
 	task.6074A30D1FAA4FE7.title: "Free Task"
 	task.60A2196A6E0777D5.title: "Free Task"
 	task.61380A707E1B1CF3.title: "Any #c:gems"

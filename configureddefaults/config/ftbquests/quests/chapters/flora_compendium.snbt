@@ -20,7 +20,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "38A5B5FD9444D098"
+					id: "776BF70B785B8238"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -29,7 +29,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "2E83BAB017BA690B"
+					id: "601108EE9DE778B3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -53,7 +53,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "21123C0D2500D8EA"
+					id: "6ED3BCEB17322761"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -62,7 +62,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "5F021C0D24867E90"
+					id: "3195FBECD3F827BB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -86,7 +86,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2D632CD0C4BF4A81"
+					id: "0D8D34F9438CD56A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -95,7 +95,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "3A0E1169BF9CD316"
+					id: "112D56D3C5260C1F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -119,7 +119,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6CC03EFFC890A5F0"
+					id: "25B6D02AAA24E577"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -128,7 +128,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "652656A39E7B4CDC"
+					id: "53C3A739228662CE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -152,7 +152,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6C637DB9825DA5BF"
+					id: "7401F19A16724093"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -161,7 +161,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "167C3296C114167F"
+					id: "2CFCA0516724704C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -185,7 +185,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7F65F7FADDE30377"
+					id: "16B9FB82BAA1452A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -194,7 +194,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "383D02DF2D061375"
+					id: "7113A652903A3261"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -218,7 +218,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "65BA39FDDC79C6B6"
+					id: "2EB6B2388F66F235"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -227,7 +227,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "52BACA3FAE754EE7"
+					id: "128F2CBCD1909C37"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -251,7 +251,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6D6B5C24A9A8F3E6"
+					id: "7B5B7BCEAFBC0DBF"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -260,7 +260,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "138C1C113F74979F"
+					id: "4E6CAE2F0CFA867B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -284,7 +284,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "68E657A41E7A404D"
+					id: "4AAB87420702812B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -293,7 +293,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "6B2A830C23C3C21F"
+					id: "6BE2E463D2252C7B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -317,7 +317,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "28CD27C5968763AF"
+					id: "4B9E9D6294B51BAB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -326,7 +326,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "206EB19D453EE290"
+					id: "2E915478CDEF6D4C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -350,7 +350,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "504847B1867F3E1A"
+					id: "703A8508C2B5ABC3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -359,7 +359,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "3E053F5E0900C6A8"
+					id: "295C8D08BB5FFE1E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -383,7 +383,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "379B492B4CE5D61C"
+					id: "3F77659781F44D7B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -392,7 +392,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "18F6D81B2F54D7E0"
+					id: "2603E06DE746EEA9"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -416,7 +416,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "37EE9F5DCD54C0D4"
+					id: "123BF86F36CCA445"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -425,7 +425,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "3142903BE717A79B"
+					id: "74607D64C3D152D6"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -449,7 +449,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4BE98B64397F02EC"
+					id: "279CA7692A76C5BC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -458,7 +458,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "3224B977977B889D"
+					id: "0C1D40CB2DC7702D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -482,7 +482,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1C22765E01861F1D"
+					id: "0298006C7C4A887E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -491,7 +491,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "217E0088DB275A1E"
+					id: "35F46439C5DE8021"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -515,7 +515,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2F4891B0173735E9"
+					id: "58A73FCF38A09D5E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -524,7 +524,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_foods_completion"
 					exclude_from_claim_all: true
-					id: "3A01E07114662DDC"
+					id: "0AE30F133AC6139D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -592,7 +592,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "77CEA9421C2CB8B4"
+					id: "654227575F84FA0C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -601,7 +601,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "505AB4E055DF6736"
+					id: "0FA0CD10CCB76301"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -625,7 +625,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "479AC966336E3EB5"
+					id: "4EFD746CFF68AD13"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -634,7 +634,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "4BB5BDF2FA91D00E"
+					id: "6F629D161CCBEC4F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -658,7 +658,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2DC569F083A9677F"
+					id: "6CCEA34D896C5FFE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -667,7 +667,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "7929A8B3FCB325F7"
+					id: "469037026A249F8F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -691,7 +691,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "50C4DEE8F93BA4B9"
+					id: "50217DA660B16496"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -700,7 +700,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "7BF9B790B4D3B56C"
+					id: "4402D4D835971AF4"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -724,7 +724,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "09F6A6750095BBBC"
+					id: "036EDE4DDD0AFA6B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -733,7 +733,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "4936C16F14AA40F2"
+					id: "00A8C55D5411313F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -757,7 +757,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3C8D41461FD1C952"
+					id: "6179660CF4E3C5F2"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -766,7 +766,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "53776385A0A5294E"
+					id: "312D7E980095C403"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -790,7 +790,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "165EF4D7AADF32C5"
+					id: "7E32556A82F60797"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -799,7 +799,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "3C5B85B0E6D43829"
+					id: "1A368C9AAFD2DF94"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -823,7 +823,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "20BA9DB2F750C26C"
+					id: "27B54596C2D57D1F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -832,7 +832,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "421DB9279B0438F4"
+					id: "53A0BA8984D8EE4D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -856,7 +856,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6E66561944D16B1C"
+					id: "5FA8035BCE88E232"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -865,7 +865,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "1CCAD8236B605AFA"
+					id: "305ED42A5DEE464B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -889,7 +889,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "532EAB56A1D62A95"
+					id: "45BFF9B23FF9FD28"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -898,7 +898,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "33EFD4C79D6496D6"
+					id: "7464338ECEF176FB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -922,7 +922,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "22C60A57709E9D39"
+					id: "2DA05AEE0A1D4822"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -931,7 +931,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "4B0D9509797CFD34"
+					id: "0BD4902C93A10339"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -955,7 +955,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "579AFDDA19398745"
+					id: "463F55DD84255CD5"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -964,7 +964,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "6E5B5AB9F05E771B"
+					id: "4FB4F25ECB1CA056"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -988,7 +988,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0C26817A6DE9846B"
+					id: "6A0A86AD77C65D0A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -997,7 +997,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "0D5E1304A5D56183"
+					id: "02B059B2C78FD1BE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1021,7 +1021,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "578CA9276898DA17"
+					id: "70FB255F55123C3B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1030,7 +1030,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "0E8F8A9EAFF92707"
+					id: "62304529B5B42B4B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1054,7 +1054,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4CF0450F195DA00A"
+					id: "411CF59671E0D6A5"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1063,7 +1063,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "0D5EE8480EF081C0"
+					id: "2908F662252D67C4"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1087,7 +1087,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1D2D54A0F588521E"
+					id: "05DE05564E08E1BD"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1096,7 +1096,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "642B7D42099B2F96"
+					id: "6145C1FACC0FBD4B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1120,7 +1120,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6ECC462B40DF763D"
+					id: "44BEACB0EDF5BE96"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1129,7 +1129,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "1EDFBC3838AC561F"
+					id: "30183A71FC894475"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1153,7 +1153,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1957F5EAE44EA64A"
+					id: "7D3D25D966BA4371"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1162,7 +1162,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "7CFD87A4A9AE085B"
+					id: "7914760BEBAB0E99"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1186,7 +1186,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4584CB9CEA28BDF8"
+					id: "0BBD24A6617BB560"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1195,7 +1195,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "65F9192F4F42DAA7"
+					id: "39FF4942547C5449"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1219,7 +1219,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "21ABE8A96ECC87B6"
+					id: "49906DC824849B6A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1228,7 +1228,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "1923A538AD633A85"
+					id: "50EB3E8ED404C703"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1252,7 +1252,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "206A162CA39279D3"
+					id: "5B20B58A617B4ADE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1261,7 +1261,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "04D895E90BFBAB95"
+					id: "7E38F46F9768ADB5"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1285,7 +1285,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1BDBAB9D0140445F"
+					id: "6F005F3CB7A07585"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1294,7 +1294,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "6868F3E493611799"
+					id: "6B08BA5B4A6DC097"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1318,7 +1318,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4645B8F165A305E7"
+					id: "2D54C05365286CA0"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1327,7 +1327,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "24BD6C672AA6EADA"
+					id: "4483616859FC9211"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1351,7 +1351,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "477E8749E6DB0CF8"
+					id: "3421C68DDF06C7BC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1360,7 +1360,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "195A8D0A0A4A8899"
+					id: "35391672B8E4A0E3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1384,7 +1384,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4B4DDFFDD8B9FE84"
+					id: "4CA3104F1A11AAFE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1393,7 +1393,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "0AA0176286D598BC"
+					id: "3C8524DFAC847821"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1417,7 +1417,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3686EC5E3F3052E9"
+					id: "7A5A5192D19BC9FC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1426,7 +1426,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "710CDF8506401FBC"
+					id: "19A558CD5CE9B53D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1450,7 +1450,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7043D8C57C8C1E17"
+					id: "2CDA32EEFEAF76AF"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1459,7 +1459,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "2C81D573A1D5442F"
+					id: "21FF0E10B2A154E4"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1483,7 +1483,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "56FF02E8996BE255"
+					id: "740FF652753284E8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1492,7 +1492,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "466F4F8040FB59CA"
+					id: "326339FABA782305"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1516,7 +1516,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3DAC8C384E2315E4"
+					id: "65520F028221D505"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1525,7 +1525,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_foods_completion"
 					exclude_from_claim_all: true
-					id: "0167BCBFB99D9A6A"
+					id: "25084FA5FA28C2DE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1606,7 +1606,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "34F5E9579CE7665C"
+					id: "2F4156BFC745237A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1615,7 +1615,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "2AB13A0E6C37D8CA"
+					id: "04C018826717DED3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1639,7 +1639,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "5D4D691BA4F01375"
+					id: "370BEACBF1ED079E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1648,7 +1648,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "1F1843DEA2F3CA84"
+					id: "3A0D47CBE2D005F6"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1672,7 +1672,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "60719E24A1E1BA06"
+					id: "1E5D48FA687D47E3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1681,7 +1681,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "792B36AB795C0780"
+					id: "187522B35CB37542"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1705,7 +1705,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4ABEBBEE4430CB48"
+					id: "1B804FBA0E5B168A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1714,7 +1714,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "75673FC1CE55FCD6"
+					id: "681126C6B90A9FE4"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1738,7 +1738,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "525279F44D3AF1E1"
+					id: "42CD55D77832263F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1747,7 +1747,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "08C0AB37DD143E72"
+					id: "64F752E48F73B89E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1771,7 +1771,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "5344839821EB128C"
+					id: "042606A7F4F55DCB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1780,7 +1780,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "52CC76733D09F0CA"
+					id: "2CD0C6A0048A9A99"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1804,7 +1804,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "02BFC294127B94BA"
+					id: "7B4F8A1CE6D783BC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1813,7 +1813,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "3723D0392BF2BB34"
+					id: "694C620346CDE96B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1837,7 +1837,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0DC9A24BFC8640D9"
+					id: "18E121CECE653577"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1846,7 +1846,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "4CA6AFD9B9750E62"
+					id: "15C69E8A6384A6D7"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1870,7 +1870,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7D9F5EAE89F82167"
+					id: "763822DC3EE9A376"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1879,7 +1879,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "585E003A857B62E5"
+					id: "1C4E32034E84156D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1903,7 +1903,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7DC0924FAE2ED9B1"
+					id: "7FD0D47D8811AD2F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1912,7 +1912,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "5B3456F01A1C0B9C"
+					id: "14CFC953B02267E9"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1936,7 +1936,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6BB366406313F5A6"
+					id: "45C34DEA93DAF73C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1945,7 +1945,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "1A83CC7EFA6B5B28"
+					id: "3BBE35A54B6522CF"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1969,7 +1969,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "06DAC734C5EE945E"
+					id: "425451E523D1906D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -1978,7 +1978,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "0A5123F9FBF0E8DF"
+					id: "4B2261BDAFB6BE55"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2002,7 +2002,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "374F7024EE382BB7"
+					id: "65CBBB6AD150EB8C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2011,7 +2011,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "19999A349254B908"
+					id: "7D97A52AE68F95A1"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2035,7 +2035,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2741C801AFB92A3D"
+					id: "6206083F3559745B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2044,7 +2044,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "651A636CF44582F7"
+					id: "2B9C1E682908C205"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2068,7 +2068,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2CDCE5D65E091183"
+					id: "35DE42432FA91641"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2077,7 +2077,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "304A6E612AB38777"
+					id: "71AD7CAD5064BEC5"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2101,7 +2101,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2811C8D5F74071EF"
+					id: "38D9FE87F47E78AD"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2110,7 +2110,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "257502A87FAFDB68"
+					id: "1B73C7925A6D2176"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2134,7 +2134,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "198E7DEF7D39D109"
+					id: "72EE046BE18FC64E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2143,7 +2143,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "07D4F7E4CA0D6DDC"
+					id: "6FA7E996E17A2774"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2167,7 +2167,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "670B9A3B0D311DCC"
+					id: "05301667E5968E5D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2176,7 +2176,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flower_completion"
 					exclude_from_claim_all: true
-					id: "463D2D79C94268F4"
+					id: "79FE46C1CB1D9367"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2246,7 +2246,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7CFC8DA21B571413"
+					id: "28172D66B2404D81"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2255,7 +2255,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_sapling_completion"
 					exclude_from_claim_all: true
-					id: "7BEF75CBE011FCAA"
+					id: "24547716806FC8F6"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2279,7 +2279,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7787D5BAD0944FEE"
+					id: "3495AFE7D4611C11"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2288,7 +2288,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_sapling_completion"
 					exclude_from_claim_all: true
-					id: "46F7D94931DEF8F6"
+					id: "2C70090B7B7DB69D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2312,7 +2312,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "19A0BED76EA664B4"
+					id: "59C1F5A94CD1A826"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2321,7 +2321,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_sapling_completion"
 					exclude_from_claim_all: true
-					id: "58DBE37F0EF85673"
+					id: "2B2FF6D1C8841D48"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2345,7 +2345,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "06C0FE3A0022BE62"
+					id: "7BA39D4A088E4269"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2354,7 +2354,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_sapling_completion"
 					exclude_from_claim_all: true
-					id: "50FBDEE92BB21E73"
+					id: "23AD33CD97198EDE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2378,7 +2378,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "621CB6417B075E54"
+					id: "025713E18258AC1B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2387,7 +2387,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_sapling_completion"
 					exclude_from_claim_all: true
-					id: "04D7ABC3DA6DB6C9"
+					id: "2A351122E7A2B8DB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2411,7 +2411,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0E7891CDB5CB1615"
+					id: "406BD4E4D60B3639"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2420,7 +2420,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_sapling_completion"
 					exclude_from_claim_all: true
-					id: "0DF8676F63EB7190"
+					id: "5C97B6367C6534E8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2444,7 +2444,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "76F4D98FE3AAEFB3"
+					id: "1F264ACB131245D9"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2453,7 +2453,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_sapling_completion"
 					exclude_from_claim_all: true
-					id: "03DE3CFE6DE311DB"
+					id: "01DDE7798A07B631"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2477,7 +2477,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2D121E7542594007"
+					id: "3B306ACC50AF91C9"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2486,7 +2486,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_sapling_completion"
 					exclude_from_claim_all: true
-					id: "43598028EA63A79C"
+					id: "0650BA6CCA8A56DC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2510,7 +2510,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1A9889EC7267FB46"
+					id: "7CED88CAC2159A20"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2519,7 +2519,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_sapling_completion"
 					exclude_from_claim_all: true
-					id: "32045A42B5EAA58C"
+					id: "06E8AF5B4A680176"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2580,7 +2580,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2DF3388FA0398C19"
+					id: "40D20E4C073DEFB0"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2589,7 +2589,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "476C04E01536C9F9"
+					id: "740F440A2869B456"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2613,7 +2613,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "22F11B32037083AE"
+					id: "04055E3B20D14292"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2622,7 +2622,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "6ED15FA73B0CED61"
+					id: "6F9559BF3B739D7A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2646,7 +2646,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "17D4169D5EB1205E"
+					id: "03527BB526449DD6"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2655,7 +2655,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "15E6CD8354CC90EA"
+					id: "6C77A7271141BA7E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2679,7 +2679,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0D004C9D5BA886FE"
+					id: "1927A2FC62BF0ADA"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2688,7 +2688,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "684BBD62192E5862"
+					id: "1EAC0BED39F49479"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2712,7 +2712,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "311A0E5C55D792DF"
+					id: "6FA2A160172B4029"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2721,7 +2721,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "36E2585661287673"
+					id: "5B2F3BD3C38A77A3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2745,7 +2745,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4F1215014C05A5C3"
+					id: "74066C62AF081CF2"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2754,7 +2754,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "525AD9CCF62DBBE4"
+					id: "672D42EBDC551271"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2778,7 +2778,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "5EA65B63C425AA94"
+					id: "246C8B4CBECC6F60"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2787,7 +2787,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "01B62B5D7312C01C"
+					id: "145FC94694CBC169"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2811,7 +2811,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "00A6389DDD9A5A1C"
+					id: "7EE04124256E2823"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2820,7 +2820,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "06F888964C960865"
+					id: "4A970270CFC0F87B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2844,7 +2844,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6FD404B1ED5F8083"
+					id: "32DFBE23243146DE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2853,7 +2853,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "49997C648835FE80"
+					id: "6961278B72D21E98"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2877,7 +2877,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "677FC284563B8B00"
+					id: "6E59D6304A0FAA56"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2886,7 +2886,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_vanilla_flora_completion"
 					exclude_from_claim_all: true
-					id: "4AA5D5687E64F1C4"
+					id: "736D52B097D0060E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2948,7 +2948,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "04A8B3027D613DC0"
+					id: "644A1A9724F65E6D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2957,7 +2957,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "5511A652004CD2D9"
+					id: "00212A51EF007019"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2981,7 +2981,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2B67A4BFDF50FF8E"
+					id: "5EE5F7F5DB2A08AC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -2990,7 +2990,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "687BCEB878AF79D4"
+					id: "0A7CAF737913D8A8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3014,7 +3014,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "5BDDF1FCCA1C2540"
+					id: "21228CB3066CB6FE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3023,7 +3023,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "68FEE9794319AE7F"
+					id: "4E1B1B0DB9852DD1"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3047,7 +3047,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "576E436F467FA95D"
+					id: "4FCE71433D429D4C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3056,7 +3056,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "06FD0159623C467E"
+					id: "569C8D4B8E62DB6C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3080,7 +3080,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "686EA2402614E0C5"
+					id: "441A2D7BAB66F546"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3089,7 +3089,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "489D8362FF3A11EC"
+					id: "2166939D3F110D7D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3113,7 +3113,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "08127CC93B307DBE"
+					id: "3F6ECF085AE52621"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3122,7 +3122,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "049A75E828D08F56"
+					id: "4DB8CA1D7E9799F2"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3146,7 +3146,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3D61E34CE149923E"
+					id: "760611C2B1551832"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3155,7 +3155,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "5BEB76CFA781D05F"
+					id: "1BAC0F66EC4ECD72"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3179,7 +3179,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "5A1196D5CA88C22E"
+					id: "791926DF3BF68AC0"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3188,7 +3188,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "3F2ABDBACF0D7F25"
+					id: "69B0520CB0AAC2D1"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3212,7 +3212,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6BEB387C94125A59"
+					id: "3ABFC6E1E6461620"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3221,7 +3221,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "4BEB16D6C2DF5637"
+					id: "265F08CDFF38DA8A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3245,7 +3245,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0377B9A581B9ADB2"
+					id: "7D4F34966AA0EDAB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3254,7 +3254,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "1710D390B5DA9334"
+					id: "0F04324A6DD00D92"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3278,7 +3278,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "03138977F0745785"
+					id: "52F45542BA1D3984"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3287,7 +3287,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "22978BFFD5C6FE99"
+					id: "63B802B657E50AC7"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3311,7 +3311,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "55CC908A3CFA8DB8"
+					id: "631CD044A5048B48"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3320,7 +3320,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "722D6D0F8E6B5AB7"
+					id: "54A4E7DFBD5C1F8C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3344,7 +3344,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3D5F3A6A7E4CD890"
+					id: "76557D00DEE4B8B9"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3353,7 +3353,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "25B9E2332ADE9C3F"
+					id: "7590E84F1B10D3DB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3377,7 +3377,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7599E142ED1B2196"
+					id: "117430DFA22BCD4D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3386,7 +3386,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "642B71800B4626E0"
+					id: "1F1A7540E876A5BB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3410,7 +3410,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "510BA09C271B1379"
+					id: "365751299D375385"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3419,7 +3419,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "791B4F26BA261465"
+					id: "06E2DEB28A4A481E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3443,7 +3443,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0380B6F375C70ADD"
+					id: "179B50D5F99B0065"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3452,7 +3452,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "4DCA1A0A4326CEC3"
+					id: "2D6A296FEC597B38"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3476,7 +3476,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "122CD16A502F2EA0"
+					id: "5C4311C6A60A8536"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3485,7 +3485,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "287F1D606CCFDECA"
+					id: "1E14E3455718E131"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3509,7 +3509,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "38B00609EC053D21"
+					id: "79EC530B262588C9"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3518,7 +3518,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "44EA29480DE51E1A"
+					id: "3129145B199CC9A3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3542,7 +3542,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "28CD75445CDC9C46"
+					id: "0F9D34A856EEA4B8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3551,7 +3551,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "6B1BF43CECB6CA50"
+					id: "0226A8A0268E509D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3575,7 +3575,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "07D94A76AAE3BA53"
+					id: "2E72196FFB62C625"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3584,7 +3584,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "537594E15B470AA4"
+					id: "5EB362FA13FA25BB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3608,7 +3608,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0EE2897B3CBC25BD"
+					id: "28B00A9663F08E60"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3617,7 +3617,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "2C8387026245A362"
+					id: "747DE5609BEE289B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3641,7 +3641,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4E2863CA1FDD5D22"
+					id: "1DC9C39550B33868"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3650,7 +3650,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "367C0AEA18A7A168"
+					id: "26DA023182597E96"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3674,7 +3674,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1A5DFEDFE1E7FC8F"
+					id: "79FF0825B1434FC0"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3683,7 +3683,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "62FDB15E4E69AA30"
+					id: "79FAE9E60F223129"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3707,7 +3707,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "5670047A1EC4514B"
+					id: "7004A7BEA6FB1AA8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3716,7 +3716,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "05A301B6B97AB082"
+					id: "5C987C66A8EA5C58"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3740,7 +3740,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3AC9BEEC065CDABB"
+					id: "5DF533227FF20BA2"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3749,7 +3749,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "0B1D0918638EF3BE"
+					id: "33569E06BD6C6596"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3773,7 +3773,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "031BD37212C54565"
+					id: "2833EBBC4D22CF75"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3782,7 +3782,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "65A382E8C955245E"
+					id: "5609F25BCB7EB7A9"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3806,7 +3806,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "21324110DAF47D66"
+					id: "68759B30D14EE302"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3815,7 +3815,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "02858CEBD86F0A21"
+					id: "219D26DFBCD2414F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3839,7 +3839,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "50AF5A98DA8A4B00"
+					id: "336C8BBA049B4E20"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3848,7 +3848,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "5E3EB732F8E614BB"
+					id: "0A0BA8008A0D5D57"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3872,7 +3872,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1F101831D26331B5"
+					id: "46E694DE4A4B6C81"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3881,7 +3881,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "6C2DB019CB27B558"
+					id: "19973BC576AED031"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3905,7 +3905,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "04E38F455CC3C677"
+					id: "02A278C92AD9402A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3914,7 +3914,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "5145850F3C861999"
+					id: "509BAB7FE9F31934"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3938,7 +3938,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1C875EE3436F340F"
+					id: "68DECE59F9B8C7F5"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3947,7 +3947,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "54D75E15A0E2B1A7"
+					id: "0F860209B414FF1B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3971,7 +3971,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3E796BB1DA5A3AAE"
+					id: "7DA6540A7682DE59"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3980,7 +3980,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "26EF1E88E5619586"
+					id: "77BCF6061054D269"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4004,7 +4004,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0239454557F829F8"
+					id: "547A27AFE245FE55"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4013,7 +4013,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "766166AB0D982B53"
+					id: "360355B38C95DB4E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4037,7 +4037,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "77B1F6B65990F486"
+					id: "3BAC52FEC6B56B33"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4046,7 +4046,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "3DB893C8E27B0C4B"
+					id: "0B36E23E3C8E68F6"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4070,7 +4070,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "34735CF098D529CE"
+					id: "48BE1462C7BE1EC0"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4079,7 +4079,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_modded_saplings"
 					exclude_from_claim_all: true
-					id: "5CD315A31A62D6B3"
+					id: "4DECDF7D93E19C73"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4166,7 +4166,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "5F47C58ECBCF1ECC"
+					id: "1D22522AEF9BB940"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4175,7 +4175,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_bushes"
 					exclude_from_claim_all: true
-					id: "1B46627A2D8F40CE"
+					id: "275F8C711EDD2EBF"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4199,7 +4199,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "47B2AEDE126A005B"
+					id: "6EC3CC12D5A96EC6"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4208,7 +4208,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_bushes"
 					exclude_from_claim_all: true
-					id: "1ADB239BCA800E82"
+					id: "3F3E06CD14797977"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4232,7 +4232,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7222388B832FE16F"
+					id: "351B15D602331787"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4241,7 +4241,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_bushes"
 					exclude_from_claim_all: true
-					id: "75CBE650372714B8"
+					id: "70B018BA2F86EA70"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4265,7 +4265,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1E48E0FDAF0844E7"
+					id: "473B37652D212A6F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4274,7 +4274,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_bushes"
 					exclude_from_claim_all: true
-					id: "6593C33F509B9225"
+					id: "24A8DC268C389173"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4330,7 +4330,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "24A9AC32382729D3"
+					id: "1B6F035048AF1B86"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4339,7 +4339,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_ground_covers"
 					exclude_from_claim_all: true
-					id: "5714D51DC6F67D72"
+					id: "1735A2AB8188812A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4363,7 +4363,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "08C12E3CC043D079"
+					id: "4BFE9BBA722C5F62"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4372,7 +4372,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_ground_covers"
 					exclude_from_claim_all: true
-					id: "33167E730F2F6A54"
+					id: "7E718A944734E057"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4396,7 +4396,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "711CDE49831F29D6"
+					id: "5B5F28EAC39B338B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4405,7 +4405,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_ground_covers"
 					exclude_from_claim_all: true
-					id: "0E8A6989FAD8958B"
+					id: "13B3048ABFCA5096"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4429,7 +4429,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0B6732A4F2875A47"
+					id: "5FF87319FA62BFF9"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4438,7 +4438,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_ground_covers"
 					exclude_from_claim_all: true
-					id: "487D9E9C9DAC59E1"
+					id: "544277FD57F89B89"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4462,7 +4462,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3A1CCCCF341ED194"
+					id: "1FAE26B9B059701F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4471,7 +4471,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_ground_covers"
 					exclude_from_claim_all: true
-					id: "45028EE666B3A96D"
+					id: "1D924A04B6A93CCE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4495,7 +4495,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1ED62C000C766807"
+					id: "4B02BB73916D19C7"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4504,7 +4504,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_ground_covers"
 					exclude_from_claim_all: true
-					id: "2392EB5E3B27160E"
+					id: "656AE87E846AE309"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4562,7 +4562,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "282B795E6FFDB278"
+					id: "26D4ECD50E3DEDFC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4571,7 +4571,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "17C2FA11B22EEAE8"
+					id: "679D18B9E9FA8FFF"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4595,7 +4595,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0BE9D8EB25899CBD"
+					id: "12BBDC1D0D3BB0CA"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4604,7 +4604,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "26E8A2089B311CF8"
+					id: "41F61A4B09458793"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4628,7 +4628,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2E48ACDCB1FB0FEB"
+					id: "17034AA924C2D2F1"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4637,7 +4637,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "606116C18EE89BAA"
+					id: "3D450DB9AEE56636"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4661,7 +4661,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7EB1C77D09797622"
+					id: "62FE4A6A1026B59D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4670,7 +4670,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "68B7ECD35A94AB34"
+					id: "16580F3DF8DA99BA"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4694,7 +4694,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "55321E46CD71B410"
+					id: "0A523E9FA79030ED"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4703,7 +4703,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "683F3C5A9E35460F"
+					id: "6EF7234B39EAA0DE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4727,7 +4727,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3B51FB5DDBB39081"
+					id: "097C0F7196B7F3D5"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4736,7 +4736,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "792FB34E8A67F74F"
+					id: "628A1DAB33834076"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4760,7 +4760,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "76C719BFA0077FEE"
+					id: "6BC36F976EA3CFBD"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4769,7 +4769,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "32DD7DC911B03EC6"
+					id: "1929D3D18440BFAC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4793,7 +4793,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "71CFE106FE15D042"
+					id: "16B5B089450225EB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4802,7 +4802,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "6F905D06CA9A1DCC"
+					id: "3A342F1039793045"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4826,7 +4826,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4F123B7F5EFCFBAA"
+					id: "14A0BFE3FE56D341"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4835,7 +4835,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "7D49C77FF40DFBB0"
+					id: "4E10E42BB8A05C92"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4859,7 +4859,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "05C4E7D470B9402A"
+					id: "3817AA83389396D8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4868,7 +4868,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "6EB8573291CBBA85"
+					id: "7A9BC30A64BCDC4D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4892,7 +4892,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6AA658DB6E62118F"
+					id: "4B68FEAEE9733114"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4901,7 +4901,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "1CF180B2D102CA34"
+					id: "3217CC1B9AC5D687"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4925,7 +4925,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2D671ACAE40FD131"
+					id: "76CF5B06B3656599"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4934,7 +4934,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "43BA5C0E2330FC7F"
+					id: "382F41F1D2A7E588"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4958,7 +4958,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4C6D59E5EAEF9519"
+					id: "5F1A0DE3836C4441"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4967,7 +4967,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "6394209072E5FBB2"
+					id: "18EC119B956725D1"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -4991,7 +4991,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "778CB3CE99C313F8"
+					id: "2815263BEC9F021E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5000,7 +5000,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "54696E08A023630F"
+					id: "4A330DEE45A6186E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5024,7 +5024,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "69FCB332FAFDBF1C"
+					id: "7BD7CF2A6F17AB7C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5033,7 +5033,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "225BAF09973149B2"
+					id: "724428B3F0260838"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5057,7 +5057,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7C65BAA1C056D9EF"
+					id: "570F2077410B3A4A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5066,7 +5066,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "0FFEEFC85C685430"
+					id: "186A6E8EE254B63B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5090,7 +5090,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "328A706609D7D2F0"
+					id: "2AB302779D698C5D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5099,7 +5099,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "65406D067A988CD6"
+					id: "331E8A6B890CEE5E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5123,7 +5123,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2CCC89E5D2F8278A"
+					id: "2CD8A8129FD7BA26"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5132,7 +5132,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "28F8FDCE55180F9D"
+					id: "77FA9343CAD93477"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5156,7 +5156,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0D9078CF089503DE"
+					id: "5C447C9D6830F59A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5165,7 +5165,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "124F0FF61672F0E0"
+					id: "2717024DC635B3DB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5189,7 +5189,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "5829C995DE4D505F"
+					id: "0583955D81979BA5"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5198,7 +5198,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "7E0F2469E5E2A964"
+					id: "2D35FE3621446050"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5222,7 +5222,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "30E7A8DD51E19478"
+					id: "3C7C759FAA8C8CEE"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5231,7 +5231,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "57F6DBD4EA22E2CD"
+					id: "54625225005D8393"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5255,7 +5255,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2AB234BA3305447E"
+					id: "2E1D8990B9AFF2E8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5264,7 +5264,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "38D401FE6B40D401"
+					id: "2104414B173DC078"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5288,7 +5288,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2F09E04DC6753E11"
+					id: "1D28E34BC113A348"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5297,7 +5297,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "597F3E8DC0839FC3"
+					id: "52A0BF436F1681A4"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5321,7 +5321,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4A128EAC6DBEF23A"
+					id: "2C5D842EB0A59F7D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5330,7 +5330,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "6CA9D538610F8381"
+					id: "27C8A0A7C8D3F731"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5354,7 +5354,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4C0D23BF445EA72C"
+					id: "346035AC6C54A2BA"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5363,7 +5363,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "22D942860E56D216"
+					id: "073B2B7C573EFB7A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5387,7 +5387,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6A29BF0F89B0DD29"
+					id: "1213651417EE69D3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5396,7 +5396,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "758D70E48E3DBDFC"
+					id: "74FD2F69995C2D43"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5420,7 +5420,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "58F6D3FEBE28744C"
+					id: "372BCE734C9D8C96"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5429,7 +5429,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "02562ACF5F4537C2"
+					id: "32EC210B1FAE0352"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5453,7 +5453,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "0592050EAD674943"
+					id: "1231EAE876ECBBED"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5462,7 +5462,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "4BB376C41740EFBB"
+					id: "25C1F8DE54D229B3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5486,7 +5486,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4C4F1E9260A382AA"
+					id: "248257590C114770"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5495,7 +5495,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "6660F18E445333F3"
+					id: "0AE99F4D8276F199"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5519,7 +5519,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4636F12AB0FFB57D"
+					id: "2138A3791ADF64F3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5528,7 +5528,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "43436485636C1A68"
+					id: "12A8E4F04C03222C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5552,7 +5552,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "300CE6BC989E3590"
+					id: "38B7B756004586AB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5561,7 +5561,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "01D5A9E5EDB84253"
+					id: "6B057DA90AA4349D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5585,7 +5585,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6BD8AD21AFC1B837"
+					id: "1133FF2EBADBDEB3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5594,7 +5594,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "6532192113882BA7"
+					id: "3B2EBECD9A4C9678"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5618,7 +5618,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1090002C0F2BC863"
+					id: "41950CE27DE11AF2"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5627,7 +5627,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "4F20AB2908953CF1"
+					id: "460D03B4ABC07988"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5651,7 +5651,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "34D0A0A039250E1B"
+					id: "13C44A8835843C16"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5660,7 +5660,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "6DD3E1461DF9D3B5"
+					id: "5899A19DE20F8AFF"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5684,7 +5684,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1635864D9B1EF8B8"
+					id: "321D76FB4608600C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5693,7 +5693,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "7F5EA0467BF0E1D6"
+					id: "0F9C0539D2690895"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5717,7 +5717,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "32CE33745D6BAFDA"
+					id: "74D1CB8216F4FB5A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5726,7 +5726,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "5C1B4E431F7E23D6"
+					id: "0B053A59A25495B0"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5750,7 +5750,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "63A7ACF112E9FB85"
+					id: "15AA20E8D2F4FD9A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5759,7 +5759,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "694C3EF1550E24A9"
+					id: "5254B2E885FC479A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5783,7 +5783,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6B723B10B26878D8"
+					id: "4548C3D6193E879B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5792,7 +5792,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "63B8366E28F85375"
+					id: "5712BDAE573DF69C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5816,7 +5816,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3C47A0763D39D239"
+					id: "2319AADFCE3AFB3D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5825,7 +5825,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "1BB37026698066AE"
+					id: "15262E2912B70C01"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5849,7 +5849,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "63363B0FFE0CC922"
+					id: "72C41EADA066699B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5858,7 +5858,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_flowers"
 					exclude_from_claim_all: true
-					id: "3BBF4A96039B44A5"
+					id: "2910EDA5C9097D8A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5950,7 +5950,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "776BBF88C32C7122"
+					id: "407A2EBDDB16F7D6"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5959,7 +5959,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "52FAE563362F4840"
+					id: "1F0548C42A3A177B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5983,7 +5983,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "5CE61FED1D88CEC4"
+					id: "0ECE0304D6576E57"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -5992,7 +5992,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "27828EA2D4670354"
+					id: "43E28CA3E3791651"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6016,7 +6016,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1CEC8922A93FD35D"
+					id: "225E26257AD8DB7E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6025,7 +6025,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "660A993A43E90471"
+					id: "04EDBD18D6B8D1B8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6049,7 +6049,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6EC2015954610E82"
+					id: "2A81BD8084B10A4F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6058,7 +6058,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "6D2C54B2F3D3502D"
+					id: "1D4AB33F09E0A399"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6082,7 +6082,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "18C9E19FDCCE718E"
+					id: "124769F3C6C38730"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6091,7 +6091,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "741895C756411C85"
+					id: "67B432B18B68DD5D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6115,7 +6115,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "679A78C696A7D073"
+					id: "462EE71A470D5985"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6124,7 +6124,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "148658D9BDC62B6E"
+					id: "6C41A8ACA707133D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6148,7 +6148,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1C3DED0D7F2933FA"
+					id: "486ED853BFD47278"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6157,7 +6157,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "1912B417185315E8"
+					id: "7D31EDF2C1BAB28B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6181,7 +6181,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6DE64D91CA411560"
+					id: "4609D356209CE535"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6190,7 +6190,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "44D2C132AAC07903"
+					id: "076BE3DE2A50DF68"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6214,7 +6214,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "004ECDB48EDACCE6"
+					id: "46D55AA9DEB8EE08"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6223,7 +6223,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "06BD293E221C2340"
+					id: "133A8C5059C0F13A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6247,7 +6247,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "033E4542AB850108"
+					id: "162339AFF65F2DFA"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6256,7 +6256,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "3B024D150E939A7A"
+					id: "153E6828C328D09A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6280,7 +6280,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6EF07F66B5B798E6"
+					id: "57F257C20E9FAAD6"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6289,7 +6289,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "5747971E4C0CA363"
+					id: "59385E19F8A19F91"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6313,7 +6313,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "13DA5632FFA90141"
+					id: "69114895DBC7456D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6322,7 +6322,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "46511C42F4347F6D"
+					id: "4E6A6AA170AF702E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6346,7 +6346,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "04E1B2A9053F0E7F"
+					id: "63109D35F74BB228"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6355,7 +6355,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_allium_and_tulips"
 					exclude_from_claim_all: true
-					id: "5918CBC16D42F99E"
+					id: "513805A66E1FC65D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6420,7 +6420,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "208776848A21823B"
+					id: "270B7ACA12F2195E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6429,7 +6429,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "634D22A65D01D980"
+					id: "2228369242756BE8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6453,7 +6453,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4C9C68681E57F791"
+					id: "62C08717FE5926FA"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6462,7 +6462,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "20771119A522A5D3"
+					id: "1452F5C70E15F1FB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6486,7 +6486,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "154CED54EBDAFDCF"
+					id: "3D01A6A5B4F342D8"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6495,7 +6495,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "6A80A843CB07A879"
+					id: "73E5CB143A753694"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6519,7 +6519,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7450060BD7341870"
+					id: "66ED612734DCF93B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6528,7 +6528,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "6A1DFD1FE568D45A"
+					id: "555A2ADB0648F297"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6552,7 +6552,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "7D273C3A4E2FE2C2"
+					id: "515E57E9023737C0"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6561,7 +6561,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "086CB4919F355228"
+					id: "78F7766F9A9C275A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6585,7 +6585,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "33D1008EFBA17B83"
+					id: "4C59F301ADBBA37A"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6594,7 +6594,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "7ACA9454D68A8069"
+					id: "72E3E2DF3588B7DA"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6618,7 +6618,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4FED7ACF5DEC3F51"
+					id: "7FA6F4D532E9B936"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6627,7 +6627,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "050127600E40EBF4"
+					id: "765854A6D81C3BF5"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6651,7 +6651,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4F4B7F773303E04E"
+					id: "335B96DCC4581EEC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6660,7 +6660,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "5000C1708C4CD53D"
+					id: "2B2DFA79A33E4118"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6684,7 +6684,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "3B761426A44636E0"
+					id: "230F13E8285E2A67"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6693,7 +6693,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "3F89E3E992D9E8C0"
+					id: "20C16B12F229E605"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6717,7 +6717,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "18EC49BCAB04172D"
+					id: "074BF4EC30AB3F29"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6726,7 +6726,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "5690D0F25107D6D2"
+					id: "487FC0A3542F319C"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6750,7 +6750,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "518A8B7F6B93493E"
+					id: "4288E486E2091F0E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6759,7 +6759,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "3F553EA45E905A3D"
+					id: "488950421389525D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6777,13 +6777,13 @@
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "72BE61F705C6ABAC"
+			id: "051A501682B9FA62"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "6E4C3593CBF87992"
+					id: "27F20090AF771540"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6792,14 +6792,14 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "756E1100782E54D2"
+					id: "75F94C397D303405"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "4C6B4760D60F5CF8"
+				id: "47EBAA04E8443BDC"
 				item: { count: 1, id: "biomeswevegone:green_mushroom" }
 				type: "item"
 			}]
@@ -6816,7 +6816,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "253681C8E5C06CDE"
+					id: "47AA2563CB015053"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6825,7 +6825,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "6965E3DB1792DA73"
+					id: "6B5B6CDB961AA7BC"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6849,7 +6849,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "48FD85587578B0D3"
+					id: "1FE8ADBA3E4F99AD"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6858,7 +6858,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "0AAB83A5573204B4"
+					id: "5561226E7850682D"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6882,7 +6882,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "79B6268BD685406D"
+					id: "451DC833748A1F52"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6891,7 +6891,7 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "4ABC8325FFA71238"
+					id: "5322F1C915C1C0FC"
 					permission_level: 2
 					silent: true
 					type: "command"
