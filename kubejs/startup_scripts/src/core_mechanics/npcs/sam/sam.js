@@ -55,6 +55,12 @@ const NpcSam = {
   },
   get offerDefs () {
     return [{
+      villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.colorBobbers, 2),
+      playerNum: 4
+    }, {
+      villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.specialBobbers, 1),
+      playerNum: 16
+    }, {
       villagerItems: ['moa_cookery:sushi'],
       playerNum: RandHelper.randSellPrice(2, 8, 1)
     }, {
@@ -78,18 +84,16 @@ const NpcSam = {
       villagerItems: this.offer.lines,
       playerNum: 8
     }, {
-      villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.colorBobbers, 2),
-      playerNum: 4
-    }, {
-      villagerItems: RandHelper.randomMineDayRandFromArr(this.offer.specialBobbers, 1),
-      playerNum: 16
-    } ]
+      villagerItems: this.offer.infoItems,
+      playerNum: 12
+    },]
   },
   get tradeItemIds () {
     return this.offer.colorBobbers.concat(
       this.offer.specialBobbers,
       this.offer.hooks,
       this.offer.lines,
+      this.offer.infoItems,
       ['moa_cookery:sushi']
     )
   },
@@ -143,6 +147,13 @@ const NpcSam = {
       'tide:braided_line',
       'tide:golden_line',
       'tide:reinforced_line',
+    ],
+    infoItems: [
+      'tide:pocket_watch',
+      'tide:lunar_calendar',
+      'tide:climate_gauge',
+      'tide:depth_meter',
+      'tide:weather_radio',
     ]
   }
 }
