@@ -10,6 +10,7 @@
 	chapter.738AB02774440896.title: "Factory Foods"
 	chapter.777610DAF01F24E9.title: "Collection Achievements"
 	chapter_group.2AF27285BDAE0A0D.title: "Collection Quests"
+	quest.00066943835F2155.title: "Aquarium Completion!"
 	quest.0019E4A4C435E089.title: "Cheese Form Completion"
 	quest.00D26E807477ABE6.title: "Locate Ren"
 	quest.01796A4E42A7ADD7.title: "Decoration Catalog"
@@ -185,6 +186,7 @@
 	quest.23AAF4EDBDAF772A.title: "Invite Elna"
 	quest.244EB51B41EAB417.quest_desc: ["'Ello, 'ello! Nice to make your acquaintance. My name is Bernina the Shrew. Jess told me you might be interested in buying some hats, and well, I happen to be selling 'em.  I would love to start another hat shop near the settlement."]
 	quest.244EB51B41EAB417.title: "Move in Bernina"
+	quest.248FB174B7E99D8C.title: "Underground Completion"
 	quest.24A47A72A30E2BF1.title: "Invite Andre"
 	quest.25599488DBA4BBEC.title: "Gold Fishing Rod Upgrade Kit"
 	quest.25D1522C49398031.title: "Collected 35 Unique Minerals!"
@@ -380,6 +382,7 @@
 	quest.451F16432EFAC417.quest_subtitle: "How to make monster part lasts with ash"
 	quest.451F16432EFAC417.title: "Making Monster Parts Last"
 	quest.46394CBBF5F1EE7C.title: "Vanilla Blocks Completion"
+	quest.466D7C82A03F5191.title: "Caught 35 Unique Fishes!"
 	quest.47254C7C6ACB15E3.title: "Biome Ground Covers"
 	quest.4753B66B830D109F.quest_desc: ["I'm Parlan the Duck, I've been running my humble business for more than 10 years.  If you ever need plumbing supplies you know I got what you need.  I would love to start another store in your settlement.  My daughter Langley and I have been itching to visit another area lately."]
 	quest.4753B66B830D109F.title: "Move in Parlan"
@@ -474,6 +477,7 @@
 	quest.558A1A31A21872DB.quest_desc: ["Hello! Harley the Deer at your service! After hearing how happy my partner Matan is at your settlement, I can't wait to open my holiday decorations shop there!  You see, making arts and crafts is my hobby, and helping other people get into the holiday spirit with my crafts is my passion! I hope you'll be able to secure a building for me at your settlement!  Oh and if Skye and Pingu ever visit, let me know!  I play drums in their band Sky Penguin every once in a while."]
 	quest.558A1A31A21872DB.title: "Move in Harley"
 	quest.5655FAEE335E8842.title: "Biome Foods"
+	quest.56984C04CE993045.title: "Caught 55 Unique Fishes!"
 	quest.56AC6181113D8B4E.quest_desc: [
 		"** Laly the Meerkat **"
 		""
@@ -482,6 +486,7 @@
 	quest.56AC6181113D8B4E.title: "Jewelry Crafting"
 	quest.56F458AB639E8D1E.title: "Creative Storage Disk"
 	quest.57BE1A138D1F6B53.title: "Vanilla Flora Completion"
+	quest.57C34897398B2464.title: "Void Completion"
 	quest.59449FD43D19FE6B.quest_desc: [
 		"Right click the caking station while holding a cake dough. After that you can do different interactions with the cake dough: "
 		""
@@ -752,6 +757,7 @@
 	task.05381EAFE5E6C9A6.title: "Free Task"
 	task.062A4921B9A95E4C.title: "Free Task"
 	task.0671BFFF9AA4E7A5.title: "Free Task"
+	task.069F13A3EF4547AA.title: "Free Task"
 	task.08117153A695BC30.title: "Spot a cat"
 	task.08984C1FF364057A.title: "Free Task"
 	task.096AD759971CA090.title: "Spot a water buffalo"
@@ -838,6 +844,7 @@
 	task.4FD73AF7434EE6AE.title: "Free Task"
 	task.5059434775C86E8B.title: "Spot a chicken"
 	task.5249D39425B988C9.title: "Free Task"
+	task.52C557A67D2999E6.title: "Free Task"
 	task.52C9C7FA2FEC698E.title: "Spot a fox"
 	task.52EA8F2F6C9EFB7A.title: "Free Task"
 	task.53705B1FCF677D93.title: "Free Task"
@@ -852,6 +859,7 @@
 	task.5847BD3D1E748F72.title: "Free Task"
 	task.5861DEF632C4ACC9.title: "Free Task"
 	task.58B2A274840BA894.title: "Spot a glow squid"
+	task.596A765F435647AA.title: "Free Task"
 	task.596CFC58F1840DC4.title: "Free Task"
 	task.59849E28FD812D49.title: "Spot a boar"
 	task.59AFAB29447E7A39.title: "Spot a minisheep"
@@ -898,6 +906,8 @@
 	task.7ABA51029C6AB4B2.title: "Free Task"
 	task.7C3CCF3B0377FDF4.title: "Spot an allay"
 	task.7CBB16C9B2257774.title: "Spot a sniffer"
+	task.7D01640E935233E7.title: "Free Task"
+	task.7D7E1D6F0F8B3107.title: "Free Task"
 	task.7E8F5526B0799A3C.title: "Any #c:create_energy_generation"
 	task.7EDA8E89BC8C6677.title: "Spot a turkey"
 	task.7EFEE5B04490929F.title: "Spot a llama"
