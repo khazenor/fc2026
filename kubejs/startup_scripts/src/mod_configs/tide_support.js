@@ -47,5 +47,5 @@ RequestHandler.tooltips.addSingular(
 )
 
 RequestHandler.recipes.add.shapeless([
-  ['minecraft:paper', ['tide:torn_note', 'tide:torn_note']]
+  ['minecraft:paper', ['tide:fishy_note', 'tide:fishy_note']]
 ])
