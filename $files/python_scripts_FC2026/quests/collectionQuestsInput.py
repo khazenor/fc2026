@@ -504,7 +504,7 @@ questlines = [
           "minecraft:apple"
         ]
       },
-      {
+      { # Modded Foods
         nameKey: 'Modded Foods Completion',
         iconKey: 'farm_and_charm:corn',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -537,7 +537,8 @@ questlines = [
           "biomeswevegone:horseweed",
           "biomeswevegone:oddion_bulb",
           "biomeswevegone:pale_pumpkin",
-          'wildernature:hazelnut'
+          'wildernature:hazelnut',
+          'beachparty:coconut'
         ]
       },
       { # Vanilla Flower
@@ -637,7 +638,8 @@ questlines = [
           "biomeswevegone:yellow_sakura_sapling",
           "biomeswevegone:yucca_sapling",
           "biomeswevegone:zelkova_sapling",
-          "vinery:dark_cherry_sapling"
+          "vinery:dark_cherry_sapling",
+          'beachparty:palm_sprout'
         ]
       },
       { # bushes

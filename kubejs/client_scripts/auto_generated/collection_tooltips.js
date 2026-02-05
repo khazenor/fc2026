@@ -140,7 +140,8 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:horseweed', 
       'biomeswevegone:oddion_bulb', 
       'biomeswevegone:pale_pumpkin', 
-      'wildernature:hazelnut'
+      'wildernature:hazelnut', 
+      'beachparty:coconut'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
@@ -240,7 +241,8 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:yellow_sakura_sapling', 
       'biomeswevegone:yucca_sapling', 
       'biomeswevegone:zelkova_sapling', 
-      'vinery:dark_cherry_sapling'
+      'vinery:dark_cherry_sapling', 
+      'beachparty:palm_sprout'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 

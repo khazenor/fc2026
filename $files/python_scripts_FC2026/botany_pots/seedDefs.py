@@ -101,5 +101,9 @@ seedDefs = [
     keys.seed: 'biomeswevegone:orchard_sapling',
     keys.crop: 'minecraft:apple',
     keys.block: 'biomeswevegone:orchard_sapling'
+	}, {
+    keys.seed: 'beachparty:palm_sprout',
+    keys.crop: 'beachparty:coconut',
+    keys.block: 'beachparty:palm_sprout'
 	}
 ]
