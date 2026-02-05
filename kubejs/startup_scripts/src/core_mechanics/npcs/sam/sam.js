@@ -37,6 +37,11 @@ const NpcSam = {
       villagerItems: ['moa_cookery:sushi'],
       playerNum: RandHelper.randSellPrice(2, 8, 1)
     }, {
+      villagerItems: ['tide:bait', 'tide:lucky_bait'],
+    }, {
+      villagerItems: ['tide:magnetic_bait'],
+      playerNum: 3
+    }, {
       villagerItems: this.offer.hooks,
       playerNum: 8
     }, {
