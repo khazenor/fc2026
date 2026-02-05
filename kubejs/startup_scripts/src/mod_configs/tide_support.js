@@ -25,7 +25,7 @@ const TideSupport = {
       let upgradeMaterial = this.rodUpgradeItemIds[i]
       for (let j = 0; j <= i; j++) {
         if (i === j) {
-          defs.push([output, 'minecraft:fishing_rod', upgradeMaterial, 'minecraft:stick'])
+          defs.push([output, upgradeMaterial, 'minecraft:fishing_rod', 'minecraft:stick'])
         } else {
           let itemToUpgrade = this.fishingRodIds[j]
           defs.push([output, upgradeMaterial, itemToUpgrade, 'minecraft:stick'])
