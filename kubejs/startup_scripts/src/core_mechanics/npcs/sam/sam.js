@@ -42,8 +42,17 @@ const NpcSam = {
       villagerItems: ['tide:magnetic_bait'],
       playerNum: 3
     }, {
-      villagerItems: this.offer.hooks,
-      playerNum: 8
+      villagerItems: ['tide:fishing_hook'],
+      playerNum: 1,
+    }, {
+      villagerItems: ['tide:iron_fishing_hook'],
+      playerNum: 8,
+    }, {
+      villagerItems: ['tide:lavaproof_fishing_hook'],
+      playerNum: 16,
+    }, {
+      villagerItems: ['tide:void_fishing_hook'],
+      playerNum: 32,
     }, {
       villagerItems: this.offer.lines,
       playerNum: 8
@@ -84,33 +93,36 @@ const NpcSam = {
       'tide:brown_fishing_bobber'
     ],
     specialBobbers: [
-      'tide:apple_fishing_bobber',
-      'tide:golden_apple_fishing_bobber',
-      'tide:enchanted_golden_apple_fishing_bobber',
-      'tide:iron_fishing_bobber',
-      'tide:golden_fishing_bobber',
-      'tide:diamond_fishing_bobber',
-      'tide:netherite_fishing_bobber',
       'tide:amethyst_fishing_bobber',
-      'tide:echo_fishing_bobber',
+      'tide:apple_fishing_bobber',
       'tide:chorus_fishing_bobber',
+      'tide:diamond_fishing_bobber',
+      'tide:duck_fishing_bobber',
+      'tide:echo_fishing_bobber',
+      'tide:enchanted_golden_apple_fishing_bobber',
       'tide:feather_fishing_bobber',
+      'tide:golden_apple_fishing_bobber',
+      'tide:golden_fishing_bobber',
+      'tide:grassy_fishing_bobber',
+      'tide:heart_fishing_bobber',
+      'tide:iron_fishing_bobber',
       'tide:lichen_fishing_bobber',
       'tide:nautilus_fishing_bobber',
+      'tide:netherite_fishing_bobber',
       'tide:pearl_fishing_bobber',
-      'tide:heart_fishing_bobber',
-      'tide:grassy_fishing_bobber'
     ],
     hooks: [
       'tide:fishing_hook',
       'tide:iron_fishing_hook',
-      'tide:lavaproof_fishing_hook'
+      'tide:lavaproof_fishing_hook',
+      'tide:void_fishing_hook'
     ],
     lines: [
       'tide:fishing_line',
       'tide:braided_line',
       'tide:fortune_line',
       'tide:reinforced_line',
+      'tide:golden_line',
     ]
   }
 }
