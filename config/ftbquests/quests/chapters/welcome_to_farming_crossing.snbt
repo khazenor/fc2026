@@ -971,7 +971,10 @@
 			}]
 			tasks: [{
 				icon: {
-					id: "tide:surface_loot_crate"
+					components: {
+						"ftbquests:missing_item": "tide:surface_loot_crate"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "3BCEACC7D9ECE8CB"
 				observe_type: 0
@@ -1001,8 +1004,11 @@
 				{
 					id: "491CF6C6EA0492E1"
 					item: {
+						components: {
+							"ftbquests:missing_item": "tide:angler_workshop"
+						}
 						count: 1
-						id: "tide:angler_workshop"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1290,7 +1296,10 @@
 			}]
 			tasks: [{
 				icon: {
-					id: "tide:obsidian_loot_crate"
+					components: {
+						"ftbquests:missing_item": "tide:obsidian_loot_crate"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "22AF57429186BA12"
 				observe_type: 0

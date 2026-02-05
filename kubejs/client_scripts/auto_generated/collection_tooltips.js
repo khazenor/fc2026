@@ -12,13 +12,27 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
-      'tide:bass', 
+      'tide:arapaima', 
+      'tide:black_crappie', 
+      'tide:blossom_bass', 
       'tide:bluegill', 
+      'tide:brook_trout', 
+      'tide:bull_shark', 
+      'tide:carp', 
       'tide:catfish', 
-      'tide:clayfish', 
+      'tide:frostbite_flounder', 
       'tide:guppy', 
-      'tide:mint_carp', 
+      'tide:largemouth_bass', 
+      'tide:mirage_catfish', 
+      'tide:mooneye', 
       'tide:pike', 
+      'tide:rainbow_trout', 
+      'tide:sand_tiger_shark', 
+      'tide:slimy_salmon', 
+      'tide:smallmouth_bass', 
+      'tide:sturgeon', 
+      'tide:walleye', 
+      'tide:white_crappie', 
       'tide:yellow_perch'
     ],
     [
@@ -27,13 +41,29 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
+      'tide:anchovy', 
       'tide:angelfish', 
-      'tide:barracuda', 
+      'tide:aquathorn', 
+      'tide:coelacanth', 
+      'tide:flounder', 
+      'tide:great_white_shark', 
       'tide:mackerel', 
+      'tide:mahi_mahi', 
+      'tide:manta_ray', 
+      'tide:marstilus', 
+      'tide:neptune_koi', 
       'tide:ocean_perch', 
+      'tide:pluto_snail', 
+      'tide:red_snapper', 
       'tide:sailfish', 
-      'tide:trout', 
-      'tide:tuna'
+      'tide:saturn_cuttlefish', 
+      'tide:shooting_starfish', 
+      'tide:snook', 
+      'tide:spore_stalker', 
+      'tide:sun_emblem', 
+      'tide:swordfish', 
+      'tide:tuna', 
+      'tide:uranias_pisces'
     ],
     [
       Text.translate('collectionTooltips.aquarium'), 
@@ -41,51 +71,49 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
-      'tide:deep_grouper', 
-      'tide:shadow_snapper', 
-      'tide:luminescent_jellyfish', 
       'tide:abyss_angler', 
-      'tide:lapis_lanternfish', 
-      'tide:crystalline_carp', 
-      'tide:bedrock_tetra', 
-      'tide:ember_koi', 
-      'tide:inferno_guppy', 
-      'tide:obsidian_pike', 
-      'tide:volcano_tuna', 
-      'tide:cave_eel', 
-      'tide:cave_crawler', 
-      'tide:glowfish', 
       'tide:anglerfish', 
-      'tide:iron_tetra', 
+      'tide:bedrock_tetra', 
+      'tide:cave_crawler', 
+      'tide:cave_eel', 
+      'tide:chasm_eel', 
+      'tide:crystalline_carp', 
       'tide:crystal_shrimp', 
-      'tide:gilded_minnow'
+      'tide:deep_grouper', 
+      'tide:devils_hole_pupfish', 
+      'tide:dripstone_darter', 
+      'tide:echo_snapper', 
+      'tide:gilded_minnow', 
+      'tide:glowfish', 
+      'tide:iron_tetra', 
+      'tide:lapis_lanternfish', 
+      'tide:luminescent_jellyfish', 
+      'tide:midas_fish', 
+      'tide:shadow_snapper', 
+      'tide:windbass'
     ],
     [
       Text.translate('collectionTooltips.aquarium'), 
-      Text.translate('collectionTooltips.alternativeLocalesCompletion')
+      Text.translate('collectionTooltips.undergroundCompletion')
     ])
   event.add(
     [
-      'tide:blossom_bass', 
-      'tide:echofin_snapper', 
-      'tide:dripstone_darter', 
-      'tide:fluttergill', 
-      'tide:sunspike_goby', 
-      'tide:birch_trout', 
-      'tide:mirage_catfish', 
-      'tide:slimefin_snapper', 
-      'tide:sporestalker', 
-      'tide:leafback', 
-      'tide:pine_perch', 
-      'tide:sandskipper', 
-      'tide:stonefish', 
-      'tide:frostbite_flounder', 
-      'tide:oakfish', 
-      'tide:prarie_pike'
+      'tide:alpha_fish', 
+      'tide:bedrock_bug', 
+      'tide:blue_neonfish', 
+      'tide:darkness_eater', 
+      'tide:deep_blue', 
+      'tide:incandescent_larva', 
+      'tide:judgment_fish', 
+      'tide:nephrosilu', 
+      'tide:pentapus', 
+      'tide:shadow_shark', 
+      'tide:sleepy_carp', 
+      'tide:vengeance'
     ],
     [
       Text.translate('collectionTooltips.aquarium'), 
-      Text.translate('collectionTooltips.specialCompletion')
+      Text.translate('collectionTooltips.voidCompletion')
     ])
   event.add(
     [

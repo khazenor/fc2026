@@ -178,13 +178,13 @@
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "3A6D64333F006B18"
+			id: "6EF90951EEAD0FB6"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "72C0A2110525817D"
+					id: "6891EAE0CBE1174E"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -193,18 +193,84 @@
 					auto: "invisible"
 					command: "/function fc_collection:aquarium_freshwater_completion"
 					exclude_from_claim_all: true
-					id: "6D31AB178B7F9066"
+					id: "3BAFBBA8E4F76273"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "77C3B885A4ABBBB5"
-				item: { count: 1, id: "tide:bass" }
+				id: "08377AD9AF21F70C"
+				item: { count: 1, id: "tide:arapaima" }
 				type: "item"
 			}]
 			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7F65D38B87164F4F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "32C77EB6E5A26EEF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "7BFE64680BEF3102"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4E631AC4BFA48717"
+				item: { count: 1, id: "tide:black_crappie" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7B09B3B05E4C1675"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "3541490FDB7ED864"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "5D92D7D0B78FB8D1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4E8A6915B8C96FF5"
+				item: { count: 1, id: "tide:blossom_bass" }
+				type: "item"
+			}]
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -237,8 +303,107 @@
 				item: { count: 1, id: "tide:bluegill" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "478F6E7D19BE9502"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "0D19D1A74CDFD742"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "2648C4BD95598184"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "439CBCFB45B63CED"
+				item: { count: 1, id: "tide:brook_trout" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5F11D700AA019DD9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "260AC0B9CFCD1668"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "68529FA79587074A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "362A9EB36A9DB263"
+				item: { count: 1, id: "tide:bull_shark" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "44F2A40A479E60EE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "1088317B9901F557"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "480B86A90C379529"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "179B122459507C7B"
+				item: { count: 1, id: "tide:carp" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -270,20 +435,20 @@
 				item: { count: 1, id: "tide:catfish" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "40711F2F34D3A499"
+			id: "21F25CA4C06DBF61"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "1DFE2A49D0856412"
+					id: "2C1B98093B3E8687"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -292,19 +457,19 @@
 					auto: "invisible"
 					command: "/function fc_collection:aquarium_freshwater_completion"
 					exclude_from_claim_all: true
-					id: "5673F23AAC150908"
+					id: "3733DE0EDDD9E0D8"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "186756FA2AC9D7C8"
-				item: { count: 1, id: "tide:clayfish" }
+				id: "2CFFDB920C6B3E12"
+				item: { count: 1, id: "tide:frostbite_flounder" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -336,20 +501,20 @@
 				item: { count: 1, id: "tide:guppy" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "22297A91283F0972"
+			id: "326417A372775323"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "6E70FA7C3B588DAC"
+					id: "791E91CCFCBA5557"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -358,19 +523,85 @@
 					auto: "invisible"
 					command: "/function fc_collection:aquarium_freshwater_completion"
 					exclude_from_claim_all: true
-					id: "204217572C1E598B"
+					id: "15946E59A007AB47"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "3CB3CA81B8762FA2"
-				item: { count: 1, id: "tide:mint_carp" }
+				id: "5829EEE60F78D47A"
+				item: { count: 1, id: "tide:largemouth_bass" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3AD196450FCCCBDE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "2C87F87711CC71C5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "2145A7A2BE96A237"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6AB1CDAFBC9E658E"
+				item: { count: 1, id: "tide:mirage_catfish" }
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2321F77BC4BB609F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "1778061FF7E0E3C1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "0FC348B75B17E78C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6DDA11547765DA61"
+				item: { count: 1, id: "tide:mooneye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -402,8 +633,239 @@
 				item: { count: 1, id: "tide:pike" }
 				type: "item"
 			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "0D62D02E0DE85A8A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "19D605AF33AC6657"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "01AF596D7C9273C6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "163253F75F8A8919"
+				item: { count: 1, id: "tide:rainbow_trout" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5C854E0DE05CF205"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "2C70AB38681FFEF0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "33A344A51D40EDF5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "20B599B8D750C99C"
+				item: { count: 1, id: "tide:sand_tiger_shark" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "6C99FDC554BFE87E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "24643280B0D9BD03"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "2BA8AB56DC070938"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "33574CC3E07F3136"
+				item: { count: 1, id: "tide:slimy_salmon" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1EC968AD87590450"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "4BB7B08910CB90D4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "591E279F4094AA62"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6A5699D900DA9774"
+				item: { count: 1, id: "tide:smallmouth_bass" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "0A78C32D35AFB55D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "6A674BCF443AA43F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "46529A69DBA5DDFD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7420388CC2DB90D5"
+				item: { count: 1, id: "tide:sturgeon" }
+				type: "item"
+			}]
 			x: 0.0d
-			y: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1255592E0D8EA48B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "5BCEA05D70536F6A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "2CFBB705DECC29BB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "105334598D60B93A"
+				item: { count: 1, id: "tide:walleye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "513B65BA5EDB8EAD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "32C4D90FCCB75459"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "60914FACF1CE7638"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0AE8B4ED1A197E83"
+				item: { count: 1, id: "tide:white_crappie" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -435,18 +897,32 @@
 				item: { count: 1, id: "tide:yellow_perch" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
-				"3A6D64333F006B18"
+				"6EF90951EEAD0FB6"
+				"7F65D38B87164F4F"
+				"7B09B3B05E4C1675"
 				"6E7C5F737F332670"
+				"478F6E7D19BE9502"
+				"5F11D700AA019DD9"
+				"44F2A40A479E60EE"
 				"015C11B07948B5C1"
-				"40711F2F34D3A499"
+				"21F25CA4C06DBF61"
 				"588A08E93D6DE318"
-				"22297A91283F0972"
+				"326417A372775323"
+				"3AD196450FCCCBDE"
+				"2321F77BC4BB609F"
 				"454C16B5CD7C3235"
+				"0D62D02E0DE85A8A"
+				"5C854E0DE05CF205"
+				"6C99FDC554BFE87E"
+				"1EC968AD87590450"
+				"0A78C32D35AFB55D"
+				"1255592E0D8EA48B"
+				"513B65BA5EDB8EAD"
 				"1F0F9BE125C980A0"
 			]
 			icon: {
@@ -454,7 +930,7 @@
 			}
 			id: "609C71580309E47D"
 			rewards: [{
-				count: 9
+				count: 36
 				id: "191A3F20E2EC07C6"
 				item: {
 					count: 1
@@ -472,7 +948,40 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "0A59DD1682346186"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "61AE9D5AE75BB81E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "69A3482013218CCA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "023EB0E72EE8630F"
+				item: { count: 1, id: "tide:anchovy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -504,20 +1013,20 @@
 				item: { count: 1, id: "tide:angelfish" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "0B501D08A0D0B565"
+			id: "440B6AE6322A2C2F"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "3D8CB74AAC70516F"
+					id: "327817FED61FA0D7"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -526,19 +1035,118 @@
 					auto: "invisible"
 					command: "/function fc_collection:aquarium_saltwater_completion"
 					exclude_from_claim_all: true
-					id: "3BA7BEBE9D2509C0"
+					id: "0AD0366A4B969FF8"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "6065FA1B24018D69"
-				item: { count: 1, id: "tide:barracuda" }
+				id: "0ED2827162B1275E"
+				item: { count: 1, id: "tide:aquathorn" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4394A1361B691A19"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "32538C12EAD28EB3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "0EDA035CAAEF9724"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "23E85D956204C66C"
+				item: { count: 1, id: "tide:coelacanth" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7740D9E01B776638"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "477B2F22D1A3A503"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "15BB1E563F727644"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "798E79CDFC3E032C"
+				item: { count: 1, id: "tide:flounder" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "344E4F6E29DFB090"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "2E9C7EB3A47CB06C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "53A43DB1B3A4A78E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3463D34E98BFDE7B"
+				item: { count: 1, id: "tide:great_white_shark" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -570,8 +1178,140 @@
 				item: { count: 1, id: "tide:mackerel" }
 				type: "item"
 			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "11A3A06E05DDE313"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "3B938BE98C28C745"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "147D0BC60610547D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "06C5C99DD13CB9F4"
+				item: { count: 1, id: "tide:mahi_mahi" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7F800BA8279EC520"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "46DA6411947FB13E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "400CF63E50A562D4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4231883728D1B1CA"
+				item: { count: 1, id: "tide:manta_ray" }
+				type: "item"
+			}]
 			x: 2.0d
-			y: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "223A9241A7751A95"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "0773A30FB31F7FB4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "06CB5E6056CE7349"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "312D299648AC91D3"
+				item: { count: 1, id: "tide:marstilus" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "71C7ACA7353429B2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "68E99A76A2440125"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "7C315367A925EA38"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1AED7DEB7D09D322"
+				item: { count: 1, id: "tide:neptune_koi" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -603,8 +1343,74 @@
 				item: { count: 1, id: "tide:ocean_perch" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7C72FAE44938D995"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "737279AC046F108E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "4086EB4F97D63AE9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "055F1717BCF89DAB"
+				item: { count: 1, id: "tide:pluto_snail" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7220C7F5DB8524D6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "0EBF156B74F63913"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "70B2DD292B5A0EDB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3BBAE1597C6D38E7"
+				item: { count: 1, id: "tide:red_snapper" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -636,20 +1442,20 @@
 				item: { count: 1, id: "tide:sailfish" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "7A5B3BE16252C126"
+			id: "1A4DBF1221B81B9E"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "1B6E36E8E4B850BE"
+					id: "2B035BFE02E66CAB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -658,19 +1464,184 @@
 					auto: "invisible"
 					command: "/function fc_collection:aquarium_saltwater_completion"
 					exclude_from_claim_all: true
-					id: "1F32E1C4B085C23F"
+					id: "59685C042A88711B"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "536D7550C7F45C0D"
-				item: { count: 1, id: "tide:trout" }
+				id: "587B236EDCDDB9BC"
+				item: { count: 1, id: "tide:saturn_cuttlefish" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7E6CEA0334FD8B93"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "1C91F41870CBF4FB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "0F06C236CD4A1E92"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1DADFCAE31CE69EB"
+				item: { count: 1, id: "tide:shooting_starfish" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "24C9E12C62D33785"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "1EA25D90DC0033BD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "0652D6CE7F01CCEB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0816F9E1874A25DA"
+				item: { count: 1, id: "tide:snook" }
 				type: "item"
 			}]
 			x: 5.0d
-			y: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "378E3203103FA910"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "724ECC678312DBD3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "73A093AA35C2A4C8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "769C5190D5C6D407"
+				item: { count: 1, id: "tide:spore_stalker" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7DDB268C526449CE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "7371113A6370D2D4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "3220495EE054330E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5BBD6B79567E3A2B"
+				item: { count: 1, id: "tide:sun_emblem" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "15E7BAE3BE88C214"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "6802097D70436182"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "2BAE0362B62269A3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "15626A0D8E84361B"
+				item: { count: 1, id: "tide:swordfish" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -702,25 +1673,74 @@
 				item: { count: 1, id: "tide:tuna" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "34F9BEE588C9280C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "6E4E1414E2DF6766"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "2E811B99CD78A572"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "29F26941E7BAB326"
+				item: { count: 1, id: "tide:uranias_pisces" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
+				"0A59DD1682346186"
 				"48B2C7014AD673C4"
-				"0B501D08A0D0B565"
+				"440B6AE6322A2C2F"
+				"4394A1361B691A19"
+				"7740D9E01B776638"
+				"344E4F6E29DFB090"
 				"3E91CF1E7188C0B5"
+				"11A3A06E05DDE313"
+				"7F800BA8279EC520"
+				"223A9241A7751A95"
+				"71C7ACA7353429B2"
 				"7B63961FEEB1DC39"
+				"7C72FAE44938D995"
+				"7220C7F5DB8524D6"
 				"11B547B1EC562C9E"
-				"7A5B3BE16252C126"
+				"1A4DBF1221B81B9E"
+				"7E6CEA0334FD8B93"
+				"24C9E12C62D33785"
+				"378E3203103FA910"
+				"7DDB268C526449CE"
+				"15E7BAE3BE88C214"
 				"78EA9AAB39A9130A"
+				"34F9BEE588C9280C"
 			]
 			icon: {
 				id: "minecraft:blue_ice"
 			}
 			id: "4EC2DC93EC0BED9F"
 			rewards: [{
-				count: 8
+				count: 38
 				id: "78A69A5B2B6C1834"
 				item: {
 					count: 1
@@ -738,106 +1758,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4FAF3672D4D561F7"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "500AF945B6B03402"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "740067BE8CCEA151"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0F1FAB824F38CB6C"
-				item: { count: 1, id: "tide:deep_grouper" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "5057F5773E87182E"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "1902FF01E2B72C54"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "4C260FED8F96F2BA"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "50AEC538BE6525D0"
-				item: { count: 1, id: "tide:shadow_snapper" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "7C847EDF6F6DD26F"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "5BB4866991A7EED7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "23C3AECD412084E3"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0BA1BF9A08CAF30C"
-				item: { count: 1, id: "tide:luminescent_jellyfish" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -856,7 +1777,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
 					id: "550B8AF28C3810E6"
 					permission_level: 2
@@ -869,338 +1790,8 @@
 				item: { count: 1, id: "tide:abyss_angler" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "73B30D6AD7B449B1"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "3605F406A5D9CF18"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "2F83DA31BAF36AC7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "20068D4B0268123B"
-				item: { count: 1, id: "tide:lapis_lanternfish" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "78BBBBBB38283EFD"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "5DE7BAC3CC601A65"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "7AC9A02E83859E57"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6153B963EF8D6E61"
-				item: { count: 1, id: "tide:crystalline_carp" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "123569E4AD3DF456"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "6BC4BF7C056D5941"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "0DB2180615A692E9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "1FD369AA3409A834"
-				item: { count: 1, id: "tide:bedrock_tetra" }
-				type: "item"
-			}]
 			x: 0.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "2F3D318290ECF04D"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "2AC15B0F1052979F"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "34A4BDB14E1A3A55"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "5240AA18A8349B6D"
-				item: { count: 1, id: "tide:ember_koi" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "6E2B3AF85054E93F"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "53F689883ECC26A3"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "49382C47CE3B33C3"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "06846466CC6DD331"
-				item: { count: 1, id: "tide:inferno_guppy" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "0EE115C216E1CBDC"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "2106BAD9E18ED371"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "56FCC5A4F8F6DE43"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "4C73A348210E8DC3"
-				item: { count: 1, id: "tide:obsidian_pike" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "37786746200429E9"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "6BDC3E380F606E9C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "2E536F0595431192"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "637EC8D166399CF1"
-				item: { count: 1, id: "tide:volcano_tuna" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "66DF83415C397285"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "6F39D2E00CF37F76"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "38678BF0341AFE98"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "1A29FF635DE27938"
-				item: { count: 1, id: "tide:cave_eel" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "2B7DA9CF79537F83"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "7D60EA9FE09C8B13"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "747DF3986632E6A7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "48037B0172C82179"
-				item: { count: 1, id: "tide:cave_crawler" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "208E541B19933D69"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "79396F622E6D54DB"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "4537CE30E66D71E0"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "7E279475DDA51524"
-				item: { count: 1, id: "tide:glowfish" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1219,7 +1810,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
 					id: "4B2F343DF76A5796"
 					permission_level: 2
@@ -1232,41 +1823,173 @@
 				item: { count: 1, id: "tide:anglerfish" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.5d
+			x: 1.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "424F49BC1925CEA1"
+			id: "123569E4AD3DF456"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "257B3C6DCCF86300"
+					id: "6BC4BF7C056D5941"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "18313734C7745548"
+					id: "0DB2180615A692E9"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "0577B87F0EFB909B"
-				item: { count: 1, id: "tide:iron_tetra" }
+				id: "1FD369AA3409A834"
+				item: { count: 1, id: "tide:bedrock_tetra" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2B7DA9CF79537F83"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "7D60EA9FE09C8B13"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_underground_completion"
+					exclude_from_claim_all: true
+					id: "747DF3986632E6A7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "48037B0172C82179"
+				item: { count: 1, id: "tide:cave_crawler" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "66DF83415C397285"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "6F39D2E00CF37F76"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_underground_completion"
+					exclude_from_claim_all: true
+					id: "38678BF0341AFE98"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1A29FF635DE27938"
+				item: { count: 1, id: "tide:cave_eel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "19CA203E0973D1BF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "4FC981DB6316956E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_underground_completion"
+					exclude_from_claim_all: true
+					id: "3128FD9F01598C76"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "17BF5E5F62073C7C"
+				item: { count: 1, id: "tide:chasm_eel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "78BBBBBB38283EFD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "5DE7BAC3CC601A65"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_underground_completion"
+					exclude_from_claim_all: true
+					id: "7AC9A02E83859E57"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6153B963EF8D6E61"
+				item: { count: 1, id: "tide:crystalline_carp" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1285,7 +2008,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
 					id: "2EEFD75964397F85"
 					permission_level: 2
@@ -1298,153 +2021,74 @@
 				item: { count: 1, id: "tide:crystal_shrimp" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "3E2DBDFAB00F6DA6"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "1B960F24B8CFDB93"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_alternative_locales_completion"
-					exclude_from_claim_all: true
-					id: "32DE6DE64BD07089"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "477B0B9E2DA681E1"
-				item: { count: 1, id: "tide:gilded_minnow" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 8.5d
-		}
-		{
-			dependencies: [
-				"4FAF3672D4D561F7"
-				"5057F5773E87182E"
-				"7C847EDF6F6DD26F"
-				"5FC6626B1278D1CA"
-				"73B30D6AD7B449B1"
-				"78BBBBBB38283EFD"
-				"123569E4AD3DF456"
-				"2F3D318290ECF04D"
-				"6E2B3AF85054E93F"
-				"0EE115C216E1CBDC"
-				"37786746200429E9"
-				"66DF83415C397285"
-				"2B7DA9CF79537F83"
-				"208E541B19933D69"
-				"47ABA99CC4ED7992"
-				"424F49BC1925CEA1"
-				"7AECF7C0C1ADABC4"
-				"3E2DBDFAB00F6DA6"
-			]
-			icon: {
-				id: "minecraft:stone"
-			}
-			id: "1745B27519BD5204"
-			rewards: [{
-				count: 27
-				id: "49E9CD845046CC79"
-				item: {
-					count: 1
-					id: "kubejs:miles_ticket"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					id: "minecraft:glass"
-				}
-				id: "5847BD3D1E748F72"
-				stat: "minecraft:walk_one_cm"
-				type: "stat"
-				value: 1
-			}]
-			x: -1.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "7B09B3B05E4C1675"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "3541490FDB7ED864"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
-					exclude_from_claim_all: true
-					id: "5D92D7D0B78FB8D1"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "4E8A6915B8C96FF5"
-				item: { count: 1, id: "tide:blossom_bass" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4E0C3EE62937EF91"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "60DCC45DE9C1525C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
-					exclude_from_claim_all: true
-					id: "04945A52AAB40CEE"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "31D208E074878BAD"
-				item: { count: 1, id: "tide:echofin_snapper" }
-				type: "item"
-			}]
 			x: 1.0d
-			y: 10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4FAF3672D4D561F7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "500AF945B6B03402"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_underground_completion"
+					exclude_from_claim_all: true
+					id: "740067BE8CCEA151"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0F1FAB824F38CB6C"
+				item: { count: 1, id: "tide:deep_grouper" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4FBA3F413F05C299"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "1FA3DEA190981A25"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_underground_completion"
+					exclude_from_claim_all: true
+					id: "5055CBA1CBB07898"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5E50D7D85C90F88B"
+				item: { count: 1, id: "tide:devils_hole_pupfish" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1463,7 +2107,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
 					id: "5DD81661C4BEB090"
 					permission_level: 2
@@ -1476,464 +2120,336 @@
 				item: { count: 1, id: "tide:dripstone_darter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "38EA024569AE96D2"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "72BF1A50435196C9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
-					exclude_from_claim_all: true
-					id: "0B443EA4DB202C37"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "22568AC74399835E"
-				item: { count: 1, id: "tide:fluttergill" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "1BF7F79EF185042E"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "7330E1B86E59F72A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
-					exclude_from_claim_all: true
-					id: "366293155B7D58C5"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "78514CDC08F4C867"
-				item: { count: 1, id: "tide:sunspike_goby" }
-				type: "item"
-			}]
 			x: 4.0d
-			y: 10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "1D0FCF4290E38815"
+			id: "56F0B773615F1848"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "39DB4DA0F7095167"
+					id: "346C79B6457583C5"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "086D53383AFD7816"
+					id: "357A710D5B682D8D"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "6BCDBD650BC4B1EF"
-				item: { count: 1, id: "tide:birch_trout" }
+				id: "51CDF7273CEE6C0A"
+				item: { count: 1, id: "tide:echo_snapper" }
 				type: "item"
 			}]
 			x: 5.0d
-			y: 10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "3AD196450FCCCBDE"
+			id: "3E2DBDFAB00F6DA6"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "2C87F87711CC71C5"
+					id: "1B960F24B8CFDB93"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "2145A7A2BE96A237"
+					id: "32DE6DE64BD07089"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "6AB1CDAFBC9E658E"
-				item: { count: 1, id: "tide:mirage_catfish" }
+				id: "477B0B9E2DA681E1"
+				item: { count: 1, id: "tide:gilded_minnow" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "5AFDE9C23C350296"
+			id: "208E541B19933D69"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "5BFE6E524C1A8CFE"
+					id: "79396F622E6D54DB"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "512C74D9D122A004"
+					id: "4537CE30E66D71E0"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "6B6605A34634B260"
-				item: { count: 1, id: "tide:slimefin_snapper" }
+				id: "7E279475DDA51524"
+				item: { count: 1, id: "tide:glowfish" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "20B559DDFF781130"
+			id: "424F49BC1925CEA1"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "407C272C77C049DE"
+					id: "257B3C6DCCF86300"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "136EAE3A3569A539"
+					id: "18313734C7745548"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "678BAE6B78B3354C"
-				item: { count: 1, id: "tide:sporestalker" }
+				id: "0577B87F0EFB909B"
+				item: { count: 1, id: "tide:iron_tetra" }
 				type: "item"
 			}]
 			x: 2.0d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "33C956CDC743A336"
+			id: "73B30D6AD7B449B1"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "74E967C4CB43B11B"
+					id: "3605F406A5D9CF18"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "499E747DE2C106AE"
+					id: "2F83DA31BAF36AC7"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "5CAFD7E53870C40F"
-				item: { count: 1, id: "tide:leafback" }
+				id: "20068D4B0268123B"
+				item: { count: 1, id: "tide:lapis_lanternfish" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "5275DEF23CCBFEF5"
+			id: "7C847EDF6F6DD26F"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "68DD70F15A7AA1D4"
+					id: "5BB4866991A7EED7"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "55784C567DE21E79"
+					id: "23C3AECD412084E3"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "5DBA9EC09DA7FCD8"
-				item: { count: 1, id: "tide:pine_perch" }
+				id: "0BA1BF9A08CAF30C"
+				item: { count: 1, id: "tide:luminescent_jellyfish" }
 				type: "item"
 			}]
 			x: 4.0d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "33063286270DBAE4"
+			id: "0088DD71A8BAE025"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "570C23FFDA987707"
+					id: "3482598C8D07089D"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "10CA4726FE5A3242"
+					id: "3E9B771864A598C9"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "02443EBF17782129"
-				item: { count: 1, id: "tide:sandskipper" }
+				id: "309C2351212B6CB8"
+				item: { count: 1, id: "tide:midas_fish" }
 				type: "item"
 			}]
 			x: 5.0d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "7515B3391FA4FA7B"
+			id: "5057F5773E87182E"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "3442AFC5D07F014C"
+					id: "1902FF01E2B72C54"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "3A1EFC016969FA32"
+					id: "4C260FED8F96F2BA"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "42F81B04E153C572"
-				item: { count: 1, id: "tide:stonefish" }
+				id: "50AEC538BE6525D0"
+				item: { count: 1, id: "tide:shadow_snapper" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "21F25CA4C06DBF61"
+			id: "12F9DBDEF30EDD6C"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:aquarium"
 					exclude_from_claim_all: true
-					id: "2C1B98093B3E8687"
+					id: "0A5622E48E03558B"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
+					command: "/function fc_collection:aquarium_underground_completion"
 					exclude_from_claim_all: true
-					id: "3733DE0EDDD9E0D8"
+					id: "4B7308712CF71285"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "2CFFDB920C6B3E12"
-				item: { count: 1, id: "tide:frostbite_flounder" }
+				id: "7F62F8D4CD085433"
+				item: { count: 1, id: "tide:windbass" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "3B1806EFB6830503"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "4C7278A34435D8AD"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
-					exclude_from_claim_all: true
-					id: "4E85354AF4223B7A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "63D31749E172090F"
-				item: { count: 1, id: "tide:oakfish" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "7DA46EB9E90C6090"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "604C76D79736E729"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_special_completion"
-					exclude_from_claim_all: true
-					id: "7A2AB03C3CBD483A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "349CA71DEB41B4BD"
-				item: { count: 1, id: "tide:prarie_pike" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 12.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
-				"7B09B3B05E4C1675"
-				"4E0C3EE62937EF91"
+				"5FC6626B1278D1CA"
+				"47ABA99CC4ED7992"
+				"123569E4AD3DF456"
+				"2B7DA9CF79537F83"
+				"66DF83415C397285"
+				"19CA203E0973D1BF"
+				"78BBBBBB38283EFD"
+				"7AECF7C0C1ADABC4"
+				"4FAF3672D4D561F7"
+				"4FBA3F413F05C299"
 				"7495C4BF3C5348C6"
-				"38EA024569AE96D2"
-				"1BF7F79EF185042E"
-				"1D0FCF4290E38815"
-				"3AD196450FCCCBDE"
-				"5AFDE9C23C350296"
-				"20B559DDFF781130"
-				"33C956CDC743A336"
-				"5275DEF23CCBFEF5"
-				"33063286270DBAE4"
-				"7515B3391FA4FA7B"
-				"21F25CA4C06DBF61"
-				"3B1806EFB6830503"
-				"7DA46EB9E90C6090"
+				"56F0B773615F1848"
+				"3E2DBDFAB00F6DA6"
+				"208E541B19933D69"
+				"424F49BC1925CEA1"
+				"73B30D6AD7B449B1"
+				"7C847EDF6F6DD26F"
+				"0088DD71A8BAE025"
+				"5057F5773E87182E"
+				"12F9DBDEF30EDD6C"
 			]
 			icon: {
-				id: "minecraft:nether_star"
+				id: "minecraft:stone"
 			}
-			id: "63A866594B197D5F"
+			id: "248FB174B7E99D8C"
 			rewards: [{
-				count: 23
-				id: "467C9505640D747E"
+				count: 32
+				id: "0814B04A13C2C337"
 				item: {
 					count: 1
 					id: "kubejs:miles_ticket"
@@ -1944,13 +2460,449 @@
 				icon: {
 					id: "minecraft:glass"
 				}
-				id: "142CB92C59115205"
+				id: "52C557A67D2999E6"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
 				value: 1
 			}]
 			x: -1.0d
-			y: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "48A5B2AE001CD002"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "265A821DD75D7DE4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "4AE8019977A4C9B3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "466A2F2EF49D253A"
+				item: { count: 1, id: "tide:alpha_fish" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4F2B93E8664D97E4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "1C4BC6300358E1E1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "35549B0FDC0C4B61"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0E326C5EEE9B1EFC"
+				item: { count: 1, id: "tide:bedrock_bug" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "73AECC5AA3CAECA5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "0D9685DA48B132B0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "4C5C1B2A6A0AB711"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2126B7E88F2F2845"
+				item: { count: 1, id: "tide:blue_neonfish" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2ABB93D2143B0FE2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "54868D7BF126B604"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "6194E289F1F81D0B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "72E962F574F4F0C6"
+				item: { count: 1, id: "tide:darkness_eater" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5E3513E4A11244CB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "39662D7915761CBF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "0627642EE4210F14"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2329EA3501A581F5"
+				item: { count: 1, id: "tide:deep_blue" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "109FF911E2D8F052"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "463C86C704B8736B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "1D696F0305FC4140"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5E569AF317A06605"
+				item: { count: 1, id: "tide:incandescent_larva" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "0456978AD085CF97"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "41DFFC526742067F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "536F3A4E7A8C394F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0359F122D1B07B0C"
+				item: { count: 1, id: "tide:judgment_fish" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "05FFD5E7845192F5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "4C1DD64E96E1A4C5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "76C6EC9354F07BF4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "00022396C1BF82F5"
+				item: { count: 1, id: "tide:nephrosilu" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "10464895D308DFBA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "1536262E9BA13881"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "5795FFAF036CC781"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "62168EE914E62B5E"
+				item: { count: 1, id: "tide:pentapus" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "10233F5316668DC5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "66D15693219984C1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "2A2A64693FFEDD11"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "19DEE3337FB2EE59"
+				item: { count: 1, id: "tide:shadow_shark" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "24E31491F81EBDB3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "3EA1ECB80FFAA757"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "20FDA29151E906FE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7289042C70CAB2F7"
+				item: { count: 1, id: "tide:sleepy_carp" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "07548D2876618BF8"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "08299AEB0DD850C6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_void_completion"
+					exclude_from_claim_all: true
+					id: "036706602A459CA5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "10EBF151A7B59AAC"
+				item: { count: 1, id: "tide:vengeance" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"48A5B2AE001CD002"
+				"4F2B93E8664D97E4"
+				"73AECC5AA3CAECA5"
+				"2ABB93D2143B0FE2"
+				"5E3513E4A11244CB"
+				"109FF911E2D8F052"
+				"0456978AD085CF97"
+				"05FFD5E7845192F5"
+				"10464895D308DFBA"
+				"10233F5316668DC5"
+				"24E31491F81EBDB3"
+				"07548D2876618BF8"
+			]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "57C34897398B2464"
+			rewards: [{
+				count: 16
+				id: "6CCCCC7FC57B2647"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "596A765F435647AA"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 15.5d
 		}
 	]
 }
