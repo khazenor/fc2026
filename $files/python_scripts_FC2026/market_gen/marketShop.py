@@ -308,15 +308,41 @@ categories = {
       }
     ]
   },
-  'collectables': {
-    nameKey: "Collection Task Items",
-    iconKey: "minecraft:writable_book",
+  'animal_watching': {
+    nameKey: "Animal Watching Collectibles",
+    iconKey: "wildernature:pelican_spawn_egg",
     entryGroupsKey: [
       {
         priceKey: 64,
-        itemsKey: questCollectionReader.collectionQuestItems()
+        itemsKey: questCollectionReader.questSpawnEggs()
       }
     ]
+  },
+  'aquarium': {
+    nameKey: 'Aquarium Collectibles',
+    iconKey: 'tide:bluegill',
+    entryGroupsKey: [{
+      priceKey: 64,
+      itemsKey: questCollectionReader.collectionQuestLineItems('aquarium')
+    }]
+  },
+  'flora_compendium': {
+    nameKey: 'Flora Collectibles',
+    iconKey: 'minecraft:red_tulip',
+    entryGroupsKey: [{
+      priceKey: 64,
+      itemsKey: questCollectionReader.collectionQuestLineItems('flora_compendium')
+    }]
+  },
+  'mineral_museum': {
+    nameKey: 'Mineral Museum Collectibles',
+    iconKey: 'biomeswevegone:blue_sandstone',
+    entryGroupsKey: [{
+      priceKey: 64,
+      itemsKey: questCollectionReader.collectionQuestLineItems('mineral_museum', [
+        'Ore Completion'
+      ])
+    }]
   }
 }
 

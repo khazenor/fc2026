@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "farmingForBlockheads.market.aquariumCollectibles"
+  },
+  "icon": {
+    "id": "tide:bluegill"
+  },
+  "sortIndex": 7
+}

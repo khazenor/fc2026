@@ -1,0 +1,9 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:animal_watching",
+  "preset": "farming_crossing:kubejsmiles_ticket_64",
+  "result": {
+    "count": 1,
+    "item": "meadow:water_buffalo_spawn_egg"
+  }
+}

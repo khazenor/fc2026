@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "farmingForBlockheads.market.animalWatchingCollectibles"
+  },
+  "icon": {
+    "id": "wildernature:pelican_spawn_egg"
+  },
+  "sortIndex": 6
+}

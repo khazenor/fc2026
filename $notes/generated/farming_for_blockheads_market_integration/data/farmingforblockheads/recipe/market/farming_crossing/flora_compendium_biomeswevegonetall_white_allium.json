@@ -1,0 +1,9 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:flora_compendium",
+  "preset": "farming_crossing:kubejsmiles_ticket_64",
+  "result": {
+    "count": 1,
+    "item": "biomeswevegone:tall_white_allium"
+  }
+}

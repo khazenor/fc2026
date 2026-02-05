@@ -1,0 +1,9 @@
+{
+  "tooltip": {
+    "translate": "farmingForBlockheads.market.floraCollectibles"
+  },
+  "icon": {
+    "id": "minecraft:red_tulip"
+  },
+  "sortIndex": 8
+}
