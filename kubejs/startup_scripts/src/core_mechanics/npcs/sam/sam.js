@@ -120,9 +120,8 @@ const NpcSam = {
     lines: [
       'tide:fishing_line',
       'tide:braided_line',
-      'tide:fortune_line',
-      'tide:reinforced_line',
       'tide:golden_line',
+      'tide:reinforced_line',
     ]
   }
 }
