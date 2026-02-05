@@ -1540,6 +1540,39 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "38B2861704365ADB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "7F3FB334A59DACC1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					exclude_from_claim_all: true
+					id: "63937F52249DDA23"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "31D6796AECBDEA13"
+				item: { count: 1, id: "beachparty:coconut" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
 			dependencies: [
 				"26022F9CB6851F34"
 				"084140969B947B0B"
@@ -1570,13 +1603,14 @@
 				"2C0EF1AA38D802B1"
 				"44F6BE2321777CAA"
 				"001686692286A6D3"
+				"38B2861704365ADB"
 			]
 			icon: {
 				id: "farm_and_charm:corn"
 			}
 			id: "2DB621BCC10A0C1C"
 			rewards: [{
-				count: 45
+				count: 48
 				id: "0E913ECE3206A852"
 				item: {
 					count: 1
@@ -4094,6 +4128,39 @@
 			y: 22.5d
 		}
 		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7F26C39DBB7C7609"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "0D11A841B077D4EA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_modded_saplings"
+					exclude_from_claim_all: true
+					id: "3E6C6335CC4D9711"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "61045461D5FBF505"
+				item: { count: 1, id: "beachparty:palm_sprout" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 22.5d
+		}
+		{
 			dependencies: [
 				"371FF6D9BC8586FA"
 				"117DC8AEA2A15ECF"
@@ -4130,13 +4197,14 @@
 				"03CE6A1EE54B1D37"
 				"0EF2793D18B4F68F"
 				"62E5BDD6E030A91C"
+				"7F26C39DBB7C7609"
 			]
 			icon: {
 				id: "biomeswevegone:araucaria_sapling"
 			}
 			id: "3E5304852BAF4E53"
 			rewards: [{
-				count: 59
+				count: 61
 				id: "734695BE4ABEF25B"
 				item: {
 					count: 1
@@ -6777,13 +6845,13 @@
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "051A501682B9FA62"
+			id: "79F119378EA8408C"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "27F20090AF771540"
+					id: "6AC87B291979FD96"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6792,14 +6860,14 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "75F94C397D303405"
+					id: "153D38F0C4CE6589"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "47EBAA04E8443BDC"
+				id: "3BC294E030973A77"
 				item: { count: 1, id: "biomeswevegone:green_mushroom" }
 				type: "item"
 			}]
