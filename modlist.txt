@@ -175,7 +175,7 @@ structureessentials-1.21.1-4.8.jar
 supermartijn642configlib-1.1.8-neoforge-mc1.21.jar
 supermartijn642corelib-1.1.19-neoforge-mc1.21.jar
 TerraBlender-neoforge-1.21.1-4.1.0.8.jar
-tide-neoforge-1.21-1.6.4.jar
+tide-neoforge-1.21.1-2.0.2.jar
 ToolBelt-1.21.1-2.2.7.jar
 toomanypaintings-25.10.20-1.21-neoforge.jar
 trade-cycling-neoforge-1.21.1-1.0.18.jar
