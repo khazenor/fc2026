@@ -1,1 +1,1 @@
-rewardSeedStarter = 'v0.0.9'
+rewardSeedStarter = 'v0.1.0'

@@ -117,6 +117,19 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
+      'tide:ash_perch', 
+      'tide:ember_koi', 
+      'tide:inferno_guppy', 
+      'tide:magma_mackerel', 
+      'tide:obsidian_pike', 
+      'tide:volcano_tuna'
+    ],
+    [
+      Text.translate('collectionTooltips.aquarium'), 
+      Text.translate('collectionTooltips.specialCompletion')
+    ])
+  event.add(
+    [
       'minecraft:bamboo', 
       'minecraft:beetroot_seeds', 
       'minecraft:brown_mushroom', 

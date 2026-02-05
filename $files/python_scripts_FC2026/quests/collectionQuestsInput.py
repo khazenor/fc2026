@@ -129,7 +129,7 @@ questlines = [
       },
       { # Void
         nameKey: 'Void Completion',
-        iconKey: 'minecraft:nether_star',
+        iconKey: 'minecraft:ender_pearl',
         dependencyIdKey: "1B6B73275C612510",
         tasksKey: [
           "tide:alpha_fish",
@@ -144,6 +144,19 @@ questlines = [
           "tide:shadow_shark",
           "tide:sleepy_carp",
           "tide:vengeance"
+        ]
+      },
+      { # Special
+        nameKey: 'Special Completion',
+        iconKey: 'minecraft:nether_star',
+        dependencyIdKey: "1B6B73275C612510",
+        tasksKey: [
+          "tide:ash_perch",
+          "tide:ember_koi",
+          "tide:inferno_guppy",
+          "tide:magma_mackerel",
+          "tide:obsidian_pike",
+          "tide:volcano_tuna"
         ]
       }
     ]

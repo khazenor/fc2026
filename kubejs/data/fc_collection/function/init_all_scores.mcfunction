@@ -10,6 +10,8 @@ scoreboard objectives add aquarium_underground_completion dummy {"translate":"qu
 scoreboard players set @p aquarium_underground_completion 0
 scoreboard objectives add aquarium_void_completion dummy {"translate":"questFunctions.voidCompletion0"}
 scoreboard players set @p aquarium_void_completion 0
+scoreboard objectives add aquarium_special_completion dummy {"translate":"questFunctions.specialCompletion0"}
+scoreboard players set @p aquarium_special_completion 0
 scoreboard objectives add animal_watching dummy {"translate":"questFunctions.animalWatching"}
 scoreboard players set @p animal_watching 0
 scoreboard objectives add animal_watching_general_water_completion dummy {"translate":"questFunctions.generalWaterCompletion0"}
