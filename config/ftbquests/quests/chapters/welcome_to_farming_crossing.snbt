@@ -130,6 +130,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "358E6513B16EF986"
+					item: {
+						count: 1
+						id: "tide:fish_satchel"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "6CF51538BCB2BA35"
