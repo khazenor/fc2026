@@ -43,7 +43,6 @@ const FurnitureCutting = {
       }
       this.cuttablesCache = cuttables
       CacheHelper.cacheObject(this.allCuttablesWoodCacheName, cuttables)
-      console.log('furniture', furniture)
       RequestHandler.tags.item.add([['c:cuttable_furniture', furniture]])
     }
   }

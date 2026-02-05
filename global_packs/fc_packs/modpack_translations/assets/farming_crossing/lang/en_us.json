@@ -132,6 +132,7 @@
   "npcs.sellItem.thankYou": "<%s> Thank you! Here %s!",
   "npcs.sellTooltip": "You can sell this to %s for %s",
   "npcs.tooltip.youCanBuy": "Can be bought from %s",
+  "npcs.sam.sellTooltip": "Can be sold to Sam from %s to %s tixs",
   "planksCutting.youCanCutThis": "Can be stone-cut into other items",
   "questFunctions.1": "/1)",
   "questFunctions.10": "/10)",

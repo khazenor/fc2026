@@ -7,30 +7,51 @@
 
 const NpcSam = {
   name: 'Sam',
-  get fishSellDefs () {
-    let maxFishSell = 8
-    let minFishSell = 1
-    let weights = Object.values(FishInfo.weights)
-    let minWeight = ArrayJs.min(weights)
-    let maxWeight = ArrayJs.max(weights)
-    let ticketOverWeight = (maxFishSell - minFishSell) / (maxWeight - minWeight)
-    let fishPrices = {}
-    for (let fishId in FishInfo.weights) {
-      let weight = FishInfo.weights[fishId]
-      let weightInverse = maxWeight - weight
-      let sell = Math.floor((weightInverse * ticketOverWeight) + .5) + 1
-      fishPrices[fishId] = { id: MilesTickets.ticketId, count: sell }
+  typicalHighRatio: .5,
+  recordHighRatio: 1,
+  getFishPrice (fishId, fishSize) {
+    let fishInfo = FishInfo[fishId]
+    let basePrice = fishInfo['basePrice']
+    let sizeInfo = fishInfo['size']
+    let recordHigh = sizeInfo['record_high_cm']
+    let typicalHigh = sizeInfo['typical_high_cm']
+    let typicalLow = sizeInfo['typical_low_cm']
+    let preRoundPrice
+
+    if (fishSize < typicalHigh) {
+      preRoundPrice = (fishSize / typicalHigh * this.typicalHighRatio + 1) * basePrice
+    } else {
+      let ratioAfterTypicalHigh = (fishSize - typicalHigh) / (recordHigh - typicalHigh) * (this.recordHighRatio - this.typicalHighRatio)
+      let priceRatio = ratioAfterTypicalHigh + 1 + this.typicalHighRatio
+      preRoundPrice = priceRatio * basePrice
     }
 
-    let specialFishSell = 4
-    for (let specialFishId of FishInfo.specialFishes) {
-      fishPrices[specialFishId] = { id: MilesTickets.ticketId, count: specialFishSell }
-    }
-
-    return fishPrices
+    return Math.round(preRoundPrice)
   },
   get sellableFishes () {
-    return Object.keys(this.fishSellDefs)
+    return Object.keys(FishInfo)
+  },
+  get fishTooltips () {
+    let tooltipDefs = []
+    for (let fishId in FishInfo) {
+      let basePrice = FishInfo[fishId]['basePrice']
+      let maxPrice = basePrice * (this.recordHighRatio + 1)
+      tooltipDefs.push([fishId,
+        Text.translate('npcs.sam.sellTooltip',
+          StrHelper.cleanFloor(basePrice + .5),
+          StrHelper.cleanFloor(maxPrice + .5)
+        )
+      ])
+    }
+    return tooltipDefs
+  },
+  getFishSizeFromItem (item) {
+    for (let component of item.components) {
+      if (component.type() == 'tide:fish_length') {
+        return Number(component.value())
+      }
+    }
+    return null
   },
   get offerDefs () {
     return [{
@@ -128,13 +149,16 @@ const NpcSam = {
 
 RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   npcCommonBehavior(event, NpcSam, [() => {
-    let mainHandItem = EventHelpers.mainHandItem(event).id
-    if (NpcSam.sellableFishes.includes(mainHandItem)) {
+    let mainHandItem = EventHelpers.mainHandItem(event)
+    let itemId = mainHandItem.id
+    if (NpcSam.sellableFishes.includes(itemId)) {
+      let fishSize = NpcSam.getFishSizeFromItem(mainHandItem)
       let itemCount = EventHelpers.mainHandItem(event).count
+      let fishPrice = NpcSam.getFishPrice(itemId, fishSize)
       NpcHelper.handleSellingItemToNpc(
         event,
-        NpcSam.fishSellDefs[mainHandItem].id,
-        NpcSam.fishSellDefs[mainHandItem].count * itemCount,
+        MilesTickets.ticketId,
+        fishPrice * itemCount,
         itemCount
       )
       return true
@@ -144,6 +168,4 @@ RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
   }])
 }])
 
-RequestHandler.callbacks.itemEvents.modifyTooltips([(event) => {
-  NpcHelper.tooltipsForSellingToNpc(NpcSam.name, NpcSam.fishSellDefs)
-}])
+RequestHandler.tooltips.add(NpcSam.fishTooltips)
