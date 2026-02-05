@@ -28,7 +28,7 @@ const NpcHelper = {
 
       if (catalogOfferDef) {
         EventHelpers.tellPlayer(event, 
-          Text.translate('npcs.dialog.catalogDialog', playerName)
+          Text.translate('npcs.catalog.catalogDialog', playerName)
         )
       } else if (npcDialogDefs(npcName, playerName)[npcName]) {
         let dialog = ArrayJs.getRandomArrayElement(
@@ -92,5 +92,9 @@ const NpcHelper = {
       NpcElna, NpcBernina, NpcParlan, NpcFenny, NpcHarley, NpcLangley,
       NpcMatan, NpcSkye, NpcPingu, NpcRigg
     ]
+  },
+  get npcCatalogShops () {
+    return [NpcElna, NpcBernina, NpcParlan, NpcFenny, NpcHarley, NpcLangley,
+      NpcMatan, NpcSkye, NpcPingu]
   }
 }

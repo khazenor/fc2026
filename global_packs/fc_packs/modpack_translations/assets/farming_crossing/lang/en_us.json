@@ -302,6 +302,7 @@
   "tooltips.checkCollectionProgress": "Right click this item to check your collection quest progress",
   "tooltips.decoration_catalog1": "Right click a post village capacity upgrade npc",
   "tooltips.decoration_catalog2": "to purchase more copies of wares in your inventory",
+  "npcs.catalog.catalogDialog": "<%s> Let me find the items I have in storage that matches the items in your inventory...",
   "translation.are": "are %s",
   "translation.is": "is %s",
   "translation.pluralizeNoun": "%ss",

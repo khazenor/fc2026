@@ -2,7 +2,10 @@ const decorationCatalog = {
   catalogId: 'kubejs:decoration_catalog',
   catalogItemCost: 24,
   catalogOfferDef (event, npcObj) {
-    if (EventHelpers.mainHandItemId(event) === this.catalogId) {
+    if (
+      EventHelpers.mainHandItemId(event) === this.catalogId &&
+      this.npcObjHasCatalog(npcObj)
+    ) {
       let inventoryItemIds = EventHelpers.playerInventoryItemIds(event)
       let saleItems = npcObj.tradeItemIds
       let duplicatedItemsToSell = []
@@ -16,6 +19,14 @@ const decorationCatalog = {
       }
       if (duplicatedItemsToSell.length > 0) {
         return [{ villagerItems: duplicatedItemsToSell, playerNum:this.catalogItemCost }]
+      }
+    }
+    return false
+  },
+  npcObjHasCatalog (npcObj) {
+    for (let npcObjVal of NpcHelper.npcCatalogShops) {
+      if (npcObjVal.name === npcObj.name) {
+        return true
       }
     }
     return false
