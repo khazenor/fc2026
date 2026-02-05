@@ -5,16 +5,21 @@ const NpcAndre = {
     return [
       { villagerItems: RandHelper.randomMineDayRandFromArr(
         this.produceItems, 4
-      ), playerNum: 6 },
-      { villagerItems: [
-        'minecraft:lead',
-        'mobcapturingtool:mob_capturing_tool',
-        'farmingforblockheads:chicken_nest',
-        'farmingforblockheads:feeding_trough',
-        'farm_and_charm:water_sprinkler',
-        'farm_and_charm:cattlegrid',
-        'farm_and_charm:iron_divider',
-        'farm_and_charm:chicken_fence'
+      ), playerNum: 6 }, {
+        villagerItems: [
+          "minecraft:beehive",
+          "minecraft:bee_spawn_egg"
+        ], playerNum: 8
+      }, {
+        villagerItems: [
+          'minecraft:lead',
+          'mobcapturingtool:mob_capturing_tool',
+          'farmingforblockheads:chicken_nest',
+          'farmingforblockheads:feeding_trough',
+          'farm_and_charm:water_sprinkler',
+          'farm_and_charm:cattlegrid',
+          'farm_and_charm:iron_divider',
+          'farm_and_charm:chicken_fence'
       ], playerNum: 4 }
     ]
   },
