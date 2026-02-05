@@ -159,6 +159,7 @@ trade-cycling-neoforge-1.21.1-1.0.18.jar
 trashcans-1.0.18c-neoforge-mc1.21.jar
 t_and_t-neoforge-fabric-1.13.7+1.21.1.jar
 UtilitiX-21.1.3.jar
+villagernames-1.21.1-8.2.jar
 waystones-neoforge-1.21.1-21.1.25.jar
 weavers_cosmetics-neo-1.21.1_v1.0.jar
 weavers_cosmetics_cosplay-v1.0.jar
