@@ -64,7 +64,7 @@
 				{
 					auto: "invisible"
 					command: "/function fc_collection:init_all_scores"
-					id: "67F1664EE6C8B3ED"
+					id: "3F85444E16179722"
 					permission_level: 4
 					silent: true
 					type: "command"
@@ -971,12 +971,12 @@
 			}]
 			tasks: [{
 				icon: {
-					id: "tide:surface_loot_crate"
+					id: "tide:wooden_crate"
 				}
 				id: "3BCEACC7D9ECE8CB"
 				observe_type: 0
 				timer: 0L
-				to_observe: "tide:surface_loot_crate"
+				to_observe: "tide:wooden_crate"
 				type: "observation"
 			}]
 			x: -2.0d
@@ -1001,8 +1001,11 @@
 				{
 					id: "491CF6C6EA0492E1"
 					item: {
+						components: {
+							"ftbquests:missing_item": "tide:angler_workshop"
+						}
 						count: 1
-						id: "tide:angler_workshop"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1290,12 +1293,12 @@
 			}]
 			tasks: [{
 				icon: {
-					id: "tide:obsidian_loot_crate"
+					id: "tide:obsidian_crate"
 				}
 				id: "22AF57429186BA12"
 				observe_type: 0
 				timer: 0L
-				to_observe: "tide:obsidian_loot_crate"
+				to_observe: "tide:obsidian_crate"
 				type: "observation"
 			}]
 			x: -2.0d

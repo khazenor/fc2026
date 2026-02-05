@@ -971,15 +971,12 @@
 			}]
 			tasks: [{
 				icon: {
-					components: {
-						"ftbquests:missing_item": "tide:surface_loot_crate"
-					}
-					id: "ftbquests:missing_item"
+					id: "tide:wooden_crate"
 				}
 				id: "3BCEACC7D9ECE8CB"
 				observe_type: 0
 				timer: 0L
-				to_observe: "tide:surface_loot_crate"
+				to_observe: "tide:wooden_crate"
 				type: "observation"
 			}]
 			x: -2.0d
@@ -1296,15 +1293,12 @@
 			}]
 			tasks: [{
 				icon: {
-					components: {
-						"ftbquests:missing_item": "tide:obsidian_loot_crate"
-					}
-					id: "ftbquests:missing_item"
+					id: "tide:obsidian_crate"
 				}
 				id: "22AF57429186BA12"
 				observe_type: 0
 				timer: 0L
-				to_observe: "tide:obsidian_loot_crate"
+				to_observe: "tide:obsidian_crate"
 				type: "observation"
 			}]
 			x: -2.0d
