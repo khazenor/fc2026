@@ -21,7 +21,7 @@ const NpcHelper = {
     let target = event.target
     let npcName = target.name.getString()
     if (this.customerTypes.includes(target.type) &&
-      !PlayerTimingJs.checkAreYouSureLike(player, 'talkToNPC', 5)
+      !PlayerTimingJs.checkAreYouSureLike(player, 'talkToNPC', 30)
     ) {
       let playerName = player.name.getString()
       let catalogOfferDef = decorationCatalog.catalogOfferDef(event, npcObj)
