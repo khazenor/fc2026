@@ -1007,17 +1007,6 @@
 					type: "random"
 				}
 				{
-					id: "491CF6C6EA0492E1"
-					item: {
-						components: {
-							"ftbquests:missing_item": "tide:angler_workshop"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
 					id: "0EC656782C4DF1D5"
 					item: {
 						count: 1
@@ -1030,6 +1019,14 @@
 					item: {
 						count: 1
 						id: "furniture:iron_fish_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "1576BB39FFFF93EA"
+					item: {
+						count: 1
+						id: "tide:angling_table"
 					}
 					type: "item"
 				}
@@ -2950,6 +2947,22 @@
 			}]
 			x: 3.0d
 			y: 5.0d
+		}
+		{
+			id: "5B47AACAC0028C8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32C52F1218D933DC"
+				table_id: 7309123930357327620L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "46F3D5450AEE3317"
+				item: { count: 1, id: "minecraft:barrel" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
 		}
 	]
 }
