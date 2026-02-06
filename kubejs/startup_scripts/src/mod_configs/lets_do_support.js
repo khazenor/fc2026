@@ -77,3 +77,20 @@ RequestHandler.callbacks.blockEventsBrokenSingle(event => {
     event.cancel()
   }
 })
+
+RequestHandler.callbacks.itemEvents.rightClicked([event => {
+  let juices = [
+    'vinery:apple_juice',
+    'vinery:red_grapejuice',
+    'vinery:red_jungle_grapejuice',
+    'vinery:red_savanna_grapejuice',
+    'vinery:red_taiga_grapejuice',
+    'vinery:white_grapejuice',
+    'vinery:white_jungle_grapejuice',
+    'vinery:white_savanna_grapejuice',
+    'vinery:white_taiga_grapejuice',
+  ]
+  if (juices.includes(EventHelpers.mainHandItemId(event))) {
+    event.cancel()
+  }
+}])
