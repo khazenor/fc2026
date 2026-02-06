@@ -2948,21 +2948,5 @@
 			x: 3.0d
 			y: 5.0d
 		}
-		{
-			id: "5B47AACAC0028C8B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "32C52F1218D933DC"
-				table_id: 7309123930357327620L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "46F3D5450AEE3317"
-				item: { count: 1, id: "minecraft:barrel" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 1.0d
-		}
 	]
 }
