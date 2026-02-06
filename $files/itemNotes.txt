@@ -3248,7 +3248,6 @@ brewery:fried_chicken
 brewery:gingerbread
 brewery:half_chicken
 brewery:hops
-brewery:hops_seeds
 brewery:mashed_potatoes
 brewery:netherite_brewingstation
 brewery:patterned_carpet
@@ -5542,6 +5541,7 @@ farm_and_charm:stuffed_chicken
 farm_and_charm:stuffed_rabbit
 farm_and_charm:sturdy_ladder
 farm_and_charm:supply_cart
+farm_and_charm:timber_well
 farm_and_charm:tomato
 farm_and_charm:tomato_bag
 farm_and_charm:tomato_seeds
@@ -5549,6 +5549,7 @@ farm_and_charm:tool_rack
 farm_and_charm:trampled_packed_dirt
 farm_and_charm:trampled_stable_floor
 farm_and_charm:water_sprinkler
+farm_and_charm:water_trough
 farm_and_charm:wild_barley
 farm_and_charm:wild_beetroots
 farm_and_charm:wild_carrots
@@ -5868,6 +5869,8 @@ furniture:dark_oak_mirror
 furniture:dark_oak_shutter
 furniture:display
 furniture:explorers_box
+furniture:flower_box
+furniture:flower_pot_big
 furniture:gramophone
 furniture:iron_fish_tank
 furniture:jungle_bench

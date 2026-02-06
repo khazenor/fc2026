@@ -213,11 +213,3 @@
 	# Default: 0.6
 	# Range: 0.0 ~ 10.0
 	misslilituBiscuitSaturation = 0.6
-
-[Vitality]
-	# Default: 10
-	# Range: 1 ~ 200
-	interval = 10
-	# Default: 0.08
-	# Range: 0.0 ~ 10.0
-	exhaustionReduction = 0.08

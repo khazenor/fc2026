@@ -869,7 +869,7 @@
 					id: "5A254F27D8343746"
 					item: {
 						count: 1
-						id: "brewery:hops_seeds"
+						id: "brewery:hops"
 					}
 					type: "item"
 				}
