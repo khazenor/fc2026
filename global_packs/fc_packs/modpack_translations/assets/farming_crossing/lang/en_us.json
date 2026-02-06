@@ -302,5 +302,8 @@
   "translation.are": "are %s",
   "translation.is": "is %s",
   "translation.pluralizeNoun": "%ss",
-  "translation.spaceBetween": "%s %s"
+  "translation.spaceBetween": "%s %s",
+  "tideSupport.resetWeight.areYouSure": "Are you sure you want to reset the weight of this fish, making it stack-able? (right click again to confirm)",
+  "tideSupport.resetWeight.tooltip1": "Shift right-click in the air to",
+  "tideSupport.resetWeight.tooltip2": "reset weight (making it stack-able)"
 }
