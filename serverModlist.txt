@@ -91,7 +91,7 @@ letsdo-farm_and_charm-neoforge-1.1.14.jar
 letsdo-furniture-neoforge-1.1.1.jar
 letsdo-herbalbrews-neoforge-1.1.2.jar
 letsdo-meadow-neoforge-1.4.4.jar
-letsdo-vinery-neoforge-1.5.2.jar
+letsdo-vinery-neoforge-1.5.3.jar
 letsdo-wildernature-neoforge-1.1.3.jar
 libIPN-neoforge-1.21.1-6.6.2.jar
 LibX-1.21.1-6.0.9.jar
