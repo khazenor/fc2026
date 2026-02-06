@@ -30,17 +30,6 @@ questlines = [
     increaseRateKey: 0.03,
     typeKey: itemQuestTypeConst,
     questGroupsKey: [
-      { # Vanilla
-        nameKey: 'Vanilla Completion',
-        iconKey: 'minecraft:grass_block',
-        dependencyIdKey: '1B6B73275C612510', # Catching Fishes
-        tasksKey: [
-          "minecraft:cod",
-          "minecraft:tropical_fish",
-          "minecraft:salmon",
-          "minecraft:pufferfish"
-        ]
-      },
       { # Freshwater
         nameKey: 'Freshwater Completion',
         iconKey: 'minecraft:water_bucket',
@@ -67,7 +56,8 @@ questlines = [
           "tide:sturgeon",
           "tide:walleye",
           "tide:white_crappie",
-          "tide:yellow_perch"
+          "tide:yellow_perch",
+          "minecraft:salmon"
         ]
       },
       { # Saltwater
@@ -97,7 +87,10 @@ questlines = [
           "tide:sun_emblem",
           "tide:swordfish",
           "tide:tuna",
-          "tide:uranias_pisces"
+          "tide:uranias_pisces",
+          "minecraft:cod",
+          "minecraft:pufferfish",
+          "minecraft:tropical_fish"
         ]
       },
       { # Underground

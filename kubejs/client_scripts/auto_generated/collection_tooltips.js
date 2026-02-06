@@ -1,17 +1,6 @@
 ItemEvents.modifyTooltips(event => {
   event.add(
     [
-      'minecraft:cod', 
-      'minecraft:tropical_fish', 
-      'minecraft:salmon', 
-      'minecraft:pufferfish'
-    ],
-    [
-      Text.translate('collectionTooltips.aquarium'), 
-      Text.translate('collectionTooltips.vanillaCompletion')
-    ])
-  event.add(
-    [
       'tide:arapaima', 
       'tide:black_crappie', 
       'tide:blossom_bass', 
@@ -33,7 +22,8 @@ ItemEvents.modifyTooltips(event => {
       'tide:sturgeon', 
       'tide:walleye', 
       'tide:white_crappie', 
-      'tide:yellow_perch'
+      'tide:yellow_perch', 
+      'minecraft:salmon'
     ],
     [
       Text.translate('collectionTooltips.aquarium'), 
@@ -63,7 +53,10 @@ ItemEvents.modifyTooltips(event => {
       'tide:sun_emblem', 
       'tide:swordfish', 
       'tide:tuna', 
-      'tide:uranias_pisces'
+      'tide:uranias_pisces', 
+      'minecraft:cod', 
+      'minecraft:pufferfish', 
+      'minecraft:tropical_fish'
     ],
     [
       Text.translate('collectionTooltips.aquarium'), 

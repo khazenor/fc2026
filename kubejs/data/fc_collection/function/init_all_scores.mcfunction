@@ -1,7 +1,5 @@
 scoreboard objectives add aquarium dummy {"translate":"questFunctions.aquarium"}
 scoreboard players set @p aquarium 0
-scoreboard objectives add aquarium_vanilla_completion dummy {"translate":"questFunctions.vanillaCompletion0"}
-scoreboard players set @p aquarium_vanilla_completion 0
 scoreboard objectives add aquarium_freshwater_completion dummy {"translate":"questFunctions.freshwaterCompletion0"}
 scoreboard players set @p aquarium_freshwater_completion 0
 scoreboard objectives add aquarium_saltwater_completion dummy {"translate":"questFunctions.saltwaterCompletion0"}

@@ -616,6 +616,38 @@ const FishInfo = {
       "typical_low_cm": 50.0
     }
   },
+  "minecraft:salmon": {
+    "basePrice": 1.199652777777778,
+    "size": {
+      "record_high_cm": 145.0,
+      "typical_high_cm": 95.0,
+      "typical_low_cm": 55.0
+    }
+  },
+  "minecraft:cod": {
+    "basePrice": 0.8611111111111112,
+    "size": {
+      "record_high_cm": 200.0,
+      "typical_high_cm": 115.0,
+      "typical_low_cm": 65.0
+    }
+  },
+  "minecraft:pufferfish": {
+    "basePrice": 2.8055555555555554,
+    "size": {
+      "record_high_cm": 75.0,
+      "typical_high_cm": 22.0,
+      "typical_low_cm": 12.0
+    }
+  },
+  "minecraft:tropical_fish": {
+    "basePrice": 1.0916280864197532,
+    "size": {
+      "record_high_cm": 100.0,
+      "typical_high_cm": 35.0,
+      "typical_low_cm": 10.0
+    }
+  },
   "tide:ash_perch": {
     "basePrice": 1.597511574074074,
     "size": {

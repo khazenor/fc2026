@@ -6845,13 +6845,13 @@
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "1464C87E9929AF70"
+			id: "01C8CF65E73FEBCD"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "637240148B59FC9B"
+					id: "645608339D2B6A31"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6860,14 +6860,14 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "6615386980ADE204"
+					id: "68950F8BAA3FB95F"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "5BC3B031C1F34E33"
+				id: "21F745FB64061F62"
 				item: { count: 1, id: "biomeswevegone:green_mushroom" }
 				type: "item"
 			}]

@@ -14,170 +14,6 @@
 			dependencies: ["1B6B73275C612510"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "260A19F1C1734C93"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "7E940969090FB90C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_vanilla_completion"
-					exclude_from_claim_all: true
-					id: "22E8DA09F848D261"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0D546DD538B2EC29"
-				item: { count: 1, id: "minecraft:cod" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4280CC5A9A75A33B"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "53DDCB6BA6F15B99"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_vanilla_completion"
-					exclude_from_claim_all: true
-					id: "3CB7C94149C24E97"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "531A62E7416AF5E7"
-				item: { count: 1, id: "minecraft:tropical_fish" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "73221848E69936BE"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "143B998AB4A882D9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_vanilla_completion"
-					exclude_from_claim_all: true
-					id: "6B0DE0598B169166"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "72A0B671B8364A24"
-				item: { count: 1, id: "minecraft:salmon" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "32E5386B499B3323"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium"
-					exclude_from_claim_all: true
-					id: "1CF09273959E6821"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:aquarium_vanilla_completion"
-					exclude_from_claim_all: true
-					id: "1DDCECE15E3EB6CE"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "3A3165720D3C9E60"
-				item: { count: 1, id: "minecraft:pufferfish" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"260A19F1C1734C93"
-				"4280CC5A9A75A33B"
-				"73221848E69936BE"
-				"32E5386B499B3323"
-			]
-			icon: {
-				id: "minecraft:grass_block"
-			}
-			id: "2D45906B062171D6"
-			rewards: [{
-				count: 4
-				id: "7F37789BD488EC3F"
-				item: {
-					count: 1
-					id: "kubejs:miles_ticket"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					id: "minecraft:glass"
-				}
-				id: "7287EDE6C46ADBEB"
-				stat: "minecraft:walk_one_cm"
-				type: "stat"
-				value: 1
-			}]
-			x: -1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1B6B73275C612510"]
-			disable_toast: true
-			hide_until_deps_complete: true
 			id: "6EF90951EEAD0FB6"
 			rewards: [
 				{
@@ -205,7 +41,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -238,7 +74,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -271,7 +107,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -304,7 +140,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -337,7 +173,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -370,7 +206,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -403,7 +239,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -436,7 +272,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -469,7 +305,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -502,7 +338,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -535,7 +371,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -568,7 +404,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -601,7 +437,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -634,7 +470,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -667,7 +503,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -700,7 +536,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -733,7 +569,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -766,7 +602,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -799,7 +635,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -832,7 +668,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -865,7 +701,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -898,7 +734,40 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "73221848E69936BE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "143B998AB4A882D9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_freshwater_completion"
+					exclude_from_claim_all: true
+					id: "6B0DE0598B169166"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "72A0B671B8364A24"
+				item: { count: 1, id: "minecraft:salmon" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -924,13 +793,14 @@
 				"1255592E0D8EA48B"
 				"513B65BA5EDB8EAD"
 				"1F0F9BE125C980A0"
+				"73221848E69936BE"
 			]
 			icon: {
 				id: "minecraft:water_bucket"
 			}
 			id: "609C71580309E47D"
 			rewards: [{
-				count: 36
+				count: 38
 				id: "191A3F20E2EC07C6"
 				item: {
 					count: 1
@@ -948,7 +818,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -981,7 +851,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1014,7 +884,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1047,7 +917,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1080,7 +950,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1113,7 +983,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1146,7 +1016,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1179,7 +1049,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1212,7 +1082,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1245,7 +1115,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1278,7 +1148,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1311,7 +1181,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1344,7 +1214,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1377,7 +1247,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1410,7 +1280,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1443,7 +1313,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1476,7 +1346,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1509,7 +1379,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1542,7 +1412,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1575,7 +1445,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1608,7 +1478,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1641,7 +1511,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1674,7 +1544,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1707,7 +1577,106 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "260A19F1C1734C93"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "7E940969090FB90C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "22E8DA09F848D261"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0D546DD538B2EC29"
+				item: { count: 1, id: "minecraft:cod" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "32E5386B499B3323"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "1CF09273959E6821"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "1DDCECE15E3EB6CE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3A3165720D3C9E60"
+				item: { count: 1, id: "minecraft:pufferfish" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1B6B73275C612510"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4280CC5A9A75A33B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium"
+					exclude_from_claim_all: true
+					id: "53DDCB6BA6F15B99"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:aquarium_saltwater_completion"
+					exclude_from_claim_all: true
+					id: "3CB7C94149C24E97"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "531A62E7416AF5E7"
+				item: { count: 1, id: "minecraft:tropical_fish" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -1734,13 +1703,16 @@
 				"15E7BAE3BE88C214"
 				"78EA9AAB39A9130A"
 				"34F9BEE588C9280C"
+				"260A19F1C1734C93"
+				"32E5386B499B3323"
+				"4280CC5A9A75A33B"
 			]
 			icon: {
 				id: "minecraft:blue_ice"
 			}
 			id: "4EC2DC93EC0BED9F"
 			rewards: [{
-				count: 38
+				count: 46
 				id: "78A69A5B2B6C1834"
 				item: {
 					count: 1
@@ -1758,7 +1730,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1791,7 +1763,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1824,7 +1796,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1857,7 +1829,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1890,7 +1862,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1923,7 +1895,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1956,7 +1928,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -1989,7 +1961,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2022,7 +1994,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2055,7 +2027,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2088,7 +2060,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2121,7 +2093,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2154,7 +2126,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2187,7 +2159,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2220,7 +2192,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2253,7 +2225,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2286,7 +2258,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2319,7 +2291,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2352,7 +2324,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2385,7 +2357,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 13.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2418,7 +2390,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 13.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -2466,7 +2438,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2499,7 +2471,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 15.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2532,7 +2504,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 15.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2565,7 +2537,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 15.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2598,7 +2570,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 15.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2631,7 +2603,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 15.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2664,7 +2636,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 15.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2697,7 +2669,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2730,7 +2702,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2763,7 +2735,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2796,7 +2768,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2829,7 +2801,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2862,7 +2834,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -2902,7 +2874,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 15.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2935,7 +2907,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -2968,7 +2940,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -3001,7 +2973,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -3034,7 +3006,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -3067,7 +3039,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1B6B73275C612510"]
@@ -3100,7 +3072,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 17.5d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -3134,7 +3106,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 17.5d
+			y: 17.0d
 		}
 	]
 }
