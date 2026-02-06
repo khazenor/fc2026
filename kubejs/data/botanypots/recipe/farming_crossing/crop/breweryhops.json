@@ -13,12 +13,12 @@
     "tag": "botanypots:soil/dirt"
   },
   "input": {
-    "item": "brewery:hops_seeds"
+    "item": "brewery:hops"
   },
   "drops": [
     {
       "type": "botanypots:loot_table",
-      "table_id": "botanypots:blocks/breweryhops_seeds"
+      "table_id": "botanypots:blocks/breweryhops"
     }
   ]
 }

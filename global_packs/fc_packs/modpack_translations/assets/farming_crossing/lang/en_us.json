@@ -293,6 +293,9 @@
   "ticketBundling.bookletShift": "Sneak-click to unbundle",
   "ticketBundling.bookletWorth": "Each worth %s Miles Tickets",
   "ticketBundling.shiftToBundle": "Sneak-click to bundle",
+  "tideSupport.resetWeight.areYouSure": "Are you sure you want to reset the weight of this fish, making it stack-able? (right click again to confirm)",
+  "tideSupport.resetWeight.tooltip1": "Shift right-click in the air to",
+  "tideSupport.resetWeight.tooltip2": "reset weight (making it stack-able)",
   "tooltip.canGetFromQuests": "Can be obtained from quests",
   "tooltip.kubejs.meaty_mushroom1": "Can be used as a meat replacement",
   "tooltip.kubejs.meaty_mushroom2": "Place in stonecutter to craft imitation meats",
@@ -302,8 +305,5 @@
   "translation.are": "are %s",
   "translation.is": "is %s",
   "translation.pluralizeNoun": "%ss",
-  "translation.spaceBetween": "%s %s",
-  "tideSupport.resetWeight.areYouSure": "Are you sure you want to reset the weight of this fish, making it stack-able? (right click again to confirm)",
-  "tideSupport.resetWeight.tooltip1": "Shift right-click in the air to",
-  "tideSupport.resetWeight.tooltip2": "reset weight (making it stack-able)"
+  "translation.spaceBetween": "%s %s"
 }

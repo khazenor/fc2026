@@ -74,7 +74,7 @@ seedDefs = [
 		keys.crop: "beachparty:coconut",
 		keys.block: "beachparty:palm_sprout"
   }, {
-    keys.seed: "brewery:hops_seeds",
+    keys.seed: "brewery:hops",
     keys.crop: "brewery:hops",
 		keys.block: "brewery:hops_crop"
   }, {
