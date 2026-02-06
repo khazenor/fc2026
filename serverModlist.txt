@@ -84,7 +84,7 @@ kubejs-neoforge-2101.7.2-build.348.jar
 leaky-1.21-2.1.jar
 letmedespawn-1.21.x-neoforge-1.5.0.jar
 letsdo-bakery-neoforge-2.1.3.jar
-letsdo-beachparty-neoforge-2.1.2.jar
+letsdo-beachparty-neoforge-2.1.3.jar
 letsdo-brewery-neoforge-2.1.5.jar
 letsdo-candlelight-neoforge-2.1.7.jar
 letsdo-farm_and_charm-neoforge-1.1.15.jar
