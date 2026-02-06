@@ -18,7 +18,8 @@ RequestHandler.recipes.remove.byRecipeId([
 
 RequestHandler.tooltips.add([
   ['farm_and_charm:water_sprinkler', [Text.translate('letsDo.tooltip.sprinkler')]],
-  ['farm_and_charm:cattlegrid', [Text.translate('letsDo.tooltip.cattleGrid')]]
+  ['farm_and_charm:cattlegrid', [Text.translate('letsDo.tooltip.cattleGrid')]],
+  ['farm_and_charm:chicken_coop', [Text.translate('letsDo.tooltip.chickenCoop')]]
 ])
 
 // support fish tank
