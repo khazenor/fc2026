@@ -147,6 +147,7 @@ Patchouli-1.21.1-92-NEOFORGE.jar
 pipeorgans-0.8.2+1.21.1.jar
 Placebo-1.21.1-9.9.1.jar
 polymorph-neoforge-1.1.0+1.21.1.jar
+prefab-neoforge-1.0.4.jar
 prickle-neoforge-1.21.1-21.1.11.jar
 ProbeJS-7.7.2.jar
 PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar
