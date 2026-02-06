@@ -3,7 +3,7 @@ const SellingFood = {
   clearMenuItemId: 'kubejs:debug_clear_menu',
   menuId: 'kubejs:menu',
   get itemIds () {
-    return [this.debugDeleteItemId, this.debugTrigger, this.menuId]
+    return [this.debugDeleteItemId, this.clearMenuItemId, this.menuId]
   },
   orderFood (event, customerName) {
     let playerCollectedFoodIds = PlayerFoodCollectedLogger.foodCollected(event)
