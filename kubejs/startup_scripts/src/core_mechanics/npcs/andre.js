@@ -14,6 +14,7 @@ const NpcAndre = {
         villagerItems: [
           'minecraft:lead',
           'mobcapturingtool:mob_capturing_tool',
+          'farm_and_charm:chicken_coop',
           'farmingforblockheads:chicken_nest',
           'farmingforblockheads:feeding_trough',
           'farm_and_charm:water_sprinkler',

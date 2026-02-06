@@ -9,7 +9,6 @@ RequestHandler.recipes.add.shaped([
 ])
 
 RequestHandler.recipes.remove.byItemId([
-  'farm_and_charm:chicken_coop', // disable until it doesn't crash the game
   'vinery:grapevine_stem'
 ])
 
