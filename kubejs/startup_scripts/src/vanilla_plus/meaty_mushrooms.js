@@ -50,6 +50,29 @@ const MeatyMushrooms = {
     }
     return tagDefs
   },
+  rawMeats: [
+    'minecraft:beef',
+    'minecraft:porkchop',
+    'minecraft:mutton',
+    'minecraft:chicken',
+    'minecraft:rabbit',
+    'beachparty:raw_mussel_meat',
+    'meadow:raw_buffalo_meat',
+    'wildernature:bison_meat',
+    'wildernature:venison',
+    'wildernature:cassowary_meat',
+  ],
+  cookedMeats: [
+    'minecraft:cooked_porkchop',
+    'minecraft:cooked_mutton',
+    'minecraft:cooked_chicken',
+    'minecraft:cooked_rabbit',
+    'meadow:cooked_buffalo_meat',
+    'wildernature:cooked_bison_meat',
+    'wildernature:cooked_venison',
+    'wildernature:cooked_cassowary_meat',
+    'wildernature:cooked_pelican_meat',
+  ],
   get shapelessDefs () {
     let defs = []
 
@@ -91,12 +114,7 @@ RequestHandler.recipes.add.allFoodCooking([
 
 RequestHandler.recipes.add.shapeless(MeatyMushrooms.shapelessDefs)
 
-RequestHandler.recipes.add.stonecuttingWithOutputTags([
-  ['#c:foods/raw_meat', MeatyMushrooms.pattyId],
-  ['#c:foods/cooked_meat', MeatyMushrooms.cookedPattyId]
-])
-
 RequestHandler.recipes.add.stonecuttingWithArrayOutput([
-  [['minecraft:cod', 'minecraft:salmon'], MeatyMushrooms.pattyId],
-  [['minecraft:cooked_cod', 'minecraft:cooked_salmon'], MeatyMushrooms.cookedPattyId]
+  [MeatyMushrooms.rawMeats, MeatyMushrooms.pattyId],
+  [MeatyMushrooms.cookedMeats, MeatyMushrooms.cookedPattyId]
 ])
