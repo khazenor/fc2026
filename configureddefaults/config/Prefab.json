@@ -1,6 +1,6 @@
 {
   "startingItem": "StartingHouse",
-  "newPlayersGetStartingItem": true,
+  "newPlayersGetStartingItem": false,
   "includeSpawnersInMasher": true,
   "enableStructurePreview": true,
   "allowBulldozerToCreateDrops": true,
