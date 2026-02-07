@@ -13,6 +13,7 @@ bblcore-1.21-1.3.20.jar
 betterarcheology-neoforge-1.21.1-1.3.4.jar
 betterbeds-1.4.0.jar
 betterchunkloading-1.21-5.4.jar
+BetterThanMending-2.2.0.jar
 BetterTridents-v21.1.0-1.21.1-NeoForge.jar
 bookshelf-neoforge-1.21.1-21.1.80.jar
 botanypots-neoforge-1.21.1-21.1.41.jar
