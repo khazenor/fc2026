@@ -234,6 +234,12 @@ ServerEvents.recipes(event => {
     Item.of('candlelight:rose', 8),
     ['candlelight:rose', 'minecraft:bone_meal'])
   event.shapeless(
+    Item.of('herbalbrews:lavender', 8),
+    ['herbalbrews:lavender', 'minecraft:bone_meal'])
+  event.shapeless(
+    Item.of('herbalbrews:hibiscus', 8),
+    ['herbalbrews:hibiscus', 'minecraft:bone_meal'])
+  event.shapeless(
     Item.of('biomeswevegone:pink_allium', 8),
     ['biomeswevegone:pink_allium', 'minecraft:bone_meal'])
   event.shapeless(
