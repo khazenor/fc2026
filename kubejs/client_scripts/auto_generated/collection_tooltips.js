@@ -347,7 +347,9 @@ ItemEvents.modifyTooltips(event => {
       'meadow:fire_lily', 
       'meadow:eriophorum', 
       'meadow:eriophorum_tall', 
-      'candlelight:rose'
+      'candlelight:rose', 
+      'herbalbrews:lavender', 
+      'herbalbrews:hibiscus'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 

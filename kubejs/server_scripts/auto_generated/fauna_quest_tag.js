@@ -171,6 +171,8 @@ ServerEvents.tags('item', event => {
       'meadow:eriophorum', 
       'meadow:eriophorum_tall', 
       'candlelight:rose', 
+      'herbalbrews:lavender', 
+      'herbalbrews:hibiscus', 
       'biomeswevegone:pink_allium', 
       'biomeswevegone:white_allium', 
       'biomeswevegone:tall_allium', 
