@@ -276,14 +276,6 @@
 					type: "item"
 				}
 				{
-					id: "5018A62737DBCB26"
-					item: {
-						count: 1
-						id: "bakery:kitchen_sink"
-					}
-					type: "item"
-				}
-				{
 					id: "3DDF582EA4D6E442"
 					item: {
 						count: 1
@@ -313,6 +305,14 @@
 					item: {
 						count: 1
 						id: "botanypots:terracotta_hopper_botany_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "3AC2352EB24313C0"
+					item: {
+						count: 1
+						id: "cookingforblockheads:sink"
 					}
 					type: "item"
 				}
@@ -2796,17 +2796,27 @@
 				id: "toolbelt:belt"
 			}
 			id: "7B74B56291565C0D"
-			rewards: [{
-				id: "5A746619F3363657"
-				item: {
-					components: {
-						"toolbelt:belt_size": 9
+			rewards: [
+				{
+					id: "5A746619F3363657"
+					item: {
+						components: {
+							"toolbelt:belt_size": 9
+						}
+						count: 1
+						id: "toolbelt:belt"
 					}
-					count: 1
-					id: "toolbelt:belt"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "30B5ACE52F4C600D"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:tool_swapper_upgrade"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				count: 64L
