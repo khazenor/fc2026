@@ -1,0 +1,19 @@
+{
+    "net.blay09.mods.cookingforblockheads.client.gui.screen.OvenScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.blay09.mods.cookingforblockheads.client.gui.screen.RecipeBookScreen": {
+        "ignore": true
+    },
+    "net.blay09.mods.cookingforblockheads.menu.RecipeBookMenu": {
+        "ignore": true
+    }
+}

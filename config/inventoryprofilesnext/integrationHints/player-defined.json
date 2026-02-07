@@ -201,5 +201,211 @@
                 "horizontalOffset": 60
             }
         }
+    },
+    "net.mcreator.moacookery.client.gui.CofreGrandeScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -19,
+                "bottom": -13
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -16
+            },
+            "SORT": {
+                "top": -16
+            },
+            "SORT_COLUMNS": {
+                "top": -16
+            },
+            "SORT_ROWS": {
+                "top": -16
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60,
+                "top": 3
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.BrewingStandScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.EnchantmentScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "fuzs.easyanvils.client.gui.screens.inventory.ModAnvilScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": -12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": -24
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 70
+            },
+            "SETTINGS": {
+                "horizontalOffset": 70
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.BlastFurnaceScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.SmokerScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.FurnaceScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.LoomScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CartographyTableScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.SmithingScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": -12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": -24
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.GrindstoneScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": -12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": -24
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.blay09.mods.cookingforblockheads.client.gui.screen.CounterScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.blay09.mods.cookingforblockheads.client.gui.screen.KitchenScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -20,
+                "bottom": -10
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -26
+            },
+            "SORT": {
+                "top": -26
+            },
+            "SORT_COLUMNS": {
+                "top": -26
+            },
+            "SORT_ROWS": {
+                "top": -26
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
+    },
+    "net.blay09.mods.cookingforblockheads.client.gui.screen.FridgeScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 60
+            },
+            "SETTINGS": {
+                "horizontalOffset": 60
+            }
+        }
     }
 }
