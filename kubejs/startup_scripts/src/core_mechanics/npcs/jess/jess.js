@@ -94,6 +94,12 @@ const NpcJess = {
       playerGive: MilesTickets.bookletId,
       playerNum: 32,
     }]
+  },
+  get tradeItemIds () {
+    return JessItems.backpackUpgradesMisc.concat(
+      JessItems.drawerUpgrades,
+      JessItems.storageUpgrades
+    )
   }
 }
 
