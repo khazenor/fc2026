@@ -81,5 +81,14 @@ const ArrayJs = {
     } else {
       arr.push(thing)
     }
+  },
+  removeDuplicates(arr) {
+    let noDupeArr = []
+    for (let elm of arr) {
+      if (!noDupeArr.includes(elm)) {
+        noDupeArr.push(elm)
+      }
+    }
+    return noDupeArr
   }
 }

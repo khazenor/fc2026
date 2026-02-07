@@ -32,16 +32,21 @@ const npcCommonBehavior = (event, npcObj, callbacksWithTruthTermination) => {
 
 RequestHandler.callbacks.beforeClientLoaded(() => {
   NpcHelper.npcObjs.forEach(npcObj => {
+    let npcItems = []
+
     if (npcObj.tradeItemIds) {
-      RequestHandler.tooltips.add([
-        [npcObj.tradeItemIds, [Text.translate('npcs.tooltip.youCanBuy', npcObj.name)]]
-      ])
-    } else if (npcObj.offerDefs) {
+      npcItems = ArrayJs.removeDuplicates(npcItems.concat(npcObj.tradeItemIds))
+    }
+    if (npcObj.offerDefs) {
       for (let offerDef of npcObj.offerDefs) {
-        RequestHandler.tooltips.add([[
-          offerDef.villagerItems, [Text.translate('npcs.tooltip.youCanBuy', npcObj.name)]
-        ]])
+        npcItems = ArrayJs.removeDuplicates(npcItems.concat(offerDef.villagerItems))
       }
+    }
+    
+    if (npcItems.length > 0) {
+      RequestHandler.tooltips.add([
+        [npcItems, [Text.translate('npcs.tooltip.youCanBuy', npcObj.name)]]
+      ])
     }
   })
 })
