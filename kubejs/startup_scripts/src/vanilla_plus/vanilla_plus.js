@@ -92,5 +92,13 @@ RequestHandler.recipes.add.shaped([
       I: 'minecraft:iron_ingot',
       T: 'minecraft:torch'
     }
-  ]
+  ],
+  [
+    '12x minecraft:bowl',
+    [
+      'A A',
+      ' A '
+    ],
+    { A: '#minecraft:logs' }
+  ],
 ])
