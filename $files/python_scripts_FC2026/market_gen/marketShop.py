@@ -26,6 +26,11 @@ categories = {
       {
         priceKey: 6,
         itemsKey: ["minecraft:glowstone_dust"]
+      }, {
+        itemsKey: ['create:experience_nugget'],
+        productNumKey: 32
+      }, {
+        itemsKey: ['minecraft:book']
       },
       {
         priceKey: 8,

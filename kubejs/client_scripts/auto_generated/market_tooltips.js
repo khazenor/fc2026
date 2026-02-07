@@ -37,20 +37,8 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
-      'minecraft:bundle', 
-      'simplemagnets:basicmagnet', 
-      'minecraft:chorus_fruit', 
-      'minecraft:spider_eye', 
-      'minecraft:gunpowder', 
-      'minecraft:prismarine_shard', 
-      'minecraft:prismarine_crystals', 
-      'minecraft:glow_ink_sac'
-    ],
-    [
-      Text.translate('marketTooltips.obtainableFor8TicketsInRiggsMarket')
-    ])
-  event.add(
-    [
+      'create:experience_nugget', 
+      'minecraft:book', 
       'minecraft:emerald', 
       'handcrafted:black_sheet', 
       'handcrafted:blue_sheet', 
@@ -90,6 +78,20 @@ ItemEvents.modifyTooltips(event => {
     ],
     [
       Text.translate('marketTooltips.obtainableFor1TicketInRiggsMarket')
+    ])
+  event.add(
+    [
+      'minecraft:bundle', 
+      'simplemagnets:basicmagnet', 
+      'minecraft:chorus_fruit', 
+      'minecraft:spider_eye', 
+      'minecraft:gunpowder', 
+      'minecraft:prismarine_shard', 
+      'minecraft:prismarine_crystals', 
+      'minecraft:glow_ink_sac'
+    ],
+    [
+      Text.translate('marketTooltips.obtainableFor8TicketsInRiggsMarket')
     ])
   event.add(
     [
