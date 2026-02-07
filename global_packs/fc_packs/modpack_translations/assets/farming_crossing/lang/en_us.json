@@ -306,5 +306,6 @@
   "translation.are": "are %s",
   "translation.is": "is %s",
   "translation.pluralizeNoun": "%ss",
-  "translation.spaceBetween": "%s %s"
+  "translation.spaceBetween": "%s %s",
+  "item.candlelight.omelet": "Crepes"
 }
