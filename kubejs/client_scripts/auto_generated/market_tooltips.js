@@ -118,6 +118,7 @@ ItemEvents.modifyTooltips(event => {
       'minecraft:ochre_froglight', 
       'minecraft:pearlescent_froglight', 
       'minecraft:verdant_froglight', 
+      'minecraft:snow_block', 
       'minecraft:vine', 
       'minecraft:weeping_vines', 
       'minecraft:twisting_vines'
