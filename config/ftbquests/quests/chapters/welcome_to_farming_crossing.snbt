@@ -10,13 +10,14 @@
 	images: [
 		{
 			click: "https://ko-fi.com/khazenorsmodpacks"
-			dependency: "7041BB13DE704850"
+			dependency: "405396378EE4B767"
 			height: 1.0d
 			hover: [
 				"If you enjoyed the modpack,"
-				"I would appreciated very much if"
-				"you can send some donations to "
-				"my ko-fi                       -Khazenor"
+				"I would appreciate very much if"
+				"you could support me by making"
+				"donations to my ko-fi."
+				"Any amount helps!  -Khazenor"
 			]
 			image: "ftbquests:textures/gui/chain_link.png"
 			rotation: 0.0d
