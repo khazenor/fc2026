@@ -569,6 +569,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				count: 3L
 				id: "780986EA1463FB6D"
 				item: { count: 1, id: "kubejs:miles_booklet" }
