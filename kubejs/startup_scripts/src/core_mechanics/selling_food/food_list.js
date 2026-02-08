@@ -18,7 +18,8 @@ const SellingFoodList = {
     'meadow:goat_cheese_block': 'meadow:piece_of_goat_cheese',
     'meadow:grain_cheese_block': 'meadow:piece_of_grain_cheese',
     'meadow:sheep_cheese_block': 'meadow:piece_of_sheep_cheese',
-    'meadow:warped_cheese_block': 'meadow:piece_of_warped_cheese'
+    'meadow:warped_cheese_block': 'meadow:piece_of_warped_cheese',
+    "bakery:glowberry_tart": 'bakery:glowberry_pie_slice'
   },
   foods: [
     "bakery:apple_jam",
