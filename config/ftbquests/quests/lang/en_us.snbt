@@ -194,6 +194,16 @@
 	quest.22C8BB99ECF5AB13.title: "Move in Pingu"
 	quest.237FE170DCEF0E64.title: "Collected 10 Unique Flora!"
 	quest.23AAF4EDBDAF772A.title: "Invite Elna"
+	quest.240325440EAB99C5.quest_desc: [
+		"** Jess the Beaver **"
+		""
+		"Oh my! You actually did it!  You have moved in all of the villagers I have reached out to for the Adventurer’s Settlement Package! I have to say, it was great working with you as a business partner.  Here, have this certificate! I’m sure if other villagers see it they would be happy to give you a discount on their wares!"
+		""
+		"- Note from the modpack author -"
+		""
+		"Congratulations on moving all of the villagers!  Hope you enjoyed the journey as much as I did designing this pack.  Did you finish all of the collection quests already?  If not, maybe it would be nice to give that completion a shot after you have given yourself a well deserved rest!  Thank you so much for playing Farming Crossing 6! <3 <3 <3"
+	]
+	quest.240325440EAB99C5.title: "Full Settlement!"
 	quest.244EB51B41EAB417.quest_desc: ["'Ello, 'ello! Nice to make your acquaintance. My name is Bernina the Shrew. Jess told me you might be interested in buying some hats, and well, I happen to be selling 'em.  I would love to start another hat shop near the settlement."]
 	quest.244EB51B41EAB417.title: "Move in Bernina"
 	quest.248FB174B7E99D8C.title: "Underground Completion"

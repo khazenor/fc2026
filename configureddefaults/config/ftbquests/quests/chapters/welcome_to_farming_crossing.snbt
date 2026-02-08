@@ -1735,7 +1735,7 @@
 				"3AC5083E3D1BEDB0"
 				"71DD63453348DBE8"
 			]
-			hide_until_deps_complete: true
+			hide_until_deps_visible: false
 			icon: {
 				id: "kubejs:ren"
 			}
@@ -2959,6 +2959,32 @@
 			}]
 			x: 3.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"66DC33622164FCCC"
+				"22C8BB99ECF5AB13"
+				"558A1A31A21872DB"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:full_settlement_certificate"
+			}
+			id: "240325440EAB99C5"
+			rewards: [{
+				id: "5EF9528625FFDCA2"
+				item: {
+					count: 1
+					id: "kubejs:full_settlement_certificate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14844F959B561DFC"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
 		}
 	]
 }
