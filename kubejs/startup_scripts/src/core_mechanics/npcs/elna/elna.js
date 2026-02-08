@@ -8,6 +8,10 @@ const NpcElna = {
   outfitMaxPrice: 16,
   get offerDefs () {
     let offerDefs = []
+    offerDefs.push({
+      villagerItems: ['minecraft:armor_stand']
+    })
+
     let outfits = this._outfitsForSell
     for (let outfitIdx = 0; outfitIdx < outfits.length; outfitIdx++) {
       let outfit = outfits[outfitIdx]

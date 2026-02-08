@@ -6,6 +6,7 @@ Almanac-1.21.1-2-neoforge-1.5.0.jar
 ApothicAttributes-1.21.1-2.9.0.jar
 appleskin-neoforge-mc1.21-3.0.7.jar
 architectury-13.0.8-neoforge.jar
+armorstandshiftswap-neoforge-1.21-1.0.1.jar
 artifacts-neoforge-13.1.0.jar
 atlas_api-1.21.1-1.2.0.jar
 balm-neoforge-1.21.1-21.0.55.jar
