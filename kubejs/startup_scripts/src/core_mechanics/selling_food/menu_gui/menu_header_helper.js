@@ -3,7 +3,7 @@ const MenuHeaderHelper = {
     let numFoodCollected = PlayerFoodCollectedLogger.foodCollected(event).length
     let foodCost = FoodTicketCost.foodCost(numFoodCollected)
     if (numFoodCollected === SellingFoodList.foods.length) {
-      foodCost += 2
+      foodCost
     }
     ChestGuiHelper.writeArrToMatrix(matrix, 0, 0, 0, 1, this.mealCollectedMatrixSlots(numFoodCollected))
     ChestGuiHelper.writeArrToMatrix(matrix, 0, 5, 0, 1, this.mealCostMatrixSlots(foodCost))

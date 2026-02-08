@@ -5,12 +5,14 @@ const FoodTicketCost = {
     if (numFoodCollected < this.tiers[0]) {
       return this.costs[0]
     }
+    let completionBonus = numFoodCollected === SellingFoodList.foods.length
+      ? 2 : 0
     for (let i = 1; i < this.tiers.length; i++) {
       let tier = this.tiers[i]
       if (tier > numFoodCollected) {
-        return this.costs[i-1]
+        return this.costs[i-1] + completionBonus
       } else if (tier === numFoodCollected) {
-        return this.costs[i]
+        return this.costs[i] + completionBonus
       }
     }
   }
