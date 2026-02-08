@@ -135,6 +135,7 @@
   "npcs.sellItem.thankYou": "<%s> Thank you! Here %s!",
   "npcs.sellTooltip": "You can sell this to %s for %s",
   "npcs.tooltip.youCanBuy": "Can be bought from %s",
+  "npcs.fullSettlement.dialog": "<%s> Thank you so much for helping all of us move into the settlement! I would be happy to give you a discount!",
   "planksCutting.youCanCutThis": "Can be stone-cut into other items",
   "questFunctions.1": "/1)",
   "questFunctions.10": "/10)",
@@ -308,5 +309,7 @@
   "translation.is": "is %s",
   "translation.pluralizeNoun": "%ss",
   "translation.spaceBetween": "%s %s",
-  "tooltip.shiftArmorStand": "Shift right-click to swap all armor pieces at once"
+  "tooltip.shiftArmorStand": "Shift right-click to swap all armor pieces at once",
+  "tooltip.fullSettlementCertificate1": "Right click a Farming Crossing villager with",
+  "tooltip.fullSettlementCertificate2": "this in your main or off hand to get a discount"
 }

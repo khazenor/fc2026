@@ -20,16 +20,26 @@ const NpcHelper = {
     let player = event.player
     let target = event.target
     let npcName = target.name.getString()
+    let hasFullSettlementCert = (
+      EventHelpers.mainHandItemId(event) === QuestSupport.fullSettlementCertificateId ||
+      EventHelpers.offHandItemId(event) === QuestSupport.fullSettlementCertificateId
+    )
     if (this.customerTypes.includes(target.type) &&
       !PlayerTimingJs.checkAreYouSureLike(player, 'talkToNPC', 30)
     ) {
       let playerName = player.name.getString()
+      console.log('npcDialogDefs(npcName, playerName)[npcName]', npcDialogDefs(npcName, playerName))
       let catalogOfferDef = decorationCatalog.catalogOfferDef(event, npcObj)
 
       if (catalogOfferDef) {
         EventHelpers.tellPlayer(event, 
           Text.translate('npcs.catalog.catalogDialog', playerName)
         )
+      } else if (hasFullSettlementCert && offerDefs) {
+        player.tell(Text.translate(
+          'npcs.fullSettlement.dialog',
+          npcName
+        ))
       } else if (npcDialogDefs(npcName, playerName)[npcName]) {
         let dialog = ArrayJs.getRandomArrayElement(
           npcDialogDefs(npcName, playerName)[npcName]
@@ -43,6 +53,14 @@ const NpcHelper = {
       }
 
       if (offerDefs) {
+        if (hasFullSettlementCert) {
+          for (let offerDef of offerDefs) {
+            if (offerDef.playerNum && offerDef.playerNum > 1) {
+              offerDef.playerNum = Math.round(offerDef.playerNum / 2)
+            }
+          }
+        }
+
         let playerName = EventHelpers.playerName(event)
         event.server.runCommandSilent(EasyNpcHelper.updateNpcCommand(playerName, name, offerDefs, target.type))
       }

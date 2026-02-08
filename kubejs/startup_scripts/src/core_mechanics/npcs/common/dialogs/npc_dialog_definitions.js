@@ -1,5 +1,5 @@
 const npcDialogDefs = (npcName, playerName) => {
-  let dialogsByName = IoHelper.readObj('kubejs/startup_scripts/src/core_mechanics/npcs/dialogs/dialog_keys.json')
+  let dialogsByName = IoHelper.readObj('kubejs/startup_scripts/src/core_mechanics/npcs/common/dialogs/dialog_keys.json')
   let dialogDefs = {}
   for (let dialogNpcName in dialogsByName) {
     let transKeys = dialogsByName[dialogNpcName]
