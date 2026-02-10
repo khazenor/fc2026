@@ -1005,7 +1005,8 @@
 				{
 					id: "15F240187BA04A2E"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "0EC656782C4DF1D5"
@@ -1050,7 +1051,8 @@
 				{
 					id: "6C15349FED759A6F"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "5CE29F2F4140C253"
@@ -1419,7 +1421,8 @@
 				{
 					id: "4D69B65B665C2534"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "7E98F5C0775DF320"
@@ -1504,7 +1507,8 @@
 				{
 					id: "4AE56D21A2903EF7"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "0BEC92A973AF9990"
@@ -1560,7 +1564,8 @@
 				{
 					id: "40EE2B4CE1167B6E"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "440387FB8BCC44A7"
@@ -1624,7 +1629,8 @@
 				{
 					id: "57ACECA3E6DE3506"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "47445500DAF7FF90"
@@ -1744,7 +1750,8 @@
 				{
 					id: "3BBCD0B867F7E693"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "6C6EB9686DD38221"
@@ -1789,7 +1796,8 @@
 				{
 					id: "4F71C88FA42CEF59"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "6F81FD306E7DC496"
@@ -1837,7 +1845,8 @@
 				{
 					id: "2CEE84C399AF31A5"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "7C503BDF9F10C3F1"
@@ -1893,7 +1902,8 @@
 				{
 					id: "0293511AC9719527"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "1078A86944A8A47D"
@@ -1941,7 +1951,8 @@
 				{
 					id: "726269EF0BA098F1"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "6B1AC572D3068F78"
@@ -1989,7 +2000,8 @@
 				{
 					id: "20501ECA1E44AE80"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "11801CFA90203575"
@@ -2045,7 +2057,8 @@
 				{
 					id: "15480E434453AD87"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "3709C0D6B330A8D3"
@@ -2101,7 +2114,8 @@
 				{
 					id: "66DD6585A925ECA7"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "466984355E94E701"
@@ -2191,7 +2205,8 @@
 				{
 					id: "24E767130EBFC895"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					count: 8
@@ -2649,7 +2664,8 @@
 				{
 					id: "6FDE54107E1F6EAA"
 					table_id: 7309123930357327620L
-					type: "random"
+					exclude_from_claim_all: true
+					type: "choice"
 				}
 				{
 					id: "323844C04AFC3050"
