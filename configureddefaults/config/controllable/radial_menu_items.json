@@ -8,7 +8,7 @@
     "color": "WHITE"
   },
   {
-    "key": "keybind.sophisticatedbackpacks.open_backpack.custom",
+    "key": "key.sophisticatedbackpacks.open_backpack.custom",
     "color": "DARK_AQUA"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "key": "gui.xaero_open_map.custom",
-    "color": "DARK_BLUE"
+    "color": "DARK_GREEN"
   },
   {
     "key": "key.wands.wand_menu.custom",
