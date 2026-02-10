@@ -200,7 +200,8 @@ ServerEvents.tags('item', event => {
       'biomeswevegone:green_mushroom', 
       'biomeswevegone:shelf_fungi', 
       'biomeswevegone:weeping_milkcap', 
-      'biomeswevegone:wood_blewit'
+      'biomeswevegone:wood_blewit', 
+      'beachparty:seashell'
     ])
 
 })

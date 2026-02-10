@@ -792,6 +792,7 @@ questlines = [
           "biomeswevegone:shelf_fungi",
           "biomeswevegone:weeping_milkcap",
           "biomeswevegone:wood_blewit",
+          "beachparty:seashell",
         ]
       }
     ]

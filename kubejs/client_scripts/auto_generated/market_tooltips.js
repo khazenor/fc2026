@@ -530,6 +530,7 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:shelf_fungi', 
       'biomeswevegone:weeping_milkcap', 
       'biomeswevegone:wood_blewit', 
+      'beachparty:seashell', 
       'minecraft:cobblestone', 
       'minecraft:mossy_cobblestone', 
       'minecraft:cobbled_deepslate', 
