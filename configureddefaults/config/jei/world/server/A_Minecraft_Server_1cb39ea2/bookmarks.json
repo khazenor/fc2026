@@ -1,0 +1,12 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"sophisticatedbackpacks:smelting_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:auto_smelting_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:tool_swapper_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:advanced_tool_swapper_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:rotation_speed_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:deployer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:polished_rose_quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tide:angling_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:grindstone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
