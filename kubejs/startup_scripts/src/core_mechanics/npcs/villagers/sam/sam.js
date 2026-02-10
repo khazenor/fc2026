@@ -68,9 +68,10 @@ const NpcSam = {
       villagerNum: 4
     }, {
       villagerItems: ['tide:bait', 'tide:lucky_bait'],
+      villagerNum: 4
     }, {
       villagerItems: ['tide:magnetic_bait'],
-      playerNum: 3
+      villagerNum: 2
     }, {
       villagerItems: ['tide:fishing_hook'],
       playerNum: 1,
@@ -88,7 +89,7 @@ const NpcSam = {
       playerNum: 8
     }, {
       villagerItems: this.offer.infoItems,
-      playerNum: 12
+      playerNum: 6
     },]
   },
   get tradeItemIds () {
@@ -152,6 +153,8 @@ const NpcSam = {
       'tide:reinforced_line',
     ],
     infoItems: [
+      'naturescompass:naturescompass',
+      'explorerscompass:explorerscompass',
       'tide:pocket_watch',
       'tide:lunar_calendar',
       'tide:climate_gauge',

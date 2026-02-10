@@ -2885,6 +2885,7 @@
 			}
 			id: "5D97E780E413EDAC"
 			rewards: [{
+				count: 2
 				id: "3F00C6E28E89EB72"
 				item: {
 					count: 1
