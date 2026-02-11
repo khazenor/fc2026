@@ -18,4 +18,7 @@ RequestHandler.tooltips.add([
 
   // better tridents
   ['minecraft:trident', [Text.translate('tutorialsHints.betterTridents')]]
+
+  // cycle paintings
+  ['minecraft:painting', [Text.translate('tutorialsHints.cyclePaintings')]]
 ])

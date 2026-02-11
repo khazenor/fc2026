@@ -313,5 +313,6 @@
   "translation.spaceBetween": "%s %s",
   "tutorialsHints.advancedNetherite1": "Upgrades a tool beyond netherite tier.",
   "tutorialsHints.advancedNetherite2": "Tools and Armors gain special attributes.",
-  "tutorialsHints.betterTridents": "Can be repaired with a prismarine shard in an anvil"
+  "tutorialsHints.betterTridents": "Can be repaired with a prismarine shard in an anvil",
+  "tutorialsHints.cyclePaintings": "Once placed: right click and shift right click to cycle"
 }
