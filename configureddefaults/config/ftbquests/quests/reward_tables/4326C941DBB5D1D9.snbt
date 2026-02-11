@@ -1,0 +1,13 @@
+{
+	icon: {
+		id: "simplytools:iron_hammer"
+	}
+	id: "4326C941DBB5D1D9"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "65E7D03E136ED1AE", item: { count: 1, id: "simplytools:iron_hammer" } }
+		{ id: "46A85B2CC21CB628", item: { count: 1, id: "simplytools:iron_excavator" } }
+		{ id: "34A8FF42A2B6EA50", item: { count: 1, id: "double_axes:iron_double_axe" } }
+	]
+}
