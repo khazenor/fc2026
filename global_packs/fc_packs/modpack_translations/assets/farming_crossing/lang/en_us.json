@@ -316,5 +316,7 @@
   "tutorialsHints.betterTridents": "Can be repaired with a prismarine shard in an anvil",
   "tutorialsHints.cyclePaintings": "Once placed: right click and shift right click to cycle",
   "tutorialsHints.easyAnvils": "Can be repaired with an iron block",
-  "tutorialsHints.easyAnvils.nameTags": "Right click to change name without an anvil"
+  "tutorialsHints.easyAnvils.nameTags": "Right click to change name without an anvil",
+  "tutorialsHints.grindEnchantments1": "Put book in second slot to move enchantments",
+  "tutorialsHints.grindEnchantments2": "Works with enchantment books and tools"
 }

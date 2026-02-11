@@ -25,4 +25,13 @@ RequestHandler.tooltips.add([
   // easy anvils
   ['minecraft:anvil', [Text.translate('tutorialsHints.easyAnvils')]],
   ['minecraft:name_tag', [Text.translate('tutorialsHints.easyAnvils.nameTags')]],
+
+  // grind enchantments
+  [
+    ['minecraft:grindstone', 'crafting_on_a_stick:grindstone'],
+    [
+      Text.translate('tutorialsHints.grindEnchantments1'),
+      Text.translate('tutorialsHints.grindEnchantments2')
+    ]
+  ],
 ])
