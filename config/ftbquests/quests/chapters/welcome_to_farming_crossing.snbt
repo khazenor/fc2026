@@ -3003,5 +3003,33 @@
 			x: 7.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["14E4D983C6F318CD"]
+			id: "35A5677E642F16B2"
+			rewards: [{
+				id: "1EEC295172FEA863"
+				item: {
+					components: {
+						"minecraft:custom_name": "{\"translate\":\"enchantment.minecraft.mending\"}"
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:mending": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42A3756F7111F657"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:mending": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
 	]
 }
