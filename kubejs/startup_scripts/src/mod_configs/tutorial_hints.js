@@ -14,5 +14,8 @@ RequestHandler.tooltips.add([
   // armor stand swap
   ['minecraft:armor_stand', [
     Text.translate('tooltip.shiftArmorStand')
-  ]]
+  ]],
+
+  // better tridents
+  ['minecraft:trident', [Text.translate('tutorialsHints.betterTridents')]]
 ])

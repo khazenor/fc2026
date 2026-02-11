@@ -330,6 +330,15 @@
 	]
 	quest.32D9390F9B877315.title: "Earning a Profit!"
 	quest.33986A0D0262F9CE.title: "Invite Harley"
+	quest.35A5677E642F16B2.quest_desc: [
+		"** Rigg the Racoon **"
+		""
+		"Afraid of seeing your precious tools break?  Well look no farther as Rigg here sells the best quality mending enchantment books!  These enchantments are so good that you don’t even need to wait until you get experience to heal your tools!  Here, I’ll even throw in a buy-one-get-one for yea first one!"
+		""
+		"## Modpack Tutorial ##"
+		""
+		"- Shift right click the air with a mending tool to heal your tools!"
+	]
 	quest.35A5677E642F16B2.title: "Better than Mending"
 	quest.363CC5FDB568A27D.title: "Vanilla Sapling Completion"
 	quest.365E2E575EFA3F99.title: "64k Storage Disk"
