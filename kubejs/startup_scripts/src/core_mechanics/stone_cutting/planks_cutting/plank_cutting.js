@@ -3,7 +3,7 @@ const PlankCutting = {
   allConvertibleFilename: 'plank_cutting_ids',
   cuttableNames: [
     'fence', 'trapdoor', 'roof', 'stair', 'pressure plate', 'sign', 'window', 'blind',
-    'door'
+    'door', 'bridge'
   ],
   registerStonecuttingRecipes () {
     let plankInfo = CacheHelper.loadCache(this.plankInfoCacheFilename)
