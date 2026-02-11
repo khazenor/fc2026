@@ -3005,6 +3005,7 @@
 		}
 		{
 			dependencies: ["14E4D983C6F318CD"]
+			hide_until_deps_complete: true
 			id: "35A5677E642F16B2"
 			rewards: [{
 				id: "1EEC295172FEA863"
@@ -3029,6 +3030,27 @@
 				type: "item"
 			}]
 			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["32A06EEE318AC659"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "simplytools:iron_hammer"
+			}
+			id: "3C98A24832C5B4F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2925775BF0585544"
+				table_id: 4838776134352359897L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1997F60B7D6606DB"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:bulk_mining_tools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
 			y: -5.0d
 		}
 	]
