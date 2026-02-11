@@ -310,5 +310,7 @@
   "translation.are": "are %s",
   "translation.is": "is %s",
   "translation.pluralizeNoun": "%ss",
-  "translation.spaceBetween": "%s %s"
+  "translation.spaceBetween": "%s %s",
+  "tutorialsHints.advancedNetherite1": "Upgrades a tool beyond netherite tier.",
+  "tutorialsHints.advancedNetherite2": "Tools and Armors gain special attributes."
 }
