@@ -17,8 +17,12 @@ RequestHandler.tooltips.add([
   ]],
 
   // better tridents
-  ['minecraft:trident', [Text.translate('tutorialsHints.betterTridents')]]
+  ['minecraft:trident', [Text.translate('tutorialsHints.betterTridents')]],
 
   // cycle paintings
-  ['minecraft:painting', [Text.translate('tutorialsHints.cyclePaintings')]]
+  ['minecraft:painting', [Text.translate('tutorialsHints.cyclePaintings')]],
+
+  // easy anvils
+  ['minecraft:anvil', [Text.translate('tutorialsHints.easyAnvils')]],
+  ['minecraft:name_tag', [Text.translate('tutorialsHints.easyAnvils.nameTags')]],
 ])
