@@ -150,7 +150,7 @@ smoothchunk-1.21-4.1.jar
 sophisticatedbackpacks-1.21.1-3.25.25.1514.jar
 sophisticatedbackpackscreateintegration-1.21.1-0.1.5.29.jar
 sophisticatedcore-1.21.1-1.4.2.1467.jar
-sophisticatedstorage-1.21.1-1.5.26.1480.jar
+sophisticatedstorage-1.21.1-1.5.27.1487.jar
 StorageDrawers-neoforge-1.21.1-13.11.4.jar
 structureessentials-1.21.1-4.8.jar
 supermartijn642configlib-1.1.8-neoforge-mc1.21.jar
