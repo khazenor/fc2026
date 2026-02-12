@@ -37,13 +37,13 @@ RequestHandler.callbacks.blockEventsBrokenSingle(event => {
     switch (facing) {
       case 'north':
         connectedBlock = part === 'head'
-          ? event.block.getNorth()
-          : event.block.getSouth()
+          ? event.block.getSouth()
+          : event.block.getNorth()
         break
       case 'south':
         connectedBlock = part === 'head'
-          ? event.block.getSouth()
-          : event.block.getNorth()
+          ? event.block.getNorth()
+          : event.block.getSouth()
         break
       case 'east':
         connectedBlock = part === 'head'
