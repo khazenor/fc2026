@@ -5,13 +5,21 @@ const PlankCutting = {
     'fence', 'trapdoor', 'roof', 'stair', 'pressure plate', 'sign', 'window', 'blind',
     'door', 'bridge'
   ],
-  registerStonecuttingRecipes () {
+  registerRecipes () {
     let plankInfo = CacheHelper.loadCache(this.plankInfoCacheFilename)
     if (plankInfo) {
       for (let plankInfoEntry of plankInfo) {
-        let cuttableIds = plankInfoEntry.cuttableIds.concat(plankInfoEntry.plankIds)
+        let cuttableIds = ArrayJs.javaArrToArr(plankInfoEntry.cuttableIds)
+        let convertibleIds = cuttableIds.concat(
+          plankInfoEntry.plankIds
+        )
         let tagName = `c:${StrHelper.replaceAll(plankInfoEntry.name, ' ', '_')}_plank_cuttables`
-        RequestHelper.stonecuttingAllToAll(cuttableIds, tagName)
+        RequestHelper.stonecuttingAllToAll(convertibleIds, tagName)
+
+        // convert back to base ingredient
+        RequestHandler.recipes.add.shapeless(cuttableIds.map(
+          cuttableId => [plankInfoEntry.plankIds[0], [cuttableId]]
+        ))
       }
     }
   },
@@ -89,4 +97,4 @@ RequestHandler.tooltips.addSingular(
   Text.translate('planksCutting.youCanCutThis')
 )
 
-PlankCutting.registerStonecuttingRecipes()
+PlankCutting.registerRecipes()

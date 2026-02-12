@@ -26,7 +26,7 @@ const FurnitureCutting = {
     }
     CacheHelper.cacheObject(this.itemsByMaterialCacheName, WoodTypeInfo)
   },
-  generateWoodcutting () {
+  generateRecipes () {
     let itemsByMaterial = CacheHelper.loadCache(this.itemsByMaterialCacheName)
     let cuttables = []
     let furniture = []
@@ -36,7 +36,14 @@ const FurnitureCutting = {
         let convertableIds = ArrayJs.javaArrToArr(woodDef.convertableIds)
         let ids = ArrayJs.javaArrToArr(woodDef.ids)
         let cuttingItems = convertableIds.concat(ids)
+
         RequestHelper.stonecuttingAllToAll(cuttingItems, tagName)
+        RequestHandler.recipes.add.shapeless(
+          convertableIds.map(convertableId => [
+            ids[0],
+            [convertableId]
+          ])
+        )
         
         cuttables = cuttables.concat(cuttingItems)
         furniture = furniture.concat(convertableIds)
@@ -47,7 +54,7 @@ const FurnitureCutting = {
     }
   }
 }
-FurnitureCutting.generateWoodcutting()
+FurnitureCutting.generateRecipes()
 RequestHandler.tooltips.addSingular(
   CacheHelper.loadCache(FurnitureCutting.allCuttablesWoodCacheName),
   [Text.translate('furnitureCutting.youCanCutThis')]

@@ -28,7 +28,6 @@ const NpcHelper = {
       !PlayerTimingJs.checkAreYouSureLike(player, 'talkToNPC', 30)
     ) {
       let playerName = player.name.getString()
-      console.log('npcDialogDefs(npcName, playerName)[npcName]', npcDialogDefs(npcName, playerName))
       let catalogOfferDef = decorationCatalog.catalogOfferDef(event, npcObj)
 
       if (catalogOfferDef) {

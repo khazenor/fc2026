@@ -314,9 +314,11 @@
 		""
 		"## How to make furniture using the stonecutter"
 		""
-		"- In this modpack you can convert logs into other furniture by putting them in the stonecutter"
+		"- In this modpack you can convert logs into other furniture by putting them in the stonecutter and planks to utilities like fences and windows."
 		""
-		"- After a furniture is cut, it can then be converted again into other furniture, or even back to logs"
+		"- After a furniture is cut, it can then be converted again into other furniture using the stonecutter"
+		""
+		"- You can convert the furniture back to logs and plank using the stonecutter or using the crafting table"
 	]
 	quest.32A06EEE318AC659.title: "Making Furniture"
 	quest.32D9390F9B877315.quest_desc: [
