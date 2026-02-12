@@ -4261,6 +4261,105 @@
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
+			id: "1378BB9A2387874C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "485DFC76D9561907"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biome_bushes"
+					exclude_from_claim_all: true
+					id: "1609D64240BEA7D0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "50D1773E651C5AAE"
+				item: { count: 1, id: "biomeswevegone:flowering_jacaranda_bush" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "43B99CA4F4CF4EA9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "6FBFF4B32F7C3656"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biome_bushes"
+					exclude_from_claim_all: true
+					id: "2BF88A43FC4FA334"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "00FA75CBC4E1263A"
+				item: { count: 1, id: "biomeswevegone:indigo_jacaranda_bush" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "16511A2210AC1EC2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "5896668C36907608"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biome_bushes"
+					exclude_from_claim_all: true
+					id: "3BB17F59F7292A6D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0E8159972EF14CDE"
+				item: { count: 1, id: "biomeswevegone:flowering_indigo_jacaranda_bush" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
 			id: "5DB89F14634A74E1"
 			rewards: [
 				{
@@ -4287,7 +4386,7 @@
 				item: { count: 1, id: "biomeswevegone:blue_rose_bush" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.0d
 			y: 24.0d
 		}
 		{
@@ -4320,7 +4419,7 @@
 				item: { count: 1, id: "biomeswevegone:hydrangea_bush" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.0d
 			y: 24.0d
 		}
 		{
@@ -4353,12 +4452,15 @@
 				item: { count: 1, id: "biomeswevegone:firecracker_flower_bush" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 24.0d
+			x: 0.0d
+			y: 25.0d
 		}
 		{
 			dependencies: [
 				"0E958BA7D27D37A4"
+				"1378BB9A2387874C"
+				"43B99CA4F4CF4EA9"
+				"16511A2210AC1EC2"
 				"5DB89F14634A74E1"
 				"331CCA81C2D8987F"
 				"52995F778DEE3B95"
@@ -4368,7 +4470,7 @@
 			}
 			id: "438291A92EF08540"
 			rewards: [{
-				count: 4
+				count: 7
 				id: "31ED517405989788"
 				item: {
 					count: 1
@@ -4386,7 +4488,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 24.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4419,7 +4521,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 25.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4452,7 +4554,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 25.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4485,7 +4587,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 25.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4518,7 +4620,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 25.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4551,7 +4653,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 25.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4584,7 +4686,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 25.5d
+			y: 26.5d
 		}
 		{
 			dependencies: [
@@ -4618,7 +4720,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 25.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4651,7 +4753,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 27.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4684,7 +4786,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 27.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4717,7 +4819,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 27.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4750,7 +4852,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 27.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4783,7 +4885,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 27.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4816,7 +4918,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 27.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4849,7 +4951,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 28.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4882,7 +4984,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 28.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4915,7 +5017,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 28.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4948,7 +5050,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 28.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4981,7 +5083,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 28.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5014,7 +5116,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 28.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5047,7 +5149,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 29.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5080,7 +5182,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 29.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5113,7 +5215,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 29.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5146,7 +5248,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 29.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5179,7 +5281,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 29.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5212,7 +5314,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 29.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5245,7 +5347,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 30.0d
+			y: 31.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5278,7 +5380,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 30.0d
+			y: 31.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5311,7 +5413,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 30.0d
+			y: 31.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5344,7 +5446,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 30.0d
+			y: 31.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5377,7 +5479,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 30.0d
+			y: 31.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5410,7 +5512,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 30.0d
+			y: 31.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5443,7 +5545,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 31.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5476,7 +5578,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 31.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5509,7 +5611,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 31.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5542,7 +5644,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 31.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5575,7 +5677,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 31.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5608,7 +5710,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 31.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5641,7 +5743,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 32.0d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5674,7 +5776,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 32.0d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5707,7 +5809,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 32.0d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5740,7 +5842,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 32.0d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5773,7 +5875,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 32.0d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5806,7 +5908,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 32.0d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5839,7 +5941,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 33.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5872,7 +5974,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 33.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5905,7 +6007,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 33.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5938,7 +6040,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 33.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5971,7 +6073,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 33.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6004,7 +6106,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 33.0d
+			y: 34.0d
 		}
 		{
 			dependencies: [
@@ -6074,7 +6176,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 30.0d
+			y: 31.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6107,7 +6209,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 34.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6140,7 +6242,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 34.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6173,7 +6275,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 34.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6206,7 +6308,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 34.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6239,7 +6341,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 34.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6272,7 +6374,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 34.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6305,7 +6407,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 35.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6338,7 +6440,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 35.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6371,7 +6473,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 35.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6404,7 +6506,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 35.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6437,7 +6539,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 35.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6470,7 +6572,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 35.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6503,7 +6605,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 36.5d
+			y: 37.5d
 		}
 		{
 			dependencies: [
@@ -6544,7 +6646,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 35.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6577,7 +6679,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 38.0d
+			y: 39.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6610,7 +6712,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 38.0d
+			y: 39.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6643,7 +6745,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 38.0d
+			y: 39.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6676,7 +6778,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 38.0d
+			y: 39.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6709,7 +6811,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 38.0d
+			y: 39.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6742,7 +6844,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 38.0d
+			y: 39.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6775,7 +6877,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 39.0d
+			y: 40.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6808,7 +6910,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 39.0d
+			y: 40.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6841,7 +6943,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 39.0d
+			y: 40.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6874,7 +6976,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 39.0d
+			y: 40.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6907,19 +7009,19 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 39.0d
+			y: 40.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "482F3498CEE0908A"
+			id: "1123396D6B9A509E"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "1F3A718CF3A09059"
+					id: "762C72DE0ADDC86B"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -6928,19 +7030,19 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "13BA42A108C185CB"
+					id: "46621A37217E27D4"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "3EFE71ADBC2C424B"
+				id: "1DFC9D259CD371A7"
 				item: { count: 1, id: "biomeswevegone:green_mushroom" }
 				type: "item"
 			}]
 			x: 5.0d
-			y: 39.0d
+			y: 40.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6973,7 +7075,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 40.0d
+			y: 41.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7006,7 +7108,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 40.0d
+			y: 41.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7039,7 +7141,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 40.0d
+			y: 41.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7072,7 +7174,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 40.0d
+			y: 41.0d
 		}
 		{
 			dependencies: [
@@ -7116,7 +7218,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 39.0d
+			y: 40.0d
 		}
 	]
 }
