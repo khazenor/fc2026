@@ -285,6 +285,9 @@ ItemEvents.modifyTooltips(event => {
   event.add(
     [
       'biomeswevegone:jacaranda_bush', 
+      'biomeswevegone:flowering_jacaranda_bush', 
+      'biomeswevegone:indigo_jacaranda_bush', 
+      'biomeswevegone:flowering_indigo_jacaranda_bush', 
       'biomeswevegone:blue_rose_bush', 
       'biomeswevegone:hydrangea_bush', 
       'biomeswevegone:firecracker_flower_bush'

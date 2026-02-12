@@ -682,9 +682,12 @@ questlines = [
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
         tasksKey: [
           "biomeswevegone:jacaranda_bush",
+          "biomeswevegone:flowering_jacaranda_bush",
+          "biomeswevegone:indigo_jacaranda_bush",
+          "biomeswevegone:flowering_indigo_jacaranda_bush",
           "biomeswevegone:blue_rose_bush",
           "biomeswevegone:hydrangea_bush",
-          "biomeswevegone:firecracker_flower_bush"
+          "biomeswevegone:firecracker_flower_bush",
         ]
       },
       { # ground covers
