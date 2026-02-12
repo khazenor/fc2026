@@ -96,7 +96,7 @@
 		"Do you want meats sourced from the finest farms? Ancient texts of enchanting to help you on your adventures? Or even some collections from Jess's dex that are too troublesome to obtain?  All this and more can be yours for the right amount of tix!"
 	]
 	quest.14E4D983C6F318CD.title: "Rigg the Travel Merchant"
-	quest.151D4079C92BCA30.quest_desc: ["You can duplicate building materials using a miles ticket by crafting it with the crafting table!"]
+	quest.151D4079C92BCA30.quest_desc: ["You can duplicate building materials using a construction ticket or a miles ticket by crafting it with the crafting table!"]
 	quest.151D4079C92BCA30.title: "Duplicating Materials"
 	quest.15CB4ED1A7CC32B8.title: "General Water Completion"
 	quest.15D4AD19820415DF.title: "Beaches Completion"

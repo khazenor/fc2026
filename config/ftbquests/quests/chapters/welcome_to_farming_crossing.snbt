@@ -2876,14 +2876,24 @@
 				id: "minecraft:cobblestone"
 			}
 			id: "151D4079C92BCA30"
-			rewards: [{
-				id: "6A3C016BF17C1129"
-				item: {
-					count: 1
-					id: "kubejs:miles_ticket"
+			rewards: [
+				{
+					id: "2CE27ED2F484EA2B"
+					item: {
+						count: 1
+						id: "kubejs:construction_ticket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4F78AEE95347083C"
+					item: {
+						count: 1
+						id: "kubejs:miles_ticket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 64L
 				id: "56F93F3D9388937F"
