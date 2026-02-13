@@ -258,6 +258,7 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:orange_birch_sapling', 
       'biomeswevegone:orange_spruce_sapling', 
       'biomeswevegone:orchard_sapling', 
+      'biomeswevegone:palm_sapling', 
       'biomeswevegone:palo_verde_sapling', 
       'biomeswevegone:pine_sapling', 
       'meadow:pine_sapling', 
