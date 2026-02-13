@@ -1,0 +1,10 @@
+{
+  "key.categories.onscreenkeyboard": "On-Screen Keyboard",
+  "key.onscreenkeyboard.toggle": "Toggle Keyboard",
+  "key.onscreenkeyboard.caps": "Toggle Caps Lock (WIP)",
+  "key.onscreenkeyboard.shift": "Toggle Shift",
+  "key.onscreenkeyboard.nav_up": "Navigate Up (WIP)",
+  "key.onscreenkeyboard.nav_down": "Navigate Down (WIP)",
+  "key.onscreenkeyboard.nav_left": "Navigate Left (WIP)",
+  "key.onscreenkeyboard.nav_right": "Navigate Right (WIP)"
+}

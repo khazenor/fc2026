@@ -1,5 +1,5 @@
-- Cache path lookup results
-- implement en_us merge
+
+- delete outdated lang jsons
 - implement texture lookup
 - implement texture extract
 - implement bundle wiki update

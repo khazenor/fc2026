@@ -1,0 +1,17 @@
+{
+  "item.ring_of_teleport.ring_of_teleport": "Ring of Teleport",
+  "item.ring_of_teleport.ring_of_teleport.line1": "Location set!",
+  "item.ring_of_teleport.ring_of_teleport.line2": "Location already set: %s",
+  "item.ring_of_teleport.ring_of_teleport.line3": "Location cleared!",
+  "item.ring_of_teleport.ring_of_teleport.line9": "Allows player to teleport to saved location on right-click",
+  "item.ring_of_teleport.ring_of_teleport.line11": "Set: point at a block and sneak + right-click",
+  "item.ring_of_teleport.ring_of_teleport.line12": "Clear: point in the air and sneak + right-click",
+  "item.ring_of_teleport.ring_of_teleport.line13": "Location Stored:",
+  "item.ring_of_teleport.ring_of_teleport.line14": "Location: %s",
+  "item.ring_of_teleport.ring_of_teleport.line15": "X: ",
+  "item.ring_of_teleport.ring_of_teleport.line16": "Y: ",
+  "item.ring_of_teleport.ring_of_teleport.line17": "Z: ",
+  "item.ring_of_teleport.ring_of_teleport.line18": "One-time use:  %s",
+  "item.ring_of_teleport.ring_of_teleport.line19": "Location has not been set yet.",
+  "itemGroup.ring_of_teleport": "Ring of Teleport"
+}

@@ -1,0 +1,11 @@
+{
+  "key.categories.obscuraspanoramica": "Obscura's Panoramica",
+  "key.obscuraspanoramica.take_screenshot": "Take Panorama Screenshot",
+  "obscuraspanoramica.error.fullscreen": "Please disable fullscreen mode before taking a panorama screenshot!",
+  "obscuraspanoramica.error.screenshot_failed": "There was an error while trying to take the panorama screenshot!",
+  "obscuraspanoramica.configuration.title": "Obscura's Panoramica",
+  "obscuraspanoramica.configuration.section.obscuraspanoramica.client.toml": "Panorama Settings",
+  "obscuraspanoramica.configuration.section.obscuraspanoramica.client.toml.title": "Panorama Settings",
+  "obscuraspanoramica.configuration.panoramaResolution": "Panorama Resolution",
+  "obscuraspanoramica.configuration.screenshotDelay": "Screenshot Delay"
+}
