@@ -1,8 +1,12 @@
 import os
+import shutil
 import zipfile
 import json
 
-modsFolder = os.path.join('..', '..', 'mods')
+modpackModsFolder = os.path.join('..', '..', 'mods')
+additionModsFolder = os.path.join('modpack_analysis', 'additional_mods')
+fetchedModsFolder = os.path.join('modpack_analysis', 'fetched_mods')
+
 extractsFolder = os.path.join('modpack_analysis', 'extracts')
 jarExt = '.jar'
 cacheFolder = os.path.join('modpack_analysis', 'cache')
@@ -30,7 +34,7 @@ def getMergedLangFile():
 		else:
 			modPaths = paths[modFilename]
 			modLang = {}
-			with zipfile.ZipFile(os.path.join(modsFolder, modFilename)) as modZip:
+			with zipfile.ZipFile(os.path.join(modpackModsFolder, modFilename)) as modZip:
 				for name in getNames(modPaths, ['lang', 'en_us.json']):
 					if name in modZip.namelist():
 						fileOpen = modZip.open(name, 'r')
@@ -50,21 +54,49 @@ def getPaths(mainFolder):
 	else:
 		cache = {}
 	lookedUpPaths = {}
-	for filename in os.listdir(modsFolder):
-		print(f"reading {filename}...")
+	modFiles = os.listdir(modpackModsFolder)
+	for filename in modFiles:
 		if filename in cache.keys():
 			lookedUpPaths[filename] = cache[filename]
 		else:
 			if jarExt in filename:
-				path = zipfile.Path(os.path.join(modsFolder, filename))
+				print(f"reading {filename}...")
+				modPath = zipfile.Path(os.path.join(modpackModsFolder, filename))
+				updateLookedUpPaths(modPath, filename, mainFolder, lookedUpPaths)
 
-				# main folders
-				for mainFolderPath in path.iterdir():
-					mainFolderName = mainFolderPath.name
-					if mainFolderName == mainFolder:
-						for modIdPath in mainFolderPath.iterdir():
-							lookedUpPaths.setdefault(filename, []).append(
-								[mainFolderName, modIdPath.name]
-							)
 	json.dump(lookedUpPaths, open(cacheFilePath, 'w'), indent=2)
 	return lookedUpPaths
+
+def updateLookedUpPaths(modPath, filename, mainFolder, lookedUpPaths):
+	path = zipfile.Path(modPath)
+
+	# main folders
+	for mainFolderPath in path.iterdir():
+		mainFolderName = mainFolderPath.name
+		if mainFolderName == mainFolder:
+			for modIdPath in mainFolderPath.iterdir():
+				lookedUpPaths.setdefault(filename, []).append(
+					[mainFolderName, modIdPath.name]
+				)
+
+
+def fetchMods():
+	_removeOldFetchedMods()
+	for modsFolder in [modpackModsFolder, additionModsFolder]:
+		for modFilename in os.listdir(modsFolder):
+			if modFilename not in os.listdir(fetchedModsFolder):
+				shutil.copy(os.path.join(modsFolder, modFilename), fetchedModsFolder)
+
+
+def _removeOldFetchedMods():
+	allModFilenames = _getAllModFilenames()
+	for modFilename in os.listdir(fetchedModsFolder):
+		if modFilename not in allModFilenames:
+			shutil.rmtree(os.path.join(fetchedModsFolder, modFilename))
+
+def _getAllModFilenames():
+	modFilenames = []
+	for modsFolder in [modpackModsFolder, additionModsFolder]:
+		for modFilename in os.listdir(modsFolder):
+			modFilenames.append(modFilename)
+	return modFilenames

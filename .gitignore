@@ -5,12 +5,15 @@
 *.lnk
 *.pyc
 /options.txt
+/xaero/
 $files/assets/
+$files/contributions
 $files/exports/
 $files/mod_codebases
 $files/notes
+$files/python_scripts_FC2026/modpack_analysis/additional_mods/
+$files/python_scripts_FC2026/modpack_analysis/fetched_mods/
 $files/servers
-$files/contributions
 brb.pins
 command_history.txt
 config/appleskin-client.toml
@@ -53,4 +56,3 @@ servers.dat_old
 shaderpacks/ComplementaryReimagined_r5.2.2.zip.txt
 usercache.json
 usernamecache.json
-/xaero/
