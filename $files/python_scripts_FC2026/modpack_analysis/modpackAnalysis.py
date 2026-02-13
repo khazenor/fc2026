@@ -62,23 +62,18 @@ def getPaths(mainFolder):
 			if jarExt in filename:
 				print(f"reading {filename}...")
 				modPath = zipfile.Path(os.path.join(modpackModsFolder, filename))
-				updateLookedUpPaths(modPath, filename, mainFolder, lookedUpPaths)
+
+				# main folders
+				for mainFolderPath in modPath.iterdir():
+					mainFolderName = mainFolderPath.name
+					if mainFolderName == mainFolder:
+						for modIdPath in mainFolderPath.iterdir():
+							lookedUpPaths.setdefault(filename, []).append(
+								[mainFolderName, modIdPath.name]
+							)
 
 	json.dump(lookedUpPaths, open(cacheFilePath, 'w'), indent=2)
 	return lookedUpPaths
-
-def updateLookedUpPaths(modPath, filename, mainFolder, lookedUpPaths):
-	path = zipfile.Path(modPath)
-
-	# main folders
-	for mainFolderPath in path.iterdir():
-		mainFolderName = mainFolderPath.name
-		if mainFolderName == mainFolder:
-			for modIdPath in mainFolderPath.iterdir():
-				lookedUpPaths.setdefault(filename, []).append(
-					[mainFolderName, modIdPath.name]
-				)
-
 
 def fetchMods():
 	_removeOldFetchedMods()
