@@ -167,6 +167,7 @@ villagernames-1.21.1-8.2.jar
 waystones-neoforge-1.21.1-21.1.25.jar
 weavers_cosmetics-neo-1.21.1_v1.0.jar
 weavers_cosmetics_cosplay-v1.0.jar
+xaerominimap-neoforge-1.21.1-25.3.10.jar
 xaeroworldmap-neoforge-1.21.1-1.40.11.jar
 yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar
 yukamibackpacktab-1.21.1-1.1.1-neoforge.jar
