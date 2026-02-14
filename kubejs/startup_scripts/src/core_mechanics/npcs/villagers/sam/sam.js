@@ -186,3 +186,4 @@ RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
 }])
 
 RequestHandler.tooltips.add(NpcSam.fishTooltips)
+RequestHandler.recipes.remove.byItemId(NpcSam.tradeItemIds)
