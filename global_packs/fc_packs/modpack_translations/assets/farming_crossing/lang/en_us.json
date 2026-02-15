@@ -136,6 +136,8 @@
   "npcs.sellItem.thankYou": "<%s> Thank you! Here %s!",
   "npcs.sellTooltip": "You can sell this to %s for %s",
   "npcs.tooltip.youCanBuy": "Can be bought from %s",
+  "npcs.sam.bulkFishSelling.areYouSure": "Are you sure you want to sell all of the fishes in this satchel for %s Miles Tickets?",
+  "npcs.sam.bulkFishSelling.tooltip": "Right click Sam to sell all fish in this satchel",
   "planksCutting.youCanCutThis": "Can be stone-cut into other items",
   "questFunctions.1": "/1)",
   "questFunctions.10": "/10)",

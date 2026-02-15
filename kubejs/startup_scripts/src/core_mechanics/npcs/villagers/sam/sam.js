@@ -9,6 +9,12 @@ const NpcSam = {
   name: 'Sam',
   typicalHighRatio: .5,
   recordHighRatio: 1,
+  getFishPriceFromItem (fishItem) {
+    return this.getFishPrice(
+      fishItem.id,
+      this.getFishSizeFromItem(fishItem)
+    ) * fishItem.count
+  },
   getFishPrice (fishId, fishSize) {
     let fishInfo = FishInfo[fishId]
     let basePrice = fishInfo['basePrice']
@@ -28,6 +34,14 @@ const NpcSam = {
 
     return Math.round(preRoundPrice)
   },
+  getFishSizeFromItem (item) {
+    for (let component of item.components) {
+      if (component.type() == 'tide:fish_length') {
+        return Number(component.value())
+      }
+    }
+    return null
+  },
   get sellableFishes () {
     return Object.keys(FishInfo)
   },
@@ -44,14 +58,6 @@ const NpcSam = {
       ])
     }
     return tooltipDefs
-  },
-  getFishSizeFromItem (item) {
-    for (let component of item.components) {
-      if (component.type() == 'tide:fish_length') {
-        return Number(component.value())
-      }
-    }
-    return null
   },
   get offerDefs () {
     return [{
@@ -169,16 +175,37 @@ RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
     let mainHandItem = EventHelpers.mainHandItem(event)
     let itemId = mainHandItem.id
     if (NpcSam.sellableFishes.includes(itemId)) {
-      let fishSize = NpcSam.getFishSizeFromItem(mainHandItem)
-      let itemCount = EventHelpers.mainHandItem(event).count
-      let fishPrice = NpcSam.getFishPrice(itemId, fishSize)
       NpcHelper.handleSellingItemToNpc(
         event,
         MilesTickets.ticketId,
-        fishPrice * itemCount,
-        itemCount
+        NpcSam.getFishPriceFromItem(mainHandItem),
+        mainHandItem.count
       )
       return true
+    } else if (itemId === 'tide:fish_satchel') {
+      let fishPrice = 0
+      for (let fishItem of ItemHelper.getBundleContents(mainHandItem)) {
+        fishPrice += NpcSam.getFishPriceFromItem(fishItem)
+      }
+      if (PlayerTimingJs.checkAreYouSureLike(event.player, 'bulkFishSelling', 20)) {
+        event.player.tell(Text.translate(
+          'npcs.sellItem.thankYou',
+          NpcSam.name,
+          TransHelper.itemNameWithIsArePlural(MilesTickets.ticketId, fishPrice)
+        ))
+        GiveItem.giveItemsSmart(event,
+          MilesTickets.ticketId,
+          fishPrice
+        )
+        event.player.mainHandItem.count--
+        GiveItem.giveItemsSmart(event, 'tide:fish_satchel', 1)
+      } else {
+        event.player.tell(Text.translate(
+          'npcs.sam.bulkFishSelling.areYouSure',
+          StrHelper.cleanFloor(fishPrice)
+        ))
+      }
+      event.cancel()
     } else {
       return false
     }
@@ -187,3 +214,6 @@ RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
 
 RequestHandler.tooltips.add(NpcSam.fishTooltips)
 RequestHandler.recipes.remove.byItemId(NpcSam.tradeItemIds)
+RequestHandler.tooltips.add([
+  ['tide:fish_satchel', [Text.translate('npcs.sam.bulkFishSelling.tooltip')]]
+])
