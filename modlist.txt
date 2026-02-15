@@ -157,6 +157,7 @@ prickle-neoforge-1.21.1-21.1.11.jar
 ProbeJS-7.7.2.jar
 PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar
 recipeessentials-1.21-4.0.jar
+refinedstorage-jei-integration-neoforge-1.0.0.jar
 refinedstorage-neoforge-2.0.1.jar
 refurbished_furniture-neoforge-1.21.1-1.0.20.jar
 resourcefulconfig-neoforge-1.21-3.0.11.jar
