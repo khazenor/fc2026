@@ -63,6 +63,7 @@ flightblocks-1.21.1-1.0.7.jar
 forgivingvoid-neoforge-1.21.1-21.1.6.jar
 FramedBlocks-10.5.3.jar
 framework-neoforge-1.21.1-0.13.11.jar
+ftb-essentials-neoforge-2101.1.9.jar
 ftb-filter-system-neoforge-21.1.4.jar
 ftb-library-neoforge-2101.1.30.jar
 ftb-quests-neoforge-2101.1.21.jar
