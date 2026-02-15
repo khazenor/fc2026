@@ -9,6 +9,7 @@ searchBoxAutoSelected = false
 autocraftingNotification = true
 #Allowed Values: LIST, TREE
 autocraftingPreviewStyle = "LIST"
+tenthAnniversaryCape = false
 
 [cable]
 	# Default: 0

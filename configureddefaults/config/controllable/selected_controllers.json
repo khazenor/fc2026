@@ -1,16 +1,4 @@
 {
   "__comment": "Information to restore the selected controllers for next load of the game",
-  "selected": [
-    {
-      "name": "Xbox Series X Controller",
-      "guid": "00720509-0000-0b13-0000-045e00000003",
-      "type": 2,
-      "vendor": 1118,
-      "product": 2835,
-      "product_version": 1289,
-      "firmware": 0,
-      "buttons": 16,
-      "axes": 6
-    }
-  ]
+  "selected": []
 }
