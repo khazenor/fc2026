@@ -65,8 +65,8 @@ RequestHandler.recipes.remove.byItemId(NpcRen.disableRecipesForItemIds)
 for (let base in NpcRen.diamondSmithingRecipes) {
   RequestHandler.recipes.add.smithing(
     NpcRen.diamondSmithingRecipes[base],
-    base,
     NpcRen.diamondIngotId,
+    base,
     'minecraft:flint'
   )
 }
