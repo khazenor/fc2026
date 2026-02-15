@@ -4473,6 +4473,7 @@ farm_and_charm:crafting_bowl
 farm_and_charm:dog_food_bag
 farm_and_charm:farmers_bread_block
 farm_and_charm:farmers_breakfast_block
+farm_and_charm:feather_pile
 farm_and_charm:feeding_trough
 farm_and_charm:fertilized_farmland
 farm_and_charm:fertilized_soil
@@ -4518,6 +4519,7 @@ farm_and_charm:trampled_packed_dirt
 farm_and_charm:trampled_stable_floor
 farm_and_charm:water_sprinkler
 farm_and_charm:water_trough
+farm_and_charm:wheat_pile
 farm_and_charm:wild_barley
 farm_and_charm:wild_beetroots
 farm_and_charm:wild_carrots

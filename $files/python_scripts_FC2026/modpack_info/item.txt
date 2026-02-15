@@ -6441,6 +6441,7 @@ kubejs:diamond_fishing_rod_upgrade_kit
 kubejs:diamond_ingot
 kubejs:elna
 kubejs:fenny
+kubejs:full_settlement_certificate
 kubejs:golden_fishing_rod_upgrade_kit
 kubejs:harley
 kubejs:iron_fishing_rod_upgrade_kit
@@ -17508,6 +17509,7 @@ vinery:wine_box
 vinery:winemaker_apron
 vinery:winemaker_boots
 vinery:winemaker_leggings
+wands:copper_wand
 wands:creative_wand
 wands:diamond_wand
 wands:iron_wand
