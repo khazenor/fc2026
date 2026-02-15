@@ -295,6 +295,7 @@
   "ticketBundling.bookletWorth": "Each worth %s Miles Tickets",
   "ticketBundling.shiftToBundle": "Sneak-click to bundle",
   "tideSupport.resetWeight.areYouSure": "Are you sure you want to reset the weight of this fish, making it stack-able? (right click again to confirm)",
+  "tideSupport.resetWeight.confirmation": "Fish weight reset",
   "tideSupport.resetWeight.tooltip1": "Shift right-click in the air to",
   "tideSupport.resetWeight.tooltip2": "reset weight (making it stack-able)",
   "tooltip.canGetFromQuests": "Can be obtained from quests",

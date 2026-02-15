@@ -6,6 +6,7 @@ RequestHandler.callbacks.itemEvents.rightClicked([event => {
     if (PlayerTimingJs.checkAreYouSureLike(event.player, 'resetFishWeight', 10)) {
       event.player.mainHandItem.count --
       GiveItem.giveItemsSmart(event, itemId, 1)
+      event.player.tell(Text.translate('tideSupport.resetWeight.confirmation'))
     } else {
       event.player.tell(Text.translate('tideSupport.resetWeight.areYouSure'))
     }
