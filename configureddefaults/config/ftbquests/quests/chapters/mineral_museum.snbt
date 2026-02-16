@@ -410,6 +410,39 @@
 			dependencies: ["2C1B93F1A534E681"]
 			disable_toast: true
 			hide_until_deps_complete: true
+			id: "2C78BFA71DA0EDA4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "610D7EA9E515F474"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_vanilla_blocks_completion"
+					exclude_from_claim_all: true
+					id: "75D50C4E6D3DD1EA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2D8BC7C5122853CA"
+				item: { count: 1, id: "minecraft:basalt" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
 			id: "6F85778A6136D470"
 			rewards: [
 				{
@@ -436,7 +469,7 @@
 				item: { count: 1, id: "minecraft:tuff" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -469,7 +502,7 @@
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -486,6 +519,7 @@
 				"2976F537D5B9E826"
 				"4DD2F3F6D1EB74D0"
 				"29D7843DA2177418"
+				"2C78BFA71DA0EDA4"
 				"6F85778A6136D470"
 				"100477E90605397B"
 			]
@@ -494,7 +528,7 @@
 			}
 			id: "46394CBBF5F1EE7C"
 			rewards: [{
-				count: 15
+				count: 17
 				id: "0BABBA4F0B0BBBAC"
 				item: {
 					count: 1

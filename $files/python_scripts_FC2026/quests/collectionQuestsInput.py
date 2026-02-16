@@ -827,6 +827,7 @@ questlines = [
           "minecraft:dripstone_block",
           "minecraft:pointed_dripstone",
           "minecraft:smooth_basalt",
+          "minecraft:basalt",
           "minecraft:tuff",
           "minecraft:obsidian"
         ]
