@@ -695,5 +695,157 @@ const FishInfo = {
       "typical_high_cm": 75.0,
       "typical_low_cm": 50.0
     }
+  },
+  "tide:blazing_swordfish": {
+    "basePrice": 7.730709876543209,
+    "size": {
+      "record_high_cm": 455.0,
+      "typical_high_cm": 290.0,
+      "typical_low_cm": 180.0
+    }
+  },
+  "tide:crimson_fangjaw": {
+    "basePrice": 2.0347222222222223,
+    "size": {
+      "record_high_cm": 100.0,
+      "typical_high_cm": 65.0,
+      "typical_low_cm": 35.0
+    }
+  },
+  "tide:soulscale": {
+    "basePrice": 2.6869212962962963,
+    "size": {
+      "record_high_cm": 95.0,
+      "typical_high_cm": 60.0,
+      "typical_low_cm": 35.0
+    }
+  },
+  "tide:warped_guppy": {
+    "basePrice": 2.185619212962963,
+    "size": {
+      "record_high_cm": 9.0,
+      "typical_high_cm": 7.0,
+      "typical_low_cm": 4.0
+    }
+  },
+  "tide:witherfin": {
+    "basePrice": 3.44020061728395,
+    "size": {
+      "record_high_cm": 90.0,
+      "typical_high_cm": 40.0,
+      "typical_low_cm": 25.0
+    }
+  },
+  "tide:amber_rockfish": {
+    "basePrice": 0.9305555555555556,
+    "size": {
+      "record_high_cm": 95.0,
+      "typical_high_cm": 60.0,
+      "typical_low_cm": 35.0
+    }
+  },
+  "tide:chorus_cod": {
+    "basePrice": 2.0896026234567904,
+    "size": {
+      "record_high_cm": 110.0,
+      "typical_high_cm": 75.0,
+      "typical_low_cm": 55.0
+    }
+  },
+  "tide:dragon_fish": {
+    "basePrice": 12.916666666666664,
+    "size": {
+      "record_high_cm": 1250.0,
+      "typical_high_cm": 750.0,
+      "typical_low_cm": 550.0
+    }
+  },
+  "tide:dutchman_sock": {
+    "basePrice": 4.1076388888888875,
+    "size": {
+      "record_high_cm": 15.0,
+      "typical_high_cm": 7.0,
+      "typical_low_cm": 4.0
+    }
+  },
+  "tide:elytrout": {
+    "basePrice": 4.670789930555555,
+    "size": {
+      "record_high_cm": 100.0,
+      "typical_high_cm": 60.0,
+      "typical_low_cm": 35.0
+    }
+  },
+  "tide:enderfin": {
+    "basePrice": 1.238233024691358,
+    "size": {
+      "record_high_cm": 90.0,
+      "typical_high_cm": 55.0,
+      "typical_low_cm": 35.0
+    }
+  },
+  "tide:endergazer": {
+    "basePrice": 2.0879629629629632,
+    "size": {
+      "record_high_cm": 55.0,
+      "typical_high_cm": 35.0,
+      "typical_low_cm": 25.0
+    }
+  },
+  "tide:ender_glider": {
+    "basePrice": 2.031298225308642,
+    "size": {
+      "record_high_cm": 110.0,
+      "typical_high_cm": 70.0,
+      "typical_low_cm": 48.0
+    }
+  },
+  "tide:mantyvern": {
+    "basePrice": 7.350742669753088,
+    "size": {
+      "record_high_cm": 500.0,
+      "typical_high_cm": 360.0,
+      "typical_low_cm": 280.0
+    }
+  },
+  "tide:pale_clubfish": {
+    "basePrice": 0.9421296296296297,
+    "size": {
+      "record_high_cm": 135.0,
+      "typical_high_cm": 65.0,
+      "typical_low_cm": 40.0
+    }
+  },
+  "tide:red_40": {
+    "basePrice": 3.9136525848765435,
+    "size": {
+      "record_high_cm": 45.0,
+      "typical_high_cm": 25.0,
+      "typical_low_cm": 12.0
+    }
+  },
+  "tide:snatcher_squid": {
+    "basePrice": 7.223958333333335,
+    "size": {
+      "record_high_cm": 260.0,
+      "typical_high_cm": 170.0,
+      "typical_low_cm": 110.0
+    }
+  },
+  "tide:violet_carp": {
+    "basePrice": 2.4455536265432096,
+    "size": {
+      "record_high_cm": 125.0,
+      "typical_high_cm": 85.0,
+      "typical_low_cm": 60.0
+    }
+  },
+  "tide:voidseeker": {
+    "basePrice": 11.71807484567901,
+    "size": {
+      "record_high_cm": 120.0,
+      "typical_high_cm": 65.0,
+      "typical_low_cm": 40.0
+    }
   }
 }
