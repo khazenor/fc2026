@@ -146,6 +146,7 @@ rightclickharvest-neoforge-4.6.1+1.21.1.jar
 RingOfTeleport-NeoForge-1.21.1-1.8.4.jar
 Searchables-neoforge-1.21.1-1.0.2.jar
 shetiphiancore-neoforge-1.21.1-1.1.jar
+Show My Recipes - Copy (2).jar
 simplemagnets-1.1.12c-neoforge-mc1.21.jar
 SimplyTools-21.1.3.jar
 smoothchunk-1.21-4.1.jar
