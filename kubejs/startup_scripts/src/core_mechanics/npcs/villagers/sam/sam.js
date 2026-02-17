@@ -195,25 +195,27 @@ RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
       for (let fishItem of ItemHelper.getBundleContents(mainHandItem)) {
         fishPrice += NpcSam.getFishPriceFromItem(fishItem)
       }
-      if (PlayerTimingJs.checkAreYouSureLike(event.player, 'bulkFishSelling', 20)) {
-        event.player.tell(Text.translate(
-          'npcs.sellItem.thankYou',
-          NpcSam.name,
-          TransHelper.itemNameWithIsArePlural(MilesTickets.ticketId, fishPrice)
-        ))
-        GiveItem.giveItemsSmart(event,
-          MilesTickets.ticketId,
-          fishPrice
-        )
-        event.player.mainHandItem.count--
-        GiveItem.giveItemsSmart(event, 'tide:fish_satchel', 1)
-      } else {
-        event.player.tell(Text.translate(
-          'npcs.sam.bulkFishSelling.areYouSure',
-          StrHelper.cleanFloor(fishPrice)
-        ))
+      if (fishPrice > 0) {
+        if (PlayerTimingJs.checkAreYouSureLike(event.player, 'bulkFishSelling', 20)) {
+          event.player.tell(Text.translate(
+            'npcs.sellItem.thankYou',
+            NpcSam.name,
+            TransHelper.itemNameWithIsArePlural(MilesTickets.ticketId, fishPrice)
+          ))
+          GiveItem.giveItemsSmart(event,
+            MilesTickets.ticketId,
+            fishPrice
+          )
+          event.player.mainHandItem.count--
+          GiveItem.giveItemsSmart(event, 'tide:fish_satchel', 1)
+        } else {
+          event.player.tell(Text.translate(
+            'npcs.sam.bulkFishSelling.areYouSure',
+            StrHelper.cleanFloor(fishPrice)
+          ))
+        }
+        event.cancel()
       }
-      event.cancel()
     } else {
       return false
     }
