@@ -107,6 +107,14 @@ const NpcSam = {
       ['moa_cookery:sushi']
     )
   },
+  get disableCraftingIds () {
+    return this.offer.colorBobbers.concat(
+      this.offer.specialBobbers,
+      this.offer.hooks,
+      this.offer.lines,
+      ['moa_cookery:sushi']
+    )
+  },
   offer: {
     colorBobbers: [
       'tide:purple_fishing_bobber',
@@ -213,7 +221,7 @@ RequestHandler.callbacks.itemEvents.entityInteracted([(event) => {
 }])
 
 RequestHandler.tooltips.add(NpcSam.fishTooltips)
-RequestHandler.recipes.remove.byItemId(NpcSam.tradeItemIds)
+RequestHandler.recipes.remove.byItemId(NpcSam.disableCraftingIds)
 RequestHandler.tooltips.add([
   ['tide:fish_satchel', [Text.translate('npcs.sam.bulkFishSelling.tooltip')]]
 ])
