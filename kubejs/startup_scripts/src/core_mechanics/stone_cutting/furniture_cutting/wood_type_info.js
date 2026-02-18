@@ -34,6 +34,7 @@ const WoodTypeInfo = {
       'biomeswevegone:palm_log',
       'biomeswevegone:white_mangrove_log',
       'biomeswevegone:aspen_log',
+      'meadow:alpine_birch_log',
     ],
     convertableIds: []
   }, {
