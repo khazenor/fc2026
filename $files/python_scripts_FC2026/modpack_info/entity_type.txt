@@ -74,8 +74,8 @@ handcrafted:fancy_painting
 handcrafted:seat
 lootr:item_frame
 lootr:lootr_minecart
-meadow:chair
 meadow:pine_boat
+meadow:pine_chair
 meadow:pine_chest_boat
 meadow:water_buffalo
 meadow:wooly_cow
