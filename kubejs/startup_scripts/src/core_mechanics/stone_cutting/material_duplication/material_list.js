@@ -259,7 +259,7 @@ const MaterialList = [
   'biomeswevegone:yellow_spruce_leaves',
   'biomeswevegone:yucca_leaves',
   'biomeswevegone:zelkova_leaves',
-  'meadow:alpine_birch_leaves_hanging',
+  'meadow:alpine_birch_leaves',
   'meadow:pine_leaves',
   'meadow:yellow_pine_leaves',
   'vinery:apple_leaves',
