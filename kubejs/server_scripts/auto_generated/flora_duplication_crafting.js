@@ -228,8 +228,8 @@ ServerEvents.recipes(event => {
     Item.of('meadow:eriophorum', 8),
     ['meadow:eriophorum', 'minecraft:bone_meal'])
   event.shapeless(
-    Item.of('meadow:eriophorum_tall', 8),
-    ['meadow:eriophorum_tall', 'minecraft:bone_meal'])
+    Item.of('meadow:tall_eriophorum', 8),
+    ['meadow:tall_eriophorum', 'minecraft:bone_meal'])
   event.shapeless(
     Item.of('candlelight:rose', 8),
     ['candlelight:rose', 'minecraft:bone_meal'])

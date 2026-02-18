@@ -3044,13 +3044,13 @@
 			dependencies: ["0630CE07E50C1851"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "0AC1A5768819D843"
+			id: "55334839D13F4EEB"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection"
 					exclude_from_claim_all: true
-					id: "3854631401717D46"
+					id: "45E64C7A58041E7F"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3059,15 +3059,15 @@
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection_cheese_form_completion"
 					exclude_from_claim_all: true
-					id: "52FCD5216C9A7BD3"
+					id: "1F0B3E901D42E064"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "53FA062137769500"
-				item: { count: 1, id: "meadow:cheese_block" }
+				id: "7620ADD4CD676253"
+				item: { count: 1, id: "meadow:cheese_wheel" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -3077,13 +3077,13 @@
 			dependencies: ["0630CE07E50C1851"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "5649D037ED8CED69"
+			id: "6EB33E589D59B633"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection"
 					exclude_from_claim_all: true
-					id: "05DA85FDF2D6225A"
+					id: "0B6FBD6D0E512EC9"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3092,15 +3092,15 @@
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection_cheese_form_completion"
 					exclude_from_claim_all: true
-					id: "6E93E0D8CA8DAE6A"
+					id: "7FA1811CF8036D42"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "771652D58B76E6DD"
-				item: { count: 1, id: "meadow:sheep_cheese_block" }
+				id: "0A613B1EB321C084"
+				item: { count: 1, id: "meadow:sheep_cheese_wheel" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -3110,13 +3110,13 @@
 			dependencies: ["0630CE07E50C1851"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "189F329A98D467FE"
+			id: "752352BA65408B01"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection"
 					exclude_from_claim_all: true
-					id: "26C4C2E62CEC0973"
+					id: "72330F7FA7A01D41"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3125,15 +3125,15 @@
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection_cheese_form_completion"
 					exclude_from_claim_all: true
-					id: "026564007768BBC1"
+					id: "22F66A37CA91B31A"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "7520D2BFACEC6AF6"
-				item: { count: 1, id: "meadow:goat_cheese_block" }
+				id: "2156D26C22C17511"
+				item: { count: 1, id: "meadow:goat_cheese_wheel" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -3143,13 +3143,13 @@
 			dependencies: ["0630CE07E50C1851"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "7ADCA9256E3D1BC2"
+			id: "5538947A6D48DF7B"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection"
 					exclude_from_claim_all: true
-					id: "21DF6C79360ECCF9"
+					id: "7D3738C396B4E9DB"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3158,15 +3158,15 @@
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection_cheese_form_completion"
 					exclude_from_claim_all: true
-					id: "0C54CC2E54D1E733"
+					id: "29CFF629C2CF87FB"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "6A1108463830D05A"
-				item: { count: 1, id: "meadow:buffalo_cheese_block" }
+				id: "1C46A2D951CB90D0"
+				item: { count: 1, id: "meadow:buffalo_cheese_wheel" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -3176,13 +3176,13 @@
 			dependencies: ["0630CE07E50C1851"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "38C853BD616F172C"
+			id: "23E2D3A63ECED050"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection"
 					exclude_from_claim_all: true
-					id: "0A43227336DE794F"
+					id: "533818F7B44F4CB3"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3191,15 +3191,15 @@
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection_cheese_form_completion"
 					exclude_from_claim_all: true
-					id: "6BD16B133E9E9C21"
+					id: "70AD47106D343DFF"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "5A91A8AFD828390E"
-				item: { count: 1, id: "meadow:grain_cheese_block" }
+				id: "03F9B778373D50FC"
+				item: { count: 1, id: "meadow:grain_cheese_wheel" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -3207,11 +3207,11 @@
 		}
 		{
 			dependencies: [
-				"0AC1A5768819D843"
-				"5649D037ED8CED69"
-				"189F329A98D467FE"
-				"7ADCA9256E3D1BC2"
-				"38C853BD616F172C"
+				"55334839D13F4EEB"
+				"6EB33E589D59B633"
+				"752352BA65408B01"
+				"5538947A6D48DF7B"
+				"23E2D3A63ECED050"
 			]
 			icon: {
 				id: "meadow:cheese_form"
@@ -3308,13 +3308,13 @@
 			dependencies: ["59449FD43D19FE6B"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "733BA84872049140"
+			id: "690C41F080F8E479"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection"
 					exclude_from_claim_all: true
-					id: "6B7917026E4E6311"
+					id: "3BE0CD1BA581B3F4"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -3323,15 +3323,15 @@
 					auto: "invisible"
 					command: "/function fc_collection:cooking_collection_cooking_caldron_completion"
 					exclude_from_claim_all: true
-					id: "195CB54D6EC8EA40"
+					id: "0160564A21C621D1"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "0073E85F07499664"
-				item: { count: 1, id: "meadow:roasted_ham" }
+				id: "2C0E23B2B87A0650"
+				item: { count: 1, id: "meadow:roasted_buffalo_ham" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -3341,10 +3341,10 @@
 			dependencies: [
 				"61973B9CEDF8E00F"
 				"727830D563C04B7F"
-				"733BA84872049140"
+				"690C41F080F8E479"
 			]
 			icon: {
-				id: "meadow:cooking_cauldron"
+				id: "meadow:cookpot"
 			}
 			id: "617112FB2651A093"
 			rewards: [{

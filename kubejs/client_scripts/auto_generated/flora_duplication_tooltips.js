@@ -77,7 +77,7 @@ ItemEvents.modifyTooltips(event => {
       'meadow:enzian', 
       'meadow:fire_lily', 
       'meadow:eriophorum', 
-      'meadow:eriophorum_tall', 
+      'meadow:tall_eriophorum', 
       'candlelight:rose', 
       'herbalbrews:lavender', 
       'herbalbrews:hibiscus', 

@@ -659,6 +659,8 @@ questlines = [
           "biomeswevegone:palo_verde_sapling",
           "biomeswevegone:pine_sapling",
           "meadow:pine_sapling",
+          "meadow:yellow_pine_sapling",
+          "meadow:alpine_birch_sapling",
           "biomeswevegone:red_maple_sapling",
           "biomeswevegone:red_oak_sapling",
           "biomeswevegone:red_spruce_sapling",
@@ -747,7 +749,7 @@ questlines = [
           "meadow:enzian",
           "meadow:fire_lily",
           "meadow:eriophorum",
-          "meadow:eriophorum_tall",
+          "meadow:tall_eriophorum",
           "candlelight:rose",
           'herbalbrews:lavender',
           'herbalbrews:hibiscus',
@@ -1045,11 +1047,11 @@ questlines = [
         dependencyIdKey: '0630CE07E50C1851', # Forming Cheese
         iconKey:'meadow:cheese_form',
         tasksKey: [
-          "meadow:cheese_block",
-          "meadow:sheep_cheese_block",
-          "meadow:goat_cheese_block",
-          "meadow:buffalo_cheese_block",
-          "meadow:grain_cheese_block"
+          "meadow:cheese_wheel",
+          "meadow:sheep_cheese_wheel",
+          "meadow:goat_cheese_wheel",
+          "meadow:buffalo_cheese_wheel",
+          "meadow:grain_cheese_wheel"
         ]
       },
       {
@@ -1059,7 +1061,7 @@ questlines = [
         tasksKey:[
           "meadow:cooked_buffalo_meat",
           "meadow:sausage_with_cheese",
-          "meadow:roasted_ham"
+          "meadow:roasted_buffalo_ham"
         ]
       },
       {

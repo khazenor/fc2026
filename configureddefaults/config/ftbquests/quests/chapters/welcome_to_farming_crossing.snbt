@@ -489,27 +489,27 @@
 			id: "59449FD43D19FE6B"
 			rewards: [
 				{
-					id: "60B8627ED36DC818"
-					item: {
-						count: 1
-						id: "meadow:frame"
-					}
-					type: "item"
-				}
-				{
-					id: "5ACD7AA9F1653FBA"
-					item: {
-						count: 1
-						id: "meadow:cooking_cauldron"
-					}
-					type: "item"
-				}
-				{
 					count: 32
 					id: "209E48CB341E34A5"
 					item: {
 						count: 1
 						id: "minecraft:calcite"
+					}
+					type: "item"
+				}
+				{
+					id: "36CBE11D837DDBAD"
+					item: {
+						count: 1
+						id: "farm_and_charm:stove"
+					}
+					type: "item"
+				}
+				{
+					id: "5573B76A362B200C"
+					item: {
+						count: 1
+						id: "meadow:cookpot"
 					}
 					type: "item"
 				}
@@ -526,7 +526,7 @@
 			dependencies: ["59449FD43D19FE6B"]
 			hide_until_deps_complete: true
 			icon: {
-				id: "meadow:cooking_cauldron"
+				id: "meadow:cookpot"
 			}
 			id: "53A97CAB5255B2F3"
 			rewards: [{
@@ -959,7 +959,7 @@
 			]
 			tasks: [{
 				id: "74F29F19982FAB25"
-				item: { count: 1, id: "meadow:cheese_block" }
+				item: { count: 1, id: "meadow:cheese_wheel" }
 				type: "item"
 			}]
 			x: 1.0d
