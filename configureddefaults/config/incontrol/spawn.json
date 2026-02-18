@@ -19,5 +19,13 @@
     "difficulty": "normal",
     "dimension": "minecraft:overworld",
     "result": "deny"
+  }, {
+    "mob": ["wildernature:cassowary"],
+    "difficulty": "easy",
+    "result": "deny"
+  }, {
+    "mob": ["wildernature:cassowary"],
+    "difficulty": "normal",
+    "result": "deny"
   }
 ]
