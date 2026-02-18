@@ -159,6 +159,7 @@ const MaterialList = [
   'biomeswevegone:white_mushroom_stem',
   'biomeswevegone:wood_blewit_mushroom_block',
   'minecraft:red_mushroom_block',
+  'minecraft:mushroom_stem',
   'yungscavebiomes:ancient_sand',
   'biomeswevegone:peat',
   'biomeswevegone:sandy_dirt',
