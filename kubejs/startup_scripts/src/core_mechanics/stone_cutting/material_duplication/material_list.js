@@ -277,4 +277,6 @@ const MaterialList = [
   'biomeswevegone:pink_allium_petal_block',
   'biomeswevegone:rose_petal_block',
   'biomeswevegone:white_allium_petal_block',
+  'meadow:alpine_birch_log',
+  'meadow:pine_log',
 ]
