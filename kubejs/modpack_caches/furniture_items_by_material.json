@@ -289,7 +289,8 @@
 				"biomeswevegone:palm_log",
 				"biomeswevegone:white_mangrove_log",
 				"biomeswevegone:aspen_log",
-				"meadow:alpine_birch_log"
+				"meadow:alpine_birch_log",
+				"quark:ancient_log"
 			],
 			"convertableIds": [
 				"moa_cookery:ala_abedul",
@@ -535,7 +536,8 @@
 			],
 			"ids": [
 				"minecraft:mangrove_log",
-				"biomeswevegone:mahogany_log"
+				"biomeswevegone:mahogany_log",
+				"quark:blossom_log"
 			],
 			"convertableIds": [
 				"moa_cookery:ala_mangle",
@@ -828,7 +830,8 @@
 				"biomeswevegone:florus_stem",
 				"biomeswevegone:willow_log",
 				"biomeswevegone:spirit_log",
-				"biomeswevegone:skyris_log"
+				"biomeswevegone:skyris_log",
+				"quark:azalea_log"
 			],
 			"convertableIds": [
 				"moa_cookery:ala_distorsionado",

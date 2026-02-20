@@ -35,6 +35,7 @@ const WoodTypeInfo = {
       'biomeswevegone:white_mangrove_log',
       'biomeswevegone:aspen_log',
       'meadow:alpine_birch_log',
+      'quark:ancient_log',
     ],
     convertableIds: []
   }, {
@@ -60,7 +61,8 @@ const WoodTypeInfo = {
     names: ['mangrove'],
     ids: [
       'minecraft:mangrove_log',
-      'biomeswevegone:mahogany_log'
+      'biomeswevegone:mahogany_log',
+      'quark:blossom_log',
     ],
     convertableIds: []
   }, {
@@ -90,7 +92,8 @@ const WoodTypeInfo = {
       'biomeswevegone:florus_stem',
       'biomeswevegone:willow_log',
       'biomeswevegone:spirit_log',
-      'biomeswevegone:skyris_log'
+      'biomeswevegone:skyris_log',
+      'quark:azalea_log'
     ],
     convertableIds: []
   }, {

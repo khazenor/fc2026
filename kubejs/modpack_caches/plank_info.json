@@ -3423,6 +3423,54 @@
 				"minecraft:warped_stairs",
 				"minecraft:warped_trapdoor"
 			]
+		},
+		{
+			"name": "ashen",
+			"plankIds": [
+				"quark:ancient_planks"
+			],
+			"cuttableIds": [
+				"quark:ancient_door",
+				"quark:ancient_fence",
+				"quark:ancient_fence_gate",
+				"quark:ancient_hanging_sign",
+				"quark:ancient_planks_stairs",
+				"quark:ancient_pressure_plate",
+				"quark:ancient_sign",
+				"quark:ancient_trapdoor"
+			]
+		},
+		{
+			"name": "azalea",
+			"plankIds": [
+				"quark:azalea_planks"
+			],
+			"cuttableIds": [
+				"quark:azalea_door",
+				"quark:azalea_fence",
+				"quark:azalea_fence_gate",
+				"quark:azalea_hanging_sign",
+				"quark:azalea_planks_stairs",
+				"quark:azalea_pressure_plate",
+				"quark:azalea_sign",
+				"quark:azalea_trapdoor"
+			]
+		},
+		{
+			"name": "trumpet",
+			"plankIds": [
+				"quark:blossom_planks"
+			],
+			"cuttableIds": [
+				"quark:blossom_door",
+				"quark:blossom_fence",
+				"quark:blossom_fence_gate",
+				"quark:blossom_hanging_sign",
+				"quark:blossom_planks_stairs",
+				"quark:blossom_pressure_plate",
+				"quark:blossom_sign",
+				"quark:blossom_trapdoor"
+			]
 		}
 	]
 }

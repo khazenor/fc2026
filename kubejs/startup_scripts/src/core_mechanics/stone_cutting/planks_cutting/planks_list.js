@@ -3,7 +3,6 @@ const planksList = [
   'minecraft:dark_oak_planks',
   'vinery:dark_cherry_planks',
   'biomeswevegone:white_mangrove_planks',
-
   'beachparty:palm_planks',
   'betterarcheology:rotten_planks',
   'biomeswevegone:aspen_planks',
@@ -41,4 +40,7 @@ const planksList = [
   'minecraft:oak_planks',
   'minecraft:spruce_planks',
   'minecraft:warped_planks',
+  'quark:ancient_planks',
+  'quark:azalea_planks',
+  'quark:blossom_planks',
 ]
