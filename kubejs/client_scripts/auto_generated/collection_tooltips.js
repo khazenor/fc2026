@@ -261,9 +261,6 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:palm_sapling', 
       'biomeswevegone:palo_verde_sapling', 
       'biomeswevegone:pine_sapling', 
-      'meadow:pine_sapling', 
-      'meadow:yellow_pine_sapling', 
-      'meadow:alpine_birch_sapling', 
       'biomeswevegone:red_maple_sapling', 
       'biomeswevegone:red_oak_sapling', 
       'biomeswevegone:red_spruce_sapling', 
@@ -277,13 +274,36 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:yellow_birch_sapling', 
       'biomeswevegone:yellow_sakura_sapling', 
       'biomeswevegone:yucca_sapling', 
-      'biomeswevegone:zelkova_sapling', 
-      'vinery:dark_cherry_sapling', 
-      'beachparty:palm_sprout'
+      'biomeswevegone:zelkova_sapling'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
-      Text.translate('collectionTooltips.moddedSaplings')
+      Text.translate('collectionTooltips.biomeSaplings')
+    ])
+  event.add(
+    [
+      'beachparty:palm_sprout', 
+      'meadow:alpine_birch_sapling', 
+      'meadow:pine_sapling', 
+      'meadow:yellow_pine_sapling', 
+      'vinery:dark_cherry_sapling'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.letsDoSaplings')
+    ])
+  event.add(
+    [
+      'quark:ancient_sapling', 
+      'quark:blue_blossom_sapling', 
+      'quark:lavender_blossom_sapling', 
+      'quark:orange_blossom_sapling', 
+      'quark:red_blossom_sapling', 
+      'quark:yellow_blossom_sapling'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.quarkSaplings')
     ])
   event.add(
     [
@@ -443,7 +463,14 @@ ItemEvents.modifyTooltips(event => {
     [
       'minecraft:lapis_lazuli', 
       'minecraft:amethyst_shard', 
-      'minecraft:diamond', 
+      'minecraft:diamond'
+    ],
+    [
+      Text.translate('collectionTooltips.mineralMuseum'), 
+      Text.translate('collectionTooltips.minecraftGemsCompletion')
+    ])
+  event.add(
+    [
       'irons_jewelry:ruby', 
       'irons_jewelry:sapphire', 
       'irons_jewelry:topaz', 
@@ -454,7 +481,32 @@ ItemEvents.modifyTooltips(event => {
     ],
     [
       Text.translate('collectionTooltips.mineralMuseum'), 
-      Text.translate('collectionTooltips.gemsCompletion')
+      Text.translate('collectionTooltips.jewelryGemsCompletion')
+    ])
+  event.add(
+    [
+      'quark:red_corundum', 
+      'quark:orange_corundum', 
+      'quark:yellow_corundum', 
+      'quark:green_corundum', 
+      'quark:blue_corundum', 
+      'quark:indigo_corundum', 
+      'quark:violet_corundum', 
+      'quark:white_corundum', 
+      'quark:black_corundum', 
+      'quark:red_corundum_cluster', 
+      'quark:orange_corundum_cluster', 
+      'quark:yellow_corundum_cluster', 
+      'quark:green_corundum_cluster', 
+      'quark:blue_corundum_cluster', 
+      'quark:indigo_corundum_cluster', 
+      'quark:violet_corundum_cluster', 
+      'quark:white_corundum_cluster', 
+      'quark:black_corundum_cluster'
+    ],
+    [
+      Text.translate('collectionTooltips.mineralMuseum'), 
+      Text.translate('collectionTooltips.corundumsCompletion')
     ])
   event.add(
     [

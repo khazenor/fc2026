@@ -65,7 +65,7 @@
 				{
 					auto: "invisible"
 					command: "/function fc_collection:init_all_scores"
-					id: "3F85444E16179722"
+					id: "0B70EE1A360D7773"
 					permission_level: 4
 					silent: true
 					type: "command"

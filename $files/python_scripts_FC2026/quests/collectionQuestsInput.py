@@ -203,7 +203,12 @@ questlines = [
 						observeKey: 'wildernature:pelican',
 						iconKey: 'wildernature:pelican_spawn_egg',
 						nameKey: 'Spot a pelican'
-					}
+					},
+          {
+            observeKey: 'quark:crab',
+            iconKey: 'quark:crab_spawn_egg',
+            nameKey: 'Spot a crab'
+          }
         ]
       },
       { # Desert
@@ -291,7 +296,12 @@ questlines = [
 						observeKey: 'wildernature:minisheep',
 						iconKey: 'wildernature:minisheep_spawn_egg',
 						nameKey: 'Spot a minisheep'
-					}
+					},
+          {
+            observeKey: 'quark:shiba',
+            iconKey: 'quark:shiba_spawn_egg',
+            nameKey: 'Spot a Shiba'
+          }
         ]
       },
       { # Special
@@ -451,6 +461,11 @@ questlines = [
             observeKey: 'yungscavebiomes:sand_snapper',
             iconKey: 'yungscavebiomes:sand_snapper_spawn_egg',
             nameKey: 'Spot a sand snapper'
+          },
+          {
+            observeKey: 'quark:toretoise',
+            iconKey: 'quark:toretoise_spawn_egg',
+            nameKey: 'Spot a Toretoise'
           }
         ]
       },
@@ -633,8 +648,8 @@ questlines = [
           "minecraft:glow_lichen"
         ]
       },
-      { # mod saps
-        nameKey: 'Modded Saplings',
+      { # Biome Saplings
+        nameKey: 'Biome Saplings',
         iconKey: 'biomeswevegone:araucaria_sapling',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
         tasksKey: [
@@ -658,9 +673,6 @@ questlines = [
           "biomeswevegone:palm_sapling",
           "biomeswevegone:palo_verde_sapling",
           "biomeswevegone:pine_sapling",
-          "meadow:pine_sapling",
-          "meadow:yellow_pine_sapling",
-          "meadow:alpine_birch_sapling",
           "biomeswevegone:red_maple_sapling",
           "biomeswevegone:red_oak_sapling",
           "biomeswevegone:red_spruce_sapling",
@@ -675,8 +687,31 @@ questlines = [
           "biomeswevegone:yellow_sakura_sapling",
           "biomeswevegone:yucca_sapling",
           "biomeswevegone:zelkova_sapling",
+        ]
+      },
+      { # Let's do Saplings
+        nameKey: "Let's do Saplings",
+        iconKey: 'beachparty:palm_sprout',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          'beachparty:palm_sprout',
+          "meadow:alpine_birch_sapling",
+          "meadow:pine_sapling",
+          "meadow:yellow_pine_sapling",
           "vinery:dark_cherry_sapling",
-          'beachparty:palm_sprout'
+        ]
+      },
+      { # Quark Saplings
+        nameKey: 'Quark Saplings',
+        iconKey: 'quark:ancient_sapling',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          'quark:ancient_sapling',
+          'quark:blue_blossom_sapling',
+          'quark:lavender_blossom_sapling',
+          'quark:orange_blossom_sapling',
+          'quark:red_blossom_sapling',
+          'quark:yellow_blossom_sapling',
         ]
       },
       { # bushes
@@ -848,8 +883,8 @@ questlines = [
           "minecraft:redstone"
         ]
       },
-      { # gems
-        nameKey: 'Gems Completion',
+      { # Minecraft Gems
+        nameKey: 'Minecraft Gems Completion',
         iconKey: 'minecraft:amethyst_shard',
         dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
         increaseRateKey: 0.04,
@@ -857,13 +892,47 @@ questlines = [
           "minecraft:lapis_lazuli",
           "minecraft:amethyst_shard",
           "minecraft:diamond",
+        ]
+      },
+      { # Jewelry Gems
+        nameKey: 'Jewelry Gems Completion',
+        iconKey: 'irons_jewelry:ruby',
+        dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
+        increaseRateKey: 0.03,
+        tasksKey: [
           'irons_jewelry:ruby',
           'irons_jewelry:sapphire',
           'irons_jewelry:topaz',
           'irons_jewelry:moonstone',
           'irons_jewelry:peridot',
           'irons_jewelry:onyx',
-          'irons_jewelry:garnet'
+          'irons_jewelry:garnet',
+        ]
+      },
+      { # Corundums
+        nameKey: 'Corundums Completion',
+        iconKey: 'irons_jewelry:ruby',
+        dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
+        increaseRateKey: 0.03,
+        tasksKey: [
+          'quark:red_corundum',
+          'quark:orange_corundum',
+          'quark:yellow_corundum',
+          'quark:green_corundum',
+          'quark:blue_corundum',
+          'quark:indigo_corundum',
+          'quark:violet_corundum',
+          'quark:white_corundum',
+          'quark:black_corundum',
+          'quark:red_corundum_cluster',
+          'quark:orange_corundum_cluster',
+          'quark:yellow_corundum_cluster',
+          'quark:green_corundum_cluster',
+          'quark:blue_corundum_cluster',
+          'quark:indigo_corundum_cluster',
+          'quark:violet_corundum_cluster',
+          'quark:white_corundum_cluster',
+          'quark:black_corundum_cluster',
         ]
       },
       { # modded
