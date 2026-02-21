@@ -3121,6 +3121,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 64L
 				id: "2934B6F77EB213F0"
 				item: { count: 1, id: "kubejs:miles_ticket" }
