@@ -146,40 +146,62 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
-      'farm_and_charm:corn', 
-      'farm_and_charm:oat', 
       'farm_and_charm:barley', 
+      'farm_and_charm:corn', 
       'farm_and_charm:lettuce', 
+      'farm_and_charm:oat', 
       'farm_and_charm:onion', 
-      'farm_and_charm:tomato', 
       'farm_and_charm:strawberry', 
+      'farm_and_charm:tomato', 
       'farm_and_charm:wild_nettle', 
-      'farm_and_charm:wild_ribwort', 
-      'herbalbrews:yerba_mate_leaf', 
-      'herbalbrews:rooibos_leaf', 
-      'herbalbrews:coffee_beans', 
+      'farm_and_charm:wild_ribwort'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.farmAndCharmFoodCompletion')
+    ])
+  event.add(
+    [
+      'vinery:cherry', 
+      'vinery:jungle_grapes_red', 
+      'vinery:jungle_grapes_white', 
       'vinery:red_grape', 
-      'vinery:white_grape', 
       'vinery:savanna_grapes_red', 
       'vinery:savanna_grapes_white', 
       'vinery:taiga_grapes_red', 
       'vinery:taiga_grapes_white', 
-      'vinery:jungle_grapes_red', 
-      'vinery:jungle_grapes_white', 
-      'vinery:cherry', 
-      'biomeswevegone:blueberries', 
-      'biomeswevegone:green_apple', 
-      'yungscavebiomes:prickly_peach', 
-      'biomeswevegone:aloe_vera', 
-      'biomeswevegone:horseweed', 
-      'biomeswevegone:oddion_bulb', 
-      'biomeswevegone:pale_pumpkin', 
-      'wildernature:hazelnut', 
-      'beachparty:coconut'
+      'vinery:white_grape'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
-      Text.translate('collectionTooltips.moddedFoodsCompletion')
+      Text.translate('collectionTooltips.vineryFoodsCompletion')
+    ])
+  event.add(
+    [
+      'biomeswevegone:aloe_vera', 
+      'biomeswevegone:blueberries', 
+      'biomeswevegone:green_apple', 
+      'biomeswevegone:horseweed', 
+      'biomeswevegone:oddion_bulb', 
+      'biomeswevegone:pale_pumpkin'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.biomesFoodsCompletion')
+    ])
+  event.add(
+    [
+      'beachparty:coconut', 
+      'herbalbrews:coffee_beans', 
+      'herbalbrews:rooibos_leaf', 
+      'herbalbrews:yerba_mate_leaf', 
+      'quark:glow_shroom', 
+      'wildernature:hazelnut', 
+      'yungscavebiomes:prickly_peach'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.miscFoodsCompletion')
     ])
   event.add(
     [
@@ -241,44 +263,72 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
+      'biomeswevegone:blue_spruce_sapling', 
+      'biomeswevegone:orange_spruce_sapling', 
+      'biomeswevegone:red_spruce_sapling'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.spruceSaplingsCompletion')
+    ])
+  event.add(
+    [
+      'biomeswevegone:brown_birch_sapling', 
+      'biomeswevegone:orange_birch_sapling', 
+      'biomeswevegone:yellow_birch_sapling'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.birchSaplingsCompletion')
+    ])
+  event.add(
+    [
+      'biomeswevegone:maple_sapling', 
+      'biomeswevegone:red_maple_sapling', 
+      'biomeswevegone:silver_maple_sapling'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.mapleSaplingsCompletion')
+    ])
+  event.add(
+    [
+      'biomeswevegone:brown_oak_sapling', 
+      'biomeswevegone:red_oak_sapling', 
+      'biomeswevegone:white_mangrove_sapling', 
+      'biomeswevegone:white_sakura_sapling', 
+      'biomeswevegone:yellow_sakura_sapling'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.vanillaVariantSaplingsCompletion')
+    ])
+  event.add(
+    [
       'biomeswevegone:araucaria_sapling', 
       'biomeswevegone:aspen_sapling', 
       'biomeswevegone:baobab_sapling', 
       'biomeswevegone:blue_enchanted_sapling', 
-      'biomeswevegone:blue_spruce_sapling', 
-      'biomeswevegone:brown_birch_sapling', 
-      'biomeswevegone:brown_oak_sapling', 
       'biomeswevegone:cika_sapling', 
       'biomeswevegone:cypress_sapling', 
       'biomeswevegone:ebony_sapling', 
       'biomeswevegone:holly_sapling', 
       'biomeswevegone:ironwood_sapling', 
       'biomeswevegone:jacaranda_sapling', 
-      'biomeswevegone:maple_sapling', 
-      'biomeswevegone:orange_birch_sapling', 
-      'biomeswevegone:orange_spruce_sapling', 
       'biomeswevegone:orchard_sapling', 
       'biomeswevegone:palm_sapling', 
       'biomeswevegone:palo_verde_sapling', 
       'biomeswevegone:pine_sapling', 
-      'biomeswevegone:red_maple_sapling', 
-      'biomeswevegone:red_oak_sapling', 
-      'biomeswevegone:red_spruce_sapling', 
       'biomeswevegone:redwood_sapling', 
-      'biomeswevegone:silver_maple_sapling', 
       'biomeswevegone:skyris_sapling', 
       'biomeswevegone:spirit_sapling', 
-      'biomeswevegone:white_mangrove_sapling', 
-      'biomeswevegone:white_sakura_sapling', 
       'biomeswevegone:witch_hazel_sapling', 
-      'biomeswevegone:yellow_birch_sapling', 
-      'biomeswevegone:yellow_sakura_sapling', 
       'biomeswevegone:yucca_sapling', 
       'biomeswevegone:zelkova_sapling'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
-      Text.translate('collectionTooltips.biomeSaplings')
+      Text.translate('collectionTooltips.miscSaplingsCompletion')
     ])
   event.add(
     [
@@ -334,15 +384,59 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
-      'biomeswevegone:alpine_bellflower', 
+      'candlelight:rose', 
+      'biomeswevegone:rose', 
+      'biomeswevegone:black_rose', 
+      'biomeswevegone:cyan_rose'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.rosesCompletion')
+    ])
+  event.add(
+    [
+      'meadow:alpine_poppy', 
+      'meadow:delphinium', 
+      'meadow:saxifrage', 
+      'meadow:enzian', 
+      'meadow:fire_lily', 
+      'meadow:eriophorum', 
+      'meadow:tall_eriophorum'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.meadowFlowersCompletion')
+    ])
+  event.add(
+    [
+      'biomeswevegone:winter_cyclamen', 
+      'biomeswevegone:winter_rose', 
+      'biomeswevegone:winter_scilla', 
+      'biomeswevegone:winter_succulent'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.winterFlowersCompletion')
+    ])
+  event.add(
+    [
       'biomeswevegone:amaranth', 
+      'biomeswevegone:cyan_amaranth', 
+      'biomeswevegone:magenta_amaranth', 
+      'biomeswevegone:orange_amaranth', 
+      'biomeswevegone:purple_amaranth'
+    ],
+    [
+      Text.translate('collectionTooltips.floraCompendium'), 
+      Text.translate('collectionTooltips.amaranthCompletion')
+    ])
+  event.add(
+    [
+      'biomeswevegone:alpine_bellflower', 
       'biomeswevegone:angelica', 
       'biomeswevegone:bistort', 
-      'biomeswevegone:black_rose', 
       'biomeswevegone:california_poppy', 
       'biomeswevegone:crocus', 
-      'biomeswevegone:cyan_amaranth', 
-      'biomeswevegone:cyan_rose', 
       'biomeswevegone:delphinium', 
       'biomeswevegone:fairy_slipper', 
       'biomeswevegone:foxglove', 
@@ -351,35 +445,19 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:kovan_flower', 
       'biomeswevegone:lazarus_bellflower', 
       'biomeswevegone:lollipop_flower', 
-      'biomeswevegone:magenta_amaranth', 
-      'biomeswevegone:orange_amaranth', 
       'biomeswevegone:orange_daisy', 
       'biomeswevegone:peach_leather_flower', 
       'biomeswevegone:pink_anemone', 
       'biomeswevegone:pink_daffodil', 
       'biomeswevegone:protea_flower', 
-      'biomeswevegone:purple_amaranth', 
-      'biomeswevegone:rose', 
       'biomeswevegone:snowdrops', 
-      'biomeswevegone:winter_cyclamen', 
-      'biomeswevegone:winter_rose', 
-      'biomeswevegone:winter_scilla', 
-      'biomeswevegone:winter_succulent', 
       'biomeswevegone:yellow_daffodil', 
-      'meadow:alpine_poppy', 
-      'meadow:delphinium', 
-      'meadow:saxifrage', 
-      'meadow:enzian', 
-      'meadow:fire_lily', 
-      'meadow:eriophorum', 
-      'meadow:tall_eriophorum', 
-      'candlelight:rose', 
       'herbalbrews:lavender', 
       'herbalbrews:hibiscus'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
-      Text.translate('collectionTooltips.biomeFlowers')
+      Text.translate('collectionTooltips.miscFlowersCompletion')
     ])
   event.add(
     [
@@ -418,7 +496,9 @@ ItemEvents.modifyTooltips(event => {
       'biomeswevegone:shelf_fungi', 
       'biomeswevegone:weeping_milkcap', 
       'biomeswevegone:wood_blewit', 
-      'beachparty:seashell'
+      'beachparty:seashell', 
+      'quark:glow_shroom_ring', 
+      'quark:glow_lichen_growth'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 
@@ -485,15 +565,6 @@ ItemEvents.modifyTooltips(event => {
     ])
   event.add(
     [
-      'quark:red_corundum', 
-      'quark:orange_corundum', 
-      'quark:yellow_corundum', 
-      'quark:green_corundum', 
-      'quark:blue_corundum', 
-      'quark:indigo_corundum', 
-      'quark:violet_corundum', 
-      'quark:white_corundum', 
-      'quark:black_corundum', 
       'quark:red_corundum_cluster', 
       'quark:orange_corundum_cluster', 
       'quark:yellow_corundum_cluster', 
@@ -502,7 +573,16 @@ ItemEvents.modifyTooltips(event => {
       'quark:indigo_corundum_cluster', 
       'quark:violet_corundum_cluster', 
       'quark:white_corundum_cluster', 
-      'quark:black_corundum_cluster'
+      'quark:black_corundum_cluster', 
+      'quark:red_corundum', 
+      'quark:orange_corundum', 
+      'quark:yellow_corundum', 
+      'quark:green_corundum', 
+      'quark:blue_corundum', 
+      'quark:indigo_corundum', 
+      'quark:violet_corundum', 
+      'quark:white_corundum', 
+      'quark:black_corundum'
     ],
     [
       Text.translate('collectionTooltips.mineralMuseum'), 

@@ -586,72 +586,6 @@
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "26022F9CB6851F34"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "63EB5F21E2547D7B"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "6E13E417DD8B6075"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "7DFE7783FF7AE42C"
-				item: { count: 1, id: "farm_and_charm:corn" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "084140969B947B0B"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "3D58F95AFEB00FC3"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "0BE4D986B586A471"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "4CB9402E88BEBF8F"
-				item: { count: 1, id: "farm_and_charm:oat" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
 			id: "2EA9AF8A57ABA722"
 			rewards: [
 				{
@@ -665,7 +599,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_farm_and_charm_food_completion"
 					exclude_from_claim_all: true
 					id: "422EB4301F4510B1"
 					permission_level: 2
@@ -678,7 +612,40 @@
 				item: { count: 1, id: "farm_and_charm:barley" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "26022F9CB6851F34"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "63EB5F21E2547D7B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_farm_and_charm_food_completion"
+					exclude_from_claim_all: true
+					id: "6E13E417DD8B6075"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7DFE7783FF7AE42C"
+				item: { count: 1, id: "farm_and_charm:corn" }
+				type: "item"
+			}]
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -698,7 +665,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_farm_and_charm_food_completion"
 					exclude_from_claim_all: true
 					id: "4459686C3994C6FA"
 					permission_level: 2
@@ -709,6 +676,39 @@
 			tasks: [{
 				id: "0571CC0B7E3E4CD0"
 				item: { count: 1, id: "farm_and_charm:lettuce" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "084140969B947B0B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "3D58F95AFEB00FC3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_farm_and_charm_food_completion"
+					exclude_from_claim_all: true
+					id: "0BE4D986B586A471"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4CB9402E88BEBF8F"
+				item: { count: 1, id: "farm_and_charm:oat" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -731,7 +731,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_farm_and_charm_food_completion"
 					exclude_from_claim_all: true
 					id: "5031775FF5CE991D"
 					permission_level: 2
@@ -751,39 +751,6 @@
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "2BE44283BEDA4704"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "2ED2FA3C05A59F27"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "1A30FAB78BD13E07"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0FF8F4CE78BF798E"
-				item: { count: 1, id: "farm_and_charm:tomato" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
 			id: "01DFDDDF3736B8BF"
 			rewards: [
 				{
@@ -797,7 +764,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_farm_and_charm_food_completion"
 					exclude_from_claim_all: true
 					id: "68719C02B6DF4813"
 					permission_level: 2
@@ -808,6 +775,39 @@
 			tasks: [{
 				id: "0F214230B187FE34"
 				item: { count: 1, id: "farm_and_charm:strawberry" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2BE44283BEDA4704"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "2ED2FA3C05A59F27"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_farm_and_charm_food_completion"
+					exclude_from_claim_all: true
+					id: "1A30FAB78BD13E07"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0FF8F4CE78BF798E"
+				item: { count: 1, id: "farm_and_charm:tomato" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -830,7 +830,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_farm_and_charm_food_completion"
 					exclude_from_claim_all: true
 					id: "682F83BEF7EE025D"
 					permission_level: 2
@@ -863,7 +863,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_farm_and_charm_food_completion"
 					exclude_from_claim_all: true
 					id: "655EBBFCB3428AF7"
 					permission_level: 2
@@ -880,367 +880,41 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "1238E9B221B30FA1"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "183AC90C51A32D56"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "3ED3DDC8A7FF8B48"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
+			dependencies: [
+				"2EA9AF8A57ABA722"
+				"26022F9CB6851F34"
+				"6E5FD66D715D56E6"
+				"084140969B947B0B"
+				"6D84BC8844C8806B"
+				"01DFDDDF3736B8BF"
+				"2BE44283BEDA4704"
+				"32EC85E3D230B5BC"
+				"6577A1BC108D6E45"
 			]
-			tasks: [{
-				id: "355F17F6A242BA42"
-				item: { count: 1, id: "herbalbrews:yerba_mate_leaf" }
+			icon: {
+				id: "farm_and_charm:barley"
+			}
+			id: "2AC2428CF4DF2798"
+			rewards: [{
+				count: 10
+				id: "46B2B605681B7003"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "37182AAF7E2890D3"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "0A1DC39DFD6C4BCA"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "0D65C48863012168"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
 			tasks: [{
-				id: "26C4897E65F134BA"
-				item: { count: 1, id: "herbalbrews:rooibos_leaf" }
-				type: "item"
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "3C1C9DD9B6A9A73C"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
 			}]
-			x: 4.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4A286A2192E6E23A"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "221F72D92283E0F2"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "16BEECC495EE065E"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2967E9367D69D97D"
-				item: { count: 1, id: "herbalbrews:coffee_beans" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "3EA3D1D6FC374549"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "4A8D12E6E82E01D0"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "62AA7FDEB65449BC"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "7FD622C632DEE079"
-				item: { count: 1, id: "vinery:red_grape" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "696D2E80AE0FC18D"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "2C12D7B63BFE8B0F"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "393A52EA3528DCE9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "1F9B9F911279E8C0"
-				item: { count: 1, id: "vinery:white_grape" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "3FC30F1E58B2EE70"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "455F8ACFD5B397A8"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "5393D1422487D3ED"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0760E900E97D621A"
-				item: { count: 1, id: "vinery:savanna_grapes_red" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "3B30CA1DAB62B4F1"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "327B24813961A8EB"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "63D91839F2AD237D"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "3DD4C908D652C5EA"
-				item: { count: 1, id: "vinery:savanna_grapes_white" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "38281CE9D1A580C3"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "592E6F5A4AF2D2A3"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "3DDB22E663ECCD31"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0F208891381E17A0"
-				item: { count: 1, id: "vinery:taiga_grapes_red" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "01E47E863B35BF58"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "738628D7AEF2B4B2"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "31B0C0A8873E32F0"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "032F08309B334321"
-				item: { count: 1, id: "vinery:taiga_grapes_white" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "287A4DE281BE6AA7"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "481EC7823A196AAB"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "4054778E05B18373"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "1709A20F9D94863B"
-				item: { count: 1, id: "vinery:jungle_grapes_red" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "292FC20058D48D7B"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "7201ADD48E2DEF0A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "67F9B2673E256CF4"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "7EEEECBD736825AB"
-				item: { count: 1, id: "vinery:jungle_grapes_white" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 6.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1259,7 +933,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_vinery_foods_completion"
 					exclude_from_claim_all: true
 					id: "56A4EBED7D9EE818"
 					permission_level: 2
@@ -1272,106 +946,308 @@
 				item: { count: 1, id: "vinery:cherry" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "71FCBD66F5F12227"
+			id: "287A4DE281BE6AA7"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "4C740DFC15A6D3A3"
+					id: "481EC7823A196AAB"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_vinery_foods_completion"
 					exclude_from_claim_all: true
-					id: "1930A27DD52F7F3D"
+					id: "4054778E05B18373"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "203CC9F9955E7E37"
-				item: { count: 1, id: "biomeswevegone:blueberries" }
+				id: "1709A20F9D94863B"
+				item: { count: 1, id: "vinery:jungle_grapes_red" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "292FC20058D48D7B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "7201ADD48E2DEF0A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vinery_foods_completion"
+					exclude_from_claim_all: true
+					id: "67F9B2673E256CF4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7EEEECBD736825AB"
+				item: { count: 1, id: "vinery:jungle_grapes_white" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3EA3D1D6FC374549"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "4A8D12E6E82E01D0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vinery_foods_completion"
+					exclude_from_claim_all: true
+					id: "62AA7FDEB65449BC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7FD622C632DEE079"
+				item: { count: 1, id: "vinery:red_grape" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "2081B90A9B66A1F9"
+			id: "3FC30F1E58B2EE70"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "68E3076AE0BDC61C"
+					id: "455F8ACFD5B397A8"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_vinery_foods_completion"
 					exclude_from_claim_all: true
-					id: "205A944EE6EE124B"
+					id: "5393D1422487D3ED"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "66AD526CEA11689A"
-				item: { count: 1, id: "biomeswevegone:green_apple" }
+				id: "0760E900E97D621A"
+				item: { count: 1, id: "vinery:savanna_grapes_red" }
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "1D5872BD3E9B9E1D"
+			id: "3B30CA1DAB62B4F1"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "267D8D9B756A983D"
+					id: "327B24813961A8EB"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_vinery_foods_completion"
 					exclude_from_claim_all: true
-					id: "4C72598EB7E702D7"
+					id: "63D91839F2AD237D"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "5550E749D1BF4CFD"
-				item: { count: 1, id: "yungscavebiomes:prickly_peach" }
+				id: "3DD4C908D652C5EA"
+				item: { count: 1, id: "vinery:savanna_grapes_white" }
 				type: "item"
 			}]
 			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "38281CE9D1A580C3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "592E6F5A4AF2D2A3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vinery_foods_completion"
+					exclude_from_claim_all: true
+					id: "3DDB22E663ECCD31"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0F208891381E17A0"
+				item: { count: 1, id: "vinery:taiga_grapes_red" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "01E47E863B35BF58"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "738628D7AEF2B4B2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vinery_foods_completion"
+					exclude_from_claim_all: true
+					id: "31B0C0A8873E32F0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "032F08309B334321"
+				item: { count: 1, id: "vinery:taiga_grapes_white" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "696D2E80AE0FC18D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "2C12D7B63BFE8B0F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vinery_foods_completion"
+					exclude_from_claim_all: true
+					id: "393A52EA3528DCE9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1F9B9F911279E8C0"
+				item: { count: 1, id: "vinery:white_grape" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"183FE89F5814833B"
+				"287A4DE281BE6AA7"
+				"292FC20058D48D7B"
+				"3EA3D1D6FC374549"
+				"3FC30F1E58B2EE70"
+				"3B30CA1DAB62B4F1"
+				"38281CE9D1A580C3"
+				"01E47E863B35BF58"
+				"696D2E80AE0FC18D"
+			]
+			icon: {
+				id: "farm_and_charm:barley"
+			}
+			id: "65DCD492990110D3"
+			rewards: [{
+				count: 10
+				id: "407F347874AC2A6E"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "27E90502E55220FF"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
 			y: 6.5d
 		}
 		{
@@ -1391,7 +1267,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_biomes_foods_completion"
 					exclude_from_claim_all: true
 					id: "50483E361E6BD9C0"
 					permission_level: 2
@@ -1405,7 +1281,73 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "71FCBD66F5F12227"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "4C740DFC15A6D3A3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biomes_foods_completion"
+					exclude_from_claim_all: true
+					id: "1930A27DD52F7F3D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "203CC9F9955E7E37"
+				item: { count: 1, id: "biomeswevegone:blueberries" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2081B90A9B66A1F9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "68E3076AE0BDC61C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biomes_foods_completion"
+					exclude_from_claim_all: true
+					id: "205A944EE6EE124B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "66AD526CEA11689A"
+				item: { count: 1, id: "biomeswevegone:green_apple" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1424,7 +1366,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_biomes_foods_completion"
 					exclude_from_claim_all: true
 					id: "589916AE49F1B4D3"
 					permission_level: 2
@@ -1437,8 +1379,8 @@
 				item: { count: 1, id: "biomeswevegone:horseweed" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.5d
+			x: 3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1457,7 +1399,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_biomes_foods_completion"
 					exclude_from_claim_all: true
 					id: "6172ED41E4C4D63D"
 					permission_level: 2
@@ -1470,8 +1412,8 @@
 				item: { count: 1, id: "biomeswevegone:oddion_bulb" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.5d
+			x: 4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1490,7 +1432,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_biomes_foods_completion"
 					exclude_from_claim_all: true
 					id: "580509CF96B3FB7B"
 					permission_level: 2
@@ -1503,41 +1445,42 @@
 				item: { count: 1, id: "biomeswevegone:pale_pumpkin" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: 5.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "001686692286A6D3"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "76993B01DF787D7E"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
-					exclude_from_claim_all: true
-					id: "54164117A44A31F6"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
+			dependencies: [
+				"28121FE516374C97"
+				"71FCBD66F5F12227"
+				"2081B90A9B66A1F9"
+				"23197E6356D7B961"
+				"2C0EF1AA38D802B1"
+				"44F6BE2321777CAA"
 			]
-			tasks: [{
-				id: "48C41D7442FA9A23"
-				item: { count: 1, id: "wildernature:hazelnut" }
+			icon: {
+				id: "farm_and_charm:barley"
+			}
+			id: "50E6FA586B3ECC23"
+			rewards: [{
+				count: 6
+				id: "1551B62543201868"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.5d
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "5526FA3A91ECAA0B"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1556,7 +1499,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_modded_foods_completion"
+					command: "/function fc_collection:flora_compendium_misc_foods_completion"
 					exclude_from_claim_all: true
 					id: "3870911DABAC2A35"
 					permission_level: 2
@@ -1569,49 +1512,224 @@
 				item: { count: 1, id: "beachparty:coconut" }
 				type: "item"
 			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4A286A2192E6E23A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "221F72D92283E0F2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_foods_completion"
+					exclude_from_claim_all: true
+					id: "16BEECC495EE065E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2967E9367D69D97D"
+				item: { count: 1, id: "herbalbrews:coffee_beans" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "37182AAF7E2890D3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "0A1DC39DFD6C4BCA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_foods_completion"
+					exclude_from_claim_all: true
+					id: "0D65C48863012168"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "26C4897E65F134BA"
+				item: { count: 1, id: "herbalbrews:rooibos_leaf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1238E9B221B30FA1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "183AC90C51A32D56"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_foods_completion"
+					exclude_from_claim_all: true
+					id: "3ED3DDC8A7FF8B48"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "355F17F6A242BA42"
+				item: { count: 1, id: "herbalbrews:yerba_mate_leaf" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2A152F0864C4E5E8"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "1E9808E75C67E22E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_foods_completion"
+					exclude_from_claim_all: true
+					id: "0F04892CDAE5E6BE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "72D6C78440BF6BD7"
+				item: { count: 1, id: "quark:glow_shroom" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "001686692286A6D3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "76993B01DF787D7E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_foods_completion"
+					exclude_from_claim_all: true
+					id: "54164117A44A31F6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "48C41D7442FA9A23"
+				item: { count: 1, id: "wildernature:hazelnut" }
+				type: "item"
+			}]
 			x: 5.0d
-			y: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1D5872BD3E9B9E1D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "267D8D9B756A983D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_foods_completion"
+					exclude_from_claim_all: true
+					id: "4C72598EB7E702D7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5550E749D1BF4CFD"
+				item: { count: 1, id: "yungscavebiomes:prickly_peach" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
-				"26022F9CB6851F34"
-				"084140969B947B0B"
-				"2EA9AF8A57ABA722"
-				"6E5FD66D715D56E6"
-				"6D84BC8844C8806B"
-				"2BE44283BEDA4704"
-				"01DFDDDF3736B8BF"
-				"32EC85E3D230B5BC"
-				"6577A1BC108D6E45"
-				"1238E9B221B30FA1"
-				"37182AAF7E2890D3"
-				"4A286A2192E6E23A"
-				"3EA3D1D6FC374549"
-				"696D2E80AE0FC18D"
-				"3FC30F1E58B2EE70"
-				"3B30CA1DAB62B4F1"
-				"38281CE9D1A580C3"
-				"01E47E863B35BF58"
-				"287A4DE281BE6AA7"
-				"292FC20058D48D7B"
-				"183FE89F5814833B"
-				"71FCBD66F5F12227"
-				"2081B90A9B66A1F9"
-				"1D5872BD3E9B9E1D"
-				"28121FE516374C97"
-				"23197E6356D7B961"
-				"2C0EF1AA38D802B1"
-				"44F6BE2321777CAA"
-				"001686692286A6D3"
 				"38B2861704365ADB"
+				"4A286A2192E6E23A"
+				"37182AAF7E2890D3"
+				"1238E9B221B30FA1"
+				"2A152F0864C4E5E8"
+				"001686692286A6D3"
+				"1D5872BD3E9B9E1D"
 			]
 			icon: {
 				id: "farm_and_charm:corn"
 			}
-			id: "2DB621BCC10A0C1C"
+			id: "50343A8A3D3F7F86"
 			rewards: [{
-				count: 48
-				id: "0E913ECE3206A852"
+				count: 7
+				id: "31A775E5F4621AE0"
 				item: {
 					count: 1
 					id: "kubejs:miles_ticket"
@@ -1622,13 +1740,13 @@
 				icon: {
 					id: "minecraft:glass"
 				}
-				id: "5F5E4E778910BED1"
+				id: "6E821713CD41A52D"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
 				value: 1
 			}]
 			x: -1.0d
-			y: 5.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1661,7 +1779,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1694,7 +1812,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1727,7 +1845,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1760,7 +1878,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1793,7 +1911,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1826,7 +1944,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1859,7 +1977,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1892,7 +2010,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1925,7 +2043,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1958,7 +2076,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -1991,7 +2109,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2024,7 +2142,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2057,7 +2175,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2090,7 +2208,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2123,7 +2241,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2156,7 +2274,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2189,7 +2307,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2222,7 +2340,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -2268,7 +2386,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2301,7 +2419,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2334,7 +2452,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 12.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2367,7 +2485,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 12.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2400,7 +2518,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 12.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2433,7 +2551,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 12.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2466,7 +2584,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 12.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2499,7 +2617,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 13.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2532,7 +2650,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 13.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2565,7 +2683,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 13.5d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -2602,7 +2720,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 13.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2635,7 +2753,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 15.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2668,7 +2786,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 15.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2701,7 +2819,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 15.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2734,7 +2852,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 15.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2767,7 +2885,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 15.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2800,7 +2918,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 15.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2833,7 +2951,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 16.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2866,7 +2984,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 16.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2899,7 +3017,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 16.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -2932,7 +3050,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 16.0d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -2970,139 +3088,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "371FF6D9BC8586FA"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "67332B918EF23627"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "60C166F7038F7F11"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "5A1CA1C4E9474AB0"
-				item: { count: 1, id: "biomeswevegone:araucaria_sapling" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "117DC8AEA2A15ECF"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "753A42993C578A5A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "5D0405479F6B17F6"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2CE381969B049D33"
-				item: { count: 1, id: "biomeswevegone:aspen_sapling" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "6CE3E802E1D84FD9"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "156694B6A387A2B6"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "064F962177E6923E"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "571DF9BEBEB423B2"
-				item: { count: 1, id: "biomeswevegone:baobab_sapling" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "573C633A1637AFE9"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "2E148DB875EBD69C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "6BF1FC144FC2F56B"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "29080A39EDFF71B5"
-				item: { count: 1, id: "biomeswevegone:blue_enchanted_sapling" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 17.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -3121,7 +3107,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_spruce_saplings_completion"
 					exclude_from_claim_all: true
 					id: "45AD5D041E961ABF"
 					permission_level: 2
@@ -3134,338 +3120,8 @@
 				item: { count: 1, id: "biomeswevegone:blue_spruce_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "417C9B95ED586ECB"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "353D557882B7C7DE"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "4F53173ED883261D"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "3E70F04782F18765"
-				item: { count: 1, id: "biomeswevegone:brown_birch_sapling" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "54D52AD9CAA914BA"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "4FF92ADC74AE231C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "0B6A4FB2EBABC647"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "799A09DEC1F5F23C"
-				item: { count: 1, id: "biomeswevegone:brown_oak_sapling" }
-				type: "item"
-			}]
 			x: 0.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "27DD7B1F0AD9BC8B"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "49BBD39BCA786BD7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "2F71DB1BBC90F27A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "49C015577425C025"
-				item: { count: 1, id: "biomeswevegone:cika_sapling" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "12F6F77C16C91B68"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "132388883172B3E1"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "62158B9A79F609AF"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "049FC9195D4ABBAF"
-				item: { count: 1, id: "biomeswevegone:cypress_sapling" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "47C5DB9988EBB053"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "15DD41ACB8336A7B"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "7B8CC762E3D96916"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "53C8B829CE063512"
-				item: { count: 1, id: "biomeswevegone:ebony_sapling" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "7B110B9E79BBFCBC"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "2C98705D02192490"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "0019303E97F9BAAA"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "63CF450E2CE09F77"
-				item: { count: 1, id: "biomeswevegone:holly_sapling" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "51B29B2C384CD51C"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "74052D2F54A2E4E7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "5D9E8B2AE0BD6137"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2243CA61782CEE91"
-				item: { count: 1, id: "biomeswevegone:ironwood_sapling" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "5ADE97FC30D46187"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "2ADEDCD99A98723A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "2DE66C32BBB0D904"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "59CD28AEB4E9B18C"
-				item: { count: 1, id: "biomeswevegone:jacaranda_sapling" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "486C219B7E538ADC"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "79065A9DAE1738C4"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "5A9C80AFB8C03500"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "30B76C4776EE6BE8"
-				item: { count: 1, id: "biomeswevegone:maple_sapling" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "778298B31D76EE36"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "05FEAF85DB8789B9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "46A3A8589BC8B658"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0B01B571C09639C0"
-				item: { count: 1, id: "biomeswevegone:orange_birch_sapling" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 19.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -3484,7 +3140,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_spruce_saplings_completion"
 					exclude_from_claim_all: true
 					id: "331AE255976DF9D2"
 					permission_level: 2
@@ -3497,206 +3153,8 @@
 				item: { count: 1, id: "biomeswevegone:orange_spruce_sapling" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "265CD4459AED7872"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "522BC327FFED8144"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "32313E9696E6A259"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "1E7D78EE44F9024D"
-				item: { count: 1, id: "biomeswevegone:orchard_sapling" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "59DB480BF357714C"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "10AAD2D5DF9CFAD6"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "0441060C90711467"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "619A3F72BB11851F"
-				item: { count: 1, id: "biomeswevegone:palm_sapling" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "5C56381B8961C2F0"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "1C86EE01C220E5CE"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "4EB2D183C0B3BC1F"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "57C74B8229DAEFAC"
-				item: { count: 1, id: "biomeswevegone:palo_verde_sapling" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 20.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4DD95E1E21A5A262"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "5B88465E660F8F7A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "548B987AAB014656"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "63288FA8980B7EED"
-				item: { count: 1, id: "biomeswevegone:pine_sapling" }
-				type: "item"
-			}]
 			x: 1.0d
-			y: 20.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "32B330BE70EC4AA6"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "472865B0DB0389A1"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "324E673D9FAC8D38"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6EB1098BEBD70111"
-				item: { count: 1, id: "biomeswevegone:red_maple_sapling" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 20.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "50C3AD5BAC81847C"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "67E35F9924FBA543"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "2BD5942CEF6DC712"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "31BED088419C7033"
-				item: { count: 1, id: "biomeswevegone:red_oak_sapling" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 20.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -3715,7 +3173,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_spruce_saplings_completion"
 					exclude_from_claim_all: true
 					id: "31C98ECB0D2B4885"
 					permission_level: 2
@@ -3728,239 +3186,105 @@
 				item: { count: 1, id: "biomeswevegone:red_spruce_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 20.5d
+			x: 2.0d
+			y: 21.0d
 		}
 		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "38591097742F5C2F"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "38D697BDA46B652E"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "24AFB0B15759431C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
+			dependencies: [
+				"00BEA4B8DFAD1465"
+				"21B2960C618A4FF6"
+				"33D36984EF1E2C81"
 			]
-			tasks: [{
-				id: "140B5E863D9E4568"
-				item: { count: 1, id: "biomeswevegone:redwood_sapling" }
+			icon: {
+				id: "biomeswevegone:blue_spruce_sapling"
+			}
+			id: "54062BB5C60C6205"
+			rewards: [{
+				count: 3
+				id: "696A49126B6BC6B9"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 20.5d
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "0FCB172AD6440F9C"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "137B5D32EA20E342"
+			id: "417C9B95ED586ECB"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "37737C818DD979C1"
+					id: "353D557882B7C7DE"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_birch_saplings_completion"
 					exclude_from_claim_all: true
-					id: "47ED6F97D3A9B002"
+					id: "4F53173ED883261D"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "6D76CF365FA8590B"
-				item: { count: 1, id: "biomeswevegone:silver_maple_sapling" }
+				id: "3E70F04782F18765"
+				item: { count: 1, id: "biomeswevegone:brown_birch_sapling" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: 21.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "2DF3E2E70C54666D"
+			id: "778298B31D76EE36"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "2A3B5D5F46BFA90F"
+					id: "05FEAF85DB8789B9"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_birch_saplings_completion"
 					exclude_from_claim_all: true
-					id: "7DF6A5B5EA2D6901"
+					id: "46A3A8589BC8B658"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "513DA3244C4049D9"
-				item: { count: 1, id: "biomeswevegone:skyris_sapling" }
+				id: "0B01B571C09639C0"
+				item: { count: 1, id: "biomeswevegone:orange_birch_sapling" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: 21.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4CEA38683C3DF432"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "00318981C69412A9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "1CEE4FC2FADBB651"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2FED84DE9C8DA9CC"
-				item: { count: 1, id: "biomeswevegone:spirit_sapling" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 21.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "194D581613E09E36"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "7479D5DBF715F826"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "50D18F9271B0DF83"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2986C4926C425B41"
-				item: { count: 1, id: "biomeswevegone:white_mangrove_sapling" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 21.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4D90EB755FB0B5FD"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "468C4616986519BE"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "03648446C63690E9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6788C48F14F0AA91"
-				item: { count: 1, id: "biomeswevegone:white_sakura_sapling" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 21.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "18A614917056ECA2"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "68EAEBE6F1807D7F"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
-					exclude_from_claim_all: true
-					id: "71C63182C5289FAF"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2EF82B30A74A7BD4"
-				item: { count: 1, id: "biomeswevegone:witch_hazel_sapling" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 21.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -3979,7 +3303,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_birch_saplings_completion"
 					exclude_from_claim_all: true
 					id: "62B601F8CAB011E5"
 					permission_level: 2
@@ -3992,8 +3316,301 @@
 				item: { count: 1, id: "biomeswevegone:yellow_birch_sapling" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 22.5d
+		}
+		{
+			dependencies: [
+				"417C9B95ED586ECB"
+				"778298B31D76EE36"
+				"073B9BDF4F41B8C3"
+			]
+			icon: {
+				id: "biomeswevegone:brown_birch_sapling"
+			}
+			id: "65C43C13CE6FF1F8"
+			rewards: [{
+				count: 3
+				id: "5EE161CB6BB0F994"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "4B15627FEAE715A4"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "486C219B7E538ADC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "79065A9DAE1738C4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_maple_saplings_completion"
+					exclude_from_claim_all: true
+					id: "5A9C80AFB8C03500"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "30B76C4776EE6BE8"
+				item: { count: 1, id: "biomeswevegone:maple_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "32B330BE70EC4AA6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "472865B0DB0389A1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_maple_saplings_completion"
+					exclude_from_claim_all: true
+					id: "324E673D9FAC8D38"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6EB1098BEBD70111"
+				item: { count: 1, id: "biomeswevegone:red_maple_sapling" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "137B5D32EA20E342"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "37737C818DD979C1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_maple_saplings_completion"
+					exclude_from_claim_all: true
+					id: "47ED6F97D3A9B002"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6D76CF365FA8590B"
+				item: { count: 1, id: "biomeswevegone:silver_maple_sapling" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"486C219B7E538ADC"
+				"32B330BE70EC4AA6"
+				"137B5D32EA20E342"
+			]
+			icon: {
+				id: "biomeswevegone:maple_sapling"
+			}
+			id: "34A43C090C8D9514"
+			rewards: [{
+				count: 3
+				id: "60F50E29DA28D538"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "6C767F403E6DE57D"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "54D52AD9CAA914BA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "4FF92ADC74AE231C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vanilla_variant_saplings_completion"
+					exclude_from_claim_all: true
+					id: "0B6A4FB2EBABC647"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "799A09DEC1F5F23C"
+				item: { count: 1, id: "biomeswevegone:brown_oak_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "50C3AD5BAC81847C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "67E35F9924FBA543"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vanilla_variant_saplings_completion"
+					exclude_from_claim_all: true
+					id: "2BD5942CEF6DC712"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "31BED088419C7033"
+				item: { count: 1, id: "biomeswevegone:red_oak_sapling" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "194D581613E09E36"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "7479D5DBF715F826"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vanilla_variant_saplings_completion"
+					exclude_from_claim_all: true
+					id: "50D18F9271B0DF83"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2986C4926C425B41"
+				item: { count: 1, id: "biomeswevegone:white_mangrove_sapling" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4D90EB755FB0B5FD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "468C4616986519BE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_vanilla_variant_saplings_completion"
+					exclude_from_claim_all: true
+					id: "03648446C63690E9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6788C48F14F0AA91"
+				item: { count: 1, id: "biomeswevegone:white_sakura_sapling" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4012,7 +3629,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_vanilla_variant_saplings_completion"
 					exclude_from_claim_all: true
 					id: "224BCFD912329CD6"
 					permission_level: 2
@@ -4025,8 +3642,635 @@
 				item: { count: 1, id: "biomeswevegone:yellow_sakura_sapling" }
 				type: "item"
 			}]
+			x: 4.0d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"54D52AD9CAA914BA"
+				"50C3AD5BAC81847C"
+				"194D581613E09E36"
+				"4D90EB755FB0B5FD"
+				"51791C233BFD3C05"
+			]
+			icon: {
+				id: "biomeswevegone:brown_birch_sapling"
+			}
+			id: "5A339E7E0C45CE52"
+			rewards: [{
+				count: 5
+				id: "64F133AA6888DB63"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "6E5AD5CFB6B5A04C"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "371FF6D9BC8586FA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "67332B918EF23627"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "60C166F7038F7F11"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5A1CA1C4E9474AB0"
+				item: { count: 1, id: "biomeswevegone:araucaria_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "117DC8AEA2A15ECF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "753A42993C578A5A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "5D0405479F6B17F6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2CE381969B049D33"
+				item: { count: 1, id: "biomeswevegone:aspen_sapling" }
+				type: "item"
+			}]
 			x: 1.0d
-			y: 22.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "6CE3E802E1D84FD9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "156694B6A387A2B6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "064F962177E6923E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "571DF9BEBEB423B2"
+				item: { count: 1, id: "biomeswevegone:baobab_sapling" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "573C633A1637AFE9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "2E148DB875EBD69C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "6BF1FC144FC2F56B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "29080A39EDFF71B5"
+				item: { count: 1, id: "biomeswevegone:blue_enchanted_sapling" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "27DD7B1F0AD9BC8B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "49BBD39BCA786BD7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "2F71DB1BBC90F27A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "49C015577425C025"
+				item: { count: 1, id: "biomeswevegone:cika_sapling" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "12F6F77C16C91B68"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "132388883172B3E1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "62158B9A79F609AF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "049FC9195D4ABBAF"
+				item: { count: 1, id: "biomeswevegone:cypress_sapling" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "47C5DB9988EBB053"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "15DD41ACB8336A7B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "7B8CC762E3D96916"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "53C8B829CE063512"
+				item: { count: 1, id: "biomeswevegone:ebony_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7B110B9E79BBFCBC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "2C98705D02192490"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "0019303E97F9BAAA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "63CF450E2CE09F77"
+				item: { count: 1, id: "biomeswevegone:holly_sapling" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "51B29B2C384CD51C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "74052D2F54A2E4E7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "5D9E8B2AE0BD6137"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2243CA61782CEE91"
+				item: { count: 1, id: "biomeswevegone:ironwood_sapling" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5ADE97FC30D46187"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "2ADEDCD99A98723A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "2DE66C32BBB0D904"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "59CD28AEB4E9B18C"
+				item: { count: 1, id: "biomeswevegone:jacaranda_sapling" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "265CD4459AED7872"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "522BC327FFED8144"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "32313E9696E6A259"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1E7D78EE44F9024D"
+				item: { count: 1, id: "biomeswevegone:orchard_sapling" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "59DB480BF357714C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "10AAD2D5DF9CFAD6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "0441060C90711467"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "619A3F72BB11851F"
+				item: { count: 1, id: "biomeswevegone:palm_sapling" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5C56381B8961C2F0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "1C86EE01C220E5CE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "4EB2D183C0B3BC1F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "57C74B8229DAEFAC"
+				item: { count: 1, id: "biomeswevegone:palo_verde_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4DD95E1E21A5A262"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "5B88465E660F8F7A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "548B987AAB014656"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "63288FA8980B7EED"
+				item: { count: 1, id: "biomeswevegone:pine_sapling" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "38591097742F5C2F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "38D697BDA46B652E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "24AFB0B15759431C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "140B5E863D9E4568"
+				item: { count: 1, id: "biomeswevegone:redwood_sapling" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2DF3E2E70C54666D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "2A3B5D5F46BFA90F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "7DF6A5B5EA2D6901"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "513DA3244C4049D9"
+				item: { count: 1, id: "biomeswevegone:skyris_sapling" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4CEA38683C3DF432"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "00318981C69412A9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "1CEE4FC2FADBB651"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2FED84DE9C8DA9CC"
+				item: { count: 1, id: "biomeswevegone:spirit_sapling" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "18A614917056ECA2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "68EAEBE6F1807D7F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
+					exclude_from_claim_all: true
+					id: "71C63182C5289FAF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2EF82B30A74A7BD4"
+				item: { count: 1, id: "biomeswevegone:witch_hazel_sapling" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4045,7 +4289,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
 					exclude_from_claim_all: true
 					id: "5BBBDCE8740C19E2"
 					permission_level: 2
@@ -4058,8 +4302,8 @@
 				item: { count: 1, id: "biomeswevegone:yucca_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 22.5d
+			x: 0.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4078,7 +4322,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_saplings"
+					command: "/function fc_collection:flora_compendium_misc_saplings_completion"
 					exclude_from_claim_all: true
 					id: "7348924925D6992D"
 					permission_level: 2
@@ -4091,8 +4335,8 @@
 				item: { count: 1, id: "biomeswevegone:zelkova_sapling" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 22.5d
+			x: 1.0d
+			y: 30.0d
 		}
 		{
 			dependencies: [
@@ -4100,44 +4344,30 @@
 				"117DC8AEA2A15ECF"
 				"6CE3E802E1D84FD9"
 				"573C633A1637AFE9"
-				"00BEA4B8DFAD1465"
-				"417C9B95ED586ECB"
-				"54D52AD9CAA914BA"
 				"27DD7B1F0AD9BC8B"
 				"12F6F77C16C91B68"
 				"47C5DB9988EBB053"
 				"7B110B9E79BBFCBC"
 				"51B29B2C384CD51C"
 				"5ADE97FC30D46187"
-				"486C219B7E538ADC"
-				"778298B31D76EE36"
-				"21B2960C618A4FF6"
 				"265CD4459AED7872"
 				"59DB480BF357714C"
 				"5C56381B8961C2F0"
 				"4DD95E1E21A5A262"
-				"32B330BE70EC4AA6"
-				"50C3AD5BAC81847C"
-				"33D36984EF1E2C81"
 				"38591097742F5C2F"
-				"137B5D32EA20E342"
 				"2DF3E2E70C54666D"
 				"4CEA38683C3DF432"
-				"194D581613E09E36"
-				"4D90EB755FB0B5FD"
 				"18A614917056ECA2"
-				"073B9BDF4F41B8C3"
-				"51791C233BFD3C05"
 				"03CE6A1EE54B1D37"
 				"0EF2793D18B4F68F"
 			]
 			icon: {
 				id: "biomeswevegone:araucaria_sapling"
 			}
-			id: "31625B8D809CCCCB"
+			id: "158C5EE076736AD8"
 			rewards: [{
-				count: 57
-				id: "2DF5758CBB08304C"
+				count: 28
+				id: "704E09E6DEB5FF54"
 				item: {
 					count: 1
 					id: "kubejs:miles_ticket"
@@ -4148,13 +4378,13 @@
 				icon: {
 					id: "minecraft:glass"
 				}
-				id: "377B20BA20B76B1C"
+				id: "64559759D86E7DC7"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
 				value: 1
 			}]
 			x: -1.0d
-			y: 20.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4187,7 +4417,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 24.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4220,7 +4450,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 24.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4253,7 +4483,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 24.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4286,7 +4516,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 24.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4319,7 +4549,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 24.0d
+			y: 31.5d
 		}
 		{
 			dependencies: [
@@ -4352,7 +4582,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 24.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4385,7 +4615,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 25.5d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4418,7 +4648,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 25.5d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4451,7 +4681,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 25.5d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4484,7 +4714,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 25.5d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4517,7 +4747,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 25.5d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4550,7 +4780,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 25.5d
+			y: 33.0d
 		}
 		{
 			dependencies: [
@@ -4584,7 +4814,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 25.5d
+			y: 33.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4617,7 +4847,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 27.0d
+			y: 34.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4650,7 +4880,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 27.0d
+			y: 34.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4683,7 +4913,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 27.0d
+			y: 34.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4716,7 +4946,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 27.0d
+			y: 34.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4749,7 +4979,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 27.0d
+			y: 34.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4782,7 +5012,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 27.0d
+			y: 34.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4815,7 +5045,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 28.0d
+			y: 35.5d
 		}
 		{
 			dependencies: [
@@ -4850,7 +5080,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 27.5d
+			y: 35.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4883,7 +5113,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 29.5d
+			y: 37.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4916,7 +5146,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 29.5d
+			y: 37.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4949,7 +5179,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 29.5d
+			y: 37.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -4982,7 +5212,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 29.5d
+			y: 37.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5015,7 +5245,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 29.5d
+			y: 37.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -5048,7 +5278,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 29.5d
+			y: 37.0d
 		}
 		{
 			dependencies: [
@@ -5082,1293 +5312,6 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 29.5d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "028B52BEB61B2B74"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "4BC9ACED0792AE46"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "30DFAFAE7A67FBD1"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "3BCCB3B8EA2DD126"
-				item: { count: 1, id: "biomeswevegone:alpine_bellflower" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "7DB7221E9C79AB00"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "7634355DDD5866E9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "61EFED5007C8A48F"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "501BA7973103CDAD"
-				item: { count: 1, id: "biomeswevegone:amaranth" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "53430769AFDE9882"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "4883C777E7FDB7B6"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "6C3D90F1BB0D042C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "1859206A1BD671E1"
-				item: { count: 1, id: "biomeswevegone:angelica" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "37D7BDBE0F606B41"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "23C207F769D7E9AA"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "750BD741FF5AF8D9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "4E2F83AD4A639608"
-				item: { count: 1, id: "biomeswevegone:bistort" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "26A21A25235622AB"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "759221BD8CE16A4D"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "32E40887C6999BCE"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "3C94240AE64F7D3A"
-				item: { count: 1, id: "biomeswevegone:black_rose" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "75754984FAE8D94F"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "0614707870A9B180"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "4F5A84BF8D1217D9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6AF411E2145C36A2"
-				item: { count: 1, id: "biomeswevegone:california_poppy" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "1E8359190585689E"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "162765B4A78F9FD0"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "5D21509A37803F4C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "02B8F2095B389DB9"
-				item: { count: 1, id: "biomeswevegone:crocus" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "5D3EBF82524F84AD"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "7B241A932B74E49C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "34C180A2F889F361"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2F36692BE230C791"
-				item: { count: 1, id: "biomeswevegone:cyan_amaranth" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "0FCADDC2B6893A05"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "755290D3B23D6190"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "31E320A72EEB9986"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "41C16D1FD48745C3"
-				item: { count: 1, id: "biomeswevegone:cyan_rose" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "751B47C01459BEDD"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "7116725BF2583502"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "52C94A5D15E3EE16"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0FEE538544B2003E"
-				item: { count: 1, id: "biomeswevegone:delphinium" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "363145D23081EFC8"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "2AC02FECD612F8C1"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "2F2A094E3ED146BF"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "76D45A8F17771662"
-				item: { count: 1, id: "biomeswevegone:fairy_slipper" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "23FC7FA1A4F70FDF"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "512EA1E6B8FD2442"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "61C64384F306E437"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "29D9C96305FADA29"
-				item: { count: 1, id: "biomeswevegone:foxglove" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "3F44A83F135696F1"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "5CAFCE725A946DAA"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "2C06978B8745A7DD"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "449B634F40F20534"
-				item: { count: 1, id: "biomeswevegone:iris" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 33.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "5B02BD147F96CBA4"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "36DD62B1CC95286E"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "7219A668C6BAABC0"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "39F0BFDCFDBF9D28"
-				item: { count: 1, id: "biomeswevegone:japanese_orchid" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 33.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "149C42707870B48B"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "04441C40E455ABA6"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "2C08B700437CC6B8"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2F35D4385A2592D8"
-				item: { count: 1, id: "biomeswevegone:kovan_flower" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 33.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4EEB0CE80BBC2880"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "1DB3CCDB211A701D"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "0915B9E99F6F398B"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6D1BB2872A0B6E16"
-				item: { count: 1, id: "biomeswevegone:lazarus_bellflower" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 33.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "76D5B194BBFC0463"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "4EAC51C0B2FB6CFA"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "44F6654C72443969"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2ADFD532BB2C0B80"
-				item: { count: 1, id: "biomeswevegone:lollipop_flower" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 33.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "557D8A8E808885F3"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "04C4FBAD4C3A1C78"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "05C5FA971C79B45E"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0125B4572C3DDC1E"
-				item: { count: 1, id: "biomeswevegone:magenta_amaranth" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 33.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "13EF7229AB416978"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "68990D098E081DE0"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "7B0E71353F891127"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "2AC5B7B6CA6E1EC3"
-				item: { count: 1, id: "biomeswevegone:orange_amaranth" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 34.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "412E09A0B9D850FD"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "3754252DBACCF6A4"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "11B787BE80380124"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "322E7B47DFF279AB"
-				item: { count: 1, id: "biomeswevegone:orange_daisy" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 34.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "32364C6CF1361744"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "7BFC4103AF408853"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "15A7D6A26C7B1EAA"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "02FED2AAA529829F"
-				item: { count: 1, id: "biomeswevegone:peach_leather_flower" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 34.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "74A82CBA38AB7657"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "252C26D3C9FD40B7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "08452656F804BA22"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0D3569A7F2006505"
-				item: { count: 1, id: "biomeswevegone:pink_anemone" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 34.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "67D45DD2E285879B"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "01FE80CED8AEC118"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "33071DDFC5E285BB"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "291DE33FB84D0EA8"
-				item: { count: 1, id: "biomeswevegone:pink_daffodil" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 34.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "711C7643EDBACA38"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "3824966F9E69C68A"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "787F44A5BE1FD0D7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6DC7775ADE09BC55"
-				item: { count: 1, id: "biomeswevegone:protea_flower" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 34.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "3A280638FF21ABF0"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "4D0FAF16D7110D7F"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "45B839F65B4C07E7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "27ACCE14AEA1F9F3"
-				item: { count: 1, id: "biomeswevegone:purple_amaranth" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 35.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "16B2D7F6774829B1"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "77B0445C3C347F63"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "501971F42C55CD3C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6C0149FDCB7EE194"
-				item: { count: 1, id: "biomeswevegone:rose" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 35.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "07DBFEDB34C3CFEE"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "3100746CB26B0F56"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "51D5D47D227A33A7"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "0A9E7EB6366E8960"
-				item: { count: 1, id: "biomeswevegone:snowdrops" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 35.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "0E56E3FF97B2E83B"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "0C3633CF71C8D5FF"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "739DFF5C0189D21F"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "3E4F85A78137CD86"
-				item: { count: 1, id: "biomeswevegone:winter_cyclamen" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 35.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "77924A275C8C1B2A"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "273D638AB4ECFFF1"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "3D8AE80C776137CC"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "1E5FF489439F098B"
-				item: { count: 1, id: "biomeswevegone:winter_rose" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 35.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "77135079D50E4EAA"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "4A92082E545D663F"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "625C93592BE42EC5"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "4C8955BED3D200F2"
-				item: { count: 1, id: "biomeswevegone:winter_scilla" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 35.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "406EBA581B6EE35F"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "76CDAFA3C6D1A3F0"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "02D5117A99CDB8B9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "3FAF2236C57CA75B"
-				item: { count: 1, id: "biomeswevegone:winter_succulent" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 36.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "1B18E7D9D3C4F91E"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "1DBEC3C08C24487F"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "7E64057C8CB02EA4"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "08F2473B6C1283B1"
-				item: { count: 1, id: "biomeswevegone:yellow_daffodil" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 36.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "180FA5F4E3F4B4F1"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "31985944950ADCC9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "62F59979FC8FFC58"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6409B348B84189E5"
-				item: { count: 1, id: "meadow:alpine_poppy" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 36.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "31CC734EE1EE3552"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "142603A0F8DB20FB"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "3A212675374375E1"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "43AA2B811BD5986A"
-				item: { count: 1, id: "meadow:delphinium" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 36.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4E5F821153A90EB1"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "6A4C6E1DF7EEA770"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "4425C30DA1BD9C01"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "47AF7FF5E1C99FB4"
-				item: { count: 1, id: "meadow:saxifrage" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 36.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "67A1190099FDBA31"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "74E203474DFC917E"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "604FCF969B0DFC90"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "7DD82AD3C45EAA54"
-				item: { count: 1, id: "meadow:enzian" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 36.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "152B1CB2B35BF495"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "3124C52418CF5179"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "2979B3162A963869"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "256DBB6447450EF3"
-				item: { count: 1, id: "meadow:fire_lily" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 37.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "362C66886E7D7F4B"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "1AD9E1E64840B838"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "49A75CE794931B95"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "60D994F8794427F1"
-				item: { count: 1, id: "meadow:eriophorum" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 37.0d
-		}
-		{
-			dependencies: ["4F114B795F9ABFD0"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "6903751EB0B9C072"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium"
-					exclude_from_claim_all: true
-					id: "1CD4062F41DE2543"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
-					exclude_from_claim_all: true
-					id: "27AADF6DCF969C32"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "536886A5829BD384"
-				item: { count: 1, id: "meadow:tall_eriophorum" }
-				type: "item"
-			}]
-			x: 2.0d
 			y: 37.0d
 		}
 		{
@@ -6388,7 +5331,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
+					command: "/function fc_collection:flora_compendium_roses_completion"
 					exclude_from_claim_all: true
 					id: "795970226B3EDEED"
 					permission_level: 2
@@ -6401,8 +5344,1427 @@
 				item: { count: 1, id: "candlelight:rose" }
 				type: "item"
 			}]
+			x: 0.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "16B2D7F6774829B1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "77B0445C3C347F63"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_roses_completion"
+					exclude_from_claim_all: true
+					id: "501971F42C55CD3C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6C0149FDCB7EE194"
+				item: { count: 1, id: "biomeswevegone:rose" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "26A21A25235622AB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "759221BD8CE16A4D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_roses_completion"
+					exclude_from_claim_all: true
+					id: "32E40887C6999BCE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3C94240AE64F7D3A"
+				item: { count: 1, id: "biomeswevegone:black_rose" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "0FCADDC2B6893A05"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "755290D3B23D6190"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_roses_completion"
+					exclude_from_claim_all: true
+					id: "31E320A72EEB9986"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "41C16D1FD48745C3"
+				item: { count: 1, id: "biomeswevegone:cyan_rose" }
+				type: "item"
+			}]
 			x: 3.0d
-			y: 37.0d
+			y: 38.5d
+		}
+		{
+			dependencies: [
+				"72E742078D6F1DA9"
+				"16B2D7F6774829B1"
+				"26A21A25235622AB"
+				"0FCADDC2B6893A05"
+			]
+			icon: {
+				id: "candlelight:rose"
+			}
+			id: "1747FC72951AB1BB"
+			rewards: [{
+				count: 4
+				id: "797FAD5E8B8B4926"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "3D7BC8F8B63B601B"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "180FA5F4E3F4B4F1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "31985944950ADCC9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_meadow_flowers_completion"
+					exclude_from_claim_all: true
+					id: "62F59979FC8FFC58"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6409B348B84189E5"
+				item: { count: 1, id: "meadow:alpine_poppy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "31CC734EE1EE3552"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "142603A0F8DB20FB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_meadow_flowers_completion"
+					exclude_from_claim_all: true
+					id: "3A212675374375E1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "43AA2B811BD5986A"
+				item: { count: 1, id: "meadow:delphinium" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4E5F821153A90EB1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "6A4C6E1DF7EEA770"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_meadow_flowers_completion"
+					exclude_from_claim_all: true
+					id: "4425C30DA1BD9C01"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "47AF7FF5E1C99FB4"
+				item: { count: 1, id: "meadow:saxifrage" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "67A1190099FDBA31"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "74E203474DFC917E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_meadow_flowers_completion"
+					exclude_from_claim_all: true
+					id: "604FCF969B0DFC90"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7DD82AD3C45EAA54"
+				item: { count: 1, id: "meadow:enzian" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "152B1CB2B35BF495"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "3124C52418CF5179"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_meadow_flowers_completion"
+					exclude_from_claim_all: true
+					id: "2979B3162A963869"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "256DBB6447450EF3"
+				item: { count: 1, id: "meadow:fire_lily" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "362C66886E7D7F4B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "1AD9E1E64840B838"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_meadow_flowers_completion"
+					exclude_from_claim_all: true
+					id: "49A75CE794931B95"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "60D994F8794427F1"
+				item: { count: 1, id: "meadow:eriophorum" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "6903751EB0B9C072"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "1CD4062F41DE2543"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_meadow_flowers_completion"
+					exclude_from_claim_all: true
+					id: "27AADF6DCF969C32"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "536886A5829BD384"
+				item: { count: 1, id: "meadow:tall_eriophorum" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 41.0d
+		}
+		{
+			dependencies: [
+				"180FA5F4E3F4B4F1"
+				"31CC734EE1EE3552"
+				"4E5F821153A90EB1"
+				"67A1190099FDBA31"
+				"152B1CB2B35BF495"
+				"362C66886E7D7F4B"
+				"6903751EB0B9C072"
+			]
+			icon: {
+				id: "meadow:alpine_poppy"
+			}
+			id: "26F343DDCADA67B9"
+			rewards: [{
+				count: 7
+				id: "3733D2A9552BFB02"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "7743A11AA058C847"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "0E56E3FF97B2E83B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "0C3633CF71C8D5FF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_winter_flowers_completion"
+					exclude_from_claim_all: true
+					id: "739DFF5C0189D21F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3E4F85A78137CD86"
+				item: { count: 1, id: "biomeswevegone:winter_cyclamen" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "77924A275C8C1B2A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "273D638AB4ECFFF1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_winter_flowers_completion"
+					exclude_from_claim_all: true
+					id: "3D8AE80C776137CC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1E5FF489439F098B"
+				item: { count: 1, id: "biomeswevegone:winter_rose" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "77135079D50E4EAA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "4A92082E545D663F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_winter_flowers_completion"
+					exclude_from_claim_all: true
+					id: "625C93592BE42EC5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4C8955BED3D200F2"
+				item: { count: 1, id: "biomeswevegone:winter_scilla" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "406EBA581B6EE35F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "76CDAFA3C6D1A3F0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_winter_flowers_completion"
+					exclude_from_claim_all: true
+					id: "02D5117A99CDB8B9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3FAF2236C57CA75B"
+				item: { count: 1, id: "biomeswevegone:winter_succulent" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 42.5d
+		}
+		{
+			dependencies: [
+				"0E56E3FF97B2E83B"
+				"77924A275C8C1B2A"
+				"77135079D50E4EAA"
+				"406EBA581B6EE35F"
+			]
+			icon: {
+				id: "biomeswevegone:winter_cyclamen"
+			}
+			id: "03519F36BA5FDF78"
+			rewards: [{
+				count: 4
+				id: "1B4F6C2283E71636"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "3E4C5B75EC3D8B72"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7DB7221E9C79AB00"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "7634355DDD5866E9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_amaranth_completion"
+					exclude_from_claim_all: true
+					id: "61EFED5007C8A48F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "501BA7973103CDAD"
+				item: { count: 1, id: "biomeswevegone:amaranth" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5D3EBF82524F84AD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "7B241A932B74E49C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_amaranth_completion"
+					exclude_from_claim_all: true
+					id: "34C180A2F889F361"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2F36692BE230C791"
+				item: { count: 1, id: "biomeswevegone:cyan_amaranth" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "557D8A8E808885F3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "04C4FBAD4C3A1C78"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_amaranth_completion"
+					exclude_from_claim_all: true
+					id: "05C5FA971C79B45E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0125B4572C3DDC1E"
+				item: { count: 1, id: "biomeswevegone:magenta_amaranth" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "13EF7229AB416978"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "68990D098E081DE0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_amaranth_completion"
+					exclude_from_claim_all: true
+					id: "7B0E71353F891127"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2AC5B7B6CA6E1EC3"
+				item: { count: 1, id: "biomeswevegone:orange_amaranth" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3A280638FF21ABF0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "4D0FAF16D7110D7F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_amaranth_completion"
+					exclude_from_claim_all: true
+					id: "45B839F65B4C07E7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "27ACCE14AEA1F9F3"
+				item: { count: 1, id: "biomeswevegone:purple_amaranth" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 44.0d
+		}
+		{
+			dependencies: [
+				"7DB7221E9C79AB00"
+				"5D3EBF82524F84AD"
+				"557D8A8E808885F3"
+				"13EF7229AB416978"
+				"3A280638FF21ABF0"
+			]
+			icon: {
+				id: "biomeswevegone:amaranth"
+			}
+			id: "0BB37D9B93E73AE8"
+			rewards: [{
+				count: 5
+				id: "6912A5901BE1BEEC"
+				item: {
+					count: 1
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "19827F6AD945A748"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -1.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "028B52BEB61B2B74"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "4BC9ACED0792AE46"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "30DFAFAE7A67FBD1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3BCCB3B8EA2DD126"
+				item: { count: 1, id: "biomeswevegone:alpine_bellflower" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "53430769AFDE9882"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "4883C777E7FDB7B6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "6C3D90F1BB0D042C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1859206A1BD671E1"
+				item: { count: 1, id: "biomeswevegone:angelica" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "37D7BDBE0F606B41"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "23C207F769D7E9AA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "750BD741FF5AF8D9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4E2F83AD4A639608"
+				item: { count: 1, id: "biomeswevegone:bistort" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "75754984FAE8D94F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "0614707870A9B180"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "4F5A84BF8D1217D9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6AF411E2145C36A2"
+				item: { count: 1, id: "biomeswevegone:california_poppy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1E8359190585689E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "162765B4A78F9FD0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "5D21509A37803F4C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "02B8F2095B389DB9"
+				item: { count: 1, id: "biomeswevegone:crocus" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "751B47C01459BEDD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "7116725BF2583502"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "52C94A5D15E3EE16"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0FEE538544B2003E"
+				item: { count: 1, id: "biomeswevegone:delphinium" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "363145D23081EFC8"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "2AC02FECD612F8C1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "2F2A094E3ED146BF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "76D45A8F17771662"
+				item: { count: 1, id: "biomeswevegone:fairy_slipper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "23FC7FA1A4F70FDF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "512EA1E6B8FD2442"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "61C64384F306E437"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "29D9C96305FADA29"
+				item: { count: 1, id: "biomeswevegone:foxglove" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3F44A83F135696F1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "5CAFCE725A946DAA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "2C06978B8745A7DD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "449B634F40F20534"
+				item: { count: 1, id: "biomeswevegone:iris" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5B02BD147F96CBA4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "36DD62B1CC95286E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "7219A668C6BAABC0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "39F0BFDCFDBF9D28"
+				item: { count: 1, id: "biomeswevegone:japanese_orchid" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "149C42707870B48B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "04441C40E455ABA6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "2C08B700437CC6B8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2F35D4385A2592D8"
+				item: { count: 1, id: "biomeswevegone:kovan_flower" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4EEB0CE80BBC2880"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "1DB3CCDB211A701D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "0915B9E99F6F398B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6D1BB2872A0B6E16"
+				item: { count: 1, id: "biomeswevegone:lazarus_bellflower" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "76D5B194BBFC0463"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "4EAC51C0B2FB6CFA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "44F6654C72443969"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2ADFD532BB2C0B80"
+				item: { count: 1, id: "biomeswevegone:lollipop_flower" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 47.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "412E09A0B9D850FD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "3754252DBACCF6A4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "11B787BE80380124"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "322E7B47DFF279AB"
+				item: { count: 1, id: "biomeswevegone:orange_daisy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 47.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "32364C6CF1361744"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "7BFC4103AF408853"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "15A7D6A26C7B1EAA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "02FED2AAA529829F"
+				item: { count: 1, id: "biomeswevegone:peach_leather_flower" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 47.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "74A82CBA38AB7657"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "252C26D3C9FD40B7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "08452656F804BA22"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0D3569A7F2006505"
+				item: { count: 1, id: "biomeswevegone:pink_anemone" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 47.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "67D45DD2E285879B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "01FE80CED8AEC118"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "33071DDFC5E285BB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "291DE33FB84D0EA8"
+				item: { count: 1, id: "biomeswevegone:pink_daffodil" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 47.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "711C7643EDBACA38"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "3824966F9E69C68A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "787F44A5BE1FD0D7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6DC7775ADE09BC55"
+				item: { count: 1, id: "biomeswevegone:protea_flower" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 47.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "07DBFEDB34C3CFEE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "3100746CB26B0F56"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "51D5D47D227A33A7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0A9E7EB6366E8960"
+				item: { count: 1, id: "biomeswevegone:snowdrops" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 48.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1B18E7D9D3C4F91E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "1DBEC3C08C24487F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
+					exclude_from_claim_all: true
+					id: "7E64057C8CB02EA4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "08F2473B6C1283B1"
+				item: { count: 1, id: "biomeswevegone:yellow_daffodil" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 48.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6421,7 +6783,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
 					exclude_from_claim_all: true
 					id: "1B7AFCF806CCBC7D"
 					permission_level: 2
@@ -6434,8 +6796,8 @@
 				item: { count: 1, id: "herbalbrews:lavender" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 37.0d
+			x: 2.0d
+			y: 48.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6454,7 +6816,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/function fc_collection:flora_compendium_biome_flowers"
+					command: "/function fc_collection:flora_compendium_misc_flowers_completion"
 					exclude_from_claim_all: true
 					id: "557FD16464E0D66C"
 					permission_level: 2
@@ -6467,20 +6829,16 @@
 				item: { count: 1, id: "herbalbrews:hibiscus" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 37.0d
+			x: 3.0d
+			y: 48.5d
 		}
 		{
 			dependencies: [
 				"028B52BEB61B2B74"
-				"7DB7221E9C79AB00"
 				"53430769AFDE9882"
 				"37D7BDBE0F606B41"
-				"26A21A25235622AB"
 				"75754984FAE8D94F"
 				"1E8359190585689E"
-				"5D3EBF82524F84AD"
-				"0FCADDC2B6893A05"
 				"751B47C01459BEDD"
 				"363145D23081EFC8"
 				"23FC7FA1A4F70FDF"
@@ -6489,39 +6847,23 @@
 				"149C42707870B48B"
 				"4EEB0CE80BBC2880"
 				"76D5B194BBFC0463"
-				"557D8A8E808885F3"
-				"13EF7229AB416978"
 				"412E09A0B9D850FD"
 				"32364C6CF1361744"
 				"74A82CBA38AB7657"
 				"67D45DD2E285879B"
 				"711C7643EDBACA38"
-				"3A280638FF21ABF0"
-				"16B2D7F6774829B1"
 				"07DBFEDB34C3CFEE"
-				"0E56E3FF97B2E83B"
-				"77924A275C8C1B2A"
-				"77135079D50E4EAA"
-				"406EBA581B6EE35F"
 				"1B18E7D9D3C4F91E"
-				"180FA5F4E3F4B4F1"
-				"31CC734EE1EE3552"
-				"4E5F821153A90EB1"
-				"67A1190099FDBA31"
-				"152B1CB2B35BF495"
-				"362C66886E7D7F4B"
-				"6903751EB0B9C072"
-				"72E742078D6F1DA9"
 				"3E1E683686AF447D"
 				"1C77B62C2E8DF077"
 			]
 			icon: {
-				id: "biomeswevegone:amaranth"
+				id: "biomeswevegone:alpine_bellflower"
 			}
-			id: "16075BB40754A758"
+			id: "054868250CAF681E"
 			rewards: [{
-				count: 77
-				id: "5D1BFC59829858B6"
+				count: 31
+				id: "67AB238482143792"
 				item: {
 					count: 1
 					id: "kubejs:miles_ticket"
@@ -6532,13 +6874,13 @@
 				icon: {
 					id: "minecraft:glass"
 				}
-				id: "012E981C08D50698"
+				id: "3ADB00B8B01340CC"
 				stat: "minecraft:walk_one_cm"
 				type: "stat"
 				value: 1
 			}]
 			x: -1.0d
-			y: 34.0d
+			y: 47.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6571,7 +6913,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 38.5d
+			y: 50.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6604,7 +6946,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 38.5d
+			y: 50.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6637,7 +6979,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 38.5d
+			y: 50.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6670,7 +7012,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 38.5d
+			y: 50.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6703,7 +7045,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 38.5d
+			y: 50.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6736,7 +7078,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 38.5d
+			y: 50.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6769,7 +7111,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 39.5d
+			y: 51.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6802,7 +7144,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 39.5d
+			y: 51.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6835,7 +7177,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 39.5d
+			y: 51.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6868,7 +7210,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 39.5d
+			y: 51.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6901,7 +7243,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 39.5d
+			y: 51.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6934,7 +7276,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 39.5d
+			y: 51.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -6967,7 +7309,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 40.5d
+			y: 52.0d
 		}
 		{
 			dependencies: [
@@ -7008,7 +7350,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 39.5d
+			y: 51.0d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7041,7 +7383,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 42.0d
+			y: 53.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7074,7 +7416,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 42.0d
+			y: 53.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7107,7 +7449,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 42.0d
+			y: 53.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7140,7 +7482,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 42.0d
+			y: 53.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7173,7 +7515,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 42.0d
+			y: 53.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7206,7 +7548,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 42.0d
+			y: 53.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7239,7 +7581,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 43.0d
+			y: 54.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7272,7 +7614,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 43.0d
+			y: 54.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7305,7 +7647,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 43.0d
+			y: 54.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7338,7 +7680,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 43.0d
+			y: 54.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7371,19 +7713,19 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 43.0d
+			y: 54.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "4F0C7040278B27C7"
+			id: "24477AF7C5AAF03A"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "60FC3E31CEAF080B"
+					id: "32C0F520DA3749ED"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -7392,19 +7734,19 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "118A4E77C75E05E1"
+					id: "46C68515C4090316"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "1300301780E1044F"
+				id: "317F006057826E9A"
 				item: { count: 1, id: "biomeswevegone:green_mushroom" }
 				type: "item"
 			}]
 			x: 5.0d
-			y: 43.0d
+			y: 54.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7437,7 +7779,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 44.0d
+			y: 55.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7470,7 +7812,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 44.0d
+			y: 55.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7503,7 +7845,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 44.0d
+			y: 55.5d
 		}
 		{
 			dependencies: ["4F114B795F9ABFD0"]
@@ -7536,7 +7878,73 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 44.0d
+			y: 55.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5EDA863C4050F3D6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "0193A755CC9C6CEF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biome_misc"
+					exclude_from_claim_all: true
+					id: "787ED3527106B2FF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4A50C4102E5D5EF4"
+				item: { count: 1, id: "quark:glow_shroom_ring" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 55.5d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3E0D9E2E4C2DD5B4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "0A628B8BFE58AA6A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_biome_misc"
+					exclude_from_claim_all: true
+					id: "48257068464F7441"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "01B0386FB563F0A5"
+				item: { count: 1, id: "quark:glow_lichen_growth" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 55.5d
 		}
 		{
 			dependencies: [
@@ -7556,13 +7964,15 @@
 				"09CA806A8EECF77E"
 				"50D63F4CD14D00E6"
 				"177209B86AFCDFFD"
+				"5EDA863C4050F3D6"
+				"3E0D9E2E4C2DD5B4"
 			]
 			icon: {
 				id: "biomeswevegone:beach_grass"
 			}
 			id: "4C25B193AEB81C44"
 			rewards: [{
-				count: 21
+				count: 24
 				id: "2A70C6832803D5A0"
 				item: {
 					count: 1
@@ -7580,7 +7990,7 @@
 				value: 1
 			}]
 			x: -1.0d
-			y: 43.0d
+			y: 54.5d
 		}
 	]
 }

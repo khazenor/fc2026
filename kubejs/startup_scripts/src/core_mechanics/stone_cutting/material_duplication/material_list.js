@@ -292,4 +292,6 @@ const MaterialList = [
   'quark:orange_blossom_leaves',
   'quark:yellow_blossom_leaves',
   'quark:red_blossom_leaves',
+  'quark:glow_shroom_block',
+  'quark:glow_shroom_stem',
 ]

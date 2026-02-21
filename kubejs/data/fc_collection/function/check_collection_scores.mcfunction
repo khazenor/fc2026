@@ -1,5 +1,5 @@
 tellraw @p ["", {"translate":"questFunctions.aquarium0"}, {"score":{"name":"@p","objective":"aquarium"}}, {"translate":"questFunctions.87"}]
 tellraw @p ["", {"translate":"questFunctions.animalWatching0"}, {"score":{"name":"@p","objective":"animal_watching"}}, {"translate":"questFunctions.52"}]
-tellraw @p ["", {"translate":"questFunctions.floraCompendium0"}, {"score":{"name":"@p","objective":"flora_compendium"}}, {"translate":"questFunctions.212"}]
+tellraw @p ["", {"translate":"questFunctions.floraCompendium0"}, {"score":{"name":"@p","objective":"flora_compendium"}}, {"translate":"questFunctions.215"}]
 tellraw @p ["", {"translate":"questFunctions.mineralMuseum0"}, {"score":{"name":"@p","objective":"mineral_museum"}}, {"translate":"questFunctions.75"}]
 tellraw @p ["", {"translate":"questFunctions.cookingCollection0"}, {"score":{"name":"@p","objective":"cooking_collection"}}, {"translate":"questFunctions.176"}]

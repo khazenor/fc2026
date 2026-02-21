@@ -553,41 +553,63 @@ questlines = [
           "minecraft:apple"
         ]
       },
-      { # Modded Foods
-        nameKey: 'Modded Foods Completion',
-        iconKey: 'farm_and_charm:corn',
+      { # Farm and Charm Food
+        nameKey: 'Farm and Charm Food Completion',
+        iconKey: 'farm_and_charm:barley',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
         tasksKey: [
-          'farm_and_charm:corn',
-          'farm_and_charm:oat',
           'farm_and_charm:barley',
+          'farm_and_charm:corn',
           'farm_and_charm:lettuce',
+          'farm_and_charm:oat',
           'farm_and_charm:onion',
-          'farm_and_charm:tomato',
           'farm_and_charm:strawberry',
+          'farm_and_charm:tomato',
           'farm_and_charm:wild_nettle',
           'farm_and_charm:wild_ribwort',
-          'herbalbrews:yerba_mate_leaf',
-          'herbalbrews:rooibos_leaf',
-          'herbalbrews:coffee_beans',
+        ]
+      },
+      { # Vinery Grapes
+        nameKey: 'Vinery Foods Completion',
+        iconKey: 'farm_and_charm:barley',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          'vinery:cherry',
+          'vinery:jungle_grapes_red',
+          'vinery:jungle_grapes_white',
           'vinery:red_grape',
-          'vinery:white_grape',
           'vinery:savanna_grapes_red',
           'vinery:savanna_grapes_white',
           'vinery:taiga_grapes_red',
           'vinery:taiga_grapes_white',
-          'vinery:jungle_grapes_red',
-          'vinery:jungle_grapes_white',
-          'vinery:cherry',
+          'vinery:white_grape',
+        ]
+      },
+      { # Biomes Grapes
+        nameKey: 'Biomes Foods Completion',
+        iconKey: 'farm_and_charm:barley',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          'biomeswevegone:aloe_vera',
           'biomeswevegone:blueberries',
           'biomeswevegone:green_apple',
-          'yungscavebiomes:prickly_peach',
-          "biomeswevegone:aloe_vera",
-          "biomeswevegone:horseweed",
-          "biomeswevegone:oddion_bulb",
-          "biomeswevegone:pale_pumpkin",
+          'biomeswevegone:horseweed',
+          'biomeswevegone:oddion_bulb',
+          'biomeswevegone:pale_pumpkin',
+        ]
+      },
+      { # Modded Foods
+        nameKey: 'Misc Foods Completion',
+        iconKey: 'farm_and_charm:corn',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          'beachparty:coconut',
+          'herbalbrews:coffee_beans',
+          'herbalbrews:rooibos_leaf',
+          'herbalbrews:yerba_mate_leaf',
+          'quark:glow_shroom',
           'wildernature:hazelnut',
-          'beachparty:coconut'
+          'yungscavebiomes:prickly_peach',
         ]
       },
       { # Vanilla Flower
@@ -648,8 +670,50 @@ questlines = [
           "minecraft:glow_lichen"
         ]
       },
-      { # Biome Saplings
-        nameKey: 'Biome Saplings',
+      { # Spruce Saplings
+        nameKey: 'Spruce Saplings Completion',
+        iconKey: 'biomeswevegone:blue_spruce_sapling',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          "biomeswevegone:blue_spruce_sapling",
+          "biomeswevegone:orange_spruce_sapling",
+          "biomeswevegone:red_spruce_sapling",
+        ]
+      },
+      { # Birch Saplings
+        nameKey: 'Birch Saplings Completion',
+        iconKey: 'biomeswevegone:brown_birch_sapling',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          "biomeswevegone:brown_birch_sapling",
+          "biomeswevegone:orange_birch_sapling",
+          "biomeswevegone:yellow_birch_sapling",
+        ]
+      },
+      { # Maple Saplings
+        nameKey: 'Maple Saplings Completion',
+        iconKey: 'biomeswevegone:maple_sapling',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          "biomeswevegone:maple_sapling",
+          "biomeswevegone:red_maple_sapling",
+          "biomeswevegone:silver_maple_sapling",
+        ]
+      },
+      { # Vanilla Variant Saplings
+        nameKey: 'Vanilla Variant Saplings Completion',
+        iconKey: 'biomeswevegone:brown_birch_sapling',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          "biomeswevegone:brown_oak_sapling",
+          "biomeswevegone:red_oak_sapling",
+          "biomeswevegone:white_mangrove_sapling",
+          "biomeswevegone:white_sakura_sapling",
+          "biomeswevegone:yellow_sakura_sapling",
+        ]
+      },
+      { # Misc Saplings
+        nameKey: 'Misc Saplings Completion',
         iconKey: 'biomeswevegone:araucaria_sapling',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
         tasksKey: [
@@ -657,34 +721,20 @@ questlines = [
           "biomeswevegone:aspen_sapling",
           "biomeswevegone:baobab_sapling",
           "biomeswevegone:blue_enchanted_sapling",
-          "biomeswevegone:blue_spruce_sapling",
-          "biomeswevegone:brown_birch_sapling",
-          "biomeswevegone:brown_oak_sapling",
           "biomeswevegone:cika_sapling",
           "biomeswevegone:cypress_sapling",
           "biomeswevegone:ebony_sapling",
           "biomeswevegone:holly_sapling",
           "biomeswevegone:ironwood_sapling",
           "biomeswevegone:jacaranda_sapling",
-          "biomeswevegone:maple_sapling",
-          "biomeswevegone:orange_birch_sapling",
-          "biomeswevegone:orange_spruce_sapling",
           "biomeswevegone:orchard_sapling",
           "biomeswevegone:palm_sapling",
           "biomeswevegone:palo_verde_sapling",
           "biomeswevegone:pine_sapling",
-          "biomeswevegone:red_maple_sapling",
-          "biomeswevegone:red_oak_sapling",
-          "biomeswevegone:red_spruce_sapling",
           "biomeswevegone:redwood_sapling",
-          "biomeswevegone:silver_maple_sapling",
           "biomeswevegone:skyris_sapling",
           "biomeswevegone:spirit_sapling",
-          "biomeswevegone:white_mangrove_sapling",
-          "biomeswevegone:white_sakura_sapling",
           "biomeswevegone:witch_hazel_sapling",
-          "biomeswevegone:yellow_birch_sapling",
-          "biomeswevegone:yellow_sakura_sapling",
           "biomeswevegone:yucca_sapling",
           "biomeswevegone:zelkova_sapling",
         ]
@@ -741,20 +791,64 @@ questlines = [
           "biomeswevegone:yellow_sakura_petals"
         ]
       },
-      { # biome flowers
-        nameKey: 'Biome Flowers',
+      { # Roses
+        nameKey: 'Roses Completion',
+        iconKey: 'candlelight:rose',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          "candlelight:rose",
+          "biomeswevegone:rose",
+          "biomeswevegone:black_rose",
+          "biomeswevegone:cyan_rose",
+        ]
+      },
+      { # 
+        nameKey: 'Meadow Flowers Completion',
+        iconKey: 'meadow:alpine_poppy',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          "meadow:alpine_poppy",
+          "meadow:delphinium",
+          "meadow:saxifrage",
+          "meadow:enzian",
+          "meadow:fire_lily",
+          "meadow:eriophorum",
+          "meadow:tall_eriophorum",
+        ]
+      },
+      { # Winter Flowers
+        nameKey: 'Winter Flowers Completion',
+        iconKey: 'biomeswevegone:winter_cyclamen',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          "biomeswevegone:winter_cyclamen",
+          "biomeswevegone:winter_rose",
+          "biomeswevegone:winter_scilla",
+          "biomeswevegone:winter_succulent",
+        ]
+      },
+      { # Amaranth
+        nameKey: 'Amaranth Completion',
         iconKey: 'biomeswevegone:amaranth',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
         tasksKey: [
-          "biomeswevegone:alpine_bellflower",
           "biomeswevegone:amaranth",
+          "biomeswevegone:cyan_amaranth",
+          "biomeswevegone:magenta_amaranth",
+          "biomeswevegone:orange_amaranth",
+          "biomeswevegone:purple_amaranth",
+        ]
+      },
+      { # Misc flowers
+        nameKey: 'Misc Flowers Completion',
+        iconKey: 'biomeswevegone:alpine_bellflower',
+        dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
+        tasksKey: [
+          "biomeswevegone:alpine_bellflower",
           "biomeswevegone:angelica",
           "biomeswevegone:bistort",
-          "biomeswevegone:black_rose",
           "biomeswevegone:california_poppy",
           "biomeswevegone:crocus",
-          "biomeswevegone:cyan_amaranth",
-          "biomeswevegone:cyan_rose",
           "biomeswevegone:delphinium",
           "biomeswevegone:fairy_slipper",
           "biomeswevegone:foxglove",
@@ -763,29 +857,13 @@ questlines = [
           "biomeswevegone:kovan_flower",
           "biomeswevegone:lazarus_bellflower",
           "biomeswevegone:lollipop_flower",
-          "biomeswevegone:magenta_amaranth",
-          "biomeswevegone:orange_amaranth",
           "biomeswevegone:orange_daisy",
           "biomeswevegone:peach_leather_flower",
           "biomeswevegone:pink_anemone",
           "biomeswevegone:pink_daffodil",
           "biomeswevegone:protea_flower",
-          "biomeswevegone:purple_amaranth",
-          "biomeswevegone:rose",
           "biomeswevegone:snowdrops",
-          "biomeswevegone:winter_cyclamen",
-          "biomeswevegone:winter_rose",
-          "biomeswevegone:winter_scilla",
-          "biomeswevegone:winter_succulent",
           "biomeswevegone:yellow_daffodil",
-          "meadow:alpine_poppy",
-          "meadow:delphinium",
-          "meadow:saxifrage",
-          "meadow:enzian",
-          "meadow:fire_lily",
-          "meadow:eriophorum",
-          "meadow:tall_eriophorum",
-          "candlelight:rose",
           'herbalbrews:lavender',
           'herbalbrews:hibiscus',
         ]
@@ -834,6 +912,8 @@ questlines = [
           "biomeswevegone:weeping_milkcap",
           "biomeswevegone:wood_blewit",
           "beachparty:seashell",
+          'quark:glow_shroom_ring',
+          'quark:glow_lichen_growth',
         ]
       }
     ]
@@ -915,15 +995,6 @@ questlines = [
         dependencyIdKey: '2C1B93F1A534E681', # collect first mineral
         increaseRateKey: 0.03,
         tasksKey: [
-          'quark:red_corundum',
-          'quark:orange_corundum',
-          'quark:yellow_corundum',
-          'quark:green_corundum',
-          'quark:blue_corundum',
-          'quark:indigo_corundum',
-          'quark:violet_corundum',
-          'quark:white_corundum',
-          'quark:black_corundum',
           'quark:red_corundum_cluster',
           'quark:orange_corundum_cluster',
           'quark:yellow_corundum_cluster',
@@ -933,6 +1004,15 @@ questlines = [
           'quark:violet_corundum_cluster',
           'quark:white_corundum_cluster',
           'quark:black_corundum_cluster',
+          'quark:red_corundum',
+          'quark:orange_corundum',
+          'quark:yellow_corundum',
+          'quark:green_corundum',
+          'quark:blue_corundum',
+          'quark:indigo_corundum',
+          'quark:violet_corundum',
+          'quark:white_corundum',
+          'quark:black_corundum',
         ]
       },
       { # modded
