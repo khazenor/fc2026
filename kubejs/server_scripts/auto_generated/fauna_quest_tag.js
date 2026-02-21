@@ -49,6 +49,8 @@ ServerEvents.tags('item', event => {
       'quark:glow_shroom', 
       'wildernature:hazelnut', 
       'yungscavebiomes:prickly_peach', 
+      'adorablehamsterpets:cucumber_seeds', 
+      'adorablehamsterpets:green_bean_seeds', 
       'minecraft:allium', 
       'minecraft:azure_bluet', 
       'minecraft:blue_orchid', 

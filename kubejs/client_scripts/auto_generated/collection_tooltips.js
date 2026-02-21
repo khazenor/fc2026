@@ -197,7 +197,9 @@ ItemEvents.modifyTooltips(event => {
       'herbalbrews:yerba_mate_leaf', 
       'quark:glow_shroom', 
       'wildernature:hazelnut', 
-      'yungscavebiomes:prickly_peach'
+      'yungscavebiomes:prickly_peach', 
+      'adorablehamsterpets:cucumber_seeds', 
+      'adorablehamsterpets:green_bean_seeds'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 

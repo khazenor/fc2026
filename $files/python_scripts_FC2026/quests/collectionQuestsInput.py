@@ -402,7 +402,12 @@ questlines = [
 						observeKey: 'biomeswevegone:oddion',
 						iconKey: 'biomeswevegone:oddion_spawn_egg',
 						nameKey: 'Spot a oddion'
-					}
+					},
+          {
+            observeKey: 'adorablehamsterpets:hamster',
+            iconKey: 'adorablehamsterpets:hamster_spawn_egg',
+            nameKey: 'Spot a hamster'
+          }
         ]
       },
       { # Grass
@@ -585,7 +590,7 @@ questlines = [
           'vinery:white_grape',
         ]
       },
-      { # Biomes Grapes
+      { # Biomes foods
         nameKey: 'Biomes Foods Completion',
         iconKey: 'farm_and_charm:barley',
         dependencyIdKey: '4F114B795F9ABFD0', # collect first flora
@@ -610,6 +615,8 @@ questlines = [
           'quark:glow_shroom',
           'wildernature:hazelnut',
           'yungscavebiomes:prickly_peach',
+          'adorablehamsterpets:cucumber_seeds',
+          'adorablehamsterpets:green_bean_seeds',
         ]
       },
       { # Vanilla Flower

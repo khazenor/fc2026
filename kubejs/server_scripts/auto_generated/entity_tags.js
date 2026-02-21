@@ -2,6 +2,7 @@ ServerEvents.tags('entity_type', event => {
   event.add(
 		'kubejs:all_animals',
     [
+      'adorablehamsterpets:hamster', 
       'biomeswevegone:man_o_war', 
       'biomeswevegone:oddion', 
       'biomeswevegone:pumpkin_warden', 

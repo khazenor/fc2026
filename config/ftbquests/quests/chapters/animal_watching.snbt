@@ -1632,6 +1632,44 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["5BB57D9BEC8038FB"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5C0C5C8BB9ED9465"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:animal_watching"
+					exclude_from_claim_all: true
+					id: "40AE6EFA89643A89"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:animal_watching_plains_completion"
+					exclude_from_claim_all: true
+					id: "2CE55D775CCFDB85"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "adorablehamsterpets:hamster_spawn_egg"
+				}
+				id: "18189977058A0B4B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "adorablehamsterpets:hamster"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
 			dependencies: [
 				"72ED61BCFABFD296"
 				"48C0B87C3EE883D1"
@@ -1640,13 +1678,14 @@
 				"0DB50F650352F3F8"
 				"2B9AA10350F86ED8"
 				"1ADA7734FE01EB57"
+				"5C0C5C8BB9ED9465"
 			]
 			icon: {
 				id: "minecraft:poppy"
 			}
 			id: "28043A18FF6A55BC"
 			rewards: [{
-				count: 7
+				count: 9
 				id: "2DE8A7ACF5B05AC7"
 				item: {
 					count: 1

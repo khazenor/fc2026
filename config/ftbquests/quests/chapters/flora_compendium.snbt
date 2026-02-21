@@ -1714,6 +1714,72 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "690F9457D96D2A71"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "38BA96948A9C8985"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_foods_completion"
+					exclude_from_claim_all: true
+					id: "10017D70C4EC30C4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "07E6CBE52A853DF3"
+				item: { count: 1, id: "adorablehamsterpets:cucumber_seeds" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4F114B795F9ABFD0"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "655264945AB59FF2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium"
+					exclude_from_claim_all: true
+					id: "25023EBC3D2DA393"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:flora_compendium_misc_foods_completion"
+					exclude_from_claim_all: true
+					id: "502C317B17CC3B7A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "28895C9A9E978046"
+				item: { count: 1, id: "adorablehamsterpets:green_bean_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
 			dependencies: [
 				"38B2861704365ADB"
 				"4A286A2192E6E23A"
@@ -1722,13 +1788,15 @@
 				"2A152F0864C4E5E8"
 				"001686692286A6D3"
 				"1D5872BD3E9B9E1D"
+				"690F9457D96D2A71"
+				"655264945AB59FF2"
 			]
 			icon: {
 				id: "farm_and_charm:corn"
 			}
 			id: "50343A8A3D3F7F86"
 			rewards: [{
-				count: 7
+				count: 10
 				id: "31A775E5F4621AE0"
 				item: {
 					count: 1
@@ -7719,13 +7787,13 @@
 			dependencies: ["4F114B795F9ABFD0"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "24477AF7C5AAF03A"
+			id: "459D9A29D4D6FA85"
 			rewards: [
 				{
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium"
 					exclude_from_claim_all: true
-					id: "32C0F520DA3749ED"
+					id: "095343647F4EA790"
 					permission_level: 2
 					silent: true
 					type: "command"
@@ -7734,14 +7802,14 @@
 					auto: "invisible"
 					command: "/function fc_collection:flora_compendium_biome_misc"
 					exclude_from_claim_all: true
-					id: "46C68515C4090316"
+					id: "34286E85432BA2A9"
 					permission_level: 2
 					silent: true
 					type: "command"
 				}
 			]
 			tasks: [{
-				id: "317F006057826E9A"
+				id: "361C4452E22AF77C"
 				item: { count: 1, id: "biomeswevegone:green_mushroom" }
 				type: "item"
 			}]
