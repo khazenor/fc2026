@@ -1180,303 +1180,6 @@
 			dependencies: ["2C1B93F1A534E681"]
 			disable_toast: true
 			hide_until_deps_complete: true
-			id: "7BDC5E87919C828D"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "675DC6A53FA959D4"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_corundums_completion"
-					exclude_from_claim_all: true
-					id: "2DA14EDA19C4E467"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6D734605C9D08103"
-				item: { count: 1, id: "quark:red_corundum" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "027AD0E5C7C2218E"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "01DB18D344478B5C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_corundums_completion"
-					exclude_from_claim_all: true
-					id: "3CA49C3A95AA9D32"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "6965D82BF39A177E"
-				item: { count: 1, id: "quark:orange_corundum" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "3068F42B58F3B9BF"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "53A745360EF51E04"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_corundums_completion"
-					exclude_from_claim_all: true
-					id: "2F04E8859B0049DA"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "65B895C1678D5A41"
-				item: { count: 1, id: "quark:yellow_corundum" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "44F739BB1443773B"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "08B3B55FEEA3CB52"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_corundums_completion"
-					exclude_from_claim_all: true
-					id: "7B0F4379FEE50D52"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "26104C8C2F5EE962"
-				item: { count: 1, id: "quark:green_corundum" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "4CFD026E33346829"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "496FA39DE225426C"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_corundums_completion"
-					exclude_from_claim_all: true
-					id: "0C21C7B59D0750A2"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "04811CF044A05391"
-				item: { count: 1, id: "quark:blue_corundum" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "6B4C160F073BD06F"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "1DA2D06E9D98FAA4"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_corundums_completion"
-					exclude_from_claim_all: true
-					id: "5B5808D6B98D164E"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "1D622E5E95C4C583"
-				item: { count: 1, id: "quark:indigo_corundum" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "51D05E1B7942F42E"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "76950EEF58827838"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_corundums_completion"
-					exclude_from_claim_all: true
-					id: "7C01CE39BF573671"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "21C44ADEE57A2A4C"
-				item: { count: 1, id: "quark:violet_corundum" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "1A16203BC980208C"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "371C975E07202A66"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_corundums_completion"
-					exclude_from_claim_all: true
-					id: "35B2941DC347D9E0"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "7F62B75D9C6316E9"
-				item: { count: 1, id: "quark:white_corundum" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
-			id: "604E1FF641C11AC6"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum"
-					exclude_from_claim_all: true
-					id: "776586A4A29893F9"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/function fc_collection:mineral_museum_corundums_completion"
-					exclude_from_claim_all: true
-					id: "0882BF6626A67F39"
-					permission_level: 2
-					silent: true
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "5FAD203E49042993"
-				item: { count: 1, id: "quark:black_corundum" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["2C1B93F1A534E681"]
-			disable_toast: true
-			hide_until_deps_complete: true
 			id: "1C224C282686B1B7"
 			rewards: [
 				{
@@ -1503,8 +1206,8 @@
 				item: { count: 1, id: "quark:red_corundum_cluster" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1536,8 +1239,8 @@
 				item: { count: 1, id: "quark:orange_corundum_cluster" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: 1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1569,8 +1272,8 @@
 				item: { count: 1, id: "quark:yellow_corundum_cluster" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.0d
+			x: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1602,8 +1305,8 @@
 				item: { count: 1, id: "quark:green_corundum_cluster" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1635,8 +1338,8 @@
 				item: { count: 1, id: "quark:blue_corundum_cluster" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 11.0d
+			x: 4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1668,8 +1371,8 @@
 				item: { count: 1, id: "quark:indigo_corundum_cluster" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.0d
+			x: 5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1701,8 +1404,8 @@
 				item: { count: 1, id: "quark:violet_corundum_cluster" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 11.0d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1734,8 +1437,8 @@
 				item: { count: 1, id: "quark:white_corundum_cluster" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.0d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2C1B93F1A534E681"]
@@ -1767,20 +1470,308 @@
 				item: { count: 1, id: "quark:black_corundum_cluster" }
 				type: "item"
 			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7BDC5E87919C828D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "675DC6A53FA959D4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_corundums_completion"
+					exclude_from_claim_all: true
+					id: "2DA14EDA19C4E467"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6D734605C9D08103"
+				item: { count: 1, id: "quark:red_corundum" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "027AD0E5C7C2218E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "01DB18D344478B5C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_corundums_completion"
+					exclude_from_claim_all: true
+					id: "3CA49C3A95AA9D32"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6965D82BF39A177E"
+				item: { count: 1, id: "quark:orange_corundum" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "3068F42B58F3B9BF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "53A745360EF51E04"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_corundums_completion"
+					exclude_from_claim_all: true
+					id: "2F04E8859B0049DA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "65B895C1678D5A41"
+				item: { count: 1, id: "quark:yellow_corundum" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "44F739BB1443773B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "08B3B55FEEA3CB52"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_corundums_completion"
+					exclude_from_claim_all: true
+					id: "7B0F4379FEE50D52"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "26104C8C2F5EE962"
+				item: { count: 1, id: "quark:green_corundum" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "4CFD026E33346829"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "496FA39DE225426C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_corundums_completion"
+					exclude_from_claim_all: true
+					id: "0C21C7B59D0750A2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "04811CF044A05391"
+				item: { count: 1, id: "quark:blue_corundum" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "6B4C160F073BD06F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "1DA2D06E9D98FAA4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_corundums_completion"
+					exclude_from_claim_all: true
+					id: "5B5808D6B98D164E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1D622E5E95C4C583"
+				item: { count: 1, id: "quark:indigo_corundum" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "51D05E1B7942F42E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "76950EEF58827838"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_corundums_completion"
+					exclude_from_claim_all: true
+					id: "7C01CE39BF573671"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "21C44ADEE57A2A4C"
+				item: { count: 1, id: "quark:violet_corundum" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "1A16203BC980208C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "371C975E07202A66"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_corundums_completion"
+					exclude_from_claim_all: true
+					id: "35B2941DC347D9E0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7F62B75D9C6316E9"
+				item: { count: 1, id: "quark:white_corundum" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2C1B93F1A534E681"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "604E1FF641C11AC6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum"
+					exclude_from_claim_all: true
+					id: "776586A4A29893F9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:mineral_museum_corundums_completion"
+					exclude_from_claim_all: true
+					id: "0882BF6626A67F39"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5FAD203E49042993"
+				item: { count: 1, id: "quark:black_corundum" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 11.0d
 		}
 		{
 			dependencies: [
-				"7BDC5E87919C828D"
-				"027AD0E5C7C2218E"
-				"3068F42B58F3B9BF"
-				"44F739BB1443773B"
-				"4CFD026E33346829"
-				"6B4C160F073BD06F"
-				"51D05E1B7942F42E"
-				"1A16203BC980208C"
-				"604E1FF641C11AC6"
 				"1C224C282686B1B7"
 				"1B93E9E4F41F7B0C"
 				"47F2BFC8AF45DB9B"
@@ -1790,6 +1781,15 @@
 				"551D713A0D728DA3"
 				"36AA7264B5451338"
 				"1DB42AEDFF86A9FC"
+				"7BDC5E87919C828D"
+				"027AD0E5C7C2218E"
+				"3068F42B58F3B9BF"
+				"44F739BB1443773B"
+				"4CFD026E33346829"
+				"6B4C160F073BD06F"
+				"51D05E1B7942F42E"
+				"1A16203BC980208C"
+				"604E1FF641C11AC6"
 			]
 			icon: {
 				id: "irons_jewelry:ruby"
