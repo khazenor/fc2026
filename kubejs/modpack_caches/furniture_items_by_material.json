@@ -115,7 +115,8 @@
 				"moa_lights:vtd_roble_osc",
 				"moa_lights:vtg_roble_osc",
 				"moa_lights:vtn_roble_osc",
-				"mcwlights:dark_oak_ceiling_fan_light"
+				"mcwlights:dark_oak_ceiling_fan_light",
+				"adorablehamsterpets:hamster_bed_dark_oak"
 			]
 		},
 		{
@@ -193,7 +194,9 @@
 				"moa_lights:vtd_roble",
 				"moa_lights:vtg_roble",
 				"moa_lights:vtn_roble",
-				"mcwlights:oak_ceiling_fan_light"
+				"mcwlights:oak_ceiling_fan_light",
+				"adorablehamsterpets:hamster_bed_oak",
+				"adorablehamsterpets:hamster_bed_pale_oak"
 			]
 		},
 		{
@@ -275,7 +278,8 @@
 				"moa_lights:vtd_abeto",
 				"moa_lights:vtg_abeto",
 				"moa_lights:vtn_abeto",
-				"mcwlights:spruce_ceiling_fan_light"
+				"mcwlights:spruce_ceiling_fan_light",
+				"adorablehamsterpets:hamster_bed_spruce"
 			]
 		},
 		{
@@ -361,7 +365,8 @@
 				"moa_lights:vtd_abedul",
 				"moa_lights:vtg_abedul",
 				"moa_lights:vtn_abedul",
-				"mcwlights:birch_ceiling_fan_light"
+				"mcwlights:birch_ceiling_fan_light",
+				"adorablehamsterpets:hamster_bed_birch"
 			]
 		},
 		{
@@ -443,7 +448,8 @@
 				"moa_lights:vtd_jungla",
 				"moa_lights:vtg_jungla",
 				"moa_lights:vtn_jungla",
-				"mcwlights:jungle_ceiling_fan_light"
+				"mcwlights:jungle_ceiling_fan_light",
+				"adorablehamsterpets:hamster_bed_jungle"
 			]
 		},
 		{
@@ -527,7 +533,8 @@
 				"moa_lights:vtd_acacia",
 				"moa_lights:vtg_acacia",
 				"moa_lights:vtn_acacia",
-				"mcwlights:acacia_ceiling_fan_light"
+				"mcwlights:acacia_ceiling_fan_light",
+				"adorablehamsterpets:hamster_bed_acacia"
 			]
 		},
 		{
@@ -607,7 +614,8 @@
 				"moa_lights:vtd_mangle",
 				"moa_lights:vtg_mangle",
 				"moa_lights:vtn_mangle",
-				"mcwlights:mangrove_ceiling_fan_light"
+				"mcwlights:mangrove_ceiling_fan_light",
+				"adorablehamsterpets:hamster_bed_mangrove"
 			]
 		},
 		{
@@ -686,7 +694,8 @@
 				"moa_lights:vtd_cerezo",
 				"moa_lights:vtg_cerezo",
 				"moa_lights:vtn_cerezo",
-				"mcwlights:cherry_ceiling_fan_light"
+				"mcwlights:cherry_ceiling_fan_light",
+				"adorablehamsterpets:hamster_bed_cherry"
 			]
 		},
 		{
@@ -741,7 +750,8 @@
 				"moa_lights:vtg_bambu",
 				"moa_lights:vtg_bambu_sc",
 				"moa_lights:vtn_bambu",
-				"moa_lights:vtn_bambu_sc"
+				"moa_lights:vtn_bambu_sc",
+				"adorablehamsterpets:hamster_bed_bamboo"
 			]
 		},
 		{
