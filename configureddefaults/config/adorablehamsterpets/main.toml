@@ -1,7 +1,7 @@
 # Don't change this! Version used to track needed updates.
 version = 0
 # Hand-delivers the sacred texts on first login.
-enableAutoGuidebookDelivery = true
+enableAutoGuidebookDelivery = false
 # A list of UUIDs for players who have already seen the missing guidebook warning. Ensures that everyone sees this, but only once unless you delete your name from this list.
 playersWhoHaveSeenGuidebookWarning = [  ]
 # How long (in ticks) I wait before realizing you're book-less and panicking. 3600 = 3 minutes.
@@ -15,11 +15,11 @@ enableJadeHamsterDebugInfo = false
 # The duration (in ticks) that action bar messages stay on screen. Only affects your personal computer. Vanilla is 60 (3 seconds), which is barely enough time to realize you're reading. Crank this up to savor the text. (20 ticks = 1 second).
 actionBarDuration = 100
 # The master switch for all announcement notifications. Turning this off is the same as clicking 'Disable All' in the announcement screen. Announcements can still be viewed in the §f§lHamster Tips§r guide book.
-enableNotificationIcons = true
+enableNotificationIcons = false
 # For when you see the update notification and think, 'That's a problem for future me.' Future you will be so proud. This is where you select many days to hide the 'Update Available' notification when you click 'Remind Me Later'.
 snoozeUpdateReminderDays = 5
 # Decide if the bell haunts you full-time on the HUD or only ambushes you when you're trying to organize your inventory. If disabled, you will only see notifications when you open an inventory.
-enableHudIcon = true
+enableHudIcon = false
 # Banish the bell to a corner of your choosing. It's your screen. Establish dominance.
 hudIconPositionPreset = "TOP_LEFT"
 # Shove the icon horizontally. For when 'top-left' isn't specific enough for your discerning taste.
@@ -29,7 +29,7 @@ hudIconOffsetY = 10
 # Make it bigger. Make it smaller. Make it an affront to good taste. I'm not your art director.
 hudIconScale = 1.0
 # Decide if the bell icon should ambush you while you're sorting your inventory. If disabled, it will only bother you on the main menu or the game HUD if you have those enabled. Your screen, your rules.
-enableWidgetIcon = true
+enableWidgetIcon = false
 # How loud the wind gust sound effect is, for you overachievers who are running 15 different sound physics mods. 1.0 is default, 0.0 is silent.
 leafGustVolume = 0.3
 # Should the gentle, drift of Hamster Bedding leaf particles slowly change direction over time? If true, it's a slow, majestic rotation. (It takes a bout 3 minutes to make a full 360 degree rotation). If false, you get to pick a static wind direction below.
