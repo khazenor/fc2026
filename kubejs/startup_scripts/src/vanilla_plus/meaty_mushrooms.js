@@ -61,6 +61,7 @@ const MeatyMushrooms = {
     'wildernature:bison_meat',
     'wildernature:venison',
     'wildernature:cassowary_meat',
+    'quark:crab_leg'
   ],
   cookedMeats: [
     'minecraft:cooked_porkchop',
@@ -72,6 +73,7 @@ const MeatyMushrooms = {
     'wildernature:cooked_venison',
     'wildernature:cooked_cassowary_meat',
     'wildernature:cooked_pelican_meat',
+    'quark:cooked_crab_leg'
   ],
   get shapelessDefs () {
     let defs = []

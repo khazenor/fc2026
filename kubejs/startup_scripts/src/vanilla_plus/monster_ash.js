@@ -12,7 +12,8 @@ const MonsterAsh = {
     "minecraft:ender_pearl",
     "minecraft:blaze_rod",
     "minecraft:ghast_tear",
-    "minecraft:phantom_membrane"
+    "minecraft:phantom_membrane",
+    'quark:crab_shell'
   ]
 }
 
