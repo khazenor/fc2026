@@ -23,8 +23,21 @@ const MilesTickets = {
     let singleItem = Item.of(singleId)
     singleItem.count = bundleCount
     player.give(singleItem)
+  },
+  get jeiDescription () {
+    let startIdx = 0
+    let endIdx = 11
+    let descriptionList = []
+    for (let i = startIdx; i <= endIdx; i++) {
+      descriptionList.push(Text.translate(`description.milesTicket.${i}`))
+    }
+    return descriptionList
   }
 }
+
+RequestHandler.jei.infoForItem(
+  MilesTickets.ticketId, MilesTickets.jeiDescription
+)
 
 RequestHandler.items.create.simple([
   MilesTickets.ticketId,
