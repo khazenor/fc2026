@@ -3,7 +3,9 @@ version = 0
 # Hand-delivers the sacred texts on first login.
 enableAutoGuidebookDelivery = false
 # A list of UUIDs for players who have already seen the missing guidebook warning. Ensures that everyone sees this, but only once unless you delete your name from this list.
-playersWhoHaveSeenGuidebookWarning = [  ]
+playersWhoHaveSeenGuidebookWarning = [
+    "AnakoMomose"
+]
 # How long (in ticks) I wait before realizing you're book-less and panicking. 3600 = 3 minutes.
 guidebookWarningTimer = 3600
 # Helpful whispers on what the heck that cucumber is for.

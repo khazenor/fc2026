@@ -199,7 +199,8 @@ ItemEvents.modifyTooltips(event => {
       'wildernature:hazelnut', 
       'yungscavebiomes:prickly_peach', 
       'adorablehamsterpets:cucumber_seeds', 
-      'adorablehamsterpets:green_bean_seeds'
+      'adorablehamsterpets:green_bean_seeds', 
+      'adorablehamsterpets:sunflower_seeds'
     ],
     [
       Text.translate('collectionTooltips.floraCompendium'), 

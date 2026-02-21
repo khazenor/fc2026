@@ -617,6 +617,7 @@ questlines = [
           'yungscavebiomes:prickly_peach',
           'adorablehamsterpets:cucumber_seeds',
           'adorablehamsterpets:green_bean_seeds',
+          'adorablehamsterpets:sunflower_seeds',
         ]
       },
       { # Vanilla Flower

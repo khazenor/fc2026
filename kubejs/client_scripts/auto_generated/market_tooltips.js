@@ -384,6 +384,7 @@ ItemEvents.modifyTooltips(event => {
       'yungscavebiomes:prickly_peach', 
       'adorablehamsterpets:cucumber_seeds', 
       'adorablehamsterpets:green_bean_seeds', 
+      'adorablehamsterpets:sunflower_seeds', 
       'minecraft:allium', 
       'minecraft:azure_bluet', 
       'minecraft:blue_orchid', 
