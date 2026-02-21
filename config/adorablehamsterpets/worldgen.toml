@@ -1,0 +1,520 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Adjusts hamster spawn frequency. Higher = more chaos. 1 = blissful silence.
+spawnWeight = 30
+# Maximum hamsters per spawn group. Because sometimes one just isn't cute enough.
+maxGroupSize = 1
+# A list of biome tags where hamsters can spawn. Format: 'mod_id:tag_name'. For example, 'minecraft:is_forest'.
+spawnBiomeTags = [
+    "minecraft:is_beach",
+    "minecraft:is_badlands",
+    "minecraft:is_savanna",
+    "minecraft:is_jungle",
+    "minecraft:is_forest",
+    "minecraft:is_taiga",
+    "minecraft:is_mountain"
+]
+# A list of convention biome tags where hamsters can spawn. Used for broad mod compatibility.
+spawnBiomeConventionTags = [
+    "adorablehamsterpets:is_cold",
+    "adorablehamsterpets:is_hot",
+    "adorablehamsterpets:is_temperate",
+    "adorablehamsterpets:is_dry",
+    "adorablehamsterpets:is_wet",
+    "adorablehamsterpets:is_dense_vegetation",
+    "adorablehamsterpets:is_sparse_vegetation"
+]
+# A list of specific biome IDs to ALWAYS allow spawns in, even if they don't match the tags above. Format: 'mod_id:biome_name'. For example, 'minecraft:plains'.
+includeBiomes = [
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_slopes",
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:grove",
+    "minecraft:frozen_river",
+    "minecraft:snowy_beach",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:ice_spikes",
+    "minecraft:cherry_grove",
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "minecraft:deep_dark",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:desert",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:meadow",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_savanna",
+    "minecraft:stony_peaks",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:stony_shore",
+    "minecraft:mushroom_fields",
+    "minecraft:deep_dark",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:beach",
+    "terralith:desert_canyon",
+    "terralith:cave/andesite_caves",
+    "terralith:cave/crystal_caves",
+    "terralith:cave/deep_caves",
+    "terralith:cave/desert_caves",
+    "terralith:cave/diorite_caves",
+    "terralith:cave/frostfire_caves",
+    "terralith:cave/fungal_caves",
+    "terralith:cave/granite_caves",
+    "terralith:cave/ice_caves",
+    "terralith:cave/infested_caves",
+    "terralith:cave/mantle_caves",
+    "terralith:cave/thermal_caves",
+    "terralith:cave/tuff_caves",
+    "terralith:cave/underground_jungle",
+    "terralith:alpha_islands_winter",
+    "terralith:alpha_islands",
+    "terralith:alpine_grove",
+    "terralith:alpine_highlands",
+    "terralith:amethyst_canyon",
+    "terralith:amethyst_rainforest",
+    "terralith:ancient_sands",
+    "terralith:arid_highlands",
+    "terralith:ashen_savanna",
+    "terralith:basalt_cliffs",
+    "terralith:birch_taiga",
+    "terralith:blooming_plateau",
+    "terralith:blooming_valley",
+    "terralith:brushland",
+    "terralith:bryce_canyon",
+    "terralith:caldera",
+    "terralith:cloud_forest",
+    "terralith:cold_shrubland",
+    "terralith:desert_oasis",
+    "terralith:desert_spires",
+    "terralith:emerald_peaks",
+    "terralith:forested_highlands",
+    "terralith:fractured_savanna",
+    "terralith:frozen_cliffs",
+    "terralith:glacial_chasm",
+    "terralith:granite_cliffs",
+    "terralith:gravel_beach",
+    "terralith:gravel_desert",
+    "terralith:haze_mountain",
+    "terralith:highlands",
+    "terralith:hot_shrubland",
+    "terralith:ice_marsh",
+    "terralith:jungle_mountains",
+    "terralith:lavender_forest",
+    "terralith:lavender_valley",
+    "terralith:lush_desert",
+    "terralith:lush_valley",
+    "terralith:mirage_isles",
+    "terralith:moonlight_grove",
+    "terralith:moonlight_valley",
+    "terralith:mountain_steppe",
+    "terralith:orchid_swamp",
+    "terralith:painted_mountains",
+    "terralith:red_oasis",
+    "terralith:rocky_jungle",
+    "terralith:rocky_mountains",
+    "terralith:rocky_shrubland",
+    "terralith:sakura_grove",
+    "terralith:sakura_valley",
+    "terralith:sandstone_valley",
+    "terralith:savanna_badlands",
+    "terralith:savanna_slopes",
+    "terralith:scarlet_mountains",
+    "terralith:shield_clearing",
+    "terralith:shield",
+    "terralith:shrubland",
+    "terralith:siberian_grove",
+    "terralith:siberian_taiga",
+    "terralith:skylands_autumn",
+    "terralith:skylands_spring",
+    "terralith:skylands_summer",
+    "terralith:skylands_winter",
+    "terralith:skylands",
+    "terralith:snowy_badlands",
+    "terralith:snowy_cherry_grove",
+    "terralith:snowy_maple_forest",
+    "terralith:snowy_shield",
+    "terralith:steppe",
+    "terralith:stony_spires",
+    "terralith:temperate_highlands",
+    "terralith:tropical_jungle",
+    "terralith:valley_clearing",
+    "terralith:volcanic_crater",
+    "terralith:volcanic_peaks",
+    "terralith:warm_river",
+    "terralith:warped_mesa",
+    "terralith:white_cliffs",
+    "terralith:white_mesa",
+    "terralith:windswept_spires",
+    "terralith:wintry_forest",
+    "terralith:wintry_lowlands",
+    "terralith:yellowstone",
+    "terralith:yosemite_cliffs",
+    "terralith:yosemite_lowlands",
+    "biomesoplenty:wasteland",
+    "biomesoplenty:wasteland_steppe",
+    "biomesoplenty:mediterranean_forest",
+    "biomesoplenty:mystic_grove",
+    "biomesoplenty:orchard",
+    "biomesoplenty:pumpkin_patch",
+    "biomesoplenty:redwood_forest",
+    "biomesoplenty:seasonal_forest",
+    "biomesoplenty:woodland",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:fungal_jungle",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:rocky_rainforest",
+    "byg:lush_stacks",
+    "byg:orchard",
+    "byg:frosted_coniferous_forest",
+    "byg:allium_fields",
+    "byg:amaranth_fields",
+    "byg:rose_fields",
+    "byg:temperate_grove",
+    "byg:coconino_meadow",
+    "byg:skyris_vale",
+    "byg:prairie",
+    "byg:autumnal_valley",
+    "byg:cardinal_tundra",
+    "byg:firecracker_shrubland",
+    "byg:allium_shrubland",
+    "byg:amaranth_grassland",
+    "byg:araucaria_savanna",
+    "byg:aspen_boreal",
+    "byg:atacama_outback",
+    "byg:baobab_savanna",
+    "byg:basalt_barrera",
+    "byg:bayou",
+    "byg:black_forest",
+    "byg:canadian_shield",
+    "byg:cika_woods",
+    "byg:coniferous_forest",
+    "byg:crimson_tundra",
+    "byg:cypress_swamplands",
+    "byg:dacite_ridges",
+    "byg:dacite_shore",
+    "byg:dead_sea",
+    "byg:ebony_woods",
+    "byg:enchanted_tangle",
+    "byg:eroded_borealis",
+    "byg:firecracker_chaparral",
+    "byg:forgotten_forest",
+    "byg:fragment_jungle",
+    "byg:frosted_taiga",
+    "byg:howling_peaks",
+    "byg:ironwood_gour",
+    "byg:jacaranda_jungle",
+    "byg:maple_taiga",
+    "byg:mojave_desert",
+    "byg:overgrowth_woodlands",
+    "byg:pumpkin_valley",
+    "byg:rainbow_beach",
+    "byg:red_rock_valley",
+    "byg:redwood_thicket",
+    "byg:rugged_badlands",
+    "byg:sakura_grove",
+    "byg:shattered_glacier",
+    "byg:sierra_badlands",
+    "byg:skyrise_vale",
+    "byg:tropical_rainforest",
+    "byg:weeping_witch_forest",
+    "byg:white_mangrove_marshes",
+    "byg:windswept_desert",
+    "byg:zelkova_forest"
+]
+# A list of specific biome IDs to NEVER allow spawns in, even if they match a tag. This overrides all other settings. Format: 'mod_id:biome_name'. For example, 'minecraft:plains'.
+excludeBiomes = [
+    "mod_id:biome_name"
+]
+# A list of Biome Tags to NEVER allow spawns in. For excluding broad categories like Oceans or Rivers without listing every single ID. Overrides inclusions.
+excludeBiomeTags = [
+    "minecraft:is_ocean",
+    "minecraft:is_river",
+    "minecraft:is_deep_ocean"
+]
+blueBiomes = [
+    "terralith:glacial_chasm",
+    "terralith:mirage_isles",
+    "terralith:moonlight_valley",
+    "biomesoplenty:enchanted_garden"
+]
+blueTags = [
+    "adorablehamsterpets:is_icy"
+]
+blueExclusionBiomes = [
+    "namespace:id"
+]
+blueExclusionTags = [
+    "c:tag_name"
+]
+lavenderBiomes = [
+    "minecraft:cherry_grove",
+    "terralith:sakura_valley",
+    "biomesoplenty:fungi_forest",
+    "biomesoplenty:mystic_grove"
+]
+lavenderTags = [
+    "adorablehamsterpets:is_magical",
+    "adorablehamsterpets:is_mushroom",
+    "terralith:mystical"
+]
+lavenderExclusionBiomes = [
+    "namespace:id"
+]
+lavenderExclusionTags = [
+    "c:tag_name"
+]
+whiteBiomes = [
+    "terralith:snowy_maple_forest",
+    "terralith:wintry_forest",
+    "terralith:alpine_grove",
+    "terralith:siberian_grove"
+]
+whiteTags = [
+    "adorablehamsterpets:is_cold",
+    "adorablehamsterpets:is_snowy"
+]
+whiteExclusionBiomes = [
+    "minecraft:deep_frozen_ocean",
+    "minecraft:frozen_ocean",
+    "minecraft:stony_shore",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills",
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga"
+]
+whiteExclusionTags = [
+    "c:tag_name"
+]
+grayBiomes = [
+    "minecraft:stony_shore",
+    "terralith:stony_spires"
+]
+grayTags = [
+    "adorablehamsterpets:is_mountain",
+    "adorablehamsterpets:is_sparse_vegetation",
+    "terralith:cliffs"
+]
+grayExclusionBiomes = [
+    "namespace:id"
+]
+grayExclusionTags = [
+    "minecraft:is_badlands",
+    "minecraft:is_jungle",
+    "minecraft:is_savanna",
+    "minecraft:is_beach",
+    "adorablehamsterpets:is_sandy"
+]
+blackBiomes = [
+    "minecraft:deep_dark"
+]
+blackTags = [
+    "adorablehamsterpets:is_wet",
+    "adorablehamsterpets:is_cave"
+]
+blackExclusionBiomes = [  ]
+blackExclusionTags = [
+    "minecraft:is_jungle",
+    "minecraft:is_beach"
+]
+creamBiomes = [
+    "minecraft:old_growth_birch_forest",
+    "minecraft:birch_forest",
+    "terralith:ancient_sands",
+    "terralith:sandstone_valley",
+    "biomesoplenty:wasteland"
+]
+creamTags = [
+    "adorablehamsterpets:is_sandy"
+]
+creamExclusionBiomes = [
+    "terralith:gravel_beach"
+]
+creamExclusionTags = [
+    "minecraft:is_badlands"
+]
+chocolateBiomes = [
+    "terralith:cloud_forest",
+    "biomesoplenty:redwood_forest"
+]
+chocolateTags = [
+    "adorablehamsterpets:is_forest",
+    "adorablehamsterpets:is_dense_vegetation"
+]
+chocolateExclusionBiomes = [
+    "namespace:id"
+]
+chocolateExclusionTags = [
+    "adorablehamsterpets:is_plains"
+]
+# The overall probability (0.0 to 1.0) that ANY wild hamster has stuffed something in its face. Set to 0.0 to enforce strict economic austerity.
+globalCheekLootChance = 0.5
+# The curated selection of pocket lint, seeds, and snacks that hamsters naturally forage. Edit this if you think hamsters should naturally forage for diamonds.
+defaultCheekLootList = [
+    "minecraft:wheat_seeds",
+    "minecraft:pumpkin_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:beetroot_seeds",
+    "minecraft:carrot",
+    "minecraft:potato",
+    "minecraft:poisonous_potato",
+    "minecraft:apple",
+    "minecraft:stick",
+    "minecraft:feather",
+    "minecraft:string",
+    "minecraft:gold_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:flint",
+    "adorablehamsterpets:sunflower_seeds",
+    "adorablehamsterpets:cucumber_seeds",
+    "adorablehamsterpets:green_bean_seeds",
+    "adorablehamsterpets:acorn"
+]
+# The chance (0.0 to 1.0) that a wild hamster spawns with the default junk (seeds, nuggets, carrots, etc). 0.5 = 50%.
+defaultCheekLootChance = 0.5
+# A list of item IDs (e.g. 'minecraft:cookie') or tags (e.g. '#c:fruits') that wild hamsters can spawn with. If you want them to spawn with Nether Stars, this is where you make that bad decision.
+extraCheekLootList = [  ]
+# The chance (0.0 to 1.0) that a wild hamster spawns with items from your Extra Loot list above. Independent of the default loot check.
+extraCheekLootChance = 0.5
+# The shiny rocks, glowing berries, and industrial debris found in the cheeks of cave-dwelling hamsters. Spelunking rodents have expensive tastes.
+caveCheekLootList = [
+    "minecraft:raw_iron",
+    "minecraft:raw_copper",
+    "minecraft:raw_gold",
+    "minecraft:coal",
+    "minecraft:amethyst_shard",
+    "minecraft:glow_berries",
+    "minecraft:redstone",
+    "minecraft:lapis_lazuli",
+    "minecraft:flint",
+    "minecraft:clay_ball"
+]
+# The chance (0.0 to 1.0) that a hamster spawning in a cave actually found something cool instead of just a rock. Applies ONLY to hamsters spawning in valid cave biomes or deep underground.
+caveCheekLootChance = 0.5
+# Chance (0.0 to 1.0) to find Cucumber, Green Bean, or Sunflower seeds in general loot chests.
+seedLootChance = 0.6
+# Chance (0.0 to 1.0) to find Acorn, Iron, or Gold hamster armor in standard Dungeons, Temples, Mineshafts, etc.
+standardArmorLootChance = 0.3
+# Chance (0.0 to 1.0) to find Diamond hamster armor in high-level chests (End City, Nether Fortress).
+highTierArmorLootChance = 0.15
+# Vanilla horse armor doesn't spawn in Netherite, but maybe you think that's stupid. Enable this to allow Netherite Hamster Armor to appear in chests.
+enableNetheriteArmorLoot = false
+# Chance (0.0 to 1.0) to find Netherite Hamster Armor in high-level chests. Only applies if the toggle above is ON. Don't be too liberal with it. Or do. See if I care.
+netheriteArmorLootChance = 0.1
+# Chance (0.0 to 1.0) to find Iron and Gold upgrade templates in High-Tier chests (Bastions, Fortresses, etc).
+basicSmithingTemplateLootChance = 0.2
+# Chance (0.0 to 1.0) to find Diamond and Netherite upgrade templates in Legendary chests (Ancient Cities, Ominous Vaults, etc).
+advancedSmithingTemplateLootChance = 0.1
+# Chance (0.0 to 1.0) to find accessories in rare chests. Default is low.
+accessoryLootChance = 0.05
+# Chance (0.0 to 1.0) for an Oak Leaf block to drop an Acorn when broken. Default is low, similar to Apples.
+oakLeavesAcornChance = 0.05
+# Higher = slower, lower = faster. Makes perfect sense.
+wildBushRegrowthModifier = 1.0
+# Higher = slower, lower = faster. Photosynthesis is hard, okay?
+sunflowerRegrowthModifier = 1.0
+# A list of biome tags where these custom Sunflowers can replace vanilla ones. My custom union tag 'adorablehamsterpets:is_plains' points to 'c:is_plains', which provides wide compatibility with modded biomes.
+sunflowerBiomeTags = [
+    "adorablehamsterpets:is_plains",
+    "adorablehamsterpets:is_temperate",
+    "adorablehamsterpets:is_hot",
+    "adorablehamsterpets:is_dry"
+]
+# Specific biome IDs where these sunflowers can replace the vanilla ones. Format: 'mod_id:biome_name'. They’re picky.
+sunflowerBiomes = [
+    "minecraft:sunflower_plains"
+]
+# Enables the 'CasualAnimalEnjoyer' Protocol. A small chance for a random nearby sunflower to become a bioluminescent beacon at night— a reference to the Kikoriki cartoon, 'It Can't Be True' episode, around the 3:22 mark. Added upon request as a thank-you to CasualAnimalEnjoyer for their massive help with mod compatibility.
+enableGlowingSunflowers = true
+# 1 in X random ticks (20 ticks per second). Lower = more likely. Higher = more rare. Note: This only runs at night.
+glowingSunflowerChance = 1000
+# 1 in X chunks. Lower numbers means cucumbers take over the planet.
+wildCucumberBushRarity = 24
+# Biome tags where cucumbers feel at home. Format: 'mod_id:tag_name', for example: 'minecraft:is_jungle'.
+cucumberBushTags = [
+    "minecraft:is_jungle"
+]
+# Convention tags for maximum mod-pack harmony. Format: 'namespace:tag_name', for example: 'adorablehamsterpets:is_temperate', which points to the 'c:is_temperate' convention tag.
+cucumberBushConventionTags = [
+    "adorablehamsterpets:is_temperate",
+    "adorablehamsterpets:is_hot",
+    "adorablehamsterpets:is_dry"
+]
+# Specific biome IDs where cucumbers can sprout. Format: 'mod_id:biome_name', for example: 'minecraft:savanna'.
+cucumberBushBiomes = [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:meadow",
+    "minecraft:wooded_badlands",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle"
+]
+# Biomes where cucumbers are absolutely NOT allowed. Overrides everything else. Format: 'mod_id:biome_name', for example: 'minecraft:ocean'.
+cucumberBushExclusions = [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:mushroom_fields",
+    "minecraft:ocean",
+    "minecraft:deep_ocean",
+    "minecraft:warm_ocean",
+    "minecraft:stony_peaks"
+]
+# 1 in X chunks. Lower = beanpocalypse. For those of you in the back, it means they'll spam everywhere.
+wildGreenBeanBushRarity = 24
+# Biome tags for bean growth. Empty by default—choose wisely. Format: 'mod_id:tag_name', for example: 'minecraft:is_jungle'.
+greenBeanBushTags = [
+    "mod_id:biome_name"
+]
+# Convention tags for mod-friendly bean spam. Format: 'namespace:tag_name', for example: 'adorablehamsterpets:is_wet', which points to the 'c:is_wet' convention tag.
+greenBeanBushConventionTags = [
+    "adorablehamsterpets:is_wet",
+    "adorablehamsterpets:is_temperate"
+]
+# Specific biomes where beans sprout like gossip in chat. Format: 'mod_id:biome_name', for example: 'minecraft:swamp'.
+greenBeanBushBiomes = [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:lush_caves",
+    "minecraft:flower_forest"
+]
+# Absolutely no beans here, thank you very much. Overrides all other settings. Format: 'mod_id:biome_name', for example: 'minecraft:beach'.
+greenBeanBushExclusions = [
+    "minecraft:beach",
+    "minecraft:birch_forest",
+    "minecraft:cherry_grove",
+    "minecraft:dark_forest",
+    "minecraft:deep_ocean",
+    "minecraft:dripstone_caves",
+    "minecraft:forest",
+    "minecraft:meadow",
+    "minecraft:ocean",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:plains",
+    "minecraft:river",
+    "minecraft:sunflower_plains"
+]

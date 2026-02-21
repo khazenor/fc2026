@@ -1,0 +1,390 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+# Hand-delivers the sacred texts on first login.
+enableAutoGuidebookDelivery = true
+# A list of UUIDs for players who have already seen the missing guidebook warning. Ensures that everyone sees this, but only once unless you delete your name from this list.
+playersWhoHaveSeenGuidebookWarning = [  ]
+# How long (in ticks) I wait before realizing you're book-less and panicking. 3600 = 3 minutes.
+guidebookWarningTimer = 3600
+# Helpful whispers on what the heck that cucumber is for.
+enableItemTooltips = true
+# Little status mumbles when your co-pilot disembarks.
+enableShoulderDismountMessages = true
+# More stats than anyone asked for. Defaults to off— mercifully.
+enableJadeHamsterDebugInfo = false
+# The duration (in ticks) that action bar messages stay on screen. Only affects your personal computer. Vanilla is 60 (3 seconds), which is barely enough time to realize you're reading. Crank this up to savor the text. (20 ticks = 1 second).
+actionBarDuration = 100
+# The master switch for all announcement notifications. Turning this off is the same as clicking 'Disable All' in the announcement screen. Announcements can still be viewed in the §f§lHamster Tips§r guide book.
+enableNotificationIcons = true
+# For when you see the update notification and think, 'That's a problem for future me.' Future you will be so proud. This is where you select many days to hide the 'Update Available' notification when you click 'Remind Me Later'.
+snoozeUpdateReminderDays = 5
+# Decide if the bell haunts you full-time on the HUD or only ambushes you when you're trying to organize your inventory. If disabled, you will only see notifications when you open an inventory.
+enableHudIcon = true
+# Banish the bell to a corner of your choosing. It's your screen. Establish dominance.
+hudIconPositionPreset = "TOP_LEFT"
+# Shove the icon horizontally. For when 'top-left' isn't specific enough for your discerning taste.
+hudIconOffsetX = 10
+# Adjust the vertical placement. Does it block your view? Is it not blocking your view enough? The power is yours.
+hudIconOffsetY = 10
+# Make it bigger. Make it smaller. Make it an affront to good taste. I'm not your art director.
+hudIconScale = 1.0
+# Decide if the bell icon should ambush you while you're sorting your inventory. If disabled, it will only bother you on the main menu or the game HUD if you have those enabled. Your screen, your rules.
+enableWidgetIcon = true
+# How loud the wind gust sound effect is, for you overachievers who are running 15 different sound physics mods. 1.0 is default, 0.0 is silent.
+leafGustVolume = 0.3
+# Should the gentle, drift of Hamster Bedding leaf particles slowly change direction over time? If true, it's a slow, majestic rotation. (It takes a bout 3 minutes to make a full 360 degree rotation). If false, you get to pick a static wind direction below.
+enableDynamicDriftAngle = true
+# Set a fixed direction for the universal leaf drift (0-360 degrees). 0 = South, 90 = West, 180 = North, 270 = East. Or just slide it until it looks cool. Whatever. Only works if 'Dynamic Drift' is off.
+staticDriftAngle = 0
+# Do we yeet the hamster? ('G' by default).
+enableHamsterThrowing = true
+# For when you need some personal space. Allows tamed hamsters to be linked to a Hamster Bed, letting them wander freely within a set radius instead of clinging to you like melted duct-tape. You're welcome.
+enableWanderMode = true
+# If true, upgraded armor grants special perks. If false (because you hate fun?), armor acts only as a damage shield/visual. Each perk can also be individually configured in 'Armor Settings.'
+enableArmorPerks = true
+# If true, wild hamsters take their cheek-treasures to the grave. Prevents players from creating 'ethical' hamster recycling farms for seeds and nuggets.
+disableWildLootDrops = false
+# Gate cheek-pouch storage behind gourmet cuisine, because drama.
+requireFoodMixToUnlockCheeks = true
+# Changes the default entity name from 'Hamster' to 'Hampter'. Note: This has no visible effect in vanilla Minecraft, as mobs don't show nameplates by default. It's primarily for use with mods like Auto Leveling that display entity names.
+useHampterName = false
+# Should Ravagers, the hulking beasts of destruction, flee in terror from a tiny ball of fluff? Yes. Yes, they should.
+enableRavagerFlee = true
+# Turns your hamster into a mobile arachnid-repellent unit. Highly effective.
+enableSpiderFlee = true
+# How often a sitting hamster gets the sudden urge to clean. It's a 1-in-X chance per tick, so lower numbers mean a higher chance for cleaning. For example, 1200 means on average, it'll clean about once a minute. 300 ≈ every 15 secs, and 5000 ≈ every 4 mins. Congratulations— now you know enough to be dangerous.
+cleaningChanceDenominator = 1200
+# Time-out after using your living projectile. (20 ticks = 1 second)
+hamsterThrowCooldown = 2400
+# When the sugar rush ends, force a breather. (20 ticks = 1 second)
+steamedGreenBeansBuffCooldown = 6000
+# Force a cool-down after striking it rich. Off by default, since this can't happen again anyway without another mount/dismount on the shoulder.
+enableIndependentDiamondSeekCooldown = false
+# Cooldown before your hamster can go on another treasure hunt. (20 ticks = 1 second)
+independentOreSeekCooldownTicks = 2400
+# Mandatory time-out after a successful heist to prevent serial kleptomania. (20 ticks = 1s). WARNING: Increasing this cooldown can dramatically change the item stealing mechanic, since that AI goal sometimes re-runs multiple times in a row when the hamster has trouble pathfinding to the item that it wants to steal. So instead of increasing this, you should probably just stop dropping your diamonds on the ground everywhere, butter fingers.
+stealCooldownTicks = 100
+# Hamsters need their space. (20 ticks = 1 second)
+breedingCooldownTicks = 6000
+# The official list of bribes for convincing wild fluffballs to join your cause. By default, it's just sliced cucumbers. Feel free to add 'minecraft:nether_star' if you enjoy making poor life choices. Compatible with Cultural Delights by default!
+tamingFoods = [
+    "adorablehamsterpets:sliced_cucumber",
+    "culturaldelights:cut_cucumber"
+]
+# The hamster's everyday menu. These items will heal them or, if they're at full health, might give them... ideas about starting a family. Don't make it weird.
+standardFoods = [
+    "adorablehamsterpets:hamster_food_mix",
+    "adorablehamsterpets:sunflower_seeds",
+    "adorablehamsterpets:green_beans",
+    "adorablehamsterpets:cucumber",
+    "adorablehamsterpets:green_bean_seeds",
+    "adorablehamsterpets:cucumber_seeds",
+    "minecraft:apple",
+    "minecraft:carrot",
+    "minecraft:melon_slice",
+    "minecraft:sweet_berries",
+    "minecraft:beetroot",
+    "minecraft:wheat",
+    "minecraft:wheat_seeds",
+    "farmersdelight:cabbage_leaf",
+    "farmersdelight:cabbage_seeds",
+    "farmersdelight:tomato_seeds",
+    "farmersdelight:cooked_rice",
+    "farmersdelight:pumpkin_slice",
+    "culturaldelights:cut_cucumber",
+    "culturaldelights:cucumber_seeds",
+    "culturaldelights:corn_kernels"
+]
+# The list of items a hamster might try to... 'borrow' if you leave them on the ground. A chase will ensue. You have been warned.
+stealableItems = [
+    "minecraft:diamond"
+]
+# Items the hamster views as gifts or toys to bring back to you. Picking these up triggers Delivery Mode. Default: Acorns.
+retrievableItems = [
+    "adorablehamsterpets:acorn"
+]
+# The list of questionable substances that grant your hamster temporary superpowers. By default, it's just steamed green beans.
+buffFoods = [
+    "adorablehamsterpets:steamed_green_beans"
+]
+# The specific items that convince a tamed hamster your shoulder is the best seat in the house. Also acts as a bribe to lure them into their linked bed. Defaults to cheese, because of course it does.
+lureItems = [
+    "adorablehamsterpets:cheese"
+]
+# The list of specific items that, when used on a Hamster Bed, will set 'Wander Mode Settings > Allow Sleeping in Bed' to false. For when you need your hamster to stay awake and wander around for... reasons. This can be reversed by using a lure item (cheese by default) on the bed. Sneaking before right-clicking with this item will unlink the bed entirely.
+bedAvoidanceFoods = [
+    "minecraft:rotten_flesh"
+]
+# The one-time offering required to earn a hamster's ultimate trust, unlocking their cheek inventory. Make it something special. Or don't. See if I care.
+pouchUnlockFoods = [
+    "adorablehamsterpets:hamster_food_mix"
+]
+# Items on this list are so delicious, your hamster will never refuse them, even if you feed it to them twice. For the truly spoiled rodent.
+repeatableFoods = [
+    "adorablehamsterpets:hamster_food_mix",
+    "adorablehamsterpets:steamed_green_beans"
+]
+# The specific items a hamster will eat directly from its cheek pouch to heal itself when injured. Keep it exclusive, or let them feast on enchanted apples. Your call.
+autoHealFoods = [
+    "adorablehamsterpets:hamster_food_mix"
+]
+# A specific list of items and tags that are allowed in the hamster's cheek pouch. You can add things to this list to bypass the default 'no tools or big blocks' rule, since this overrides the 'disallowed' settings.
+pouchAllowedItems = [
+    "minecraft:torch",
+    "minecraft:soul_torch",
+    "minecraft:redstone_torch",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:lever",
+    "#minecraft:buttons",
+    "#minecraft:pressure_plates",
+    "minecraft:beetroot_seeds",
+    "minecraft:pumpkin_seeds",
+    "minecraft:melon_seeds",
+    "minecraft:pitcher_pod",
+    "minecraft:torchflower_seeds",
+    "#c:seeds",
+    "#forge:seeds"
+]
+# A list of specific item IDs that are NEVER allowed in the cheek pouch, unless they are on the 'Allowed' list above. Mostly stuff that's too big, too pointy, or just plain illogical. Lol.
+pouchDisallowedItems = [
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:trident",
+    "minecraft:fishing_rod",
+    "minecraft:shield",
+    "minecraft:elytra",
+    "minecraft:turtle_helmet",
+    "minecraft:carved_pumpkin",
+    "minecraft:player_head",
+    "minecraft:zombie_head",
+    "minecraft:skeleton_skull",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:creeper_head",
+    "minecraft:dragon_head",
+    "minecraft:piglin_head",
+    "minecraft:minecart",
+    "minecraft:chest_minecart",
+    "minecraft:furnace_minecart",
+    "minecraft:tnt_minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:command_block_minecart",
+    "minecraft:saddle",
+    "minecraft:bucket",
+    "minecraft:water_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:milk_bucket",
+    "minecraft:powder_snow_bucket",
+    "minecraft:axolotl_bucket",
+    "minecraft:tadpole_bucket",
+    "minecraft:cod_bucket",
+    "minecraft:pufferfish_bucket",
+    "minecraft:salmon_bucket",
+    "minecraft:tropical_fish_bucket",
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame",
+    "minecraft:painting",
+    "minecraft:armor_stand",
+    "minecraft:end_crystal",
+    "minecraft:spyglass",
+    "minecraft:nether_star",
+    "minecraft:dragon_egg",
+    "minecraft:bundle"
+]
+# A list of item tags that are NEVER allowed in the cheek pouch, unless they are on the 'Allowed' list above. A broad-spectrum approach to preventing your hamster from swallowing an entire sword.
+pouchDisallowedTags = [
+    "#minecraft:axes",
+    "#minecraft:hoes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:swords",
+    "#minecraft:trimmable_armor",
+    "#minecraft:beds",
+    "#minecraft:banners",
+    "#minecraft:doors",
+    "#minecraft:boats"
+]
+# How much abuse a wild hamster can take before it gives up the ghost. Vanilla animals are around 8-10. Set it to 200 (100 hearts) if you enjoy a challenge, or 1 if you're a monster.
+wildMaxHealth = 8.0
+# How beefy your tamed fuzzball is. Defaults to double its wild health, because love makes you stronger. Or something. Vanilla wolves have 20 (10 hearts).
+tamedMaxHealth = 16.0
+# Controls how frequently your hamster feels the urge to walk around. The higher the number, the lazier the hamster (1 in X chance to wander per tick; 20 ticks = 1 second). Set to 0 to disable wandering entirely— perfect for keeping them still for photoshoots or interrogation. Vanilla's default chance for Wolves is 1 in 120 ticks.
+wanderInterval = 110
+# The minimum time (in ticks) your hamster stares into your soul. Actual duration = this value + a random extra 0 to 4 seconds. Default is 40. Increase to simulate deep contemplation (or emptiness).
+lookAtDuration = 20
+# Convince a hamster to love you. Taming difficulty (1 in X chance). Higher = more cucumbers sacrificed to fuzzy freeloaders.
+tamingChanceDenominator = 3
+# Tamed hamster melee damage. Squeak-first, ask questions later.
+meleeDamage = 2.0
+# Damage dealt by thrown hamster. Surprisingly effective against Creepers. How convenient.
+hamsterThrowDamage = 20.0
+# Aerodynamics provided by smooth Iron plating. Adds 0.5 to the throw velocity, which is 1.5 by default or 2.5 when under the influence of Steamed Green Beans.
+ironArmorThrowSpeedBoost = 0.5
+# The zoom factor provided by Gold Armor. Because flimsier things go faster. Obviously. (+0.20 = +20% Speed)
+goldArmorSpeedBoost = 0.2
+# The 'Immovable Object' density factor. 0.5 is 50% resistance. 1.0 makes them a neutron star.
+netheriteArmorKnockbackResist = 0.5
+# Heavy things hit harder. Adds this much flat damage to the projectile impact. (1 = 0.5 hearts)
+netheriteArmorThrowDamageBonus = 10.0
+# Master switch for armor rendering. If false, hamsters will appear unarmored even when equipped. Useful if you prefer the natural look but still want the protection.
+enableArmorVisuals = true
+# Determines whether you are able to see the jaunty little Acorn Hat when hamsters are wearing the base Acorn Armor. Does not affect what other players see, and does not apply to the standalone Acorn Hat accessory.
+renderAcornHat = true
+# The likelihood (0.0 to 1.0) of an acorn dropping each time your hamster rummages. Default is very low at 0.03 (3%), because the hamster rummages roughly ~5 times per second. Crank it up if you want to crash the local squirrel economy. (Maximum output is 1 acorn per second even if you turn it all the way up).
+acornDropChance = 0.03
+# Whether to show an action bar message when a Tree Heist begins.
+enableTreeHeistStartMessage = true
+# Shows visual particles for the detected Tree ID (the lowest block of the trunk) and leaf canopy during a heist, and turns on extra logging in the console. Useful for seeing exactly which tree your hamster is searching and/or debugging if things are being weird.
+debugTreeDetection = false
+# The Master Switch. Affects all Hamster Beds. If true, hamsters linked to a bed can be resurrected there. Cheating? Maybe. Convenient? Absolutely.
+enableRespawnInBed = false
+# The specific items accepted by the Hamster Bed to enable the Respawn Protocol. Defaults to the Totem of Undying, because immortality isn't cheap. Accepts item IDs (e.g. 'minecraft:totem_of_undying') or tags.
+resurrectionTributes = [
+    "minecraft:totem_of_undying"
+]
+# Should hamsters treat other hamsters' beds as sacred ground? If true, they'll try to politely path around them, but they will only try a few alternate paths before their tiny rodent-patience runs out. If false, they'll trample wherever they please.
+avoidUnlinkedBeds = true
+# The initial wander distance set when a hamster is first linked to a bed. It defaults to medium, because that is the universally accepted starting point for all life choices.
+defaultWanderDistance = "MEDIUM"
+# The radius (in blocks) for the 'Near' wander distance setting. For the clingy hamster who wants freedom, but not too much.
+wanderDistanceNear = 8
+# The radius (in blocks) for the 'Medium' wander distance setting. A respectable distance. Not too close, not too far. Perfectly balanced, as all things should be.
+wanderDistanceMedium = 16
+# The radius (in blocks) for the 'Far' wander distance setting. For the adventurous hamster who might send you a postcard someday. Maybe.
+wanderDistanceFar = 32
+# Get an action bar message when your hamster's bed is broken. Here's where you can turn it off if you prefer... complete immersion.
+enableBedBreakMessage = true
+# The global override for whether hamsters can sleep in their beds. If enabled, all hamsters in wander mode will seek out their bed to sleep at specific times, regardless of individual bed settings. If disabled, they'll just pass out when sitting, like your old uncle at family gatherings.
+allowSleepInBed = true
+# Tired of your hamsters adhering to the rigid tyranny of the day/night cycle? Enable this for a more... unpredictable napping schedule. When enabled, this will override the 'Sleep During the Day' setting.
+circadianChaos = false
+# The shortest possible time (in seconds) a hamster will stay awake or asleep in bed before considering a change. Defaults to 5 minutes— for the truly narcoleptic rodent. A random duration between the min and max is chosen each time, so move them further apart for more... unpredictable behavior.
+minNapInBedIntervalSeconds = 300
+# The longest amount of time (in seconds) a hamster can possibly stay awake or asleep in bed before it gets bored and switches things up. Defaults to 10 minutes.
+maxNapInBedIntervalSeconds = 600
+# If false, wandering hamsters will sleep in their beds during the night. If true, they'll adopt a more nocturnal, goth-adjacent lifestyle and sleep in the daytime.
+sleepDuringDay = true
+# The mandatory grumpiness period if you rudely awaken a hamster from its bed before it was ready. It won't go back to sleep until this timer runs out. (20 ticks = 1 second)
+bedWakeUpCooldown = 300
+# Where should the hamster go first? 'Shoulders First' fills Right then Left then Head. 'Head First' fills Head then Right then Left.
+mountPriority = "SHOULDERS_FIRST"
+# If true, any hamsters on your shoulder will remain there when you respawn. If false (default), they will remain at your death location, passed out from the sheer shock of seeing you die. They may need a quick pat to wake them up when you return.
+keepHamstersOnShoulderOnDeath = false
+# Should luring a hamster to your shoulder consume the item (e.g., cheese)? Turn this off if you believe your charm alone should be enough. The item will still be required, just not eaten.
+consumeLureItem = true
+# Tired of wasting perfectly good cheese? Enable this to use a dedicated keybind (unbound by default). Hold down this key while right-clicking your hamster to hoist them onto your shoulder, no questions asked. Uses a separate key you must set in Settings > Controls > Key Binds.
+enableShoulderMountKeybind = false
+# May save your inventory. Or your ears.
+enableShoulderCreeperDetection = true
+# Adjust paranoia levels. (Distance in blocks)
+shoulderCreeperDetectionRadius = 16.0
+# Because who doesn’t enjoy unsolicited financial advice from a rodent?
+enableShoulderDiamondDetection = true
+# How close (in blocks) you need to be before the squeak says \"bling.\"
+shoulderDiamondDetectionRadius = 10.0
+# Determines the sequence for dismounting hamsters with a key press. LIFO (Last-In, First-Out) dismounts the most recently added hamster. FIFO (First-In, First-Out) dismounts the oldest one.
+dismountOrder = "LIFO"
+# Choose what action dismounts the hamster. 'SNEAK_KEY' uses your sneak key, obviously. 'CUSTOM_KEYBIND' uses a separate key you must set in Controls > Key Binds.
+dismountTriggerType = "SNEAK_KEY"
+# Choose whether a single press or a quick double‑tap dismounts the hamster.
+dismountPressType = "SINGLE_PRESS"
+# Max time between sneak key presses to count as a double-tap. (20 ticks = 1 second)
+doubleTapDelayTicks = 10
+# If true, hamsters on your shoulder will randomly cycle through standing, sitting, and laying down while on the shoulder. If false, they will remain in a single state defined below.
+enableDynamicShoulderAnimations = true
+# If dynamic animations are disabled, choose the single state shoulder pets should remain in. Sometimes this setting can have a delay before kicking in, but if it doesn't seem to be working at all, try switching the 'Forced State' from one option to another. Usually this just makes it \"work.\" I'm not sure why lol
+forcedShoulderState = "ALWAYS_STAND"
+# False by default. If true, shoulder hamsters will be forced into their 'laying down' animation when you move, as if trying not to fall off. If false, they will continue their normal animation cycle.
+forceLayDownOnWalk = false
+# If true, shoulder hamsters will be forced into their 'laying down' animation while you sprint, as if holding on for dear life. If false, they will continue their normal animation cycle.
+forceLayDownOnSprint = true
+# The minimum time (in seconds) a shoulder hamster will stay in any one animation state (standing, sitting, or laying down). A random duration between the min and max is chosen for each transition.
+shoulderMinStateSeconds = 20
+# The maximum time (in seconds) a shoulder hamster will stay in any one animation state (standing, sitting, or laying down). A random duration between the min and max is chosen for each transition.
+shoulderMaxStateSeconds = 45
+# Mutes the ambient squeaks from shoulder-mounted hamsters. The bounce and alert sounds will still play.
+silenceShoulderIdleSounds = false
+# Mutes the hamster landing/bounce sound effect from the physics simulation when you are in first-person view.
+silencePhysicsSoundsInFirstPerson = false
+# The base throw speed of your furry projectile.
+hamsterThrowVelocity = 1.5
+# The throw speed of your furry projectile when under the influence of Steamed Green Beans. Goes from 'yeet' to 'yote'.
+hamsterThrowVelocityBuffed = 2.5
+# How close (in blocks) a hostile mob can get before a hamster wakes up from it's power nap.
+tamedSleepThreatDetectionRadiusBlocks = 8
+# Choose when your sitting hamster will succumb to drowsiness. 'True' means your sitting hamster will only doze off during the day— 'false' means it can doze off anytime. This setting does not affect the behavior of a hamster when sleeping in a bed.
+requireDaytimeForTamedSleep = true
+# Minimum seconds before a sitting hamster gets sleepy.
+tamedQuiescentSitMinSeconds = 120
+# Maximum seconds before the inevitable deep snooze.
+tamedQuiescentSitMaxSeconds = 180
+# Healing amount from Hamster Food Mix. The good stuff.
+hamsterFoodMixHealing = 4.0
+# Healing from basic seeds/crops. Better than nothing… probably.
+standardFoodHealing = 2.0
+# How many little hunger shanks the cheese restores. Vanilla cooked steak is 8. I know you're thinking of moving it to 20, you monster.
+cheeseNutrition = 8
+# How long the hunger effect lasts. Cooked steak is 0.8. Don't get too crazy. Or do. I'm not your conscience.
+cheeseSaturation = 0.8
+# Steamed beans: power that fades faster than your attention span. (20 ticks = 1 second)
+greenBeanBuffDuration = 3600
+# Because someone gotta go fast.
+greenBeanBuffAmplifierSpeed = 1
+# Slightly mightier nibbles.
+greenBeanBuffAmplifierStrength = 1
+# Extra fluff padding for those daring dives.
+greenBeanBuffAmplifierAbsorption = 1
+# Heals minor paper-cuts (and fragile egos).
+greenBeanBuffAmplifierRegen = 0
+# Permit hamsters to embark on solo get-rich-quick schemes?
+enableIndependentDiamondSeeking = true
+# How far (in blocks) a hamster scans once it’s decided to play prospector.
+diamondSeekRadius = 10
+# The probability (0.0 to 1.0) that a hamster will seek gold instead of diamond, if both are available. At 0.5, it's a coin toss. At 1.0, it's guaranteed hamster sulking.
+goldMistakeChance = 0.33
+# The list of blocks that smell... shiny. Especially to greedy hamsters. Diamonds by default, but maybe you want them to sniff for Zinc ore? Accepts block IDs (e.g. 'create:zinc_ore') and #tags (e.g. '#c:ores/diamond').
+celebrationOres = [
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore"
+]
+# Blocks that look promising but ultimately lead to a dramatic emotional breakdown. Gold by default, but if you want them to sniff for dirt, I'm not your conscience. Accepts block IDs (e.g. 'create:copper_ore') and #tags (e.g. '#c:ores/gold').
+sulkingOres = [
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore"
+]
+# Permits hamsters to engage in spontaneous, high-stakes games of keep-away with your valuables, or they might fetch items for you.
+enableItemCarrying = true
+# Probability (0.1 to 1.0) a hamster will succumb to temptation. High by default. You shouldn't leave your diamonds lying around anyway. Does not apply to retrieval.
+itemThieveryChance = 0.75
+# The hamster's personal space bubble (in blocks) when stealing your shinies. The discrepancy between the minimum and maximum flee distance determines the randomness.
+minFleeDistance = 5
+# The maximum distance (in blocks) before the hamster gets bored and stops running to taunt you with the stolen goods. The discrepancy between the minimum and maximum flee distance determines the randomness.
+maxFleeDistance = 20
+# The shortest amount of time (in seconds) the hamster will entertain interest in an item before getting bored and dropping it. The discrepancy between the minimum and maximum duration determines the randomness.
+minStealDurationSeconds = 5
+# The longest amount of time (in seconds) the hamster will entertain interest in an item before getting bored and dropping it. The discrepancy between the minimum and maximum duration determines the randomness.
+maxStealDurationSeconds = 15
+# Adds a keybind to mount hamsters. (It's unbound by default). Allows riding any hamster, but you can only steer your own. 
+# 
+# Commissioned by @Saint_Victus.
+enableMountableHamsters = false
+# The casual strolling speed multiplier. 0.25 is the default. Don't ask why.
+ridingBaseSpeedMultiplier = 0.25
+# The speed multiplier when sprinting. Hold on to your acorn hat. 0.35 is the default. I wish it was a nice round number, but alas, hamster riding is a complex enigma.
+ridingSprintSpeedMultiplier = 0.35
+
+# Control the icon's placement for standard GUIs. Because nothing says 'immersion' like a perfectly aligned notification bell. Position is relative to the GUI's top-right corner.
+
+[survivalWidgetIconSettings]
+# Shove it sideways (in pixels). Increase the number to move it right, decrease to move left.
+offsetX = 0
+# Shove it vertically (in pixels). Increase the number to move it down, decrease to move up.
+offsetY = 0
+
+# Control the icon's placement for the creative mode GUI. Because nothing says 'immersion' like a perfectly aligned notification bell. Position is relative to the GUI's top-right corner.
+
+[creativeWidgetIconSettings]
+# Shove it sideways (in pixels). Increase the number to move it right, decrease to move left.
+offsetX = 0
+# Shove it vertically (in pixels). Increase the number to move it down, decrease to move up.
+offsetY = 0

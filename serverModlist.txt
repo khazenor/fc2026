@@ -1,4 +1,5 @@
 addonslib-neoforge-1.21.1-1.10.jar
+adorablehamsterpets-3.5.0-1.21.1+neoforge.jar
 advancednetherite-neoforge-2.3.1-1.21.1.jar
 AI-Improvements-1.21-0.5.3.jar
 allthecompressed-1.21.1-4.4.0.jar
@@ -68,6 +69,7 @@ ftb-quests-neoforge-2101.1.21.jar
 ftb-teams-neoforge-2101.1.9.jar
 ftb-xmod-compat-neoforge-21.1.7.jar
 fusion-1.2.12-neoforge-mc1.21.1.jar
+fzzy_config-0.7.6+1.21+neoforge.jar
 geckolib-neoforge-1.21.1-4.8.3.jar
 getittogetherdrops-neoforge-1.21.5-1.4.jar
 glassbreaker-2.0.0+1.21+neoforge.jar
