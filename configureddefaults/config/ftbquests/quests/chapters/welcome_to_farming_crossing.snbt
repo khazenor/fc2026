@@ -1831,7 +1831,7 @@
 				item: { count: 1, id: "kubejs:miles_booklet" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -1888,7 +1888,7 @@
 				item: { count: 1, id: "kubejs:miles_booklet" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -2157,7 +2157,7 @@
 				item: { count: 1, id: "kubejs:miles_booklet" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -3061,6 +3061,72 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["237FE170DCEF0E64"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "quark:crate"
+			}
+			id: "39D526F16A1182EE"
+			rewards: [{
+				id: "5A2EB5CFD90AD8F2"
+				item: {
+					count: 1
+					id: "quark:crate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "379D0E7428F58913"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14E4D983C6F318CD"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "3620EF57E29F9849"
+			rewards: [
+				{
+					id: "5104EAC5CC2EBE98"
+					item: {
+						count: 1
+						id: "minecraft:enchanting_table"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0F7C5210E4512C0E"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4A2AB5FA0E6D167B"
+					item: {
+						count: 1
+						id: "minecraft:candle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "2934B6F77EB213F0"
+				item: { count: 1, id: "kubejs:miles_ticket" }
+				type: "item"
+			}]
+			x: -1.0d
 			y: -5.0d
 		}
 	]
