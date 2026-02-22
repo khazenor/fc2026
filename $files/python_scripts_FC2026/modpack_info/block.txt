@@ -1,3 +1,9 @@
+adorablehamsterpets:cucumber_crop
+adorablehamsterpets:green_beans_crop
+adorablehamsterpets:hamster_bed
+adorablehamsterpets:sunflower_block
+adorablehamsterpets:wild_cucumber_bush
+adorablehamsterpets:wild_green_bean_bush
 advancednetherite:netherite_diamond_block
 advancednetherite:netherite_emerald_block
 advancednetherite:netherite_gold_block

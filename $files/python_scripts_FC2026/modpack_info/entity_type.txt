@@ -1,3 +1,5 @@
+adorablehamsterpets:hamster
+adorablehamsterpets:hamster_tree_searcher
 artifacts:mimic
 beachparty:beach_ball
 beachparty:chair
