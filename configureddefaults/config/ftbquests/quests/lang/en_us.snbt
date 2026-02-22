@@ -593,6 +593,7 @@
 	]
 	quest.5311686C2B4B0C71.title: "Move in Laly"
 	quest.53758DAA16D2F0A1.title: "Locate Yukkie"
+	quest.53807D95F7EA1C41.title: "Taming Hamsters"
 	quest.5385E5667B17FB0D.title: "Caking Completion"
 	quest.53A97CAB5255B2F3.quest_desc: [
 		"# How to use the meadow cooking pot"
@@ -973,6 +974,7 @@
 	task.31493B0617220666.title: "Spot a squid"
 	task.31F4304581E34C6A.title: "Free Task"
 	task.325C3248CFB459C9.title: "Spot a sand snapper"
+	task.32BCBF01B47A5EA4.title: "Free Task"
 	task.337C31047003D75D.title: "Spot a horse"
 	task.355A4558EE9F73AD.title: "Free Task"
 	task.362D797244D0CB9C.title: "Free Task"
