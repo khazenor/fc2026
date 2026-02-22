@@ -103,7 +103,7 @@ leaky-1.21-2.4.jar
 letmedespawn-1.21.x-neoforge-1.5.0.jar
 letsdo-bakery-neoforge-2.1.6.jar
 letsdo-beachparty-neoforge-2.1.3.jar
-letsdo-brewery-neoforge-2.1.6.jar
+letsdo-brewery-neoforge-2.1.8.jar
 letsdo-candlelight-neoforge-2.1.7.jar
 letsdo-farm_and_charm-neoforge-1.1.19.jar
 letsdo-furniture-neoforge-1.1.3.jar
