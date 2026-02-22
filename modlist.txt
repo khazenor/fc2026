@@ -60,7 +60,7 @@ emotecraft-for-MC1.21.1-2.4.12-neoforge.jar
 enderchests-neoforge-1.21.1-1.0.jar
 entityculling-neoforge-1.9.5-mc1.21.1.jar
 entity_model_features_1.21-neoforge-3.0.12.jar
-entity_texture_features_1.21-neoforge-7.0.8.jar
+entity_texture_features_1.21-neoforge-7.0.9.jar
 everythingcopper-1.21.1-2.4.5.jar
 ExplorersCompass-1.21.1-3.0.3-neoforge.jar
 ExtremeSoundMuffler-3.54_NeoForge-1.21.jar
