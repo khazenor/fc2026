@@ -3130,5 +3130,32 @@
 			x: -1.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["5C0C5C8BB9ED9465"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "adorablehamsterpets:hamster_spawn_egg"
+			}
+			id: "53807D95F7EA1C41"
+			rewards: [{
+				id: "0B4ADCE7CE5C8BA9"
+				item: {
+					count: 1
+					id: "adorablehamsterpets:hamster_guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:glass"
+				}
+				id: "32BCBF01B47A5EA4"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
 	]
 }
