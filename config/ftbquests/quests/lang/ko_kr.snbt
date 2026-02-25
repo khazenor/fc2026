@@ -6,7 +6,7 @@
 	chapter.5743297AA91ABFEE.title: "동물 관찰"
 	chapter.5BF39E04B86F3E0E.title: "광물 박물관"
 	chapter.6A0A643006B111D8.title: "수족관"
-	chapter.7264A648F9613D3D.title: "농장 횡단!"
+	chapter.7264A648F9613D3D.title: "파밍 크로싱 6"
 	chapter.738AB02774440896.title: "공장 음식"
 	chapter.777610DAF01F24E9.title: "컬렉션 도전 과제"
 	chapter_group.2AF27285BDAE0A0D.title: "컬렉션 퀘스트"
@@ -20,12 +20,12 @@
 	quest.0261908781297A1E.title: "20마리의 독특한 물고기를 잡았습니다!"
 	quest.034618F0272E03A7.title: "네더라이트 양조 완료"
 	quest.0402B3C9225F65F2.title: "20가지 독특한 요리를 만들었습니다!"
-	quest.040F861256CDB7B9.title: "1k Storage Disk"
+	quest.040F861256CDB7B9.title: "1k 저장소 디스크"
 	quest.0487F6609FF4DFAA.title: "잔디 완료"
 	quest.0567525EC9CF0532.title: "무제한 저장 공간"
 	quest.05D149C668728D6B.title: "팜 바 완료"
 	quest.0630CE07E50C1851.title: "치즈 만들기"
-	quest.068C214AF95CE24F.title: "Creative Wireless Grid"
+	quest.068C214AF95CE24F.title: "크리에이티브 무선 그리드"
 	quest.06E7C18829DCC5F6.title: "차원 이동 반지"
 	quest.081A08FAF0E2C637.title: "다이아몬드 낚싯대 업그레이드"
 	quest.0837A544E05704BC.quest_desc: [
@@ -33,7 +33,7 @@
 		""
 		"꼬마야, 동물을 관찰하고 있었니? 준비가 되었다면 정착지에 작은 정원과 농장을 시작해도 괜찮을 것 같아."
 		""
-		"== MODPACK TUTORIAL =="
+		"== 모드팩 튜토리얼 =="
 		""
 		"안드레를 이사시키려면 10마리의 독특한 동물을 관찰하세요"
 	]
@@ -114,7 +114,7 @@
 	quest.19624CB79AFCA70A.title: "구리 양조"
 	quest.19B9404802BDE308.title: "모드 음식"
 	quest.1A6015D93785C5F8.quest_desc: [
-		"# 농장 및 부적 분쇄기 사용 방법:"
+		"# Farm and Charm 분쇄기 사용 방법:"
 		"- 분쇄기를 바닥에 놓습니다."
 		"- 입력 재료를 넣으려면 분쇄기를 우클릭합니다."
 		"- 분쇄기를 계속 우클릭하여 재료를 결과물로 가공합니다."
@@ -127,7 +127,7 @@
 		""
 		"제스는 당신이 새로운 어드벤처 정착지에서 일하고 있고 낚시 기술을 꽤 좋아하게 되었다고 말했습니다. 정말 기쁩니다. 새로운 초심 어부를 제 날개 아래에 두고 싶습니다... 네, 낚시 방법에 대한 팁을 한두 가지 공유하고 정착지를 돕기 위해 몇 개의 소포를 보내드리겠습니다."
 		""
-		"== MODPACK TUTORIAL =="
+		"== 모드팩 튜토리얼 =="
 		""
 		"## 물고기 잡기"
 		""
@@ -168,7 +168,7 @@
 		""
 		"좋아요! 식물을 찾고 계시는군요! 저를 위해 과일을 좀 남겨주세요! 사람들이 거래하고 싶어하는 모든 과일을 제가 얻을 수 있도록 당신의 정착지에 모험가 가판대를 설치할 거예요!"
 		""
-		"== MODPACK TUTORIAL =="
+		"== 모드팩 튜토리얼 =="
 		""
 		"Yukkie를 이사시키려면 10개의 특별한 플로라를 수집하세요."
 	]
@@ -221,7 +221,7 @@
 		""
 		"안녕하세요! 저는 미어캣 Laly, Laly입니다! 저는 동굴 탐험을 좋아하는 지질학자이자 Oyster Creek 박물관의 보석 및 미네랄 전시회의 큐레이터입니다. 저는 지하에서 많은 시간을 보냅니다. 그곳은 저의 행복한 장소입니다. 하지만 박물관 일이 많아지면서 요즘은 현장에 나갈 기회가 많지 않았습니다. Jess가 당신을 어디로 보냈는지 듣고 너무 부러웠어요. 운이 좋으시네요! 알고 보니 그 땅은 보석의 보고였습니다. 광물을 채굴하는 동안 많은 보석을 발견할 테니 과학을 위해 표본을 보내주시면 안 될까요? 당신이 무엇을 발견할지 너무 기대됩니다!"
 		""
-		"== MODPACK TUTORIAL =="
+		"== 모드팩 튜토리얼 =="
 		""
 		"- 전진 줍기 업그레이드를 배낭에 넣어 아이템을 자동으로 줍게 할 수 있습니다."
 		""
@@ -229,7 +229,7 @@
 	]
 	quest.2C1B93F1A534E681.title: "미네랄 채굴"
 	quest.2C347959EBCF675E.quest_desc: [
-		"# 농장 및 부적 제작 보울 사용 방법:"
+		"# Farm and Charm 제작 보울 사용 방법:"
 		"- 제작 보울을 놓으세요."
 		"- 식재료를 제작 보울에 우클릭하세요."
 		"- (Shift 키를 누른 상태로 보울을 우클릭하여 식재료를 제거할 수 있습니다.)"
@@ -238,7 +238,7 @@
 	]
 	quest.2C347959EBCF675E.title: "보울 혼합"
 	quest.2C42B4AF446B4BD9.quest_desc: [
-		"# 농장 및 부적 요리 냄비 사용 방법:"
+		"# Farm and Charm 요리 냄비 사용 방법:"
 		"- 모닥불을 놓으세요."
 		"- 모닥불을 우클릭하여 요리 냄비를 설치하세요."
 		"- 요리 냄비를 우클릭하여 GUI에 액세스하세요."
@@ -445,18 +445,18 @@
 	]
 	quest.49A24AD6CB0927FB.title: "포도 주스 만들기"
 	quest.49BBEA6293EEAE79.quest_desc: [
-		"# 농장 및 부적 스토브 사용 방법:"
+		"# Farm and Charm 스토브 사용 방법:"
 		"- 스토브를 놓으세요"
 		"- 연료 슬롯에 연료(예: 석탄)를 넣으세요"
 		"- 재료 슬롯에 재료를 넣으세요"
 	]
 	quest.49BBEA6293EEAE79.title: "스토브 제빵"
 	quest.4A69082167D41264.quest_desc: [
-		"# 농장 및 부적의 구이대 사용 방법:"
-		"- 스토브 위에 구이대를 놓으세요"
+		"# Farm and Charm의 로스터 사용 방법:"
+		"- 스토브 위에 로스터를 놓으세요"
 		"- 재료와 컨테이너를 해당 슬롯에 넣으세요"
 	]
-	quest.4A69082167D41264.title: "구이대 굽기"
+	quest.4A69082167D41264.title: "로스터 굽기"
 	quest.4B1F3644119B6957.title: "2개의 특별한 광물을 수집했습니다!"
 	quest.4B9D6D9D0EA42CCD.title: "Elna 찾기"
 	quest.4BC9E5611B9858A5.title: "정글 완료"
@@ -501,7 +501,7 @@
 		""
 		"오, 훌륭한 표본을 찾으셨군요! 지역 광물을 전시하기 위해 정착지에 Oyster Creek 박물관의 새로운 지점을 열게 되어 기쁩니다!"
 		""
-		"== MODPACK 튜토리얼 =="
+		"== 모드팩 튜토리얼 =="
 		""
 		"Laly가 이사 오려면 10개의 특별한 광물을 수집하세요"
 	]
@@ -529,7 +529,7 @@
 		"오, 특별한 광물을 찾으셨군요! 보석 세공 작업대에서 모든 종류의 보석에 사용할 수 있습니다. 탐험하면서 마을에서 눈을 떼지 마세요. 새로운 보석 패턴을 판매할 사람들이 있을지도 몰라요!"
 	]
 	quest.56AC6181113D8B4E.title: "보석 제작"
-	quest.56F458AB639E8D1E.title: "크리에이티브 Storage Disk"
+	quest.56F458AB639E8D1E.title: "크리에이티브 저장소 디스크"
 	quest.57BE1A138D1F6B53.title: "바닐라 플로라 완료"
 	quest.57C34897398B2464.title: "공허 완료"
 	quest.59449FD43D19FE6B.quest_desc: [
@@ -542,11 +542,11 @@
 		"잼 사용 -> 케이크 만들기"
 	]
 	quest.59449FD43D19FE6B.title: "케이크 제작대"
-	quest.59EC0CF448369939.title: "4k Storage Disk"
-	quest.5A08DE6581ABEB44.title: "크리에이티브 Wireless Grid"
+	quest.59EC0CF448369939.title: "4k 저장소 디스크"
+	quest.5A08DE6581ABEB44.title: "크리에이티브 무선 그리드"
 	quest.5A4AA7C9BA18CB2C.title: "5가지 특별한 물고기 잡기!"
 	quest.5AC743FE401681BD.title: "흑요석 상자 낚시"
-	quest.5B2F73BE722EFC7A.title: "크리에이티브 Portable Grid"
+	quest.5B2F73BE722EFC7A.title: "크리에이티브 휴대용 그리드"
 	quest.5BB3A4D8C0D8386C.title: "20가지 특별한 플로라 수집!"
 	quest.5BB57D9BEC8038FB.quest_desc: [
 		"** 전화벨이 울립니다 **"
@@ -577,7 +577,7 @@
 	quest.5E2326EDD5B662A8.title: "크리스탈 낚싯대 업그레이드 키트"
 	quest.5E30BB54995DB642.title: "110가지 특별한 플로라 수집!"
 	quest.5E40E79D5B5E737F.title: "철 낚싯대 업그레이드 키트"
-	quest.5E6968319E825653.title: "크리에이티브 Controller"
+	quest.5E6968319E825653.title: "크리에이티브 컨트롤러"
 	quest.609C71580309E47D.title: "담수 완료"
 	quest.60D11B166A66E480.title: "건축용 비행 보조"
 	quest.617112FB2651A093.title: "요리 솥 완료"
@@ -725,7 +725,7 @@
 		""
 		"도구 벨트는 유용한 도구입니다… 제가 하나 판매하고 있습니다."
 		""
-		"== MODPACK TUTORIAL =="
+		"== 모드팩 튜토리얼 =="
 		""
 		"- 도구 벨트를 장착하려면 인벤토리 화면에서 플레이어 캐릭터의 왼쪽 상단 모서리에 있는 아이콘을 클릭하여 호기심 메뉴를 여세요"
 		""
@@ -754,7 +754,7 @@
 	quest.7EF0A60D2381B72D.title: "고기 맛 버섯"
 	quest.7F9E567D1A1178E6.title: "사과 주스 만들기"
 	quest.7FC81DCE4ACD2C25.title: "구이대 완료"
-	quest.7FEEA0C56B23D7A2.title: "Refined Storage"
+	quest.7FEEA0C56B23D7A2.title: "리파인드 스토리지"
 	reward.0293511AC9719527.title: "건축 공급 번들"
 	reward.02F4FC23E1106F52.title: "엘나 초대"
 	reward.0F10C88596D39788.title: "페니 초대"
