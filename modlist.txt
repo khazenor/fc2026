@@ -24,7 +24,7 @@ botanypots-neoforge-1.21.1-21.1.41.jar
 BuildingWands-neoforge-MC1.21-2.14.jar
 Camerapture-1.10.12+mc1.21.1-neoforge.jar
 citresewn-neoforge-1.21.1-0.jar
-clientcrafting-1.21-1.8.jar
+clientcrafting-1.21-1.9.jar
 cloth-config-15.0.140-neoforge.jar
 Clumps-neoforge-1.21.1-19.0.0.1.jar
 collective-1.21.1-8.13.jar
