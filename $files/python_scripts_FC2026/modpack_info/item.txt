@@ -3306,6 +3306,7 @@ brewery:whiskey_jojannik
 brewery:whiskey_lilitusinglemalt
 brewery:whiskey_maggoallan
 brewery:whiskey_smokey_reverie
+brewery:wild_hops
 brewery:wooden_brewingstation
 camerapture:album
 camerapture:camera
@@ -3396,7 +3397,7 @@ candlelight:granite_counter
 candlelight:granite_kitchen_sink
 candlelight:granite_stove
 candlelight:harvest_plate
-candlelight:hearth
+candlelight:heart
 candlelight:jewelry_box
 candlelight:jungle_big_table
 candlelight:jungle_cabinet

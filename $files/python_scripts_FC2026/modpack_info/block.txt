@@ -3276,7 +3276,7 @@ candlelight:glass
 candlelight:granite_counter
 candlelight:granite_kitchen_sink
 candlelight:granite_stove
-candlelight:hearth
+candlelight:heart
 candlelight:jewelry_box
 candlelight:jungle_big_table
 candlelight:jungle_cabinet
