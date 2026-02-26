@@ -90,6 +90,7 @@ gpumemleakfix-1.21-1.8.jar
 grind-enchantments-4.0.1+neoforge-1.21.1.jar
 handcrafted-neoforge-1.21.1-4.0.3.jar
 incontrol-1.21-10.2.6.jar
+InventoryProfilesNext-neoforge-1.21.1-2.2.3.jar
 iris-flywheel-compat-NeoForge-2.1.2.jar
 iris-neoforge-1.8.12+mc1.21.1.jar
 irons_jewelry-1.21.1-1.6.0.jar
