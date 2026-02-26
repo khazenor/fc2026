@@ -101,7 +101,7 @@ LibX-1.21.1-6.0.9.jar
 limitedchunks-1.21-4.1.jar
 logbegone-neoforge-1.21.1-1.0.3.jar
 lootr-neoforge-1.21.1-1.11.36.114.jar
-mcw-bridges-3.1.1-mc1.21.1neoforge.jar
+mcw-bridges-3.1.2-mc1.21.1neoforge.jar
 mcw-doors-1.1.5-mc1.21.1neoforge.jar
 mcw-lights-1.1.5-mc1.21.1neoforge.jar
 mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar
