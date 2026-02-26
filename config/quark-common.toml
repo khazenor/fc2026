@@ -530,7 +530,7 @@
 
 [management]
 	"Automatic Tool Restock" = false
-	"Easy Transferring" = true
+	"Easy Transferring" = false
 	"Expanded Item Interactions" = true
 	"Hotbar Changer" = true
 	"Inventory Sorting" = false
