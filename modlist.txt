@@ -19,7 +19,7 @@ BetterThanMending-2.2.0.jar
 BetterTitleScreen-neoforge-1.21-1.14.0.jar
 BetterTridents-v21.1.0-1.21.1-NeoForge.jar
 biomemusic-1.21-3.4.jar
-bookshelf-neoforge-1.21.1-21.1.80.jar
+bookshelf-neoforge-1.21.1-21.1.81.jar
 botanypots-neoforge-1.21.1-21.1.41.jar
 BuildingWands-neoforge-MC1.21-2.14.jar
 Camerapture-1.10.12+mc1.21.1-neoforge.jar
