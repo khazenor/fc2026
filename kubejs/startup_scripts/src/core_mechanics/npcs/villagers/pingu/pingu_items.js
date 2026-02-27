@@ -90,6 +90,7 @@ const PinguItems = {
     'quark:music_disc_ocean',
     'quark:music_disc_rain',
     'quark:music_disc_wind',
+    'eclipticseasons:snowless_hometown',
   ],
   musicPlayers: [
     "minecraft:jukebox",
