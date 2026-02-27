@@ -1,0 +1,15 @@
+#Removes seasonal limits for saplings and mushrooms.
+#Adds humidity rules, snow-covered grass variants, and fixes biome tags for natural seasonal behavior.
+[es_x_bwg]
+	#Enable compat package es_x_bwg
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false
+
+#Integrates Let's Do series with Ecliptic Seasons.
+#Adds seasonal and humidity rules for crops, animals, and landscapes, enhancing immersion.
+[es_x_letsdo]
+	#Enable compat package es_x_letsdo
+	Enable = true
+	#This package will be loaded first.
+	PriorityLoading = false

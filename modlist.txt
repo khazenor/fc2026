@@ -55,6 +55,8 @@ DungeonCrawl-NeoForge-1.21-2.3.15.jar
 dynview-1.21-4.0.jar
 EasyAnvils-v21.1.0-1.21.1-NeoForge.jar
 easy_npc-neoforge-1.21.1-5.9.0.jar
+EclipticSeasons-1.21.1-neoforge-0.12.11.5.1.jar
+EclipticSeasons-Bundles-0.13.1.jar
 effortlessbuilding-1.21.1-3.10-all.jar
 emotecraft-for-MC1.21.1-2.4.12-neoforge.jar
 enderchests-neoforge-1.21.1-1.0.jar
