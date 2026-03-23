@@ -1,0 +1,934 @@
+{
+  "adorabuild_structures": {
+    "modFilename": "adorabuild-structures-2.4.0-forge-1.20.2.jar.disabled",
+    "dependencies": []
+  },
+  "aiimprovements": {
+    "modFilename": "AI-Improvements-1.20-0.5.2.jar.disabled",
+    "dependencies": []
+  },
+  "alexsdelight": {
+    "modFilename": "alexsdelight-1.5.jar.disabled",
+    "dependencies": []
+  },
+  "alexsmobs": {
+    "modFilename": "alexsmobs-1.22.7.jar.disabled",
+    "dependencies": [
+      "citadel"
+    ]
+  },
+  "alternate_current": {
+    "modFilename": "alternate_current-mc1.20-1.7.0.jar.disabled",
+    "dependencies": []
+  },
+  "appleskin": {
+    "modFilename": "appleskin-forge-mc1.20.1-2.5.1.jar.disabled",
+    "dependencies": []
+  },
+  "aquaculture": {
+    "modFilename": "Aquaculture-1.20.1-2.5.1.jar.disabled",
+    "dependencies": []
+  },
+  "aquaculturedelight": {
+    "modFilename": "aquaculture_delight_1.0.0_forge_1.20.1.jar.disabled",
+    "dependencies": []
+  },
+  "architectury": {
+    "modFilename": "architectury-9.1.12-forge.jar",
+    "dependencies": []
+  },
+  "artifacts": {
+    "modFilename": "artifacts-forge-9.2.0.jar.disabled",
+    "dependencies": [
+      "curios",
+      "expandability",
+      "cloth_config",
+      "architectury"
+    ]
+  },
+  "athena": {
+    "modFilename": "athena-forge-1.20.1-3.1.1.jar.disabled",
+    "dependencies": []
+  },
+  "balm": {
+    "modFilename": "balm-forge-1.20.1-7.2.1.jar",
+    "dependencies": []
+  },
+  "beautify": {
+    "modFilename": "beautify-2.0.2.jar.disabled",
+    "dependencies": []
+  },
+  "betterfpsdist": {
+    "modFilename": "betterfpsdist-1.20.1-4.1.jar.disabled",
+    "dependencies": [
+      "cupboard"
+    ]
+  },
+  "betterthirdperson": {
+    "modFilename": "BetterThirdPerson-Forge-1.20-1.9.0.jar.disabled",
+    "dependencies": []
+  },
+  "bettertitlescreen": {
+    "modFilename": "BetterTitleScreen-1.20-1.13.2.jar.disabled",
+    "dependencies": []
+  },
+  "bettervillage": {
+    "modFilename": "bettervillage-forge-1.20.1-3.2.0.jar.disabled",
+    "dependencies": [
+      "libraryferret"
+    ]
+  },
+  "biggerstacks": {
+    "modFilename": "biggerstacks-1.20.1-1.0.0-all.jar.disabled",
+    "dependencies": []
+  },
+  "biomesoplenty": {
+    "modFilename": "BiomesOPlenty-1.20.1-18.0.0.592.jar.disabled",
+    "dependencies": [
+      "terrablender"
+    ]
+  },
+  "bookshelf": {
+    "modFilename": "Bookshelf-Forge-1.20.1-20.1.8.jar",
+    "dependencies": []
+  },
+  "wands": {
+    "modFilename": "BuildingWands-mc1.20.1-2.6.8-release-forge.jar.disabled",
+    "dependencies": [
+      "architectury",
+      "cloth_config"
+    ]
+  },
+  "camera": {
+    "modFilename": "camera-1.20.1-1.0.6.jar.disabled",
+    "dependencies": []
+  },
+  "canary": {
+    "modFilename": "canary-mc1.20.1-0.3.2.jar.disabled",
+    "dependencies": []
+  },
+  "chimes": {
+    "modFilename": "Chimes-v2.0.1-1.20.1.jar.disabled",
+    "dependencies": []
+  },
+  "chipped": {
+    "modFilename": "chipped-forge-1.20.1-3.0.1.jar.disabled",
+    "dependencies": [
+      "resourcefullib",
+      "athena"
+    ]
+  },
+  "chipped_express": {
+    "modFilename": "ChippedExpress-1.0.jar.disabled",
+    "dependencies": [
+      "chipped"
+    ]
+  },
+  "chiselsandbits": {
+    "modFilename": "chisels-and-bits-forge-1.4.145.jar.disabled",
+    "dependencies": [
+      "scena"
+    ]
+  },
+  "citadel": {
+    "modFilename": "citadel-2.4.9-1.20.1.jar.disabled",
+    "dependencies": []
+  },
+  "citresewn": {
+    "modFilename": "citresewn-1.20.1-5.jar.disabled",
+    "dependencies": []
+  },
+  "cleanswing": {
+    "modFilename": "cleanswing-1.20-1.4.jar.disabled",
+    "dependencies": []
+  },
+  "cloth_config": {
+    "modFilename": "cloth-config-11.1.118-forge.jar",
+    "dependencies": []
+  },
+  "clumps": {
+    "modFilename": "Clumps-forge-1.20.1-12.0.0.3.jar.disabled",
+    "dependencies": []
+  },
+  "collective": {
+    "modFilename": "collective-1.20.1-7.30.jar",
+    "dependencies": []
+  },
+  "comforts": {
+    "modFilename": "comforts-forge-6.3.4+1.20.1.jar.disabled",
+    "dependencies": []
+  },
+  "compressedblocks": {
+    "modFilename": "Compressed Blocks-forge-1.20.2-1.4.2.jar.disabled",
+    "dependencies": []
+  },
+  "controllable": {
+    "modFilename": "controllable-forge-1.20.1-0.20.3.jar.disabled",
+    "dependencies": [
+      "framework"
+    ]
+  },
+  "controlling": {
+    "modFilename": "Controlling-forge-1.20.1-12.0.2.jar.disabled",
+    "dependencies": [
+      "searchables"
+    ]
+  },
+  "cookingforblockheads": {
+    "modFilename": "cookingforblockheads-forge-1.20-16.0.1.jar.disabled",
+    "dependencies": [
+      "balm"
+    ]
+  },
+  "corail_woodcutter": {
+    "modFilename": "corail_woodcutter-1.20.1-3.0.4.jar.disabled",
+    "dependencies": []
+  },
+  "cosmeticarmorreworked": {
+    "modFilename": "cosmeticarmorreworked-1.20.1-v1a.jar.disabled",
+    "dependencies": []
+  },
+  "crafting_on_a_stick": {
+    "modFilename": "crafting-on-a-stick-1.20.1-1.1.4.jar.disabled",
+    "dependencies": []
+  },
+  "crafttweaker": {
+    "modFilename": "CraftTweaker-forge-1.20.1-14.0.30.jar.disabled",
+    "dependencies": []
+  },
+  "create": {
+    "modFilename": "create-1.20.1-0.5.1.f.jar.disabled",
+    "dependencies": [
+      "flywheel"
+    ]
+  },
+  "createaddition": {
+    "modFilename": "createaddition-1.20.1-1.2.1.jar.disabled",
+    "dependencies": [
+      "create",
+      "flywheel"
+    ]
+  },
+  "cristellib": {
+    "modFilename": "cristellib-1.1.5-forge.jar",
+    "dependencies": []
+  },
+  "cuisinedelight": {
+    "modFilename": "cuisinedelight-1.1.12.jar",
+    "dependencies": [
+      "l2library",
+      "farmersdelight"
+    ]
+  },
+  "cupboard": {
+    "modFilename": "cupboard-1.20.1-2.2.jar",
+    "dependencies": []
+  },
+  "curios": {
+    "modFilename": "curios-forge-5.4.7+1.20.1.jar",
+    "dependencies": []
+  },
+  "cyclepaintings": {
+    "modFilename": "cyclepaintings-1.20.1-3.5.jar.disabled",
+    "dependencies": [
+      "collective"
+    ]
+  },
+  "defaultoptions": {
+    "modFilename": "defaultoptions-forge-1.20-18.0.1.jar.disabled",
+    "dependencies": [
+      "balm"
+    ]
+  },
+  "delightful": {
+    "modFilename": "Delightful-1.20.1-3.4.2.jar",
+    "dependencies": [
+      "farmersdelight"
+    ]
+  },
+  "doapi": {
+    "modFilename": "doapi-1.2.8-forge.jar",
+    "dependencies": [
+      "terraform"
+    ]
+  },
+  "drawerstooltip": {
+    "modFilename": "DrawersTooltip-1.20.1-forge-8.0.0.jar.disabled",
+    "dependencies": [
+      "storagedrawers"
+    ]
+  },
+  "dynamiclightsreforged": {
+    "modFilename": "dynamiclightsreforged-1.20.1_v1.6.0.jar.disabled",
+    "dependencies": []
+  },
+  "dynamicvillagertrades": {
+    "modFilename": "dynamicvillagertrades-1.3.1-forge-1.20.jar.disabled",
+    "dependencies": []
+  },
+  "dynview": {
+    "modFilename": "dynview-1.20.1-3.9.jar.disabled",
+    "dependencies": []
+  },
+  "embeddium": {
+    "modFilename": "embeddium-0.2.10+mc1.20.1.jar.disabled",
+    "dependencies": []
+  },
+  "enderchests": {
+    "modFilename": "enderchests-forge-1.20.1-1.2.jar.disabled",
+    "dependencies": [
+      "shetiphiancore"
+    ]
+  },
+  "entityculling": {
+    "modFilename": "entityculling-forge-1.6.2-mc1.20.1.jar.disabled",
+    "dependencies": []
+  },
+  "entity_model_features": {
+    "modFilename": "entity_model_features_forge_1.20.1-1.2.3.jar.disabled",
+    "dependencies": [
+      "entity_texture_features"
+    ]
+  },
+  "entity_texture_features": {
+    "modFilename": "entity_texture_features_forge_1.20.1-5.2.1.jar.disabled",
+    "dependencies": []
+  },
+  "exoticbirds": {
+    "modFilename": "exoticbirds-1.20.1-1.0.0.jar.disabled",
+    "dependencies": []
+  },
+  "expandedstorage": {
+    "modFilename": "expandedstorage-10.0.0-beta.3+1.20-forge.jar.disabled",
+    "dependencies": []
+  },
+  "explorerscompass": {
+    "modFilename": "ExplorersCompass-1.20.1-1.3.3-forge.jar.disabled",
+    "dependencies": []
+  },
+  "extremesoundmuffler": {
+    "modFilename": "extremesoundmuffler-3.41-forge-1.20.1.jar.disabled",
+    "dependencies": []
+  },
+  "farmersdelight": {
+    "modFilename": "FarmersDelight-1.20.1-1.2.4.jar",
+    "dependencies": []
+  },
+  "farmingforblockheads": {
+    "modFilename": "farmingforblockheads-forge-1.20.1-14.0.2.jar.disabled",
+    "dependencies": [
+      "balm"
+    ]
+  },
+  "farsight_view": {
+    "modFilename": "farsight-1.20.1-3.6.jar.disabled",
+    "dependencies": [
+      "cupboard"
+    ]
+  },
+  "fastleafdecay": {
+    "modFilename": "FastLeafDecay-31.jar.disabled",
+    "dependencies": []
+  },
+  "fastload": {
+    "modFilename": "Fastload-Reforged-mc1.20.1-3.4.0.jar.disabled",
+    "dependencies": []
+  },
+  "fastsuite": {
+    "modFilename": "FastSuite-1.20.1-5.0.1.jar.disabled",
+    "dependencies": [
+      "placebo"
+    ]
+  },
+  "ferritecore": {
+    "modFilename": "ferritecore-6.0.1-forge.jar.disabled",
+    "dependencies": []
+  },
+  "forgivingvoid": {
+    "modFilename": "forgivingvoid-forge-1.20-10.0.0.jar.disabled",
+    "dependencies": [
+      "balm"
+    ]
+  },
+  "framedblocks": {
+    "modFilename": "FramedBlocks-9.1.6.jar.disabled",
+    "dependencies": []
+  },
+  "framedcompactdrawers": {
+    "modFilename": "framedcompactdrawers-1.20-6.0.0.jar.disabled",
+    "dependencies": [
+      "storagedrawers"
+    ]
+  },
+  "framework": {
+    "modFilename": "framework-forge-1.20.1-0.6.16.jar.disabled",
+    "dependencies": []
+  },
+  "ftbessentials": {
+    "modFilename": "ftb-essentials-forge-2001.2.2.jar.disabled",
+    "dependencies": [
+      "ftblibrary"
+    ]
+  },
+  "ftblibrary": {
+    "modFilename": "ftb-library-forge-2001.1.4.jar.disabled",
+    "dependencies": [
+      "architectury"
+    ]
+  },
+  "ftbquests": {
+    "modFilename": "ftb-quests-forge-2001.3.1.jar.disabled",
+    "dependencies": [
+      "architectury",
+      "ftblibrary",
+      "ftbteams"
+    ]
+  },
+  "ftbteams": {
+    "modFilename": "ftb-teams-forge-2001.1.4.jar.disabled",
+    "dependencies": [
+      "architectury",
+      "ftblibrary"
+    ]
+  },
+  "ftbxmodcompat": {
+    "modFilename": "ftb-xmod-compat-forge-2.1.0.jar.disabled",
+    "dependencies": [
+      "architectury",
+      "ftblibrary"
+    ]
+  },
+  "gamestages": {
+    "modFilename": "GameStages-Forge-1.20.1-15.0.1.jar",
+    "dependencies": [
+      "bookshelf"
+    ]
+  },
+  "gemsnjewels": {
+    "modFilename": "gemsnjewels-1.20.1-1.1.3.jar.disabled",
+    "dependencies": []
+  },
+  "getittogetherdrops": {
+    "modFilename": "getittogetherdrops-forge-1.20-1.3.jar.disabled",
+    "dependencies": []
+  },
+  "globalpacks": {
+    "modFilename": "global_packs-forge-1.19.4-1.16.2_forge.jar.disabled",
+    "dependencies": []
+  },
+  "gpumemleakfix": {
+    "modFilename": "gpumemleakfix-1.20.1-1.8.jar.disabled",
+    "dependencies": []
+  },
+  "gravestone": {
+    "modFilename": "gravestone-1.20.1-1.0.10.jar.disabled",
+    "dependencies": []
+  },
+  "handcrafted": {
+    "modFilename": "handcrafted-forge-1.20.1-3.0.5.jar.disabled",
+    "dependencies": [
+      "resourcefullib"
+    ]
+  },
+  "handoveryouritems": {
+    "modFilename": "handoveryouritems-1.20.1-3.2.jar.disabled",
+    "dependencies": [
+      "collective"
+    ]
+  },
+  "immersive_aircraft": {
+    "modFilename": "immersive_aircraft-0.6.2+1.20.1-forge.jar.disabled",
+    "dependencies": []
+  },
+  "incontrol": {
+    "modFilename": "incontrol-1.20-9.1.3.jar.disabled",
+    "dependencies": []
+  },
+  "inventoryprofilesnext": {
+    "modFilename": "InventoryProfilesNext-forge-1.20-1.10.9.jar.disabled",
+    "dependencies": [
+      "libipn"
+    ]
+  },
+  "itemfilters": {
+    "modFilename": "item-filters-forge-2001.1.0-build.59.jar.disabled",
+    "dependencies": [
+      "architectury"
+    ]
+  },
+  "jade": {
+    "modFilename": "Jade-1.20.1-forge-11.7.1.jar.disabled",
+    "dependencies": []
+  },
+  "jadeaddons": {
+    "modFilename": "JadeAddons-1.20.1-forge-5.2.2.jar.disabled",
+    "dependencies": [
+      "jade"
+    ]
+  },
+  "jei": {
+    "modFilename": "jei-1.20.1-forge-15.2.0.27.jar",
+    "dependencies": []
+  },
+  "justenoughprofessions": {
+    "modFilename": "JustEnoughProfessions-forge-1.20.1-3.0.1.jar",
+    "dependencies": [
+      "jei"
+    ]
+  },
+  "kambrik": {
+    "modFilename": "Kambrik-6.1.1+1.20.1-forge.jar",
+    "dependencies": []
+  },
+  "konkrete": {
+    "modFilename": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+    "dependencies": []
+  },
+  "krypton": {
+    "modFilename": "KryptonReforged-0.2.3.jar",
+    "dependencies": []
+  },
+  "ksyxis": {
+    "modFilename": "Ksyxis-Forge1.17-1.1.jar",
+    "dependencies": []
+  },
+  "kubejs": {
+    "modFilename": "kubejs-forge-2001.6.4-build.127.jar",
+    "dependencies": [
+      "rhino",
+      "architectury"
+    ]
+  },
+  "letmedespawn": {
+    "modFilename": "letmedespawn-forge-1.20.x-1.2.0.jar",
+    "dependencies": []
+  },
+  "bakery": {
+    "modFilename": "letsdo-bakery-forge-1.1.3b.jar",
+    "dependencies": [
+      "doapi",
+      "architectury"
+    ]
+  },
+  "beachparty": {
+    "modFilename": "letsdo-beachparty-forge-1.1.2b.jar",
+    "dependencies": [
+      "architectury",
+      "doapi"
+    ]
+  },
+  "candlelight": {
+    "modFilename": "letsdo-candlelight-forge-1.2.8.jar",
+    "dependencies": [
+      "architectury",
+      "doapi"
+    ]
+  },
+  "meadow": {
+    "modFilename": "letsdo-meadow-forge-1.3.4.jar",
+    "dependencies": [
+      "architectury",
+      "terrablender",
+      "doapi"
+    ]
+  },
+  "nethervinery": {
+    "modFilename": "letsdo-nethervinery-forge-1.2.2.jar",
+    "dependencies": [
+      "architectury",
+      "vinery",
+      "doapi"
+    ]
+  },
+  "vinery": {
+    "modFilename": "letsdo-vinery-1.4.7-forge.jar",
+    "dependencies": [
+      "doapi",
+      "architectury"
+    ]
+  },
+  "libipn": {
+    "modFilename": "libIPN-forge-1.20-4.0.1.jar.disabled",
+    "dependencies": []
+  },
+  "libraryferret": {
+    "modFilename": "libraryferret-forge-1.20.1-4.0.0.jar.disabled",
+    "dependencies": []
+  },
+  "libx": {
+    "modFilename": "LibX-1.20.1-5.0.7.jar",
+    "dependencies": []
+  },
+  "lightoverlay": {
+    "modFilename": "light-overlay-8.0.0-forge.jar",
+    "dependencies": [
+      "cloth_config",
+      "architectury"
+    ]
+  },
+  "logbegone": {
+    "modFilename": "Log-Begone-Forge-1.20.1-1.0.8.jar",
+    "dependencies": []
+  },
+  "lootbags": {
+    "modFilename": "lootbags-2.0.0-forge.jar",
+    "dependencies": []
+  },
+  "lootr": {
+    "modFilename": "lootr-1.20-0.7.30.73.jar",
+    "dependencies": []
+  },
+  "moa_decor_art": {
+    "modFilename": "MOAdecor ART 1.20.1.jar",
+    "dependencies": []
+  },
+  "moa_decor_bath": {
+    "modFilename": "MOAdecor BATH 1.20.1.jar",
+    "dependencies": []
+  },
+  "moa_decor_cookery": {
+    "modFilename": "MOAdecor COOKERY 1.20.2.jar",
+    "dependencies": []
+  },
+  "moa_decor_garden_": {
+    "modFilename": "MOAdecor GARDEN 1.20.1.jar",
+    "dependencies": []
+  },
+  "moa_decor_holidays": {
+    "modFilename": "MOAdecor HOLIDAYS 1.20.1.jar",
+    "dependencies": []
+  },
+  "moa_decor_lights": {
+    "modFilename": "MOAdecor LIGHTS 1.20.1.jar",
+    "dependencies": []
+  },
+  "moa_decor_science": {
+    "modFilename": "MOAdecor SCIENCE 1.20.1.jar",
+    "dependencies": []
+  },
+  "moa_decor_toys": {
+    "modFilename": "MOAdecor TOYS 1.20.1.jar",
+    "dependencies": []
+  },
+  "mobcapturingtool": {
+    "modFilename": "MobCapturingTool-forge-1.20.1-3.0.2.jar",
+    "dependencies": []
+  },
+  "modernfix": {
+    "modFilename": "modernfix-forge-5.12.1+mc1.20.1.jar",
+    "dependencies": []
+  },
+  "moonlight": {
+    "modFilename": "moonlight-1.20-2.8.84-forge.jar",
+    "dependencies": []
+  },
+  "morejs": {
+    "modFilename": "morejs-forge-1.20.1-0.5.0.jar",
+    "dependencies": [
+      "kubejs"
+    ]
+  },
+  "mousetweaks": {
+    "modFilename": "MouseTweaks-forge-mc1.20-2.25.jar",
+    "dependencies": []
+  },
+  "naturescompass": {
+    "modFilename": "NaturesCompass-1.20.1-1.11.2-forge.jar",
+    "dependencies": []
+  },
+  "neighborly": {
+    "modFilename": "Neighborly v1.1 for 1.20.1.jar",
+    "dependencies": []
+  },
+  "non_wandering_trader": {
+    "modFilename": "non_wandering_trader_profession_1.0.1_forge_1.20.1.jar",
+    "dependencies": []
+  },
+  "nutritionalbalance": {
+    "modFilename": "nutritionalbalance-1.20-5.1.3.jar",
+    "dependencies": []
+  },
+  "oculus": {
+    "modFilename": "oculus-mc1.20.1-1.6.9.jar",
+    "dependencies": []
+  },
+  "oculusparticlefix": {
+    "modFilename": "oculusparticlefix-1.0.jar",
+    "dependencies": [
+      "oculus"
+    ]
+  },
+  "openpartiesandclaims": {
+    "modFilename": "open-parties-and-claims-forge-1.20.1-0.20.4.jar",
+    "dependencies": []
+  },
+  "packingtape": {
+    "modFilename": "PackingTape-1.20.1-0.14.2.jar",
+    "dependencies": []
+  },
+  "pamhc2crops": {
+    "modFilename": "pamhc2crops-1.20-1.0.3.jar",
+    "dependencies": []
+  },
+  "pamhc2foodcore": {
+    "modFilename": "pamhc2foodcore-1.20-1.0.3.jar",
+    "dependencies": []
+  },
+  "pamhc2foodextended": {
+    "modFilename": "pamhc2foodextended-1.20-1.0.0.jar",
+    "dependencies": []
+  },
+  "pamhc2trees": {
+    "modFilename": "pamhc2trees-1.20-1.0.2.jar",
+    "dependencies": []
+  },
+  "panoramica": {
+    "modFilename": "panoramica_forge_1.2.1_MC_1.19-1.19.2.jar",
+    "dependencies": [
+      "konkrete"
+    ]
+  },
+  "paraglider": {
+    "modFilename": "Paraglider-forge-20.1.3.jar",
+    "dependencies": []
+  },
+  "placebo": {
+    "modFilename": "Placebo-1.20.1-8.6.0.jar.disabled",
+    "dependencies": []
+  },
+  "playdate": {
+    "modFilename": "playdate-2.0.0-forge.jar",
+    "dependencies": []
+  },
+  "polymorph": {
+    "modFilename": "polymorph-forge-0.49.2+1.20.1.jar",
+    "dependencies": []
+  },
+  "questsadditions": {
+    "modFilename": "questsadditions-1.4.3a.jar.disabled",
+    "dependencies": []
+  },
+  "radiantgear": {
+    "modFilename": "radiantgear-forge-2.1.2+1.20.1.jar",
+    "dependencies": [
+      "curios"
+    ]
+  },
+  "recipestages": {
+    "modFilename": "RecipeStages-8.0.0.1.jar",
+    "dependencies": [
+      "gamestages"
+    ]
+  },
+  "refinedstorage": {
+    "modFilename": "refinedstorage-1.12.4.jar",
+    "dependencies": []
+  },
+  "refinedstorageaddons": {
+    "modFilename": "refinedstorageaddons-0.10.0.jar",
+    "dependencies": [
+      "refinedstorage"
+    ]
+  },
+  "repurposed_structures": {
+    "modFilename": "repurposed_structures-7.1.11+1.20.1-forge.jar",
+    "dependencies": []
+  },
+  "resourcefullib": {
+    "modFilename": "resourcefullib-forge-1.20.1-2.1.20.jar.disabled",
+    "dependencies": []
+  },
+  "rhino": {
+    "modFilename": "rhino-forge-2001.2.2-build.18.jar",
+    "dependencies": []
+  },
+  "rightclickharvest": {
+    "modFilename": "right-click-harvest-3.2.3+1.20.1-forge.jar",
+    "dependencies": []
+  },
+  "seamless_loading_screen": {
+    "modFilename": "seamless-loading-screen-2.0.3+1.20.1-forge.jar",
+    "dependencies": []
+  },
+  "searchables": {
+    "modFilename": "Searchables-forge-1.20.1-1.0.2.jar.disabled",
+    "dependencies": []
+  },
+  "shetiphiancore": {
+    "modFilename": "shetiphiancore-forge-1.20.1-1.2.jar.disabled",
+    "dependencies": []
+  },
+  "simplehats": {
+    "modFilename": "simplehats-forge-1.20.1-0.2.2.jar",
+    "dependencies": [
+      "curios"
+    ]
+  },
+  "simplemagnets": {
+    "modFilename": "simplemagnets-1.1.10-forge-mc1.20.jar",
+    "dependencies": [
+      "supermartijn642corelib",
+      "supermartijn642configlib"
+    ]
+  },
+  "skyvillages": {
+    "modFilename": "SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar",
+    "dependencies": []
+  },
+  "smoothchunk": {
+    "modFilename": "smoothchunk-1.20.1-3.5.jar",
+    "dependencies": [
+      "cupboard"
+    ]
+  },
+  "solcarrot": {
+    "modFilename": "solcarrot-1.20.1-1.15.1.jar",
+    "dependencies": []
+  },
+  "sophisticatedbackpacks": {
+    "modFilename": "sophisticatedbackpacks-1.20.1-3.19.5.988.jar",
+    "dependencies": [
+      "sophisticatedcore"
+    ]
+  },
+  "sophisticatedcore": {
+    "modFilename": "sophisticatedcore-1.20.1-0.5.113.524.jar",
+    "dependencies": []
+  },
+  "sophisticatedstorage": {
+    "modFilename": "sophisticatedstorage-1.20.1-0.8.65.680.jar",
+    "dependencies": [
+      "sophisticatedcore"
+    ]
+  },
+  "ssls_npc_maker_mod": {
+    "modFilename": "SSL_npc_maker-1.2.0_1.20.1.jar",
+    "dependencies": []
+  },
+  "storagedrawers": {
+    "modFilename": "storagedrawers-1.20.1-12.0.2.jar.disabled",
+    "dependencies": []
+  },
+  "structory": {
+    "modFilename": "Structory_1.20.2_v1.3.4.jar",
+    "dependencies": []
+  },
+  "structorytowers": {
+    "modFilename": "Structory_Towers_1.20.4_v1.0.6.jar",
+    "dependencies": []
+  },
+  "supermartijn642configlib": {
+    "modFilename": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+    "dependencies": []
+  },
+  "supermartijn642corelib": {
+    "modFilename": "supermartijn642corelib-1.1.16-forge-mc1.20.1.jar",
+    "dependencies": []
+  },
+  "supplementaries": {
+    "modFilename": "supplementaries-1.20-2.7.27.jar",
+    "dependencies": [
+      "moonlight"
+    ]
+  },
+  "tagtooltips": {
+    "modFilename": "tagtooltips-1.20.1-1.0.jar",
+    "dependencies": []
+  },
+  "taxov": {
+    "modFilename": "TaxOceanVillager+M.1.20.1+ForM.1.0.2.jar",
+    "dependencies": []
+  },
+  "terrablender": {
+    "modFilename": "TerraBlender-forge-1.20.1-3.0.1.2.jar",
+    "dependencies": []
+  },
+  "mr_tidal_towns": {
+    "modFilename": "tidal-towns-1.2.jar",
+    "dependencies": []
+  },
+  "toms_storage": {
+    "modFilename": "toms_storage-1.20-1.6.5.jar",
+    "dependencies": []
+  },
+  "toolbelt": {
+    "modFilename": "ToolBelt-1.20-1.20.0.jar",
+    "dependencies": []
+  },
+  "t_and_t": {
+    "modFilename": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+    "dependencies": [
+      "cristellib"
+    ]
+  },
+  "treechop": {
+    "modFilename": "TreeChop-1.20.1-forge-0.18.8.jar",
+    "dependencies": []
+  },
+  "underground_villages": {
+    "modFilename": "UndergroundVillages-forge-1.20.1-2.1.0.jar",
+    "dependencies": []
+  },
+  "utilitix": {
+    "modFilename": "UtilitiX-1.20.1-0.8.9.jar",
+    "dependencies": [
+      "libx"
+    ]
+  },
+  "villagernames": {
+    "modFilename": "villagernames-1.20.1-7.3.jar",
+    "dependencies": [
+      "collective"
+    ]
+  },
+  "villagersplus": {
+    "modFilename": "VillagersPlus_3.1_(FORGE)_for_1.20.1.jar",
+    "dependencies": []
+  },
+  "waystones": {
+    "modFilename": "waystones-forge-1.20-14.1.3.jar",
+    "dependencies": [
+      "balm"
+    ]
+  },
+  "xaeroplus": {
+    "modFilename": "XaeroPlus-Forge-1.20.1-62-WM1.37.2-MM23.9.3.jar",
+    "dependencies": [
+      "xaeroworldmap"
+    ]
+  },
+  "forge": {
+    "modFilename": "Xaeros_Minimap_23.9.3_Forge_1.20.jar",
+    "dependencies": [
+      "openpartiesandclaims"
+    ]
+  },
+  "yungsapi": {
+    "modFilename": "YungsApi-1.20-Forge-4.0.2.jar",
+    "dependencies": []
+  },
+  "betterdeserttemples": {
+    "modFilename": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+    "dependencies": [
+      "yungsapi"
+    ]
+  },
+  "betterjungletemples": {
+    "modFilename": "YungsBetterJungleTemples-1.20-Forge-2.0.4.jar",
+    "dependencies": [
+      "yungsapi"
+    ]
+  },
+  "yungsbridges": {
+    "modFilename": "YungsBridges-1.20-Forge-4.0.3.jar",
+    "dependencies": [
+      "yungsapi"
+    ]
+  },
+  "yungsextras": {
+    "modFilename": "YungsExtras-1.20-Forge-4.0.3.jar",
+    "dependencies": [
+      "yungsapi"
+    ]
+  }
+}
