@@ -86,7 +86,6 @@ jamlib-neoforge-1.3.5+1.21.1.jar
 jei-1.21.1-neoforge-19.27.0.340.jar
 kotlinforforge-5.10.0-all.jar
 kubejs-neoforge-2101.7.2-build.348.jar
-leaky-1.21-2.4.jar
 letmedespawn-1.21.x-neoforge-1.5.0.jar
 letsdo-bakery-neoforge-2.1.6.jar
 letsdo-beachparty-neoforge-2.1.4.jar
