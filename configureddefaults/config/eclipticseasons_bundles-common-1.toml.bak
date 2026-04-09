@@ -13,17 +13,3 @@
 	Enable = true
 	#This package will be loaded first.
 	PriorityLoading = false
-
-#Snow-covered models for vertical slabs.
-[es_x_quark]
-	#Enable compat package es_x_quark
-	Enable = true
-	#This package will be loaded first.
-	PriorityLoading = false
-
-#Add seasonal changes or texture effects to some blocks.
-[es_x_bwg_extra]
-	#Enable compat package es_x_bwg_extra
-	Enable = true
-	#This package will be loaded first.
-	PriorityLoading = false
