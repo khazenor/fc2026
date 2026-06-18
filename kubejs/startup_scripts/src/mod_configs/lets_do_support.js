@@ -9,7 +9,8 @@ RequestHandler.recipes.add.shaped([
 ])
 
 RequestHandler.recipes.remove.byItemId([
-  'vinery:grapevine_stem'
+  'vinery:grapevine_stem',
+  'farm_and_charm:farmers_bread'
 ])
 
 RequestHandler.recipes.remove.byRecipeId([
@@ -24,6 +25,14 @@ RequestHandler.tooltips.add([
 
 RequestHandler.tags.item.add([
   ['farm_and_charm:strawberries', 'farm_and_charm:strawberry']
+])
+
+RequestHandler.recipes.add.custom([
+  LetsDoMods.stoveRecipe('4x farm_and_charm:farmers_bread', [
+    '#bakery:dough',
+    '#bakery:water_bottles',
+    '#farm_and_charm:flour'
+  ])
 ])
 
 // support fish tank

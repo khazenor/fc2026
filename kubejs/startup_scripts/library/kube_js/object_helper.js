@@ -30,5 +30,31 @@ const ObjectHelper = {
     } else {
       return StrHelper.minecraftObjToNumber(obj)
     }
+  },
+  strItemDefToObjDef (strDef) {
+    if (strDef.includes('#')) {
+      return {
+        tag: strDef.replace('#', '')
+      }
+    } else if (strDef.includes('x ')) {
+      let countAndId = strDef.split('x ')
+      let count = countAndId[0]
+      let id = countAndId[1]
+      return {
+        id: id,
+        count: count
+      }
+    } else {
+      return {
+        item: strDef
+      }
+    }
+  },
+  stringDefsToIngredientObjs (strDefs) {
+    let ingObjs = []
+    for (let strDef of strDefs) {
+      ingObjs.push(this.strItemDefToObjDef(strDef))
+    }
+    return ingObjs
   }
 }
