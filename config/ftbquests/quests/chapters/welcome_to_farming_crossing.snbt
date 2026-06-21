@@ -2536,11 +2536,8 @@
 			tasks: [{
 				consume_items: true
 				count: 32L
-				icon: {
-					id: "kubejs:miles_booklet"
-				}
-				id: "6D8EAA481DC191C9"
-				item: { count: 1, id: "flightblocks:flight_block" }
+				id: "1BE85025AB16FBE8"
+				item: { count: 1, id: "kubejs:miles_booklet" }
 				type: "item"
 			}]
 			x: 4.0d
